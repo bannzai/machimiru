@@ -24,6 +24,8 @@
 
 配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。
 
+`content/legal/privacy.md` と `content/legal/terms.md` は MVP の設計を前提に書いてあり、実装より先行している。配信を有効にする変更では、両文書の送信先・送信する情報・保存の有無が実装と一致することを確認し、食い違いを直してから公開する。
+
 ## データの出典
 
 外部データを足す時はこの表に行を足す (`.claude/rules/external-data-attribution.md`)。
