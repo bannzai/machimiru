@@ -20,7 +20,9 @@ type BoundaryDataset = {
   mapshaperCommands: string[];
 };
 
+/** 取得した zip と展開したファイル、mapshaper の出力を置く作業用のディレクトリ (git の管理外)。 */
 const workDirectory = "tmp/boundaries";
+/** 配信する境界データを書き出すディレクトリ。 */
 const outputDirectory = "public/data/boundaries";
 
 // 簡略化の結果は mapshaper の版で変わるため、版を固定して再生成で差分が出ないようにする
@@ -33,6 +35,7 @@ const simplifyIntervalMeters = 15;
 // 経度・緯度の小数 5 桁 (約 1 m)。簡略化の間隔より十分細かく、それ以上の桁はファイルを大きくするだけのため
 const coordinatePrecision = 0.00001;
 
+/** 生成する境界データ (区市町村・町丁)。 */
 const datasets: BoundaryDataset[] = [
   {
     outputFileName: "tokyo-municipalities.geojson",
