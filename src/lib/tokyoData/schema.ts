@@ -140,6 +140,9 @@ export const programCategoryNames = {
 /** 子育て支援制度レジストリのカテゴリーコード。 */
 export type ProgramCategoryCode = keyof typeof programCategoryNames;
 
+/** 制度のページの URL。`javascript:` 等のリンクを画面に出さないため、スキームを http(s) に限る。 */
+export const programUrlSchema = z.url({ protocol: /^https?$/ });
+
 /** 子育て支援制度レジストリの制度 1 件。 */
 export const programSchema = z.object({
   /** UM 普及協会が定める publicserviceID。 */
@@ -154,8 +157,8 @@ export const programSchema = z.object({
   targetPersons: z.string().min(1).nullable(),
   /** 分野 (カテゴリーコード)。 */
   categories: z.array(z.enum(Object.keys(programCategoryNames) as [ProgramCategoryCode, ...ProgramCategoryCode[]])),
-  /** 自治体の制度のページの URL (レジストリの値のまま。URL として解釈できない値もある)。 */
-  url: z.string().min(1).nullable(),
+  /** 自治体の制度のページの URL。画面にリンクとして出すため http(s) に限る。 */
+  url: programUrlSchema.nullable(),
 });
 
 /** `public/data/tokyo/programs/<全国地方公共団体コード>.json` の形式。 */

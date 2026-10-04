@@ -87,6 +87,7 @@ async function main(): Promise<void> {
     JSON.parse(strFromU8(await download(tokyoDataSources.kosodateRegistry.fileUrls[0]))),
   );
   for (const unknown of registry.unknownCategories) console.warn(`一覧に無いカテゴリーコードを捨てた: ${unknown}`);
+  for (const unusable of registry.unusableUrls) console.warn(`http(s) の URL として読めないため捨てた: ${unusable}`);
 
   const municipalities: MunicipalityKey[] = [
     ...new Map(

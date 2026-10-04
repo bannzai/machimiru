@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   compareCodeUnits,
   csvRecords,
+  firstProgramUrl,
   indexByMunicipalityName,
   medicalFacilityFeatures,
   normalizeCategoryCodes,
@@ -84,7 +85,25 @@ describe("parseRegistry", () => {
         },
       ],
       unknownCategories: ["psid3.0+3000020131016+1+UM1: 087"],
+      unusableUrls: [],
     });
+  });
+
+  it("改行で並べた URL は先頭を使い、URL の途中の改行は除く", () => {
+    expect(firstProgramUrl("https://a.example.jp/a.html\nhttps://b.example.jp/b.pdf")).toBe("https://a.example.jp/a.html");
+    expect(firstProgramUrl("https://a.example.jp/kosodateky\nouiku/a.html")).toBe("https://a.example.jp/kosodatekyouiku/a.html");
+  });
+
+  it("http(s) の URL として読めない制度のページの値は null にして報告する", () => {
+    const { programs, unusableUrls } = parseRegistry([
+      { ...row, localGovernmentLink: { uri: "javascript:alert(1)" } },
+      { ...row, localGovernmentLink: { uri: "ちらしを参照" } },
+    ]);
+    expect(programs.map(({ program }) => program.url)).toEqual([null, null]);
+    expect(unusableUrls).toEqual([
+      "psid3.0+3000020131016+1+UM1: javascript:alert(1)",
+      "psid3.0+3000020131016+1+UM1: ちらしを参照",
+    ]);
   });
 });
 

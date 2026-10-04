@@ -7,6 +7,7 @@ import {
   medicalSubsidySchema,
   programCategoryNames,
   programSchema,
+  programUrlSchema,
 } from "../../../src/lib/tokyoData/schema";
 
 /** 生成スクリプトの中で区市町村を照合するための、全国地方公共団体コードと名称の対。 */
@@ -62,15 +63,24 @@ export type RegistryProgram = { municipality: MunicipalityKey; program: z.infer<
 
 /**
  * 子育て支援制度レジストリ JSON (配列) を制度の一覧にする。
- * 一覧に無いカテゴリーコード (元データの誤り) は捨てて `unknownCategories` に返す。
+ * 一覧に無いカテゴリーコード (元データの誤り) は捨てて `unknownCategories` に、http(s) の URL として読めない制度のページの値は
+ * null にして `unusableUrls` に返す。
  */
-export function parseRegistry(json: unknown): { programs: RegistryProgram[]; unknownCategories: string[] } {
+export function parseRegistry(json: unknown): {
+  programs: RegistryProgram[];
+  unknownCategories: string[];
+  unusableUrls: string[];
+} {
   const unknownCategories: string[] = [];
+  const unusableUrls: string[] = [];
   const programs = z
     .array(registryRowSchema)
     .parse(json)
     .map((row) => {
       const [code, name] = row.area.areaCode.split(";");
+      const url = blankToNull(row.localGovernmentLink.uri);
+      const usableUrl = url === null ? null : firstProgramUrl(url);
+      if (url !== null && usableUrl === null) unusableUrls.push(`${row.basicInformation.psid}: ${url}`);
       return {
         municipality: { code: code.trim(), name: name.trim() },
         program: {
@@ -84,11 +94,21 @@ export function parseRegistry(json: unknown): { programs: RegistryProgram[]; unk
             unknownCategories.push(`${row.basicInformation.psid}: ${category}`);
             return false;
           }),
-          url: blankToNull(row.localGovernmentLink.uri),
+          url: usableUrl,
         },
       };
     });
-  return { programs, unknownCategories };
+  return { programs, unknownCategories, unusableUrls };
+}
+
+/**
+ * レジストリの制度のページの値から、画面にリンクとして出せる http(s) の URL を 1 つ取り出す。読めなければ null を返す。
+ * 元データには、改行で 2 つの URL を並べた値 (八王子市) と、URL の途中に改行が入った値 (台東区) があるため、
+ * 次の URL の前の空白で分けて先頭だけを使い、残った空白を除く。
+ */
+export function firstProgramUrl(value: string): string | null {
+  const parsed = programUrlSchema.safeParse(value.split(/\s+(?=https?:\/\/)/)[0].replace(/\s+/g, ""));
+  return parsed.success ? parsed.data : null;
 }
 
 /**
