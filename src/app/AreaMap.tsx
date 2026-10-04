@@ -122,6 +122,8 @@ export function AreaMap() {
               return;
             }
             const code = String(feature.properties.code);
+            // 選択の塗りの描き直し (setFilter の後にタイルを作り直す) は非同期のため、描き終えて idle になるまでを e2e が待てるようにする
+            container.dataset.mapState = "moving";
             setAreaSelection((current) =>
               isTownClick
                 ? { ...current, townCodes: toggleAreaCode(current.townCodes, code) }
