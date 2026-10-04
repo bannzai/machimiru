@@ -97,6 +97,9 @@ async function main(): Promise<void> {
         .map((municipality) => [municipality.code, municipality]),
     ).values(),
   ].sort((a, b) => compareCodeUnits(a.code, b.code));
+  console.warn(
+    `区市町村ではなく都道府県 (東京都) が実施する制度は区市町村のファイルに入れない: ${registry.programs.filter(({ municipality }) => municipality.code.slice(2, 5) === "000").length} 件`,
+  );
   if (municipalities.length !== tokyoMunicipalityCount) {
     throw new Error(`区市町村の数が ${tokyoMunicipalityCount} ではない: ${municipalities.length}`);
   }
