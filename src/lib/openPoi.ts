@@ -15,6 +15,11 @@ export const openPoiAttributionUrl = "https://openpoiapi.com/attribution.html";
 /** 1 回の検索で取る件数。 */
 export const openPoiSearchLimit = 200;
 
+// 東京都のほぼ全域の bbox で 200 件を取っても応答は 0.6 秒 (2026-10-05 の実測)。SLA の無い API が応答しないまま
+// 「検索しています」で止まらないよう、実測より十分長い時間で失敗として扱う
+/** 1 回の検索で応答を待つ時間 (ミリ秒)。 */
+export const openPoiSearchTimeoutMs = 10_000;
+
 /**
  * OpenPOI API の施設 1 件 (openapi.json の `Facility`)。画面で使う項目だけを検査し、ほかの項目もそのまま残す。
  * 1 件は 1 件の営業許可・届出、または Overture Maps の場所 1 件を表す。
@@ -70,13 +75,21 @@ export function openPoiSearchUrl(keyword: string, boundingBox: BoundingBox): str
 /**
  * OpenPOI API で keyword を boundingBox の範囲で検索する。座標の無い施設は地図に出せないため除く。
  * 件数が上限に達した (範囲の中にまだ施設がある見込みがある) かを `isTruncated` で返す。
- * HTTP のエラーと形式の合わない応答は例外にする。
+ * 通信の失敗・`openPoiSearchTimeoutMs` を過ぎても応答が無い時・HTTP のエラー・形式の合わない応答は、画面に出せる短い文言の例外にする。
  */
 export async function searchOpenPoi(
   keyword: string,
   boundingBox: BoundingBox,
 ): Promise<{ facilities: LocatedOpenPoiFacility[]; isTruncated: boolean }> {
-  const response = await fetch(openPoiSearchUrl(keyword, boundingBox));
+  const response = await fetch(openPoiSearchUrl(keyword, boundingBox), {
+    signal: AbortSignal.timeout(openPoiSearchTimeoutMs),
+  }).catch((error: unknown) => {
+    throw new Error(
+      error instanceof DOMException && error.name === "TimeoutError"
+        ? `${openPoiSearchTimeoutMs / 1000} 秒待っても応答がありませんでした`
+        : "通信に失敗しました",
+    );
+  });
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
