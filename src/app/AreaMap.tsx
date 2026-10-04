@@ -1,7 +1,8 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { FilterSpecification, Map as MapLibreMap } from "maplibre-gl";
+import type { ExpressionSpecification, FilterSpecification, Map as MapLibreMap } from "maplibre-gl";
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   type AreaSelection,
@@ -15,9 +16,18 @@ import {
   type BoundaryFeatureCollection,
   type MunicipalityProperties,
   type TownProperties,
+  municipalityBoundaryCode,
   municipalityBoundaryUrl,
   townBoundaryUrl,
 } from "@/lib/boundaries";
+import {
+  type ChildcareScore,
+  childcareScoreColor,
+  computeChildcareScores,
+  missingChildcareScoreColor,
+} from "@/lib/childcareScore";
+import type { MunicipalitiesFile } from "@/lib/tokyoData/schema";
+import { ChildcareScorePanel, municipalityPagePath, ScoreSwatch } from "./ChildcareScorePanel";
 
 // maplibre-gl は Web Worker のファイルを自分のモジュールの URL から相対で探すが、Next.js のバンドル後はその場所に無いため、
 // npm の prebuild・predev で public/vendor/maplibre-gl/ に写したファイルを指す (package.json の scripts)
@@ -37,9 +47,9 @@ const tokyoMainlandBounds: [[number, number], [number, number]] = [
 const municipalitySourceId = "municipalities";
 /** 町丁の境界の MapLibre のソース ID。 */
 const townSourceId = "towns";
-/** 区市町村を選ぶズームで、タップの位置から区市町村を引くための塗りのレイヤー ID。 */
+/** 区市町村を選ぶズームで、子育てのしやすさの総合の評価で色分けし、タップの位置から区市町村を引くための塗りのレイヤー ID。 */
 const municipalityFillLayerId = "municipalities-fill";
-/** 選択中の区市町村の塗りのレイヤー ID。 */
+/** 選択中の区市町村の太い境界線のレイヤー ID。 */
 const selectedMunicipalityLayerId = "municipalities-selected";
 /** 区市町村の境界線のレイヤー ID。 */
 const municipalityLineLayerId = "municipalities-line";
@@ -50,8 +60,11 @@ const selectedTownLayerId = "towns-selected";
 /** 町丁の境界線のレイヤー ID。 */
 const townLineLayerId = "towns-line";
 
-/** 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧。選択はブラウザの localStorage に保存する。 */
-export function AreaMap() {
+/**
+ * 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧、区市町村ごとの子育てのしやすさの総合の評価。
+ * 選択はブラウザの localStorage に保存する。municipalitiesFile は評価の根拠にする区市町村の指標。
+ */
+export function AreaMap({ municipalitiesFile }: { municipalitiesFile: MunicipalitiesFile }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const [boundaries, setBoundaries] = useState<{
@@ -153,6 +166,22 @@ export function AreaMap() {
     map.setFilter(selectedTownLayerId, codeFilter(areaSelection.townCodes));
   }, [areaSelection, boundaries]);
 
+  /** 区市町村ごとの子育てのしやすさの総合の評価 (municipalitiesFile.municipalities と同じ順)。 */
+  const childcareScores = useMemo(
+    () => computeChildcareScores(municipalitiesFile.municipalities),
+    [municipalitiesFile],
+  );
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !boundaries) {
+      return;
+    }
+    // 塗りの描き直しは非同期のため、描き終えて idle になるまでを e2e が待てるようにする
+    map.getContainer().dataset.mapState = "moving";
+    map.setPaintProperty(municipalityFillLayerId, "fill-color", childcareScoreFillColor(childcareScores));
+  }, [boundaries, childcareScores]);
+
   useEffect(() => {
     // 保存済みの選択を読む前に保存すると、空の選択で上書きしてしまう
     if (!isStoredSelectionLoaded) {
@@ -173,6 +202,16 @@ export function AreaMap() {
   const townsByCode = useMemo(
     () => new Map(boundaries?.towns.features.map((feature) => [feature.properties.code, feature.properties] as const)),
     [boundaries],
+  );
+  /** 区市町村の境界の `code` (5 桁) から引く総合の評価。選択中のエリアの一覧が、地図で選んだ区市町村の評価を出すのに使う。 */
+  const childcareScoresByBoundaryCode = useMemo(
+    () =>
+      new Map(
+        municipalitiesFile.municipalities.map(
+          (municipality, index) => [municipalityBoundaryCode(municipality.code), childcareScores[index]] as const,
+        ),
+      ),
+    [municipalitiesFile, childcareScores],
   );
   const selectedMunicipalityCodes = areaSelection.municipalityCodes.filter((code) => municipalityNames.has(code));
   const selectedTownCodes = areaSelection.townCodes.filter((code) => townsByCode.has(code));
@@ -202,6 +241,7 @@ export function AreaMap() {
                 <SelectedAreaItem
                   key={code}
                   areaName={municipalityNames.get(code) ?? ""}
+                  childcareScore={childcareScoresByBoundaryCode.get(code)}
                   onRemove={() =>
                     setAreaSelection((current) => ({
                       ...current,
@@ -225,16 +265,35 @@ export function AreaMap() {
             </button>
           </>
         )}
+        <ChildcareScorePanel municipalitiesFile={municipalitiesFile} childcareScores={childcareScores} />
       </section>
     </div>
   );
 }
 
-/** 選択中のエリアの一覧の 1 行。areaName を出し、解除のボタンで onRemove を呼ぶ。 */
-function SelectedAreaItem({ areaName, onRemove }: { areaName: string; onRemove: () => void }) {
+/**
+ * 選択中のエリアの一覧の 1 行。areaName を出し、解除のボタンで onRemove を呼ぶ。
+ * 区市町村の行には childcareScore を渡し、総合の評価と、指標と子育て支援制度のページへのリンクを出す。
+ */
+function SelectedAreaItem({
+  areaName,
+  childcareScore,
+  onRemove,
+}: {
+  areaName: string;
+  childcareScore?: ChildcareScore;
+  onRemove: () => void;
+}) {
   return (
     <li>
       <span>{areaName}</span>
+      {childcareScore && (
+        <span className="area-panel-score">
+          <ScoreSwatch color={childcareScoreColor(childcareScore.total)} />
+          {childcareScore.total === null ? "評価なし" : `${childcareScore.total} 点`}
+          <Link href={municipalityPagePath(childcareScore.municipalityCode)}>指標と制度</Link>
+        </span>
+      )}
       <button type="button" aria-label={`${areaName}の選択を解除`} onClick={onRemove}>
         解除
       </button>
@@ -279,24 +338,16 @@ function addBoundaryLayers(
   map.addSource(townSourceId, { type: "geojson", data: towns, attribution: towns.source.attribution });
   // 地名のラベルを境界の塗りで隠さないよう、ベース地図の最初の文字のレイヤーより下に入れる
   const firstSymbolLayerId = map.getStyle().layers.find((layer) => layer.type === "symbol")?.id;
-  // 塗りの薄い色は、タップで選べる単位を見せるためと、クリックの位置からエリアを引くため
+  // 区市町村の塗りは子育てのしやすさの総合の評価の色分けで、クリックの位置からエリアを引くためにも使う。
+  // 色は評価を読み込んだ後に setPaintProperty で入れ、それまでは評価なしの色にする。
+  // 透けた下の地名・道路が読める範囲で、最も薄い区分の色も塗りと分かる不透明度にする
   map.addLayer(
     {
       id: municipalityFillLayerId,
       type: "fill",
       source: municipalitySourceId,
       maxzoom: townSelectionMinZoom,
-      paint: { "fill-color": "#2563eb", "fill-opacity": 0.06 },
-    },
-    firstSymbolLayerId,
-  );
-  map.addLayer(
-    {
-      id: selectedMunicipalityLayerId,
-      type: "fill",
-      source: municipalitySourceId,
-      filter: codeFilter([]),
-      paint: { "fill-color": "#2563eb", "fill-opacity": 0.4 },
+      paint: { "fill-color": missingChildcareScoreColor, "fill-opacity": 0.6 },
     },
     firstSymbolLayerId,
   );
@@ -339,4 +390,29 @@ function addBoundaryLayers(
     },
     firstSymbolLayerId,
   );
+  // 選択中の区市町村は、総合の評価の塗りの色を変えずに見分けられるよう、塗りではなく太い境界線で示す
+  map.addLayer(
+    {
+      id: selectedMunicipalityLayerId,
+      type: "line",
+      source: municipalitySourceId,
+      filter: codeFilter([]),
+      paint: { "line-color": "#2563eb", "line-width": 4 },
+    },
+    firstSymbolLayerId,
+  );
+}
+
+/** 区市町村の境界の `code` ごとに、childcareScores の総合の評価の色を返す MapLibre の式。評価の無い区市町村は評価なしの色にする。 */
+function childcareScoreFillColor(childcareScores: readonly ChildcareScore[]): ExpressionSpecification {
+  // MapLibre の型は match の「値と色の組」を固定長の tuple で表し、区市町村の数だけ組を並べた配列を受け取れないため変換する
+  return [
+    "match",
+    ["get", "code"],
+    ...childcareScores.flatMap((childcareScore) => [
+      municipalityBoundaryCode(childcareScore.municipalityCode),
+      childcareScoreColor(childcareScore.total),
+    ]),
+    missingChildcareScoreColor,
+  ] as unknown as ExpressionSpecification;
 }

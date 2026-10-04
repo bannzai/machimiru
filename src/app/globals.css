@@ -73,6 +73,126 @@ main.map-page {
   border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
 }
 
+.area-panel-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
+  font-size: 0.875rem;
+}
+
+.childcare-score h2 {
+  margin-top: 1.5rem;
+}
+
+.childcare-score h3 {
+  margin: 1rem 0 0.25rem;
+  font-size: 0.875rem;
+}
+
+.childcare-score-notice {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border-left: 4px solid #d97706;
+  background: color-mix(in srgb, #d97706 12%, transparent);
+  font-size: 0.875rem;
+}
+
+.childcare-score-method,
+.childcare-score-hint,
+.childcare-score-sources {
+  font-size: 0.8125rem;
+}
+
+.childcare-score-method ul {
+  padding-left: 1.25rem;
+}
+
+.childcare-score-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin: 0.5rem 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8125rem;
+}
+
+.childcare-score-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.childcare-score-swatch {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+  border-radius: 2px;
+}
+
+/* 1 行目に色・順位・区市町村名・点数、2 行目に根拠の指標の値を出す */
+.childcare-score-ranking {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.childcare-score-ranking li {
+  display: grid;
+  grid-template-columns: auto 3rem 1fr auto;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.childcare-score-ranking small {
+  grid-column: 2 / -1;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+.childcare-score-sources {
+  padding-left: 1.25rem;
+}
+
+.municipality-score {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.municipality-page caption {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.program-category summary {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.program-list {
+  padding-left: 1.25rem;
+}
+
+.program-list h3 {
+  margin: 0.75rem 0 0;
+  font-size: 1rem;
+}
+
+.program-list p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
 .map-page-footer {
   padding: 0.5rem 1rem 2rem;
   font-size: 0.875rem;
