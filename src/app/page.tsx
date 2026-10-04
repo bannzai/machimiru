@@ -32,7 +32,7 @@ export default function TopPage() {
           <ol>
             <li>地図で気になる区市町村をタップして選ぶ</li>
             <li>地図を拡大すると町丁の単位で選べる</li>
-            <li>選んだエリアはこのブラウザに残り 次に開いた時も続きから使える</li>
+            <li>選んだエリアはこのブラウザに保存され次に開いた時も残る</li>
           </ol>
         </section>
         <section aria-labelledby="upcoming-heading">

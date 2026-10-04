@@ -50,10 +50,14 @@ test("地図でエリアを選び、再読み込みしても選択が残る", as
   await page.screenshot({ path: screenshotPath("top") });
 
   // 地図の下のサービスの紹介
-  await page.getByRole("heading", { level: 2, name: "使い方" }).scrollIntoViewIfNeeded();
-  await page.screenshot({ path: screenshotPath("top-introduction") });
-  await page.getByRole("heading", { level: 2, name: "サポート・お問い合わせ" }).scrollIntoViewIfNeeded();
-  await page.screenshot({ path: screenshotPath("top-support") });
+  // scrollIntoViewIfNeeded は見出しが画面の端に少しでも見えていると動かさないため、見出しを画面の上端に合わせる
+  for (const [heading, name] of [
+    ["土地勘がなくても子育てしやすい街を比べる", "top-introduction"],
+    ["サポート・お問い合わせ", "top-support"],
+  ]) {
+    await page.getByRole("heading", { level: 2, name: heading }).evaluate((element) => element.scrollIntoView());
+    await page.screenshot({ path: screenshotPath(name) });
+  }
   await page.evaluate(() => window.scrollTo(0, 0));
 
   // 区市町村の選択と複数選択 (地図の中心が新宿区役所、渋谷区役所の付近になる位置でタップする)
