@@ -10,16 +10,19 @@ import {
  * 家賃・広さの条件を選ぶ欄と、municipalityCodes (選択中のエリアの区市町村。町丁はその区市町村) を condition で絞った
  * SUUMO の検索結果を開くリンク。条件を変えると onConditionChange を呼ぶ。
  * hasTownSelection は町丁を選んでいるかで、町丁を区市町村の単位で探すことの説明を出すために使う。
+ * isConditionEditable が false の間 (保存済みの条件を読む前) は、読んだ条件で入力を上書きしないよう条件を選べなくする。
  */
 export function PropertySearch({
   municipalityCodes,
   hasTownSelection,
   condition,
+  isConditionEditable,
   onConditionChange,
 }: {
   municipalityCodes: string[];
   hasTownSelection: boolean;
   condition: PropertySearchCondition;
+  isConditionEditable: boolean;
   onConditionChange: (condition: PropertySearchCondition) => void;
 }) {
   return (
@@ -30,6 +33,7 @@ export function PropertySearch({
           家賃の上限
           <select
             value={condition.rentUpperLimitManYen ?? ""}
+            disabled={!isConditionEditable}
             onChange={(event) =>
               onConditionChange({ ...condition, rentUpperLimitManYen: optionalNumber(event.target.value) })
             }
@@ -46,6 +50,7 @@ export function PropertySearch({
           広さの下限
           <select
             value={condition.floorAreaLowerLimitSquareMeters ?? ""}
+            disabled={!isConditionEditable}
             onChange={(event) =>
               onConditionChange({ ...condition, floorAreaLowerLimitSquareMeters: optionalNumber(event.target.value) })
             }

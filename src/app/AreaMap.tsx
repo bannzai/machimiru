@@ -247,6 +247,7 @@ export function AreaMap() {
           ]}
           hasTownSelection={selectedTownCodes.length > 0}
           condition={propertySearchCondition}
+          isConditionEditable={isStoredSelectionLoaded}
           onConditionChange={setPropertySearchCondition}
         />
       </section>
