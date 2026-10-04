@@ -25,12 +25,6 @@ export const contentType = "image/png";
 /** 地図の左に出す、地図で選べる単位の説明。語の途中で折り返さないよう、行ごとに分けて持つ。 */
 const mapCaptionLines = ["区市町村と町丁を", "地図で選んで比べる"];
 
-/**
- * 地図の下に出す境界データの出典表示。OGP 画像は SNS のカードなどで出典ページへのリンクなしに単体で表示されるため、
- * 国土数値情報の利用規約が求める加工した時の出典表示の全文を画像の中に書く (documents/PROJECT.md「データの出典」)。
- */
-const mapAttribution = "出典: 国土交通省国土数値情報ダウンロードサイト「国土数値情報（行政区域データ）」をもとに machimiru 作成";
-
 /** 地図を描く枠の大きさ (px)。島しょ部を除いた東京都は東西が南北の約 2 倍のため、2 : 1 にする。 */
 const mapFrame = { width: 680, height: 340 };
 
@@ -49,6 +43,9 @@ export default async function OpenGraphImage() {
   const municipalities: BoundaryFeatureCollection<MunicipalityProperties> = JSON.parse(
     await readFile(path.join(process.cwd(), "public", municipalityBoundaryUrl), "utf8"),
   );
+  // OGP 画像は SNS のカードなどで出典ページへのリンクなしに単体で表示されるため、地図の下に境界データの出典表示の全文を書く。
+  // 文言は境界データが持つ出典表示の HTML からタグ (提供元へのリンク) を除いて使う
+  const mapAttribution = municipalities.source.attribution.replace(/<[^>]+>/g, "");
   return new ImageResponse(
     <div
       style={{

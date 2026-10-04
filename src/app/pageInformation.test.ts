@@ -5,6 +5,9 @@ import { sitePagePaths, siteUrl } from "@/lib/site";
 import robots from "./robots";
 import sitemap from "./sitemap";
 
+// 実装は new URL(パス, siteUrl) で絶対 URL を作るため、SITE_URL の末尾の / の有無によらず origin の直下になる
+const siteOrigin = new URL(siteUrl).origin;
+
 // ~/.agents/skills/landing-page-builder/scripts/verify-lp.sh と同じ検査 (title・description・OGP・JSON-LD・GitHub へのリンクの不在) を、
 // next build が書き出した各ページの HTML に対して行う。make check と CI は build-web の後に test を実行する
 const builtPageDirectory = path.join(process.cwd(), ".next", "server", "app");
@@ -40,7 +43,7 @@ describe.each(builtPages)("$pagePath の HTML", ({ htmlFile }) => {
     for (const key of ["description", "og:title", "og:description", "og:image", "twitter:card"]) {
       expect(metaContent(html, key), key).toBeTruthy();
     }
-    expect(metaContent(html, "og:image")).toMatch(new RegExp(`^${siteUrl}/opengraph-image`));
+    expect(metaContent(html, "og:image")?.startsWith(`${siteOrigin}/opengraph-image`)).toBe(true);
   });
 
   it("GitHub へのリンクを含まない", () => {
@@ -53,7 +56,7 @@ describe("トップページの HTML", () => {
 
   it("Schema.org の @context と @type を持つ JSON-LD を持つ", () => {
     expect(jsonLdDocuments(html)).toContainEqual(
-      expect.objectContaining({ "@context": "https://schema.org", "@type": "WebSite", url: `${siteUrl}/` }),
+      expect.objectContaining({ "@context": "https://schema.org", "@type": "WebSite", url: `${siteOrigin}/` }),
     );
   });
 });
@@ -61,16 +64,16 @@ describe("トップページの HTML", () => {
 describe("sitemap", () => {
   it("公開する各ページを絶対 URL で載せる", () => {
     expect(sitemap().map(({ url }) => url)).toEqual([
-      `${siteUrl}/`,
-      `${siteUrl}/sources/`,
-      `${siteUrl}/terms/`,
-      `${siteUrl}/privacy/`,
+      `${siteOrigin}/`,
+      `${siteOrigin}/sources/`,
+      `${siteOrigin}/terms/`,
+      `${siteOrigin}/privacy/`,
     ]);
   });
 });
 
 describe("robots", () => {
   it("すべてのページのクロールを許可し、sitemap の絶対 URL を示す", () => {
-    expect(robots()).toEqual({ rules: { userAgent: "*", allow: "/" }, sitemap: `${siteUrl}/sitemap.xml` });
+    expect(robots()).toEqual({ rules: { userAgent: "*", allow: "/" }, sitemap: `${siteOrigin}/sitemap.xml` });
   });
 });
