@@ -9,6 +9,11 @@ export default defineConfig({
   reporter: "list",
   use: {
     baseURL: "http://127.0.0.1:3000",
+    // runner に GPU が無いため、地図 (MapLibre GL JS) の WebGL を CPU 実装の SwiftShader で描く。
+    // Chromium は SwiftShader への自動の切り替えをやめたため、明示して有効にする
+    launchOptions: {
+      args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"],
+    },
   },
   projects: [
     { name: "desktop", use: { ...devices["Desktop Chrome"] } },

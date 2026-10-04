@@ -15,7 +15,7 @@
 | ホスティング | Cloudflare Workers (`@opennextjs/cloudflare`) | チャットの判定でサーバー側に API キーを置く必要があり、静的書き出しでは足りない。Workers の無料枠 (1 日 100,000 リクエスト) で始められる。Vercel Hobby は商用 (アフィリエイト・広告) を禁じる |
 | ドメイン | workers.dev のサブドメイン | ドメインの取得は費用が発生するため、取るかは bannzai が決める |
 | DB | 持たない | アカウント・保存機能が無い。選択中のエリアと条件はブラウザのストレージに置く |
-| 静的データ | 境界・施設・施策のデータはビルド済みのファイルとして配信する。施設・施策のデータは `public/data/tokyo/` に置く (「東京都の子育てデータの生成」) | 更新頻度が年〜月単位で、実行時に書き込まない |
+| 静的データ | 境界・施設・施策のデータはビルド済みのファイルとして配信する。境界データは `public/data/boundaries/` の GeoJSON (「境界データ」)。施設・施策のデータは `public/data/tokyo/` に置く (「東京都の子育てデータの生成」) | 更新頻度が年〜月単位で、実行時に書き込まない |
 | 認証 | 持たない | アカウント機能が無い |
 | Analytics | Cloudflare Web Analytics (手動 beacon。配信のビルドだけに token を渡す) と Google Search Console | 判定基準の計測元を `/cloudflare-web-analytics-report` と `/google-search-console-report` で読める形にする |
 | 課金 | 持たない | 目的は本人が使う道具。送客 (アフィリエイト) を入れる場合は「広告」の表示が要る |
@@ -32,9 +32,9 @@
 
 | データ | 用途 | 提供元・入手先 | 取得日 | ライセンス・出典表示の文言 |
 | --- | --- | --- | --- | --- |
-| ベース地図 | 地図の表示 | OpenFreeMap ( https://openfreemap.org/ ) | 未取得 (地図の表示の issue で記入) | 無料・API キー不要・商用可。出典表示「OpenFreeMap © OpenMapTiles Data from OpenStreetMap」。SLA なし |
-| 行政区域 (都道府県・市区町村) | エリアの階層選択 | 国土数値情報 行政区域 N03 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html ) | 未取得 (同上) | CC BY 4.0 |
-| 町丁・字の境界 | エリアの階層選択 | e-Stat 統計GIS 境界データ (令和 2 年国勢調査 小地域。東京都は 6,021 ポリゴン) | 未取得 (同上) | e-Stat 利用規約 ( https://www.e-stat.go.jp/terms-of-use )。商用可・出典表示。実際の行政界との一致は保証されない |
+| ベース地図 | 地図の表示 | OpenFreeMap ( https://openfreemap.org/ ) | 取得して保存しない (表示時にタイルを読む。利用条件は 2026-10-04 に確認) | 無料・API キー不要・商用可。出典表示「OpenFreeMap © OpenMapTiles Data from OpenStreetMap」。SLA なし |
+| 行政区域 (都道府県・市区町村) | エリアの階層選択 | 国土数値情報 行政区域 N03 2026 年版 東京都 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html ) | 2026-10-04 | CC BY 4.0。出典表示「出典: 国土交通省国土数値情報ダウンロードサイト「国土数値情報（行政区域データ）」をもとに machimiru 作成」(加工した時の書き方は https://nlftp.mlit.go.jp/ksj/other/agreement.html ) |
+| 町丁・字の境界 | エリアの階層選択 | e-Stat 統計GIS 境界データ (令和 2 年国勢調査 小地域。東京都は 6,021 ポリゴン) | 2026-10-04 | e-Stat 利用規約 ( https://www.e-stat.go.jp/terms-of-use )。商用可。出典表示「出典: 政府統計の総合窓口(e-Stat)「令和2年国勢調査 小地域（町丁・字等）境界データ」（総務省統計局）を加工して作成」。実際の行政界との一致は保証されない |
 | 施設 (キーワード検索) | 施設マーキング | OpenPOI API ( https://docs.openpoiapi.com/ ) | 未取得 (施設マーキングの issue で記入) | 無料・API キー不要・商用可・保存可。出典として OpenPOI API を記載しライセンスページへリンクする。SLA なし・予告なく終了し得る |
 | 病院・診療所の小児科・産婦人科・産科 (位置つき) | 子育て施設の種類での表示 | 厚生労働省「医療情報ネットのオープンデータ」2026 年 6 月 1 日時点の病院・診療所の施設票と診療科・診療時間票 ( https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html ) | 2026-10-04 | 公共データ利用規約 第 1.0 版 (PDL1.0。CC BY 4.0 と互換。 https://www.digital.go.jp/resources/open_data/public_data_license_v1.0 )。出典「「医療情報ネットのオープンデータ」（厚生労働省）（ https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html ）を加工して作成」。座標が未登録 (空欄・0.0) の施設は除く |
 | 保育所・認定こども園 (位置つき) | 子育て施設の種類での表示 | 国土交通省「国土数値情報 福祉施設 P14」2023 年度 東京都 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html ) | 2026-10-04 | CC BY 4.0 (一部制限)。一部制限は都道府県・市ごとの利用条件 ( https://nlftp.mlit.go.jp/ksj/gml/codelist/R5_Terms_of_Use_WelfareInstitution.xlsx ) で、東京都と都内の市の行は無く、追加の制限は無い。出典「「国土数値情報（福祉施設データ）」（国土交通省）（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html ）を加工して作成」 |
@@ -61,6 +61,20 @@ make data-tokyo
 ```
 
 出典を新しい版に替える時は、`src/lib/tokyoData/sources.ts` の URL・`asOf`・`retrievedOn` とこの表を更新し、`tmp/data-cache/` を消してから `make data-tokyo` を実行する。区市町村名で照合する出典 (こども家庭庁の 2 つ) で照合できない名称があると、欠損にせず生成を止める。
+
+## 境界データ
+
+区市町村と町丁の境界は、`make boundaries` (`scripts/generate-boundaries.ts`) が国土数値情報 N03 と e-Stat の小地域境界を取得して作る。生成物はリポジトリに入れて配信し、CI とビルドは提供元へ取りに行かない。
+
+- 更新する時は、スクリプトの入手先 URL を新しい版に替えて `make boundaries` を実行し、生成物の差分を commit する。取得した zip は `tmp/boundaries/` に取得元の URL と一緒に残り、同じ URL での再実行では取得し直さない (URL を替えると取り直す。同じ URL で取り直す時は `tmp/boundaries/` を消してから実行する)。取得日を除き、同じ入力からは同じ出力になる
+- 形式は GeoJSON の FeatureCollection (経度・緯度、JGD2011)。feature は `code` の順に並ぶ。頂点は 15 m 間隔で簡略化し、座標は小数 5 桁に丸める
+- 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面の出典表示は、この `attribution` を MapLibre の attribution に渡して出す
+- properties の型は `src/lib/boundaries.ts`。選択中のエリアは、この `code` を `src/lib/areaSelection.ts` の形式でブラウザの localStorage に保存する
+
+| ファイル (配信する URL) | 中身 | properties |
+| --- | --- | --- |
+| `public/data/boundaries/tokyo-municipalities.geojson` (`/data/boundaries/tokyo-municipalities.geojson`) | 東京都の 62 区市町村。所属未定地を除き、島しょ部などで複数に分かれたポリゴンを区市町村ごとに 1 つにまとめる | `code` (全国地方公共団体コードの上 5 桁。例: 新宿区は `13104`)、`name` |
+| `public/data/boundaries/tokyo-towns.geojson` (`/data/boundaries/tokyo-towns.geojson`) | 東京都の町丁 5,518 件。e-Stat の小地域 6,021 件から水面調査区と名前の無い区域を除き、区市町村と町丁名が同じ小地域 (飛び地など) を 1 つにまとめる | `code` (都道府県 2 桁 + 市区町村 3 桁 + 町丁 6 桁。まとめた町丁は、まとめた小地域のうち最初の 1 つの値)、`municipalityCode` (区市町村の `code`)、`name` |
 
 ## 実装の前提になる調査結果
 

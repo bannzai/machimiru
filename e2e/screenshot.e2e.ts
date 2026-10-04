@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
 
-// 撮影するページ。画面を追加・変更した時はここに足し、CI の artifact (screenshots) で目視確認する
+// 撮影するページ。画面を追加・変更した時はここに足し、CI の artifact (screenshots) で目視確認する。
+// トップページ (地図) は操作を伴うため areaMap.e2e.ts で撮る
 const pages = [
-  { name: "top", path: "/", heading: "machimiru" },
   { name: "terms", path: "/terms/", heading: "利用規約" },
   { name: "privacy", path: "/privacy/", heading: "プライバシーポリシー" },
 ];

@@ -1,2 +1,12 @@
+# linguist-generated begin
+# configure-linguist-generated skill が管理する区間です。
+# profiles: web
+**/__generated__/** linguist-generated
+**/*.generated.js linguist-generated
+**/*.generated.jsx linguist-generated
+**/*.generated.ts linguist-generated
+**/*.generated.tsx linguist-generated
+public/data/boundaries/*.geojson linguist-generated
+# linguist-generated end
 # make data-tokyo が生成するデータ。PR の差分では折りたたむ
 public/data/** linguist-generated=true
