@@ -95,9 +95,11 @@ const datasets: BoundaryDataset[] = [
   },
 ];
 
-/** url のファイルを filePath に保存する。既に filePath があれば取得しない。 */
+/** url のファイルを filePath に保存する。同じ url から取得済みの filePath があれば取得しない。 */
 async function download(url: string, filePath: string) {
-  if (existsSync(filePath)) {
+  // 入手先 URL を新しい版に替えた時に古い zip を使い回さないよう、取得元の URL を zip と並べて記録して照合する
+  const urlRecordPath = `${filePath}.url`;
+  if (existsSync(filePath) && existsSync(urlRecordPath) && readFileSync(urlRecordPath, "utf8") === url) {
     return;
   }
   const response = await fetch(url);
@@ -108,6 +110,7 @@ async function download(url: string, filePath: string) {
   const partialFilePath = `${filePath}.partial`;
   writeFileSync(partialFilePath, Buffer.from(await response.arrayBuffer()));
   renameSync(partialFilePath, filePath);
+  writeFileSync(urlRecordPath, url);
 }
 
 /** dataset を取得・整形して outputDirectory に書き出す。 */

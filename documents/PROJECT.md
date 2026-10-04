@@ -46,7 +46,7 @@
 
 区市町村と町丁の境界は、`make boundaries` (`scripts/generate-boundaries.ts`) が国土数値情報 N03 と e-Stat の小地域境界を取得して作る。生成物はリポジトリに入れて配信し、CI とビルドは提供元へ取りに行かない。
 
-- 更新する時は、スクリプトの入手先 URL を新しい版に替えて `make boundaries` を実行し、生成物の差分を commit する。取得した zip は `tmp/boundaries/` に残り、再実行では取得し直さない (取り直す時は `tmp/boundaries/` を消してから実行する)。取得日を除き、同じ入力からは同じ出力になる
+- 更新する時は、スクリプトの入手先 URL を新しい版に替えて `make boundaries` を実行し、生成物の差分を commit する。取得した zip は `tmp/boundaries/` に取得元の URL と一緒に残り、同じ URL での再実行では取得し直さない (URL を替えると取り直す。同じ URL で取り直す時は `tmp/boundaries/` を消してから実行する)。取得日を除き、同じ入力からは同じ出力になる
 - 形式は GeoJSON の FeatureCollection (経度・緯度、JGD2011)。feature は `code` の順に並ぶ。頂点は 15 m 間隔で簡略化し、座標は小数 5 桁に丸める
 - 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面の出典表示は、この `attribution` を MapLibre の attribution に渡して出す
 - properties の型は `src/lib/boundaries.ts`。選択中のエリアは、この `code` を `src/lib/areaSelection.ts` の形式でブラウザの localStorage に保存する
