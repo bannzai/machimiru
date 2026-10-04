@@ -25,8 +25,14 @@ export const contentType = "image/png";
 /** 画像の下の行に出す、地図で選べる単位の説明。 */
 const mapCaption = "区市町村と町丁を地図で選んで比べる";
 
+/**
+ * 地図の下に出す境界データの出典表示。OGP 画像は SNS のカードなどで出典ページへのリンクなしに単体で表示されるため、
+ * 国土数値情報の利用規約が求める加工した時の出典表示の全文を画像の中に書く (documents/PROJECT.md「データの出典」)。
+ */
+const mapAttribution = "出典: 国土交通省国土数値情報ダウンロードサイト「国土数値情報（行政区域データ）」をもとに machimiru 作成";
+
 /** 地図を描く枠の大きさ (px)。島しょ部を除いた東京都は東西が南北の約 2 倍のため、2 : 1 にする。 */
-const mapFrame = { width: 760, height: 380 };
+const mapFrame = { width: 680, height: 340 };
 
 // 地図に描く区市町村の頂点を間引く間隔 (px)。これより近い頂点は縮小した地図で見分けられず、SVG を大きくするだけのため
 const vertexMinDistancePx = 1.5;
@@ -51,7 +57,7 @@ export default async function OpenGraphImage() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        padding: "56px 64px",
+        padding: "44px 64px 32px",
         background: "#ffffff",
         color: "#1e3a8a",
         fontFamily: "Noto Sans JP",
@@ -62,7 +68,7 @@ export default async function OpenGraphImage() {
         <div style={{ fontSize: 62, lineHeight: 1.3 }}>{siteCatchphrase}</div>
       </div>
       <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between" }}>
-        <div style={{ width: 300, fontSize: 30, lineHeight: 1.5, color: "#334155", marginBottom: 16 }}>{mapCaption}</div>
+        <div style={{ width: 360, fontSize: 30, lineHeight: 1.5, color: "#334155", marginBottom: 16 }}>{mapCaption}</div>
         <svg width={mapFrame.width} height={mapFrame.height} viewBox={`0 0 ${mapFrame.width} ${mapFrame.height}`}>
           {municipalities.features.map((feature) => (
             <path
@@ -76,13 +82,14 @@ export default async function OpenGraphImage() {
           ))}
         </svg>
       </div>
+      <div style={{ fontSize: 16, color: "#475569", justifyContent: "flex-end" }}>{mapAttribution}</div>
     </div>,
     {
       ...size,
       fonts: [
         {
           name: "Noto Sans JP",
-          data: await fetchNotoSansJapaneseBold(`${siteName}${siteCatchphrase}${mapCaption}`),
+          data: await fetchNotoSansJapaneseBold(`${siteName}${siteCatchphrase}${mapCaption}${mapAttribution}`),
           weight: 700,
           style: "normal",
         },
