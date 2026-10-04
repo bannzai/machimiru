@@ -11,6 +11,7 @@ import {
 } from "@/lib/childcareScore";
 import type { MunicipalitiesFile, Municipality } from "@/lib/tokyoData/schema";
 import { ChildcareScoreMethod } from "./ChildcareScoreMethod";
+import { DataSourceAttribution } from "./DataSourceAttribution";
 
 /**
  * 区市町村ごとの子育てのしやすさの総合の評価の凡例と順位の一覧、根拠のデータの出典。
@@ -61,7 +62,9 @@ export function ChildcareScorePanel({
       <h3>出典</h3>
       <ul className="childcare-score-sources">
         {municipalitiesFile.sources.map((source) => (
-          <li key={source.id}>{source.attribution}</li>
+          <li key={source.id}>
+            <DataSourceAttribution source={source} />
+          </li>
         ))}
       </ul>
     </section>

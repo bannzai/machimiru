@@ -21,6 +21,7 @@ import {
 } from "@/lib/tokyoData/schema";
 import { ChildcareScoreMethod } from "../../ChildcareScoreMethod";
 import { ScoreSwatch } from "../../ChildcareScorePanel";
+import { DataSourceAttribution } from "../../DataSourceAttribution";
 
 // 62 区市町村のページをビルド時にすべて作り、それ以外のコードは 404 にする
 export const dynamicParams = false;
@@ -132,7 +133,9 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
         <h3>指標の出典</h3>
         <ul>
           {sources.map((source) => (
-            <li key={source.id}>{source.attribution}</li>
+            <li key={source.id}>
+              <DataSourceAttribution source={source} />
+            </li>
           ))}
         </ul>
       </section>
@@ -140,7 +143,9 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
       <section aria-labelledby="programs-heading">
         <h2 id="programs-heading">子育て支援制度の一覧 (分野ごと)</h2>
         {programsFile.sources.map((source) => (
-          <p key={source.id}>{source.attribution}</p>
+          <p key={source.id}>
+            <DataSourceAttribution source={source} />
+          </p>
         ))}
         {programsFile.programs.length === 0 ? (
           <p>子育て支援制度レジストリに、この区市町村の制度は載っていません。</p>
