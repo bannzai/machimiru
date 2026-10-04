@@ -1,0 +1,868 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "134015",
+  "programs": [
+    {
+      "psid": "psid3.0+3000020134015+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠がわかったら行う手続き",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "図書館",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "子どもからお年寄りまで幅広い年齢の方",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊娠中の方で体調や育児などに不安のある方や訪問希望のある方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "八丈町では八丈町子ども家庭支援センターを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "18 歳未満のお子さんや子育て家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM112",
+      "name": "子育て広場",
+      "shortName": "交流ひろば",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、八丈町サイトや市報などでお知らせしています。）",
+      "targetPersons": "0 歳～未就学児",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "町立小・中学校の就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "経済的な理由により就学が困難な町立小・中学校に通学される児童生徒",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kyouiku/kyoiku_enjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "新生児訪問",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "新生児訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後 1 か月以内",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "特定不妊治療助成",
+      "summary": "東京都では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": "特定不妊治療以外では、妊娠の見込みがないと医師に診断された法律上婚姻している夫婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "八丈町国民健康保険の被保険者が出産された場合",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM21",
+      "name": "出産祝い",
+      "shortName": "出産祝金",
+      "summary": "八丈町に1年以上お住まいの方がお子さんを出産した場合、出産祝い金として50,000円を支給します。",
+      "targetPersons": "出生日を基準に八丈町に 1 年以上継続して居住し、住民票のある出産されたお母さん",
+      "categories": [
+        "002"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児・義務教育就学児医療費制度（マル乳）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割）を助成しています。",
+      "targetPersons": "八丈町にお住まいの中学校修了前(15歳の誕生日を迎えた最初の3月31日まで)の児童を、養育している方で、日本の医療保険制度に加入されていることが対象です\n\n対象にならない場合\n・健康保険に加入していない場合\n\n・児童福祉施設などに入所していて医療助成を受けることが出来る場合\n\n・児童が里親に委託されている場合\n\n・生活保護を受けている場合",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_iryohi_n.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3 歳児～5 歳児クラスの全ての児童及び0歳児～2歳児クラスの非課税世帯の児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_jido-teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "1　支給対象\n次のア～クのいずれかに該当する、18歳に達する日以降の最初の3月31日までにある児童（一定以上の障害の状態にある場合は20歳未満）を監護している母または監護し、かつ生計を同じくする父、もしくは父母に代わってその児童を養育している方に支給されます\n\nア　父母が婚姻を解消した児童\n\nイ　父または母が死亡した児童\n\nウ　父または母が政令で定める障害の状態にある児童\n\nエ　父または母の生死が不明である児童\n\nオ　父または母が、母または父が裁判所からのDV保護命令を受けた児童\n\nカ　父または母から引き続き1年以上遺棄されている児童\n\nキ　父または母が法令により引き続き1年以上拘禁されている児童\n\nク　婚姻によらないで生まれた児童\n\n2　支給制限\n次に該当する方は、手当を受けることができません\n\nア　児童または請求者が日本国内に住所を有しないとき\n\nイ　児童が児童福祉施設等に入所している、里親に委託されているとき\n\nウ　児童が父および母と生計を同じくしているとき（父または母が障害による受給を除く）\n\nエ　児童が父または母の配偶者（事実上の配偶者を含む）に養育されているとき\n\nなお、児童扶養手当法が改正され、平成26年12月1日から公的年金等の給付額が児童扶養手当額より低い場合は、その差額分の児童扶養手当を受給できるようになりました",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_jido-fuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次のア～クのいずれかに該当する18歳に到達した年度の末日以前（身体障害者1～3級または愛の手帳1～3度程度の障害を有する場合は20歳未満）の児童\n\nア　父母が離婚した児童\n\nイ　父または母が死亡した児童\n\nウ　父または母が生死不明である児童\n\nエ　父または母に1年以上遺棄されている児童\n\nオ　父または母が裁判所からのDV保護命令を受けた児童\n\nカ　父または母が法令により1年以上拘禁されている児童\n\nキ　父または母が重度の障害を有する児童（身体障害者手帳1・2級程度）\n\nク　婚姻によらないで生まれた児童\n\n※支給には所得制限があります",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_iryohi_h.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "指定医療機関の医師が入院養育を認めた出生時 2,000g 以下等の乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母\n※父または母が届出できないときはお問合せください\n※届出人とは、届書に必要事項を記入して届出人欄に署名、押印をする方のことです。届書を持参する方ではありません\n※子の父母が婚姻していない場合、認知の有無に関わらず母になります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/jyumin/jumin_koseki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級（１クール 4 回制）",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、八丈町では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "これからお産をむかえる妊婦とそのパートナー",
+      "categories": [
+        "002"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "救急外来",
+      "summary": "八丈町では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kigyou/hospital_firstaid.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM47",
+      "name": "八丈町の妊娠・出産に関する相談",
+      "shortName": "妊婦相談",
+      "summary": "福祉健康課保健師が個別相談に対応",
+      "targetPersons": "妊婦とその家族",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "不妊・不育ホットライン",
+      "summary": "不妊、不育に悩む夫婦に対して、専門のカウンセラーが相談を行っています。",
+      "targetPersons": "不妊、不育に悩む夫婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3～4か月乳児・産婦健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として【3~4か月】児健康診査を実施しています。",
+      "targetPersons": "3～4か月児とその産婦",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7か月乳児健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査【6か月から7か月児】を実施しています。",
+      "targetPersons": "6～7か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "がじゅまる広場",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "全校児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kyouiku/kyoiku_askp.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "手術により回復が見込まれる機能障害を有する方",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健診",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。八丈町では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健診",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。八丈町では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "5 歳児健康診査・すこやか相談会",
+      "summary": "年に１度土曜日に健康診査を開催します。同時に歯科相談、栄養相談、心理相談など個別相談も行っています。",
+      "targetPersons": "5歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ヒブ（ｈｉｂ） ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後２ヶ月から接種可能。接種間隔を２７日以上あけて初回３回を接種。３回目接種後７月～１３月の間隔をあけて４回目接種。\n※接種開始月齢によって接種回数が変わります。詳しくは町役場福祉健康課保健係までお問合せください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査、超音波検査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用【の一部】を助成する【妊婦健康診査受診票】をお渡ししています。",
+      "targetPersons": "妊婦の方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "重度、中度の障害のある児童",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "身体または知的（精神）に重度の障害のある 20 歳未満の方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性疾患の医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染による疾病の医療費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "18 歳未満対象\n⇒気管支ぜん息、慢性気管支炎、ぜん息性気管支炎、肺気しゅ",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "児童育成手当（育成手当）",
+      "summary": "児童育成手当は児童の福祉の増進を図ることを目的とし、心身の健やかな成長に寄与することを趣旨として支給されるもので、次の2種類があり該当する家庭に支給されます\nいずれの手当も所得制限があります\n\n育成手当…ひとり親家庭等に対する手当\n障害手当…障害のある子どもを養育している家庭に対する手当",
+      "targetPersons": "次のア～クのいずれかに該当する18歳に到達した年度の末日以前の児童を養育する方\n\nア　父母が離婚した児童\n\nイ　父または母が死亡した児童\n\nウ　父または母が生死不明である児童\n\nエ　父または母に1年以上遺棄されている児童\n\nオ　父または母が裁判所からのDV保護命令を受けた児童\n\nカ　父または母が法令により1年以上拘禁されている児童\n\nキ　父または母が重度の障害を有する児童（身体障害者手帳1・2級程度）\n\nク　婚姻によらないで生まれ、父または母から扶養されていない児童\n\n※元の配偶者など親族以外の異性の方が同じ住所にいる場合や、別居の父または母に養育されている場合、事実婚状態の場合等は対象となりません",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_jido-ikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子ども・子育て支援新制度における『保育の必要性の認定』",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料負担の軽減",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育園",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": "お子様の保護者が就労している場合や、病気などにより日中お子様を保育できない場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "八丈町内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "「保育短時間」のお子様が、保護者の方の勤務の都合等により、保育園が定める保育時間（8 時間）を超える前後の時間帯を利用する場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "放課後子ども教室（がじゅまる広場）",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "全校児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kyouiku/kyoiku_askp.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM792",
+      "name": "乳幼児の歯の健康診査（1歳児歯科健康診査）",
+      "shortName": "１歳児歯科健康診査・計測会",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。【1歳児】歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "１歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "もぐもぐ離乳食",
+      "summary": "生後7~11か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "7～11か月児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "八丈町の【子ども家庭支援センター 】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "18 歳未満のお子さんや子育て家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、八丈町が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患で通院治療を受けている方",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "八丈町に住所を有する満１歳から就学前の児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2015/10/80fcbbea98fde331e29ab40c91c70b94-1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリーサポート事業",
+      "summary": "八丈町のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、提供会員が利用会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "概ね生後6か月～10歳未満",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "保育園一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、八丈町内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/nursery/wp-content/uploads/2023/10/2612d2a6d0893befbabde97647b80db6.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（二種混合（ＤＴ） ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "三種混合及び四種混合の第１期の接種歴のある小学校６年生相当\n※三種混合及び四種混合の第１期を接種していなくても対象となるが、接種をしても抗体がつく可能性は低い。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児・義務教育就学児医療費制度（マル子）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（3割）を助成しています。",
+      "targetPersons": "八丈町にお住まいの中学校修了前(15歳の誕生日を迎えた最初の3月31日まで)の児童を、養育している方で、日本の医療保険制度に加入されていることが対象です\n\n対象にならない場合\n・健康保険に加入していない場合\n\n・児童福祉施設などに入所していて医療助成を受けることが出来る場合\n\n・児童が里親に委託されている場合\n\n・生活保護を受けている場合",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_iryohi_n.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_jido-teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9～10か月乳児健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査【9か月から10か月児】を実施しています。",
+      "targetPersons": "9～10か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/publication/kosodate.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（小児用肺炎球菌（１３価ワクチン））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後２ヶ月から接種可能。接種間隔を２７日以上あけて初回３回を接種。３回目接種後６０日以上の間隔をあけて１歳に達してから４回目接種。\n※接種開始月齢によって接種回数が変わります。詳しくは町役場福祉健康課保健係までお問合せください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "定期予防接種（小児）島外接種費用扶助（償還払い制度）",
+      "summary": "八丈町では、やむを得ない理由により当該施設にて定期予防接種を受ける方へ償還払い制度を実施しています。本制度をご利用される方は福祉健康課　保健係までご相談ください。",
+      "targetPersons": "①里帰り出産その他の理由により、一定期間、島外へ居住する方\n②長期にわたり医療機関等に入院または入所している方\n③疾病等により島内医療機関での定期予防接種が困難な方\n④その他やむを得ない理由により島外医療機関での定期予防接種が必要と認められる方\n旅行、レジャー等での長期滞在期間に接種を希望する方は対象外です！",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_redemption.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "児童育成手当（障害手当）",
+      "summary": "児童育成手当は児童の福祉の増進を図ることを目的とし、心身の健やかな成長に寄与することを趣旨として支給されるもので、次の2種類があり該当する家庭に支給されます\nいずれの手当も所得制限があります\n\n育成手当…ひとり親家庭等に対する手当\n障害手当…障害のある子どもを養育している家庭に対する手当",
+      "targetPersons": "次のア～ウのいずれかの程度の障害のある20歳未満の児童を養育する方\n\nア　「愛の手帳」1･2･3度程度\n\nイ　「身体障害者手帳」1･2級程度\n\nウ　脳性麻痺または進行性筋萎縮症\n\n※心身障害者福祉手当を受給している場合は対象となりません",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_jido-ikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "放課後児童クラブ（とびっこクラブ）",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "共働きの家庭、事情により保護者が子どもの面倒を見ることのできない家庭",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kyouiku/kyoiku_askp.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+2+UM792",
+      "name": "乳幼児の歯の健康診査（2歳児歯科健康診査）",
+      "shortName": "２歳児歯科健康診査",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。【2歳児】歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "２歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（B型肝炎）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2ヶ月から1歳に至るまでが定期予防接種対象者\n※母子感染予防として出生後にB型肝炎の接種を受けた方は定期接種対象外\n【接種回数と間隔】\n接種間隔を２７日以上あけて初回２回を接種。１回目接種後１３９日以上の間隔をあけて３回目接種。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+3+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "島外医療機関へ通院される方への交通費一部助成（令和6年度）",
+      "summary": "八丈町では、島内で治療することが困難で、やむを得ず島外の医療機関へ通院しなければならない方を対象に、交通費の一部を補助金として交付しています。令和６年度よりいくつかの変更があります。",
+      "targetPersons": "助成対象者（八丈町に住所を有する者）\n①　島内医師が島外の医療機関へ通院する必要があると認めたもの\n②　東京都難病医療費制度受給者及び、小児慢性疾患医療助成受給者\n③　身体・知的・精神の障害者手帳、自立支援医療受給者証（精神）認定者\n④　その他、町長が特に必要と認めたもの",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/kenko_help_R06.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+3+UM792",
+      "name": "乳幼児の歯の健康診査（4歳児歯科健康診査）",
+      "shortName": "４歳児歯科健康診査",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。【4歳児】歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "４歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "http://www.town.hachijo.tokyo.jp/kokasen/wp-content/uploads/2016/04/6ffc5a0436b28d855f1d36e25bd6c2bd.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ロタテック）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種対象期間は生後６週から３２週（ロタリックスは２４週）\n初回接種は通常、生後２か月～１４週６日までに接種　※１５週以降の初回接種は副反応等の安全性の観点からお勧めしていません。\n接種間隔は２７日以上の間隔をあけて接種（回数は上記のとおり）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（四種混合（ＤＰＴ-ＩPV））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後２ヶ月※から接種可能。接種間隔を２０日以上あけて初回３回を接種。３回目接種後１２月～１８月の間隔をあけて４回目接種。\n※令和５年４月より接種開始時期変更　生後３か月→生後２か月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（BCG）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後１歳に達するまでに接種しますが、標準的な接種期間は生後５ヶ月～８ヶ月に達するまでの間です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（麻しん・風しん混合（ＭＲ））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "１歳になったら第１期接種を１回、小学校入学前１年間（保育園年長相当）に第２期接種を１回。合計２回接種",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（水ぼうそう（水痘））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "【対象者】\n生後１２月から３６月（１歳と２歳）に至るまでの水痘既往歴の無い者が対象\n【接種回数と間隔】\n１歳になったら初回接種を行い、初回接種終了後６月～１２月の間隔をあけて２回目接種",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134015+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（日本脳炎）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "標準的には３歳児に６日～２８日までの間隔で２回接種（第１期初回２回）、翌年４歳児に１回追加接種（第１期追加１回）を受け、９歳児に１回追加接種（第２期）します。（合計４回接種）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.town.hachijo.tokyo.jp/kakuka/kenkou/vaccination.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "133817",
+  "programs": [
+    {
+      "psid": "psid3.0+4000020133817+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠の届出・母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "三宅村にお住まいで、医療機関で妊娠の診断を受けられた方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "おやこっこルーム",
+      "summary": "育児の悩みを話し合い、仲間作りの場となる教室を開催しています。保健師による相談コーナーもあります。",
+      "targetPersons": "0歳から小学校入学前のお子さんを対象",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "通園支援助成事業",
+      "summary": "保育園に送迎している保護者に通園費用の一部を支援する",
+      "targetPersons": "みやけ保育園に入所している児童で下記の要件に当てはまる世帯が申請できます。\n①１・2歳児クラス　②阿古又は坪田地区在住　③通園バスを利用している兄弟姉妹がいない世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "三宅村子育て広場",
+      "summary": "三宅村では阿古福祉会館を子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/jidou_boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM112",
+      "name": "子育て広場",
+      "shortName": "三宅村子育て広場",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、三宅村サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/jidou_boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "みやけキッズパス",
+      "summary": "みやけキッズパスは、三宅村営バスの全区間乗車自由なパスの交付を行い、児童の活発な交流を促し、健全な次代の育成を推進するとともに、保護者の経済的負担の軽減を図り、子育て支援及び福祉の増進を目的として実施しています。",
+      "targetPersons": "三宅村内の高等学校に所属がある高校生",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/jidou_boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "義務教育の費用でお困りの方",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/kyouikuiinkai/syuugaku/enjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "赤ちゃん訪問",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "赤ちゃん訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後4か月の乳幼児・産婦",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "三宅村難病等島外通院支援事業",
+      "summary": "三宅村では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": "(6)東京都特定不妊治療費助成事業の治療のため、島外専門医療機関で受診となった者",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/gyousei/reiki/reiki_honbun/g160RG00000619.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "国民健康保険加入者",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/kokuminkenkouhoken/kyuufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM21",
+      "name": "出産祝い",
+      "shortName": "子育て応援手当",
+      "summary": "出産日前及び出産日以降を通じて1年以上居住された方に出産後出産祝い金を支給します。",
+      "targetPersons": "手当は、出産を支援する「出産応援手当」、小学校・中学校・高等学校入学時に子育てを支援する「入学応援手当」の2つの手当があります。いずれの手当も平成31年4月1日以降に出生したお子さんが対象となります。\n\n※申請する方の世帯に、村税、使用料等に滞納がある方がいる場合は支給できません。\n\n□出産応援手当\n\n新生児の保護者で、出産日前及び出産日以降を通じて1年以上引き続き三宅村の住民基本台帳に登録され、現に居住している方が対象となります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産に係る交通費及び宿泊費の助成",
+      "summary": "出産に係る渡航費（船代・飛行機代）を往復5回、宿泊費１泊2,000円×74泊",
+      "targetPersons": "母子手帳の交付を受け、三宅村の住民基本台帳に登録され、現に居住している妊産婦の方が対象となります。\n\n※申請する方の世帯に、村税、使用料等に滞納がある方がいる場合は支給できません。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "小学校就学前の乳幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "保育園運営",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "三宅村に住所があり、保護者が以下の状況に該当して、家庭で児童を保育することができないと認められる場合、かつ、同居の親族その他の者が当該児童を保育することができないと認められる場合に認定を行い、保育を利用することができます。\n\n1月当たりの就労時間が64時間以上の労働に従事していること\n妊娠中であるか、又は出産後間がないこと\n疾病にかかり、若しくは負傷し、又は精神若しくは身体に障害を有していること\n同居の親族(長期間入院している親族を含む。)を常時介護又は看護していること\n震災、風水害、火災その他の災害の復旧に当たっていること\n求職活動を継続的に行っていること\n就学していること\n児童虐待を行っている又は再び行われるおそれがあること\n配偶者からの暴力により子どもの保育を行うことが困難であること\n育児休業取得時に、既に保育を利用している子どもがいて継続利用が必要であること\n前各号に類する事由であると村長が認める場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3歳児クラス以上は無料です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "下記のいずれかの状態にある18歳年度末までの児童(中度以上の障がいの程度にある20歳未満の児童を含む)を養育している方に支給されます｡所得制限があります。\n\n父母が婚姻解消\n父または母が死亡\n父または母が重度の障がい\n父または母が生死不明\n父または母が児童を引き続き1年以上遺棄している\n父または母が法令により引き続き1年以上拘禁されている\n婚姻によらないで出生した児童\n所得制限\n所得制限額表 一覧\n|扶養人数|申請者(全部支給)|申請者(一部支給)|扶養義務者・配偶者|\n|:----|:----|:----|:----|\n|0人|190,000円|1,920,000円|2,360,000円|\n|1人|570,000円|2,300,000円|2,740,000円|\n|2人|950,000円|2,680,000円|3,120,000円|\n|3人|1,330,000円|3,060,000円|3,500,000円|\n|4人|1,710,000円|3,440,000円|3,880,000円|\n|5人以降|1人増えるごとに380,000円加算|1人増えるごとに380,000円加算|1人増えるごとに380,000円加算|\n\n(注)扶養義務者とは申請者と同居している直系血族(父母、祖父母、子、孫など)および兄弟姉妹のことです。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "対象者\n児童を監護しているひとり親家庭等の母又は父\n両親がいない児童などを養育している養育者\nひとり親家庭等の児童又は養育者に養育されている児童で、18歳に達した日の属する年度の末日(障害がある場合は20歳未満)までの方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母、同居者、出産に立ち会った医師、助産師の順序",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/todokede_syoumei/koseki_juumin/koseki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、三宅村では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳児健康診査(3～4ヶ月)",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3か月児健康診査を実施しています。",
+      "targetPersons": "乳児健康診査(3～4ヶ月)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6ヶ月健康診査(6～7ヶ月)",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から12か月児を実施しています。",
+      "targetPersons": "6ヶ月健康診査(6～7ヶ月)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間相当分の保険税の免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "令和5年11月以降の、出産予定または出産した国民健康保険の被保険者(加入者)を含む世帯が対象となります。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonmin/news/2023-1218-1013-10.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療(育成医療)",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "下記のいずれにも該当すること。\n\n保護者が三宅村に在住し、児童が満18歳未満であること\n身体に障害があること\n手術等により確実な治療効果が期待できること",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/syougaisya/shintai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査(おおよそ1歳7か月ごろ)",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。三宅村では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月児健康診査(おおよそ1歳7か月ごろ)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査(おおよそ3歳3か月ごろ)",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。三宅村では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児健康診査(おおよそ3歳3か月ごろ)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後1歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち三宅村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "生後２ヶ月より接種可能",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM576",
+      "name": "児童遊園",
+      "shortName": "児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n三宅村の児童遊園の一覧は、三宅村サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/jidou_boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "子育て応援手当",
+      "summary": "三宅村では出産から子育てまで切れ目なく継続的に支援する「子育て応援手当」を支給いたします。手当は、出産を支援する「出産応援手当」、小学校・中学校・高等学校入学時に子育てを支援する「入学応援手当」の2つの手当があります。",
+      "targetPersons": "手当は、出産を支援する「出産応援手当」、小学校・中学校・高等学校入学時に子育てを支援する「入学応援手当」の2つの手当があります。いずれの手当も平成31年4月1日以降に出生したお子さんが対象となります。\n\n※申請する方の世帯に、村税、使用料等に滞納がある方がいる場合は支給できません。\n\n□入学応援手当\n\n村内の小学校・中学校・高等学校のそれぞれ1学年に入学する児童及び生徒の保護者で、入学時の1年以上前から引き続き三宅村の住民基本台帳に登録され、現に居住されている方が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "育成手当て",
+      "summary": "父または母が死亡、離婚またはこれと同様の状態にある母子家庭・父子家庭などに手当が支給されます。",
+      "targetPersons": "村内に住所があり、以下のいずれかの状況にある、18歳になった最初の3月31日までの児童を養育している人に支給されます。\n\n父または母が死亡している\n父または母が生死不明である\n父または母に1年以上遺棄されている\n婚姻によらずに生まれた\n父母が離婚している\n父または母が法令により1年以上拘禁されている\n父または母に重度の障害(身体障害者手帳1、2級程度)がある\nただし、以下のいずれかに該当する場合は支給されません。\n\n児童が児童福祉施設等に入所しているとき\n児童が父母と生計を同じくしているとき\n児童が父(母)および父(母)の配偶者と生計を同じくしているとき(事実上の配偶者も含みます)",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "20歳未満で法令により定められた程度の障害の状態にある障害児を養育する父母又は養育者\n(注)対象児童の障害状態については、申請者から提出された診断書に基づき東京都の医師が審査して認定します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性疾患医療費助成制度",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "18歳未満で、小児慢性疾患の対象疾患及び当該疾患の状態が認定基準に該当する児童が対象となります。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "育成医療費助成",
+      "summary": "18歳未満の方で機能障害(将来機能障害が見込まれるものも含む)があり、入院・手術により機能回復が見込まれる者に育成医療費の助成を行っています。",
+      "targetPersons": "18歳未満の方で下記の機能障害(将来機能障害が見込まれるものも含む)があり、入院・手術により機能回復が見込まれる者\n\n肢体不自由\n視覚障害\n聴覚・平衡障害\n音声・言語・そしゃく機能障害\n心臓障害\n腎臓障害\nその他の先天性内臓障害\nヒト免疫不全ウイルスによる免疫機能の障害",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "育成手当て(障害者)",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、育成手当（障害手当）を支給しています。",
+      "targetPersons": "支給対象\n次のいずれかの障害を有する20歳未満の児童を扶養している人\n\n愛の手帳1～3度程度の知的障害\n身体障害者手帳1級・3級程度の身体障害\n脳性まひ又は進行性筋萎縮症\nただし、以下の場合は、支給されません。\n\n児童が児童福祉施設などの施設に入所しているとき\n保護者の前年の所得が別に定める限度額以上のとき",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産などで都外医療機関にて妊婦健康診査を受診した方",
+      "summary": "三宅村にお住まいの妊婦さんが、里帰り出産などで三宅村の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "対象\n妊婦健診を受診した日において三宅村に住民登録がある方。\n申請日現在、三宅村に住民登録がある方。\n都内妊婦健康診査委託医療機関以外で受診していること、または東京都内および都外の助産所で受診していること。(日本国内に限る)\n妊婦健康診査受診票(または超音波検査受診票)の未使用分があること。\n超音波検査の回数は4回。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定（2号・3号）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "三宅村に住所があり、保護者が以下の状況に該当して、家庭で児童を保育することができないと認められる場合、かつ、同居の親族その他の者が当該児童を保育することができないと認められる場合に認定を行い、保育を利用することができます。\n\n1月当たりの就労時間が64時間以上の労働に従事していること\n妊娠中であるか、又は出産後間がないこと\n疾病にかかり、若しくは負傷し、又は精神若しくは身体に障害を有していること\n同居の親族(長期間入院している親族を含む。)を常時介護又は看護していること\n震災、風水害、火災その他の災害の復旧に当たっていること\n求職活動を継続的に行っていること\n就学していること\n児童虐待を行っている又は再び行われるおそれがあること\n配偶者からの暴力により子どもの保育を行うことが困難であること\n育児休業取得時に、既に保育を利用している子どもがいて継続利用が必要であること\n前各号に類する事由であると村長が認める場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "認可保育所（保育園）の利用について",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": "保護者が働いていたり病気などの理由で、家庭内で保育を十分に受けられない満1歳~就学前のお子さんを、保護者にかわって保育する児童福祉施設です。\n三宅村に住所があり、保護者が以下の状況に該当して、家庭で児童を保育することができないと認められる場合、かつ、同居の親族その他の者が当該児童を保育することができないと認められる場合に認定を行い、保育を利用することができます。\n\n1月当たりの就労時間が64時間以上の労働に従事していること\n妊娠中であるか、又は出産後間がないこと\n疾病にかかり、若しくは負傷し、又は精神若しくは身体に障害を有していること\n同居の親族(長期間入院している親族を含む。)を常時介護又は看護していること\n震災、風水害、火災その他の災害の復旧に当たっていること\n求職活動を継続的に行っていること\n就学していること\n児童虐待を行っている又は再び行われるおそれがあること\n配偶者からの暴力により子どもの保育を行うことが困難であること\n育児休業取得時に、既に保育を利用している子どもがいて継続利用が必要であること\n前各号に類する事由であると村長が認める場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM780",
+      "name": "休日保育",
+      "shortName": "土曜保育",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "三宅村学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者の方が昼間家庭にいない小学校児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/kyouikuiinkai/gakkou/jidou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "三宅村の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/renrakusaki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "幼児教育・保育施設の保育料について",
+      "summary": "子ども・子育て支援新制度による給付を受ける認可保育園の保育料（利用者負担額）は、国が定めた額を上限として、三宅村が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。",
+      "targetPersons": "保護者が働いていたり病気などの理由で、家庭内で保育を十分に受けられない満1歳~就学前のお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療(精神通院)",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/syougaisya/seishin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "入園していない園児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター事業",
+      "summary": "三宅村のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、援助会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "利用会員（育児の手助けが必要な方）\n生後6ヶ月から小学校2年生程度の児童をお持ちで、この事業に理解のある方。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/hoken_nenkin_fukushi/fukushi/jidou_boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育所・認定こども園（保育園枠）一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、三宅村内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": "保護者が働いていたり病気などの理由で、家庭内で保育を十分に受けられない満1歳~就学前のお子さんを、保護者にかわって保育する児童福祉施設です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "満1歳～ 3歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "１期初回接種２回\n生後6ヶ月～ 7歳半まで\n1期追加１回\n生後6ヶ月～ 7歳半まで\n２期\n満9歳～13歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "ジフテリア破傷風（二種混合）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "満11歳～13歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "子宮頸がん予防ワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "13歳～16歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "１・２歳児クラスは住民税非課税世帯の児童に加えて、令和５年10月より、第２子以降の児童も無料になりました。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kakuka/sonminseikatsu/teate_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9ヶ月健康診査(9～10ヶ月)",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から12か月児を実施しています。",
+      "targetPersons": "9ヶ月健康診査(9～10ヶ月)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/seikatsu_kankyou/ikuji_kyouiku/ninpu_nyuuyouji/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後２ヶ月～ ５歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち三宅村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "満1歳以上",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "Hibワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2ヶ月～ 5歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "インフルエンザ",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち三宅村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "生後6ヶ月以上",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌ワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後６週～２４週",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス（1価）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後６週～２４週",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス（5価）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後６週～３２週",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後1歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "ジフテリア百日せき　破傷風　不活性ポリオ（四種混合）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後3ヶ月～ 7歳半まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+4000020133817+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "１期（ＭＲ）\n満1歳～２歳まで\n２期（ＭＲ） \n満5歳～7歳まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.miyake.tokyo.jp/kurashi/kenkou_iryou/files/yobousessyuR210neu.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

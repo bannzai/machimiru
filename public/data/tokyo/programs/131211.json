@@ -1,0 +1,1904 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131211",
+  "programs": [
+    {
+      "psid": "psid3.0+2000020131211+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "区内在住の妊娠された方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-shussho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "あだちはじめてえほん事業",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "足立区内に在住し、3～4か月児健診、1歳6か月児健診の対象となっている乳幼児親子",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/toshokan/adachihajimeteehon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ファーストバースデーサポート",
+      "summary": "1歳を迎えるお子さんがいるご家庭を応援します\n令和３年４月１日から、区内在住の1歳を迎えるお子さんがいるご家庭の子育てを応援するために、育児パッケージを配付するとともに、子育て支援の情報提供、ご家庭の状況把握や相談支援を行う「ファーストバースデーサポート」を開始しました。",
+      "targetPersons": "1.令和6年４月１日以降に1歳を迎えるお子さんと住民票を同一にし、そのお子さんを養育している方\n2.1歳を迎える月の初日に、そのお子さんとともに足立区に住民登録がある方\n1、2いずれにも該当し、お子さんの1歳を迎える月にお送りする「子育てに関するアンケート」を期日までに足立区役所保健予防課へ返送していただいた方に育児パッケージを配付します。\n\nただし、育児パッケージの配付には、アンケートが保健予防課へ到着した時点で1歳を迎えるお子さん、対象者ともに足立区に住民登録がある必要があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/firstbirthday.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM108",
+      "name": "児童館",
+      "shortName": "足立区の児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n足立区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、足立区サイトや市報などでお知らせしています。）",
+      "targetPersons": "児童館には、ひろば・図書コーナー・工作室（一部児童館を除く）があり、0歳から18歳未満の児童の遊び場、居場所として過ごすことが出来ます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/juku/k-kyoiku/kosodate/tsudoinoba-jidokan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "こども支援センターげんき",
+      "summary": "こども支援センターげんきは、子育てやしつけ、教育に関する相談に対応し、家庭及び学校への支援などをおこなう総合相談窓口です。また、虐待の通告先の第一義的相談機関としての役割も果たしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-sienkanri/kyouikusoudansenta-.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "足立区の住区（コミュニティ）センター（児童館・悠々館・学童保育室・集会施設）",
+      "summary": "住区センターは、児童の健全育成のための「児童施設」、放課後に子どもが安心して過ごせる生活の場「学童保育室」、高齢者の生きがいづくりのための「高齢者施設」、地域住民の学習や交流のための「集会施設」を複合し、乳幼児から高齢者までが、様々なかたちで利用することができます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/juku/jyuukusennta-.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てサロン",
+      "summary": "区内の子育てサロンは、０歳から３歳児までのお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、足立区ホームページなどでお知らせしています。）",
+      "targetPersons": "0歳から3歳児のお子さんとその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/juku/k-kyoiku/kosodate/tsudoinoba-salon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM114",
+      "name": "小児科救急",
+      "shortName": "平日夜間小児初期救急診療（小児科）※中学生以下の小児",
+      "summary": "足立区では、小児科医がローテーションを組んで、平日夜間（年末年始を除く）に、中学生以下の方の救急診療を行っています。",
+      "targetPersons": "中学生以下の小児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/esekanri/fukushi-kenko/kyubyo/kyujitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM119",
+      "name": "足立区の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "子ども自身からの相談、子育て中の保護者からの子育ての不安や悩み、困っていることや分からないことなど、お気軽にご相談ください。その日のうちに相談を開始します。\n\n子ども自身からの相談・子育て中の保護者からの子育て相談も受け付けています。",
+      "targetPersons": "子ども（18歳未満）\n子育て中の父母または養育者\n子育てに関係している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-sienkanri/kyouikusoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "重度心身障害者手当",
+      "summary": "心身に重度の障害を有するため、常時複雑な介護を必要とする方に対して、東京都の条例により支給される手当です。",
+      "targetPersons": "65歳未満で、心身に次のいずれかの障がいを有する方\n重度の知的障がいであって、日常生活について常時複雑な配慮を必要とする程度の著しい精神症状を有する\n\n重度の知的障がいとは、愛の手帳で1、2度相当を指します。\n「重度の知的障がい」のみでは対象とならず、次のような著しい精神症状を伴うものが対象となります。\n\n問題行動が多く常時目が離せない、難治性のてんかんなど\n重度の知的障がいと重度の身体障がいが重複する\n\n重度の知的障がいとは、愛の手帳で1、2度相当を指します。\n重度の身体障がいとは、おおむね身体障害者手帳1、2級相当を指します。\n\n重度の肢体不自由で、両上肢・両下肢とも機能が失われ、かつ、座っていることが困難な程度以上の身体障がいを有する\n\n「機能が失われている」とは、回復困難な重度の身体障がい（身体障害者手帳では、両上肢・両下肢・体幹それぞれが機能全廃相当）により全く実用に供せない状態をいいます。\n「座っていることが困難」とは、何かの支えがなければ座っていることができない状態です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-judoshinshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助（区内、区外小・中学校共通）",
+      "summary": "経済的な理由により就学が困難と認められる、小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費などを支給します。",
+      "targetPersons": "区内にお住まいで、小・中学校等に在籍する児童・生徒の保護者の方で次のアからエに該当する方\n\nア　生活保護を受けている世帯\nイ　前年度中に生活保護の廃止・停止を受けた世帯\nウ　児童扶養手当(ひとり親世帯等)を受給している世帯(児童手当や児童育成手当とは異なります)\nエ　令和５年分の世帯全員の合計所得が基準未満と思われる等\n　　　※収入が無くても区役所課税課にて住民税の申告が必要です",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/gakumu/k-kyoiku/shochu/tetsuzuki-shugaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "生後３か月以内のお子さんとそのお母さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-konnichiha.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "生後3か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後3か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後３か月以内のお子さんとそのお母さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-konnichiha.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（デイサービス型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、ＮＰＯにおいてデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "足立区に住所がある方\n\n・利用希望日現在、産後１年未満のお母さんと赤ちゃん\n\n・育児に関して不安や心配のある方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/fukushi-kenko/kenko/sangokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "足立区特定不妊治療費（先進医療）助成",
+      "summary": "足立区では、東京都特定不妊治療費（先進医療）助成事業の決定を受けた方に対し、体外受精及び顕微授精を行う際に、保険適用と併せて自費で実施された「先進医療」にかかる費用の一部を助成します。",
+      "targetPersons": "（１）東京都特定不妊治療費（先進医療）助成事業の承認決定を受けている方\n\n（２）申請日時点において足立区に住民登録がある方（夫婦のいずれかで可）\n\n※　区外転出の予定がある方は事前にご相談ください。\n\n（３）申請内容と同一の治療について、他自治体で同種の助成を受けていない方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/fukushi-kenko/kenko/jose-adachifunin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等の医療費助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "対象者\n区内に住民登録のある妊産婦で、次の1または2に該当する方\n\n1.前年分の所得税額が30,000円以下の世帯に属する方\n※生活保護世帯に属する方は対象になりません。\n2.入院見込み期間が26日以上の方\n対象疾病\n1.妊娠高血圧症候群及びその関連疾患\n2.糖尿病及び妊娠糖尿病\n3.貧血\n4.産科出血\n5.心疾患\n※疾病については症状の基準がありますので、くわしくはお問い合わせください。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-koketsuatsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "出産または妊娠85日以上で流産・死産（人工中絶も含む）した方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kokuho/kurashi/hoken/2701kokuhonokyuufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティーマーク",
+      "summary": "足立区では、妊娠の届出の際に、母子健康手帳と共にマタニティマーク入りキーホルダーをお渡ししています。",
+      "targetPersons": "妊産婦の方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-mar.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "育児パッケージ",
+      "summary": "足立区では、保健師等が妊娠された方と面接を行い、妊娠期からの切れ目ない支援を行うとともに、育児に必要な物品（こども服等）との交換やタクシー乗車に使用できる「こども商品券」を育児パッケージとして配付しています。",
+      "targetPersons": "育児パッケージを受け取るには、以下3点すべてを満たす必要があります。\n\n１　面接日時点で足立区に住所を有すること\n２　足立区に妊娠届出書または転入妊婦アンケートを提出していること\n３　足立区の保健師等と妊婦本人が、妊娠中に面接を行うこと",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/smilemamamensetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子ども医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "足立区内に住民登録があり、健康保険に加入している、出生から高校生相当（18歳に達した日以降の最初の3\n月31日まで）お子さまを養育している保護者の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-iryohijose.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2365",
+      "name": "企業主導型ベビーシッター利用者支援事業",
+      "shortName": "ベビーシッター利用支援事業（一時預かり利用支援）",
+      "summary": "仕事や職場復帰のために利用する民間のベビーシッター費用や、多胎児（双子や三つ子など）を養育しているご家庭で、民間のベビーシッターを利用した場合の利用料の一部を助成します。\n本制度は、「企業主導型ベビーシッター利用者支援事業」として内閣府が行うもので、利用者は、務め先の事業主から交付を受けた割引券を使用することで、利用料の割引を受けることができます。",
+      "targetPersons": "対象者となる方\n足立区に住所を有する保護者（対象児童の方も足立区に住所を有する必要があります）\n\n保育の理由、保育認定の有無は問いません。\n保育園や幼稚園を利用している方、育児休業中の方もご利用いただけます。\n対象児童\n未就学児（０歳から満６歳に達する年度の末日まで）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2366",
+      "name": "高等学校卒業程度認定試験合格支援事業給付金",
+      "shortName": "ひとり親家庭高校卒業程度認定試験合格支援事業",
+      "summary": "ひとり親家庭の就職や転職の可能性を広げ、自立につなげていくため、ひとり親家庭の親またはお子さん（２０歳未満）が高卒認定試験合格のための講座（通信講座を含む）を受け、これを修了した時および合格したときに受講費用の一部を支給します。",
+      "targetPersons": "次の要件をすべて満たすことが必要です。\n\n・足立区内に住所を有するひとり親家庭等の親（注）で20歳未満のお子さんを扶養している方。またはそのお子さん（20歳未満）\n・児童扶養手当の支給を受けているか、または同等の所得水準にある方。またはそのお子さん（20歳未満）\n・大学入学資格のない方（高校、高等専門学校、中等教育学校などを卒業していない方）\n・過去にひとり親家庭高校卒業程度認定試験合格支援事業給付金の支給を受けていない方\n（注）児童扶養手当受給中の方でひとり親ではない方も対象となる場合があります。くわしくはご相談ください。\n\n※生活保護を受給中の方は、担当のケースワーカーにご相談ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-shuro.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "・３歳から５歳児クラスまでのお子さん\n\n・住民税非課税世帯の０歳から２歳児クラスまでのお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/yojikyoikuhoikumusyoka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の認可外保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）;https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.htmlについては、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/ninnkagai_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設（認証保育所、企業主導型保育事業を除く）",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、東京都認証保育所、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/20211124ninnkagaihoikusisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-jidoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッター利用支援事業",
+      "summary": "ベビーシッターを利用する際の費用の一部を負担する制度です｡\nお子さんが病気で保育園や小学校に登園・登校させることが困難な時期に、ベビーシッターなどの派遣を受けた保護者に対し、派遣に要した費用の一部を助成することにより、保護者の経済的な負担の軽減をはかり、保護者の子育てと就労の両立を支援します。",
+      "targetPersons": "対象者となる方\n足立区に住所を有する保護者（対象児童の方も足立区に住所を有する必要があります）\n\n保育の理由、保育認定の有無は問いません。\n保育園や幼稚園を利用している方、育児休業中の方もご利用いただけます。\n対象児童\n未就学児（０歳から満６歳に達する年度の末日まで）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "下記のいずれかの状態にある18歳に到達した年度末までの児童（政令で定める程度以上の障がいの状態にある20歳未満の児童を含む）を養育している方に支給されます。所得制限があります。\n\n父母が婚姻解消\n父または母が死亡\n父または母が政令で定める程度の障がい\n父または母が生死不明\n父または母が児童を引き続き1年以上遺棄している\n父または母が裁判所からのDV保護命令を受けた（平成24年8月から）\n父または母が法令により引き続き1年以上拘禁されている\n母が婚姻によらないで出生した児童\n★ただし次のような場合は手当を受けることができません。\n\n父母が再婚している場合や事実上の婚姻状態にある場合\n児童が児童福祉施設などに入所している",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-fuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "足立区内に住所があり、健康保険に加入している方で、下記の児童（児童が18歳になった年の年度末まで、規則で定める程度の障がいをもつ児童は20歳未満）とその児童を養育しているひとり親家庭等の方\n\n父母が婚姻を解消した児童\n父または母が死亡した児童\n父または母が規則で定める程度の障がいにある児童\n父または母の生死が明らかでない児童\n父または母に引き続き一年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた（平成24年8月から）\n父または母が法令により引き続き一年以上拘禁されている児童\n母が婚姻によらないで出生した児童\nただし、次の項目に該当するときは受けることができません\n\n申請者、配偶者、扶養義務者の前々年の所得が所得限度額以上の家庭\n生活保護受給中の方\nマル乳医療証、マル子医療証、マル青医療証、マル障医療証を交付されている方\n児童福祉施設（一部施設は受給可）などに入所している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-hitorioya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療の給付",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "区内に住所を有する、出生時の体重が2.000g以下か、2.000g以上でも生活力が特に弱い新生児で、指定医療機\n関の医師が入院養育を必要と認めた方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/teate-mijukuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母（婚姻していない男女間で生まれた子は母）父母が届出をできない場合はご相談ください",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/koseki/kurashi/todokede/koseki-todokede.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "ファミリー学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、足立区では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "区内に住所を有する妊婦とパートナー等",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-gakkyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "足立区あんしん子育てナビ",
+      "summary": "足立区あんしん子育てナビは、妊娠中・育児に関する情報やアドバイス、予防接種のスケジュール管理やメールでの接種のリマインド、乳幼児健診の記録機能など、役立つ機能が満載の情報提供サービスです。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/kosodatenabi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産制度（出産費用の助成）",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、足立区の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "概ね妊娠7カ月以上の区民の方で住民税非課税世帯など、対象要件に該当すれば、事前申請により「入院助産制度」を受けることができます。\n※助産施設として認可されている病院・産院に入院することが条件です。\n対象者の要件等くわしくは、お住まいの地域を担当する足立福祉事務所各福祉課へご相談、お問い合わせください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/seiho-sidou/ninshin-shussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "夜間・休日急病診療所",
+      "summary": "足立区では、日曜日、祝日および年末年始の昼間及び準夜間（足立区医師会館および竹の塚休日応急診療所の内科・小児科）に、発熱や腹痛などのうち、症状の軽い方に対する応急診療を行っています。",
+      "targetPersons": "小児の急病",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/esekanri/fukushi-kenko/kyubyo/kyujitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM47",
+      "name": "足立区の妊娠・出産に関する相談",
+      "shortName": "妊娠相談ほっとライン",
+      "summary": "東京都では、都内にお住まいの方を対象に、妊娠や出産に関する様々な悩みについて、電話やメールで相談に応じています（匿名可）。看護師などの専門職が対応し、内容に応じて適切な関係機関の紹介も行います。",
+      "targetPersons": "都内にお住まいの方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/ninnshinnayami.html#p1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳幼児健康診査（6か月未満児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6か月未満児健康診査を実施しています。",
+      "targetPersons": "区内に住民登録のある３か月前日から５か月前々日までの乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-nyuji3-4-6-9.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳幼児健康診査（6か月から12か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から12か月児を実施しています。",
+      "targetPersons": "区内に住民登録のある以下の乳児\n\n6か月児健康診査…6か月前日から8か月前々日まで\n9か月児健康診査…9か月前日から11か月前々日まで\n※対象期間を過ぎた場合、無料による健診をお受けになることはできません。\n※他の市区町村から転入された方は、管轄の保健センター等にお問い合わせください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-nyuji3-4-6-9.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5009",
+      "name": "産婦健康診査の費用助成",
+      "shortName": "妊婦健康診査",
+      "summary": "産後の初期段階における母子に対する支援を強化し、妊娠期から子育て期にわたる切れ目のない支援を行うため、出産後間もない時期の産婦に対する健康診査費用を助成します。産婦健康診査は産後2週間、産後１か月など出産後間もない時期の産婦向けの健康診査で、母体の身体的機能の回復や授乳状況、精神状態の把握を行います。",
+      "targetPersons": "区内に住民登録のある妊婦の方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-ninpu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査費用助成",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "都内に住所を有する者の子で、生年月日が平成31年4月1日以降であること。\n生後50日に達する日までに実施する初回検査であること。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/sinseijityoukaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "東京都不育症検査助成",
+      "summary": "不育症とは、妊娠したものの流産・死産を2回以上繰り返すことをいいます。検査により不育症のリスク因子を特定し、適切な治療及び出産につなげることができるよう、不育症検査に係る費用の一部を助成しています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/fukushi-kenko/kenko/jose-adachifunin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "あだち出産・子育て応援事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "以下のいずれかに該当する区民の方\n\n1令和5年4月1日以降に日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%87%BA%E7%94%A3%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n2令和5年4月1日以降に生まれたお子さまを養育する方→子育て応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%AD%90%E8%82%B2%E3%81%A6%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n3令和4年4月1日から令和5年3月31日までの間に、日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n4令和4年4月1日から令和5年3月31日までの間に生まれたお子さまを養育する方（産婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE＋子育て応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n※いずれのギフトもクーポン（ギフトカード）にて支給し、東京都の専用WEBサイトから申請いただくことで、家事・育児支援用品等を提供いたします。詳細は東京都のホームページ;https://www.fukushi.metro.tokyo.lg.jp/kodomo/shussan/tokyo_shussankosodateouen.htmlをご確認ください。\n\n妊娠届出後に流産・死産された方や、出生届出後お子さまがお亡くなりになった場合も支給対象となります。詳細は保健予防課保健予防係（03-3880-5892）へお問い合わせください。\n\n＜以下のいずれかに該当する場合は対象外となります＞\n\n1対象となる妊娠・出産に係る同様のギフトをすでに受給している方（他自治体での支給を含む）\n2令和4年3月31日以前のご出産（※）\n3「妊娠期から子育て期にわたる切れ目のない支援（伴走型相談支援;https://www.cfa.go.jp/cmp-2023cfa5/）」に必要となる場合における情報共有等に同意いただけない方\n※「東京都出産応援事業;https://www.city.adachi.tokyo.jp/hoken/shussanouennjyugyou.html」の該当となる場合がございますのでご確認ください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "あだち放課後子ども教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/seshonen/k-kyoiku/kyoiku/k-kyoshitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険料の免除制度",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "令和5年11月1日以降に出産（予定）した方で、免除対象期間に足立区の国民健康保険に加入している方\n\n※妊娠期間が85日以上の方が対象です。\n\n※早産・流産・死産（人工中絶を含む）の場合も対象です。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kokuho/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども食堂",
+      "summary": "子ども食堂は、子どもを中心としたみんなの居場所であり、無料または低額で食事も提供する場です。",
+      "targetPersons": "子どもや親子だけでなく、高齢者の方など様々な方が参加できるところもあります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/sesaku/adachiku-kodomosyokudo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "保護者が足立区内に住所を有する、18歳未満の児童。\n※児童の住所要件はありません。施設入所等で区外在住でも対象になります。\n身体に以下の機能障がいがある方。または放置する将来において機能障がいを残すと認められる方。\n1)肢体不自由\n2)視覚障がい\n3)聴覚・平衡機能障がい\n4)音声・言語・そしゃく機能障がい\n5)心臓機能障がい\n6)腎臓機能障がい\n7)小腸機能障がい\n8)肝臓機能障がい\n9)その他の先天性内蔵機能障がい\n10)免疫機能障害（ヒト免疫不全ウイルスによる免疫機能障がい）\n手術等により確実な治療の効果が期待できるもの、治療後に機能回復が見込まれること。\n保険適用となる治療であること\n自立支援医療（育成医療）指定医療機関で治療すること。\n「世帯」の住民税（所得割）が23万5千円未満であること。\n世帯の住民税所得割が23万5千円以上の場合は対象外ですが、「重度かつ継続」に該当するときは対象になります。\n\n「重度かつ継続」とは\n「重度かつ継続」は、「高度な治療を長期間にわたって継続しなければならない者」として、以下のものが対象になります。\n\n心臓機能障がい（心臓移植後の抗免疫療法）\n腎臓機能障がい(腎移植術、透析療法とこれに伴う医療）\n小腸機能障がい（継続して行う中心静脈栄養法とこれに伴う医療）\n肝臓機能障がい（肝臓移植後の抗免疫療法）\n免疫機能障がい\n医療保険の多数該当（申請前の12か月以内に医療保険の高額療養費支給月数が3か月以上ある世帯）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/chuo-h/fukushi-kenko/shinshin/iryo-ikuse.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "医療的ケアが必要なお子さんの保育",
+      "summary": "区立保育所において看護師を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": "保育時間中に医療的ケアを必要とする1歳児クラス以上のお子さん",
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-sienkanri/iryoutekicare-giudeline.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。足立区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月前日から1歳8か月前々日までの、区内に住所を有する幼児\n（歯科健康診査は2歳前々日まで受診可）\n\n※対象期間を過ぎた場合、無料による健診をお受けになることはできません。\n※他の市区町村から転入された方は、管轄の保健センター等にお問い合わせください。\n※里帰り中のため区外で受診を希望する場合は、保健予防係（03-3880-5892）へお問い合わせください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-1sai6.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。足立区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "３歳前日から４歳前々日までの、区内に住所を有する幼児\n\n対象期間を過ぎた場合、無料による健診をお受けになることはできません。\n他の市区町村から転入された方や、里帰りなどの理由により区外受診を希望される場合は、事前に管轄の保健センター等へお問い合わせください。\n実施内容",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-3toshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "親子はじめて歯科健診「こんにち歯ひろば」",
+      "summary": "足立区では、歯の生えはじめの時期に、お子さんと保護者の方を対象に、歯科健診や歯みがき準備の体験ができる教室を実施します（無料）。",
+      "targetPersons": "９か月から１歳２か月のお子様と保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/takenotsuka-h/cyuuripputaisou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "予診票送付の時期及び法定年齢\n|種類|通知方法|接種回数|法定接種年齢|実施方法|\n|:----|:----|:----|:----|:----|\n|ロタウイルス|２か月に至る月に予診票を郵送|(ロタリックス)２回<br>（ロタテック）３回|（ロタリックス）生後６週から２４週まで<br>（ロタテック）生後６週から３２週まで|２３区内指定医療機関で接種|\n|小児用肺炎球菌|^|４回|２か月の前日から５歳の誕生日の前日まで|^|\n|Ｂ型肝炎|^|３回|１歳の誕生日の前日まで|^|\n|五種混合<br>（DPT-IPV-Hib）|^|４回|２か月の前日から７歳６か月の前日まで|^|\n|Ｂ Ｃ Ｇ|５か月に至る月に予診票を郵送|１回|１歳の誕生日の前日まで|^|\n|水痘|１歳の誕生月に予診票を郵送|２回|１歳の誕生日の前日から３歳の誕生日の前日まで|^|\n|麻しん風しん（ＭＲ）混合１期|^|１回|１歳の誕生日の前日から２歳の誕生日の前日まで|^|\n|おたふくかぜ ;https://www.city.adachi.tokyo.jp/hoken/otafuku.html※（任意接種）|^|１回|１歳の誕生日の前日から２歳の誕生日の前日まで|足立区内指定医療機関のみ|\n|麻しん風しん（ＭＲ）混合２期|小学校入学１年前に郵送（４月上旬）|１回|５歳から７歳未満（幼稚園等の年長児）で小学校入学前の１年間|２３区内指定医療機関で接種|\n|日本脳炎１期|３歳の誕生月の翌月に予診票を郵送|３回|６か月の前日から７歳６か月の前日まで|^|\n|日本脳炎２期|９歳の誕生月の翌月に予診票を郵送|１回|９歳の誕生日の前日から１３歳の誕生日の前日まで|^|\n|二種混合（ＤＴ）|１１歳の誕生月の翌月に予診票を郵送|１回|１１歳の誕生日の前日から１３歳の誕生日の前日まで|^|\n|ＨＰＶ（ヒトパピローマウイルス感染症）|中学１年生になる該当年度の４月に予診票を郵送|３回|小学６年生から高校１年生相当の年度末まで（女子）|^|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-yobosesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "麻しん・風しんワクチンの任意接種公費負担制度（最大2回まで助成）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち足立区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "麻しんまたは風しんにかかったことのない2歳以上18歳以下で定期接種未接種の方または1回接種の方で定期接種を打ちそびれてしまった方\n\n※令和6年度のMR定期予防接種該当者を除く",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-mr.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "ひとり親家庭自立支援教育訓練給付金",
+      "summary": "ひとり親家庭の母または父が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "足立区内に住所を有するひとり親家庭等の親（注）で20歳未満のお子さんを扶養している方\n児童扶養手当を受給しているか、同等の所得水準にある方\n教育訓練講座を受講することが、適職につくために必要であると認められた方\n過去にひとり親家庭自立支援教育訓練給付金の支給を受けていない方\n（注）児童扶養手当を受給している方でひとり親ではない方も対象となる場合があります。くわしくはご相談ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-shikakusyutoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "区内に住民登録のある妊婦の方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/k-ninpu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "ひとり親家庭高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため、養成機関において１年以上のカリキュラムを修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "足立区内に住所を有するひとり親家庭等の親（注）で20歳未満のお子さんを扶養している方\n児童扶養手当を受給しているか、同等の所得水準にある方\n修業期間1年以上の養成機関において、対象の資格の取得が見込まれる方\n就業（仕事）または育児と修業との両立が困難であると認められる方\n過去にひとり親家庭高等職業訓練促進給付金等の支給を受けていない方\n（注）児童扶養手当を受給している方でひとり親ではない方も対象となる場合があります。くわしくはご相談ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-shikakusyutoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "ひとり親家庭育児支援サービス利用料金助成事業",
+      "summary": "足立区では、ひとり親家庭自立支援教育訓練給付金事業またはひとり親家庭高等職業訓練促進給付金等事業を利用している方の「修業と子育ての両立」をサポートするために、修学期間中に実習や試験を受ける際に育児支援サービスを利用したお子さん（小学6年生まで）の一時保育や送迎等の利用料金を区が助成します。",
+      "targetPersons": "足立区内に住所を有するひとり親家庭等の親で、修学期間中に実習や試験を受ける際に育児支援サービスを利用したお子さん（小学6年生まで）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/ikujishienriyoujyosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "下記の状態にある20歳未満の児童を養育している方に支給されます。\n\n「愛の手帳」1から3度程度\n「身体障害者手帳」1から3級程度（4級の一部を含む）\n上記の手帳のない方でも、同程度の疾病もしくは身体又は精神の障がいの状態にある場合、個々の障がいは軽度でも複数の障がいがある場合は該当する可能性があります。申請をご希望の場合は一度下記までお問い合わせください。\n\n※ただし、次のような場合は手当は受けることができません。\n\n1.児童が施設に入所している方\n\n2.児童が障がいを理由とする年金をうけている方\n\n3.児童・父母・養育者が日本国内に住所を有しない方\n\n4.請求者本人などの所得が限度額を超えている方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-tokubetsujido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "精神または身体に重度の障がいがあり、日常生活において常時介護を必要とする在宅の20歳未満の方。\n\n所定の診断書により判定します。\n障害者手帳を所持していなくても、重度の障がいが認められれば対象となる場合があります。\n親子支援課の特別児童扶養手当と併給できます。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-shogaiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費の助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "小児慢性特定疾病として指定された疾病の治療を受けられる方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/teate-manseshikkan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染医療費助成制度",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "下記の要件をすべて満たしている方\n\n1.上記疾病にかかっている方\n2.東京都内に引き続き1年（3歳未満は6か月）以上住所を有する方\n3.健康保険（国民健康保険、社会保険、共済組合などの医療保険）に加入している方\n4.申請日以降喫煙しない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/esekanri/fukushi-kenko/kenko/jose-taikiosen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM69",
+      "name": "自治体独自の遺児の方への金銭的支援",
+      "shortName": "児童手当(亡くなられた時の手続き)",
+      "summary": "児童手当の受給者(手当の振込先に指定されている保護者)が亡くなられた場合、亡くなられた日で児童手当の受給資格が消滅します。亡くなられた方に代わってお子さまを養育する保護者の方は、下記の手続きが必要となります。",
+      "targetPersons": "亡くなられた方に代わってお子さまを養育する保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/kurashi/todokede/n-jidoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産等の妊婦健康診査費用等の助成",
+      "summary": "足立区にお住まいの妊婦さんが、里帰り出産などで足立区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "区内に住民登録のある妊産婦の方で、出産のため都外に里帰り等をし、都内の契約医療機関で妊婦健康診査、\n新生児聴覚検査を受診することができなかった方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-satogaeri.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料軽減制度",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "同一世帯に保護者が扶養するお子さんが２人以上いる場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "認可保育所",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": "0歳から5歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/hoikushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認定こども園（長時間利用）",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": "0歳から5歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/hoikushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "家庭的保育（保育ママ）小規模保育",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。足立区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "0歳から2歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/hoikushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "足立区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "勤務時間及び通勤時間の都合で基本の保育時間以外に保育が必要な世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM78",
+      "name": "障がい児保育",
+      "shortName": "発達支援児保育",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "発達に遅れや心配があるお子さん、障がいのあるお子さん",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/hoikushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "区内に在住する、0歳から就学前までの健康なお子さん\n\n※施設によって異なりますので、直接、施設にお問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/ichiji-kyujitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "こどもショートステイ（施設型・在宅型）",
+      "summary": "保護者の方が、病気・出産などで一時的にお子さまの養育ができず、宿泊を伴う保育が必要なときは、ご家族に代わって児童養護施設もしくは地域の養育協力家庭宅において、お子さまをお預かりし養育します。",
+      "targetPersons": "対象\n\n区内に居住する1歳6か月から12歳まで（小学生まで）の健康なお子さん\n\n※1歳6ヶ月未満のお子さまや長期でお子さまを預けざるを得ない状況の場合は、東京都足立児童相談所（03-3854-1181）までご相談ください。\n\n要件\n\n保護者の方が下記のいずれかに該当し、かつ他に養育の方法がない場合\n\n病気や出産等で入院・療養する場合\n\n家族の疾病等により、その介護に従事する場合\n\n事故・災害にあった場合\n\n出張や冠婚葬祭に出席する場合\n\n育児不安や育児疲れにより保護者の育児負担の軽減が必要な場合\n\nその他、特に必要があると区長が認めた場合（下記申込先まで個別にご相談ください）\n\n※要件の確認ができる証明等を提出していただく場合があります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-genki/k-kyoiku/kosodate/ichiji-short-stay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM783",
+      "name": "トワイライトステイ（夜間養護等事業）",
+      "shortName": "こどもトワイライトステイ事業（施設型）",
+      "summary": "保護者の方が疾病・出産・就労その他の理由により平日の夜間に不在となり、小学生のお子さんの養育が困難となった場合に、施設においてお子さんを預かり支援を行います。",
+      "targetPersons": "小学生のお子さんと同居している足立区在住で住民登録している方\n（支援の対象は小学生のお子さんとなります。）\n\n利用者の方が以下のいずれかに該当し、平日の夜間にご家庭においてお子さんを養育することが一時的に困難となったと認められた場合に利用できます。\n\n就労、冠婚葬祭により利用者の帰宅が夜間におよぶ場合\n\n親族を介護し、又は看護する場合\n\n疾病、出産等のため療養する場合　　など\n\n ※但し、施設へのお子さんの送迎ができる方に限ります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-genki/twilightstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "産前・産後家事支援事業",
+      "summary": "産前産後の妊産婦がいる家庭に家事支援ヘルパーを派遣します。",
+      "targetPersons": "区内在住で、出産予定日の6週間前から出産後3か月までの妊産婦がいる家庭。\n※足立区に住民票のあるご家庭が対象です。\n※出産にともなう入院期間中は支援の対象外とします。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/homehelp-jigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童保育室",
+      "summary": "学童保育室は、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者が就労・病気などにより昼間家庭にいないお子さんをお預かりするところです。対象となるのは区内に在住または在学する小学1年生から6年生です。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/k-gakudou/01gakudou_annnai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "赤ちゃん訪問連絡票（出生通知票）",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生連絡票（はがき）を記入して、郵送または提出してください。また、はがきに記載されている二次元コードからオンライン申請も受け付けております。出生連絡票をもとに、「こんにちは赤ちゃん事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生連絡票はその届出を兼ねています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-shussho.html#p2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "国民年金保険料の産前産後期間の免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "出産日が平成31年2月1日以降の方\n※出産とは、妊娠85日（4か月）以上の出産（早産・死産・流産および人口妊娠中絶を含む）をいいます。",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/koreiryo/kurashi/hoken/nen0019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "にこにこ離乳食",
+      "summary": "生後7,8か月頃のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "区内に住所を有し、概ね7,8か月頃の子どもの保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kokoro/fukushi-kenko/kenko/nikoniko-rinyuushoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "足立区に住民登録がある妊婦の方\n\n足立区から転出された場合、受診券は使用できません。\n出産後は受診券は使用できません。\n足立区外で受けた健診は実費になります（払い戻しはできません）。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninnpushika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立認定こども園(短時間利用=幼稚園部分)",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "４歳児クラス　平成３１年４月２日から令和２年４月１日生まれの児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/2018kodomoenn4gatu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃん休憩室",
+      "summary": "足立区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設のほか民間施設の協力を得て「おむつ替え」や「授乳」ができる赤ちゃんの駅を整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも都内の民間施設を含めて同事業を実施しており、指定施設には、入り口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "授乳やオムツ替えの必要がある乳幼児（0歳児から概ね3歳児まで）とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/shien-akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "【東京都事業】子育て応援とうきょうパスポート",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "都内在住の18歳未満のお子様がいる、または妊娠中の方がいる世帯\n※18歳に達した後、最初の3月31日を迎えるまでを対象とします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/teate-passport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料について",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、足立区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "対象となる保育施設\n認可保育所\n認定こども園（長時間利用）\n小規模保育\n家庭的保育（保育ママ）\n区立認可外保育施設　　　　等",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育施設一覧",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": "０から２歳児クラス",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-shokibo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "私立幼稚園の預かり保育",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/yochien-shiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費（精神通院）公費負担",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として自立支援指定医療機関で通院医療を継続的に要する方\n（注）『世帯』の所得が一定所得（区市町村民税所得割の合計額23万5千円以上）の場合、「重度かつ継続」に該当する場合のみ対象となります。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/chuo-h/fukushi-kenko/shinshin/iryo-jiritsu-kohi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "保護者の通院やカルチャースクールへの通学、買い物、リフレッシュしたい時など、理由を問わず、就学前のお子さんを保育施設等でお預かりします。時間単位での利用が可能です。\nただし、既に教育・保育施設に入園しているお子さんは利用できません。（※ただし幼稚園の全園休業日を除く）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "保護者とその同居の家族の就労等により、家庭において保育を受けることが困難な満6カ月以上の児童のうち、次のお子さんが利用できます。\n\n足立区内に住所を有し、現に保育施設、認定こども園又は幼稚園に通所している児童\n足立区内に住所を有しないが、足立区内の認可保育所又は認定こども園に通所している児童\n足立区内に住所を有する小学校1年生から小学校3年生までの児童\n\n対象疾患\n発熱やかぜ、下痢など児童が日常り患する疾病\n気管支喘息などの慢性疾患\nその他医師が利用可能と判断した病気",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-byouji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "あだちファミリー・サポート・センター事業",
+      "summary": "足立区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、提供会員が利用会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "利用会員\n生後6か月から12歳までのお子さんがいる区内在住もしくは在勤の方。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/ichiji-oen-family-s.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育所一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、足立区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-ichiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "多胎妊娠に伴う妊婦健康診査費用の助成",
+      "summary": "多胎妊娠に伴い、妊婦健康診査受診票14回分を超えて自費で妊婦健康診査を受診した際に要した費用の一部を助成します",
+      "targetPersons": "多胎妊娠に伴い、妊婦健康診査受診票14回分を超えて自費で妊婦健康診査を受診した際に要した費用の一部を助成します（15回目以降自費で受診した分から対象となります。）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/tataininnsinn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認可外保育施設の対象施設一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、足立区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/documents/41503/060515_ninkagaikakuninichiran.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭的保育（保育ママ）一覧",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、足立区が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": "０から２歳児クラス",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/hoikumama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "新制度に移行した園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、足立区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/documents/9943/r6ikouennitirannhyou.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "新制度に移行せず、現行のままの園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、足立区内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/documents/9943/r6ikouennitirannhyou.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "多胎児家庭移動支援",
+      "summary": "0歳・1歳・2歳の多胎児を育てるご家庭の皆様に対し、タクシー乗車に利用できる「こども商品券」24,000円分を配付し、乳幼児健康診査や予防接種、多胎児サークルへの参加等、多胎児を連れて母子保健事業を利用する際の移動を支援します。",
+      "targetPersons": "足立区に住民登録があり、令和3年4月1日以降で0歳・1歳・2歳の多胎児を養育している世帯\n※対象世帯へは、通知または赤ちゃん訪問などでお知らせします。\n※こども商品券は、各年齢につき1回配付します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/tataijikateiidoushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM112",
+      "name": "子育て広場",
+      "shortName": "児童館子育てサロン",
+      "summary": "区内の児童館ひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、足立区サイトや区報などでお知らせしています。）",
+      "targetPersons": "0歳から就学前の乳幼児と保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/juku/jidoukannkosodatesaronn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM119",
+      "name": "足立区の子育てに関する相談",
+      "shortName": "子どもと家庭のなんでも相談",
+      "summary": "家庭やお子さまについての悩み事を一人で抱えていませんか。\n\nこども家庭相談は、お子さんの養育上の心配や悩みや、子どもと家庭に関するモヤモヤな話しなど、まずはあなたの気持ちからお聞かせ下さい。匿名での相談も受け付けます。「どこに相談したらいいかわからない」といった場合もお気軽にお電話ください。",
+      "targetPersons": "18歳未満のお子さまを子育て中のお父さん、お母さん、養育者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-genki/suteppuhuxamiri-.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "紙おむつの支給",
+      "summary": "重度心身障がい等のために、常時失禁状態にある障がい者（児）に対して、紙おむつを支給または費用を助成します。",
+      "targetPersons": "生活保護を受給していない方で、次のいずれかに該当する方\n\n重度心身障害者手当（都手当）を受給している方\n特別障害者手当・障害児福祉手当（国手当）を受給している方（所得超過により支給停止されている方を含みます。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/techo-nichijo-omutsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（医療機関等での「宿泊型」「日帰り型」）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、医療機関においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "足立区に住所がある方\n\n・利用希望日現在、産後４か月未満のお母さんと赤ちゃん　(一部条件が異なる施設があります。)\n\n・産後の体調や育児に関して不安や心配のある方\n\n※　綾瀬産後ケア（宿泊型）および東京かつしか赤十字母子医療センターは、原則産後2か月未満の利用に限られます（綾瀬産後ケア（日帰り型）は産後４か月未満まで利用可）。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/fukushi-kenko/kenko/sangokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "多胎児家庭移動支援",
+      "summary": "足立区では、0歳・1歳・2歳の多胎児を育てるご家庭の皆様に対し、タクシー乗車に利用できる「こども商品券」24,000円分を配付し、乳幼児健康診査や予防接種、多胎児サークルへの参加等、多胎児を連れて母子保健事業を利用する際の移動を支援します。",
+      "targetPersons": "足立区に住民登録があり、令和3年4月1日以降で0歳・1歳・2歳の多胎児を養育している世帯\n※対象世帯へは、通知または赤ちゃん訪問などでお知らせします。\n\n※こども商品券は、各年齢につき1回配付します。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/tataijikateiidoushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM2365",
+      "name": "企業主導型ベビーシッター利用者支援事業",
+      "shortName": "ベビーシッター利用支援事業（待機児童支援）",
+      "summary": "仕事や職場復帰のために利用する民間のベビーシッター費用や、多胎児（双子や三つ子など）を養育しているご家庭で、民間のベビーシッターを利用した場合の利用料の一部を助成します。\n本制度は、「企業主導型ベビーシッター利用者支援事業」として内閣府が行うもので、利用者は、務め先の事業主から交付を受けた割引券を使用することで、利用料の割引を受けることができます。",
+      "targetPersons": "以下の全てに該当する方\n１　次のいずれかに該当し、申請により対象者確認書の交付を受けていること。\n（１）認可保育所等の０歳児クラスから５歳児クラスに入所申込みをしたが、お子さんが待機となっていること（以下「待機児童の保護者」といいます）。\n（２）認可保育所等の０歳児クラスに入所申込みをせず、１年間の育児休業を満了した後、お子さんが１歳の誕生日から復職し、翌年度の１歳児クラスの４月入所の申込みを行うこと（以下「育児休業満了者」といいます）。\n\n　　※　(１)(２)のいずれも、１園のみの申込みの場合は対象になりません。\n２　足立区に保護者及びお子さんの住民票があり、実際に居住していること。\n３　認可保育所等の入所申込みで、希望保育施設が２園以上あること。\n４　認可保育所等を利用していないこと。\n５　保育の必要性の認定を受けており、それが有効期間内であること。\n６　産前産後休暇・育児休業中ではないこと。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "・３歳から５歳児クラスまでのお子さん\n\n・住民税非課税世帯の０歳から２歳児クラスまでのお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/yojikyoikuhoikumusyoka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の認可外保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）;https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.htmlについては、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/ninnkagai_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "企業主導型保育事業",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、東京都認証保育所、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "０~５歳児（施設によって異なります。）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kigyousyudougatahoikuzigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-jidoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッター利用支援事業",
+      "summary": "ベビーシッターを利用する際の費用の一部を負担する制度です｡\nお子さんが病気で保育園や小学校に登園・登校させることが困難な時期に、ベビーシッターなどの派遣を受けた保護者に対し、派遣に要した費用の一部を助成することにより、保護者の経済的な負担の軽減をはかり、保護者の子育てと就労の両立を支援します。",
+      "targetPersons": "以下の全てに該当する方\n１　次のいずれかに該当し、申請により対象者確認書の交付を受けていること。\n（１）認可保育所等の０歳児クラスから５歳児クラスに入所申込みをしたが、お子さんが待機となっていること（以下「待機児童の保護者」といいます）。\n（２）認可保育所等の０歳児クラスに入所申込みをせず、１年間の育児休業を満了した後、お子さんが１歳の誕生日から復職し、翌年度の１歳児クラスの４月入所の申込みを行うこと（以下「育児休業満了者」といいます）。\n\n　　※　(１)(２)のいずれも、１園のみの申込みの場合は対象になりません。\n２　足立区に保護者及びお子さんの住民票があり、実際に居住していること。\n３　認可保育所等の入所申込みで、希望保育施設が２園以上あること。\n４　認可保育所等を利用していないこと。\n５　保育の必要性の認定を受けており、それが有効期間内であること。\n６　産前産後休暇・育児休業中ではないこと。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM47",
+      "name": "足立区の妊娠・出産に関する相談",
+      "shortName": "チャットボットLINEアカウント「妊娠したかも相談＠東京」",
+      "summary": "東京都では、都内にお住まいの方を対象に、「妊娠したかも？」という悩みや疑問に、チャットボット形式でお答えします。「電話やメールで相談するのは少し怖い、勇気がない」という方でも、24時間365日、誰でも気軽に使えます。",
+      "targetPersons": "都内にお住まいの方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/ninnshinnayami.html#p2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "あだち出産・子育て応援事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "以下のいずれかに該当する区民の方\n\n1令和5年4月1日以降に日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%87%BA%E7%94%A3%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n2令和5年4月1日以降に生まれたお子さまを養育する方→子育て応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%AD%90%E8%82%B2%E3%81%A6%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n3令和4年4月1日から令和5年3月31日までの間に、日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n4令和4年4月1日から令和5年3月31日までの間に生まれたお子さまを養育する方（産婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE＋子育て応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n※いずれのギフトもクーポン（ギフトカード）にて支給し、東京都の専用WEBサイトから申請いただくことで、家事・育児支援用品等を提供いたします。詳細は東京都のホームページ;https://www.fukushi.metro.tokyo.lg.jp/kodomo/shussan/tokyo_shussankosodateouen.htmlをご確認ください。\n\n妊娠届出後に流産・死産された方や、出生届出後お子さまがお亡くなりになった場合も支給対象となります。詳細は保健予防課保健予防係（03-3880-5892）へお問い合わせください。\n\n＜以下のいずれかに該当する場合は対象外となります＞\n\n1対象となる妊娠・出産に係る同様のギフトをすでに受給している方（他自治体での支給を含む）\n2令和4年3月31日以前のご出産（※）\n3「妊娠期から子育て期にわたる切れ目のない支援（伴走型相談支援;https://www.cfa.go.jp/cmp-2023cfa5/）」に必要となる場合における情報共有等に同意いただけない方\n※「東京都出産応援事業;https://www.city.adachi.tokyo.jp/hoken/shussanouennjyugyou.html」の該当となる場合がございますのでご確認ください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "HPV（ヒトパピローマウイルス感染症）ワクチン定期接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "小学校6年生から高校1年生相当の女子の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/keigan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜワクチン任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち足立区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "１歳の誕生日の前日から２歳の誕生日の前日までの方\n\nこれまで罹患した方や、２回以上接種した方は対象外です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/otafuku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "児童育成手当（育成）",
+      "summary": "ひとり親家庭の児童（育成手当）、又は障害もった児童（障害手当）に対して児童育成手当を支給することにより、児童の福祉の増進を図ることを目的としています。",
+      "targetPersons": "下記のいずれかの状態にある18歳に到達した年度末までの児童を養育している父または母、または養育者に対して支給されます。所得制限があります。\n\n父母が婚姻解消\n父または母が死亡\n父または母が重度の障がい\n父または母が生死不明\n母が婚姻によらないで出生した児童\n父または母が児童を引き続き1年以上遺棄している\n父または母が裁判所からのDV保護命令を受けた(平成24年8月から)\n父または母が法令により引き続き1年以上拘禁されている\n☆ただし、次のような場合は手当を受けることができません。\n\n児童が児童福祉施設などに入所している\n父または母が再婚している場合や事実上の婚姻状態にある場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/hitorioya-ikuse.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM69",
+      "name": "自治体独自の遺児の方への金銭的支援",
+      "shortName": "児童手当(亡くなられた時の手続き)",
+      "summary": "児童手当の受給者(手当の振込先に指定されている保護者)が亡くなられた場合、亡くなられた日で児童手当の受給資格が消滅します。亡くなられた方に代わってお子さまを養育する保護者の方は、下記の手続きが必要となります。",
+      "targetPersons": "亡くなられた方に代わってお子さまを養育する保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/kurashi/todokede/n-jidoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料軽減制度",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "次の（１）または（２）で、表の保育料金表の階層区分に該当する世帯は、以下のとおり保育料を軽減します。\n\n（１）ひとり親世帯で現に児童を扶養している。\n（２）同一世帯内に障がい者（児）、特別児童扶養手当支給対象児童、国民年金障害基礎年金等受給者がいる。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM78",
+      "name": "障がい児保育",
+      "shortName": "医療ケア児保育",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "医療的ケアを必要とする1歳児クラス以上のお子さん",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/hoikushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "1歳ごろの栄養教室「離乳食から幼児食へのステップアップ」",
+      "summary": "生後11か月以上のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "区内に住所を有し、教室開催日に生後11か月以上の子どもの保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kokoro/fukushi-kenko/kenko/rinyuushoku-step-up.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立認定こども園(短時間利用=幼稚園部分)",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "５歳児クラス　平成３０年４月２日から平成３１年４月１日生まれの児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/2018kodomoenn4gatu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "保護者の通院やカルチャースクールへの通学、買い物、リフレッシュしたい時など、理由を問わず、就学前のお子さんを保育施設等でお預かりします。時間単位での利用が可能です。\nただし、既に教育・保育施設に入園しているお子さんは利用できません。（※ただし幼稚園の全園休業日を除く）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-ichiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児保育（在宅型）利用料金の助成",
+      "summary": "ベビーシッター事業者が実施する在宅の病児保育サービスを利用したときに、1時間あたり1,000円を上限に、その料金の一部を助成します。",
+      "targetPersons": "対象児童\n月齢6カ月から小学校6年生（満12歳）までの児童\n利用者\n対象児童と同居する保護者\n\n助成対象者\n\n下記の条件をすべて満たす利用者に対して助成を行います。\n\n利用者が病児保育サービスを利用。\n\n病児保育サービス利用時において、就労・冠婚葬祭・家族の病気等により対象児童の保育が行えなかった。\n\n利用者及び対象児童が、病児保育サービス利用時から助成金の交付申請時まで引き続き足立区内に住民登録を有し、かつ現に足立区内に居住している。\n\n病児保育サービスを利用した日の前後7日以内に、対象児童が医療機関を受診している。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-genki/k-kyoiku/kosodate/ichiji-yamaiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育所一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、足立区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikuen-ichiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "助産所等での妊婦健康診査費用の助成制度",
+      "summary": "足立区では、区内に住民登録がある方で、妊婦健康診査を助産所等で受診しているため、区が交付した「妊婦健康診査受診票」が利用できない妊婦の方に助産所等での妊婦健康診査費用を助成します。",
+      "targetPersons": "区内に住民登録がある方で、妊婦健康診査を助産所等で受診しているため、区が交付した「妊婦健康診査受診票」が利用できない妊婦の方。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/ninshin-josanjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+2+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "東京都認証保育所",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、足立区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "あだちマイ保育園",
+      "summary": "区立保育園・こども園では、登録制の「あだちマイ保育園」を実施しています。気軽に立ち寄ることができる「実家のような保育園」をめざし、安心して遊べる場所の提供とあなたの子育てをサポートします。登録は無料です。",
+      "targetPersons": "1区内在住で0歳から就学前のお子さんを家庭で育てている保護者の方\n2区内在住、妊娠中で母子健康手帳の交付を受けている方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/maihoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM119",
+      "name": "足立区の子育てに関する相談",
+      "shortName": "育児栄養相談",
+      "summary": "「対面相談」と「オンライン相談」を実施しています。\n\n乳幼児の発育や発達、食事、歯のケアなどを行います。\n\n「対面相談」では、身長や体重の計測も行えます。",
+      "targetPersons": "乳幼児のみ対象です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/esekanri/fukushi-kenko/kenko/sodan-kosodate-nitte3102.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "難病患者福祉手当",
+      "summary": "区内在住で、難病医療費助成を受け、その疾病が指定疾病に該当する方",
+      "targetPersons": "区内在住で、難病医療費助成を受け、その疾病が指定疾病に該当する方に手当を支給します。\n手当の申請ができる方\n\n難病医療費助成を申請された方または認定を受けた方（足立区難病患者福祉手当条例施行規則別表1および2に規定された疾病のみ）\n小児慢性特定疾病医療費助成を申請された方または認定を受けた方のうち、足立区難病患者福祉手当条例施行規則別表1および2に規定された疾病であることが小児慢性特定疾病医療意見書あるいは診断書上で証明できる方（小児慢性特定疾病では異なった疾病名（分類）で記載されていることがあります。）\n\n※足立区難病患者福祉手当条例施行規則別表1および2に規定された疾病については、対象疾病一覧を参照してください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-nanbyo-20150701.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産費助成事業",
+      "summary": "足立区では、子育て家庭の経済的負担を軽減し、子育てのしやすい環境にすることを目的として、子ども医療費助成制度を実施しています。",
+      "targetPersons": "令和6年4月1日以降に出産した、下記のすべてに該当する出生児の母。\n\n1.母が出生日以前から足立区内に住所があり、申請日時点で引き続き1年以上足立区に居住している\n2.子どもの住所が生まれた日から足立区にあり、母と同居している\n3.日本の公的な健康保険に加入し、出産にかかる給付（出産育児一時金）を受けている\n※妊娠85日以上の流産・死産（母体保護法に基づく人工妊娠中絶を含む）の場合も対象になります。\n\n※生活保護世帯は対象になりません。\n\n※母での申請が困難な場合のみ、他の保護者にて申請できることがあります。お問い合わせください。\n\n※東京都外の医療機関で出産した場合でも助成の対象となります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/syussanhi-josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の認可外保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）;https://www.city.adachi.tokyo.jp/kodomo-nyuuen/babysitter_itiziazukari.htmlについては、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/ninnkagai_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "東京都認証保育所",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、東京都認証保育所、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "A型は0歳児から就学前までの児童（一部例外があります。施設名の後に記載しています。）\n\nB型は0歳児から2歳児以下の児童（一部例外があります。施設名の後に記載しています。）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-hoikujo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM47",
+      "name": "足立区の妊娠・出産に関する相談",
+      "shortName": "あだちスマイルママ＆エンジェルプロジェクト",
+      "summary": "足立区では、保健師等が妊娠された方と面接を行い、妊娠期からの切れ目ない支援を行うとともに、育児に必要な物品（こども服等）との交換やタクシー乗車に使用できる「こども商品券」を育児パッケージとして配付しています。",
+      "targetPersons": "現在妊娠中の方\n出産後ご不安のある方\nその他ケアプランの作成を希望される方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/k-kyoiku/kosodate/asmap.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "あだち出産・子育て応援事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "以下のいずれかに該当する区民の方\n\n1令和5年4月1日以降に日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%87%BA%E7%94%A3%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n2令和5年4月1日以降に生まれたお子さまを養育する方→子育て応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%AD%90%E8%82%B2%E3%81%A6%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n3令和4年4月1日から令和5年3月31日までの間に、日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n4令和4年4月1日から令和5年3月31日までの間に生まれたお子さまを養育する方（産婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE＋子育て応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n※いずれのギフトもクーポン（ギフトカード）にて支給し、東京都の専用WEBサイトから申請いただくことで、家事・育児支援用品等を提供いたします。詳細は東京都のホームページ;https://www.fukushi.metro.tokyo.lg.jp/kodomo/shussan/tokyo_shussankosodateouen.htmlをご確認ください。\n\n妊娠届出後に流産・死産された方や、出生届出後お子さまがお亡くなりになった場合も支給対象となります。詳細は保健予防課保健予防係（03-3880-5892）へお問い合わせください。\n\n＜以下のいずれかに該当する場合は対象外となります＞\n\n1対象となる妊娠・出産に係る同様のギフトをすでに受給している方（他自治体での支給を含む）\n2令和4年3月31日以前のご出産（※）\n3「妊娠期から子育て期にわたる切れ目のない支援（伴走型相談支援;https://www.cfa.go.jp/cmp-2023cfa5/）」に必要となる場合における情報共有等に同意いただけない方\n※「東京都出産応援事業;https://www.city.adachi.tokyo.jp/hoken/shussanouennjyugyou.html」の該当となる場合がございますのでご確認ください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "HPV（ヒトパピローマウイルス感染症）ワクチン定期接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "平成9年（1997年）4月2日から平成20年\n（2008年）4月1日生まれの女子の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/keigan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "（男性向け）HPVワクチン任意接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち足立区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "足立区内に住民登録のある小学校６年生から高校１年生相当の男性\n\n　※　２００８年４月２日生まれから２０１３年４月１日生まれ",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/danshihpv.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "児童育成手当（障害）",
+      "summary": "ひとり親家庭の児童（育成手当）、又は障害もった児童（障害手当）に対して児童育成手当を支給することにより、児童の福祉の増進を図ることを目的としています。",
+      "targetPersons": "下記のいずれかの状態にある20歳未満の児童を養育している父または母、または養育者に対して支給されます。所得制限があります。\n\n愛の手帳１から３度\n身体障害者手帳１・２級\n知的障がいで特別児童扶養手当該当者\n身体障害者手帳未申請で特別児童扶養手当等級1級該当者\n脳性マヒまたは進行性筋萎縮症\n（上記手帳のない方でも、同様の障害の状態にある場合は申請することができますので、下記までお問い合わせください。）\n\n※ただし、次のような場合は手当を受けることができません。\n\n児童が児童福祉施設などに入所している\n父母または養育者の所得が限度額以上の場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/oyako/31ikuseishougai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM78",
+      "name": "障がい児保育",
+      "shortName": "居宅訪問型児童発達支援",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "重度の障がいの状態その他これに準ずる状態にあり、児童発達支援、医療型児童発達支援または放課後等デイサービスを受けるために外出することが著しく困難であると認められた障がい児",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/s-engo/service/tsujo-kaigo-sekatsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "私立幼稚園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "平成30年4月2日から令和3年4月1日生まれの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/yochien-shiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "子育てサロン一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内に在住する生後6ヶ月から3歳までのお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/juku/k-kyoiku/kosodate/tsudoinoba-salon.html#p9",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "次の要件４つを全て満たす幼児\n\n1.満1歳以上就学前までの幼児\n2.病気の「回復期」で、普段通っている保育施設等に登園することが難しい状態にある幼児\n3.医師が病後児保育を適当と認めた幼児\n4.以下のいずれかに該当する幼児\n保護者の就労等のため足立区内認可保育所等に通所中\n足立区内に居住し、保護者のやむを得えない事由（例：家族介護従事、疾病や出産での入院、事故や災害 等）により家庭での育児を行うことが困難で、他に幼児を養育する者がいない",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-byogoji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+3+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "区内に所在する地域枠のある企業主導型保育施設一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、足立区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/documents/54283/060401_kigyou-itirann.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "新米ママパパの子育てブログ",
+      "summary": "初めてお子さんを育てるお母様、お父様が感じる子育ての悩みへの助言を、ブログ調でメール配信します。また、子育て支援サービスの紹介も行っています。お子さんの月齢にあわせて、6歳になるまで配信します。\nぜひ、お子さんとのかかわり方やコミュニケーションのとり方などの参考にしてください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-genki/kosodate-blog.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "福祉タクシー・自動車燃料助成券",
+      "summary": "外出困難な身体・知的障がい者に「福祉タクシー・自動車燃料助成券」（以下「助成券」）を年１回交付します。",
+      "targetPersons": "区内に住所があり、身体障害者手帳又は愛の手帳の所持者のうち、以下の障害等級に該当する方。\n\n下肢、体幹、移動、平衡機能に係る障がいを含む1級から3級\n視覚に係る障がいを含む1級または2級\n心臓、じん臓、呼吸器、ぼうこう、直腸、小腸、ヒト免疫不全ウイルスによる免疫、肝臓の機能障がいを含む1級\n愛の手帳1度または2度",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/shogai/20220301.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "低所得妊婦に対する妊娠判定費用の助成",
+      "summary": "足立区では、令和６年４月１日より、低所得妊婦（住民税非課税世帯又は同等の所得水準の方）の経済的負担軽減を図るとともに、必要な支援につなげるため、妊娠判定に要する費用（初回の産科等受診費用）の一部を助成します。",
+      "targetPersons": "以下の内容にすべて該当する方が対象となります。\n\n【1】初回産科受診日において、足立区に住民登録がある方\n\n【2】住民税非課税世帯又は同等の所得水準であると認められる方\n\n【3】国内医療機関等において令和６年４月１日以降に妊娠判定を受けた方\n\n【4】スマイルママ面接を受けた方（※陰性判定だった場合については、保健予防係へお問い合わせください。）\n\n【5】以下２点に同意いただける方\n\n・所得判定のため、世帯の課税状況を区が確認すること\n\n・医療機関と区が必要に応じて、支援に必要な情報（受診状況やアンケート結果等）を共有すること",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/shokaisannkajusinnryou-josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認証保育所保育料負担軽減（利用者助成）制度",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "（１）利用者・児童がともに足立区在住であること。（毎月初日時点で住民票が足立区にあり、その住所に住んでいること。）\n\n（２）認証保育所と月ぎめ保育契約をしていること。（区外の認証保育所も含む。）\n\n（３）月の初日から在籍していること。途中から在籍している月については、条件・軽減上限額・手続き等が変わりますので、お問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/k-kyoiku/kosodate/hoikujo-jose.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "あだち出産・子育て応援事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "以下のいずれかに該当する区民の方\n\n1令和5年4月1日以降に日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%87%BA%E7%94%A3%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n2令和5年4月1日以降に生まれたお子さまを養育する方→子育て応援ギフト;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E5%AD%90%E8%82%B2%E3%81%A6%E5%BF%9C%E6%8F%B4%E3%82%AE%E3%83%95%E3%83%88\n3令和4年4月1日から令和5年3月31日までの間に、日本国内で妊娠届を提出された方（妊婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n4令和4年4月1日から令和5年3月31日までの間に生まれたお子さまを養育する方（産婦本人）→出産応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE＋子育て応援ギフト（経過措置）;https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html#%E7%B5%8C%E9%81%8E%E6%8E%AA%E7%BD%AE\n※いずれのギフトもクーポン（ギフトカード）にて支給し、東京都の専用WEBサイトから申請いただくことで、家事・育児支援用品等を提供いたします。詳細は東京都のホームページ;https://www.fukushi.metro.tokyo.lg.jp/kodomo/shussan/tokyo_shussankosodateouen.htmlをご確認ください。\n\n妊娠届出後に流産・死産された方や、出生届出後お子さまがお亡くなりになった場合も支給対象となります。詳細は保健予防課保健予防係（03-3880-5892）へお問い合わせください。\n\n＜以下のいずれかに該当する場合は対象外となります＞\n\n1対象となる妊娠・出産に係る同様のギフトをすでに受給している方（他自治体での支給を含む）\n2令和4年3月31日以前のご出産（※）\n3「妊娠期から子育て期にわたる切れ目のない支援（伴走型相談支援;https://www.cfa.go.jp/cmp-2023cfa5/）」に必要となる場合における情報共有等に同意いただけない方\n※「東京都出産応援事業;https://www.city.adachi.tokyo.jp/hoken/shussanouennjyugyou.html」の該当となる場合がございますのでご確認ください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/shussannkosodatekouhukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM55",
+      "name": "任意予防接種",
+      "shortName": "小児インフルエンザワクチン任意接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち足立区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "生後６か月の前日から高校３年生相当まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/kodomo-influenza.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM78",
+      "name": "障がい児保育",
+      "shortName": "保育所等訪問支援",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "保育所、幼稚園、小学校、特別支援学校、認定こども園、乳児院、児童養護施設、その他児童が集団生活を営む施設と認\nめられた施設に通う障がい児で、施設を訪問し、専門的な支援が必要と認められた障がい児",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/s-engo/hoikusyohoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+4+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "次の要件４つを全て満たす幼児\n\n1.満1歳以上就学前までの幼児\n2.病気の「回復期」で、普段通っている保育施設等に登園することが難しい状態にある幼児\n3.医師が病後児保育を適当と認めた幼児\n4.以下のいずれかに該当する幼児\n保護者の就労等のため足立区内認可保育所等に通所中\n足立区内に居住し、保護者のやむを得えない事由（例：家族介護従事、疾病や出産での入院、事故や災害 等）により家庭での育児を行うことが困難で、他に幼児を養育する者がいない",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/k-kyoiku/kosodate/ichiji-byogoji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+5+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "きかせて子育て訪問事業",
+      "summary": "出産や育児って楽しいけど、ちょっと不安もありませんか？\n\nそんな時、誰かに話しをきいてもらえたら、うれしいですよね。\n\n足立区では、子育て経験者などのサポーターがそんな方の悩みやグチをきいています。\n\nご自宅、事業所などでお話をお伺いします。\n\nまた、子育てサロンに行くのが初めてで緊張してしまう方などは、一緒に子育てサロンへ同行します。\n\nぜひご利用ください。\n\n※お子さんの保育や家事代行を行うものではありません",
+      "targetPersons": "区内在住で、妊娠している方または未就学のお子さんの子育てをしている保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/kikasetekosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+5+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "企業主導型保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の企業主導型保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）については、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kigyousyudougata_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+5+UM78",
+      "name": "障がい児保育",
+      "shortName": "放課後等デイサービス",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "学校（幼稚園および大学を除く）に就学していて、授業終了後または休業日に支援が必要と認められた障がい児",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/s-engo/fukushi-kenko/shinshin/madoguchi-k-service.html,https://www.city.adachi.tokyo.jp/shogai/20160524.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+6+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "子ども預かり・送迎等支援事業",
+      "summary": "小学生までの子育てをしているご家庭を対象に、ご自宅または子育てホームサポーター宅でお子さんのお預かりなどを行います。",
+      "targetPersons": "0歳から12歳（小学生）までのお子さんのいるご家庭（足立区在住で住民登録しているご家庭）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomokate/k-kyoiku/kosodate/ichiji-oen-home-s.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+6+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "企業主導型保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の企業主導型保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）については、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kigyousyudougata_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+6+UM78",
+      "name": "障がい児保育",
+      "shortName": "在宅重症心身障がい児（者）訪問事業",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "都内に住所を有する在宅の重症心身障がい児（者）",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/hoken/fukushi-kenko/shinshin/homonkango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+7+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "企業主導型保育施設の保育料補助",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、足立区独自に利用料の助成を行っています。",
+      "targetPersons": "以下の１から４のすべてを満たす方が対象です。\n\n１　児童及び保護者が、利用月の初日現在、足立区に在住していること。\n\n２　補助対象の企業主導型保育施設に在籍し、月１２０時間以上の月ぎめ利用契約をしていること。\n\n３　他の教育・保育施設（認可保育所、認定こども園、小規模保育、家庭的保育（保育ママ）、認証保育所、幼稚園等）に在籍していないこと。\n\n４　ベビーシッター利用支援事業（待機児童支援）を利用していないこと。\n\n※　ベビーシッター利用支援事業（一時預かり利用支援）については、ご利用いただけます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/kodomo-nyuuen/kigyousyudougata_teikiriyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020131211+7+UM78",
+      "name": "障がい児保育",
+      "shortName": "重症心身障がい児（者）等在宅レスパイト事業",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "区内に住所を有し、在宅で家族等による介護を受けており、現在訪問看護サービスにより医療的ケアを受けている方で、以下のいずれかにあてはまる方\n\n重度の知的障がい（愛の手帳1度・2度程度）と重度の肢体不自由（身体障害者手帳1級・2級程度で自ら歩くことができない）が重複している方\n18歳未満で日常生活を営むために以下の医療的ケアが必要な方",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.adachi.tokyo.jp/s-engo/respite.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

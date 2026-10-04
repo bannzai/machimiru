@@ -1,0 +1,889 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "133647",
+  "programs": [
+    {
+      "psid": "psid3.0+9000020133647+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠したかもと思ったら",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM10",
+      "name": "先天性代謝異常等検査",
+      "shortName": "先天性代謝異常検査",
+      "summary": "東京都ではフェニルケトン尿症等の先天性代謝異常や先天性甲状腺機能低下症（クレチン症）などの内分泌疾患を早期に発見するために、先天性代謝異常等検査を行っています。\nこれらの疾患を放っておくと、生まれた時は健康に見えても、身体障害や知的障害が発生したり、時には生命の危険にさらされたりする場合もあります。しかし、疾患を早期に発見し、適切な治療を続けることで、障害などの発生を未然に防ぐことができます。",
+      "targetPersons": "お子さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "遊びの広場",
+      "summary": "双子や三つ子など多胎児の、妊娠中や育児の悩みを話し合い、仲間作りの場となる遊びの広場を開催しています。保健師による相談コーナーもあります。",
+      "targetPersons": "就園前の子どもと保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "ブックスタート",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "3・４か月児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "よちよち応援隊",
+      "summary": "よちよち応援隊は、家事育児サポーターがご自宅を訪問し産後の家事・育児をサポートします。",
+      "targetPersons": "神津島村に住所があり、①、②のいずれかを満たす方\n① 2 歳以下のお子さんがいる方(入園している 2 歳児は対象外)\n② 2 歳以下の多胎児がいる方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊婦さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "すくすくサロン",
+      "summary": "神津島村内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "未就園児のお子さんとその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM114",
+      "name": "小児科救急",
+      "shortName": "神津島村診療所",
+      "summary": "神津島村では、村内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": "お子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "マタニティクラス・パパママクラス",
+      "summary": "マタニティクラス・パパママクラスは妊娠された方とそのご家族を対象に、妊娠中の健康管理、出産準備、新生児の育児などを学べる教室です。妊婦さん同士の交流の場としてもお役立てください。",
+      "targetPersons": "妊娠された方とそのご家族",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "子育て応援とうきょうパスポート",
+      "summary": "東京都では、企業や店舗が善意で様々なサービスを提供する「子育て応援とうきょうパスポート事業」を実施しています。",
+      "targetPersons": "18 歳未満のお子様や妊娠中の方がいる世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "入学・転入学",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "入学を予定されているお子さん",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-syougakou.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "新生児訪問(こんにちは赤ちゃん訪問)",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "助産師来島事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "妊娠を検討している方へ",
+      "summary": "神津島村では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": "１．婚姻から 1 年以上経過している夫婦\n２．申請日の 1 年以上前から神津島村に住所を有する夫婦\n３．医療保険加入者（健康保険）\n４．村税等を滞納していないこと\n５．他の道府県若しくは区市町村において、同一の不妊検査及び一般不妊治療に係る医療費助成を受けていない者又は当該医療費助成を受ける予定がないこと（ただし、東京都不妊検査等助成事業の助成金を受けた者は、交通費及び宿泊費の申請のみ）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊婦高血圧症候群等の医療給付",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "妊婦高血圧症候群、糖尿病、貧血、産科出血、心疾患などで入院治療が必要になった場合",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "出産日に神津島村国民健康保険に加入している方\n1 年以上ほかの保険の被保険者であった人",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産支援特別助成金",
+      "summary": "神津島村では、妊娠中の体への負担と経済的な負担を軽減し、健やかな出産を支援するために、妊婦タクシー利用券をお渡しています。妊婦さんが産婦人科への通院や外出をする際にご利用いただけます。",
+      "targetPersons": "神津島村に住民登録があり、実際に居住されている方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成制度(マル乳)",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）を助成しています。",
+      "targetPersons": "お子様が生まれてから 6 歳になった年の最初の 3 月 31 日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "父母の離婚などで、父又は母と生計を同じくしていない児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度(マル親)",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "ひとり親家庭、父母ともいない家庭、両親のいずれかに重度障害のある家庭の親と子",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "①出生時体重が 2，000 グラム以下の乳児\n② ①以外の乳児で、生活力が特に弱く、下記の「対象となる症状」に掲げるいずれかの症状を示す乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "女性向けリフレッシュ体操",
+      "summary": "女性向けリフレッシュ体操は、日頃の運動不足や育児のストレスを運動で解消したい女性向けの運動教室です。",
+      "targetPersons": "日頃の運動不足や育児のストレスを運動で解消したい女性",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "健康保険の手続き",
+      "summary": "健康保険の手続き\n生まれたお子さんが国民健康保険に加入する場合には、役場福祉課にてお手続きください。国民健康保険以外の保険に加入される場合には勤務先にお問い合わせください。",
+      "targetPersons": "生まれたお子さん",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "1 か月健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として1か月児健康診査を実施しています。",
+      "targetPersons": "お母さんとお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6･7 か月健診、9･10 か月健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6･7 か月、9･10 か月を実施しています。",
+      "targetPersons": "6・7 か月児、９・１０か月児とその保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "赤ちゃん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療(育成医療)",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "①18 歳未満の児であること。\n②保護者が都内に住所を有すること。\n③現在身体に障がいを有している、\nまたは身体に疾患があり治療をせずに放置した場合、 将来一定の障がいを残すと認められること。\n④手術等の治療により、確実な治療効果が期待できること。\n※ただし 1～4 全てに該当する場合でも、所得の状況によっては制度の対象外になることがあります。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1 歳６か月健診",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。神津島村では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1 歳 8 か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso2.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3 歳児健診",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。神津島村では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3 歳半頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso2.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "５歳児健診",
+      "summary": "5 歳児健診では、島外から小児科医や臨床心理士が来島します。お子さんの成長発達の状況、達成できていることや苦手なことを確認し、子育ての応援をするための健診です。１年後の就学に向けて準備を整えていく機会でもあります。",
+      "targetPersons": "5 歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso2.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "各種予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "児童育成手当",
+      "summary": "ひとり親家庭の児童（育成手当）、又は障害もった児童（障害手当）に対して児童育成手当を支給することにより、児童の福祉の増進を図ることを目的としています。",
+      "targetPersons": "下記のいずれかの状態にある 18 歳になった最初の 3 月 31 日までの児童\nを養育している保護者の方。また、所得制限以内の方。\n・父または母が離婚した\n・父または母が死亡した\n・父または母が重度の障害（身体障害等級 1・2 級と同程度）の状態にある\n・父または母が生死不明\n・父または母が児童を 1 年以上遺棄している\n・父または母が法令により 1 年以上拘禁されている\n・母が婚姻によらないで出生し、父または母と生計を異にしている\n・父または母が裁判所からの DV 保護命令を受けた児童\n※ただし、下記の場合は手当を受給できません。\n児童が児童福祉施設等に入所したり、里親に預けられたとき\n父または母が事実上の婚姻状態にあるとき\n父母または養育者の住所が国内にないとき",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾患治療研究事業",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "小児慢性特定疾病に罹患している 18 歳未満の児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "神津島村内高等学校在学生の医療費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "神津島村内高等学校に在学する学生",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "児童育成手当（障害手当）",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、障害手当を支給しています。",
+      "targetPersons": "次のいずれかに該当する 20 歳未満の児童を扶養している保護者\n・「身体障害者手帳」1・2 級程度の方\n・「愛の手帳」1・2・3 度程度の方\n・脳性まひまたは進行性筋萎縮症による「身体障害者手帳」をお持ちの方\n※その他、障害の種類・程度が上記以外でも、診断書（所定の書式）の提出により認定になる場合があります。\n■次の方は資格対象外です\n・申請者の前年中の所得が所得制限限度額以上のとき\n・児童が児童福祉施設等に入所しているとき",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "都外妊婦健診の助成",
+      "summary": "神津島村にお住まいの妊婦さんが、里帰り出産などで神津島村の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "■対象となる要件\n・助成金の申請を予定しているのは、母子手帳交付後の妊婦健診であること\n・里帰り出産等で、都内契約医療機関以外で妊婦健診を受診したために、「妊婦健康診査受診票」「妊婦超音波検査受診票」「妊婦子宮頸がん検診受診票」が使用できなかった\n・妊婦健診受診日現在、神津島村に住民登録がある\n■対象外となる要件\n・都内契約医療機関を受診した分\n・保険診療分\n・文書料や予防接種料等",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育園",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-hoikuen.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票ハガキ",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生通知票ハガキを記入して、郵送または提出してください。出生通知票ハガキをもとに、「こんにちは赤ちゃん事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生通知票ハガキはその届出を兼ねています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM792",
+      "name": "乳幼児の歯の健康診査（3歳児歯科健康診査）",
+      "shortName": "歯科相談",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。１歳６ヶ月児及び３歳児健診後歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "１歳６ヶ月児及び３歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso2.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊婦歯科健診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM824",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神科の病気のために、継続的に治療を受ける方",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "乳幼児一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "☆神津島村に住所を持つ、生後 6 ヶ月から就学前までの子\n☆保護者が下記の①～③の理由により、家庭での保育が一時的に困難となり、短時間の預かりが必要となる乳幼児\n ①保護者・兄弟姉妹が疾病のため通院\n ②保護者・兄弟姉妹が健診等を受診\n ③保護者がリフレッシュのため\n☆その他緊急的に預かりが必要と認められた子",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "３歳児もぐもぐ教室",
+      "summary": "双子や三つ子など多胎児の、妊娠中や育児の悩みを話し合い、仲間作りの場となる３歳児もぐもぐ教室を開催しています。保健師による相談コーナーもあります。",
+      "targetPersons": "３歳のお子さんとその保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "神津島村図書館のご案内",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "保健センター・子ども家庭支援センター",
+      "summary": "保健センター・子ども家庭支援センターでは、保健師、保育士がいつでもご相談を受け付けております。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "生きがい健康センター和室開放",
+      "summary": "未就園児のお子さんとその保護者の方を対象に、生きがい健康センターの和室を 9 時～11 時 20 分の間開放します。",
+      "targetPersons": "未就園児のお子さんとその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学相談",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "神津小学校に入学する予定の児童で障害や心身に何らかの心配があり就学に不安を感じている保護者",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-syougakou.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産前後支援助成金",
+      "summary": "神津島村では、妊娠中の体への負担と経済的な負担を軽減し、健やかな出産を支援するために、妊婦タクシー利用券をお渡しています。妊婦さんが産婦人科への通院や外出をする際にご利用いただけます。",
+      "targetPersons": "神津島村に住民登録があり、実際に居住されている方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "義務就学児医療費助成制度(マル子)",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）を助成しています。",
+      "targetPersons": "お子様が 6 歳になった年の最初の４月 1 日から 15 歳になった年の最初の 3 月 31 日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "３･4 か月健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3，4か月児健康診査を実施しています。",
+      "targetPersons": "3・４か月児とその保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-youkoso1.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "東京都風しん抗体検査事業",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "・抗体検査対象者\n① １９歳以上の妊娠を希望する女性で風しん抗体検査を希望する者。\n② 妊娠を希望する女性のパートナー\n③ 妊婦のパートナー\n④ 妊婦と同居している者\n※ただし、すでに風しんワクチンの接種を２回以上受けていることが確認できる者と、他の医療機関等で抗体検査を受け、結果が確認できる者を除く。\n・予防接種対象者\n抗体検査結果で低抗体者となった者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-jyunbi.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+2+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "結核児童の療育給付",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "保護者が神津島村に住所を有する 18 歳未満の児童で、結核にかかっている方のうち、その治療のため医師が長期の入院を必要と認めた方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+3+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "３歳児工作",
+      "summary": "双子や三つ子など多胎児の、妊娠中や育児の悩みを話し合い、仲間作りの場となる３歳児工作を開催しています。保健師による相談コーナーもあります。",
+      "targetPersons": "３歳のお子さんとその保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+3+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "児童相談所全国共通ダイヤル",
+      "summary": "都道府県、指定都市等が設置する機関で、子どもの健やかな成長を願って、ともに考え、問題を解決していく専門の相談機関です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+3+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "身体障害者手帳",
+      "summary": "身体の不自由な方が、法律に基づくいろいろなサービスを受けやすくするために交付される手帳です。",
+      "targetPersons": "身体の不自由な方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+3+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "島外医療機関にかかる交通費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "①障害者手帳所持者、特定疾患医療受給者証所持者 (診断書不要)\n②島外の医療機関に疾病・ケガのため 3 か月に 1 回もしくはそれ以上に検査・治療が必要だと医療機関の医師が診断した方\n※生活保護世帯、歯科受診は除く\n※がん治療については、期間の設定は設けない\n③付き添い者に関しては、医師が移動の際に介助を必要だと判断した場合に限る。(診断書の明記が必要)\n④村税、その他村に納付すべき料金に滞納がない世帯\n⑤神津島村に住所登録がある方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+4+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "子育て相談",
+      "summary": "年 4 回臨床心理士が来島し、子育てに関する相談をお受けします。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+4+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "療育手帳(愛の手帳)",
+      "summary": "知的障害者(児)が、一貫した相談を受けたり、いろいろなサービス受けやすくするために、県知事から交付される手帳です。",
+      "targetPersons": "知的障害者(児)",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+4+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "医療支援サービス助成事業",
+      "summary": "障害者（児）のうち島内の医療機関において治療の困難な人が、島外の医療機関に受診しなければならない場合に、島外への交通手段及び宿泊に対するサービスです。",
+      "targetPersons": "身体障害者手帳・療育手帳・精神障害者保健福祉手帳・特定疾患医療受給者証など上記の交付を受けている者、また障害者総合支援法の対象となる疾病に罹患している者で、神津島に住所を有し、居住していること。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+5+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "作業療法士・言語聴覚士相談",
+      "summary": "年 4 回作業療法士・言語聴覚士が来島し、お子さんの行動(落ち着きのなさ、不器用さなど)や言葉(発音、どもり、言葉の遅れ)などの相談をお受けします。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-tanosii.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+5+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "保健福祉手帳",
+      "summary": "精神障害者(児)が、いろいろなサービスを受けやすくするために、都知事から交付される手帳です。",
+      "targetPersons": "精神障害者(児)",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+6+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "身体・知的障害者相談員",
+      "summary": "身体・知的障害者相談員がさまざまな困りごとや必要な情報を提供しながら一緒に考えていきます。その場ですぐに解決できないことも、継続的にご相談をお受けしていきます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+6+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "日常生活用具給付",
+      "summary": "障害がある方に、日常生活を円滑に過ごすために必要な用具を給付します。",
+      "targetPersons": "障害がある方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+7+UM119",
+      "name": "神津島村の子育てに関する相談",
+      "shortName": "色々な分野の専門職",
+      "summary": "神津島村では理学療法士、作業療法士、言語聴覚士、臨床心理士などさまざまな専門職への相談事業を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-sien.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133647+7+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "小児慢性特定疾病日常生活用具給付事業",
+      "summary": "日常生活を営むのに著しく支障のある在宅の小児慢性特定疾病児に対し、日常生活の便宜を図ることを目的として、日常生活で使う用具を給付しています。",
+      "targetPersons": "小児慢性特定疾病医療受給者証をお持ちで、特定の要件に該当する方が対象になります。詳しい要件は、保健センターにお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.kouzushima.tokyo.jp/images/2023/03/20210318-byouki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

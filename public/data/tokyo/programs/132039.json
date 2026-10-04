@@ -1,0 +1,1647 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132039",
+  "programs": [
+    {
+      "psid": "psid3.0+8000020132039+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠の届出・母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "医療機関で妊娠が確定されたかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1029279.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM10",
+      "name": "先天性代謝異常等検査",
+      "shortName": "新生児の先天性代謝異常等検査",
+      "summary": "東京都ではフェニルケトン尿症等の先天性代謝異常や先天性甲状腺機能低下症（クレチン症）などの内分泌疾患を早期に発見するために、先天性代謝異常等検査を行っています。\nこれらの疾患を放っておくと、生まれた時は健康に見えても、身体障害や知的障害が発生したり、時には生命の危険にさらされたりする場合もあります。しかし、疾患を早期に発見し、適切な治療を続けることで、障害などの発生を未然に防ぐことができます。",
+      "targetPersons": "新生児(生後5日目から7日目)",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006687.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "図書館の児童サービス",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://library.musashino.tokyo.jp/kidscontents?5&pid=63",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM108",
+      "name": "児童館",
+      "shortName": "桜堤児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n武蔵野市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、武蔵野市サイトや市報などでお知らせしています。）",
+      "targetPersons": "乳幼児（保護者同伴）、小学生、中学生",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shisetsu_annai/kosodate/ichiran/1000394.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦訪問",
+      "summary": "助産師、保健師がご家庭を訪問し、妊娠中から産後のお母さんのからだのこと、出産準備や産後の生活についてなどのご相談をお受けします。",
+      "targetPersons": "市内在住の妊婦さんとその家族",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006676.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子育て支援施設 一覧",
+      "summary": "武蔵野市では市内の桜堤児童館などを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shisetsu_annai/kosodate/ichiran/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "子育てを応援する団体・グループ",
+      "summary": "武蔵野市内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/dantai_group/1018886.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM112",
+      "name": "子育て広場",
+      "shortName": "武蔵野市子育てひろばネットワーク",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、武蔵野市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/dantai_group/1018701.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM114",
+      "name": "小児科救急",
+      "shortName": "子ども救急相談先(病気・けが・誤飲)",
+      "summary": "武蔵野市では、市内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1017437.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子ども・子育て・妊娠期の相談",
+      "summary": "武蔵野市内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/sodan_komarigoto/jinken_higai_kokoro/1034626.html#group10",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM119",
+      "name": "武蔵野市の子育てに関する相談",
+      "shortName": "子どもとその家庭に関する総合相談",
+      "summary": "子どもに関する悩みや相談は子ども家庭支援センターへ。電話、来所、訪問相談を受けています。\n相談専用電話：0422-55-9002、フリーダイヤル：0120-839-002(通話料無料)",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/kodomokatei/1006794.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助費制度",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "国公立小・中学校に在籍する児童生徒のいる武蔵野市内在住の保護者で、1から4の要件のうちいずれか1つに該当する世帯。\n1.世帯全員の年間（前年：令和5年）の収入の合計額が基準以下である\n収入基準額の一例\n|世帯構成の例|世帯収入合計|\n|:----|:----|\n|夫婦（40歳）、小1|約400万円以下|\n|夫婦（40歳）、小1、中1|約480万円以下|\n|夫婦（40際）、小1、小4、中1|約530万円以下|\n|夫婦（40歳）、幼児、小1|約430万円以下|\n|親1人（40歳）、小1|約360万円以下|\n|親1人（40歳）、小1、中1|約450万円以下|\n|(注意1)世帯員の人数と年齢によって世帯ごとに基準額が異なります。\n(注意2)令和5年(2023年1月～12月）の世帯全員の収入合計で判定します。\n(注意3)適切なご案内のため、事前審査はお断りしています。\n2.児童扶養手当を受給している（ひとり親世帯）\n3.生活保護を受給している（令和6年度中に停止・廃止を受けた場合も含む）\n4.疾病、失業その他特別な事情があり令和6年の収入が1.に該当する\n(注意4)生活保護を受給している場合は、保護費と重複しない費目のみ就学援助費として支給します。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/sho_chugakko/shugakuenjo/1007052.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "こんにちは赤ちゃん訪問(新生児訪問)",
+      "summary": "武蔵野市では、生後約4カ月までの赤ちゃんのいるすべての家庭を対象に「こんにちは赤ちゃん訪問」を行っています。",
+      "targetPersons": "市内在住の生後約4カ月頃までの乳児がいる世帯",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006686.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん訪問(新生児訪問)",
+      "summary": "生後4か月を迎えるまでの乳児がいる全てのご家庭に助産師・保健師が訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスをご紹介します。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "対象\n市内在住の生後約4カ月頃までの乳児がいる世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006686.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア(宿泊型・日帰り型・訪問型)事業",
+      "summary": "出産後のお母さんが、医療機関やご自宅で助産師等のケアや授乳のアドバイスが受けられ、休息を取ることができる事業です。",
+      "targetPersons": "武蔵野市に在住の産後1年未満のお母さんと赤ちゃん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1024045.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠中の病気に対する医療費助成",
+      "summary": "東京都の市町村（八王子市及び町田市を除く）に住所を有し、対象疾病にかかっているかたで、認定基準を満たし、医療機関に入院して治療を受ける必要のあるかたに対し、東京都が助成を行っています。",
+      "targetPersons": "東京都の市町村（八王子市及び町田市を除く）に住所を有し、対象疾病にかかっている方で、認定基準を満たし、医療機関に入院して治療を受ける必要のあるかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/faq/shussan_kodomo_kyoiku/boshihoken/1032414.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "1.対象となる出産は、妊娠85日以上の出産です(85日以上の出産であれば生産・死産・流産・人工流産等の別は問いません)。\n2.社会保険に被保険者として1年以上加入していたかたが、資格喪失後6カ月以内に出産した場合は、以前の社会保険と国民健康保険のどちらかを選択した上で支給されます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/kokuminkenkouhoken_kokuminnenkin/kokuminkenkohoken/kyufu_naiyo/1004732.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティキーホルダー",
+      "summary": "武蔵野市では、妊娠の届出の際に、母子健康手帳と共にマタニティマーク入りのマタニティキーホルダーをお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006678.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "出産育児一時金の貸付制度",
+      "summary": "医療機関等へのお支払いが困難なかたには出産育児一時金の貸付制度があります。",
+      "targetPersons": "医療機関等へのお支払いが困難なかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/kokuminkenkouhoken_kokuminnenkin/kokuminkenkohoken/kyufu_naiyo/1004732.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM21",
+      "name": "出産祝い",
+      "shortName": "国の出産応援ギフト・子育て応援ギフト",
+      "summary": "「ゆりかごむさしの面接」で妊婦さん一人あたり「出産応援ギフト」5万円相当、「こんにちは赤ちゃん訪問」でお子さん一人あたり「子育て応援ギフト」5万円相当を支給します（条件に当てはまる場合は東京都の子育て応援ギフトも受取可。",
+      "targetPersons": "出産応援ギフト：令和5年1月1日以降に妊娠届を提出し、ゆりかごむさしの面接を受けたかた\n子育て応援ギフト：令和5年1月1日以降に生まれたお子さんのこんにちは赤ちゃん訪問を受けたご家庭",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1041069.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "低所得の妊婦に対する初回産科受診料の助成",
+      "summary": "低所得の妊婦のかたが、妊娠の判定を受けるために産科医療機関等を初回受診する際に必要な費用の一部を補助します。",
+      "targetPersons": "住民税非課税世帯または同等の所得水準である妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1046896.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子どもの医療費助成制度(マル乳・マル子・マル青)",
+      "summary": "子どもの医療費助成制度は、18歳の年度末までの子どもが病院等で診療を受けた医療費のうち、保険診療の自己負担分を助成する制度です。",
+      "targetPersons": "対象者\n武蔵野市内に住民登録をしており、健康保険に加入している18歳の年度末までの子ども（0歳から18歳に達した日以降最初の3月31日まで）を養育しているかた。\n・子どもの両親ともに所得がある場合は恒常的に所得の高いかたが申請者となります。\n・所得制限はありません。\n\n注意\n・生活保護を受けている子ども、児童福祉法に定める施設に入所している子ども、里親に委託されている子どもは対象になりません。\n・ひとり親家庭等医療費助成制度（マル親）、心身障害者医療費助成制度（マル障）等他の公費負担医療費助成制度と重複して助成を受けることはできません。ただし、他の公費負担医療費助成適用後に自己負担分がある場合は払い戻しの申請により助成がうけられます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kodomokatei/1006716.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2366",
+      "name": "高等学校卒業程度認定試験合格支援事業給付金",
+      "shortName": "ひとり親家庭高等学校卒業程度認定試験合格支援事業",
+      "summary": "ひとり親家庭の就職や転職の可能性を広げ、自立につなげていくため、ひとり親家庭の親またはお子さんが高卒認定試験合格のための講座（通信講座を含む）を受け、これを修了した時および合格したときに受講費用の一部を支給します。",
+      "targetPersons": "20歳未満のお子さんを扶養している母子家庭の母及び父子家庭の父またはそのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1020278.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "施設等利用給付認定",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "幼稚園や認可外保育施設等（注）を利用する方が無償化（一部無償化）の給付を受けるために必要な認定です。\n注）武蔵野市特定子ども・子育て支援施設等として確認された施設に限られます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/025/439/ninnteikubunn.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "【幼稚園・認定こども園（1号認定（幼稚園枠））の利用者】\n入園できる時期に合わせて、3歳になった日から無償化の対象になります。\n【認可保育施設・認可外保育施設等・幼稚園の預かり保育】\n3歳児クラスから5歳児クラスの児童については、「保育の必要性の認定」を受けた世帯が対象になります。\n0歳児クラスから2歳児クラスまでの児童については、「保育の必要性の認定」を受けることに加えて、個人住民税非課税の世帯が無償化の対象となります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/mushoka/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "武蔵野市外の保育施設に申込する方の手続き方法",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：武蔵野市内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、武蔵野市内の認可保育所への入所を希望する場合",
+      "targetPersons": "武蔵野市外の保育施設に申込する方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1029325.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "(認可外保育施設等)幼児教育・保育の無償化の申請",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "保育の必要性の認定を受けた\n3歳児クラスから5歳児クラスの児童：月額3.7万円までの利用料が後日、市から助成されます。\n0歳児クラスから2歳児クラスの住民税非課税世帯の児童：月額4.2万円までの利用料が後日、市から助成されます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkagai_hoikushisetsu/1024618.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kodomokatei/1006722.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッターによる一時預かり利用支援事業",
+      "summary": "ベビーシッターを利用する際の費用の一部を負担する制度です｡\n日常生活上の突発的な事情等により一時的に保育を必要とする保護者に対し、ベビーシッター利用料の一部を助成し、保護者の経済的な負担の軽減を図ります。",
+      "targetPersons": "対象児童\n満6歳に達する年度の末日までの児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/1030349.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さん（18歳に達する日以後の最初の3月31日までの間にある　※一定の障害を有する場合は20歳未満）が養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "児童が次のいずれかの状態にあてはまるとき、その児童を監護している父または母（父も母もいない場合等は養育者）に支給されます。\n\n父母が離婚した児童\n父または母が死亡した児童\n父または母が重度の障害を有する児童\n父または母が生死不明である児童\n父または母に1年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた児童\n父または母が法令により1年以上拘禁されている児童\n婚姻によらないで生まれた児童\n\n支給制限\n次のいずれかに該当する場合には、児童扶養手当は支給されません。\n\n日本国内に住所を有しない場合\n児童が児童福祉施設等に入所、または里親に養育されている場合\n児童が請求者以外の父または母と生計を同じくしている場合(注意1)\n児童が母または父の配偶者（事実上の配偶者を含む）と生計を同じくしている場合(注意1)\n請求者またはその扶養義務者(注意2)等の所得が制限限度額以上である場合\n注意1：父または母が重度の障害の状態にある場合を除く。\n注意2：扶養義務者とは、児童扶養手当の制度上、原則として児童扶養手当受給者と同居している直系血族(父母、祖父母、子、孫など)及び兄弟姉妹のかたをいいます。児童扶養手当受給者と扶養義務者間の実際の扶養・被扶養関係の有無は問いません。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1041207/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM27",
+      "name": "ひとり親家庭等医療費助成制度",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭等の母または父、および、そのお子さん（18歳に達する日以後の最初の3月31日までの間にある　※一定の障害を有する場合は20歳未満）の医療費に対して助成を行います。",
+      "targetPersons": "次のいずれかの状態にある児童を監護しているひとり親等である父又は母若しくは父母以外で児童を養育している方及び児童が助成対象となります。\n\n父母が離婚した児童\n父または母が死亡した児童\n父または母が重度の障害を有する児童\n父または母が生死不明である児童\n父または母に1年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた児童\n父または母が法令により1年以上拘禁されている児童\n婚姻によらないで生まれた児童\n助成制限\n次のいずれかに該当する場合には、医療費助成を受けることはできません。\n\n武蔵野市に住所を有しない場合\n国内の健康保険に加入していない場合\n生活保護を受給している方\n児童が児童福祉施設等に入所、または里親に委託されている場合\n児童が申請者以外の父または母と生計を同じくしている場合（注意）\n児童が母または父の配偶者（事実上の配偶者を含む）と生計を同じくしている場合（注意）\n（注意）父または母が障害の状態にある場合を除く。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1006735.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子及び父子福祉資金貸付制度",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6カ月以上お住まいの母子家庭の母または父子家庭の父などで、申請時に20歳未満のお子さんを扶養しているかた。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1006734.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療(医療費給付)",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "対象者となるかた\n武蔵野市に居住している乳児で以下の1～4の要件に該当するかたが対象です。\n1.1歳の誕生日の前々日までの乳児\n2.医師が入院養育を必要と認めている乳児\n3.指定医療機関に入院している乳児\n4.出生時体重が2000グラム以下または2000グラム以上でも次に掲げる対象となる症状のうちいずれかを呈する乳児\n対象となる症状\n1.運動不安、けいれん、運動異常\n2.体温が摂氏34度以下\n3.呼吸器、循環器系の異常（強度のチアノーゼが持続、呼吸数が毎分30回以下等）\n4.消化器系の異常（生後24時間以上排便がない、48時間以上嘔吐が持続等）\n5.黄だん（生後数時間以内に出現、異常に強い場合等）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006193.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/todokede_shomei/kosekitodokede/1004536.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "もうすぐママ・パパのためのこうのとり学級　平日クラス",
+      "summary": "もうすぐ赤ちゃんを迎える妊婦の皆さんとパートナーのかたを対象とした学級\n健康課（保健センター内）や市内の子育てひろばで実施する講座（実習など）にご参加いただけます。",
+      "targetPersons": "武蔵野市の初妊婦(開催日当日に妊娠16週から31週のかた）とそのパートナー\n(注意)経産婦のかたや妊娠32週以降のかたは、動画視聴のみ可能です。\n(注意)多胎妊娠のかた、16週未満のかたはご相談ください。\n(注意)妊婦さんまたはパートナーさんお一人でも参加できます。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006677.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "プレママのひろば",
+      "summary": "保育園では妊婦のかたを対象に、安心して赤ちゃんを迎えるための事業を行っています。\n\n保育園では妊婦のかたが出産後の育児がイメージできるように、出産後の育児への不安を少しでも解消していただけるようにプレママのひろばという事業を行っています。保育園職員と妊婦同士で交流する場を提供いたします。また、先輩ママと交流できる園もあります。",
+      "targetPersons": "妊娠5カ月以上の健康な妊婦のかた",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1017426.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産制度",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、武蔵野市の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "対象となるかた(次の3つの条件にあてはまるかた)\n1.市内にお住まいの妊産婦のかた(住民票があり、市内に生活実態を有すること)\n2.助産施設として認可されている病院・助産所等に入院すること (出産予定の病院等が該当するかどうかは必ず事前にご確認ください。）\n3.そのかたの属する世帯が下記のいずれかに該当するかた\n(ア)生活保護世帯\n(イ)住民税非課税世帯\n(ウ)当該年度(4月から6月までの申請者は前年度)の住民税所得割の額が19,000円以下の世帯\n（ただし、健康保険等に加入し、50万円以上の出産一時金を受け取ることのできるかたは除く）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/seikatsu_fukushi/1006650.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "子供の健康相談室（小児救急相談）",
+      "summary": "休日・夜間の急な子どもの病気にどう対処したらよいのか迷ったときに「♯8000」に電話していただくと、小児科医師・看護師よりお子さんの症状に応じた適切なアドバイスを受けられます（携帯電話可）。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/iryokikan/1041642/1045723.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM47",
+      "name": "武蔵野市の妊娠・出産に関する相談",
+      "shortName": "妊娠や出産に関する相談(マタニティ安心コール)",
+      "summary": "安心して赤ちゃんを迎えていただけるよう、妊娠・出産・育児に関することや市内での子育て支援に関して、保健師等が相談をお受けしています。ご希望のかたは、健康課までご連絡ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006675.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "妊婦健診で肝炎ウイルス検査の結果が陽性であった方へ(初回精密検査費用助成)",
+      "summary": "東京都では、妊婦健康診査で実施した肝炎ウイルス検査で陽性と判定された後、初めて医療機関で受ける精密検査費用を助成しています。",
+      "targetPersons": "妊婦健診で肝炎ウイルス検査の結果が陽性であった方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1039582.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3～4カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3～4カ月児健康診査を実施しています。",
+      "targetPersons": "3カ月～5カ月の乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1028828.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6カ月～7カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から7か月児を実施しています。",
+      "targetPersons": "6カ月～7カ月の乳児（8カ月になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1006695.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査の費用助成",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "検査受診日に武蔵野市に住民登録があり、生後50日以内に検査を受けるかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1023139.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "出産・子育て応援事業",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1041069.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "不育症治療に対する助成",
+      "summary": "東京都では、妊娠はするものの、2回以上の流産や死産などを繰り返し、結果的に子どもを持てないとされるいわゆる不育症について、リスク因子を特定し、適切な治療及び出産につなげるため、検査に係る費用の一部を助成します。",
+      "targetPersons": "平成31年4月1日以降に対象となる検査を開始したかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/funin_fuiku/1031820.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援事業",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "出産応援ギフト\n【対象】 令和5年1月1日以降に妊娠届を提出し、ゆりかごむさしの面接を受けたかた\n\n子育て応援ギフト\n【対象】 令和5年1月1日以降に生まれたお子さんのこんにちは赤ちゃん訪問を受けたご家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1041069.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "地域子ども館あそべえ",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "参加対象\n開設小学校の在籍児童およびその学区に住む小学生(私立・国立等)です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/shisetsu/1006778.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険税の免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "武蔵野市の国民健康保険に加入しており、令和5年11月以降の出産予定のかたから対象となります。\n武蔵野市の国民健康保険に加入しており、令和5年11月以降の出産予定のかたから対象となります。\n妊娠85日（4カ月）以上の出産が対象となります（死産、流産、早産及び人工妊娠中絶の場合も含みます）。\n出産予定日の6カ月前から届出ができます。出産後の届出も可能です。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/kokuminkenkouhoken_kokuminnenkin/kokuminkenkohoken/1044277.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども・コミュニティ食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。\n武蔵野市は武蔵野市市民社会福祉協議会に子ども食堂を行う団体の運営支援を委託しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/dantai_group/1022620.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "保護者が本市に在住し、18歳未満で身体に障害を有するため手術等を必要とし、確実な治療効果が期待される児童",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/shogaisha_fukushi/shien_josei/teate_kyufu/1006485.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "医療的ケアが必要な児童の保育",
+      "summary": "保育所等において看護師等を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": null,
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/tokubetsuhoiku/1040160.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6カ月児健康診査(内科健康診査)",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。武蔵野市では1歳6か月児健康診査を実施しています。小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6カ月～2歳になる前日までの幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1006696.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。武蔵野市では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "満3歳の幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1006697.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "他自治体で乳幼児健康診査を受けるまでの流れ",
+      "summary": "武蔵野市以外の自治体で乳幼児健康診査（3～4カ月児健診、1歳6カ月児健診、3歳児健診）を希望される場合、武蔵野市が発行する「依頼書」の提出を求められます。",
+      "targetPersons": "武蔵野市以外の自治体でで乳幼児健康診査（3～4カ月児健診、1歳6カ月児健診、3歳児健診）を希望されるかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1028828.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまで（標準は、生後5カ月以上8カ月未満）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\n武蔵野市では、一部の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "対象年齢：接種日当日1歳以上の未就学児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1027352.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "20歳未満のお子さんを扶養している母子家庭の母及び父子家庭の父",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1006729.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票等をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006673.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "20歳未満のお子さんを扶養している母子家庭の母及び父子家庭の父",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1006729.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM61",
+      "name": "ひとり親家庭等住宅費助成制度",
+      "shortName": "ひとり親家庭等住宅費助成制度",
+      "summary": "20歳未満の児童がいるひとり親家庭等の父・母・養育者が、民間の共同住宅等を借りて家賃を支払っている場合に、家賃の一部を助成する制度です。",
+      "targetPersons": "以下の条件のすべてにあてはまるかたが助成対象となります。\n\n1.ひとり親家庭等であること(注意1)。\n2.民間の共同住宅をご自身で借りて家賃を支払っていること(独立行政法人都市再生機構住宅、市営・都営・都民住宅、社宅、社員寮等を除く)。\n3.武蔵野市内に引き続き6カ月以上在住していること。\n4.所得制限限度額未満であること。\n（注意1）ひとり親家庭等とは、次のいずれかの状態にある児童と、児童を監護しているひとり親等である父または母もしくは父母以外で児童を養育しているかたをいいます。\n\n・父母が離婚した児童\n・父または母が死亡した児童\n・父または母が生死不明である児童\n・父または母に1年以上遺棄されている児童\n・父または母が裁判所からのDV保護命令を受けた児童\n・父または母が法令により1年以上拘禁されている児童\n・婚姻によらないで生まれた児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1006731.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "支給要件\n20歳未満の身体または精神に重度から中度の障害のある児童を養育していること\n\n重度障害(一級)\n視力または視野について認定基準に定める障害の状態にあるもの\n両耳の聴力レベルが100デシベル以上のもの\n両上肢の機能に著しい障害を有するもの\n両上肢すべての指を欠くもの\n両上肢のすべての指の機能に著しい障害を有するもの\n両下肢の機能に著しい障害を有するもの\n両下肢を足関節以上で欠くもの\n体幹の機能に座っていることができない程度、または立ち上がることができない程度の障害を有するもの\n前各号に掲げるもののほか、身体の機能の障害、または長期にわたる安静を必要をする病状が前各号と同程度以上と 認められる状態であって、日常生活の用を弁ずることを不能ならしめる程度のもの\n精神の障害であって、前各号と同程度以上と認められる程度のもの\n身体の機能の障害もしくは病状または精神の障害が重複する場合であって、その状態が前各号と同程度以上と認められる程度のもの\n中度障害(二級)\n視力または視野について認定基準に定める障害の状態にあるもの\n両耳の聴力レベルが90デシベル以上のもの\n平衡機能に著しい障害を有するもの\nそしゃくの機能を欠くもの\n音声または言語機能に著しい障害を有するもの\n両上肢の親指および人差し指または中指を欠くもの\n両上肢の親指および人差し指または中指の機能に 著しい障害を有するもの\n一上肢の機能に著しい障害を有するもの\n一上肢のすべての指を欠くもの\n一上肢のすべての指の機能に著しい障害を有するもの\n両下肢すべての指を欠くもの\n一下肢の機能に著しい障害を有するもの\n一下肢を足関節以上で欠くもの\n体幹の機能に歩くことのできない程度の障害を有するもの\n前各号に掲げるもののほか、身体の機能の障害または長期にわたる安静を必要とする病状が前各号と同程度以上と認められる状態であって、日常生活に著しい制限を加えることを必要とする程度のもの\n精神の障害であって、前各号と同程度以上と認められる程度のもの\n身体の機能の障害もしくは病状または精神の障害が重複する場合であって、その状態が前各号と同程度以上と 認められる程度のもの\n視力または視野について認定基準に定める障害の状態(1級および2級) （PDF 395.0KB）; https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/006/738/r04eye.pdf\n支給制限\n次のいずれかに該当する場合には、特別児童扶養手当は支給されません。\n\n手当を受けようとする人、対象となる児童が日本に住んでいない場合\n児童が肢体不自由児施設や知的障害児施設などの施設に入所している場合\n児童が障害基礎年金等、障害を理由として年金を受けることができる場合\n手当額(月額) 令和6年4月分から\n1級の場合：55,350円\n2級の場合：36,860円",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/shogaiji/1006738.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "対象 20歳未満で重度の障害があり、日常生活に常時介護が必要なかた。認定の目安は以下のとおりです。\n身体障害者手帳1級または2級程度の障害があり、条件を満たしているかた\n愛の手帳1度または2度程度の障害があり、条件を満たしているかた\n常時介護を要する上記に準ずる疾病、精神障害(発達障害・高次脳機能障害を含む）の状態にあるかた\n制限 次のいずれかに該当するかたは受給できません。\n施設に入所しているかた\n障害年金等を受給しているかた\n本人または扶養義務者の所得が一定額を超えるかた (支給停止となりますが、認定は受けられます)",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/shogaiji/1006741.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "18歳未満の児童で、下記対象疾病の状態が認定基準に該当するかた。\nただし、18歳に達した時点で受給者証を有し、引き続き治療を受ける必要がある場合に限り、20歳まで延長することができます。\n\n対象疾患については、東京都福祉保健局のホームページをご覧ください。\n(注意)気管支ぜん息、慢性気管支炎等については、「大気汚染健康障害者医療費助成」があります。\n詳しくは、大気汚染健康障害者医療費助成のページをご覧ください。\n大気汚染医療費助成;https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/iryohi_josei/1006192.html\n小児慢性特定疾病医療費助成制度(東京都福祉保健局)（外部リンク）;https://www.fukushi.metro.tokyo.lg.jp/kodomo//kosodate/josei/syoman/",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/shogaiji/1006740.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM68",
+      "name": "児童育成手当",
+      "shortName": "児童育成手当",
+      "summary": "18歳に達する日以後の最初の3月31日までの間にある子どもがいるひとり親家庭等に支給する手当",
+      "targetPersons": "18歳に達する日以後の最初の3月31日までの間にあり、次のいずれかの状態にある児童を監護、または父母に代わり養育しているかた。\n\n父母が離婚した児童\n父または母が死亡した児童\n父または母が重度の障害を有する児童\n父または母が生死不明である児童\n父または母に1年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた児童\n父または母が法令により1年以上拘禁されている児童\n婚姻によらないで生まれた児童\nまた、所得制限限度額未満であること。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1044080/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "助産所や東京都以外の医療機関で受診した場合の助成金申請",
+      "summary": "武蔵野市にお住まいの妊婦さんが、里帰り出産などで武蔵野市の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "受診時に武蔵野市に住民登録があるかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006673.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "教育・保育給付認定",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "認定こども園・幼稚園・認可保育所・地域型保育事業の教育・保育を利用する子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/025/439/ninnteikubunn.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "多子世帯への負担軽減",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "多子世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho/1006892.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "令和７年度入所申込み",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所には、国が定めた設置基準を満たし、都道府県知事に認可された保育所（認可保育所）と、それ以外の保育施設（認可外保育施設等）がありますが、ここでは認可保育所についてご案内します。\n\n保育所では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「サポート保育」などを行っている園もあります。",
+      "targetPersons": "入所申込ができる要件\n保護者が仕事をしている、またはこれから就労する（求職活動中）場合\n保護者が出産をする場合（在園期間は出産予定月及びその前後おおむね2カ月の計約5カ月）\n保護者に病気や心身の障害がある場合\n保護者が家族等の病人や心身障害者の看護・介護をしている場合\n就学又は職業訓練をしている場合\n地震や火災などの災害にあった場合\nその他、明らかに保育に当たることができない場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho_tetsuzuki/1048011.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "境こども園",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": "保護者が就労等で保育を必要とする0～5歳児【2,3号認定児】\n市内に住所があり入園を希望する4、5歳児【1号認定児】",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninteikodomoen/1006905.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "地域型保育事業一覧",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。武蔵野市には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "0～2歳児(3歳の誕生日を超した3月末日まで)",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/ichiran/1006869.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "武蔵野市内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "夕方保育の終了時間までにお迎えが間に合わない世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho/1006890.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM78",
+      "name": "サポート保育",
+      "shortName": "サポート保育",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "市内在住で保護者の就労等で保育を必要とする0歳児から就学前児童",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/tokubetsuhoiku/1006897.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM781",
+      "name": "夜間保育",
+      "shortName": "武蔵野市すくすく泉事業",
+      "summary": "保護者の就労時間などにより、夜間、家庭において保育を受けられないお子さんを保護者に代わって保育する、「夜間保育」を行っています。認可保育園などが、延長保育により夜間まで開所している場合のほか、専門の夜間保育施設などもあります。\n夜間保育を行う施設には、認可外の施設もありますが、ここでは認可保育園についてご案内します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/shisetsu/1006771.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "産前・産後支援ヘルパーの利用",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/kodomokatei/1006796.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "下記の1から3のすべてを満たすお子さま\n\n1.武蔵野市内に住所を有すること。\n2.小学校1年生から3年生まで。（障害児枠での学童クラブ入会児童は6年生まで）\n3.保護者の就労等のために放課後の監護を受けられない。\n\nなお、平成27年度の児童福祉法改正により、学童クラブの対象は小学校全学年に広がりましたが、武蔵野市では、入会希望児童数の増加により希望者全員を受け入れることが困難であるため、当面の間は1年生から3年生（障害児枠で入会する児童については）6年生までを入会対象としています。放課後を過ごす場所として全児童を対象とした地域子ども館あそべえもありますのでご利用ください。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/shisetsu/gakudoclub/1006775.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "こんにちは赤ちゃん訪問(新生児訪問)",
+      "summary": "武蔵野市では、生後約4カ月までの赤ちゃんのいるすべての家庭を対象に「こんにちは赤ちゃん訪問」を行っています。\n赤ちゃんが生まれたら、出生通知票提出フォームよりお申し込みください。",
+      "targetPersons": "市内在住の生後約4カ月頃までの乳児がいる世帯",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006686.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM792",
+      "name": "乳幼児の歯の健康診査（▲歳児歯科健康診査）",
+      "shortName": "乳幼児歯科相談(むし歯予防教室)",
+      "summary": "1歳6カ月から2歳6カ月までの幼児を対象とした、歯や口・食生活などを含めてのむし歯予防の保健指導と、4歳未満の幼児を対象とした定期的な歯科健診を行っています。",
+      "targetPersons": "健康課（保健センター）にて、1歳6カ月児健康診査（保育相談・歯科健康診査）を受診した後の、1歳6カ月から2歳6カ月の幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006688.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料の免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "国民年金第1号被保険者のかたで、出産日が平成31年2月1日以降のかた。",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kurashi_tetsuzuki/kokuminkenkouhoken_kokuminnenkin/kokuminnenkin/1022870.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食",
+      "summary": "生後3～10か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/shitsunokakuho/1006902.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM799",
+      "name": "子ども家庭支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "武蔵野市の【子ども家庭支援センター】では、0歳から18歳未満のお子さんの子育てに関する相談やお子さん自身からの相談、ひとり親のご家庭への支援・相談に応じます。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/kosodateshien/kodomokatei/1006794.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "妊婦の市民（5～7カ月頃の安定期の受診をお勧めします）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006674.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "武蔵野市内の私立幼稚園等一覧",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/yochien/1006922.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "利用者負担額(保育料)",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・事業所内保育・居宅訪問型保育）の保育料（利用者負担額）は、国が定めた額を上限として、武蔵野市が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "扶養義務者(保護者)",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho/1006892.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": "対象年齢：0～2歳児(3歳の誕生日を超した3月末日まで)\n対応している保育時間：施設による\nアレルギー対応：アレルギーがある場合は、必ず申込前に施設に確認が必要\n障害児保育：受入れなし\n市外への転出の場合：継続通園は不可",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/ichiran/1006869.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "事業所内保育",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": "対象年齢：0～2歳児(3歳の誕生日を超した3月末日まで)\n対応している保育時間：施設による\nアレルギー対応：アレルギーがある場合は、必ず申込前に施設に確認が必要\n障害児保育：受入れなし\n市外への転出の場合：継続通園は不可",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/ichiran/1006869.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療(精神通院医療)",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患のため、継続して通院治療を受けているかた",
+      "categories": [
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/shogaisha_fukushi/shien_josei/teate_kyufu/1006482.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育の利用",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "通院や仕事等で一時的にお子さまの保育ができないときや、子育てから離れてリフレッシュしたいとき",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/kanrenservice/ichijihoiku/1006913.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "定期利用保育の利用",
+      "summary": "武蔵野市内の認可保育園では、同居の家族がパート就労などで、入園基準には満たないものの、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/kanrenservice/ichijihoiku/1045499/1024313.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児及び病後児保育施設",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "武蔵野市に在住する生後6カ月～小学校3年生までの児童\n（病気やケガで、入院治療は必要ないが集団保育が困難であり、保護者が就労・疾病・介護・冠婚葬祭等により家庭で療養することができない児童）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/kanrenservice/1006916.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "武蔵野市ファミリー・サポート・センター",
+      "summary": "武蔵野市のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、援助会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "市内にお住まいの育児の援助を受けたいかた（ファミリー会員）と、育児の援助をしてくださるかた（サポート会員）が、育児の相互援助活動を行う会員組織",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/kanrenservice/ichijihoiku/1017255.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育所・認定こども園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、武蔵野市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": "対象年齢 ：0～5歳児クラス（小学校就学前まで）（注意）産休明け保育：施設による\n対応している保育時間：保育標準時間・保育短時間\nアレルギー対応：要相談\n障害児保育：受入れあり（注意）障害児保育を検討される場合は、必ず事前に子ども育成課にご相談ください。\n市外へ転出の場合：必要な条件や手続きあり",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/ichiran/1006868.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "多胎妊婦の妊婦健康診査費用助成(15回目以降)",
+      "summary": "武蔵野市では、妊婦健康診査を14回まで無料で受けられる受診票に加えて、多胎妊婦の妊婦健康診査の費用の一部助成を行います。",
+      "targetPersons": "(1)多胎妊婦のかたで、令和4年4月1日以降に、15回目以降の妊婦健康診査を受診されたかた\n(2)受診時に武蔵野市に住民登録があるかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1035954.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認可外保育施設",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、武蔵野市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/mushoka/1025440.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "地域型保育事業一覧",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、武蔵野市が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": "0～2歳児(3歳の誕生日を超した3月末日まで)（注意）産休明け保育：実施なし",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/ichiran/1006869.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "幼稚園・認定こども園（1号認定（幼稚園枠））",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、武蔵野市内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/025/440/youtienn.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎第2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "9歳以上13歳未満（13歳になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "二種混合(DT:ジフテリア・破傷風 第2期)",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳以上13歳未満（13歳になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "子宮頸がん予防(ヒトパピローマウイルス感染症)",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "対象年齢：12歳となる日の属する年度の初日から16歳となる日の属する年度の末日までの間にある女子（小学6年から高校1年相当）\n標準的な接種期間：13歳となる日の属する年度の初日から当該年度の末日まで（中学1年の4月～翌年3月）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠中に転入されたかた",
+      "summary": "妊娠中に転入されたかたは、武蔵野市で妊娠届出を提出後に、ゆりかごむさしの面接をお申し込みください。",
+      "targetPersons": "妊娠中に転入されたかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1029279.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM13",
+      "name": "新生児訪問",
+      "shortName": "市民のかたで、他自治体でこんにちは赤ちゃん訪問を希望されるかた",
+      "summary": "こんにちは赤ちゃん訪問は、全国の自治体にて実施されている事業です。手続きをとることで里帰り等により市外に長期滞在されるかたが、滞在先でのこんにちは赤ちゃん訪問を受けることが可能になる場合があります。",
+      "targetPersons": "里帰り等により市外に長期滞在されるかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006686.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "子ども・子育て応援券(こども商品券：1万円分)",
+      "summary": "母子健康手帳の交付を受け、妊娠中に健康課（保健センター）または子ども家庭支援センターで『ゆりかごむさしの面接』を受けた武蔵野市に住民登録のある妊婦さんには、「子ども・子育て応援券（こども商品券：1万円分）」をお渡ししています。",
+      "targetPersons": "母子健康手帳の交付を受け、妊娠中に健康課（保健センター）または子ども家庭支援センターで『ゆりかごむさしの面接』を受けた武蔵野市に住民登録のある妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1029278.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "認定後の手続き",
+      "summary": "子どもの医療費助成制度は、18歳の年度末までの子どもが病院等で診療を受けた医療費のうち、保険診療の自己負担分を助成する制度です。",
+      "targetPersons": "届出が必要なかた\n東京都外の国民健康保険に加入または脱退したかた(変更届)\n申請者が市外へ転出したかた(変更届もしくは消滅届)\n子どもが市外へ転出したかた(消滅届)\n申請者もしくは子どもが市内転居により住所を変更したかた(変更届)\n主たる生計維持者が変更になったかた(消滅届)",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/kosodateshien/1003757.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kodomokatei/1006722.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "もうすぐママ・パパのためのこうのとり学級　土曜日クラス(2日制・2日目に日曜日開催あり)",
+      "summary": "もうすぐ赤ちゃんを迎える妊婦の皆さんとパートナーのかたを対象とした学級\n健康課（保健センター内）や市内の子育てひろばで実施する講座（実習など）にご参加いただけます。",
+      "targetPersons": "| |土曜日クラス(1日目)|土曜日クラス(2日目)|\n|対象|武蔵野市民の初妊婦とそのパートナー<br>(参加時、妊娠16週から31週のかた)|武蔵野市民の初妊婦とそのパートナー<br>(参加時、妊娠16週から31週のかた）|\n|場所|健康課(武蔵野市立保健センター)|0123吉祥寺、桜堤児童館、0123はらっぱ|\n|定員|40組(申込順)|0123吉祥寺：14組<br>桜堤児童館：15組<br>0123はらっぱ：20組<br>(全施設、申込順)|\n|時間|（1）9時10分から11時<br>（2）10時20分から12時10分<br>（各10分前から受付）|0123吉祥寺（土曜日）<br>（1）9時45分から10時45分<br>（2）11時から12時<br>桜堤児童館（土曜日）<br>10時から11時<br>0123はらっぱ<br>（1）9時45分から10時45分<br>（2）11時から12時|\n|内容|ようこそ！子育てチームむさしのへ<br>・実習編(もく浴・抱っこ実習）<br>・心構え編(保健師の話）<br>・赤ちゃんの育ち編（保育士の話）<br>・母子保健サービスのご案内|ようこそ！子育てチームむさしのへ<br>・ひろば編～プレママ・プレパパのプレひろばデビュー～<br>（グループワーク、ひろば案内）|",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006677.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9カ月～10カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査9か月から10か月児を実施しています。",
+      "targetPersons": "9カ月～10カ月の乳児（11カ月になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1006695.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "助産所や東京都以外の医療機関で受診した場合の助成金申請",
+      "summary": "助産所及び里帰り等で東京都以外の医療機関で受診された場合も、申請により市の助成が受けられます。\n妊婦健康診査の償還払いもご希望のかたは、同時に申請することができます。",
+      "targetPersons": "検査時に武蔵野市に住民登録があるかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1023139.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "不妊治療に対する助成",
+      "summary": "東京都では不妊検査および薬物療法や人工授精等の一般不妊治療にかかる費用の一部を助成します。事実婚のかたも助成の対象となります。",
+      "targetPersons": "令和4年4月1日以降に対象となる検査を開始したかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/funin_fuiku/1031819.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "東京都の子育て応援ギフト",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "以下の条件に当てはまる場合は、東京都の子育て応援ギフトも対象になります。\n|お子さんの生年月日|条件|申請方法|\n|:----|:----|:----|\n|令和5年1月1日～令和5年3月31日|出生時に東京都内に住民登録があるかた|申請不要（出生の翌月末に自動で送付）|\n|令和5年4月1日～|こんにちは赤ちゃん訪問時に東京都内に住民登録があるかた|国の子育て応援ギフトと同時に申請|",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1041069.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6カ月児健康診査(保育相談・歯科健康診査)",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。武蔵野市では1歳6か月児健康診査を実施しています。小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6カ月～2歳になる前日までの幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/kodomo_kenkoshinsa/1006696.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまで（標準は、生後2カ月以上9カ月未満）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "男性のHPV(ヒトパピローマウイルス)ワクチン接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\n武蔵野市では、一部の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "小学6年生から高校1年相当で、接種日当日、武蔵野市民の男子",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1046496.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "転入された妊婦さんへ",
+      "summary": "都外より転入された妊婦さんは、妊婦健康診査受診票、妊婦子宮頸がん検診受診票、妊婦超音波検査受診票、新生児聴覚検査受診票、妊婦歯科健康診査受診票の交換（不足分の追加）が必要となります。\n都内より転入された妊婦さんのうち、前自治体で妊婦超音波検査受診票を4枚受け取っていないかたは、不足分をお渡しします。",
+      "targetPersons": "転入された妊婦さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1031826.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM68",
+      "name": "児童育成手当（障害）",
+      "shortName": "児童育成手当（障害）",
+      "summary": "身体または精神に障害のある20歳未満の児童を監護する父もしくは母、または父母に代わってその児童を養育しているかたに支給されます",
+      "targetPersons": "20歳未満で心身に障害があり、その程度が次のいずれかに該当する児童を監護する父もしくは母、または父母に代わってその児童を養育しているかた\n知的障害で「愛の手帳」1度・2度・3度程度\n身体障害で「身体障害者手帳」1級・2級程度\n脳性マヒまたは進行性筋萎縮症\nまた、所得制限限度額未満であること。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/shogaiji/1006739.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "ひとり親世帯・同一世帯に在宅障害児（者）がいる世帯への負担軽減",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "市区町村民税所得割額77,101円未満のひとり親世帯及び同一世帯に在宅障害児（者）がいる世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/hoikuen_yochien_kodomoen/ninkahoikusho_chiikihoikujigyo/nyusho/1006892.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM792",
+      "name": "乳幼児の歯の健康診査（▲歳児歯科健康診査）",
+      "shortName": "乳幼児歯科相談(定期歯科健康診査)",
+      "summary": "1歳6カ月から2歳6カ月までの幼児を対象とした、歯や口・食生活などを含めてのむし歯予防の保健指導と、4歳未満の幼児を対象とした定期的な歯科健診を行っています。",
+      "targetPersons": "むし歯予防教室を受講後から、4歳未満の幼児\n（注意）きょうだいが既にむし歯予防教室を受講されたことのあるかたは、定期歯科健診から参加ができます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006688.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食のレシピを発信",
+      "summary": "「クックパッド武蔵野市公式キッチン」で、離乳食のレシピを発信しています。\n炊飯器で作るおかゆや、レンジで作る簡単おいしい「とろみ煮」、手づかみメニューなどを写真付きで紹介！",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1028024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+3+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "もうすぐママ・パパのためのこうのとり学級　動画視聴(平日・土曜日クラス共通)",
+      "summary": "もうすぐ赤ちゃんを迎える妊婦の皆さんとパートナーのかたを対象とした学級\n健康課（保健センター内）や市内の子育てひろばで実施する講座（実習など）にご参加いただけます。",
+      "targetPersons": "武蔵野市民の初妊婦とそのパートナー(参加時、妊娠16週から31週のかた)",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/ninshin/1006677.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス感染症",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "対象年齢と接種回数：|ワクチンの種類|対象年齢|接種回数|\n|:----|:----|:----|\n|ロタリックス|出生6週後から出生24週後（目安：5カ月半）まで|2回|\n|ロタテック|出生6週後から出生32週後（目安：7カ月半）まで|3回|\n初回接種の標準的な接種期間は生後2カ月から出生14週6日後まで。出生15週後以降の初回接種は要相談。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+3+UM792",
+      "name": "乳幼児の歯の健康診査（▲歳児歯科健康診査）",
+      "shortName": "乳幼児歯科相談(卒業教室)",
+      "summary": "1歳6カ月から2歳6カ月までの幼児を対象とした、歯や口・食生活などを含めてのむし歯予防の保健指導と、4歳未満の幼児を対象とした定期的な歯科健診を行っています。",
+      "targetPersons": "むし歯予防教室、定期歯科健診を受講後から、4歳未満の幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1006688.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+3+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食教室・1歳ごはん教室",
+      "summary": "健康課（保健センター）では、発達に合わせた離乳食の教室を行っています。",
+      "targetPersons": "武蔵野市民で、下記日程表の対象月生まれの子と、その親。\n第2子のかたは第1子で定員に空きがある場合のみ参加が可能です。\n参加可能な場合のみ、開催5日前までにご連絡します。\n\nごっくん教室 （離乳初期 3カ月から6カ月児）\nもぐもぐ教室 （離乳中期 5カ月から8カ月児）\nかみかみ教室 （離乳後期 7カ月から10カ月児）\n1歳ごはん教室（離乳完了期 11カ月から1歳3カ月児）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1047740.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から生後60カ月に至るまで（5歳になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+4+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食の電話相談",
+      "summary": "保健センターの管理栄養士に、離乳食の相談ができます。\n「せっかく作ったのに、食べてくれないのはどうして？」\n「ベビーフードの上手な使いかたを教えてほしい」\nなど、お気軽にどうぞ。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/ninshin_shussan_boshihoken/umaretara/1028895.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "五種混合(DPT-IPV-Hib：ジフテリア・百日せき・破傷風・ポリオ・ヒブ感染症 第1期)",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から生後90カ月に至るまで（7歳6カ月になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+6+UM26",
+      "name": "児童扶養手当",
+      "shortName": "都営交通無料乗車券等の発行(都制度)",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "都営交通無料乗車券\n身体障害者手帳、愛の手帳、戦傷病者及び原爆被爆者手帳をお持ちのかた(乗車券通用期間 3年)\n生活保護受給世帯員、中国残留邦人支援給付金受給者またはその配偶者、児童扶養手当受給世帯員及び被救護者(乗車券通用期間 1年)\n(注意1)身体障害のあるかた、知的障害のあるかた、被救護者のかたが介護者とともに乗車する場合は、手帳等を提示して介護者割引を受けることができます。\n(注意2)乗車券の通用期限が該当者の誕生月までとなるため、通用期間がそれぞれ3年または1年に満たない場合があります。\n\n(注意3)発行した磁気券はICカード(パスモ）に変更することができます（指定された駅で手続きが必要です）。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/shogaisha_fukushi/shien_josei/unchin_hojo_josei/1006510.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後12カ月から生後36カ月に至るまで（3歳になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+7+UM26",
+      "name": "児童扶養手当",
+      "shortName": "上下水道料金の一部免除",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "水道契約者が児童扶養手当受給者本人の場合のみ",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1041207/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん(MR)第1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後12カ月から生後24カ月に至るまで（2歳になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+8+UM26",
+      "name": "児童扶養手当",
+      "shortName": "市指定家庭ごみ処理袋無料引換券の発行",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1041207/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん(MR)第2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "5歳以上7歳未満（小学校入学前年の4月1日から3月31日）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020132039+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎第1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後6カ月（標準的には3歳）から生後90カ月に至るまで（7歳6カ月になる前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.musashino.lg.jp/kenko_fukushi/kenko_hoken/yobosesshu/kodomo/1006703.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

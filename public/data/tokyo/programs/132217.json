@@ -1,0 +1,1398 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132217",
+  "programs": [
+    {
+      "psid": "psid3.0+3000020132217+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠の届出と母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊娠した方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005132/1006024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "健診後フォローグループ",
+      "summary": "健診後フォローグループ\n\nページ番号1005198　 更新日 2021年4月1日\n印刷　大きな文字で印刷\n\nこうさぎグループ\nお子さんの運動発達の心配事や運動発達を促す遊び方などについて、ひとり歩きできるようになるまで相談できるグループです。保健師や保育士に育児相談もできます。\n（参加ご希望の方は、事前に担当までご相談下さい）\n問合せ先：子育て支援課母子保健係　こうさぎグループ担当保健師\n\nバナナグループ\nお子さんの発達についてご心配がある方や、お子さんとの関わり方についてお悩みのある方などに、集団生活が始まるまで、小集団でのグループ遊びを通して成長発達を見守って行くグループです。\n（参加ご希望の方は、事前に担当までご相談下さい。）\n問合せ先：子育て支援課母子保健係　バナナグループ担当保健師",
+      "targetPersons": "参加希望者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/nyuuyoujikenkou/1005198.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "キラリ☆子育てナビ",
+      "summary": "令和4年10月1日より、スマートフォンやタブレット端末、パソコンにてご利用いただける「キラリ☆子育てナビ」の配信を開始しました。このアプリでは、妊婦さんの健康状態やお子さんの成長を記録をしたり、予防接種のスケジュールを管理することができます。また、清瀬市の子育て情報やイベント情報、出産や育児に関するアドバイスなどを受け取ることもできます。妊娠中の方から子育て中の方まで幅広くご利用いただける本アプリをぜひご活用ください。",
+      "targetPersons": "妊娠中の方から子育て中の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1006915/1011080.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM108",
+      "name": "児童館",
+      "shortName": "中央児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、清瀬市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/1005362.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "こんにちは赤ちゃん事業（乳児家庭全戸訪問事業）",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "生後4か月までの赤ちゃんがいる、新生児訪問指導を受けていないご家庭",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005167/1005170.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "子ども家庭支援センターは、市民の皆様の身近な相談機関として、気軽に相談できる窓口です。問題解決のお手伝いをするとともに子育て支援サービスのご案内・子育て情報の提供・子育てグループの組織化のお手伝いをしています。\n関係機関と協力・連携して、子どもの虐待防止に努めています。お気軽にご相談ください。",
+      "targetPersons": "清瀬市在住の18歳未満のお子さんとその家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/1005251.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM112",
+      "name": "子育て広場",
+      "shortName": "つどいの広場",
+      "summary": "市内には「つどいの広場」が６か所あります。「つどいの広場」は赤ちゃんから小学校に行く前の乳幼児が、お父さん・お母さん、おじいちゃん・おばあちゃんと一緒に遊べます。「つどいの広場」では市内の子育て情報が得られます。また、アドバイザーが常駐していますので育児相談なども出来ます。ぜひお気軽にお出かけください。",
+      "targetPersons": "未就学児童とその保護者（父母、祖父母）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokyousitu/1005234.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM114",
+      "name": "小児科救急",
+      "shortName": "平日準夜間小児救急診療",
+      "summary": "清瀬市では、多摩北部医療センターと佐々総合病院で、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": "15歳以下のお子様",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonobyouki/1009955.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育て相談",
+      "summary": "清瀬市内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatesoudan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "ホームビジター派遣事業",
+      "summary": "未就学児のいるご家庭に、子育て経験のあるボランティア（ホームビジター）の先輩ママが訪問し、ママの話をお聴きしたり、一緒に出掛けたり、離乳食やお料理を一緒に作ったりします。",
+      "targetPersons": "清瀬市在中の新生児～主に未就学児のいる家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/1005251.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "令和6年度　就学援助制度",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "清瀬市に住民登録があり、国公立の小・中学校に在学するお子さんがいるご家庭のうち、以下の1～6の要件のうちいずれか1つに当てはまる場合で、世帯全員の方が前年度の所得の申告を済まされていている世帯。(住民登録のない方でも、特定非常災害により避難されている場合は対象となります。詳しくは問い合わせ窓口までご連絡ください。）\n世帯の中に未申告の方がいる場合は審査できませんので、就学援助費は支給されません。必ず申告を東村山税務署又は課税課市民税係で済ませてから申請してください。\n\n認定要件\n1.前年（令和5年）の世帯全員の合計所得金額が基準額以下である方\n2.生活保護を受給している世帯\n3.当該年度中に生活保護の停止又は廃止を受けた世帯\n4.天災その他特別な事情により市民税、個人事業税、固定資産税、国民健康保険税の減免を受けている世帯（収入のある世帯全員が該当する場合）\n5.天災その他特別な事情により国民年金保険料の減免を受けている世帯（収入のある世帯全員が該当する場合）\n6.児童扶養手当（ひとり親家庭が対象の手当）を受給している方（全部支給停止者を除く）",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.kiyose.ed.jp/gakkoukyouiku/syuugakuenjo/2000251.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "こんにちは赤ちゃん事業（乳児家庭全戸訪問事業）",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "「出生通知票」に基づき、生後2か月までの赤ちゃんがいるご家庭",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005167/1005170.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん事業（乳児家庭全戸訪問事業）",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後4か月までの赤ちゃんがいるご家庭\n（長期里帰りなどご事情のある方はご相談ください。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005167/1005170.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア訪問事業",
+      "summary": "産後に家族等から援助が受けられず、支援を必要とする産婦・乳児に対し、心身のケアや育児支援等を行う「産後ケア訪問事業」を実施し、安心して子育てができるよう支援します。",
+      "targetPersons": "母子ともに清瀬市に住所があり、以下の事項に該当する方\n\n家族からの育児等の援助が受けられない方\n産後における心身の不調、育児不安のある方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005167/1012674.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "清瀬市不育症治療費助成事業",
+      "summary": "妊娠はするものの流産や早産、死産などがつづき、子どもを持てないことを不育症と呼んでいます。\n不育症の方も、適切な検査と治療を行うことで80％以上の方が出産できることがわかっています。\n治療費が高額になることもあり、清瀬市では不育症の治療を受けているご夫婦の経済的な負担の軽減を図るため、不育症の治療費の一部を助成します。",
+      "targetPersons": "次の要件を満たす方が助成の対象です。\n\n厚生労働省不育症研究班に属する医療機関で不育症の治療を受けていること\n法律上婚姻関係であるご夫婦\n治療日及び申請時現在でご夫婦どちらも清瀬市に住民登録があること\n国民健康保険もしくは社会保険各種公的医療保険に加入していること\nご夫婦の前年度の所得の合算が905万円未満であること\n清瀬市に市税等の滞納がないこと",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005134/1004137.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "清瀬市の国民健康保険に加入している方がお産（妊娠12週以上の死産・流産を含む）をしたとき（お産の日から6か月前まで職場の健康保険に本人が加入していた場合は除きます）",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kurashi/kokuhonenkin/kokuminkenkouhoken/1003660/1003663.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成（マル乳医療証）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "0歳から6歳になった後の最初の3月31日までの間（義務教育就学前）の乳幼児が対象",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/1005266/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "令和6年度の私立幼稚園等補助金【私学助成園】",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "清瀬市に住所を有し、私学助成を受ける幼稚園（市外幼稚園も含む）に在籍している園児の保護者の方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/sirituyouchienhojokin/1011402/1011403.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化対象施設の一覧",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/misyuugakujiwoazukeru/1005345.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設の無償化",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "保育の必要性の認定を受けた世帯の 3 歳～５歳の児童（4 月 1 日現在の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/1011301/1011302.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/jidouteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "次のいずれかに該当する、18歳到達後の最初の年度末に達するまでの児童（政令で定める程度の障害を有する場合は、20歳未満の者）を養育している方\n\n父母が婚姻を解消した児童\n父又は母が死亡した児童\n父又は母が政令で定める程度の障害の状態にある児童\n父又は母の生死が明らかでない児童\n父又は母が継続して1年以上遺棄している児童\n父又は母が法令により継続して1年以上拘禁されている児童\n父または母が保護命令を受けた児童\n母が婚姻によらないで懐胎した児童\n棄児などで出生の事情が明らかでない児童\n支給制限\n上記の要件に該当している場合でも、申請者か児童が次のいずれかに該当するときは、児童扶養手当の全部または一部を支給することができません。\n\n申請者または児童が日本国内に住所を有しないとき\n児童が児童福祉施設等（通所施設等を除く）に入所しているとき\n児童が里親に委託されているとき\n児童が父及び母と生計を同じくしているとき（父または母の障害により児童扶養手当を受給している場合を除く）\n児童が父または母の配偶者（事実上の配偶者を含む）に養育されているとき\n請求者またはその扶養義務者等の所得が所得制限限度額以上ある場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/hitorioyakateihojo/1004258.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等の医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次のいずれかに該当する児童の父、又は母、若しくは養育者の方で、医療保険により医療費に関する給付が行われる方、又はこれに準ずる方\n\n父母が婚姻を解消した児童\n父、又は母が死亡した児童\n父、又は母が重度の障害の状態にある児童\n父、又は母の生死が明らかでない児童\n父、又は母が継続して1年以上遺棄している児童\n父、又は母が法令により1年以上拘禁されている児童\n母が婚姻によらないで懐胎した児童\n父、又は母が保護命令を受けた児童\n助成の対象とならない方\n次のいずれかに該当する方は対象者になりません。\n\n生活保護を受けている方\n助成対象児童が、児童福祉施設、その他の施設（国民健康保険法による世帯主若しくは社会保険各法による被保険者その他これに準ずるものが負担すべき額を、国または地方公共団体において負担している施設）に措置入所している方\n助成対象児童が、児童福祉法に規定する里親に委託されている方\n（注）なお、マル親医療証の交付には所得の審査があり、申請者または同居している扶養義務者（3親等以内の直系血族および兄弟姉妹）の所得が所得制限限度額以上である場合は対象にはなりません。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/hitorioyakateihojo/1005300/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子福祉資金・父子福祉資金貸付制度",
+      "summary": "母子家庭の母、父子家庭の父の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上在住している母子家庭の母、父子家庭の父等で現在20歳未満の児童を扶養している方。また、貸付が自立につながると判断され、償還（返済）計画を立てることができる方が対象になります。\n\n（注）就学支度資金・修学資金・転宅資金については申込み時に都内にお住まいの方も対象になります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/hitorioyakateihojo/1005318.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児の養育医療",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "清瀬市にお住まいで、出生時体重2,000g以下またはそれ以外で生活力が特に弱く、一定の症状を示す乳児（0歳児）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/misyuugakujihojo/1005265.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "届出をするかた\n\n1生まれた子の父または母\n2親族以外の同居者\n3出産に立ち会った医師\nなどの順",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kurashi/todoke_shoumei/koseki/1003466.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級（1コース2日制）",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、清瀬市では保健師、助産師、管理栄養士、歯科衛生士などによる妊娠、出産、育児などに関する講義を開いています。赤ちゃんのお風呂の入れ方や育て方など学んでみませんか。",
+      "targetPersons": "清瀬市民の妊婦さんとそのパートナー",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005147/1012456.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "スマイルベビーきよせプレママ準備クラス",
+      "summary": "助産師が母乳育児や出産に向けてのご相談をお受けします。\nご参加いただいた皆さんでの交流の時間もあります。",
+      "targetPersons": "清瀬市民の妊娠中の方（開催日に妊娠20週以降の方）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005147/1012629.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "妊婦家庭訪問",
+      "summary": "妊娠中は気持ちが不安定になったり、身体の変化に戸惑うこともあります。清瀬市では、保健師または助産師がご自宅にお伺いして妊娠中の過ごし方や出産準備等の相談を承っております。訪問は無料のため、ぜひご利用ください。",
+      "targetPersons": "妊娠中の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005147/1005153.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日診療（内科等）・休日診療（歯科）の概要",
+      "summary": "清瀬市では、市民の医療不安を解消し生命と健康を守るため、休日や夜間の応急診療を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kurashi/bousai_anzen/shoubou_kyukyu/1003306/1003309.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM47",
+      "name": "清瀬市の妊娠・出産に関する相談",
+      "shortName": "スマイルベビー妊婦面接",
+      "summary": "清瀬市では、妊娠から出産、子育て期にわたる切れ目のない支援を目指し、清瀬市版ネウボラ「スマイルベビーきよせ」を実施しています。その事業の一環として、妊娠の届出をされたすべての妊婦さんに「スマイルベビー妊婦面接」を実施します。",
+      "targetPersons": "妊娠の届出をされた方（妊娠中に転入してこられた方も対象です。転入の方は、妊婦健康診査受診票等の差し替えと妊婦面接を行います。）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005147/1005154.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3～4か月児健康診査（令和6年度）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3～4か月児健康診査を実施しています。",
+      "targetPersons": "3～4か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonokenkousinsa/1012013.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7か月健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6～7か月児健康診査を実施しています。",
+      "targetPersons": "東京都にお住まいの6～7か月、9～10か月のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonokenkousinsa/1005197.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5009",
+      "name": "産婦健康診査の費用助成",
+      "shortName": "産婦健康診査",
+      "summary": "3から4か月児健康診査の際、産婦健康診査対象のお母さんに、尿検査・血圧測定を行います。貧血検査が必要な方には、指定日に指定の医療機関で血液検査を行います。",
+      "targetPersons": "3から4か月児健康診査の際、産婦健康診査対象のお母さんに、尿検査・血圧測定を行います。貧血検査が必要な方には、指定日に指定の医療機関で血液検査を行います。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005167/1005172.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "妊娠届を提出した方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005143/1011056.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "妊娠届出時の面談（スマイルベビー面接）",
+      "summary": "妊婦の方を対象に、妊娠届提出時に面接とアンケートを実施します。\n保健師と一緒に子育てガイドを確認しながら、出産までの過ごし方について見通しを立てます。妊娠中に利用できるサービスや、市が実施している両親学級などの事業を紹介します。また、出産応援ギフトについて案内します。\n妊娠届出時に面接ができなかった方は後日面接を行います。",
+      "targetPersons": "妊婦の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産応援ギフト",
+      "summary": "令和4年4月1日以降に妊娠届・出生届を提出し、面談等を行った方に対して、出産育児関連用品の購入等に使用できる出産・子育て応援ギフトを支給いたします。",
+      "targetPersons": "以下の全ての要件を満たす方が対象となります。\n\n申込時点で清瀬市内に住所を有している方\n令和5年3月1日以降に妊娠届を提出した妊婦の方※1\nスマイルベビー面接を受けた方\n清瀬市以外の自治体から出産応援ギフトまたは給付金を受け取っていない方\n※1妊娠届を提出後、流産・死産などでお子様を亡くされた方も対象となります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室「まなべー」",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "実施する小学校に在籍している1年生から6年生の児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokyousitu/syougakuseikyousitu/1005228/1005232.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険税免除制度",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "清瀬市国保被保険者で令和5年11月1日以降に出産された方、または出産予定の方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kurashi/kokuhonenkin/kokuminkenkouhoken/1003675/1013106/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "育成医療",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "肢体不自由・視覚障害・心臓障害等の機能障害のある18歳未満の児童で、手術等により確実な治療効果が期待される方",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/syougaisien/syougaisyajosei/1004262.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査（令和6年度）",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。清瀬市では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonokenkousinsa/1012625.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査（令和6年度）",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。清瀬市では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonokenkousinsa/1012631.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "乳幼児発達健康診査",
+      "summary": "赤ちゃんから小学校入学前までのお子さんの運動発達やことばの遅れ、落ち着きがない、友達と遊べないなどが気になるかたの相談をお受けしています。\n小児神経専門医の診察、心理相談員・作業療法士による相談を行い、必要な方には、紹介状を発行し療育機関等を紹介します。",
+      "targetPersons": "赤ちゃんから小学校入学前までのお子さん及び保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/kenkousyokuiku/kenkousoudan/1004180.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonoyobousesshu/1005184.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "男子ＨＰＶワクチン任意予防接種",
+      "summary": "清瀬市では令和6年4月1日より、小学校6年生から高校1年生相当の学年までの男子を対象として、ヒトパピローマウイルス（HPV）ワクチンの予防接種にかかる接種費用の助成を開始しました。\n男子のHPVワクチンの予防接種は任意の予防接種であり、対象者の希望と医師の判断により実施されます。",
+      "targetPersons": "市に住民票のある小学校6年生から高校1年生相当の学年までの男子",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonoyobousesshu/1013464.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM576",
+      "name": "児童遊園",
+      "shortName": "都市公園（旧都市公園以外の公園（児童遊園））",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童遊園の一覧は、清瀬市サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/siseijouhou/machizukuri/kouen/1004499.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "母子家庭自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "1.児童扶養手当を受給している方等\n2.雇用保険法に基づく教育訓練給付の受給資格を有していないこと。\n3.過去に給付金の支給を受けていないこと等。\n注：詳細は担当課までお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/seikatusiensyakaihukusi/seikatuniokomarinotoki/1004289.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊娠届を提出した方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005143/1011056.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "母子家庭等高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため6ヶ月以上養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "1.児童扶養手当の支給を受けているか、児童扶養手当の支給要件と同等の所得水準の方\n2.修業年限が６月以上の養成機関において修業し、資格の取得が見込まれる方2年以上の養成期間において修業をすべて修了した後、一時金を支給します（30日以内に申し出）。\n3.修業又は育児と修業の両立が困難であると認められる方\n4.過去に母子家庭等高等職業訓練促進給付金又はこれと趣旨を同じくする給付金を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/hitorioyakateihojo/1005317.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "次のいずれかの障害を有する20歳未満の児童を扶養する父母または養育者\n1.重度（身体障害者手帳おおむね1・2級、および3級の一部、愛の手帳1・2度程度）\n2.中度（身体障害者手帳おおむね3・4級の一部、愛の手帳3度程度）\n3.上記のいずれかと同じ程度の疾病や精神障害を有する児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/syougaisien/syougaisyajosei/1004259.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "精神又は身体に重度の障害を有するため、日常生活において常時の介護を必要とする状態にある在宅の20歳未満の方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/syougaisien/syougaisyajosei/1004259.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性疾患の医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "対象：18歳未満の方で、心疾患・膠原病・慢性腎疾患・悪性新生物（がん）などの特定疾患にかかっている方の医療保険の自己負担分（所得に応じた自己負担あり）を助成します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/syougaisien/syougaisyajosei/1004262.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "東京都大気汚染医療費助成制度",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "18歳未満の方（18歳の誕生日が属する月の末日までの間にある方を含む。）\n対象疾病（気管支ぜん息、慢性気管支炎、ぜん息性気管支炎、肺気しゅ及びそれらの続発症）にり患している方\n東京都内に引き続き1年（3歳未満は6か月）以上住所を有する方\n健康保険に加入している方\n申請日以降喫煙しない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/iryou/iryouhijosei/1004136.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM68",
+      "name": "遺児等福祉手当",
+      "shortName": "交通遺児援護金",
+      "summary": "交通事故や自然災害により、父または母などが死亡もしくは重度の障がい者になったお子さんを扶養している保護者に対して遺児等福祉手当を支給し、児童福祉の増進を図ることを目的としています。",
+      "targetPersons": "18歳未満の児童のいる世帯で、生計を維持していた父または母、あるいは児童を扶養していた方が交通事故により死亡または障害者(障害等級3級以上の方又は東京都心身障害者福祉センターにおいて、知能指数が50以下と判定された方）となったとき",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/seikatusiensyakaihukusi/seikatuniokomarinotoki/1004290.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産（都外受診）等・助産所での受診者を対象に妊婦健康診査等の費用を助成",
+      "summary": "清瀬市が発行している妊婦健康診査等受診票が利用できない助産所や、里帰り出産等に伴う都外医療機関で受診した妊婦健康診査等の費用を助成します。",
+      "targetPersons": "都外医療機関や助産所において自費で妊婦健康診査等を受診した方。\nただし、すでに指定医療機関にて受診票をすべて使われている方は該当しません。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005134/1006026.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "保育所等の入園・転園",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育所等の入園・転園",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育所等の入園・転園",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "保育所等の入園・転園",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "保育所等の入園・転園",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。清瀬市には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "清瀬市内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1005337.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "きよせ子どもショートステイ事業",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設で、宿泊または日帰りでお子さんを短期間（7日館以内）お預かりします。",
+      "targetPersons": "清瀬市在住の満1歳半から18歳までのお子さん",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatesoudan/1005350.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "清瀬市養育支援ヘルパー（育児支援ヘルパー）派遣事業",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "日中、育児や家事の手助けをしてくれる人がおらず、産前産後、多子同時出産、心身の不調などでお困りの清瀬市在住の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatesoudan/1005397.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者が就労等により、昼間家庭にいない小学校1年生から6年生までの児童。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/gakudouclub/1009489.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票",
+      "summary": "赤ちゃんが生まれたら、出生連絡票（はがき）を記入して郵送または申請フォームよりご提出ください。出生連絡票をもとに、新生児訪問のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生連絡票はその届出を兼ねています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/syussan/1005156/1005159.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM792",
+      "name": "乳幼児の歯の健康診査",
+      "shortName": "親子歯みがき教室",
+      "summary": "むし歯のない子に育てるために、歯が生え始める時期から知っておきたいこと、親と子のケア方法をお伝えします。",
+      "targetPersons": "市内在住の6か月～1歳6か月の乳幼児とその保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1012182/1012184.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の保険料免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "国民年金第1号被保険者で、出産日が平成31年2月1日以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kurashi/kokuhonenkin/kokuminnenkin/1011620/1011622.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "じいじ・ばあばのための離乳食教室",
+      "summary": "離乳食開始前または、離乳期のお孫さんをお持ちの祖父母等を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。管理栄養士による今と昔の離乳食の違いについての講話と相談を行います。",
+      "targetPersons": "離乳食開始前または、離乳期のお孫さんをお持ちの祖父母等",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1012383/1012440.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "清瀬市の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "清瀬市在住の18歳未満のお子さんがいるご家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/1005251.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。",
+      "targetPersons": "市内在住の妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012472.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "幼稚園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/sirituyouchienhojokin/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃん・ふらっと（授乳・おむつ替え可能スペース）",
+      "summary": "「赤ちゃん・ふらっと」は、都内で、小さなお子様を連れた方が安心してお出かけできるよう整備された、授乳やおむつ替え等ができるスペースの愛称です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodateouen/1005396.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "きよせ・チルドレンファーストチケット",
+      "summary": "0歳～5歳（小学校に入る前まで）のお子さんと同一世帯で生活している保護者が申請を行うと、デジタル商品券を付与します。１度申請すると、翌年度も対象の方には自動付与されます。詳しくは清瀬市ホームページをご覧ください。\n◇付与金額：対象のお子さん１人につき１万円分のデジタル商品券\n◇利用場所：市内の一部店舗、子育てサービス事業所。（詳しくは清瀬商工会のホームページをご覧ください。）",
+      "targetPersons": "清瀬市在住の未就学児童の保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodateouen/1013538.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定と納入方法",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、清瀬市が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1005334.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "令和６年度清瀬市保育園等入園のしおり",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "令和６年度清瀬市保育園等入園のしおり",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費（精神通院）制度及び精神障害者保健福祉手帳制度",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kenkouiryouhukusi/syougaisien/syougaisyajosei/1004257.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "市内保育施設での一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1005335.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児保育室「チルチルミチル」",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後2か月から小学4年生までのお子さまであり、入院治療の必要はないが、安静を必要とする乳幼児や児童で、保護者の方が家庭でみられない場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonobyouki/1005178.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター",
+      "summary": "育児の援助を受けたい「依頼会員」と、子育ての援助を行う「提供会員」、両方を兼ねる「両方会員」からなる会員相互の援助活動です。お互いの自宅での一時預かり、保育施設や習い事への送迎、病児・病後児保育、お仕事などの際のお泊り保育などがあります。ただし、清瀬市内での活動になります。入会金、年会費は無料です。援助活動と事前打ち合わせの際に料金がかかります。\n\n★依頼会員　育児の援助を受けたい方（清瀬在中または在勤の方）→会員登録（会員証と手引きを渡し、説明いたします）\n　　　　　　登録場所：ファミリーサポートの事務所、つどいの広場　（元町・竹丘のみ）\n\n★提供会員　育児の援助を行いたい方→「保育サービス講習会」の受講が必要。ファミリー・サポートきよせにお問合せ下さい。\n\n★両方会員　提供・依頼会員どちらも兼ねている方",
+      "targetPersons": "会員の資格・登録\n育児の援助を受けたい方、援助をしたい方、いずれも会員として登録する必要があります。\n\n提供会員\n下記の1から3を全て満たす方\n1.市内及び近隣に居住している20歳以上の健康な方\n2.相互援助活動に関して理解し、賛同いただける方\n3.登録の前に「保育サービス講習会」（女性労働協会のカリキュラムに沿った計30時間の講習）を受講し、終了された方\n注：登録は講習会修了後、又は後日ファミリー・サポート事務所にて受付いたします。\n\n依頼会員\n下記の1から4を全て満たす方\n1.清瀬に在住または在勤の方\n2.生後概ね2ヶ月から18歳までの援助を受けたいお子さんがいる方\n3.会の趣旨を理解し、賛同いただける方\n注：登録はファミリー・サポート事務所・つどいの広場（元町、竹丘）、K-net広場、3.4か月健診時に受付いたします。\n\n援助活動の対象\n生後概ね2ヶ月から18歳までとし、登録してある子どもに限ります。\n注：「病児・病後児の預かり」「お泊り保育」は小学校6年生までです。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodateouen/1005351.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "保育園・こども園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、清瀬市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/shisetsu/kosodatesisetu/hoikuenkodomoen/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "保育所等の入園・転園",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、清瀬市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/sinseisyodownload/kosodatesinseisyo/1005446.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "幼稚園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、清瀬市内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/sirituyouchienhojokin/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "幼稚園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、清瀬市内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/sirituyouchienhojokin/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "ママの時間",
+      "summary": "お子さんの成長は楽しいですが、ママは日ごろ育児に追われて自分の時間がなかなか持てないものですね。このグループはママがホッとする自分の時間を持ち、同じような思いを持つ方のお話を聞いたり自分のつらい気持ちなどを話したりすることで充電できたら、という場所です。ママがグループに参加されている時間は、お子さんを専門のスタッフがお預かりして遊びの場を提供します。",
+      "targetPersons": "未就学児の母親",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokyousitu/nyuuyoujikyousitu/1012049.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM108",
+      "name": "児童館",
+      "shortName": "ころぽっくるセンター（ホール・会議室）",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、清瀬市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/1005362.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "ひとり親家庭ホームヘルプサービス",
+      "summary": "母子家庭や父子家庭の保護者あるいはお子さんが、一時的な疾病などで日常生活にお困りの時、ひとり親になった直後で生活が不安定な一時期、保護者の就労の時などに、育児や食事の世話などのお手伝いをするホームヘルパーを派遣します。\n\n◇対　　象：原則、小学校3年生以下の児童がいるひとり親家庭\n◇内　　容：育児や食事の世話など\n◇時　　間：7時～22時の間で1時間以上8時間以内\n◇利用回数：月12回まで\n◇利用料　：所得に応じて費用負担あり\n◇問合せ　：子ども家庭支援センター　TEL:042-495-7701",
+      "targetPersons": "清瀬市在中の原則小学校３年生以下の児童がいるひとり親家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/1005251.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "義務教育就学児医療費助成（マル子医療証）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "6歳になった後の最初の4月1日から、15歳になった後の最初の3月31日までの間（義務教育就学期）の児童が対象",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/1005266/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設の無償化",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "保育の必要性の認定を受けた市町村民税非課税世帯（※）の０歳～２歳の児童（4 月 1 日現在の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/1011301/1011302.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/jidouteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "女性福祉資金貸付制度",
+      "summary": "寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上在住の、配偶者がいない方で、親子・兄弟姉妹などを扶養している方。\n年間所得2,036,000円以下の方で、かつて母子家庭の母として20歳未満の子を扶養したことのある方、又は婚姻歴のある40歳以上の方。\nいずれも貸付が自立につながると判断され、償還（返済）計画を立てることができる方。\n\n（注）就学支度資金・修学資金・転宅資金については申込み時に都内にお住まいの方も対象になります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/hitorioyakateihojo/1005318.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "スマイルベビーきよせすくすく赤ちゃんクラス",
+      "summary": "赤ちゃんの体重測定や、助産師への授乳相談ができます。\n\n同じ時間に開催している「プレママ準備クラス」参加の妊婦さんとの交流の時間もあります。\n\n相談したいママも、交流を楽しみたいママも、お気軽にご参加ください。",
+      "targetPersons": "清瀬市民の産後1か月から7か月未満のママと赤ちゃんで、プレママ準備クラスへの参加ができる方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokyousitu/nyuuyoujikyousitu/1012630.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM47",
+      "name": "清瀬市の妊娠・出産に関する相談",
+      "shortName": "妊娠・出産に関するご相談",
+      "summary": "子育て支援課母子保健係では、妊娠・出産に関するご相談を随時お受けしております。子育て支援課母子保健係へお問い合わせください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/ninsin/1005147/1005149.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9～10か月健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として9～10か月児健康診査を実施しています。",
+      "targetPersons": "東京都にお住まいの6～7か月、9～10か月のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonokenkousinsa/1005197.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "妊娠8か月頃の面談（希望者のみ）",
+      "summary": "妊娠7か月頃の妊婦の方に郵送でアンケートを送付します。\n面談を希望される妊婦の方には、保健師がWEB面談等を行います。保健師と一緒に産前・産後で必要な手続きや、利用できるサービスについて確認します。",
+      "targetPersons": "妊娠7か月頃の妊婦の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "子育て応援ギフト",
+      "summary": "令和4年4月1日以降に妊娠届・出生届を提出し、面談等を行った方に対して、出産育児関連用品の購入等に使用できる出産・子育て応援ギフトを支給いたします。",
+      "targetPersons": "以下の全ての要件を満たす方が対象となります。\n\n申込時点で清瀬市内に住所を有する方\n令和5年3月1日以降に出生届を提出し、お子様の養育をされている方※2\n乳児健康診査後の面談またはそれに代わる面談を受けた方\n清瀬市以外の自治体から子育て応援ギフトまたは給付金を受け取っていない方\n※2出生届を提出後、お子様を亡くされた方も対象となります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM792",
+      "name": "乳幼児の歯の健康診査",
+      "shortName": "親子歯科健診",
+      "summary": "「むし歯が心配」「歯並びが気になる」「フッ素や歯磨剤の使い方を知りたい」「子どもが自分で歯磨きできるようにしたい」という方へ\n親子で受けられる歯科定期健診事業です。",
+      "targetPersons": "市内在住の概ね1歳6か月から4歳の幼児と保護者\n親子歯みがき教室を受講した乳幼児と保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/1012175/1012029.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "カンタンワンポイント離乳食",
+      "summary": "離乳食２回食が始まった６か月～１１か月くらいまでのお子さんと保護者が対象です。保護者同士や栄養士と離乳食の悩みや不安について気軽に話してみませんか？お友達づくりのきっかけにもなります。離乳食のデモンストレーションとすすめ方のお話をします。",
+      "targetPersons": "6か月から11か月の乳児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1012383/1012384.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育室「ひまわり」",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "満1歳から小学校3年生までの清瀬市内在住及び市内在勤世帯（要相談）のお子様",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokenkoukanri/kodomonobyouki/1005179.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM108",
+      "name": "児童館",
+      "shortName": "野塩児童館 (野塩地域市民センター内）",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、清瀬市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/1005362.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "多胎児家庭サポーター事業",
+      "summary": "多胎児を妊娠あるいは３歳未満の多胎児を養育しているご家庭を対象に、訪問による育児等の支援を行うサポーター（ヘルパー）を派遣します。",
+      "targetPersons": "清瀬市在住で、多胎児を妊娠、\nあるいは０歳から３歳未満の多胎児を養育している家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatesoudan/1013494.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "高校生等医療費助成（マル青医療証）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "次の1～3の要件をすべて満たす高校生等（15歳に達する日の翌日以降の最初の4月1日から、18歳に達する日以後の最初の3月31日までの間の方）を養育している方が申請者となります。\n\n1.高校生等が市内に住所を有する。（申請者の住所地は問いません）\n2.高校生等を養育する申請者が所得制限額未満である。\n3.国民健康保険または社会保険など各種医療保険に加入している。\n高校生等が対象年齢であれば、高等学校などの在学有無は問いません。\n高校生等が就労などにより独立しており誰からも監護されていない場合は、市が状況を確認し、高校生等本人が申請者となることができます。\n\n※高校生等が以下の状況にある時は、対象になりません。\n\n生活保護・里親制度などを受けている。\n児童福祉施設等に措置入所している。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/1005266/1011623.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "スマイルベビーきよせ ママヨガクラス",
+      "summary": "産後ヨガで気持ちと身体をリフレッシュしませんか。\n\n助産師から産後の身体や赤ちゃんの育児のお話や、ママ同士での交流の時間もあります。\n\nヨガの時間は、スタッフが赤ちゃんをお預かりします。",
+      "targetPersons": "清瀬市民の産後1か月から7か月未満のママと、生後1か月から7か月未満のお子さん",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomokyousitu/nyuuyoujikyousitu/1012720.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "乳児健康診査時の面談",
+      "summary": "出生したお子さんの養育をされている方を対象に、乳児健康診査に併せて面談とアンケートを実施します。\n子育てを行う方が利用できるサービスや、市が実施している事業を紹介します。また、子育て応援ギフトについて案内します。\nなお、乳幼児健康診査を受診できない方は、別日に面談等を行う必要があります。乳児健康診査の受診が難しい場合は、必ずご相談ください。",
+      "targetPersons": "出生したお子さんの養育をされている方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM792",
+      "name": "乳幼児の歯の健康診査",
+      "shortName": "5・6歳児のむし歯予防教室",
+      "summary": "5歳、6歳ぐらいになると、下の前歯がグラグラし始め、永久歯への交換が始まります。\nまた、乳臼歯の奥に永久歯のかなめとなる六歳臼歯が出てきます。生えたばかりの永久歯は、まだやわらかく、むし歯になりやすいのです。\n大切な永久歯のために歯科健診、フッ素塗布（無料）を受けましょう！\nむし歯予防のお話しや自分歯磨きの練習もします。",
+      "targetPersons": "市内在住の5・6歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1012182/1012186.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+3+UM798",
+      "name": "離乳食教室",
+      "shortName": "ステップアップ幼児食",
+      "summary": "初めてのお誕生日を過ぎるとそろそろ離乳食も卒業ですね。\n保護者同士や栄養士と幼児食の悩みや不安について気軽に話してみませんか？\n幼児期の食事についての講話と調理デモの見学をしていただきます。",
+      "targetPersons": "1歳から1歳11か月の幼児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/mokuteki/1012383/1012402.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+4+UM108",
+      "name": "児童館",
+      "shortName": "下宿児童館（下宿地域市民センター内）",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、清瀬市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/1005362.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+4+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "随時の相談支援や情報提供",
+      "summary": "出産や子育てについて保健師が随時ご相談に応じますので、お気軽にお問い合わせください。\nまた、スマートフォンやタブレット端末などでご利用いただける母子手帳アプリ「キラリ☆子育てナビ」では、清瀬市の子育て情報やイベント情報、出産や育児に関するアドバイスなどを受け取ることができます。\nぜひご活用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+5+UM108",
+      "name": "児童館",
+      "shortName": "竹丘出前児童館（竹丘地域市民センター内）",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n清瀬市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、清瀬市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kodomowoazukeru/1005362.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132217+5+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "流産や死産などで大切なお子様を亡くされた方へ",
+      "summary": "清瀬市では、流産や死産などで大切なお子様を亡くされた方の相談をお受けしております。様々な相談窓口がありますので、一人で悲しみや悩みを抱えず、いつでもご相談ください。",
+      "targetPersons": "流産や死産などで大切なお子様を亡くされた方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/ninsinsyussan/1012729/1011847.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}
