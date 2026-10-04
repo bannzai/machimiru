@@ -6,7 +6,7 @@ describe("renderDataSources", () => {
     const html = await renderDataSources();
     expect(html).toContain("<h2>ベース地図</h2>");
     expect(html).toContain("<dt>提供元・入手先</dt>");
-    expect(html).toContain("<dt>ライセンス・条件</dt>");
+    expect(html).toContain("<dt>ライセンス・出典表示の文言</dt>");
     expect(html).toContain("OpenFreeMap © OpenMapTiles Data from OpenStreetMap");
     expect(html).toContain("国土数値情報（行政区域データ）");
     expect(html).toContain("政府統計の総合窓口(e-Stat)");

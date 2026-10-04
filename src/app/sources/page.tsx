@@ -19,7 +19,7 @@ export default async function SourcesPage() {
       <h1>データの出典</h1>
       <p>
         {siteName}
-        が地図と情報の表示に使う外部データの提供元とライセンスです。地図の上には短い表記を出し、出典表示の全文はこのページに載せています。準備中の機能で使う予定のデータも含みます。
+        が地図と情報の表示に使う外部データの提供元とライセンスです。地図の上には短い表記を出し、出典表示の全文はこのページに載せています。準備中の機能で使う予定のデータと、調べた結果使わないことにしたデータも含みます。
       </p>
       <div className="data-sources" dangerouslySetInnerHTML={{ __html: await renderDataSources() }} />
       <p>
