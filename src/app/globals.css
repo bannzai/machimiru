@@ -156,15 +156,24 @@ main.map-page {
   opacity: 0.8;
 }
 
+/* 出典の文言は URL を含み、20rem のパネルの幅を超えて横にはみ出すため、URL の途中でも折り返す */
+.childcare-score-sources,
+.municipality-page {
+  overflow-wrap: anywhere;
+}
+
 .childcare-score-sources {
   padding-left: 1.25rem;
 }
 
+/* flex にするとモバイル幅で「98 点」が 2 行に割れる (CI の撮影で確認) ため、文の中に色の見本を置く */
 .municipality-score {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
   font-size: 1.125rem;
+}
+
+.municipality-score .childcare-score-swatch {
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 .municipality-page caption {

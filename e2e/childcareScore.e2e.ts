@@ -16,7 +16,10 @@ test("区市町村ごとの子育てのしやすさを地図と一覧で比べ�
   await expect(rankingItems).toHaveCount(62);
   await expect(rankingItems.first()).toContainText(/^1 位/);
   await page.screenshot({ path: screenshotPath("childcare-score-map") });
-  await childcareScoreSection.getByRole("heading", { name: "子育てのしやすさ (総合の評価)" }).scrollIntoViewIfNeeded();
+  // モバイル幅では評価の見出しが画面の下端に来るだけで一覧が写らないため、見出しを画面の上端に合わせる
+  await childcareScoreSection
+    .getByRole("heading", { name: "子育てのしやすさ (総合の評価)" })
+    .evaluate((heading) => heading.scrollIntoView({ block: "start" }));
   await page.screenshot({ path: screenshotPath("childcare-score-ranking") });
   await rankingItems.last().scrollIntoViewIfNeeded();
   await page.screenshot({ path: screenshotPath("childcare-score-ranking-bottom") });
@@ -26,6 +29,7 @@ test("区市町村ごとの子育てのしやすさを地図と一覧で比べ�
   await tapMapCenter(page);
   const selectedAreaList = page.getByRole("list", { name: /選択中のエリア/ });
   await expect(selectedAreaList.getByRole("listitem")).toHaveText([/^三鷹市\d+ 点指標と制度/]);
+  await selectedAreaList.evaluate((list) => list.scrollIntoView({ block: "start" }));
   await page.screenshot({ path: screenshotPath("childcare-score-selected") });
 
   // 選んだ区市町村の指標の値と、分野ごとの子育て支援制度へのドリルダウン
