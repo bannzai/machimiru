@@ -39,7 +39,9 @@ test("区市町村ごとの子育てのしやすさを地図と一覧で比べ�
   await expect(page.locator("tr", { hasText: "保育サービスの利用率" })).toContainText("データなし");
   await page.screenshot({ path: screenshotPath("municipality-mitaka"), fullPage: true });
   const nurseryPrograms = page.locator("details", { has: page.locator("summary", { hasText: /^保育 \(\d+ 件\)$/ }) });
-  await nurseryPrograms.locator("summary").click();
+  // モバイル幅では fullPage の撮影の後にほかの要素がポインタを受ける位置にずれ、click がタイムアウトする (CI で実測) ため、
+  // 要素に click のイベントを直接送って開く
+  await nurseryPrograms.locator("summary").dispatchEvent("click");
   await expect(nurseryPrograms.getByRole("heading", { level: 3 }).first()).toBeVisible();
   await nurseryPrograms.screenshot({ path: screenshotPath("municipality-mitaka-nursery-programs") });
 
