@@ -1,22 +1,5 @@
 import { expect, type Page, test } from "@playwright/test";
-
-// runner から OpenFreeMap のタイルと町丁の境界データ (4 MB) を取得して描き終えるまでの待ち時間。
-// 既定の 5 秒では足りないため長くする
-const mapIdleTimeoutMs = 60_000;
-
-/** 地図が境界データを描き終えて止まるまで待つ。 */
-async function waitForMapIdle(page: Page) {
-  await expect(page.locator('[data-map-state="idle"]')).toBeAttached({ timeout: mapIdleTimeoutMs });
-}
-
-/** URL の表示位置 (#ズーム/緯度/経度) を mapHash に変えて地図を動かし、描き終えるまで待つ。 */
-async function moveMap(page: Page, mapHash: string) {
-  await page.evaluate((hash) => {
-    document.querySelector("[data-map-state]")?.setAttribute("data-map-state", "moving");
-    location.hash = hash;
-  }, mapHash);
-  await waitForMapIdle(page);
-}
+import { logBrowserErrors, moveMap, waitForMapIdle } from "./map";
 
 /** 地図の中心のエリアをタップし、選択の塗りを描き終えるまで待つ。 */
 async function tapMapCenter(page: Page) {
@@ -29,13 +12,7 @@ test("地図でエリアを選び、再読み込みしても選択が残る", as
   test.setTimeout(240_000);
   const screenshotPath = (name: string) => `tmp/screenshots/${testInfo.project.name}-${name}.png`;
   const selectedAreaItems = page.getByRole("list", { name: /選択中のエリア/ }).getByRole("listitem");
-  // 地図 (WebGL・タイルの取得) の失敗は画面に出ないことがあるため、ブラウザのエラーを CI のログに出す
-  page.on("console", (message) => {
-    if (message.type() === "error" || message.type() === "warning") {
-      console.log(`[browser ${message.type()}] ${message.text()}`);
-    }
-  });
-  page.on("pageerror", (error) => console.log(`[browser pageerror] ${error.message}`));
+  logBrowserErrors(page);
   // fullPage で撮ると撮影のために画面の高さが変わり、地図 (画面の高さで大きさが決まる) の canvas が描き直しの前の
   // 空白のまま写る (PC 幅の読み込み直後で実測) ため、画面に見えている範囲だけを撮る
 
