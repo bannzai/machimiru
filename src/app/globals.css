@@ -14,6 +14,89 @@ main {
   padding: 1.5rem 1rem 4rem;
 }
 
+/* トップページは地図を画面の幅いっぱいに出す */
+main.map-page {
+  max-width: none;
+  padding: 0;
+}
+
+.map-page-header {
+  padding: 0.5rem 1rem;
+}
+
+.map-page-header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.map-page-header p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.area-map {
+  display: flex;
+  flex-direction: column;
+}
+
+/* モバイル幅では地図の下に選択中のエリアを出し、地図の高さは画面の 6 割にしてスクロールで一覧に届くようにする */
+.area-map-canvas {
+  height: 60dvh;
+}
+
+.area-panel {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.area-panel h2 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.area-panel-level {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.area-panel-list {
+  margin: 0 0 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.area-panel-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.map-page-footer {
+  padding: 0.5rem 1rem 2rem;
+  font-size: 0.875rem;
+}
+
+/* PC 幅では地図の右に選択中のエリアを並べる */
+@media (min-width: 48rem) {
+  .area-map {
+    flex-direction: row;
+    height: calc(100dvh - 5rem);
+    min-height: 32rem;
+  }
+
+  .area-map-canvas {
+    flex: 1;
+    height: auto;
+  }
+
+  .area-panel {
+    width: 20rem;
+    overflow-y: auto;
+  }
+}
+
 /* 法務ドキュメントの表は列が多く、モバイル幅では 1 文字ごとに折り返すため、表だけを横スクロールさせる */
 table {
   display: block;
