@@ -6,8 +6,11 @@
     "node": ">=22"
   },
   "scripts": {
+    "predev": "npm run copy-maplibre-worker",
     "dev": "next dev",
+    "prebuild": "npm run copy-maplibre-worker",
     "build": "next build",
+    "copy-maplibre-worker": "mkdir -p public/vendor/maplibre-gl && cp node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs node_modules/maplibre-gl/dist/maplibre-gl-shared.mjs public/vendor/maplibre-gl/",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",

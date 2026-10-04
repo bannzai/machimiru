@@ -24,6 +24,13 @@ test("地図でエリアを選び、再読み込みしても選択が残る", as
   const screenshotPath = (name: string) => `tmp/screenshots/${testInfo.project.name}-${name}.png`;
   const mapCanvas = page.locator(".maplibregl-canvas");
   const selectedAreaItems = page.getByRole("list", { name: /選択中のエリア/ }).getByRole("listitem");
+  // 地図 (WebGL・タイルの取得) の失敗は画面に出ないことがあるため、ブラウザのエラーを CI のログに出す
+  page.on("console", (message) => {
+    if (message.type() === "error" || message.type() === "warning") {
+      console.log(`[browser ${message.type()}] ${message.text()}`);
+    }
+  });
+  page.on("pageerror", (error) => console.log(`[browser pageerror] ${error.message}`));
 
   // 地図の表示
   await page.goto("/");

@@ -1,4 +1,6 @@
 node_modules/
+# npm の prebuild・predev が node_modules から写すファイル (maplibre-gl の Web Worker)
+public/vendor/
 tmp/
 .next/
 out/

@@ -19,6 +19,10 @@ import {
   townBoundaryUrl,
 } from "@/lib/boundaries";
 
+// maplibre-gl は Web Worker のファイルを自分のモジュールの URL から相対で探すが、Next.js のバンドル後はその場所に無いため、
+// npm の prebuild・predev で public/vendor/maplibre-gl/ に写したファイルを指す (package.json の scripts)
+const maplibreWorkerUrl = "/vendor/maplibre-gl/maplibre-gl-worker.mjs";
+
 // OpenFreeMap の標準のスタイル。API キーが要らず商用で使える (documents/PROJECT.md「データの出典」)
 const baseMapStyleUrl = "https://tiles.openfreemap.org/styles/liberty";
 
@@ -76,6 +80,7 @@ export function AreaMap() {
         if (isCancelled) {
           return;
         }
+        maplibregl.setWorkerUrl(maplibreWorkerUrl);
         const loadedMap = new maplibregl.Map({
           container,
           style: baseMapStyleUrl,
