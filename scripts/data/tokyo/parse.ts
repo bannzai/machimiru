@@ -13,6 +13,14 @@ import {
 export type MunicipalityKey = { code: string; name: string };
 
 /**
+ * 文字列を UTF-16 のコード単位の順で比べる。`localeCompare` と違い実行環境のロケールに依存しないため、
+ * どの環境で生成しても同じ並びになる。
+ */
+export function compareCodeUnits(a: string, b: string): number {
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
+/**
  * 区市町村名を、出典ごとの表記ゆれ (「青ケ島村」と「青ヶ島村」、末尾のタブ) を吸収した照合用の文字列にする。
  */
 export function normalizeMunicipalityName(name: string): string {

@@ -18,6 +18,7 @@ import {
 import { tokyoDataSources } from "../../../src/lib/tokyoData/sources";
 import {
   type MunicipalityKey,
+  compareCodeUnits,
   csvRecords,
   indexByMunicipalityName,
   medicalFacilityFeatures,
@@ -94,7 +95,7 @@ async function main(): Promise<void> {
         .filter((municipality) => municipality.code.slice(2, 5) !== "000")
         .map((municipality) => [municipality.code, municipality]),
     ).values(),
-  ].sort((a, b) => a.code.localeCompare(b.code));
+  ].sort((a, b) => compareCodeUnits(a.code, b.code));
   if (municipalities.length !== tokyoMunicipalityCount) {
     throw new Error(`区市町村の数が ${tokyoMunicipalityCount} ではない: ${municipalities.length}`);
   }
@@ -124,9 +125,8 @@ async function main(): Promise<void> {
   const usageRateMissingReason =
     "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない";
 
-  await writeJson(
-    path.join(outputDirectory, "municipalities.json"),
-    municipalitiesFileSchema.parse({
+  // 途中の取得・照合の失敗で新旧のファイルが混ざらないよう、すべて組み立てて検査してから書き出す
+  const municipalitiesFile = municipalitiesFileSchema.parse({
       sources: [tokyoDataSources.childcareStatus, tokyoDataSources.medicalSubsidy, tokyoDataSources.kosodateRegistry],
       municipalities: municipalities.map(({ code, name }) => {
         const childcare = childcareByCode.get(code);
@@ -150,23 +150,17 @@ async function main(): Promise<void> {
           ],
         };
       }),
+  });
+
+  const programsFiles = municipalities.map(({ code }) =>
+    programsFileSchema.parse({
+      sources: [tokyoDataSources.kosodateRegistry],
+      municipalityCode: code,
+      programs: (programsByCode.get(code) ?? [])
+        .map(({ program }) => ({ sourceId: tokyoDataSources.kosodateRegistry.id, ...program }))
+        .sort((a, b) => compareCodeUnits(a.psid, b.psid)),
     }),
   );
-
-  // 区市町村が減った時に古いファイルを残さないため、毎回作り直す
-  await rm(path.join(outputDirectory, "programs"), { recursive: true, force: true });
-  for (const { code } of municipalities) {
-    await writeJson(
-      path.join(outputDirectory, "programs", `${code}.json`),
-      programsFileSchema.parse({
-        sources: [tokyoDataSources.kosodateRegistry],
-        municipalityCode: code,
-        programs: (programsByCode.get(code) ?? [])
-          .map(({ program }) => ({ sourceId: tokyoDataSources.kosodateRegistry.id, ...program }))
-          .sort((a, b) => a.psid.localeCompare(b.psid)),
-      }),
-    );
-  }
 
   const medicalFiles = await Promise.all(
     tokyoDataSources.medicalFacilities.fileUrls.map(async (url) =>
@@ -189,11 +183,18 @@ async function main(): Promise<void> {
     sources: [tokyoDataSources.medicalFacilities, tokyoDataSources.welfareFacilities] satisfies DataSource[],
     features: [...medical.flatMap((result) => result.features), ...welfare].sort(
       (a, b) =>
-        a.properties.kind.localeCompare(b.properties.kind) ||
-        a.properties.municipalityCode.localeCompare(b.properties.municipalityCode) ||
-        a.properties.facilityId.localeCompare(b.properties.facilityId),
+        compareCodeUnits(a.properties.kind, b.properties.kind) ||
+        compareCodeUnits(a.properties.municipalityCode, b.properties.municipalityCode) ||
+        compareCodeUnits(a.properties.facilityId, b.properties.facilityId),
     ),
   });
+
+  await writeJson(path.join(outputDirectory, "municipalities.json"), municipalitiesFile);
+  // 区市町村が減った時に古いファイルを残さないため、毎回作り直す
+  await rm(path.join(outputDirectory, "programs"), { recursive: true, force: true });
+  for (const programsFile of programsFiles) {
+    await writeJson(path.join(outputDirectory, "programs", `${programsFile.municipalityCode}.json`), programsFile);
+  }
   // 差分を読みやすくするため、Feature を 1 行に 1 件で書く
   await writeFile(
     path.join(outputDirectory, "facilities.geojson"),

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  compareCodeUnits,
   csvRecords,
   indexByMunicipalityName,
   medicalFacilityFeatures,
@@ -16,6 +17,12 @@ const municipalities = [
   { code: "131016", name: "千代田区" },
   { code: "134023", name: "青ヶ島村" },
 ];
+
+describe("compareCodeUnits", () => {
+  it("ロケールに依存せず UTF-16 のコード単位の順に並べる", () => {
+    expect(["ｂ", "b", "あ", "B", "ア"].sort(compareCodeUnits)).toEqual(["B", "b", "あ", "ア", "ｂ"]);
+  });
+});
 
 describe("normalizeMunicipalityName", () => {
   it("出典ごとの「ケ」「ヶ」の違いと前後の空白を吸収する", () => {
