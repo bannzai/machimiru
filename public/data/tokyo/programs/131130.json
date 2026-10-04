@@ -1,0 +1,1875 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131130",
+  "programs": [
+    {
+      "psid": "psid3.0+9000020131130+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "医療機関で妊娠の診断を受けた人",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-todoke/ninshin_todoke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "育児学級",
+      "summary": "乳児とその保護者を対象に、前期（4～6か月児）と後期（9～12か月児）に分けて開講しています。保健師・栄養士・歯科衛生士が、実技などで分かりやすく子育てについてお話しします。",
+      "targetPersons": "乳児とその保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/ikuji_g.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "家事援助者の派遣",
+      "summary": "ひとり親家庭となった直後、または親や児童が一時的傷病等で日常生活を営むのに支障が生じたとき、一定の期間家事援助者を派遣し、日常生活の安定を図ります。",
+      "targetPersons": "中学生以下の児童を扶養しているひとり親家庭\n次のいずれかに該当する人\n\nひとり親家庭になった直後（2年以内）\n親または児童が一時的に傷病などになったとき",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_shien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM108",
+      "name": "児童館",
+      "shortName": "児童青少年センターフレンズ本町",
+      "summary": "児童館は、お子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n渋谷区の児童館には、お子さんが安心して遊べるスペースがあり、また各種イベントなども行っています。\n（イベントの詳細については、施設サイトや区報などでお知らせしています。）",
+      "targetPersons": "原則、渋谷区在住または在学の18歳以下で高校生までの人及びその保護者\n（注）当日の状況により渋谷区在住またが在学でない人、また概ね25歳以下の人もご利用いただけます。 \n（注）保護者のみの使用はできません",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/seinen/friends_honmachi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦面接",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "区内在住の全ての妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/ninpu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "渋谷区子育てネウボラ",
+      "summary": "渋谷区では渋谷区子育てネウボラなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "妊娠期から18歳になるまでの全ての子ども",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/neuvola.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば",
+      "summary": "区内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、渋谷区サイトや区報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/kosodate-hiroba/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM114",
+      "name": "小児科救急",
+      "shortName": "しぶやこども救急室",
+      "summary": "渋谷区では、区内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko/yakan_shinryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "休日保育利用料金助成",
+      "summary": "日曜日・祝日など在籍している保育園等の休園日に認可外保育施設（居宅訪問型保育事業を含む）における休日保育を利用した際の利用料の一部を助成する制度です。",
+      "targetPersons": "区内在住で、以下の施設等に在籍（一時保育により在籍している場合を除く。）している就学前の児童の保護者\n\n認可保育園\n認定こども園\n認証保育所\n渋谷区立保育室\n渋谷区幼保一元化保育施設\n家庭的保育事業など（家庭的保育事業、小規模保育事業、居宅訪問型保育事業、事業所内保育事業）\n児童福祉法第59条の2の規定による届出を行っている認可外保育施設（待機児童向けの東京都ベビーシッター利用支援事業を利用している場合を除く。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hoiku-josei/kyujitsuhoiku_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "渋谷区内に在住し、国公立小中学校に在学する児童生徒の保護者で、次のいずれかの条件に該当する方\n　・　生活保護を受けている方　【要保護認定対象】\n　・　昨年（令和５年１月～令和５年１２月）の世帯全員の\n　　　所得金額が基準以下の方　【準要保護認定対象】",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/nyugaku-tennyu-shugaku/tetsuduki_g.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "新生児訪問",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "生後28日までの新生児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/homon_baby.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後4か月までの乳児のいる家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/homon_baby.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "区内在住の、産後5か月未満（産後ケア（訪問型）については産後1年未満）の産婦とその子で、体調不良や育児不安があり、ご家族などから十分な支援が受けられない場合\n（注）早産や出産後、30日以上入院していた場合は、期間を延長できる場合がありますので、相談してください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/sango_care.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "渋谷区不妊治療（生殖補助医療）医療費助成",
+      "summary": "渋谷区では、保険診療で行った体外受精・顕微授精と保険診療と併用して行った先進医療について、医療費の一部を助成しています。",
+      "targetPersons": "次のすべてに該当する人\n\n治療開始日（1回の治療期間における初日）から申請日まで継続して法律上の婚姻をしている夫婦または事実婚関係にある夫婦\n申請日現在、夫婦いずれかが渋谷区に住民登録があること\n申請する不妊治療について、東京都以外の自治体から同種の助成を受けていないこと\n治療開始日における妻の年齢が43歳未満であること（注）特例措置あり\n対象となる治療\n令和4年4月1日以降に行なった次の治療\n\n保険診療の対象となる生殖補助医療（体外受精、顕微授精）\n1の生殖補助医療と併用して行なった先進医療（タイムラプス、内膜スクラッチ法など）\n1の生殖補助医療の一環として保険診療で行なった男性不妊治療（男性不妊の手術）\n（注）先進医療とは、保険外の先進的な医療技術として認められたもので、国に届出し承認された医療機関では保険診療と組み合わせて実施することができます。実施については受診される医療機関にご相談ください。詳しくは、厚生労働省のホームページをご確認ください。\n\n先進医療を実施している医療機関一覧（厚生労働省ホームページ）;https://www.mhlw.go.jp/topics/bukyoku/isei/sensiniryo/kikan02.html",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/funin-fuiku/seisyokuhojyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等に関する助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "渋谷区に住民登録があり、次のいずれかに該当する人（生活保護を受けている人を除く）\n\n前年分の世帯の総所得税額が30,000円以下である\n上記以外の人で、入院（見込）期間が26日以上である\n助成対象の疾病\n妊娠により、入院治療を必要とする次の疾病（注）疾病ごとに助成の認定基準があります。\n\n妊娠高血圧症候群およびその関連疾患\n糖尿病\n貧血\n産科出血（1000cc以上の出血）\n心疾患",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/ninshiniryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "出産時に国保に加入している",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenkyufu/qfu06.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM21",
+      "name": "出産祝い",
+      "shortName": "ハッピーマザー出産助成金",
+      "summary": "渋谷区に3ヶ月以上お住まいの方がお子さんを出産した場合、出産祝い金を支給します。",
+      "targetPersons": "妊娠12週を超えて（85日以上）出産し、出産日の3か月前から申請日現在まで継続して区内に住民登録があり、健康保険に加入している人\n（注）妊娠12週を超えた（85日以上）流産・死産の場合も含む",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/happy_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "バースデーサポート事業",
+      "summary": "渋谷区では、妊娠中の体への負担と経済的な負担を軽減し、健やかな出産を支援するために、妊婦タクシー利用券をお渡しています。妊婦さんが産婦人科への通院や外出をする際にご利用いただけます。",
+      "targetPersons": "令和5年4月1日以降に1歳になったお子さんで、お子さんの1歳の誕生日およびアンケートの回答日時点で、渋谷区に住民登録がある人 \n（注）事業開始前（令和5年4月1日から令和5年6月30日まで）に1歳になったお子さんは、令和5年7月1日時点およびアンケートの回答日時点で渋谷区に住民登録がある場合、育児パッケージの配付対象になります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/birthday_support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子ども医療費助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "区内に住所を有する0歳から18歳に達する日以後の最初の3月31日までの間にあるお子さんを養育している人（保護者）\nなお、お子さんの状況が次のいずれかに該当する場合は、当制度の助成対象になりません。\n・生活保護を受けている場合\n・日本の健康保険に加入していない場合\n・児童福祉施設などに措置入所している場合\n・里親に委託されている場合\n（注）高校生相当世代（15歳の4月1日から18歳の3月31日まで）のお子さんが、保護者と別居しているときや誰からも監護（お子さんの生活について必要な監督保護）されていない場合には、渋谷区子育て給付係（電話：03-3463-2558）までご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/kodomo_ij.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "私立幼稚園",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "私立幼稚園または幼稚園類似の幼児施設（都の認定施設）に通園する児童世帯\n（注）施設等利用給付認定を受けていること\n\n通園施設\n次のいずれかに通園させている\n\n私立幼稚園（特別支援学校を含む）\n幼稚園類似の幼児施設（都の認定施設）\n（注）平成27年4月の子ども・子育て支援新制度の施行を受け、子ども・子育て支援新制度に移行した園は対象となりません。\n（注）子ども・子育て支援新制度に移行した私立幼稚園については、幼児教育の無償化について（私立幼稚園など）のページをご覧ください。\n区内に所在する新制度に移行した園（私立幼稚園）は令和6年4月1日現在、城西幼稚園、原宿幼稚園、福田幼稚園、シオン幼稚園、渋谷同胞幼稚園の5園が該当します。\n（注）保育園を利用した月は、私立幼稚園に係る補助金の支給対象外となります。\n\n園児の住所\n令和6年4月1日以降、渋谷区に住所がある、または住所があったことが、住民登録により確認できる\n\n園児の年齢\n満3歳児 令和3年4月2日以降生まれで、満3歳に達した園児\n年少（3歳児）令和2年4月2日～令和3年4月1日生まれ\n年中（4歳児）平成31年4月2日～令和2年4月1日生まれ\n年長（5歳児）平成30年4月2日～平成31年4月1日生まれ\n（注）就学猶予の6歳児も対象となる場合があります。詳しくは、問い合わせてください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "施設等利用給付",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "保育を必要とする事由\n|父母の状況|条件|認定期間|\n|:----|:----|:----|\n|就労|月48時間以上就労していること|就労期間中|\n|妊娠・出産|妊娠中または出産後間もないこと|出産予定日の前後2か月<br>（計5か月）|\n|疾病・障害|疾病もしくは負傷、または精神もしくは身体に障がいを有していること|療養などを要しなくなるまで|\n|介護・看護|同居の親族（長期入院などを含む）を常時介護または看護をしていること|介護などを要しなくなるまで|\n|求職活動中|求職活動（起業の準備を含む）を継続的に行なっていること|3か月（年度内に1回のみ更新可）|\n|就学|学校教育法に規定する学校、専修学校、各種学校その他これらに準ずる教育施設に在学していること、または職業訓練を受けていること|就学期間中|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hoiku-josei/youjikyouikumusyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "区外の保育園の申し込み",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：渋谷区内にお住まいの方が、区外の認可保育所への入所を希望する場合\nB：区外にお住まいの方が、渋谷区内の認可保育所への入所を希望する場合",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_boshu2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/jido_t.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッター利用支援事業（ベビーシッター事業者連携型）",
+      "summary": "本事業は、待機児童の保護者若しくは育児休業を1年間取得した後復職する保護者が、お子さんが保育所等に入所できるようになるまでの間、ベビーシッター事業者を利用する場合の利用料の一部を助成するものです。",
+      "targetPersons": "区内在住で次のいずれかに該当する人\n10～2歳児クラスの待機児童の保護者\n2保育所などの0歳児クラスに入所申込みをせず、1年間の育児休業を満了した後、復職する\n（注）子が満1歳に達した後の4月入所に申込みを行うことが必須です。\n（注）つぎに該当する場合は、利用できません。\n\n保護者が産休・育休中のとき（初回利用日までに復職したときは利用できます）\n当該年度中に、認可保育所（居宅訪問型保育事業含む）などの入園辞退、申し込み取り下げ、兄弟姉妹との入園条件に合致しないなどの理由により入園を辞退したことがある\n認定をうけている期間が終了したとき\n4月入園申込について、1次2次いずれかで入園内定が出ているとき",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/babysitter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "次のいずれかの状態にある18歳になった直後の3月31日までの児童(中度以上の障害がある場合は20歳未満)を 養育している父・母または養育者に支給されます。所得制限;https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/teate_gendogaku.htmlがあります。\n対象\n・父母が婚姻を解消し、父または母と生計を同じくしていない\n・父または母が死亡\n・父または母に重度の障害がある\n・父または母の生死が不明\n・父または母に1年以上遺棄されている\n・父または母が裁判所からのDV保護命令を受けた\n・父または母が法令により1年以上拘禁されている\n・婚姻によらないで生まれ、父または母と生計を同じくしていない\n・父または母が不明（棄児など）\n（注）事実上の婚姻関係にある場合を除く。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭などへの医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次のいずれかの状態にある18歳になった直後の3月31日までの児童(中度以上の障害がある場合は20歳未満)を養育している父または母か養育者とその児童に医療費(保険内診療の自己負担分)の一部を助成します。\n所得制限;https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/teate_gendogaku.htmlがあります。\n（注）生活保護世帯、里親は対象になりません。入所施設により対象となる場合があります。\n\n対象\n・父母が婚姻を解消し、父または母と生計を同じくしていない\n・父または母が死亡\n・父または母に重度の障害がある\n・父または母の生死が不明\n・父または母に1年以上遺棄されている\n・父または母が裁判所からのDV保護命令を受けた\n・父または母が法令により1年以上拘禁されている\n・婚姻によらないで生まれ、父または母と生計を同じくしていない\n・父または母が不明（棄児など）\n（注）事実上の婚姻関係にある場合を除く。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子および父子福祉資金",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上居住し、20歳未満の子どもを扶養している母子家庭および父子家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_shien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "養育医療による医療費助成",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "次の両方もしくはいずれかに該当し、医師が指定養育医療機関において入院養育を必要と認めたこと\n\n・出生時体重2000グラム以下\n・生活力が特に薄弱であって一定の症状がある",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/youiku_j.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母（届書を父母以外の人が持参する場合でも、父・母が届出人として署名）\n（注）父母が法律上婚姻していない場合、母が届出人となります。\n父または母が届出できない場合、同居者または出産に立ち会った医師・助産師が届出をする必要があります。詳しくは戸籍係まで問い合わせてください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kurashi/koseki/koseki-todokede/shussho_todoke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "パパ・ママ入門学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、渋谷区では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "区内在住で妊娠している人（妊娠16週～35週）およびパートナー\n（注）平日開催の赤ちゃんを迎える準備クラスと休日開催クラスは初めて受講する初産の人が対象です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/haha_g.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "多胎プレファミリー講座事業",
+      "summary": "多胎児を妊娠している人やパートナー、家族を対象に、妊娠・出産・育児に関する基礎知識講座、多胎育児を経験者した先輩パパママの経験談を聞く機会を設けています。",
+      "targetPersons": "区内在住の多胎児を妊娠中の妊婦とそのご家族\nひとりでの参加・パートナー・家族の参加も可",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/tatai_prefamily.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "ネウボラ子育てハンドブック",
+      "summary": "妊娠期、産後に必要な手続きやご利用いただけるサービスについてご案内しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/kosodate-shien/neuvola_childcare_handbook.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産（出産費用の助成）",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、渋谷区の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "区内在住で次のいずれかに該当する人\n\n生活保護世帯\n住民税非課税世帯\n当該年度（4月から6月までについては前年度）に支払った特別区民税または市区町村区民税所得割の額が9,000円以下の世帯（ただし、健康保険などから給付を受けることができる出産一時金の額が40万4千円以上の場合を除く）\n要件\n指定された入院助産施設（病院など）で出産する必要があります。（現在通院している医療機関が入院助産施設でない場合は転院する必要があります。）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/josan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日夜間・救急診療",
+      "summary": "渋谷区では、日曜・祝日、年末年始に、区民健康センター桜丘で急病患者（内科・小児科）に対する診療を行っています。\nなお、小児の夜間救急の時は、しぶやこども救急室をご利用ください。\n「小児科救急」",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko/yakan_shinryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM47",
+      "name": "渋谷区の妊娠・出産に関する相談",
+      "shortName": "オンライン通話相談",
+      "summary": "渋谷区では、不妊症・不育症の治療や流産・死産の経験を持つ人の悩みや不安、話したいことを、過去に同様の治療を経験したピア・カウンセラーがお聴きします。",
+      "targetPersons": "区内在住・在勤の人で、不妊症や不育症にお悩みの人、不妊症や不育症を治療中の人、流産や死産を経験された人、不育治療のやめ時に悩んでいる人など\nパートナーと二人での相談も可",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/funin-fuiku/peer_support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳児健康診査（3・4か月）",
+      "summary": "乳児健診（3・4か月、6・7か月、9・10か月）を実施しています。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n\n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳児健康診査（6・7か月）",
+      "summary": "乳児健診（3・4か月、6・7か月、9・10か月）を実施しています。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n \n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査に関する助成",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "平成31年4月1日以降に生まれた赤ちゃんが、生後50日に達する日までに受診した初回検査\n要件\n検査日現在 産婦が渋谷区に住民登録をしていること",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/chokaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産応援ギフト",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "妊娠の届出をした人（妊婦）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/ouen_kyuhu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後クラブ",
+      "summary": "全ての区立小学校内に放課後クラブを設置し、希望する児童を受け入れています。児童は学校施設という安全な環境のもと、学習・遊び・読書等のほか、様々なクラブ事業に参加するなどして放課後の時間を過ごしています。",
+      "targetPersons": "区内在住の小学1年生～6年生の全児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/hokago-kurabu/hokagokurabu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険料免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "国民健康保険の被保険者で、妊娠85日（4か月）以上の出産をする（した）お母さんが対象です。（死産、流産、早産を含みます。）\n令和5年11月1日以降の出産が対象です。（対象期間の制限があります。）\n出産予定日の6か月前から届出ができます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kenkohokenryo/sanzensangokokuho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "副食費に対する補助金",
+      "summary": "渋谷区では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "満3歳児クラス（満3歳に達する日以後）～5歳児クラスに通う児童で以下のいずれかに該当する場合\n年収360万円未満相当の世帯\n第3子以降の児童（所得階層にかかわらず）\n　（注）小学校3年生までの兄・姉を第1子として数えます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査（健康診査）",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。渋谷区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n \n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。渋谷区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n \n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "歯科専門相談",
+      "summary": "むし歯や、かみ合わせの相談、ブラッシングレッスンなどを行なっています（予約制）。LINE（渋谷区LINE公式アカウント）または電話（注）にて予約を受け付けます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|\n|生後2か月から60月に至るまでの間|生後2か月～7か月に至るまでの間に接種開始し、27日以上の間隔をおいて3回接種。<br>3回目接種後、60日以上の間隔をおいて1回接種。|生後1か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ任意予防接種（全額助成）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち渋谷区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "|対象者|接種回数・助成回数|場所|\n|:----|:----|:----|\n|1歳～3歳|1回|区内の指定医療機関（注）詳しくはお問い合わせください。|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_ninni.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM576",
+      "name": "児童遊園",
+      "shortName": "恵比寿東公園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n渋谷区の児童遊園の一覧は、渋谷区サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/park_ebisuhigashi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "タクシー移動経費補助",
+      "summary": "0・1・2歳の多胎児を養育する世帯に対して、一世帯あたり年間24,000円分のタクシー利用を目的とした商品券を支給いたします。",
+      "targetPersons": "渋谷区在住の0歳・1歳・2歳の多胎児を同一世帯で養育する世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/taxi_idohojo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "区内在住の母子家庭の母親または父子家庭の父親で、20歳未満の子どもを扶養している場合\n次のすべてに該当する人\n・児童扶養手当の支給を受けているか、同等の所得水準にある\n・就業経験、技能、資格の取得状況や労働市場の状況などから判断して、 教育訓練を受けることが適職につくために必要であると認められる\n・原則として、過去に訓練給付金を受給していない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_jiritu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "母子手帳と一緒にお渡ししている妊婦健康診査受診票により、妊婦健康診査を14回まで無料で受診できます。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/nimpu-kenshin/ninpu_kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "区内在住の母子家庭の母親または父子家庭の父親で、20歳未満の子どもを扶養している場合\n次のすべてに該当する人\n\n児童扶養手当の支給を受けているか、同等の所得水準にある。\n養成機関において修業年限1年以上の課程を修業し、対象資格の取得が見込まれる（シスコシステムズ認定資格、LPI認定資格については6か月以上）。\n就業または育児と修業との両立が困難であると認められる。\n原則として、過去に促進費等を受給していない。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hitorioya/hitorioya_jiritu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "次のいずれかに該当する20歳未満の児童を養育している父または母か養育者に支給されます。\n所得制限;https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/teate_gendogaku.htmlがあります。\n児童が施設に入所しているときや、障がいを事由とする公的年金を受けているときは対象になりません。\n\n対象\n身体障害者手帳1～3級程度\n愛の手帳1～3度程度\n精神に一定の障害があり、日常生活に制限を受ける。\n内部障がいも該当する場合があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/jido_f.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当（国の制度）",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "20歳未満で、精神または身体に重度の障がいがあり、日常生活で常時介護を要する人（手帳がなくても、おおむね身体障害者手帳1・2級程度、または愛の手帳1・2度程度の人は対象に含まれます。）\n\n支給制限\n次のいずれかに該当する人は、手当を受けることができません。\n\n施設に入所している\n障がいを支給事由とする公的年金を受けている\n聴覚障がいの場合は、補聴器の使用効果がある人\n本人または民法上の扶養義務者の所得が基準額を超えている",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/teate-nenkin/teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費の助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "申請者が渋谷区に住所を有する18歳未満で、対象疾病の認定基準に該当する人\n（注）18歳に達した時点で小児慢性特定疾病医療受給者証を持っている人で、引き続き医療をうける場合は、20歳の誕生日の前日まで医療費支給の対象となります。\n\n対象疾病\n対象となる疾病は16の疾患群に分かれています。\n\n​悪性新生物\n慢性腎疾患\n慢性呼吸器疾患\n慢性心疾患\n内分泌疾患\n膠原病\n糖尿病\n先天性代謝異常\n血液疾患\n免疫疾患\n神経・筋疾患\n慢性消化器疾患\n染色体又は遺伝子に変化を伴う症候群\n皮膚疾患\n骨系統疾患\n脈管系疾患\n​　具体的な疾病や認定基準については、小児慢性特定疾病情報センターのホームページ;https://www.shouman.jp/をご覧ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/kodomo_mj.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染医療費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "区内に住所を有する0歳から18歳に達する日以後の最初の3月31日までの間にあるお子さんを養育している人（保護者）\nなお、お子さんの状況が次のいずれかに該当する場合は、当制度の助成対象になりません。\n\n生活保護を受けている場合\n日本の健康保険に加入していない場合\n児童福祉施設などに措置入所している場合\n里親に委託されている場合\n（注）高校生相当世代（15歳の4月1日から18歳の3月31日まで）のお子さんが、保護者と別居しているときや誰からも監護（お子さんの生活について必要な監督保護）されていない場合には、渋谷区子育て給付係（電話：03-3463-2558）までご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/teate-josei/taiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "中等度難聴児発達支援事業",
+      "summary": "身体障害者手帳の交付対象とならない中等度難聴児に対して、補聴器の装用により言語の習得や生活能力、コミュニケーション能力等の向上を促進するため、補聴器の購入費用の一部を助成します。",
+      "targetPersons": "次のいずれにも該当する児童\n\n渋谷区内に居住している18歳未満の児童\n耳の聴力レベルが概ね30dB以上であり、身体障害者手帳（聴覚障害）交付の対象となる聴力ではないこと\n補聴器の装用により、言語の習得等一定の効果が期待できると医師が判断する者\n（注）対象児童の属する世帯の最多区市町村民税所得割課税者の納税額が46万円以上の場合は対象外",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/shogaiji-shien/tyutodonantyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等妊婦健康診査費用助成金",
+      "summary": "渋谷区にお住まいの妊婦さんが、里帰り出産などで渋谷区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "次の1および2に該当する人\n\n1 健診（検査）受診日現在、渋谷区に住民登録がある。\n2 受診票が使用できない国内機関（契約医療機関以外）で受診した。\n（注）助産所、里帰り等による都外医療機関、都内契約医療機関以外の医療機関（新生児聴覚検査に限る）などでは受診票が使用できません。（海外での受診は助成対象外です。）\n（注）新生児聴覚検査は、平成31年4月1日以降に生まれた赤ちゃんが、生後50日に達する日までに受診した初回検査が対象です。\n（注）分娩または出生後、1年以内に申請してください。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/ninpukensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "幼児教育の無償化について（公立幼稚園）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "公立幼稚園（臨川幼稚園・広尾幼稚園・本町幼稚園）にお通いの方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/shugakumae/page_em_00015.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "令和6年度保育園・認定こども園・幼保一元化施設（長時間保育）入園申し込みについて",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_boshu2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "令和6年度保育園・認定こども園・幼保一元化施設（長時間保育）入園申し込みについて",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_boshu2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "居宅訪問型保育事業（待機児童向け）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。渋谷区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "認可保育園の申し込みを行い、待機となった児童（渋谷区民に限ります。）のうち、0～2歳児クラスに該当する年齢の児童。（区立保育室などを利用中の人も希望できますが、併用はできません。）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_kyotaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "渋谷区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "満1歳以上のお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/encho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育制度",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "区内の認可保育園（注1）、区立保育室の在園児並びに区内の地域型保育事業（注2）\n利用者で、日曜・祝日（12月29日～1月3日を除く）に保護者が就労等の理由により、保育を必要とするお子さま\n（注1）保育園、認定こども園\n（注2）小規模保育事業、居宅訪問型保育事業",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/hori.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "赤ちゃんショートステイ",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "区内在住の生後4か月未満の乳児",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/shortstay_akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "にこにこママ",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "区内在住で、下記のいずれかに当てはまる人（介助者がいる人を除く）\n\n妊娠中の人\n3歳未満の乳児を養育している人",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/niko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "放課後クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "全ての児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/hokago-kurabu/hokagokurabu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票",
+      "summary": "お子様がご誕生されましたら、「出生通知票」を提出してください。渋谷区LINE公式アカウントから提出することも可能です。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-todoke/shussho_tsuchi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM792",
+      "name": "乳幼児の歯の健康診査（１歳６か月児歯科健康診査）",
+      "shortName": "1歳6か月児健康診査（歯科健康診査）",
+      "summary": "1歳6か月児に対して、1歳6か月歯科健康診査を実施しています。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n\n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料の免除制度について",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "「国民年金第1号被保険者」で出産日が平成31年2月1日以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/shikaku-menjo/sanzensago_nenjyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "4~5か月児離乳食教室",
+      "summary": "生後4～5か月のお子さんを持つ保護者でこれから離乳食を始める方を対象に、離乳食を始める時のポイントやすすめ方についての調理実習付きの教室を開催しています。",
+      "targetPersons": "|種類|対象|日程・内容|\n|:----|:----|:----|\n|4~5か月児離乳食教室|生後4～5か月児を持つ保護者<br>（これから離乳食を始める方）|4～5か月児離乳食教室のご案内（PDF 282KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/ef6f473b0955439da62238a68b61dd80/eiyou_kyoshitsu1.pdf|\n|9~11か月児とりわけ離乳食|生後9~11か月児を持つ保護者|9~11か月児とりわけ離乳食のご案内（PDF 244KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/030c1927132e4299a9dc1b5dadf7e5df/eiyou_kyoshitsu2.pdf|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/eiyou-syokuseikatsu/eiyou_kyoshitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "渋谷区子育てネウボラ",
+      "summary": "渋谷区の【渋谷区子育てネウボラ】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "対象：原則として、区内在住の妊娠中の方および18歳未満の子どもと保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/neuvola.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/nimpu-kenshin/ninpu_shika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立幼稚園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "区内在住で、保護者が園児の送迎をできること\n\n4歳児（2年保育）…平成31年（2019年）4月2日～令和2年（2020年）4月1日生まれ\n5歳児（1年保育）…平成30年（2018年）4月2日～平成31年（2019年）4月1日生まれ",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/kuritsu_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "とうきょう子育てスイッチ",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/kosodate-shien-info/tokyo_kosodateswitch.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "私立幼稚園（新制度移行園）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、渋谷区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "私立幼稚園などに通う満3歳児クラス（満3歳に達する日以後）～5歳児クラスの園児世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育施設",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/hoikuen/shisetsu_map.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "幼稚園・認定こども園での預かり保育",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": "在園する園児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/kuritsu_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療（精神通院）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神障がいで通院により継続的に治療を行っている人",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/iryo/jititu-seisin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "公立保育園（恵比寿・富ヶ谷・新橋・大向・笹塚第二保育園）",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "渋谷区内に住んでいる生後57日目から小学校就学前までの健康で集団保育が可能な児童\n（注）笹塚第二保育園のみ満1歳から受け付けます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "定期利用保育",
+      "summary": "渋谷区内の認可保育園では、同居の家族がパート就労などで、週1日・1日4時間以上、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。",
+      "targetPersons": "全て満たす人が対象となります。\n\n対象年齢\n満1歳となった日の翌月～満3歳となる年の年度末まで（2歳児クラスまで）。ただし、離乳食が完了していること。\n\n要件\n継続的（月を単位として複数月）、定期的（週1日以上）に1日4時間以上の保育が必要であること。\n児童が保護者の就労により継続して保育を必要としていること。\n渋谷区民であること。\n幼稚園、認可保育所、認定こども園、幼保一元化施設、小規模保育施設、認証保育所、区立保育室などに在籍していないこと。\n集団保育が可能な児童であること。\n同居の親族などに保育を受けられないこと。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/teiki_riyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児保育室フローレンス初台",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後6か月以上の未就学児で、以下のいずれかに該当するお子さん。\n\n区内在住で、保育施設などに通っているお子さん\n区外在住で、区内の保育施設などに通っているお子さん\n区外在住で、保護者が区内の会社などに勤務しており、区外の保育施設などに通っているお子さん\n（注）保育施設などとは認可保育所・認定こども園・認証保育所・区立保育室・幼保一元化施設・定期利用保育・一時保育・東京都に届け済の認可外保育所・幼稚園です",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/byoji_florence.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター",
+      "summary": "渋谷区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、サポート会員がファミリー会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "ファミリー会員\n区内在住で、生後6か月から小学校3年生までの子どもを育てている人\n\nサポート会員\n20歳以上の人で、子育ての経験がある（ボランティア経験など子育て支援経験を含む）、または保育士などの資格を有する人\n(事前に講習を受講してもらいます)",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/fm_center.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "保育園・幼保一元化施設",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、渋谷区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/hoikuen/shisetsu_map.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "企業主導型保育事業",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、渋谷区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-ichigenka/kigyosyudou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "区立保育室",
+      "summary": "区立保育室は、渋谷区が設けた基準（保育料・保育環境・保育時間など）を満たすことで区の認定を受け、運営経費の助成を受けている認可外保育施設です。\n利用者には、所得に応じた保育料の減免や、きょうだい減免制度などがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/hoiku-shisetsu/kurituhoikushitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、渋谷区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私学助成（従来制度）の幼稚園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、渋谷区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|名称|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|日本脳炎1期|生後6月から90月に至るまでの間|3歳～4歳になるまでの間に、6～28日の間隔をあけて2回接種。<br>4歳～5歳になるまでの間に、2回目接種後から1年あけて1回接種。|満3歳に達する前月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+10+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "まちのこども園 代々木上原",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で生後5ヶ月～小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|名称|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|日本脳炎2期|9歳～13歳未満|9歳の時に1回接種|満9歳に達する前月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+11+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "渋谷東しぜんの国こども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で生後12ヶ月（完了食）から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "DT二種混合（ジフテリア、破傷風）2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|\n|11歳～13歳未満|11歳の時に1回接種|満11歳に達する前月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+12+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "SKIP（スキップ）",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で、3か月から就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/skip.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "HPV（子宮頸がん予防）ワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|接種回数|予診票の送付時期|\n|:----|:----|:----|\n|12歳になる年度の初日から16歳になる年度末日までの女性<br>（小学6年生～高校1年生相当）|3回接種<br>ただし、シルガード9（9価）については、15歳の誕生日前日までに1回目の接種を行えば2回で接種完了することができる。|新たに接種対象者となる女性に対して4月中旬に送付<br>（注）法定接種期間内であれば、手持ちの予診票で接種可能。|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+13+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "緊急一時保育制度",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住の満1歳から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/kinkyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM108",
+      "name": "児童館",
+      "shortName": "代官山ティーンズ・クリエイティブ",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n渋谷区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、渋谷区サイトや区報などでお知らせしています。）",
+      "targetPersons": "原則、渋谷区在住または在学の18歳以下で高校生までの人及びその保護者\n（注）当日の状況により渋谷区在住または在学でない人、また概ね25歳以下の人もご利用いただけます。 \n（注）保護者のみの使用はできません",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/seinen/daikan_cr.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "オンラインによる妊婦面接",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "体調不良等で医師より安静の指示がある場合\n感染症の拡大・流行により対面での面接に不安があるかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/ninpu_online.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども発達相談センター",
+      "summary": "渋谷区では渋谷区子育てネウボラなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "区内在住の0歳から18歳未満（主に就学前の乳幼児）の子どもとその家族および関係機関の人",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/kodomo_sodan_center.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "しぶや子育て応援コミュニティ「しぶコミ」",
+      "summary": "子育てをしている中で、お子さんの発達や行動が気になる瞬間があるなど、日々子育てに奮闘するみなさんが、少しでも安心できる場所や人とのつながりをつくっていきたい。\nそんな想いを持った人たちでつくられた子育て応援コミュニティです。\n主にしぶコミ子育てサポーターからの応援メッセージの掲載や子どものサービス情報等の発信を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/shogaiji-shien/shibukomi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（訪問型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "区内在住の、産後5か月未満（産後ケア（訪問型）については産後1年未満）の産婦とその子で、体調不良や育児不安があり、ご家族などから十分な支援が受けられない場合\n（注）早産や出産後、30日以上入院していた場合は、期間を延長できる場合がありますので、相談してください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/sango_care.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "渋谷区不妊治療（一般不妊治療）医療費助成",
+      "summary": "渋谷区では、保険診療で行なった不妊の検査、タイミング法や人工授精などの一般不妊治療の費用を一部助成しています。",
+      "targetPersons": "次のすべてに該当する人\n\n検査・治療開始日における妻の年齢が40歳以上43歳未満であること\n（注）区の制度は40歳以上43歳未満の人が助成対象です。40歳未満の人は東京都不妊検査等助成（東京都福祉局のページ）;https://www.fukushihoken.metro.tokyo.lg.jp/kodomo/kosodate/josei/funinkensa/index.htmlをご確認ください。\n\n検査・治療開始日から申請日まで継続して法律上の婚姻をしている夫婦または事実婚関係にある夫婦\n検査・治療開始日から申請日まで、継続して夫婦いずれかが渋谷区に住民登録があること\n夫婦ともに検査または治療を受けていること\n申請する治療において、他自治体から同種の助成金を受けていないこと\n対象となる治療\n令和4年4月1日以降に開始した保険診療による検査・治療で、開始日から1年の間に受けたもの\n不妊の検査、タイミング法、薬物療法、人工授精などの一般不妊治療\n（注）保険の適用項目がある検査でも、治療の過程や医療機関によっては必ずしも保険診療とならない場合があります。詳しくは受診する医療機関にご確認ください。\n（注）生殖補助医療（体外受精や顕微授精）、不育症にかかる検査・治療は対象外",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/funin-fuiku/ippanhunintiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育の無償化について（公立幼稚園）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "公立幼稚園（臨川幼稚園・広尾幼稚園・本町幼稚園）にお通いの方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/shugakumae/page_em_00015.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "区外にお住まいの人が渋谷区の保育園を申し込むとき",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：渋谷区内にお住まいの方が、区外の認可保育所への入所を希望する場合\nB：区外にお住まいの方が、渋谷区内の認可保育所への入所を希望する場合",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_boshu2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/jido_t.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "病児・病後児保育利用料金助成",
+      "summary": "お子さんが病気やケガで保育施設に登園できない場合や仕事があるなどの理由でご自宅にてベビーシッターなどのサービスを利用した時に、利用に要した費用の一部を助成する制度です。",
+      "targetPersons": "区内在住で、以下のいずれかの施設などに在籍（一時保育により在籍している場合を除く）し、または事業などを利用している就学前の児童\n\n認可保育園\n認定こども園\n認証保育所\n渋谷区立保育室\n渋谷区幼保一元化施設\n家庭的保育事業など（家庭的保育事業、小規模保育事業、居宅訪問型保育事業、事業所内保育事業）\n児童福祉法第59条の2の規定による届け出を行なっている認可外保育施設（待機児童向けの東京都ベビーシッター利用支援事業を利用している場合を除く）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hoiku-josei/byojibyogo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "ひよこママの時間",
+      "summary": "生後1か月～5か月の赤ちゃんを持つママを対象に「わたし」を主語に安心してお話しできる場です。",
+      "targetPersons": "生後1～5か月（6か月未満）の乳児を育てている母親（赤ちゃんと一緒におこしください）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-sodan/hiyoko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM47",
+      "name": "渋谷区の妊娠・出産に関する相談",
+      "shortName": "面接相談",
+      "summary": "渋谷区では、不妊症・不育症の治療や流産・死産の経験を持つ人の悩みや不安、話したいことを、過去に同様の治療を経験したピア・カウンセラーがお聴きします。",
+      "targetPersons": "区内在住・在勤の人で、不妊症や不育症にお悩みの人、不妊症や不育症を治療中の人、流産や死産を経験された人、不育治療のやめ時に悩んでいる人など\nパートナーと二人での相談も可",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/funin-fuiku/peer_support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳児健康診査（9・10か月）",
+      "summary": "乳児健診（3・4か月、6・7か月、9・10か月）を実施しています。",
+      "targetPersons": "|健康診査の種類|通知|対象年齢|内容|実施場所|\n|:----|:----|:----|:----|:----|\n|乳児健康診査（3・4か月）|4か月になる月の前月中旬に通知<br>（6・7か月および9・10か月健診の受診票も同封）|3か月～4か月|診察・保健指導|指定の保健相談所|\n|乳児健康診査（6・7か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|6か月～7か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|乳児健康診査（9・10か月）|4か月になる月の前月中旬に通知<br>（3・4か月健診の通知に受診票を同封）|9か月～10か月|診察・保健指導|東京都内契約医療機関<br>【区内抜粋】実施機関一覧（PDF 151KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|診察・保健指導|渋谷区内契約医療機関<br>実施機関一覧（PDF 111KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/84850219cbe04b2ebde27cea0872b202/kenshin_6.pdf|\n|1歳6か月児健康診査（歯科健康診査）|1歳5か月に達する月の下旬に通知|1歳6か月～2歳未満|歯科健診・保健指導・心理|指定の保健相談所|\n|3歳児健康診査|3歳の誕生月の中旬を基準に通知（注）|3～4歳未満|診察・保健指導・尿検査・歯科健診・心理・聴力・視力|指定の保健相談所|\n \n（注）各保健相談所により異なります。詳しくは、各保健相談所の健診日程をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "子育て応援ギフト",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "出生した子どもを養育する人",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/ouen_kyuhu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|標準的年齢（法定接種期間）|標準的な接種期間と接種回数|予診票の送付時期場所|場所|\n|:----|:----|:----|:----|\n|生後1歳に至るまで|生後2～9か月に至るまでの間に、3回接種（27日以上の間隔で2回接種後、1回目から139日（20週）以上あけて1回接種）|生後1か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "麻しん風しん（MR）任意予防接種（全額助成）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち渋谷区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "|対象者|接種回数・助成回数|場所|\n|:----|:----|:----|\n|2歳～18歳までの定期予防接種未接種者（定期予防接種対象者を除く）|未接種回数分（最大2回）|区内の指定医療機関（注）詳しくはお問い合わせください。|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_ninni.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "療育医療による医療費助成",
+      "summary": "結核にかかった18歳未満の児童で、医師が長期入院の必要を認めた場合に入院時の医療費などを助成します。",
+      "targetPersons": "次の2つに該当していること\n\n区指定医療機関において、医師が結核による長期入院の必要を認めていること\n保護者が渋谷区に住民登録がある18歳未満の児童",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/ryoiku_j.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "幼児教育の無償化について（私立幼稚園など）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "私立幼稚園、国立大学附属幼稚園、特別支援学校幼稚部に通園されている人",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "居宅訪問型保育事業（障がい児向け）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。渋谷区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "保育の必要性があり、医療的ケアが必要で、障がい、疾病などの程度を勘案して集団保育が著しく困難であると認められる1歳から小学校就学前までの児童（0歳児は要相談）で、運営事業者との面談において預かりが可能と判断された児童\n（注）主に中重度の肢体不自由児、知的障がい児、重症心身障がい児など（経管栄養・経鼻栄養・胃ろう・腸ろうを必要とする児童も可）が対象になります。\n（注）気管切開をしていたり、人口呼吸器などを使用している呼吸器疾患のお子さんについては、まずは運営事業者までお問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/hoiku_kyotaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "区内在住で、利用要件に該当する18歳未満の人",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/shortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "9~11か月児とりわけ離乳食",
+      "summary": "生後9～11か月のお子さんを持つ保護者を対象に、家族の食事と一緒に作れる離乳後期・完了期の離乳食についてのデモンストレーション付きの教室を開催しています。",
+      "targetPersons": "|種類|対象|日程・内容|\n|:----|:----|:----|\n|4~5か月児離乳食教室|生後4～5か月児を持つ保護者<br>（これから離乳食を始める方）|4～5か月児離乳食教室のご案内（PDF 282KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/ef6f473b0955439da62238a68b61dd80/eiyou_kyoshitsu1.pdf|\n|9~11か月児とりわけ離乳食|生後9~11か月児を持つ保護者|9~11か月児とりわけ離乳食のご案内（PDF 244KB）;https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/030c1927132e4299a9dc1b5dadf7e5df/eiyou_kyoshitsu2.pdf|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/eiyou-syokuseikatsu/eiyou_kyoshitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "私立幼稚園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "国立大学附属幼稚園",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、渋谷区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "国立大学附属幼稚園",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "ベネッセ美竹の丘保育園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満5カ月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "西原りとるぱんぷきんず",
+      "summary": "渋谷区内の認可保育園では、同居の家族がパート就労などで、週1日・1日4時間以上、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。",
+      "targetPersons": "|利用施設|西原りとるぱんぷきんず（外部のページ）;https://www.seikoukai.or.jp/facilities/nishihara/|\n|対象児|渋谷区在住の生後57日から就学前までの集団保育が可能な子ども|\n|利用日|月曜日～土曜日（開園日）8時30分～18時30分のうちの8時間|\n|定員|3人（事前に定期利用枠の申し込みが必要）|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/teiki_riyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "原宿こども園病後児保育室 にじ",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "満1歳（完了食）以上の未就学児で、以下のいずれかに該当するお子さん\n\n渋谷区内在住で、保育施設などに通っているお子さん\n渋谷区外在住で、渋谷区内の保育施設などに通っているお子さん\n渋谷区外在住で、保護者が渋谷区内に就労または就学し、渋谷区外の保育施設などに通っているお子さん\n（注）保育施設など\n認可保育園、認定こども園、認証保育所、区立保育室、区立幼保一元化施設、定期利用保育、一時保育、東京都に届出済の認可外保育施設、幼稚園など",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/byoji_florence.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+2+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認証保育所",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、渋谷区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/hoiku-shisetsu/ninsyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "かぞくのアトリエ（こども・親子支援センター）",
+      "summary": "こども・親子支援センター（かぞくのアトリエ）は、子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "原則、渋谷区在住の未就学児および小学生とその保護者\n（注）当日の状況により、渋谷区在住でない人も利用できます。\n（注）未就学児は保護者の付き添いが必要です。（保育機能はありません）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/kazoku_no_atelier.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "私立幼稚園（従来制度園）・私立の特別支援学校幼稚部",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "対象\n私立幼稚園または幼稚園類似の幼児施設（都の認定施設）に通園する児童世帯\n（注）施設等利用給付認定を受けていること\n\n通園施設\n次のいずれかに通園させている\n\n私立幼稚園（特別支援学校を含む）\n幼稚園類似の幼児施設（都の認定施設）\n（注）平成27年4月の子ども・子育て支援新制度の施行を受け、子ども・子育て支援新制度に移行した園は対象となりません。\n（注）子ども・子育て支援新制度に移行した私立幼稚園については、幼児教育の無償化について（私立幼稚園など）;https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.htmlのページをご覧ください。\n区内に所在する新制度に移行した園（私立幼稚園）は令和6年4月1日現在、城西幼稚園、原宿幼稚園、福田幼稚園、シオン幼稚園、渋谷同胞幼稚園の5園が該当します。\n（注）保育園を利用した月は、私立幼稚園に係る補助金の支給対象外となります。\n\n園児の住所\n令和6年4月1日以降、渋谷区に住所がある、または住所があったことが、住民登録により確認できる\n\n園児の年齢\n満3歳児 令和3年4月2日以降生まれで、満3歳に達した園児\n年少（3歳児）令和2年4月2日～令和3年4月1日生まれ\n年中（4歳児）平成31年4月2日～令和2年4月1日生まれ\n年長（5歳児）平成30年4月2日～平成31年4月1日生まれ\n（注）就学猶予の6歳児も対象となる場合があります。詳しくは、問い合わせてください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/hoikuen/yochien/prv_yochien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "母乳相談",
+      "summary": "授乳に関する相談（集団および個別相談）を助産師がお受けします。",
+      "targetPersons": "生後1～4か月（5か月未満）までの乳児を育てている母親（赤ちゃんと一緒におこしください）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-sodan/shinseiji-sodan/bonyu_soudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタリックス",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|種類|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|ロタリックス|生後6週から24週まで|27日以上の間隔をあけて2回接種|生後1か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "男性のHPVワクチン予防接種（全額助成）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち渋谷区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "|対象者|接種回数・助成回数|使用するワクチン|場所|\n|:----|:----|:----|:----|\n|12歳になる年度の初日から16歳になる年度末日までの男性<br>（小学6年生～高校1年生相当）|未接種回数分（最大３回）|4価のHPVワクチン<br>（注）2価、9価のワクチンは使用できません。 |区内の指定医療機関（注）詳しくはお問い合わせください。|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_ninni.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "育成医療による医療費助成",
+      "summary": "身体に障がいのある18歳未満の児童で、手術などにより回復が見込まれる人に医療の給付をします。",
+      "targetPersons": "18歳未満で下記の障がいがあり、手術などにより確実な治療効果が期待できる児童。（注）指定自立支援医療機関の意見書が必要です。\n\n肢体不自由\n視覚障害\n聴覚・平衡機能障害\n音声機能・言語機能またはそしゃく機能障害\n心臓機能障害\n腎臓機能障害\n小腸機能障害\n肝臓機能障害\nそのほかの内臓の障害（注）呼吸器、膀胱、直腸、小腸機能障害をのぞく内臓障害は、先天性疾病のものに限ります。\nヒト免疫不全ウイルスによる免疫機能障害",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/ikusei_j.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "施設型給付",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hoiku-josei/youjikyouikumusyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+3+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "キッズハーモニー・よよぎの杜",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満5カ月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+4+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "渋谷スポーツ共育プラザ&ラボすぽっと（こども・子育て支援プラザ）",
+      "summary": "こども・子育て支援プラザ（渋谷スポーツ共育プラザ&ラボすぽっと）は、子育て支援拠点として、スポーツを通して子どもの可能性を伸ばし、子育てを通して親も共に育つことを目的としています。\n月例や年齢に合わせて身体を動かす様々な運動プログラムに加え、医学や食育をテーマとした子育て支援に関する講座なども実施しています。",
+      "targetPersons": "原則、渋谷区在住・在勤・在学の未就学児および小学生とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/shibuya_spot.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+4+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "私立幼稚園（新制度移行園）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "私立幼稚園などに通う満3歳児クラス（満3歳に達する日以後）～5歳児クラスの園児世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタテック",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|種類|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|ロタテック|生後6週から32週まで|27日以上の間隔をあけて3回接種|生後1か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+4+UM55",
+      "name": "任意予防接種",
+      "shortName": "インフルエンザ（全額助成）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち渋谷区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "|対象者（接種日現在の年齢）|助成回数|\n|:----|:----|\n|1歳～12歳|2回 （接種間隔：2～4週間）|\n|13歳～中学3年生|1回|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_ninni.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+4+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "西原りとるぱんぷきんず",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で生後57日目から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+5+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "渋谷区子ども家庭支援センターは、区内在住の18歳未満の子どもとその家庭に関する相談・支援を行う機関です。",
+      "targetPersons": "原則として、区内在住で18歳未満の子どもと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-shisetsu/ch_fm_shien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+5+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "国立大学附属幼稚園",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "国立大学附属幼稚園",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/musyo_shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "5種混合（ジフテリア、百日せき、破傷風、不活化ポリオ、ヒブ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|\n|生後2月から90月に至るまでの間|生後2か月～7か月になるまでの間に、20～56日の間隔をあけて3回接種。<br>3回目接種の終了後、6か月～18か月の間隔をあけて1回接種。|生後1か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+5+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "代々木至誠こども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満5か月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+6+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子育て支援センター",
+      "summary": "渋谷区では渋谷区子育てネウボラを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "区内在住で就学前の子どもと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kosodate/kosodate-center/shien_center.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|\n|生後1歳に至るまで|生後5か月～8か月になるまでの間に1回接種|生後4か月に達した月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+6+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "神宮前あおぞらこども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満3か月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん混合（MR）1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|名称|法定接種期間|接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|麻しん風しん混合（MR）1期|生後12月から24月に至るまでの間|1回接種|満1歳に達する前月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+7+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "本町きらきらこども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満3か月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん混合（MR）2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|名称|法定接種期間|接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|:----|\n|麻しん風しん混合（MR）2期|小学校入学前の1年間（4月1日～翌年3月31日まで）|1回接種|小学校入学1年前の3月末に送付|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+8+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "恵比寿のびのびこども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満3か月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘（水ぼうそう）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "|法定接種期間|標準的な接種期間と接種回数|予診票の送付時期|場所|\n|:----|:----|:----|:----|\n|1歳～3歳未満|生後12か月～15か月に1回目を接種。<br>1回目接種後、6か月～12か月の間隔をおいて2回目を接種。|満1歳に達する前月末に郵送|23区内契約医療機関|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/yobo-sesshu/kodomo_teiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020131130+9+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "本町そよかぜこども園",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "区内在住で満3か月から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoiku-service/itiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

@@ -1,0 +1,1471 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132250",
+  "programs": [
+    {
+      "psid": "psid3.0+2000020132250+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠したら「母子健康手帳」の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "稲城市に住民票を有する妊婦\n注1：妊婦以外の代理人が届出る場合は委任状が必要になります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninsintodoke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "ブックスタート　3カ月から4カ月児健康診査時に絵本をプレゼント",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "▽対象　稲城市在住の、3カ月から4カ月児健康診査を受けるお子さん\n注記：稲城市保健センターで健康診査が受けられなかった方には、各図書館（全館）で絵本をお渡しします。お問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/toshokan/bookstart.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "子育てサポーター",
+      "summary": "子育てサポーターは養成講座を修了した市民のボランティアが、毎月市内にある児童館等を会場として、折り紙や手遊びを楽しみながら、同じ月齢や年齢の子を育てる親同士が交流を深められるようなプログラムを提供しています。\nこの場を通じて、参加者とサポーターが結びつき、地域による子育て支援の輪が大きくなることを期待しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/asobi/event/kosaponohi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n稲城市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、稲城市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shisetsu/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "稲城市では市内の子ども家庭支援センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shisetsu/kosodate/kosodate/kokasen_hongo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "あそびの広場",
+      "summary": "稲城市では市内の地域子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "妊婦および0歳児から未就学児とその保護者等、ファミリー・サポート・センター事業活動会員の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/asobi/asobinohiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば事業",
+      "summary": "保育所等において、小学校就学前のお子さんが安心して遊べるスペース、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談、情報交換等を行う機会を提供しています。",
+      "targetPersons": "未就学児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kosodate_hojo/itijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM114",
+      "name": "小児科救急",
+      "shortName": "稲城市立病院の救急診療",
+      "summary": "稲城市では、市内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/iza/kyuujitsu/kyuukyuu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育て等の相談窓口",
+      "summary": "稲城市内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kodomoshien_center/oshirase/soudanmadoguchi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM119",
+      "name": "稲城市の子育てに関する相談",
+      "shortName": "子どもと家庭の総合相談",
+      "summary": "子育てに関する不安や悩みについて、一人で抱え込まず、相談員にお気軽にご相談ください。\nまた、どこに相談すればいいのか分からない場合もご相談ください。\nお話を伺い、相談窓口等をご案内いたします。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kodomoshien_center/madoguti/kokasen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "母子生活支援施設",
+      "summary": "母子家庭で児童の養育が充分にできない場合、母子をともに入所させて保護し、自立促進のための生活支援を行う施設",
+      "targetPersons": "入所対象\n配偶者のいない女子、又はこれに準ずる事情にある女子であって、その養育すべき児童（18歳未満）について充分な養育ができない母及び児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助の申請（令和6年度）",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "援助の対象となる方と、申請に必要な書類\n稲城市にお住まいの方で、お子さまが国公立の小中学校に在籍し、かつ次のいずれかに該当する方が対象です。\n|援助の対象となる方|<|申請に必要な書類|\n|:----|:----|:----|\n|1　現在、生活保護を受給している世帯である。|<|なし|\n|2　令和5年4月1日以降、下記のいずれかに該当した。|<||\n|(1)|生活保護の停止、または廃止を受けた世帯である。|なし|\n|(2)|護者のいずれかが、児童扶養手当の支給を受けた。<br>児童扶養手当は、ひとり親家庭向けの手当てです。児童手当とは異なりますのでご留意ください。|なし|\n|(3)|保護者のいずれかが、社会福祉協議会から生活福祉資金の貸付を受けた。|生活福祉資金貸付決定通知書の写し<br>決定通知書が無い場合は、貸付資金が振り込まれたことがわかるものを提出してください。<br>（通帳の表面と振込みがあった行のページの写し）|\n|(4)|保護者全員が、障害者・未成年者・寡婦または寡夫のいずれかに該当して市町村民税非課税である。|なし<br>（注釈）ただし、令和6年1月2日以降に転入した保護者がいる場合は、その保護者の分の非課税証明書（コピー可）が必要です。|\n|(5)|保護者のいずれかが、国民健康保険税の減免または徴収の猶予を受けた。|国民健康保険税減免（猶予）承認決定通知書のコピー|\n|(6)|保護者全員が、国民年金保険料の全額減免を受けた。|国民年金保険料免除承認通知書と宛名部分のコピー|\n|(7)|保護者のいずれかが、市町村民税の減免、個人事業税の減免、災害による固定資産税の減免を受けている。|減免決定通知書のコピー|\n|3　令和5年1月から12月までの世帯の総収入が、下記の世帯の総収入の基準額の目安に満たない額である。|<||\n世帯の総収入の基準額の目安　注釈：家賃69,800円の場合\n|世帯人数|世帯構成の例|持ち家|賃貸住宅|\n|:----|:----|:----|:----|\n|2人|父または母40歳　子6歳|260万円前後|340万円前後|\n|3人|父母40歳　子6歳|330万円前後|410万円前後|\n|4人|父母40歳　子9歳　子3歳|370万円前後|450万円前後|\n|4人|父母40歳　子9歳　子6歳|400万円前後|480万円前後|\n|5人|父母40歳　子12歳　子9歳　祖母65歳|470万円前後|560万円前後|\n|5人|父母40歳　子12歳　子9歳　子6歳|490万円前後|570万円前後|\n世帯全員の収入の合計が上記の額に満たない場合は、就学援助を受けられる目安になります。ただし、年齢構成や家賃などによって基準額は変わりますので、あくまで目安としてください。基準に該当するか迷う場合は、申請しておくことをおすすめします。\n上記の表における収入は、パートやアルバイト、年金なども含みます。給与所得者は、源泉徴収票の「支払金額」から社会保険料と源泉徴収税額を引いた金額を指します。給与所得者以外は確定申告書の「所得金額の合計」です。その他に勤務先の都合による離職、倒産、病気、災害などの特別な事情で収入が急変した場合は、学務課までご相談ください。\n\n（注釈）\n世帯に令和6年1月2日以降稲城市へ転入した保護者等がいる場合　⇒　該当する方全員分のいずれかによる収入の証明（コピー可）が必要です。\n令和5年分給与所得の源泉徴収票\n令和5年分の所得税の確定申告書（第一表）の控え\n令和6年度市町村民税課税証明書（または非課税証明書）\n課税証明書（または非課税証明書）は、令和6年1月1日にお住まいだった区市町村にて、概ね6月に購入可能です。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/gakko_kyoiku/kyouikuhisiennseido/shuugakuenjyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "あかちゃん訪問（新生児訪問指導）",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "生後4カ月までのお子さんがいるご家庭",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/akachan/shinseiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "あかちゃん訪問を受けた方に「あかちゃんギフト」をお渡しします",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後4カ月までのお子さんがいるご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010148/1004683/1004708/1004713.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "利用できる方\n稲城市に住民票のある生後4か月未満（概ね7,000ｇ未満）の乳児とママであり、産後ケアの支援を必要とする方。\n注釈：稲田助産院は、配偶者や兄姉の利用ができる場合がございます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/sangocare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "稲城市特定不妊治療医療費助成事業",
+      "summary": "特定不妊治療のうち、医療保険適用治療及び先進医療不妊治療を含む医療保険適用外の治療に要する経費の一部を助成します。",
+      "targetPersons": "1.治療開始日から助成金申請日まで、夫婦双方の住民票が稲城市内にある方（事実婚も含む）\n2.体外受精や顕微授精以外の治療法では妊娠の見込みがないか、又は極めて少ないと医師に診断された方\n3.治療開始日が令和4年4月1日以降であり、かつ開始日初日の女性の年齢が45歳未満である方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshinmae/huninchiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "稲城市特殊疾病患者見舞金",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "対象者\n次の条件のいずれにも該当する方\n稲城市に住所がある方。\n特定医療費（指定難病）受給者証をお持ちで負担上限額が0円でない方。または対象疾病のマル都医療券（注）をお持ちである方。\n（注）下記疾病に関するマル都医療券は支給対象外です。\n人工透析を必要とする腎不全\n大気汚染関連疾病\n被爆者の子に対する医療\n小児精神病\n妊娠高血圧症候群等\nＢ型・Ｃ型ウイルス肝炎\n\n併給制限\n次のいずれかに該当する方は特殊疾病見舞金を受給することはできません。\n心身障害者福祉手当を受給している方\n児童育成手当条例に基づく障害手当を受給している方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/teate/tokushu_sippei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "稲城市の国民健康保険に加入している方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/kokuho/ichijikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "稲城市生活資金融資あっせん制度",
+      "summary": "出産予定日前に出産費用の支払いが必要な方を対象に、出産育児一時金8割に相当する額を限度として出産費用の貸し付けを無利子で行います。",
+      "targetPersons": "対象\n次の条件をすべて満たしている方\n市内に引き続き1年以上居住していること\n20歳以上の者（申請者）\n市税を滞納していないこと\n前年の世帯の所得が600万円以内であること\n勤続年数または営業年数が1年以上であり、現在も継続していること\n安定し、かつ、継続した収入があること\n現に、この生活資金の融資あっせんを受けていないこと",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kurashi/soudan/seikatsushikin_yuushi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "多胎妊婦健康診査費用助成金",
+      "summary": "多胎妊婦の経済的・精神的負担の軽減を図るため、妊婦健康診査受診票14回分を超えて自費で妊婦健康診査を受けた15回から19回分までの費用の一部を助成します。（1回あたり上限5,000円）",
+      "targetPersons": "多胎妊娠をされた方\n※申請期限は出産日から原則１年以内です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninnpukennsinnnoosirase.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "対象\n稲城市在住で、健康保険に加入している乳幼児（6歳到達後、最初の3月31日まで）\n注意：所得制限はありません。\n注意：生活保護を受けている世帯、規則で定める施設に入所している方、里親などに委託している方は、それぞれの医療費助成制度が優先されます。\nまた、ひとり親医療費助成制度、心身障害者医療費助成制度を自己負担なしで受けている方（非課税世帯の方）は、それぞれの医療費助成制度が優先されます。\n注意：申請者（保護者）は、乳幼児の父母等のうち、主に生計を支えている方（所得の高い方）となります。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/nyuuyouji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "幼児教育・保育の無償化関係（子育てのための施設等利用給付関係）",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shinseisho/mokutekibetsu/kosodate/kosodate/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "3歳児クラスから5歳児クラスまでのお子さん及び住民税非課税世帯の0歳児クラスから2歳児クラスまでのお子さんを対象に、幼児教育・保育の無償化を実施しています。",
+      "targetPersons": "1　認可保育所、認定こども園（保育所機能部分）を利用する方\n対象者\n　1.3歳児クラスから5歳児クラスまでの子ども\n2.市町村民税非課税世帯（4月分から8月分までは前年度非課税世帯）の0歳児クラスから2歳児クラスまでの子ども\n注釈：市町村民税非課税世帯の0歳児クラスから2歳児クラスの場合は、地域型保育事業（家庭的保育事業等）利用者も対象です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "私立幼稚園等園児保護者負担軽減補助金",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、稲城市独自に利用料の助成を行っています。",
+      "targetPersons": "幼稚園及び認定こども園の教育機能部分に在籍している園児の保護者",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/youchien/shiritsuyouchien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "東京都認証保育所",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "未就学児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/ninnsyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/zidoteate24.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当（国制度）",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "対象\n離婚など（注釈1）によりひとり親家庭にあり､18歳到達の年度末までの児童（注釈2）を養育している方。ただし、児童福祉施設に入所している児童は除きます｡\n他にも支給要件があります。支給要件に該当するかにつきましては、ご相談ください。\n注釈1：例えば次のような家庭\n父または母が離婚\n父または母が死亡\n父または母が行方不明\n父または母が一年以上家出状態\n父または母が裁判所からのＤＶ保護命令を受けた\n父または母が一年以上法令により拘禁されている\n婚姻によらないで生まれた児童を養育している\n父母に扶養されない児童を養育している\n父または母に一定以上の重度な障害がある\n注釈2：一定以上の障害がある児童は20歳未満が対象となります｡",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/jidouhuyouteatekuniseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "対象（ひとり親家庭とは）\n離婚など（注釈1）によりひとり親家庭にあり､18歳到達の年度末までの児童（注釈2）を養育している方。ただし、児童福祉施設に入所している児童や里親に委託されている児童、生活保護受給者は除きます｡\n\nなお、全国共通の児童扶養手当に準じた要件となっていますが、手当のように年金受給による受給制限はありません。\n注釈1：例えば次のような家庭\n父または母が離婚\n父または母が死亡\n父または母が行方不明\n父または母が一年以上家出状態\n父または母が裁判所からのＤＶ保護命令を受けた\n父または母が一年以上法令により拘禁されている\n婚姻によらないで生まれた児童を養育している\n父または母に扶養されない児童を養育している\n父または母に一定以上の重度な障害がある\nひとり親家庭等に該当するかどうか確認したい場合は、お問い合わせください。\n注釈2：一定以上の障害がある児童は20歳未満が対象となります｡",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioya_zyosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子及び父子福祉資金・女性福祉資金の貸付",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "貸付の対象\n都内に6カ月以上居住している配偶者のいない以下の要件に該当する方が対象となります。\n要件：死別、離婚、生死不明、法令による拘禁（長期）、労働能力喪失、未婚の母又は父等\n【母子及び父子福祉資金】\n1.女子又は男子で20歳未満の児童を扶養している方\n2.母子・父子福祉団体\n【女性福祉資金】\n1.親、子、兄弟姉妹などを扶養している方（所得制限なし）\n2.年間所得が2,036,000円以下でかつて母子家庭の母として20歳未満の子を扶養したことのある方又は婚姻暦のある40歳以上の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療給付制度",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "対象者\n稲城市に住所を有する未熟児で、次のいずれかに該当し、入院して養育を受ける必要があると医師が認めた乳児（0歳児）が対象となります。\n（1）出生時の体重が2,000グラム以下の乳児\n（2）前記（1）以外の乳児で、次に掲げるいずれかの症状を示す乳児\n対象となる症状\n|1.一般状態|（1）運動不安・けいれん<br>（2）運動異常|\n|2.体温|（1）摂氏34度以下|\n|3.呼吸器、循環器|（1）強度のチアノーゼが持続<br>（2）チアノーゼ発作を繰り返す<br>（3）呼吸数が毎分50以上で増加傾向<br>（4）呼吸数が毎分30以下<br>（5）出血傾向が強い|\n|4.消化器系|（1）生後24時間以上排便がない<br>（2）生後48時間以上嘔吐が持続<br>（3）血性吐物・血性便がある|\n|5.黄疸|生後数時間以内に現れるか、異常に強い黄疸のあるもの<br>（症状が黄疸のみの場合は、中程度異常の黄疸とする）|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/youiku_iryou_kyufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "届け出人\n父または母\n法定代理人\n同居者\n医師\n助産師\nその他の立会者\n注意：原則父母が届け出人となります。その他の方が届け出人となる場合はあらかじめ戸籍係までお問い合わせください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kurashi/tetsuzuki/koseki/shusshou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "パパママ教室",
+      "summary": "初めての赤ちゃんを迎えるママとパパのためにパパママ教室を開催しています。妊娠、出産、赤ちゃんのお世話などについて基本的な知識を学ぶ教室です。",
+      "targetPersons": "対象\n市内在住で初めて出産を迎える方とそのパートナーの方\n注釈：第2子目以降の妊婦の方で参加をご希望の方は、お問い合わせください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/papamama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "マタニティ教室",
+      "summary": "稲城市では、初めての赤ちゃんを迎えるママのためにマタニティ教室を開催しています。妊娠、出産、赤ちゃんのお世話などについて基本的な知識を学ぶ教室です。",
+      "targetPersons": "対象\n市内在住で初めて出産を迎える方\n注釈：第2子目以降の妊婦の方で参加をご希望の方は、お問い合わせください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/hahagaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "母子手帳アプリ「梨の子いなぎ」",
+      "summary": "妊娠中の記録や子どもの育児日記をつけたり、予防接種のスケジュール管理がカンタンにできます。 妊娠週数や子どもの月齢・年齢に合わせたお役立ち情報、市からの子育て情報が届きます。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/boshihokennabi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、稲城市の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "対象となりうる世帯\n次に該当する世帯は制度の対象になる可能性があります\n（A）生活保護世帯及び、中国残留邦人等の円滑な帰国の促進及び永住帰国後の自立の支援に関する法律による支援給付受給世帯\n（B）住民税非課税世帯\n（C）住民税課税世帯のうち、税額が均等割額のみの世帯\n注意：出産育児一時金等の額により対象とならない場合がございます。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/seikatsukonkyuu_teisyotokusya/nyuinzyosan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "令和6年度 休日急病診療所日程表",
+      "summary": "稲城市では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。\nなお、小児のお子さんの救急の時は、小児科救急当番医をご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/kyuujitsu/kyujitukyubyou_sinryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM47",
+      "name": "稲城市の妊娠・出産に関する相談",
+      "shortName": "妊婦さんオンライン面接",
+      "summary": "体調不良等で自宅安静や入院中の方は、専用アプリを使ってオンライン面接を受けることができます。安心して出産・子育ての準備ができるよう保健師等が面接させていただきます。産前産後の生活に関することやきょうだい児の対応についてのご相談などにお役立てください。",
+      "targetPersons": "体調不良等で自宅安静や入院中の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninpumensetsu/online_mensetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "1歳プレゼント",
+      "summary": "1歳前後は行動範囲が広がるとともに、自己主張が強くなり育児の悩みやご相談が多くなる時期です。市では1歳の誕生日を迎えられたお子さんを育てている家庭を対象に、育児についてのアンケートを送付し、回答いただいた家庭へ1歳プレゼントとして、こども商品券6万円分（令和5年3月31日までの出生者は1万円分）を配布します。\nアンケートの回答内容を確認し、市からご連絡させていただく場合もありますのでご了承ください。",
+      "targetPersons": "対象者\n次の要件を全て満たすお子さんがいる世帯\n1.令和4年4月1日から令和7年3月31日生まれのお子さん\n2.1歳の誕生日を迎え、その時点で稲城市に住民登録があるお子さん\n3.2歳になる前日までにアンケートが市に到着し、その時点で稲城市に住民登録があるお子さん",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/1saipresent.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3カ月から4カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3カ月から4カ月児健康診査を実施しています。",
+      "targetPersons": "3カ月に達する月の翌月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/3_4kagetsuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6カ月から7カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6カ月から7カ月児健康診査を実施しています。",
+      "targetPersons": "対象\n満6カ月から7カ月の乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/6_7kagetsuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "あかちゃんギフト（電子カタログギフト10万円分：国及び東京都出産・子育て応援事業）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "対象者（あかちゃんギフト）\n次の要件を満たす方\n1.お子さん及び養育している方の住民登録が、あかちゃん訪問を受けた日に稲城市内にあること\n2.あかちゃんギフト申請書を提出し、今後の伴走型支援（各期のアンケート、健康診査など）を受けていただける方\n3.生後4か月までにあかちゃん訪問を受けた方（里帰り先で訪問を受けた方も稲城市で訪問を受ける必要があります。）\n（注）\n（1）他の自治体（転入前自治体など）で同様のギフト（出産・子育て応援交付金による子育て応援ギフト）を受け取った方を除く\n（2）以下の項目に該当する場合は、おやこ包括支援センターまでご相談ください。\n海外で出産し帰国した\n父母が離婚協議中\n乳児が施設に入所した\n里親委託された\nDVを理由に避難している\n乳児が出生後に亡くなられた",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/akachan/shinseiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室の概要",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "実施小学校に通う小学校1年生から6年生まで。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1010153/1004561/1004562.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間に係る国民健康保険税の免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険税と所得割保険税が免除されます。",
+      "targetPersons": "出産日が令和5年11月1日以降の国民健康保険被保険者の方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/kokuho/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6カ月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。稲城市では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "実施時期の目安\n1歳6カ月に達する月の翌月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/1sai6kagetsuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。稲城市では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "実施時期の目安\n3歳に達する月の翌月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/3saiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "五種混合（DPT‐IPV-Hib）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から7歳6カ月に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ予防接種（任意接種）の費用助成",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち稲城市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "対象者（令和6年度）\n接種日時点で稲城市に住民登録がある次のお子様。\n1回目接種の場合：満1歳から2歳未満のお子様\n2回目接種の場合：小学校就学前年度（年長児）かつ1回目接種から2年以上経過しているお子様\n注釈：既におたふくかぜ予防接種を2回受けた方、おたふくかぜに罹患したことがある方は対象外です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/otahukuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "認可外保育事業利用者利用料補助金",
+      "summary": "稲城市では、認可外保育所のうち、国又は東京都の基準を満たしている東京都認証保育所及び企業主導型保育事業利用について、保育料の一部補助を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shinseisho/soshikibetsu/kodomofukushibu/kosodatesien/ninnsyou_kigyousyudou_hojo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "母子家庭及び父子家庭自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "対象者\n教育訓練講座を受講する母子家庭の母又は父子家庭の父で、次の要件をすべて満たす方\n1.児童扶養手当の支給を受けているか、同様の所得基準にあること\n2.当該教育訓練を受講することが適職に就くために必要であると認められるものであること\n3.過去に訓練給付金を受給していないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊娠届を提出した方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninnpukennsinnnoosirase.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "母子家庭及び父子家庭高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "対象者\n就職に有利であり、かつ生活の安定に資する国家資格を取得するために養成機関で就業する母子家庭の母又は父子家庭の父で、次の要件をすべて満たす人\n1.児童扶養手当の支給を受けているか、同様の所得基準にあること\n2.修業年限1年以上の養成機関で一定の課程を修業し、対象資格の取得が見込まれるもの\n3.就業又は育児と修業の両立が困難であると認められるもの\n4.求職者支援制度、雇用保険制度における趣旨を同じくする給付金を受けていないこと\n5.過去に高等職業訓練促進給付金を受給していないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "ひとり親家庭住宅支援資金貸付",
+      "summary": "自立に向けて意欲的に取り組むひとり親家庭に対し、東京都社会福祉協議会で住宅支援資金を貸し付けをします。",
+      "targetPersons": "対象者\n次の要件を全て満たす人\n1.児童扶養手当の支給を受けている（所得が同水準の人を含む）\n2.原則として東京都に住民登録している\n3.母子・父子自立支援プログラムの策定を受けて、自立を目指している",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当（国制度）",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "対象\n20歳未満の障害児（者）を養育している方｡ただし、その障害の程度は、おおむね愛の手帳1度から3度程度、おおむね身体障害者手帳1級から3級程度、これらと同程度の精神の障害、法令で定められた程度の複数の障害があることなど基準があります｡詳しい基準に関しては、東京都心身障害者福祉センターのホームページで確認してください。\n特別児童扶養手当（国制度）：東京都心身障害者福祉センター（外部リンク）;https://www.fukushihoken.metro.tokyo.lg.jp/shinsho/teate/toku_ji.html",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/tokubetsufuyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "精神又は身体に重度の障害を有するため、日常生活において常時の介護を必要とする状態にある在宅の20歳未満の方。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/teate/shougaijihukusiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成制度",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "特定の小児慢性疾病にかかっている児童等",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/iryouhi_zyosei/syounimannseitokuteisippei_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "児童育成手当（障害手当）（都制度）",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、児童育成手当を支給しています。",
+      "targetPersons": "20歳未満の障害児（障害者）を養育している方｡ただし、その障害の程度は愛の手帳1度から3度のいずれか、身体障害者手帳1級・2級程度、脳性マヒ､進行性筋萎縮症など条件があります｡\n注釈：手帳をお持ちでなくても、特別児童扶養手当;https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/tokubetsufuyou.htmlの受給状況によって対象になる場合があります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/jidouikusei_syougaiteate_toseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM69",
+      "name": "自治体独自の遺児の方への金銭的支援",
+      "shortName": "児童育成手当（育成手当）（都制度）",
+      "summary": "ひとり親家庭の児童に対して児童の福祉の増進を図ることを目的とし、児童育成手当を支給しています。",
+      "targetPersons": "父や母が死亡･離婚･重度の障害・生死不明などによりひとり親家庭状態にあり､18歳到達の年度末までの児童を養育している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/jidouikusei_ikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等による妊婦健康診査及び新生児聴覚検査の受診費助成金",
+      "summary": "稲城市にお住まいの妊婦さんが、里帰り出産などで東京都外の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "里帰り等の理由により、妊婦健康診査を東京都外の医療機関、または助産所で受診された方\n注意：ただし、健康保険適用の診療、妊娠判定のための健診は、対象となりません。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninpukensinjusinhijoseikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育所・保育ママ・認定こども園等関係",
+      "summary": "保育園とは、保護者の就労等により、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準を満たし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。",
+      "targetPersons": "未就学児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shinseisho/soshikibetsu/kodomofukushibu/kosodatesien/hoikusyokankei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認定こども園",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": "未就学児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoikusho_nado/ninnteikodomoenn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "家庭的保育事業（保育ママ）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。稲城市には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "生後57日経過後～２歳児クラス（満３歳に達する日の属する年度の年度末まで）※食物アレルギー保有、熱性けいれん既往歴のあるお子さんは、申込みできません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoikusho_nado/h30hoikumama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM76",
+      "name": "延長保育",
+      "shortName": "保育料と納入方法",
+      "summary": "稲城市内の保育園（保育所）や認定こども園、家庭的保育事業では、保護者の勤務時間等により、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収の上で、延長保育を実施しています。",
+      "targetPersons": "各施設在籍児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoikusho_nado/hoikusho/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "利用できるお子さん\n次の1から6のすべてに該当するお子さんが、ご利用いただけます。\n1.稲城市内在住\n2.保護者が就労（4時間以上）のため、家庭において保育をする者がなく、休日保育用就労証明書を提出できる\n3.医療行為が必要でなく、集団保育が可能である\n4.1歳児クラスから就学前までの年齢\n5.利用する日に、保護者が昼食等を持参することができる\n6.休日保育を利用することにより、1週間の保育所等における保育日が連続7日以上とならない\n注釈：保育所等に通園している場合、1週間の保育日が連続して7日以上とならないよう、平日に家庭保育の日を設けてください。\n注釈：出産・介護・リフレッシュ等を目的とする利用はできません。\n注釈：就労証明書は、休日保育を利用する日数分必要になります。（例：2日間利用する場合、父母分2枚×2日分）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kyujitsuhoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ事業",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、市内施設で、日帰り又は宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "市内在住の2歳（東京サレジオ学園は1歳6か月）から小学6年生まで",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kodomoshien_center/kokasen/kodomoshortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "育児支援ヘルパー事業",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "市内在住の母子健康手帳を交付された妊婦または生後3歳（多胎児の場合も3歳）未満のお子さんを養育している方で、児童の養育または家事に支援が必要な方。\n単胎児の1歳児、2歳児は保育サービスを利用していないお子さんが対象となります。\n注釈：保育サービスとは‥認可保育園、認証保育園、保育ママなど。詳細はお問い合わせください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/asobi/ikujishienhelper.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "放課後子ども教室",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "対象者\n実施小学校に通う小学校1年生から6年生まで。\nただし、学童クラブとの併用はできません。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/houkagokodomo/r6houkagogaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生連絡票（はがき）を記入して、郵送または提出してください。出生連絡票をもとに、「こんにちは赤ちゃん事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生連絡票はその届出を兼ねています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/akachan/shinseiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM792",
+      "name": "乳幼児の歯の健康診査（1歳児歯科健康診査）",
+      "shortName": "1歳児歯科健康診査",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。1歳児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "1歳になった第1子及び多胎児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/1saijisikakenkousinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "「国民年金第1号被保険者」で出産日が平成31年2月1日以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/faq/kurashi/kokuminnenkin/sannzennsanngo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食調理講習会",
+      "summary": "生後6か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "稲城市在住のおおむね5から6ヵ月のお子様と保護者1名（第1子世帯を優先）\n保護者を対象とした講座です。お子様連れでも参加できます。\n3ヵ月から4ヵ月児健診のご案内に離乳食調理講習会のチラシを同封します。チラシが届きましたら、お申し込みください。\n注釈：第1子世帯以外の方や、ご夫婦で参加を希望される方も、申し込みができます。第1子世帯で定員に達したときは参加できませんので、予めご了承ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhigakkyuu/rinyuushoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "稲城市子ども家庭支援センター",
+      "summary": "令和６年４月に施行された改正児童福祉法により、全ての妊産婦・子育て世帯・子どもに対して切れ目のない子育て支援を行う「こども家庭センター」の設置に努めることになりました。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/1004348/1004667/1011537.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠中は、口の中や生活が変化して、むし歯や歯周病になりやすく、歯周病にかかると低体重児や早産のリスクが高まるので、お口のケアが大切です。歯科健診でお口の中を確認しましょう。",
+      "targetPersons": "稲城市在住の安定期を迎えた妊婦さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/shika_kenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "18歳未満の子供がいる世帯や妊娠中の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kosodate_hojo/tokyopassport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "【利用者向け】企業主導型保育事業の利用",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kigyousyudougatahoikujigyou/riyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療（精神通院）",
+      "summary": "精神疾患のため通院治療を受けてる方に医療費の一部を助成する制度です。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/1003530/1003531.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時預かり事業及び子育てひろば事業",
+      "summary": "保護者の就労、病気、リフレッシュ等のために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園で一時的にお預かりしています。",
+      "targetPersons": "保護者が稲城市在住で本事業を必要とする、満1歳以上の集団保育が可能な就学前の児童\n注釈　認可保育所、認定こども園、新制度幼稚園又は家庭的保育事業に在籍している児童は対象外です。ただし、里帰り出産によって一時的に稲城市の一時預かり事業の利用を希望する場合は、利用できます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kosodate_hojo/itijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育室",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "満4カ月から小学3年生までの児童の保護者が仕事をしているなどの理由で、家庭での看護に欠け、次の要件のいずれかに該当する児童が利用できます。\n1　病気（麻しん・結核を除く）の回復期に至らない児童で、医療機関による入院の必要がなく、当面の症状の急変が認められないとき\n注釈：病後児保育室コロボックルは利用できません。\n2　病気の回復期にある児童で、医療機関による入院加療の必要はないが、安静の確保に配慮する必要があることから、集団保育などが困難なとき\n注釈：障害のある児童の利用については、軽度であり、かつ保育室が受入可能であると判断した場合に利用できます。事前にご相談ください。状況により面談を行う場合もあります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/byoujibyougojihoiku/byougoji.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "稲城市ファミリー・サポート・センター事業",
+      "summary": "稲城市のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、活動会員が利用会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "稲城市に在住で、子育ての援助を受けたい方\n対象：生後4カ月から小学校6年生の児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/kosodate_hojo/kosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "保育所",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、稲城市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shisetsu/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "東京都認証保育所",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、稲城市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shisetsu/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "保育ママ（家庭的保育事業）",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、稲城市が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/shisetsu/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "新制度園の紹介",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、稲城市内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": "未就学児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/youchien/shinseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "現行制度園の紹介",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、稲城市内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/youchien/genkou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1期初回（1回目・2回目）\n対象者　生後6カ月から7歳6カ月に至るまでの間にあるお子さん（標準接種年齢：満3歳から4歳の誕生日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1期追加\n対象者　生後6カ月から7歳6カ月に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "2期\n対象者　9歳以上13歳未満のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "DT（二種混合）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳以上13歳未満のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+14+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒトパピローマウイルス感染症",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種日現在、小学6年から高校1年相当の年齢の女子\n（平成9年4月2日から平成20年4月1日に生まれた方については、接種対象年齢を超えてもキャッチアップ接種として、令和7年3月末まで公費で接種することができます。）\n注釈：ヒトパピローマウイルス感染症予防接種（子宮頸がんワクチン）は、平成25年度より、小学6年から高校1年相当の女子を対象に、公費で接種を受けられる予防接種として、定期予防接種の対象に加わりました。\nしかしながら接種後、まれに重いアレルギー症状が起きるなど、健康被害が生じたとして、平成25年6月に、厚生労働省から全国市町村に対し「定期接種を中止とするものではないが、積極的に勧奨すべきではない旨の勧告」がなされ、当市においてもこの勧告を踏まえ、対象者への勧奨通知は見合わせてきたところです。\n令和4年4月1日からは積極的勧奨に切り替わりました。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/sikyuukeiganwakutin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+15+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG集団予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまでの間〔生後5か月から8か月に達するまでが接種時期の目安（標準的な接種期間）となります〕",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/shuudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ひとり親家庭ホームヘルプサービス",
+      "summary": "ひとり親家庭にヘルパーを派遣します。",
+      "targetPersons": "派遣対象\n稲城市に住所を有する義務教育終了前の児童のいるひとり親家庭であって、次のいずれかに該当する家庭\n1.ひとり親家庭となってから2年以内であり、生活環境が激変したため日常生活を営むのに、支障が生じており、支援を必要としている家庭。\n2.技能習得のため、職業能力開発センター等に通学している場合。\n3.就職活動等自立促進に必要と認められる場合。\n4.疾病、看護、冠婚葬祭、学校行事等社会通念上必要と認められる事由により、一時的に支援が必要な場合。（事前調整を要しますので、お早めにご相談ください。）\n5.乳幼児又は小学校に就学する児童を養育しているひとり親家庭であって、就業上の理由により、帰宅時間が遅くなる等の場合（所定内労働時間の就業を除く。）に定期的に生活援助、保育サービスが必要な家庭。\n6.その他ひとり親家庭のためのホームヘルプサービスが必要と認められる場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hitorioyakatei/hitorioyakatei_seido.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "ヘルプカード",
+      "summary": "障害のある人の中には、困っていることを伝えられない人がいます。「ヘルプカード」は、障害のある人が普段から身につけておくことで、緊急時や災害時、困った際に、周囲の配慮や手助けをお願いしやすくするものです。市では、カバン等に付け携帯しやすいよう、専用ホルダーも一緒に配っています。\n配布場所：障害福祉課、若葉台出張所及び平尾出張所",
+      "targetPersons": "障害をお持ちの方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/helpcard_helpmark.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "義務教育就学児医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "対象\n稲城市在住で、健康保険に加入している義務教育就学児（小学1年生から中学3年生、15歳到達後最初の3月31日まで）\n所得制限はありません。\n注意：生活保護を受けている世帯、規則で定める施設に入所している方、里親などに委託している方は、それぞれの医療費助成制度が優先されます。\nまた、ひとり親医療費助成制度、心身障害者医療費助成制度を自己負担なしで受けている方（非課税世帯の方）は、それぞれの医療費助成制度が優先されます。\n注意：申請者（保護者）は、義務教育就学児の父母等のうち、主に生計を支えている方（所得の高い方）となります。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/gimukyouiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "満3歳児クラスから5歳児クラスまでの子ども及び住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "2　認定こども園（幼稚園機能部分）・新制度幼稚園を利用する方\n市内では、認定こども園子どもの森、サザンヒルズこども園、青葉幼稚園、梨花幼稚園が該当します。\n対象者\n　満3歳児クラスから5歳児クラスまでの子ども\n注釈：満3歳児クラスは、年少クラスより1つ下のクラスのことで、3歳の誕生日を迎えた翌月から無償化されます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/zidoteate24.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "育児パッケージ",
+      "summary": "カタログギフト1万円相当",
+      "targetPersons": "対象者（育児パッケージ）\n上記期間内におやこ包括支援センター保健師等と面接をし、面接日に市内に住民登録がある妊娠中の方\n注釈：面接時点で妊娠をしていない方（出産された方など）は対象外となります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninpumensetsu/taxi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9カ月から10カ月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として9カ月から10カ月児健康診査を実施しています。",
+      "targetPersons": "対象\n満9カ月から10カ月の乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/9_10kagetsuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス感染症",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "令和2年8月1日以降に生まれたお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ予防接種（任意接種）の費用助成",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち稲城市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "対象者（令和6年度）\n接種日時点で稲城市に住民登録がある次のお子様。\n1回目接種の場合：満1歳から2歳未満のお子様\n2回目接種の場合：小学校就学前年度（年長児）かつ1回目接種から2年以上経過しているお子様\n注釈：既におたふくかぜ予防接種を2回受けた方、おたふくかぜに罹患したことがある方は対象外です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/otahukuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ事業",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、養育協力家庭で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "市内在住の2歳（東京サレジオ学園は1歳6か月）から小学6年生まで",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kodomoshien_center/kokasen/kodomoshortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM792",
+      "name": "乳幼児の歯の健康診査（2歳及び2歳6か月児歯科健康診査）",
+      "shortName": "2歳児及び2歳6か月児歯科健康診査",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。2歳児及び2歳6か月児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "2歳、2歳6カ月になった幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhikenshin/2sai6kagetujisikakenkousinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育室",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "満4カ月から小学3年生までの児童の保護者が仕事をしているなどの理由で、家庭での看護に欠け、次の要件に該当する児童が利用できます。\n要件：病気の回復期にある児童で、医療機関による入院加療の必要はないが、安静の確保に配慮する必要があることから、集団保育などが困難なとき\n注釈：障害のある児童の利用については、軽度であり、かつ保育室が受入可能であると判断した場合に利用できます。事前にご相談ください。状況により面談を行う場合もあります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/byoujibyougojihoiku/byougoji.html#PTOP",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "双子の移動を支援",
+      "summary": "乳幼児健康診査や予防接種及びふたごの会などの参加を目的とした「移動」を支援します。\n0・1・2歳の多胎児を育児中で、保健師による面接を受けていただいた稲城市在住の世帯にタクシー乗車に利用できるチケットをお渡しします。",
+      "targetPersons": "対象\n下記の条件を満たしている世帯へ4月上旬に案内はがきをお送りします。\n1.稲城市に住民登録がある世帯\n2.0・1・2歳の多胎児を育児している世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/nyuuyouzhigakkyuu/hutago.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+3+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "高校生等医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "対象\n稲城市在住で、健康保険に加入している高校生等（15歳に達する日の翌日以後の最初の4月1日から18歳に達する日以後の最初の3月31日まで）\n所得制限はありません。\n注意：高校生等とは高等学校の就学期にある方を指し、高校在学中か否かを問いません。\n注意：生活保護を受けている世帯、規則で定める施設に入所している方、里親などに委託している方は、それぞれの医療費助成制度が優先されます。\nまた、ひとり親医療費助成制度、心身障害者医療費助成制度を自己負担なしで受けている方（非課税世帯の方）は、それぞれの医療費助成制度が優先されます。\n注意：申請者（保護者）は、高校生等の父母等のうち、主に生計を支えている方（所得の高い方）となります。また、高校生等本人が就労や婚姻などで保護者と別居して生活している場合は、高校生等本人が申請者になります。詳しくはお問い合せください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/teate_josei_kyuhu/jidouteatenado/maruao20221201.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+3+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3　新制度未移行幼稚園（現行制度幼稚園）を利用する方\n市内では、コマクサ幼稚園、こまざわ幼稚園、はなぶさ幼稚園、平尾わかば幼稚園、梨花幼稚園が該当します。\n対象者\n満3歳児クラスから5歳児クラスまでの子ども\n注釈：満3歳児クラスは、年少クラスより1つ下のクラスのことで、3歳の誕生日の前日から無償化されます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+3+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "頭を守るブランケット",
+      "summary": "ピジョン（株）と「総合的な子育てしやすい環境の実現のための包括連携協定」を締結しました。\n令和6年4月1日以降、妊婦さん面接を受けられた方に防災グッズ「頭を守るブランケット」ピジョン（株）をお渡しします",
+      "targetPersons": "ピジョン（株）と「総合的な子育てしやすい環境の実現のための包括連携協定」を締結しました。\n令和6年4月1日以降、妊婦さん面接を受けられた方に防災グッズ「頭を守るブランケット」ピジョン（株）をお渡しします。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/oyakohoukatsushien_center/ninshin/ninpumensetsu/taxi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "Hib感染症",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から5歳に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "稲城市発達支援センター（レスポーいなぎ）",
+      "summary": "障害のある児童やそのご家族からの福祉サービスの利用をはじめとした生活の相談や支援をします。",
+      "targetPersons": "障害のある18歳未満のお子さんやそのご家族の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/sonota/resupo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+4+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "4　幼稚園・認定こども園における預かり保育を利用する方\n対象者\n1.保育の必要性の認定（子育てのための施設等利用給付認定（2号））を受けた3歳児クラスから5歳児クラスまでの子ども\n2.保育の必要性の認定（子育てのための施設等利用給付認定（3号））を受けた満3歳児クラスの市町村民税非課税世帯（4月分から8月分までは前年度非課税世帯）の子ども\n注釈：保育の必要性の認定要件と必要書類については、子育てのための施設等利用給付認定申請書（2・3号）の裏面をご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児の肺炎球菌感染症",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から5歳に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+5+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "5　企業主導型保育事業を利用する方\n対象者\n1.保育の必要性の認定（子どものための教育・保育給付認定）を受けた3歳児クラスから5歳児クラスまでの子ども\n2.市町村民税非課税世帯（4月分から8月分までは前年度非課税世帯）の0歳児クラスから2歳児クラスまでの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳未満のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+6+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化の制度概要",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "6　認可外保育施設（認証保育所など）、一時預かり事業、病児保育事業、ファミリー・サポート・センター事業を利用する方\n対象者\n1.：保育の必要性の認定（子育てのための施設等利用給付認定（2号））を受けた3歳児クラスから5歳児クラスまでの子ども\n2.：保育の必要性の認定（子育てのための施設等利用給付認定（3号））を受けた0歳児クラスから2歳児クラスまでの市町村民税非課税世帯（4月分から8月分までは前年度非課税世帯）の子ども\n注釈：認可保育所、認定こども園、地域型保育事業、幼稚園（注釈2）、企業主導型保育事業を利用している方は対象外です。\n注釈： 年間開所日数200日未満又は教育時間を含めた一日の開所時間が8時間未満の幼稚園又は認定こども園を利用している場合は、預かり保育利用料を含めて、預かり保育における月額上限の範囲内で対象となります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/hoiku_seido/musyouka/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "四種混合（DPT‐IPV）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月から7歳6カ月に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻ましん風ふうしん混合（MR）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後1歳から2歳に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻ましん風ふうしん混合（MR）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "5歳以上7歳未満の方で、小学校入学前のお子さん（平成30年4月2日から平成31年4月1日生まれのお子さん）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+2000020132250+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後1歳から3歳に至るまでの間にあるお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/yobou/kobetsuyobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "134023",
+  "programs": [
+    {
+      "psid": "psid3.0+3000020134023+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届・母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊娠がわかった方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊産婦訪問",
+      "summary": "妊産婦の方（妊娠中および出産後1年以内）を対象に、保健師が訪問又は面談により、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM119",
+      "name": "青ヶ島村の子育てに関する相談",
+      "shortName": "青ヶ島村の子育てに関する相談",
+      "summary": "保健師による相談対応を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "児童生徒就学援助費支給",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": null,
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "新生児訪問",
+      "summary": "新生児を対象に、保健師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。里帰り出産される方は出島の前にご相談ください。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。なお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、中学校修了までのお子さんを養育している人に、児童手当を支給します。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために、父または母、もしくは父または母に代わってお子さんを養育している方に支給されます。また、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届は、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級・母親学級",
+      "summary": "家族が安心して赤ちゃんを迎えられるように、青ヶ島村では保健師による妊娠、出産、育児、栄養などに関する講義を開いています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "夜間・休日の受診",
+      "summary": "夜間や日曜・祝日、年末年始の緊急受診は青ヶ島診療所で対応しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM47",
+      "name": "青ヶ島村の妊娠・出産に関する相談",
+      "shortName": "妊娠・出産に関する相談",
+      "summary": "保健師による妊娠・出産に関する相談対応を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳幼児健康診査（3-4か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3-4か月児健康診査を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳幼児健康診査（6か月、10か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（6カ月児、10か月児）を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。青ヶ島村では1歳6か月児健康診査を実施しています。医師による診察のほか、歯科健診も行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。青ヶ島村では3歳児健康診査を実施しています。医師による診察のほか、歯科健診も行います。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。このうち青ヶ島村では、おたふくかぜワクチンに対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。妊娠は健康保険は適用されません。出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費の助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020134023+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等妊婦健康診査費助成",
+      "summary": "青ヶ島村にお住まいの妊婦さんが、里帰り出産などで都外の病院等で妊婦健康診査を受診し、妊婦健康診査受診票が使用できなかったときの費用の一部を償還払い（後払い）します。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

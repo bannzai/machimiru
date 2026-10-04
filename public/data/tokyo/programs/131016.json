@@ -1,0 +1,1726 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131016",
+  "programs": [
+    {
+      "psid": "psid3.0+8000020131016+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠の届出・母子健康手帳（親子健康手帳）",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊娠された方で、区内に住民登録のある方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/boshitecho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "ちよだぱぱサロン",
+      "summary": "千代田区で開催される、子育てに関する講習会や親子で参加できる教室などのご案内です。",
+      "targetPersons": "区内在住の1歳未満のお子さんをもつパパ",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/papasalon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "予防接種済証明書の発行",
+      "summary": "千代田区が実施した定期予防接種および千代田区の助成による任意予防接種のうち、千代田区で記録を保管している予防接種について、千代田保健所長（メディカルドクター）名義での予防接種証明書（日本語・英語両方含む）の発行を行っています。",
+      "targetPersons": "千代田区が実施した定期予防接種および千代田区の助成による任意予防接種の被接種者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/shomeisho-hakko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM108",
+      "name": "児童館",
+      "shortName": "児童センター・児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n千代田区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、千代田区サイトや市報などでお知らせしています。）",
+      "targetPersons": "区内在住・在学・在園の0歳から18歳までの児童とその保護者\n（小学校就学前の乳幼児は、保護者の付き添いが必要）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/jidocenter/ichiran/jidocenter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば",
+      "summary": "0歳児〜2歳児を中心とした乳幼児親子の集まり、遊び、情報交換など、たくさんの仲間との出会いや子育てを楽しむ居場所です。各児童館や子育てひろば「あい・ぽーと」麹町で実施しています。\n（イベントの詳細については、千代田区サイトや児童館だよりなどでお知らせしています。）",
+      "targetPersons": "主として区内在住・在学・在園の0歳児〜2歳児までの児童とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/jidocenter/ichiran/jidocenter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM114",
+      "name": "小児科救急",
+      "shortName": "ちよだこども救急室（平日準夜間小児初期救急診療）",
+      "summary": "千代田区では、平日の準夜間帯に日本大学病院内に「ちよだこども救急室」を開設し、お子さんの急な発熱や腹痛など、入院を必要としない救急診療を行っています。",
+      "targetPersons": "15歳（中学生）以下の初期救急患者",
+      "categories": [
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kyubyo/kyukyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに迷ったり、困ったとき",
+      "summary": "千代田区内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM119",
+      "name": "千代田区の子育てに関する相談",
+      "shortName": "健やか親子相談",
+      "summary": "妊娠中の方の不安や心配事、子どもの発達、保護者の育児に関する悩みについて、心理相談員が個別で相談に応じます。",
+      "targetPersons": "区内在住の妊娠中の方、乳幼児から小学生就学前までの保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/sukoyaka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "千代田区に住み、小・中学校に在籍する児童・生徒の保護者で下記1、2のどちらかに該当する方\n1.生活保護を受けている方\n2.生活保護は受けていないが、これに準ずると教育委員会が認める方（前年の世帯所得が基準未満の世帯）\n（注意） 対象となる学校は、学校教育法第1条に規定する小・中学校、義務教育学校、中等教育学校（前期課程）です。インターナショナルスクールやフリースクールなどは対象になりません。",
+      "categories": [
+        "003",
+        "005"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/shugaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "乳児家庭訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "・生後4か月までのすべてのお子さん（里帰り出産の方はご相談ください）\n・乳幼児健康診査に来られない方\n・転入してこられた方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/homonshido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（通所型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、産後ケア施設に日帰りで滞在し、助産師などから育児サポートを受けられます。",
+      "targetPersons": "・利用日時点で千代田区に住民票があるお母さんとそのお子さん\n（流産・死産された方を含みます。）\n・産後1年未満までの方\n（注意）各施設ごとに異なります",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/sango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM16",
+      "name": "特定不妊治療費助成",
+      "shortName": "特定不妊治療費助成制度",
+      "summary": "千代田区では、東京都の費用助成を受けた特定不妊治療費用の一部を助成します。",
+      "targetPersons": "東京都の特定不妊治療費助成事業（先進医療助成事業は除く）による承認を受けている夫婦（婚姻の届出をしていないが、事実上婚姻関係と同様の状態にある方を含む）申請時に夫婦いずれかが千代田区に住所を有している方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/funin/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "不妊検査等助成事業",
+      "summary": "不妊検査および一般不妊治療に要する費用の一部を助成します。",
+      "targetPersons": "東京都の不妊検査等助成事業の承認を受けている夫婦（婚姻の届出をしていないが、事実上婚姻関係と同様の状態にある方を含む）で、不妊検査開始日から申請時までの間、夫婦いずれかが千代田区に継続して住所を有している方。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/funinjose.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等の医療費助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、26日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "千代田区に住所を有し、かつ次のいずれかの条件を満たす方\n\n1.前年の所得税額が30,000円以下の世帯に属する方\n2.1以外で入院見込み期間が26日以上の方\n\nただし、生活保護法の規定による保護を受けている方を除きます。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/koketsuatsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "千代田区国保の加入者",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/hoken/kenkohoken/syussanichijikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "「BABY in ME」バッグチャーム",
+      "summary": "千代田区では、妊娠の届出の際に、母子健康手帳と共に【マタニティマーク入りキーホルダー】をお渡ししています。",
+      "targetPersons": "妊娠している方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/badge.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "誕生準備手当",
+      "summary": "千代田区では、妊娠20週以降から出産までの方で、千代田区内に住所（住民登録）を有している方に、一時金を支給します。",
+      "targetPersons": "妊娠20週以降から出産までの方で、千代田区内に住所（住民登録）を有している方\n（注釈）流産または死産の場合でも支給します。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/junbiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "こども・高校生等医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）【の一部】を助成しています。",
+      "targetPersons": "18歳に達した日以降最初の3月31日までの間にある子どもで、区に住民登録があり、国内の健康保険に加入している方です。\n\n令和5年4月1日から、就職・結婚している高校生等も対象になりました。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kodomoiryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "満3歳になった後の4月1日から小学校入学前まで\nただし、幼稚園については入園できる時期に合わせて満3歳から、家庭において必要な保育を受けることが困難な区市町村民税非課税世帯のお子さんは0歳から、無償化の対象になります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/hoikumushoka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認証保育所等保育料減額補助",
+      "summary": "認証保育所（区外も対象）および区補助対象保育室、区緊急保育施設、幼保一体施設内保育園利用時の負担軽減を図るため、区独自の「千代田区保育料減額補助」を設けています。",
+      "targetPersons": "千代田区在住者で、認証保育所（区外も対象）および区補助対象保育室、区緊急保育施設、幼保一体施設内保育所を利用するとき、一定の基準を満たしている場合\n\n一定の基準とは\n・認可保育園入所の要件を満たしている方\n・保育施設の月利用時間のうち120時間～220時間分を対象とします。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/hojo-hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "なし",
+      "summary": "現在、千代田区在住の方が千代田区外の園に入園申し込みをされる場合、申込手続きが通常と異なる場合がございます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoikuen/riyoannai/hoikuen-nyuen.html#tennyu",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/jidoteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "千代田区ベビーシッター利用支援事業（一時預かり利用支援）",
+      "summary": "ベビーシッターを利用した際の費用の一部を負担する制度です｡\n日常生活上の突発的な事情、社会参加等により一時的に保育が必要となった保護者に対し、ベビーシッターの利用に要した費用の一部を補助することにより、保護者の経済的な負担を軽減し、もって児童福祉の充実を図ります。",
+      "targetPersons": "千代田区内に住所を有する満6歳になる年度の末日（小学校入学前）までの児童の保護者で、次のいずれかに該当する方（保育認定は問いません）\n\n（注意）18歳未満で障害者手帳を有する子どもがいる世帯は、小学3年生まで対象となります。\n\n・日常生活上の突発的な事情や社会参加などにより、一時的に保育を必要とする方\n（保護者の仕事や通院、自己実現、学校行事など、幅広い理由が対象となります）\n・ベビーシッターを活用した共同保育を必要とする方\n（保護者等と一緒にベビーシッターが共同で保育します）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/babysitter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "日本国内に住所を有し、18歳に達する日以降最初の3月31日までの間にあり（20歳未満で政令で定める程度の障害を有する者を含む）、次のいずれかの状態にある児童を扶養している父か母または養育者\n\n1.父母が離婚した（事実婚の解消を含む）児童\n2.父または母が死亡した児童\n3.父または母が生死不明である児童\n4.父または母に引き続き1年以上遺棄されている児童\n5.父または母が法令により引き続き1年以上拘禁されている児童\n6.婚姻によらないで生まれた児童\n7.父または母が重度の障害を有する児童\n8.父または母が配偶者からの暴力（DV）で「裁判所からの保護命令」が出された児童\n9.父母が不明な場合（棄児等）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/jidofuyo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等の医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "区内に住所を有し、各健康保険により医療費の給付を受けることができ、次のいずれかに該当する方が、対象になります。\n\n1.ひとり親家庭等の父または母と、その児童（次の児童）\n・父母が離婚した児童\n・父または母が死亡した児童\n・父または母が生死不明である児童\n・父または母に引き続き1年以上遺棄されている児童\n・父または母が法令により引き続き1年以上拘禁されている児童\n・婚姻によらないで生まれた児童\n・父または母が重度の障害を有する児童\n・父または母が配偶者からの暴力（DV）で「裁判所からの保護命令」が出された児童\n2.父母が死亡した児童を養育している養育者とその児童\n3.父または母が監護しない上記1に該当する児童を養育している養育者とその児童\n\n生活保護法による保護を受けている者、児童福祉施設等に入所している児童、児童福祉法に規定する里親に委託されている児童は対象となりません。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/hitorioya-i.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都母子および父子福祉資金",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "20歳未満の児童を扶養し、都内に6か月以上居住しているひとり親家庭や、父母のいない児童\n\n修学資金・就学支度資金・転宅資金については、都内に6か月以上居住されてない場合でも貸付けます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/boshi-02.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "区内に居住する未熟児で、医師が入院養育を必要と認めたお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/mijukuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "出生子",
+      "categories": [
+        "002",
+        "013"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/koseki/koseki/todokede.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "ままぱぱ学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、千代田区では助産師などによる妊娠、出産、育児などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "区内在住の妊婦さん（妊娠16週から35週6日まで）とそのパートナー\n（注意） 初産婦の方が優先です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/mama-papagakkyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM32",
+      "name": "歯の健康教室",
+      "shortName": "はみがき教室",
+      "summary": "健診と正しいブラッシング、虫歯予防のお話、フッ化物塗布（有料、希望者のみ）など、歯の健康について理解を深めていただきます。",
+      "targetPersons": "区内在住の未就学児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/hamigaki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産",
+      "summary": "区内在住で、出産にあたって保健上必要があるにも関わらず、経済的な理由で病院や助産施設に入院できない妊産婦の方に、出産費用を援助します（事前相談・予約制）。\n（注意） 所得税額等に応じて利用者負担があります。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/josan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "千代田区休日応急診療所",
+      "summary": "千代田区では、日曜日や祝日、年末年始（12/29～1/3）など医療機関がお休みのときの急病に備え、千代田保健所内に休日応急診療所を設け、急病患者の応急診療を行っています。\n\nなお、平日の診療時間終了後のお子さんの急病は、ちよだこども救急室をご利用ください。\n「小児科救急」【内部リンク】",
+      "targetPersons": "急な発病で治療すれば帰宅できる病状（入院を必要としない程度）の患者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/iryo/kyukyu/kyujitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM47",
+      "name": "千代田区の妊娠・出産に関する相談",
+      "shortName": "妊娠・出産相談",
+      "summary": "予想外の妊娠や出産についての相談を受けています。",
+      "targetPersons": "都内にお住いの方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/ninshin-shussan-sodan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "妊娠期の食生活",
+      "summary": "お腹の赤ちゃんとお母さんの健康のために、妊娠中は適切な体重増加が必要です。そのためには、バランスの良い食事をすることが大切です。妊娠中の食事のポイントを見ていきましょう。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/nimpu-shokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3～4か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として【3か月】児健康診査を実施しています。",
+      "targetPersons": "区内在住の生後3か月から4か月のお子さん（生後6か月に達する前日まで受診可能）\n（注意） 生後3か月頃にご案内をお送りします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko3-4.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7か月児健康診査、9～10か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査【6か月から12か月児】を実施しています。",
+      "targetPersons": "区内在住の生後6か月から7か月のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko6-7.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "里帰り出産新生児聴覚検査費用助成",
+      "summary": "里帰り出産により都外の医療機関で新生児聴覚検査を受けた方への制度です。都外の医療機関で受診したことによって、新生児聴覚検査受診票が使用できず、自費で支払った方に対して費用の一部を助成します。",
+      "targetPersons": "次の1、2の両方に該当すること\n\n1.平成31年4月1日以降に生まれた赤ちゃんの保護者\n2.新生児聴覚検査受診日に区に住民登録がある保護者\n（ただし、新生児聴覚検査受診日が生後50日に達する日まで）\n\n申請条件\n里帰り出産により都外の医療機関で受診したことによって、新生児聴覚検査受診票が使用できず、自費で支払った方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/satogaeri-chokaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "出産・子育て応援事業",
+      "summary": "妊娠から出産・子育てにわたる切れ目ない支援を行うために、相談に応じ、面談や継続的な情報発信を行うことを通じてさまざまなニーズに対応した支援につなぐ「伴走型相談支援」を行います。",
+      "targetPersons": "1～3すべての条件に該当する方\n\n申請時点で千代田区に住民票のある方\n以下のいずれかに該当する方\n（1）出産応援ギフト\n令和5年4月1日以降に妊娠の届出をし、妊婦面談を受けた妊婦\n（2）子育て応援ギフト\n令和5年4月1日以降に子どもが出生し、乳児家庭訪問を受けた養育者\n他区市町村で、出産・子育て応援ギフト（国の出産・子育て応援交付金）の支給を受けていない方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/shussan-kosodate-oenjigyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援事業",
+      "summary": "面談や継続的な情報発信を行うことを通じてさまざまなニーズに対応した支援につなぐ「伴走型相談支援」を行います。また、妊娠後にままぱぱ面談（妊婦面談）を受けた妊婦と、出産後に、保健師による赤ちゃん訪問（乳児家庭訪問）を受けた養育者を対象にギフトカードを支給します。",
+      "targetPersons": "1～3すべての条件に該当する方\n1.申請時点で千代田区に住民票のある方\n2.以下のいずれかに該当する方\n（1）出産応援ギフト\n令和5年4月1日以降に妊娠の届出をし、妊婦面談を受けた妊婦\n（2）子育て応援ギフト\n令和5年4月1日以降に子どもが出生し、乳児家庭訪問を受けた養育者\n3.他区市町村で、出産・子育て応援ギフト（国の出産・子育て応援交付金）の支給を受けていない方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/shussan-kosodate-oenjigyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室",
+      "summary": "放課後の学校施設を活用した、在校するすべての児童が安全・安心に過ごせる居場所づくり事業です。区立8小学校において、専任の指導員が宿題や自主学習のサポート、健全な遊びの提供を行っています。",
+      "targetPersons": "放課後子ども教室を実施する小学校の在校生（1年生～6年生）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kyoikukatsudo/kodomokyoshitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5035",
+      "name": "国民健康保険料の免除（産前産後期間）",
+      "shortName": "出産する方の国民健康保険料が免除になります",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "次のすべてに該当する方\n\n千代田区国民健康保険被保険者である\n妊娠期間85日（4か月）以上に該当する方\n（死産、流産、早産および人工妊娠中絶の場合も含む）",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/hoken/kenkohoken/hokenryo-menjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5037",
+      "name": "自立支援医療制度（育成医療）",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "区内に住所を有する18歳未満の児童で、上記（身体障害者福祉法第4条）の障害があるか、または将来障害を残すと認められる方で、手術等により、確実な治療効果が期待できる場合です。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/jiritsushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5046",
+      "name": "副食費の補助",
+      "shortName": "私立幼稚園・国立大学附属幼稚園等",
+      "summary": "千代田区では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "|在籍施設|施設等利用費|園児保護者負担軽減事業|副食費の補足給付|\n|:----|:----|:----|:----|\n|私立幼稚園|月額25,700円|月額7,200円|月額4,800円|\n|（未移行園（注釈1））|（上限）|（上限（注釈2））|（上限（注釈3））|\n|私立幼稚園|給付対象外|月額7,200円|給付対象外|\n|（移行園（注釈1））| |（上限（注釈2））|（注釈4）|\n|国立大学附属幼稚園|月額8,700円|給付対象外|月額4,800円|\n| |（上限）| |（上限（注釈3））|\n|特別支援学校幼稚部|月額400円|給付対象外|給付対象外|\n| |（上限）| | |\n|幼稚園類似の幼児施設|給付対象外|月額26,400円|給付対象外|\n| | |（上限（注釈2））| |\n\n（注釈1） 千代田区内の私立幼稚園はすべて未移行園です。千代田区外の私立幼稚園の移行状況については、在籍する施設に直接お問い合わせください。\n（注釈2） 給付上限額は、世帯ごとに「対象の子どもが第何子か」および「所得割課税額」によって異なります。\n（注釈3） 年収360万円未満相当の世帯（区民税所得割課税額77,100円以下の世帯）のみ対象となります。\n（注釈4） 私立幼稚園（移行園）の在籍されており、ご自身で副食費を負担されている場合、別途補助があります。詳細については、施設に直接お問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/shiritsu-kokuritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "障害児保育・医療的ケア児の保育",
+      "summary": "障害のあるお子さんや保育園での医療的ケアの実施を必要とするお子さんの保育園への入園申込にあたっては、安全で適切な保育の実施のため、別途提出書類や事前のご相談をお願いしています。",
+      "targetPersons": "保育の必要性があり、集団保育が可能である障害児・医療的ケア児\n※障害児とは、身体障害者手帳、療育手帳（愛の手帳）、精神障害者保健福祉手帳を所持している児童または心身の障害により保育園で特別な配慮を要する児童としています。\n※医療的ケア児とは、日常生活を営むために、生活扶助行為としての医療的ケアを必要とする児童であって、保育の実施時間中に園での医療的ケアの実施を必要とする児童としています。\n※集団保育の実施可否については、医師の意見書や区の関係者会議の結果を踏まえて総合的に判断します。\n※内定園での面接、健康診断および体験保育の実施により、集団保育や園での医療的ケアの実施が著しく困難と判断されたときは、内定が取り消しになる場合があります。\n※日常的に他の児童から隔離した場において保育が必要な場合や看護師による随時の観察および処置が必要な場合、集団保育は困難であると医師が判断した場合は利用を取り消すことがあります。",
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/shogai-iryotekicare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。千代田区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内在住の1歳6か月児のお子さん（2歳の誕生日の前日まで受診可能）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko1sai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。千代田区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内在住の3歳児のお子さん（4歳の誕生日の前日まで受診可能）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko3sai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "5歳児健康診査",
+      "summary": "5歳児は運動機能や心理・情緒の発達期です。また基本的な生活習慣が確立し、社会性を身につける重要な時期です。そのため区では5歳児健康診査を実施しています。",
+      "targetPersons": "区内在住の5歳児のお子さん（5歳6か月に達する前日まで受診可能）\n（注意） 5歳に達する頃、ご案内をお送りします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko5.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "HPV（ヒトパピローマウイルス）ワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種日現在、千代田区に住民登録のある、小学校6年生から高校1年生相当の女性\n\n令和6年度（2024年度）は、平成20年（2008年）4月2日から平成25年（2013年）4月1日生まれの女性\n\n（注意） 平成19年（2007年）4月2日～平成20年（2008年）4月1日生まれの女性の方は、新たにキャッチアップ接種対象者に含まれ、有効期限が延長されます。詳細は「【平成9年度～平成19年度生まれの女性へ】HPV（ヒトパピローマウイルス）ワクチンキャッチアップ接種および償還払い」をご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/hpv.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "MR（麻しん風しん混合）ワクチン任意予防接種費用助成",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち千代田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "MR1期または2期の接種を受けていない2歳から高校生相当以下のお子様",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/muryosesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM576",
+      "name": "児童遊園",
+      "shortName": "区立の公園・児童遊園・広場の紹介",
+      "summary": "千代田区の児童遊園は、屋外にある小規模な公園に類似した施設です。主に近隣のお子さんに遊び場を提供することを目的としています。\\千代田区の児童遊園の一覧は、千代田区サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/koen/kuritsukoen-shokai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "特別な事情によって免疫が消失したお子さんに対する予防接種再接種費用の助成",
+      "summary": "疾病の治療として、骨髄移植手術を受けた等の特別な事情により免疫が消失し、接種済みの定期予防接種による予防効果が期待できず、再接種により免疫を得られる効果が期待できると医師に判断されたお子さんが、任意で再度、当該予防接種を受ける場合の接種費用を助成します。",
+      "targetPersons": "以下に掲げるすべての要件を満たす方\n1.疾病の治療として、骨髄移植手術を受けた等の特別の事情により接種済みの定期予防接種の予防効果が期待できず、再接種が必要と医師に判断されていること\n2.日本国内の医療機関で再接種を受ける日において20歳未満であり、千代田区に住民登録があること\n3.接種済みの定期予防接種が予防接種実施規則の規定を遵守した接種であること",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tokubetsu-saisesshuhiyo-josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "対象者（以下のすべての要件に、給付を受ける時まで引き続き該当している方）\n\n・千代田区内に住所を有する母子家庭の母または父子家庭の父で、20歳未満の子どもを扶養している方\n・児童扶養手当の支給を受けている方、または同等の所得水準の方\n・就業経験、技能、資格の取得状況や労働市場の状況などから判断して、当該教育訓練の受講が適職に就くために必要と認められる方\n・原則として、過去に当該給付金の支給を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/boshijiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査費用の助成",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する【妊婦健康診査受診票】をお渡ししています。",
+      "targetPersons": "妊娠届を提出した方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/kenkoshinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "対象者（以下のすべての要件を、申請時および給付を受ける間、引き続き該当している方）\n\n・千代田区内に住所を有する母子家庭の母または父子家庭の父で、20歳未満の子どもを扶養している方\n・児童扶養手当の支給を受けている方、または同等の所得水準の方\n・就業または育児と修業の両立が困難であると認められる方\n・訓練促進給付金と趣旨を同じくする給付を受給していない方\n　・求職者支援制度における職業訓練受講給付金\n　・雇用保険法第24条に定める訓練延長給付金\n　・雇用保険法附則第11条の2に定める教育訓練給付制度における教育訓練支援給付金 等\n・資格取得をするための養成機関で1年以上のカリキュラムを修業し、対象資格の取得が見込まれる方\n　・原則、通学制またはオンライン（インターネット環境を利用し、同時かつ双方向に行われるもの）で受講すること。\n　・令和3年4月1日から令和6年3月31日までに修業を開始する場合に限り、修業期間6か月以上のカリキュラムを修業し、対象資格の取得が見込まれる方も含みます。\n・原則として、過去に当該給付金の支給を受けていない方\n（注意） 修業期間中に支給要件に該当しなくなった場合は支給を中止することがあります（例：所得が増えた場合）。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/boshijiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "都営交通無料パス等",
+      "summary": "児童扶養手当を受給している方またはその方と同一世帯の方で、都営交通を利用する方のうちお一人様が発行を受けられます。",
+      "targetPersons": "児童扶養手当を受給している方またはその方と同一世帯の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/toekotsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "日本国内に住所を有し、20歳未満で心身に障害があり、その程度が次のいずれかに該当する児童を監護している父もしくは母、または養育者。\n\n1.知的障害で「愛の手帳」おおむね1・2・3度程度\n2.身体障害で「身体障害者手帳」おおむね1・2・3級程度（下肢障害については4級の一部を含む）\n3.上記1.2.と同程度の疾病もしくは身体または精神の障害のある方（指定の診断書の提出が必要）\n（注意） 複数の障害がある場合は、個々の障害の程度が上記より軽度な場合でも該当となることがあります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/tokubetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当（国の制度）",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "精神または身体に重度の障害があるため、日常生活において常時の介護を必要とする状態にある在宅の20歳未満の人",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/child-service/shogaiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性疾患医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "千代田区に住所を有する18歳未満で、小児慢性特定疾病の対象疾病にり患している児童\nただし18歳に達した時点で小児慢性特定疾病の医療券を有し、引き続き医療を受ける必要がある場合に限り、20歳未満の者も対象とします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/shonimanse.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM65",
+      "name": "難病医療費助成制度",
+      "shortName": "特定医療費（指定難病）受給者証等の申請",
+      "summary": "症例数が少なく、原因不明で治療方法が確立しておらず、生活面への長期にわたる支障がある疾患のうち、厚生労働省が指定する特定の疾患に係る医療費の自己負担分の一部または全額を助成します。",
+      "targetPersons": "1.千代田区に住民登録されていること\n2.各種医療保険の被保険者およびその被扶養者であること\n3.医療費助成対象疾病にり患していて、各疾病の認定基準を満たしていること",
+      "categories": [
+        "001",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/iryohi/nanbyo-02.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM66",
+      "name": "自治体独自の医療費助成制度（ぜん息など）",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "心身の障害を除去・軽減するための医療費を負担します。",
+      "targetPersons": "区内に住所を有する18歳未満の児童で、上記（身体障害者福祉法第4条）の障害があるか、または将来障害を残すと認められる方で、手術等により、確実な治療効果が期待できる場合です。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/jiritsushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "重症心身障害児等在宅レスパイト事業",
+      "summary": "重度・重症心身障害のある児童や医療的ケアを必要とする児童等の居宅に看護師等が訪問し、家族の方に代わり、医療的ケアを含む介助や見守りを行います。",
+      "targetPersons": "区内に住所を有し在宅で生活をする18歳まで（18歳に達する日以後の最初の3月31日まで）の児童のうち、以下のいずれかの状態・状況にあるものと同居する家族等\n\n1.重度の知的障害（療育手帳または東京都の愛の手帳の1度または2度）で、かつ重度の肢体不自由（身体障害者手帳1級または2級の下肢、体幹または移動機能障害）であり、または、同程度の状態であると認められる児童。\n\n2.日常生活を営むうえで以下にある医療的ケアを必要とする児童。\n　1.人工呼吸器管理\n　2.気管内挿管、気管切開\n　3.鼻咽腔エアウェイ\n　4.酸素吸入\n　5.たん吸引（6回/日以上の頻回の吸引）\n　6.ネブライザー\n　7.中心静脈栄養（IVH）\n　8.経管栄養（経鼻・胃ろう含む）\n　9.腸ろう・腸管栄養\n　10.定期導尿\n　11.人工肛門・人工膀胱\n　12.継続する透析（腹膜灌流を含む）\n\n3.その他、障害のある児童で区が当事業の利用を必要と認めた児童。",
+      "categories": [
+        "010"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/respite.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM69",
+      "name": "自治体独自の遺児の方への金銭的支援",
+      "shortName": "外国人学校児童・生徒保護者補助金",
+      "summary": "区内に住所を有し、義務教育相当の外国人学校に通学している児童生徒の保護者に補助金を交付します。",
+      "targetPersons": "保護者\n・千代田区に住民登録があること\n・児童・生徒の在籍する外国人学校※に授業料を納入していること\n・児童・生徒が日本国籍を含む重国籍を有している場合、学校教育法に基づく就学義務の猶予または免除を受けていること\n\n児童・生徒\n・義務教育相当の年齢であること\n・義務教育相当の課程の外国人学校※に通学していること\n・外国籍または日本国籍を含む重国籍を有していること（日本国籍のみの場合は対象外です）\n\n※外国人学校は、学校教育法に基づく各種学校として認可されていること",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/gaikokujin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産妊婦健康診査費用助成",
+      "summary": "千代田区にお住まいの妊婦さんが、里帰り出産などで千代田区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "次の1、2の両方に該当する方\n1.妊婦健診受診日に千代田区に住民登録のある方\n2.妊娠届出日以後に、助産所または里帰りにより、都外医療機関で妊婦健診を自費で受診した方（日本国内に限ります）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/josanjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子ども・子育て支援新制度の認定申請",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の利用、または保育料減額補助制度を利用する（認証保育所、区補助対象保育室、区緊急保育施設）には、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "小学校就学前まで",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/shinseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育園入園案内",
+      "summary": "保育園は、保護者の方が働いている場合や、病気や出産等により日中お子さんをご家庭で養育できない場合に、保護者の方に代わって保育し、子どもたちが心身ともに健やかに成長するよう子育てを支援する施設です。\n保育施設には、利用を希望する場合に市区町村に申し込みを行う必要がある施設（認可保育所等）と、直接施設に申し込みを行う必要がある施設（認可外・認証保育所等）がありますが、ここでは市区町村に申し込みを行う必要がある施設についてご案内します。",
+      "targetPersons": "保育園に申し込みができるのは、保護者が次のような事情によりお子さんを保育できない場合です。\n・日中、保護者が就労している場合（週3日以上かつ1日4時間以上）\n・保護者が出産、疾病・負傷、心身に障害がある場合\n・日中、保護者が常時、疾病・負傷、心身に障害がある親族を介護・看護している場合（週3日以上かつ1日4時間以上）\n・日中、保護者が災害の復旧活動をしている場合（週3日以上かつ1日4時間以上）\n・日中、保護者が学校教育法に定める学校等や職業訓練施設に通学・通所している場合（週3日以上かつ1日4時間以上）\n・保護者が求職活動をしている場合（週3日以上かつ1日4時間以上）\n・児童虐待または配偶者等からの暴力により、保護者が児童の保育を行うことが困難と認められる場合\n・その他、保護者が上記に類する状態にあり保育することができないと認められる場合\n\n千代田区の保育所等は、千代田区民のほか、千代田区に転入予定の方や千代田区在勤の方もお申し込みいただけます。ただし、転入予定の方や、在勤の方は申し込みができる園や歳児クラス等に制限があります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/moshikomi-nyuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM782",
+      "name": "ショートステイ（宿泊）",
+      "shortName": "子どもショートステイ（乳児院、協力家庭）",
+      "summary": "区内にお住まいの生後0歳（2か月程度）から小学校6年生までのお子さんを、保護者の疾病等の条件に加え、一時的に育児が困難になっていると区が認定した家庭のお子さんをお泊まりでお預かりします。",
+      "targetPersons": "・区内にお住まいの生後0歳（2か月程度）から小学校6年生までのお子さん\n・区内に保護者と児童の住民票があること\n・保護者の疾病などの条件に加え、一時的に家庭で養育することが困難であると区が認定した家庭",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/shortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM783",
+      "name": "トワイライトステイ（夜間）",
+      "shortName": "千代田フレンズ",
+      "summary": "保護者の傷病･育児疲れ等で、身近な親族などから支援が受けられず 子どもの養育が一時的に困難な場合に、夜間や宿泊でお子さんをお預かりします。",
+      "targetPersons": "区内在住で集団生活を営むことができる2歳～小学生（中学生は応相談）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/chiyodafriends.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "育児支援訪問事業",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "1～3の条件に当てはまる場合に利用できます。\n1.保護者と対象児童が千代田区に住民票があり、居住していること\n2.母子健康手帳取得時からお子さんが生後1歳未満の妊産婦（ただし令和3年3月31日までにご出産で産後利用の方は生後6か月未満）または義務教育終了前の児童がいて、保護者が一時的に育児が困難であると区が認定した家庭\n3.親族などほかに支援する方がいない家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者の就労等の理由により、日中家庭で適切な養育を受けられない小学生で、次のいずれかに該当する児童が対象となります。\n\n・区内在住の小学生\n・区立小学校に在学する小学生",
+      "categories": [
+        "003",
+        "005"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/jidocenter/gakudo-nyukai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM792",
+      "name": "乳幼児の歯の健康診査（就学前歯科健康診査）",
+      "shortName": "歯科健診とフッ素塗布",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。就学前のお子さんを対象とした歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "千代田区にお住まいの就学前のお子さん\nフッ素塗布の方法や塗布年齢などについては、お問い合わせください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/shikasodan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM793",
+      "name": "出産前後の国民年金保険料免除",
+      "shortName": "産前産後期間の保険料免除",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "出産日が平成31年2月以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/hoken/nenkin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM798",
+      "name": "離乳食講習会",
+      "shortName": "離乳食",
+      "summary": "生後６～７か月児の保護者を対象に、７から８か月ころの離乳食を中心に進め方・調理方法のお話と月齢ごとの離乳食の展示を行います。",
+      "targetPersons": "区内在住の6～7か月児の保護者（対象児1名に対し、保護者1名で参加をお願いします）\n対象の方には、案内はがきを送付します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/rinyushoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などからむし歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。",
+      "targetPersons": "千代田区にお住まいの妊娠中の方、出産後1年未満の方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/shikakenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立幼稚園・こども園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準としますが、希望者を対象に預かり時間を延長する預かり保育も実施しています。",
+      "targetPersons": "千代田区内に住所のある次の幼児が対象となります。　　\n（注意1） 住民票があっても居住実態のない方は応募できません。\n（注意2） 転入予定の方は入園申し込みができません。転入後に申し込みをしてください。\n\n令和6年度入園児\n・3歳児（令和2年4月2日～令和3年4月1日生まれ）\n・4歳児（平成31年4月2日～令和2年4月1日生まれ）\n・5歳児（平成30年4月2日～平成31年4月1日生まれ）",
+      "categories": [
+        "004",
+        "005"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/shokai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃん・ふらっと",
+      "summary": "千代田区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設のほか民間施設の協力を得て「おむつ替え」や「授乳」ができる赤ちゃん・ふらっとを整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも都内の民間施設を含めて同事業を実施しており、指定施設には、入り口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "小さなお子様を連れた方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/odekake/akachan-02.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育園・こども園の保育料",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、千代田区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育事業",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": "次のいずれの要件も満たしているお子さん\n・区内在住者（転入予定者および在勤者は申し込めません）\n・生後10か月以上3歳未満（ただし、当該年度中に3歳に達する子も含みます）\n・保護者が仕事や病気のため、家庭内で保育することが難しいなどの事由があること\n（注意） 保育者または保育補助者と三親等以内の親族関係にある子は、利用できません。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ninka/index.html#shokibohoiku",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "なし",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoikuen/shisetsu/ninka/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM82",
+      "name": "幼稚園での預かり保育",
+      "shortName": "区立幼稚園・こども園預かり保育",
+      "summary": "保護者が一時的な事由により、通常の教育時間以外に保育が必要な場合に、在籍園でお子さんをお預かりしています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/azukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として継続的な通院医療を必要とする方。または精神疾患を有する方のうち、精神障害によって長期にわたり日常生活および社会生活への制約がある方（ただし、知的障害の方を除く）。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/iryohi/jiritsusien-tsuin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "「あい・ぽーと」麹町の一時（いっとき）預かり保育「こみち」",
+      "summary": "区内にお住まいの保護者の方が通院、学校行事はもちろん、講習会やリフレッシュなど、家庭において保育を受けることが困難となったお子さんを、一時的にお預かりします。",
+      "targetPersons": "生後2か月以上～就学前のお子さん",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/komichi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "区内に住所を有する生後6か月から就学前のお子さんで、次の1.から4.までのすべてに該当する場合が対象になります。\n\n1.教育・保育給付または施設等利用給付の2号または3号認定を受けていること。\n2.次の保育施設に在籍していること。\n　ア 保育園、認定こども園、幼稚園\n　イ 地域型保育事業（小規模保育事業・家庭的保育事業・事業所内保育事業・居宅訪問型保育事業）\n　ウ 認証保育所\n　エ 都道府県に届出を行っている認可外保育施設\n　オ アからエまでに準ずる制度に基づき区市町村が設置または認定している施設等\n3.お子さんが病児または病後児であって、保育施設において集団保育を行うことが困難なものであること。\n4.児童の保護者が就労等やむを得ない事由により、家庭内で保育を行うことが困難であること。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター",
+      "summary": "千代田区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、支援会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "子育てのお手伝いをしてほしい方,子育てのお手伝いをしてくれる方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/f-s-center.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "なし",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n以下は、千代田区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": "0～5歳",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoikuen/shisetsu/ninka/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "認証保育所等一覧",
+      "summary": "認証保育所は、一定の基準（保育料・保育環境・保育時間など）を満たすことで都の認証を受け、運営経費の助成を受けている認可外保育施設です。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ninsho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私立幼稚園 所在地",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、千代田区内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/shiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "DPT-IPV-Hib五種混合（ジフテリア・百日せき・破傷風・ポリオ・ヒブ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後2か月から7歳6か月の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "DT（二種混合）2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n11歳から13歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後6か月から7歳6か月の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\nロタリックス：出生24週まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+14+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘（水ぼうそう）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n1歳から3歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+15+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n1歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+16+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌（追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後2か月から5歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+17+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌（初回）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後2か月から5歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+18+UM54",
+      "name": "定期予防接種",
+      "shortName": "HPV（ヒトパピローマウイルス）ワクチンキャッチアップ接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "以下の条件にすべて該当する方\n\n・千代田区に住民登録がある\n・平成9年（1997年）4月2日～平成20年（2008年）4月1日生まれの女性\n・HPVワクチンの接種を完了していない",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/hpv-catchupsesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "アレルギー予防教室",
+      "summary": "お子さんのアレルギーに関する正しい知識を得ていただくために、アレルギー予防教室を開催しています。",
+      "targetPersons": "区内在住・在学・在園の乳幼児～中学生の保護者、妊婦",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/allergy-yobo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "バースデーサポート事業",
+      "summary": "千代田区では、2歳の誕生日を迎えたお子さまがいらっしゃるご家庭に、東京都作成の冊子を提供し、お子さんの発育状況やご家庭の状況をお尋ねするアンケートを実施するとともに、アンケートにお答えいただいた方へ、1万円相当の子育て用品やサービスに交換できるデジタルギフトを支給します。",
+      "targetPersons": "1.～2.のいずれの条件にも該当する方\n　1.令和6年4月1日以降に、2歳の誕生日を迎える子どもがいる\n　2.2歳の誕生日時点において、子どもと保護者の住民登録が千代田区の同一世帯にある\n（注意） 2歳の誕生日以前に千代田区から転出された方は、対象外です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/birthday-support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM119",
+      "name": "千代田区の子育てに関する相談",
+      "shortName": "子どもの食べ方相談",
+      "summary": "「よく噛まない」、「食べ物を口に溜める」、「偏食が多い」、「食事に時間がかかる」など、お子さんの食べ方が気になる保護者の方に、昭和大学の食べ方（摂食）専門の歯科医が、上手に食べるためのアドバイスを行います。",
+      "targetPersons": "千代田区にお住まいの乳幼児とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/tabekata.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、産後ケア施設に宿泊し、助産師などから育児サポートを受けられます。",
+      "targetPersons": "・利用日時点で千代田区に住民票があるお母さんとそのお子さん\n（流産・死産された方を含みます。）\n・産後4か月未満までの方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/sango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "入院助産",
+      "summary": "千代田区では、区内在住で、出産にあたって保健上必要があるにも関わらず、経済的な理由で病院や助産施設に入院できない妊産婦の方に、出産費用を援助します（事前相談・予約制）。",
+      "targetPersons": "1.生活保護世帯、中国残留邦人等の円滑な帰国の促進ならびに永住帰国した中国残留邦人等および特定配偶者の自立の支援に関する法律による支援給付受給世帯\n\n2.住民税非課税世帯\n\n3.当該年度（4月から6月までについては前年度）に支払った特別区民税または市町村民税所得割の額が19,000円以下の世帯（ただし健康保険等から給付を受けることのできる出産一時金等の額が48万8千円以上の場合を除く）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/josan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/jidoteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM47",
+      "name": "千代田区の妊娠・出産に関する相談",
+      "shortName": "さくらグリーフサポート",
+      "summary": "流産や死産などで大切なお子さまを亡くされた哀しみを、誰にも話すことができず一人で抱えている方がいらっしゃいます。千代田保健所では思いを言葉にしていただけるように、相談専門の心理士・保健師がゆっくりお話を聴かせていただきます。",
+      "targetPersons": "区内にお住まいの方で、流産・死産の経験がある方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/sakuragriefsupport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7か月児健康診査、9～10か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査【6か月から12か月児】を実施しています。",
+      "targetPersons": "生後9か月から10か月のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/kenko6-7.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査費用の助成",
+      "summary": "都内の区市町村では、新生児聴覚検査費用の一部助成を平成31年4月から開始しています。指定医療機関へ「新生児聴覚検査受診票」を提出し、受診してください。\nこれは、すべての赤ちゃんに安心して新生児聴覚検査を受けていただくためのものです。",
+      "targetPersons": "平成31年4月1日以降に生まれる赤ちゃん\n新生児聴覚検査受診日に住民登録がある保護者の子であって、生後50日に達する日まで",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/chokaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "里帰りや長期入院での定期予防接種費用の償還払い制度",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "里帰りや長期入院の事情で区が指定する医療機関以外での定期予防接種を希望される方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/kanpu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "男子HPV（ヒトパピローマウイルス）ワクチン任意予防接種費用助成",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち千代田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "接種日現在、千代田区に住民登録のある、小学校6年生から高校1年生相当の男子",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/danshihpv-josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "次世代育成手当（区独自制度）",
+      "summary": "千代田区では、次世代の社会を担う児童の健全な育成を支援する一環として、高校生相当までの児童のうち児童手当（国制度）の支給対象となっていない児童を養育している方に対して独自に手当を支給しています。",
+      "targetPersons": "対象児童\n18歳に達する日以後の最初の3月31日までの間にある児童のうち、児童手当（国制度）の支給対象となっていない児童が対象です。ただし、婚姻している方（婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者を含みます）は対象ではありません。\n\n具体的には、次の児童が対象児童です。\n\n中学生以下の児童のうち児童手当の対象とならない児童（令和4年6月～）\n1.15歳に達する日以後の最初の3月31日までの間にある児童は、父母等の所得が児童手当の所得上限額以上の場合のみ、次世代育成手当の対象児童です。\n2.高校生相当の児童\n15歳に達する日以後の最初の4月1日から18歳に達する日以後の最初の3月31日までの間にある児童は、父母等の所得に関わらず次世代育成手当の対象児童です。\n\n支給対象者\n下記の1と2の両方を満たす方が手当を受給できます。\n\n1.千代田区に住民登録がある方\n2.対象児童;https://www.city.chiyoda.lg.jp/koho/kosodate/teate/#taishojidoを養育している方\n（注意1） 父母の両方が上記の要件を満たしている場合は、所得の多い方が原則として受給者となります。\n（注意2） 対象児童が千代田区外（学校の寮など）で生活している場合や、国外へ留学している場合（一定の要件があります）でも受給できます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/teate/jisedai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "養育費確保支援事業",
+      "summary": "区では、養育費の取り決めに係る費用などを一部助成することで、受給機会の確保を図り、子の健やかな成長を支援します。",
+      "targetPersons": "1.申請日において区内在住のひとり親\n2.養育費の取り決めや取得に要する経費を負担した方\n（注意） 令和5年4月1日以降が対象\n3.養育費を受け取る方（債務名義を有している方）\n4.養育費の取り決めの対象となる子を現に養育している方\n5.同一の事案について、過去に同内容の給付金を受けていない方（他自治体を含む）",
+      "categories": [
+        "003",
+        "006"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/yoikuhi-shien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM66",
+      "name": "自治体独自の医療費助成制度（ぜん息など）",
+      "shortName": "東京都大気汚染医療費助成制度",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "次のいずれにも該当する方\n・18歳未満の方（18歳の誕生日が属する日の末日までの間にある方を含む）\n・都内に引き続き1年（3歳未満は6か月）以上住所を有する方\n・現に気管支ぜん息、慢性気管支炎、ぜん息性気管支炎、肺気しゅにかかられている方\n・健康保険等に加入されている方\n・申請日以降喫煙しない方\n（注意） 18歳以上の方の新規申請は平成27年3月31日で終了しました。現在認定を受けて、医療券をお持ちの方で、生年月日が平成9年4月1日以前の方は更新申請のみ可能です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/iryo/kogai/taikiosen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "療育経費助成制度",
+      "summary": "発達障害等の児童が専門機関で相談・療育・検査を受けた場合に、その経費を負担した児童の保護者の経済的負担を軽減するため、経費の助成を行っています。",
+      "targetPersons": "区内在住の0歳から18歳未満のお子さんの保護者（お子さんは、身体障害者手帳や愛の手帳の有無は問いません）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/ryoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM792",
+      "name": "乳幼児の歯の健康診査（1歳児歯科健康診査）",
+      "shortName": "ビーバー相談 1歳のバースデー歯科健診",
+      "summary": "歯とお口の健康づくりのスタートである1歳の節目に歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "千代田区にお住まいの1歳を迎えるお子さんとその保護者",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/beaver.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "保育園・こども園の一時（いちじ）保育",
+      "summary": "保護者や家族が傷病や出産などで入院または通院するため、一時的に児童の保育ができない場合、認可保育園またはこども園で児童の保育をします。\n\nただし、園の定員に空きがない場合は、ご利用いただけません。",
+      "targetPersons": "生後57日～小学校就学前の児童（区立こども園は2歳児クラスまで）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/hoiku/ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+2+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "区立幼稚園・こども園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n以下は、千代田区内の公立幼稚園およびこども園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/kuritsu/ichiran/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "にこにこ広場",
+      "summary": "生後1～2か月のお子さんとお母さん、お父さんのための広場を開催しています。",
+      "targetPersons": "区内在住の生後1～2か月のお子さんとお母さん、お父さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/nikoniko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM119",
+      "name": "千代田区の子育てに関する相談",
+      "shortName": "子どもと家庭にかかわる総合相談",
+      "summary": "区内にお住まいの18歳未満のお子さんとそのご家族の相談を受け付けています。\nお話を聞いて一緒に考え、必要に応じて専門機関やサービスの案内をします。",
+      "targetPersons": "区内にお住まいの18歳未満のお子さんとそのご家族",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kosodate/sogosodan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（訪問型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、助産師が直接母子の自宅を訪問し、育児サポートを実施します。",
+      "targetPersons": "・利用日時点で千代田区に住民票があるお母さんとそのお子さん\n（流産・死産された方を含みます。）\n・産後1年未満までの方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/sango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM47",
+      "name": "千代田区の妊娠・出産に関する相談",
+      "shortName": "ままぱぱ面談（妊婦の全数面談事業）",
+      "summary": "区内在住で、妊娠届を提出されたすべての妊婦さんを対象とし、ままぱぱ面談を行っています。千代田区役所または千代田保健所で妊娠届を提出された方はその場で面談を受けることができます。",
+      "targetPersons": "区内在住（住民登録のある方）で、妊娠届を提出された妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ninshin/chiyomama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "MR（麻しん・風しん混合）（2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n小学校就学前の1年間",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "HPV（ヒトパピローマウイルス）ワクチン任意予防接種費用償還払い",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち千代田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "下記のいずれかに該当する方\n\n平成9年4月2日から平成17年4月1日に生まれた女性で、以下のすべての条件に該当する方\n\n1.令和4年4月1日時点で千代田区に住民登録がある\n（注意） 令和4年4月2日以降に千代田区へ転入された方は、令和4年4月1日時点で住所のある自治体にお問い合わせください。\n2.16歳になる日に属する年度（高校1年生相当）の3月31日までに3回の接種を完了していない\n3.17歳になる日に属する年度（高校2年生相当）の4月1日から令和4年3月31日までに日本国内の医療機関で2価HPVワクチン（サーバリックス）または4価HPVワクチン（ガーダシル）の任意接種を受け、実費を負担した\n4.償還払いを受けようとする接種回数分について、キャッチアップ接種を受けていない\n5.過去に償還払いと同種のものと千代田区が認める費用助成を受けていない\n\n平成9年4月2日から平成23年4月1日に生まれた女性で、以下のすべての条件に該当する方\n1.令和4年10月4日から令和5年3月31日までの間に日本国内の医療機関で9価HPVワクチン（シルガード）の任意接種を受け、実費を負担した\n2.接種日時点で千代田区に住民登録がある\n3.償還払いを受けようとする接種回数分について、2価HPVワクチン（サーバリックス）または4価HPVワクチン（ガーダシル）の定期接種またはキャッチアップ接種を受けていない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/hpv-shokambarai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "補聴器購入費の助成",
+      "summary": "身体障害者手帳の対象とならない聴力程度で、家族等とのコミュニケーションがとりにくい方に対して、補聴器の購入に必要な費用の一部を助成します。",
+      "targetPersons": "次のすべてに該当する方\n・千代田区内に住所を有し、現に居住していること\n・聴覚障害による身体障害者手帳を所持していない方\n・補聴器の必要性を認める医師の意見を得ることができる方\n・一耳の聴力レベルが40デシベル以上である方　　本人または扶養義務者等の所得が、千代田区障害者福祉手当の所得基準（下表）の範囲内である方（ただし対象者が18歳未満の場合はこの限りではない）\n・過去にこの事業の助成を受けていないこと。または助成の決定を受けた日から起算して5年を経過していること。",
+      "categories": [
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/sonota-service/hochoki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+3+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時（いっとき）預かり保育",
+      "summary": "区内にお住まいの保護者の方が通院、学校行事はもちろん、講習会やリフレッシュなど、家庭において保育を受けることが困難となったお子さんを、一時的にお預かりします。",
+      "targetPersons": "家庭において保育が困難になる乳幼児（区内在住で、保育園に入園していない満6か月～小学校就学前）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/ittoki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "はばたきプラン",
+      "summary": "はばたきプランは、障害や発達に課題のある子どもとその保護者が、将来に渡り適切な支援と切れ目のないサービスを受け、安心して暮らし続けることができるように、子どもの成長と将来を見渡す計画です。",
+      "targetPersons": "18歳までの障害のあるお子さんや発達に関して気がかりや心配のあるお子さんとその保護者",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kodomoplan-uketsuke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM119",
+      "name": "千代田区の子育てに関する相談",
+      "shortName": "アレルギー総合相談",
+      "summary": "お子さんのアレルギー疾患について、小児科医、保健師、栄養士による相談を行います。",
+      "targetPersons": "区内在住の0歳から15歳（義務教育就学児）までのお子さんとその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kenko/allergie-sogo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n1歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM55",
+      "name": "任意予防接種",
+      "shortName": "インフルエンザワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち千代田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "生後6か月から高校3年生相当年齢以下",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/nini/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "障害者福祉手当",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、障害者福祉手当を支給しています。",
+      "targetPersons": "次のいずれかに該当する人\n\n1.身体障害者手帳1・2級の人\n2.愛の手帳1～3度の人\n3.精神障害者保健福祉手帳1級の人\n4.指定の難病にかかり医療券等（注釈） をお持ちの人\n（東京都が発行する特定医療費（指定難病）受給者証または都の医療券をお持ちの人）\n5.脳性マヒまたは進行性筋萎縮症の人\n6.戦傷病者（特別項症から第3項症まで）\n7.身体障害者手帳3級の人\n8.愛の手帳4度の人\n\n（注釈） 医療券等の種類\n1.「難病の患者に対する医療等に関する法律」の対象疾病による医療受給者証\n2.東京都難病医療費等助成制度の医療券（マル都医療券）\n3.小児慢性特定疾病医療費助成制度の医療券（指定の難病と同種の疾病と読み替えられるもの）\n\n3.は、疾病名が記載されている疾病名と異なっていても手当の支給対象となる場合があります。詳しくはお問い合わせください。",
+      "categories": [
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/teate/shinshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+4+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "拡大型一時（いっとき）預かり保育",
+      "summary": "区内にお住まいの保護者の方が通院、学校行事はもちろん、講習会やリフレッシュなど、家庭において保育を受けることが困難となったお子さんを、一時的にお預かりします。",
+      "targetPersons": "家庭において保育が困難になる乳幼児（区内在住で、保育園に入園していない満４か月～小学校就学前）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ichijiteki/kakudaigata/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+5+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "小児慢性特定疾病児童日常生活用具の給付",
+      "summary": "千代田区では、小児慢性特定疾病の医療券をお持ちの方で、次の要件に該当される方に、車いすや電気式たん吸引器等の日常生活用具を給付します。",
+      "targetPersons": "小児慢性特定疾病の医療券をお持ちの方で、次の要件に該当される方\n\n１．千代田区に住所を有する方\n２．小児慢性特定疾病の医療券をお持ちの方\n３．児童福祉法、障害者自立支援法、知的障害者福祉法で同様な日常生活用具給付制度の対象となっていない方\n４．在宅で日常生活を営むうえで支障があり、日常生活用具の給付を必要とする方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/shonimanse.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎（2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n9歳から13歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+5+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜワクチン",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち千代田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "1歳～就学前年度の3月31日",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/nini/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+5+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "児童育成手当（障害手当）",
+      "summary": "児童育成手当（障害手当）は、20歳未満で中度以上の障害を有する児童を養育する父もしくは母、または養育者に支給する手当です。",
+      "targetPersons": "区内に住所を有し、20歳未満で心身に障害があり、その程度が次のいずれかに該当する児童を扶養している父もしくは母、または養育者。\n1.知的障害で「愛の手帳」1・2・3度程度\n2.身体障害で「身体障害者手帳」1・2級程度\n3.脳性麻痺または進行性筋萎縮症",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/ikuse.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌（追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後2か月から5歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルス",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\nロタテック：出生32週まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "MR（麻しん・風しん混合）（1期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n1歳から2歳の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+8000020131016+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "DPT-IPV四種混合（ジフテリア・百日せき・破傷風・ポリオ）（追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "お子さん\n生後2か月から7歳6か月の誕生日の前日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/yobosesshu/tekiyobo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

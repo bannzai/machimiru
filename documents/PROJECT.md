@@ -15,7 +15,7 @@
 | ホスティング | Cloudflare Workers (`@opennextjs/cloudflare`) | チャットの判定でサーバー側に API キーを置く必要があり、静的書き出しでは足りない。Workers の無料枠 (1 日 100,000 リクエスト) で始められる。Vercel Hobby は商用 (アフィリエイト・広告) を禁じる |
 | ドメイン | workers.dev のサブドメイン | ドメインの取得は費用が発生するため、取るかは bannzai が決める |
 | DB | 持たない | アカウント・保存機能が無い。選択中のエリアと条件はブラウザのストレージに置く |
-| 静的データ | 境界・施設・施策のデータはビルド済みのファイルとして配信する (置き場所は実装時に決める) | 更新頻度が年〜月単位で、実行時に書き込まない |
+| 静的データ | 境界・施設・施策のデータはビルド済みのファイルとして配信する。施設・施策のデータは `public/data/tokyo/` に置く (「東京都の子育てデータの生成」) | 更新頻度が年〜月単位で、実行時に書き込まない |
 | 認証 | 持たない | アカウント機能が無い |
 | Analytics | Cloudflare Web Analytics (手動 beacon。配信のビルドだけに token を渡す) と Google Search Console | 判定基準の計測元を `/cloudflare-web-analytics-report` と `/google-search-console-report` で読める形にする |
 | 課金 | 持たない | 目的は本人が使う道具。送客 (アフィリエイト) を入れる場合は「広告」の表示が要る |
@@ -28,24 +28,44 @@
 
 ## データの出典
 
-外部データを足す時はこの表に行を足す (`.claude/rules/external-data-attribution.md`)。
+外部データを足す時はこの表に行を足す (`.claude/rules/external-data-attribution.md`)。取得日は、ファイルを取得して利用条件を一次情報で確認した日。生成スクリプトが使う出典は `src/lib/tokyoData/sources.ts` にも同じ URL・ライセンス・出典表示の文言を持ち、生成したデータファイルの `sources` に書き込む。
 
-| データ | 用途 | 提供元・入手先 | ライセンス・条件 |
-| --- | --- | --- | --- |
-| ベース地図 | 地図の表示 | OpenFreeMap ( https://openfreemap.org/ ) | 無料・API キー不要・商用可。出典表示「OpenFreeMap © OpenMapTiles Data from OpenStreetMap」。SLA なし |
-| 行政区域 (都道府県・市区町村) | エリアの階層選択 | 国土数値情報 行政区域 N03 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html ) | CC BY 4.0 |
-| 町丁・字の境界 | エリアの階層選択 | e-Stat 統計GIS 境界データ (令和 2 年国勢調査 小地域。東京都は 6,021 ポリゴン) | e-Stat 利用規約 ( https://www.e-stat.go.jp/terms-of-use )。商用可・出典表示。実際の行政界との一致は保証されない |
-| 施設 (キーワード検索) | 施設マーキング | OpenPOI API ( https://docs.openpoiapi.com/ ) | 無料・API キー不要・商用可・保存可。出典として OpenPOI API を記載しライセンスページへリンクする。SLA なし・予告なく終了し得る |
-| 診療所・病院 (診療科目つき) | 小児科・産婦人科の表示 | 医療情報ネットのオープンデータ (厚生労働省。 https://data.e-gov.go.jp/data/ja/dataset/iryou_teikyouseido_mhlw/resource/af88450b-049c-4deb-8dc9-327312d877e1 ) | CC BY |
-| 福祉施設 (保育所を含む) | 保育所の表示 | 国土数値情報 福祉施設 P14 (2023 年度。 https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html ) | CC BY 4.0 (一部制限) |
-| 子ども医療費助成 | 施策の色分け | こども家庭庁「こどもに係る医療費の助成についての調査」令和 7 年度 別紙 3 ( https://www.cfa.go.jp/policies/boshihoken/kodomoiryouhityousa-r7/ ) | 二次利用条件は未確認 (使う前に確認する) |
-| 待機児童数・保育サービスの利用率 | 施策の色分け | 東京都「都内の保育サービスの状況について」表 4 ( https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917 ) | 二次利用条件は未確認 (使う前に確認する) |
-| 子育て支援制度 | 施策の色分け | 東京都 子育て支援制度レジストリ ( https://www.metro.tokyo.lg.jp/information/press/2024/11/2024112807 ) | CC BY 4.0。出典「東京都・GovTech東京」。自治体が発信したように見せない |
+| データ | 用途 | 提供元・入手先 | 取得日 | ライセンス・出典表示の文言 |
+| --- | --- | --- | --- | --- |
+| ベース地図 | 地図の表示 | OpenFreeMap ( https://openfreemap.org/ ) | 未取得 (地図の表示の issue で記入) | 無料・API キー不要・商用可。出典表示「OpenFreeMap © OpenMapTiles Data from OpenStreetMap」。SLA なし |
+| 行政区域 (都道府県・市区町村) | エリアの階層選択 | 国土数値情報 行政区域 N03 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html ) | 未取得 (同上) | CC BY 4.0 |
+| 町丁・字の境界 | エリアの階層選択 | e-Stat 統計GIS 境界データ (令和 2 年国勢調査 小地域。東京都は 6,021 ポリゴン) | 未取得 (同上) | e-Stat 利用規約 ( https://www.e-stat.go.jp/terms-of-use )。商用可・出典表示。実際の行政界との一致は保証されない |
+| 施設 (キーワード検索) | 施設マーキング | OpenPOI API ( https://docs.openpoiapi.com/ ) | 未取得 (施設マーキングの issue で記入) | 無料・API キー不要・商用可・保存可。出典として OpenPOI API を記載しライセンスページへリンクする。SLA なし・予告なく終了し得る |
+| 病院・診療所の小児科・産婦人科・産科 (位置つき) | 子育て施設の種類での表示 | 厚生労働省「医療情報ネットのオープンデータ」2026 年 6 月 1 日時点の病院・診療所の施設票と診療科・診療時間票 ( https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html ) | 2026-10-04 | 公共データ利用規約 第 1.0 版 (PDL1.0。CC BY 4.0 と互換。 https://www.digital.go.jp/resources/open_data/public_data_license_v1.0 )。出典「「医療情報ネットのオープンデータ」（厚生労働省）（ https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html ）を加工して作成」。座標が未登録 (空欄・0.0) の施設は除く |
+| 保育所・認定こども園 (位置つき) | 子育て施設の種類での表示 | 国土交通省「国土数値情報 福祉施設 P14」2023 年度 東京都 ( https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html ) | 2026-10-04 | CC BY 4.0 (一部制限)。一部制限は都道府県・市ごとの利用条件 ( https://nlftp.mlit.go.jp/ksj/gml/codelist/R5_Terms_of_Use_WelfareInstitution.xlsx ) で、東京都と都内の市の行は無く、追加の制限は無い。出典「「国土数値情報（福祉施設データ）」（国土交通省）（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html ）を加工して作成」 |
+| 子ども医療費助成 | 街ごとの子育てのしやすさ | こども家庭庁「こどもに係る医療費の助成についての調査」令和 7 年度 別紙 3 (令和 7 年 4 月 1 日時点。 https://www.cfa.go.jp/policies/boshihoken/kodomoiryouhityousa-r7/ ) | 2026-10-04 | PDL1.0 (こども家庭庁のコピーライトポリシー https://www.cfa.go.jp/copyright-policy )。出典「「こどもに係る医療費の助成についての調査（令和7年度）」（こども家庭庁）（ https://www.cfa.go.jp/policies/boshihoken/kodomoiryouhityousa-r7/ ）を加工して作成」 |
+| 保育所等の申込者数・利用児童数・待機児童数 | 街ごとの子育てのしやすさ | こども家庭庁「保育所等関連状況取りまとめ（令和 8 年 4 月 1 日）」（参考）定員・申込者の状況の「申込者の状況」シート ( https://www.cfa.go.jp/policies/hoiku/torimatome/r8 ) | 2026-10-04 | PDL1.0 (同上)。出典「「保育所等関連状況取りまとめ（令和8年4月1日）」（こども家庭庁）（ https://www.cfa.go.jp/policies/hoiku/torimatome/r8 ）を加工して作成」 |
+| 保育サービスの利用率 | (使わない) | 東京都「都内の保育サービスの状況について」表 4 (令和 8 年 4 月 1 日。 https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082804 ) | 2026-10-04 | 使えない。東京都公式ホームページの「著作権・リンクについて」 ( https://www.metro.tokyo.lg.jp/policy/chosakuken ) は、私的使用・引用など著作権法で認められた場合を除き無断の複製・転用を認めず、東京都オープンデータカタログサイトにも同じ表は見つからない (データカタログ横断検索システム search.ckan.jp で検索)。待機児童数は上の行のこども家庭庁のデータで取る (62 区市町村すべてで東京都の表 4 の令和 8 年 4 月 1 日の値と一致することを確認した。利用児童数は数える事業の範囲が違い、一致しない)。利用率は就学前児童人口の区市町村別の値を持つオープンデータを確認できておらず、計算しない |
+| 子育て支援制度 | 街ごとの子育てのしやすさ・個別の制度へのドリルダウン | 東京都・GovTech東京「東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ」0-6 歳制度 (2025 年 8 月 20 日時点) の JSON (東京都オープンデータカタログサイト https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034 ) | 2026-10-04 | CC BY 4.0 (同カタログのデータセットのライセンス。カタログは機械からの取得を拒否するため、データカタログ横断検索システム search.ckan.jp に取り込まれた同データセットのメタデータ `license_id: CC-BY-4.0` と、README の記載例で確認)。出典はレジストリ README ( https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf ) 「5. 利用に関する留意事項」の記載例に従い「このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。」。自治体が発信したように見える表現・見出しにせず、詳細を出す画面で発信の主体と引用元を明記する。同じデータセットの 7-18 歳制度 (xlsx) は psid・対象者・タグがすべて空のため使わない |
+
+## 東京都の子育てデータの生成
+
+`scripts/data/tokyo/generate.ts` が上の表の「子ども医療費助成」「保育所等の申込者数・利用児童数・待機児童数」「子育て支援制度」「病院・診療所の小児科・産婦人科・産科」「保育所・認定こども園」の 5 つから、`public/data/tokyo/` に次のファイルを生成する。形式は `src/lib/tokyoData/schema.ts` の zod スキーマで、生成時と `make test` (`src/lib/tokyoData/data.test.ts`) の両方で検査する。
+
+- `municipalities.json`: 62 区市町村の指標。区市町村のキーは全国地方公共団体コード (6 桁)。取得できなかった指標は null にし、`missing` に理由を書く
+- `programs/<全国地方公共団体コード>.json`: 区市町村ごとの子育て支援制度の一覧 (制度名・概要・対象者・分野・自治体のページの URL)。レジストリの対象地域が東京都 (130001) の制度 (2025 年 8 月 20 日時点で 27 件) は、区市町村ごとの違いを比べる用途に入らないため含めず、生成時に件数を警告に出す
+- `facilities.geojson`: 小児科・産婦人科 (産科を含む)・保育所・認定こども園の位置と種類。保育所・認定こども園は福祉施設小分類 050401 (保育所) と 050402〜050405 (幼保連携型・保育所型・幼稚園型・地方裁量型の認定こども園) だけを取り込み、へき地保育所 (050406) と地域型保育事業所 (小規模保育・家庭的保育等の 0505xx) は含めない (2023 年度の東京都のデータには、どちらの行も無い)
+
+各ファイルの `sources` に出典・ライセンス・出典表示の文言を持ち、各レコードの `sourceId` がそれを指す。
+
+実行手順 (取得するファイルは合計約 130MB で、`tmp/data-cache/` に置いて 2 回目以降は再取得しない):
+
+```sh
+make setup
+make data-tokyo
+```
+
+出典を新しい版に替える時は、`src/lib/tokyoData/sources.ts` の URL・`asOf`・`retrievedOn` とこの表を更新し、`tmp/data-cache/` を消してから `make data-tokyo` を実行する。区市町村名で照合する出典 (こども家庭庁の 2 つ) で照合できない名称があると、欠損にせず生成を止める。
 
 ## 実装の前提になる調査結果
 
 - OpenPOI API の検索は施設名・住所の文字列検索で、種類で絞るパラメータが無い。三鷹市周辺の実測 (2026-10-04) で「小児科」7 件・「産婦人科」1 件・「こども園」0 件、「保育園」88 件の大半は給食施設の営業許可のデータだった。子育て施設を種類で出す機能は行政のオープンデータを使い、OpenPOI API は自由なキーワード検索に使う
-- 東京都の 62 区市町村は、子ども医療費助成の対象年齢がすべて 18 歳年度末で差が無い。差があるのは通院の一部自己負担 (18 自治体) と所得制限 (4 市)。施策の色分けは待機児童数・保育サービスの利用率・制度レジストリと組み合わせる
+- 東京都の 62 区市町村は、子ども医療費助成の対象年齢がすべて 18 歳年度末で差が無い。差があるのは通院の一部自己負担 (18 自治体) と所得制限 (4 市)。施策の色分けは待機児童数・制度レジストリと組み合わせる (保育サービスの利用率は使える出典が無い。「データの出典」の表を参照)
 - チャットの候補出しは、TypeSafe の判定モデル Jev ( https://docs.typesafe.ai/ ) を第一候補にする (入力 100 万トークンあたり $0.042)。公開サービスのサーバーから呼ぶ用途の可否と送信データの扱いはドキュメントに記載が無く未確認のため、実装の前に確認する。確認が取れるまで `content/legal/privacy.md` の「利用する外部サービス」に TypeSafe を載せておらず、チャットの候補出しを実装する時に、送信先と送信する情報を同じ表に足す
 
 ## 物件サイトとの関係
