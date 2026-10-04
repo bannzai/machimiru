@@ -22,8 +22,8 @@ export const size = { width: 1200, height: 630 };
 /** OGP 画像の形式。 */
 export const contentType = "image/png";
 
-/** 画像の下の行に出す、地図で選べる単位の説明。 */
-const mapCaption = "区市町村と町丁を地図で選んで比べる";
+/** 地図の左に出す、地図で選べる単位の説明。語の途中で折り返さないよう、行ごとに分けて持つ。 */
+const mapCaptionLines = ["区市町村と町丁を", "地図で選んで比べる"];
 
 /**
  * 地図の下に出す境界データの出典表示。OGP 画像は SNS のカードなどで出典ページへのリンクなしに単体で表示されるため、
@@ -68,7 +68,11 @@ export default async function OpenGraphImage() {
         <div style={{ fontSize: 62, lineHeight: 1.3 }}>{siteCatchphrase}</div>
       </div>
       <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between" }}>
-        <div style={{ width: 360, fontSize: 30, lineHeight: 1.5, color: "#334155", marginBottom: 16 }}>{mapCaption}</div>
+        <div style={{ display: "flex", flexDirection: "column", fontSize: 30, lineHeight: 1.5, color: "#334155", marginBottom: 16 }}>
+          {mapCaptionLines.map((line) => (
+            <div key={line}>{line}</div>
+          ))}
+        </div>
         <svg width={mapFrame.width} height={mapFrame.height} viewBox={`0 0 ${mapFrame.width} ${mapFrame.height}`}>
           {municipalities.features.map((feature) => (
             <path
@@ -89,7 +93,7 @@ export default async function OpenGraphImage() {
       fonts: [
         {
           name: "Noto Sans JP",
-          data: await fetchNotoSansJapaneseBold(`${siteName}${siteCatchphrase}${mapCaption}${mapAttribution}`),
+          data: await fetchNotoSansJapaneseBold(`${siteName}${siteCatchphrase}${mapCaptionLines.join("")}${mapAttribution}`),
           weight: 700,
           style: "normal",
         },
