@@ -32,7 +32,7 @@ export type BoundarySource = {
   pageUrl: string;
   /** 生成スクリプトが取得したファイルの URL。 */
   downloadUrl: string;
-  /** 画面に出す出典表示の HTML (MapLibre の attribution に渡す)。 */
+  /** 提供元が求める出典表示の文言の HTML。 */
   attribution: string;
   /** 取得日 (YYYY-MM-DD)。 */
   retrievedAt: string;
@@ -42,6 +42,12 @@ export type BoundarySource = {
 export type BoundaryFeatureCollection<Properties> = FeatureCollection<Polygon | MultiPolygon, Properties> & {
   source: BoundarySource;
 };
+
+/** 島しょ部を除いた東京都 (西端の奥多摩町から東端の江戸川区まで) が収まる範囲。[[西端の経度, 南端の緯度], [東端の経度, 北端の緯度]]。 */
+export const tokyoMainlandBounds: [[number, number], [number, number]] = [
+  [138.94, 35.5],
+  [139.93, 35.9],
+];
 
 /** 東京都の区市町村の境界データの URL。 */
 export const municipalityBoundaryUrl = "/data/boundaries/tokyo-municipalities.geojson";

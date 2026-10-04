@@ -16,6 +16,7 @@ import {
   type MunicipalityProperties,
   type TownProperties,
   municipalityBoundaryUrl,
+  tokyoMainlandBounds,
   townBoundaryUrl,
 } from "@/lib/boundaries";
 
@@ -26,12 +27,9 @@ const maplibreWorkerUrl = "/vendor/maplibre-gl/maplibre-gl-worker.mjs";
 // OpenFreeMap の標準のスタイル。API キーが要らず商用で使える (documents/PROJECT.md「データの出典」)
 const baseMapStyleUrl = "https://tiles.openfreemap.org/styles/liberty";
 
-// 島しょ部を除いた東京都 (西端の奥多摩町から東端の江戸川区まで) が収まる範囲。
-// URL に表示位置 (#ズーム/緯度/経度) が無い時に、最初にこの範囲を表示する
-const tokyoMainlandBounds: [[number, number], [number, number]] = [
-  [138.94, 35.5],
-  [139.93, 35.9],
-];
+// 境界データの出典表示の全文は出典ページに出し、地図の上は短い表記にする。全文を地図に重ねると、モバイル幅で 5 行に折り返して地図の下を覆うため
+// (OpenFreeMap・OpenStreetMap の表記はベース地図のスタイルが地図の上に出す)
+const boundaryAttribution = '<a href="/sources/">国土数値情報・e-Stat を加工 (出典)</a>';
 
 /** 区市町村の境界の MapLibre のソース ID。 */
 const municipalitySourceId = "municipalities";
@@ -84,10 +82,11 @@ export function AreaMap() {
         const loadedMap = new maplibregl.Map({
           container,
           style: baseMapStyleUrl,
+          // URL に表示位置 (#ズーム/緯度/経度) が無い時に、最初に島しょ部を除いた東京都を表示する
           bounds: tokyoMainlandBounds,
           hash: true,
           // 既定ではモバイル幅で出典が「i」ボタンに畳まれるため、常に文字で出す
-          attributionControl: { compact: false },
+          attributionControl: { compact: false, customAttribution: boundaryAttribution },
         });
         map = loadedMap;
         loadedMap.addControl(new maplibregl.NavigationControl({ showCompass: false }));
@@ -271,12 +270,9 @@ function addBoundaryLayers(
   municipalities: BoundaryFeatureCollection<MunicipalityProperties>,
   towns: BoundaryFeatureCollection<TownProperties>,
 ) {
-  map.addSource(municipalitySourceId, {
-    type: "geojson",
-    data: municipalities,
-    attribution: municipalities.source.attribution,
-  });
-  map.addSource(townSourceId, { type: "geojson", data: towns, attribution: towns.source.attribution });
+  // 出典は地図の customAttribution (boundaryAttribution) にまとめて出すため、ソースごとの attribution は渡さない
+  map.addSource(municipalitySourceId, { type: "geojson", data: municipalities });
+  map.addSource(townSourceId, { type: "geojson", data: towns });
   // 地名のラベルを境界の塗りで隠さないよう、ベース地図の最初の文字のレイヤーより下に入れる
   const firstSymbolLayerId = map.getStyle().layers.find((layer) => layer.type === "symbol")?.id;
   // 塗りの薄い色は、タップで選べる単位を見せるためと、クリックの位置からエリアを引くため
