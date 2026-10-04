@@ -1,4 +1,4 @@
-.PHONY: setup dev lint typecheck test build-web screenshot check
+.PHONY: setup dev lint typecheck test build-web screenshot check data-tokyo
 
 setup:
 	npm ci
@@ -25,3 +25,7 @@ screenshot:
 	npm run screenshot
 
 check: lint build-web typecheck test
+
+# 公開データを取得し、東京都の子育てデータを public/data/tokyo/ に生成する (出典と手順は documents/PROJECT.md)
+data-tokyo:
+	npm run data:tokyo
