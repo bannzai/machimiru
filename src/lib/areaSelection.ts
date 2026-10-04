@@ -13,8 +13,9 @@ export const emptyAreaSelection: AreaSelection = { municipalityCodes: [], townCo
 /** 選択中のエリアを保存する localStorage のキー。 */
 export const areaSelectionStorageKey = "machimiru.areaSelection.v1";
 
-// 区 1 つが画面に収まり、町丁 (幅 300〜600 m 前後) が 1 つ 20〜40 px でタップできる大きさになるズーム。
-// ズーム 13 の東京付近は 1 px がおよそ 15 m になる
+// 町丁 (幅 300〜600 m 前後) が 1 つ 40〜80 px になり、指でタップして選び分けられる大きさになるズーム。
+// MapLibre のズーム (512 px のタイル基準) では、ズーム 13 の東京付近は 1 px がおよそ 7.8 m になる。
+// 1 つ下のズーム 12 では町丁が 20〜40 px で、隣の町丁と押し間違えやすい
 /** このズーム以上では町丁を、未満では区市町村を選ぶ。 */
 export const townSelectionMinZoom = 13;
 

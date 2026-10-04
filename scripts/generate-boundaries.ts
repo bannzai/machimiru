@@ -28,8 +28,9 @@ const outputDirectory = "public/data/boundaries";
 // 簡略化の結果は mapshaper の版で変わるため、版を固定して再生成で差分が出ないようにする
 const mapshaperPackage = "mapshaper@0.7.72";
 
-// 町丁を選ぶズーム (14 前後) で 1 px が 10 m 前後になり、15 m 以下の頂点を落としても境界の見た目が変わらないため。
-// 町丁のファイルは 4 MB 程度 (gzip で 0.7 MB) に収まる
+// 町丁を選ぶズーム 13〜14 (MapLibre の 512 px タイル基準で 1 px がおよそ 7.8〜3.9 m) では、境界のずれが 2〜4 px に収まり
+// 隣の町丁と見分けられる (CI の撮影のズーム 14 の画像で目視)。間隔を広く取り、町丁のファイルを 4 MB 程度
+// (gzip で 0.7 MB) に収めるため
 const simplifyIntervalMeters = 15;
 
 // 経度・緯度の小数 5 桁 (約 1 m)。簡略化の間隔より十分細かく、それ以上の桁はファイルを大きくするだけのため
