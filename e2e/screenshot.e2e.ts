@@ -13,7 +13,13 @@ for (const { name, path, heading } of pages) {
   test(`${name} を表示して撮影する`, async ({ page }, testInfo) => {
     await page.goto(path);
     await expect(page.getByRole("heading", { level: 1, name: heading })).toBeVisible();
-    await page.screenshot({ path: `tmp/screenshots/${testInfo.project.name}-${name}.png`, fullPage: true });
+    // モバイル幅の縦に長いページ (出典ページ) を端末の画素密度のまま全体で撮ると、Chromium が撮れる高さを超えて
+    // 途中から先頭が繰り返し写る (CI の実測) ため、CSS の 1px を 1 画素にして撮る
+    await page.screenshot({
+      path: `tmp/screenshots/${testInfo.project.name}-${name}.png`,
+      fullPage: true,
+      scale: "css",
+    });
   });
 }
 
