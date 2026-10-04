@@ -22,7 +22,7 @@
 | 通知 | Slack の `#machimiru-notification` | 関門の投稿の要約と、公開後のアラートの宛先 |
 | クラッシュ収集・GCP | 使わない | Firebase・GCP を使う機能が無い |
 
-配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。配信のビルドには公開 URL を環境変数 `SITE_URL` で渡す (OGP 画像・sitemap・robots・JSON-LD の絶対 URL の基点。未設定のビルドは `http://localhost:3000` を使い、検索結果・SNS のカードが壊れる)。
+配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。配信のビルドには公開 URL を環境変数 `SITE_URL` で渡す (OGP 画像・sitemap・robots・JSON-LD の絶対 URL の基点。未設定のビルドは `http://localhost:3000` を使い、検索結果・SNS のカードが壊れる)。OGP 画像 (`src/app/opengraph-image.tsx`) は日本語の文字の形をビルド時に Google Fonts から取得するため、`next build` は fonts.googleapis.com に届く必要がある (届かなければビルドが失敗する)。
 
 `content/legal/privacy.md` と `content/legal/terms.md` は MVP の設計を前提に書いてあり、実装より先行している。配信を有効にする変更では、両文書の送信先・送信する情報・保存の有無が実装と一致することを確認し、食い違いを直してから公開する。
 

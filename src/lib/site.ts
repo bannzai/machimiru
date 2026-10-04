@@ -15,9 +15,9 @@ export const siteDescription =
 export const contactEmail = "bannzai.app@gmail.com";
 
 // 公開 URL は配信の設定で決まるため、配信のビルドだけが環境変数 SITE_URL で渡す (documents/PROJECT.md「インフラ構成」)。
-// 未設定のビルド (PR の CI・ローカル) は、next start・next dev が配信する既定の URL を使う
-/** OGP・canonical・sitemap・robots の絶対 URL の基点になる公開 URL。 */
-export const siteUrl = process.env.SITE_URL ?? "http://localhost:3000";
+// 未設定・空のビルド (PR の CI・ローカル。workflow の未登録の変数は空文字で渡る) は、next start・next dev が配信する既定の URL を使う
+/** OGP・sitemap・robots・JSON-LD の絶対 URL の基点になる公開 URL。 */
+export const siteUrl = process.env.SITE_URL || "http://localhost:3000";
 
 /** sitemap に載せる各ページのパス。next.config.ts の trailingSlash に合わせて末尾に / を付ける。 */
 export const sitePagePaths = ["/", "/sources/", "/terms/", "/privacy/"];
