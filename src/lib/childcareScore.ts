@@ -47,7 +47,7 @@ export type ChildcareScore = {
  * 制度の件数の点は municipalities の中の最多の件数を満点にするため、東京都の 62 区市町村をまとめて渡す。
  */
 export function computeChildcareScores(municipalities: readonly Municipality[]): ChildcareScore[] {
-  const maxProgramCount = Math.max(0, ...municipalities.map((municipality) => municipality.programCount));
+  const maxProgramCount = maxChildcareProgramCount(municipalities);
   const unrankedScores = municipalities.map(({ code, childcare, medicalSubsidy, programCount }) => {
     const points: Record<ChildcareScoreItem, number | null> = {
       nurseryAvailability:
@@ -75,6 +75,11 @@ export function computeChildcareScores(municipalities: readonly Municipality[]):
       rank: total === null ? null : unrankedScores.filter((other) => other.total !== null && other.total > total).length + 1,
     };
   });
+}
+
+/** municipalities の中で最も多い子育て支援制度の件数 (制度の件数の点の満点にする件数) を返す。空の時は 0 を返す。 */
+export function maxChildcareProgramCount(municipalities: readonly Municipality[]): number {
+  return Math.max(0, ...municipalities.map((municipality) => municipality.programCount));
 }
 
 /** 保育所等の申込者に対する待機児童の割合 (0〜1) を返す。申込者がいない時は待機児童もいないため 0 を返す。 */

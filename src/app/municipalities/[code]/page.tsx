@@ -8,6 +8,7 @@ import {
   childcareScoreMaxPoints,
   computeChildcareScores,
   formatPercent,
+  maxChildcareProgramCount,
   waitingChildrenRate,
 } from "@/lib/childcareScore";
 import { siteName } from "@/lib/site";
@@ -93,13 +94,7 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
             {(Object.keys(childcareScoreMaxPoints) as ChildcareScoreItem[]).map((item) => (
               <tr key={item}>
                 <th scope="row">{childcareScoreItemNames[item]}</th>
-                <td>
-                  {scoreItemValueText(
-                    municipality,
-                    item,
-                    Math.max(...municipalities.map((candidate) => candidate.programCount)),
-                  )}
-                </td>
+                <td>{scoreItemValueText(municipality, item, maxChildcareProgramCount(municipalities))}</td>
                 <td>{scoreItemPointsText(childcareScore.points[item], item)}</td>
               </tr>
             ))}
