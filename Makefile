@@ -1,4 +1,4 @@
-.PHONY: setup dev lint typecheck test build-web screenshot check
+.PHONY: setup dev lint typecheck test build-web screenshot check boundaries
 
 setup:
 	npm ci
@@ -25,3 +25,8 @@ screenshot:
 	npm run screenshot
 
 check: lint build-web typecheck test
+
+# 境界データ (public/data/boundaries/) を国土数値情報と e-Stat から作り直す。手順と形式は documents/PROJECT.md「境界データ」。
+# Node 22.18 未満は TypeScript の実行にフラグが要るため付ける (22.18 以降と 24 では付けても同じ動作)
+boundaries:
+	node --experimental-strip-types scripts/generate-boundaries.ts
