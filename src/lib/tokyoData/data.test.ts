@@ -44,6 +44,13 @@ describe("public/data/tokyo/municipalities.json", () => {
     }
   });
 
+  it("保育所等の利用状況と医療費助成は 62 区市町村すべてで取れている", () => {
+    // 現在の出典は 2 つとも 62 区市町村すべての行を持つ (2026-10-04 に確認)。PDF の行の組み立てがずれて
+    // 照合から漏れても欠損として通ってしまうため、出典に行が無くなった時はこのテストを直してから欠損として扱う
+    expect(municipalities.filter((municipality) => municipality.childcare === null).map(({ name }) => name)).toEqual([]);
+    expect(municipalities.filter((municipality) => municipality.medicalSubsidy === null).map(({ name }) => name)).toEqual([]);
+  });
+
   it("指標の出典がファイルの sources にある", () => {
     const sourceIds = new Set(municipalitySources.map((source) => source.id));
     for (const municipality of municipalities) {

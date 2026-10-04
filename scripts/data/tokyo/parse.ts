@@ -112,7 +112,8 @@ export function firstProgramUrl(value: string): string | null {
 }
 
 /**
- * レジストリのカテゴリーコードの表記ゆれ (`"002，003"` の全角読点・`"027 "` の末尾空白・`"86"` の 2 桁) を 3 桁のコードの並びにそろえる。
+ * レジストリのタグのコードの表記ゆれ (カテゴリーの `"002，003"` の全角読点・`"027 "` の末尾空白、対象者タグの `"86"` の 2 桁) を
+ * 3 桁のコードの並びにそろえる。生成はカテゴリーにだけ使うが、同じ表記ゆれが入り得るため 2 桁も扱う。
  */
 export function normalizeCategoryCodes(values: string[]): string[] {
   return [
