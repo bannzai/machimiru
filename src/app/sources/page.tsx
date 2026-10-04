@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { renderDataSourceTable } from "@/lib/dataSources";
+import { renderDataSources } from "@/lib/dataSources";
 import { siteName } from "@/lib/site";
 
 // 出典の表をビルド時に読むため、実行時にファイルを読む動的な描画にしない
@@ -21,7 +21,7 @@ export default async function SourcesPage() {
         {siteName}
         が地図と情報の表示に使う外部データの提供元とライセンスです。地図の上には短い表記を出し、出典表示の全文はこのページに載せています。準備中の機能で使う予定のデータも含みます。
       </p>
-      <div dangerouslySetInnerHTML={{ __html: await renderDataSourceTable() }} />
+      <div className="data-sources" dangerouslySetInnerHTML={{ __html: await renderDataSources() }} />
       <p>
         <Link href="/">トップページへ戻る</Link>
       </p>
