@@ -29,6 +29,11 @@ describe("openPoiSearchUrl", () => {
     expect(url.searchParams.get("bbox")).toBe("139.55460,35.69670,139.56660,35.70870");
     expect(url.searchParams.get("limit")).toBe(String(openPoiSearchLimit));
   });
+
+  it("経度・緯度の範囲を超えた bbox (世界規模まで縮小した地図) を範囲に収める", () => {
+    const url = new URL(openPoiSearchUrl("公園", [-250, -95, 400, 95]));
+    expect(url.searchParams.get("bbox")).toBe("-180.00000,-90.00000,180.00000,90.00000");
+  });
 });
 
 describe("searchOpenPoi", () => {
@@ -63,6 +68,6 @@ describe("searchOpenPoi", () => {
 
   it("形式の合わない応答は例外にする", async () => {
     stubFetch(200, { results: "unexpected" });
-    await expect(searchOpenPoi("公園", mitakaStationBoundingBox)).rejects.toThrow();
+    await expect(searchOpenPoi("公園", mitakaStationBoundingBox)).rejects.toThrow("応答の形式が想定と違います");
   });
 });

@@ -57,42 +57,61 @@ function keywordOfSearchKey(searchKey: string): string {
  */
 export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
   const [keywords, setKeywords] = useState<readonly FacilityKeyword[]>([]);
-  const [keywordSearchResults, setKeywordSearchResults] = useState<Readonly<Record<string, KeywordSearchResult>>>({});
-  const startedKeywordSearchKeys = useRef(new Set<string>());
+  // キーワードは利用者の入力で `constructor` 等の Object の継承プロパティの名前にもなり得るため、Record ではなく Map で持つ
+  const [keywordSearchResults, setKeywordSearchResults] = useState<ReadonlyMap<string, KeywordSearchResult>>(new Map());
+  // 始めた検索のキーと、そのキーで最後に始めた検索の番号。番号が変わった (検索し直した・キーワードを外した) 後に届いた古い応答は捨てる
+  const keywordSearchGenerations = useRef(new Map<string, number>());
+  const lastKeywordSearchGeneration = useRef(0);
+  // キーワードごとに最後に始めた検索のキー。古い範囲の応答が後から届いた時に、直前のピンを古い範囲のもので上書きしないため
+  const latestSearchKeyByKeyword = useRef(new Map<string, string>());
   // 地図を動かして新しい範囲を検索している間も、直前に取れた施設のピンを出し続けるため、キーワードごとに最後の結果を持つ
   const [lastLoadedFacilitiesByKeyword, setLastLoadedFacilitiesByKeyword] = useState<
-    Readonly<Record<string, LocatedOpenPoiFacility[]>>
-  >({});
+    ReadonlyMap<string, LocatedOpenPoiFacility[]>
+  >(new Map());
   const [facilityKinds, setFacilityKinds] = useState<readonly FacilityKind[]>([]);
   const [facilitiesFile, setFacilitiesFile] = useState<FacilitiesFile | null>(null);
   const [facilitiesLoadErrorMessage, setFacilitiesLoadErrorMessage] = useState<string | null>(null);
   const isFacilitiesLoadStarted = useRef(false);
 
-  /** keyword の ranges での検索を始め、終わったら結果を keywordSearchKey のキーで残す。 */
+  /** keyword の ranges での検索を始め、終わったら結果を keywordSearchKey のキーで残す。後から同じキーで始めた検索がある時は結果を捨てる。 */
   const startKeywordSearch = (keyword: string, ranges: readonly SearchRange[]) => {
     const searchKey = keywordSearchKey(keyword, ranges);
-    startedKeywordSearchKeys.current.add(searchKey);
+    const generation = ++lastKeywordSearchGeneration.current;
+    keywordSearchGenerations.current.set(searchKey, generation);
+    latestSearchKeyByKeyword.current.set(keyword, searchKey);
+    const isLatestSearch = () => keywordSearchGenerations.current.get(searchKey) === generation;
     searchFacilitiesInRanges(keyword, ranges).then(
       (result) => {
-        setKeywordSearchResults((current) => ({ ...current, [searchKey]: { status: "loaded", ...result } }));
-        setLastLoadedFacilitiesByKeyword((current) => ({ ...current, [keyword]: result.facilities }));
+        if (!isLatestSearch()) {
+          return;
+        }
+        setKeywordSearchResults((current) => new Map(current).set(searchKey, { status: "loaded", ...result }));
+        if (latestSearchKeyByKeyword.current.get(keyword) === searchKey) {
+          setLastLoadedFacilitiesByKeyword((current) => new Map(current).set(keyword, result.facilities));
+        }
       },
-      (error: unknown) =>
-        setKeywordSearchResults((current) => ({
-          ...current,
-          [searchKey]: { status: "failed", message: error instanceof Error ? error.message : String(error) },
-        })),
+      (error: unknown) => {
+        if (!isLatestSearch()) {
+          return;
+        }
+        setKeywordSearchResults((current) =>
+          new Map(current).set(searchKey, {
+            status: "failed",
+            message: error instanceof Error ? error.message : String(error),
+          }),
+        );
+      },
     );
   };
 
-  // 依存の配列を持たせず描画のたびに確かめる。検索を始めたキーは startedKeywordSearchKeys で除くため、同じ検索を重ねて送らない
+  // 依存の配列を持たせず描画のたびに確かめる。検索を始めたキーは keywordSearchGenerations で除くため、同じ検索を重ねて送らない
   useEffect(() => {
     if (searchRanges.length === 0) {
       return;
     }
     // 同じ範囲で検索済みのキーワードは、地図を動かして戻った時やキーワードを足した時に検索し直さない
     for (const { keyword } of keywords) {
-      if (!startedKeywordSearchKeys.current.has(keywordSearchKey(keyword, searchRanges))) {
+      if (!keywordSearchGenerations.current.has(keywordSearchKey(keyword, searchRanges))) {
         startKeywordSearch(keyword, searchRanges);
       }
     }
@@ -127,7 +146,7 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
         result:
           searchRanges.length === 0
             ? undefined
-            : keywordSearchResults[keywordSearchKey(facilityKeyword.keyword, searchRanges)],
+            : keywordSearchResults.get(keywordSearchKey(facilityKeyword.keyword, searchRanges)),
       })),
     [keywords, keywordSearchResults, searchRanges],
   );
@@ -154,7 +173,7 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
         })),
         ...keywordSearches.flatMap(({ keyword, color, result }) =>
           (result === undefined
-            ? (lastLoadedFacilitiesByKeyword[keyword] ?? [])
+            ? (lastLoadedFacilitiesByKeyword.get(keyword) ?? [])
             : result.status === "loaded"
               ? result.facilities
               : []
@@ -181,40 +200,53 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
   );
 
   return {
+    /** 地図に重ねているキーワードと、現在の範囲での検索の結果 (検索中・範囲が無い時は undefined)。 */
     keywordSearches,
+    /** keywordText をキーワードに足す。足せない時 (空・追加済み・色が残っていない) は何もしない。 */
     addKeyword: (keywordText: string) => setKeywords((current) => addFacilityKeyword(current, keywordText)),
+    /** keyword を外し、その検索の結果と検索中の応答を捨てる。 */
     removeKeyword: (keyword: string) => {
       setKeywords((current) => current.filter((facilityKeyword) => facilityKeyword.keyword !== keyword));
-      // 付け直した時に、失敗した結果や前の範囲の結果を出さずに検索し直す
-      for (const searchKey of startedKeywordSearchKeys.current) {
+      // 付け直した時に、失敗した結果や前の範囲の結果を出さずに検索し直す。検索中の応答も番号を消して捨てる
+      for (const searchKey of keywordSearchGenerations.current.keys()) {
         if (keywordOfSearchKey(searchKey) === keyword) {
-          startedKeywordSearchKeys.current.delete(searchKey);
+          keywordSearchGenerations.current.delete(searchKey);
         }
       }
-      setKeywordSearchResults((current) =>
-        Object.fromEntries(Object.entries(current).filter(([searchKey]) => keywordOfSearchKey(searchKey) !== keyword)),
+      setKeywordSearchResults(
+        (current) => new Map([...current].filter(([searchKey]) => keywordOfSearchKey(searchKey) !== keyword)),
       );
-      setLastLoadedFacilitiesByKeyword((current) =>
-        Object.fromEntries(Object.entries(current).filter(([loadedKeyword]) => loadedKeyword !== keyword)),
+      setLastLoadedFacilitiesByKeyword(
+        (current) => new Map([...current].filter(([loadedKeyword]) => loadedKeyword !== keyword)),
       );
     },
+    /** keyword を現在の範囲で検索し直す。 */
     retryKeywordSearch: (keyword: string) => {
-      setKeywordSearchResults((current) =>
-        Object.fromEntries(
-          Object.entries(current).filter(([searchKey]) => searchKey !== keywordSearchKey(keyword, searchRanges)),
-        ),
+      const searchKey = keywordSearchKey(keyword, searchRanges);
+      setKeywordSearchResults(
+        (current) => new Map([...current].filter(([resultSearchKey]) => resultSearchKey !== searchKey)),
       );
       startKeywordSearch(keyword, searchRanges);
     },
+    /** 選んでいる子育て施設の種類 (選んだ順)。 */
     facilityKinds,
-    toggleFacilityKind: (kind: FacilityKind) =>
+    /** kind を選んでいなければ選び、選んでいれば外す。 */
+    toggleFacilityKind: (kind: FacilityKind) => {
+      // 読み込みに失敗した後に選び直した時は読み直すため、読み直している間は失敗ではなく読み込み中を出す
+      setFacilitiesLoadErrorMessage(null);
       setFacilityKinds((current) =>
         current.includes(kind) ? current.filter((selectedKind) => selectedKind !== kind) : [...current, kind],
-      ),
+      );
+    },
+    /** 子育て施設のデータ。種類を初めて選ぶまでと読み込み中は null。 */
     facilitiesFile,
+    /** 子育て施設のデータを読み込めなかった理由。 */
     facilitiesLoadErrorMessage,
+    /** 選んでいる種類の子育て施設のうち、範囲の中にあるもの。 */
     facilityFeatures,
+    /** 選んでいる種類の子育て施設の出典の `DataSource.id`。 */
     usedFacilitySourceIds,
+    /** 地図に立てるピン (子育て施設とキーワードの候補)。 */
     pinFeatureCollection,
   };
 }

@@ -53,8 +53,16 @@ export const openPoiSearchResponseSchema = z.object({
 export function openPoiSearchUrl(keyword: string, boundingBox: BoundingBox): string {
   const url = new URL(openPoiSearchEndpoint);
   url.searchParams.set("q", keyword);
+  // 地図を世界規模まで縮小すると表示範囲の経度が ±180 を超え、API が範囲外として 400 を返すため、経度・緯度の範囲に収める
+  const [west, south, east, north] = boundingBox;
+  const clampedBoundingBox = [
+    Math.max(west, -180),
+    Math.max(south, -90),
+    Math.min(east, 180),
+    Math.min(north, 90),
+  ];
   // 小数 5 桁 (約 1 m) で足りる。地図の表示範囲の値をそのまま渡すと桁が長くなり、指数表記になると API が 400 を返す
-  url.searchParams.set("bbox", boundingBox.map((degree) => degree.toFixed(5)).join(","));
+  url.searchParams.set("bbox", clampedBoundingBox.map((degree) => degree.toFixed(5)).join(","));
   url.searchParams.set("limit", String(openPoiSearchLimit));
   return url.toString();
 }
@@ -72,7 +80,12 @@ export async function searchOpenPoi(
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
-  const { count, results } = openPoiSearchResponseSchema.parse(await response.json());
+  const parsedResponse = openPoiSearchResponseSchema.safeParse(await response.json());
+  // 検査の詳細 (zod の長い JSON) は画面のエラー表示に出すには長いため、短い文言にする
+  if (!parsedResponse.success) {
+    throw new Error("応答の形式が想定と違います");
+  }
+  const { count, results } = parsedResponse.data;
   return { facilities: results.filter(isLocatedOpenPoiFacility), isTruncated: count >= openPoiSearchLimit };
 }
 
