@@ -1,0 +1,1844 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131202",
+  "programs": [
+    {
+      "psid": "psid3.0+3000020131202+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "母子健康手帳（母子手帳）の交付",
+      "summary": "医療機関で妊娠の確定診断を受けたら、妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "練馬区に住民登録をしている妊婦さん",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/boshitecho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "小児救急ミニ講座",
+      "summary": "練馬区内の小児科医師による、お子様の救急時の受診の仕方や対処方法などについての講義のほか、受講者との質疑応答を行っています。",
+      "targetPersons": "乳幼児の保護者を中心にどなたでも申し込み可（0～3歳のはじめてのお子様をもつ保護者にオススメです）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/minikouza.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "ブックスタート事業",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "練馬区で4か月児健康診査の対象となる乳児とその保護者（絵本の引き換えは赤ちゃん一人につき１回限り）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.lib.nerima.tokyo.jp/viewer/info.html?id=2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "すくすくアドバイザー",
+      "summary": "子育てに関する「なんでも相談」を受け付け、必要に応じて関係機関へ橋渡しを行います。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/sukusukuadobaiza/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM108",
+      "name": "児童館",
+      "shortName": "ねりまのじどうかん（練馬区立児童館）",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n練馬区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、練馬区サイトでお知らせしています。）",
+      "targetPersons": "0歳から18歳未満までのお子様",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/jidokan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "子ども家庭支援センターでは、子どもと子育て家庭に関するあらゆるご相談に応じ、相談内容に応じた専門機関やサービスの紹介、サービスの調整を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "多胎児家庭の交流会（保健相談所）",
+      "summary": "練馬区内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "保健相談所\n対象者\n妊娠中の方から概ね3歳までのお子さんと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/tataizinokai/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てのひろば【ぴよぴよ・民設子育てのひろば】",
+      "summary": "0歳から3歳の乳幼児とその保護者の方を対象とした、親子で自由に来所できる施設です。\n親子で楽しく遊んだり、保護者同士の交流の場として開放しています。\n予約はいりません。自由に来室してください（開設時間や、休室日は施設ごとに異なります）。",
+      "targetPersons": "0歳から3歳の乳幼児とその保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/asobi/hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに関する相談窓口一覧",
+      "summary": "練馬区内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/20200413.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM119",
+      "name": "練馬区の子育てに関する相談",
+      "shortName": "育児栄養歯科相談（予約制）",
+      "summary": "身長と体重の測定のほかに、育児、食事、歯科などに関するご相談を保健師、管理栄養士、歯科衛生士がお受けします。",
+      "targetPersons": "区内在住の0歳児から3歳児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/ikujieiyo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助費（学校でかかる費用の援助）",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費などを支給します。",
+      "targetPersons": "練馬区内に住所を有し、練馬区立小・中学校（練馬区立以外の国公立※を含む）に在籍する児童・生徒の保護者で、次の要件のいずれかに該当する方。\n※夜間中学校を含みます\n※下記3～6は申請時に該当する方が対象となります。\n\n1．現在生活保護法に定める教育扶助を受給中の方\n2．令和5年度中に生活保護法に定める教育扶助の停止・廃止を受けた方\n3．国民年金の保険料の減免を受けている方\n4．国民健康保険の保険料の減免または徴収の猶予を受けている方　\n5．児童扶養手当の支給を受けている方\n6．令和6年度4月以降に生活福祉資金貸付制度による貸付を受けている方　　　　　　　　　　　　　　　　　　　　　　　　　※令和6年度4月以降に口座へ社会福祉協議会からの入金が確認できること。\n7．令和5年1年間の世帯全員の所得の合計金額（世帯とは、住民登録上の世帯です。保護者の兄弟・父母等が同じ世帯の場合、その方の所得も合算します）が、認定基準所得以下の方〔下表：認定基準所得金額のめやす（参考）〕。\n8．生活の急変（主たる生計維持者の死亡または失業、災害の被害を受けた場合等）が生じた場合には、学務課管理係へご相談ください。\n認定基準所得金額のめやす（参考）－令和6年度における認定基準金額－\n|世帯人数|世帯構成（年齢は、4月1日現在満年齢）|前年中の所得金額<br>（世帯全員の合計額）|\n|:----|:----|:----|\n|2人|母（39歳）・子（9歳）|2,747,931円|\n|3人|父（39歳）・母（39歳）・子（9歳）|3,152,595円|\n|4人|父（39歳）・母（39歳）・子（9歳）・子（5歳）|3,464,199円|\n|5人|父（43歳）・母（43歳）・子（13歳）・子（10歳）・子（7歳）|4,130,502円|\n|6人|父（43歳）・母（43歳）・祖母（69歳）・子（13歳）・子（10歳）・子（7歳）|4,624,818円|\n\n※注釈：これはモデルケースであり、人数が同じでも年齢によって認定基準所得金額が異なります。そのため上記金額を超える場合でも審査を希望される方はご申請ください（なお、適切なご案内のため事前審査はお断りしています）。\n　また認定基準所得金額は、生活保護基準の改定により、年度によって変わります。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/enjo/enjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "生後4か月までの乳児のいる全世帯\n※里帰りで練馬区へ滞在中の方も、ご希望により訪問できます。里帰り先の住所地を担当する保健相談所;https://www.city.nerima.tokyo.jp/shisetsu/hokenfuku/hokensodan/index.htmlまでご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭に助産師・保健師が訪問し、親子の心身の健康状態や養育環境等の状況を伺い、子育て支援に関する情報提供、不安や悩みの相談や助言を行います。支援が必要な場合は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "対象\n生後4か月までの乳児のいる全世帯\n※里帰りで練馬区へ滞在中の方も、ご希望により訪問できます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業　母子ショートステイ（宿泊）",
+      "summary": "お母さんと赤ちゃんが、助産師のいる施設での母子ショートステイ（宿泊）や母子デイケア（日帰り）、産後ケア訪問（助産師による家庭訪問）により、育児相談や授乳相談などを受けることができる事業です。",
+      "targetPersons": "産後ケア事業を利用できる方\n下記に当てはまる方\n\n区から利用承認を受けた方\n練馬区民の方で、産後ケアを必要とする出産後1年未満の母子（ショートステイは概ね生後4か月まで）\n母子ともに医療的な処置が必要のない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/sango-keajigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "特定不妊治療費助成事業",
+      "summary": "練馬区では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": "助成対象者\n||項　　　目|条　　　件|備　　　考|\n|:----|:----|:----|:----|\n|1|都事業の承認|都事業の承認決定を受けていること|都事業に申請し、都から承認決定を受けてから、区事業の申請ができます。<br>※都事業の申請前に、下記6を参照してください。|\n|2|区事業の申請期限|都事業の承認決定日から1 年を超えていないこと<br>※転入・転出予定の方は必ず下記4をご確認ください。|都事業の承認決定日は、「特定不妊治療費助成承認決定通知書（都事業で承認を受けたときの通知）」の右上に記された日付です。<br>都決定日から1 年を越えると申請できません。|\n|3|婚姻関係|治療開始時から区事業申請日現在まで、配偶者と婚姻の届出をしている、または、住民票の続柄に夫（未届）、妻（未届）等の記載があること|〇事実婚の方も対象となります。|\n|4|住民登録|対象者またはその配偶者が、都事業の申請時かつ区事業申請時に練馬区に住民登録を有すること<br>※転入・転出予定の方は必ずご確認ください。|都事業を申請するときと区事業を申請するときとの両方の時期に、夫婦のいずれか一方が練馬区民である方が対象となります。<br>〇事実婚の方は、対象者およびその配偶者の双方が練馬区民である必要があります。|\n|5|他自治体の助成事業との関係<br>（東京都を除く）　|対象者またはその配偶者が、当該特定不妊治療に関して、他の自治体から医療費助成を受けていないこと|夫婦どちらかが、練馬区以外の自治体等の特定不妊治療費助成事業等（ただし都事業の助成は除きます。）の助成を受けている場合は、この事業の対象にはなりません。|\n|6|治療|〇特定不妊治療以外の治療法によっては妊娠の見込みがないか、または極めて少ないと医師に診断されたこと<br>〇都事業における指定医療機関で特定不妊治療を受けていること<br>●「精子を精巣等から採取するための手術」については、都事業における指定医療機関または都指定医療機関から紹介等をされた医療機関で手術を受けたこと<br>※指定医療機関の主治医の指示のもとに行われた治療に限ります。|都指定医療機関で練馬区様式の「特定不妊治療受診等証明書」に証明を受けてください。<br>なお、都事業に提出（申請）する前に、東京都様式の「特定不妊治療費助成事業受診等証明書」の原本（コピー不可）を、練馬区健康部健康推進課母子保健係にご提示いただき、その写しに確認印を受けたものを練馬区様式の「特定不妊治療受診等証明書」に代えることができます。<br>※ご自分でコピーしたものは申請書類とすることができません。<br>詳しくは欄外☆をご参照ください。<br>●「精巣内精子生検採取法等受診等証明書」についても同様。|\n|7|申請回数|助成上限回数を超えていないこと|「助成上限回数」を確認してください。|\n|8|助成金額|医療費が都事業の助成金額を超えていること<br>※医療費とは受診等証明書に記載の領収金額です。|医療費が都助成金以下の場合はご申請できません。<br>「助成上限額」をご確認ください。|\n|9|精子を精巣等から採取するための手術|精子を精巣等から採取するための手術は、特定不妊治療費助成申請と同時に申請すること|精巣内精子生検採取法等による手術および精子凍結の費用は、単独の申請はできません。|\n\n☆既に,東京都へご提出済みの方は,受診等証明書の写しに東京都の確認印のあるものを送付してもらうことができます。詳しくは,東京都ホームページQ&A（その他）をご参照ください。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/funin_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊産婦のための医療給付",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、267日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "練馬区に住民登録がある妊産婦で、かつ妊娠高血圧症候群、糖尿病などで入院治療を受ける方で、前年の世帯の総所得税額が3万円以下の世帯に属する方、または継続する入院見込みが26日以上のいずれかに該当する方。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/ninsanpu_kyufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、世帯主あてに出産育児一時金を支給します。\n出産育児一時金の手続きは３種類あり、医療機関等によって手続きが異なるため、事前に医療機関等にご確認ください。\n社会保険等に加入者本人として１年以上の加入期間があり、資格喪失後６か月以内の出産の場合は、社会保険等からの支給を選択できます。\n出産時に職場の健康保険に加入している方は、保険証をご確認のうえ、ご加入の健康保険組合等にお問合せください。",
+      "targetPersons": "国民健康保険に加入している方が出産したときは、世帯主あてに出産育児一時金を支給します。\n（妊娠85日以上で死産、流産した場合も含みます）",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/nenkinhoken/kokuminkenkohoken/hoken_kyufu/shussan_shikyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティストラップ",
+      "summary": "練馬区では、妊娠の届出の際に、母子健康手帳と共にマタニティマーク入りストラップをお渡ししています。",
+      "targetPersons": "練馬区に住民登録をしている妊婦さん",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/boshitecho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "福祉資金の貸付（生活福祉資金）",
+      "summary": "所得の少ない世帯や障害者のいる世帯などに対して、分娩入院経費および出産に伴って必要となる経費の貸付を行います。（貸付には条件があります。）",
+      "targetPersons": "所得の少ない世帯、障害者や介護を要する高齢者のいる世帯が対象となります。\n※各資金には、それぞれに貸付の条件・基準が定められています。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/komatta/hukusisikinn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM21",
+      "name": "出産祝い",
+      "shortName": "第3子誕生祝金",
+      "summary": "今回出生した子どもを含めて３人以上の18歳に達した年度の末日までの子どもと同居している保護者で、第３子以降の子どもの出生日の１年以上前から区内に居住し、祝金を受給した後引き続き１年以上、第３子等の子どもを含む子どもとともに区内に居住する意思がある人を対象に、第３子以降の子ども１人につき10万円を支給する。",
+      "targetPersons": "練馬区内に住所を有し、第3子以降のお子さんを出生した保護者の方で、次のすべてに該当する父または母。\n\n（1）今回、出生した第3子以降のお子さんを含めた児童（18歳に達する日以後の最初の3月31日までのお子さん）と同居し養育している\n（2）保護者および児童が第3子以降のお子さんの出生日の1年以上前から練馬区内に住民登録をしている\n　　（1年未満の場合は、練馬区に転入した日から1年以上経過すれば申請できます。）\n（3）祝い金を受給された後引き続き1年以上、第3子以降の児童を含む児童とともに練馬区内に居住する意思がある\n\n※注釈1：里帰り出産などのため練馬区外にお子さんの住民登録をされる場合、祝金の申請はできません。\n※注釈2：外国人世帯については、在留資格のある方。ただし、在留期間が短く、生活の本拠が日本国内にあると認められない場合を除きます。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/shussan/iwaikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "こども商品券",
+      "summary": "練馬区では、多胎児がいる世帯にタクシーなどで使用できる「こども商品券」を交付します。",
+      "targetPersons": "練馬区民で3歳未満の多胎児を同一世帯で養育する保護者",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/tataijisetaiidouhiho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子ども医療費の助成（マル乳・マル子・マル青医療証）",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "健康保険に加入している区内在住の高校生年代まで（18歳になった後の最初の3月31日まで）の子ども\n\n小学校就学前の乳幼児にはマル乳医療証を、小学校1年生から中学校3年生までの児童にはマル子医療証を発行します。また、中学校卒業後から高校生年代までのお子さんにはマル青医療証を発行します。いずれも助成内容は同じです。保護者の所得制限はありません。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2366",
+      "name": "高等学校卒業程度認定試験合格支援事業給付金",
+      "shortName": "ひとり親家庭高等学校卒業程度認定試験合格支援",
+      "summary": "ひとり親家庭の就職や転職の可能性を広げ、自立につなげていくため、ひとり親家庭の親またはお子さんが高卒認定試験合格のための講座（通信講座を含む）を受け、これを修了した時および合格したときに受講費用の一部を支給します。",
+      "targetPersons": "練馬区内に住所を有し、20歳未満の児童を扶養しているひとり親家庭の親または児童（児童の場合は修了時および合格時において20歳未満であること）のうち、次のすべてにあてはまる方\n（1）児童扶養手当を受給しているか、同様の所得水準であること\n\n（2）就業経験、技能、資格の取得状況や労働市場の状況から判断して、高卒認定試験に合格することが、適職に就くために必要であると認められること\n（3）過去にこの制度を利用していないこと\n（4）大学入学資格を持っていないこと（高等学校卒業者、大学入学資格検定合格者、高卒認定試験合格者でないこと）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/nintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "【施設等利用給付認定ほか】保育の必要性の認定申請",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "・幼稚園（練馬こども園含む）の預かり保育を利用中（予定）の方\n・認定こども園（1号利用）の預かり保育を利用中（予定）の方\n・認証保育所、認可外保育施設（企業主導型を除く）を利用中（予定）の方\n・一時預かり事業、短期特例保育事業、病児保育事業、ファミリーサポート事業を利用中（予定）の方\n\n※幼稚園、認定こども園（1号利用）の教育時間のみ利用中（予定）の方は、幼稚園・認定こども園の無償化について　;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienmusyouka.htmlのページをご参照ください。\n※企業主導型保育事業を利用中（予定）の方は、教育・保育給付認定の申請が必要です。以下の「教育・保育給付認定（第2号認定・第3号認定）の申請」のとおりお手続きください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/youhomusyou/mushoukanintei.html#cms019DF",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化　1　認可保育所・地域型保育事業",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3歳から5歳までの全ての子ども、および0歳から2歳までの住民税非課税世帯の子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/shinshien/youhomusyou/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "【練馬区民の方向け】練馬区外認可保育園等の利用申込み",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：練馬区内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、練馬区内の認可保育所への入所を希望する場合",
+      "targetPersons": "練馬区民の方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kangai-nerimakugai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設（ベビーホテル、企業主導型保育施設等）",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/ninnkagai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/oshirase/jitesinseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッター利用支援事業（一時預かり利用支援）",
+      "summary": "ベビーシッターを利用した児童の保護者に対して、練馬区ベビーシッター利用支援事業（一時預かり利用支援）補助金を交付することにより、保護者の負担軽減を図り、もって保護者の多様な保育ニーズに応えるとともに、ベビーシッターを安心して利用できる環境を整備することを目的とします。",
+      "targetPersons": "ベビーシッターを利用した日において、対象児童と同居し、練馬区の住民基本台帳に記録されている、つぎのいずれかに該当する方\n\n1．日常生活上の突発的な事情や社会参加などにより一時的にベビーシッターによる保育を必要とする保護者\n※保護者の残業や病気、自己実現、リフレッシュ、学校行事等、幅広い理由でご利用いただけます。\n\n2．ベビーシッターを活用した共同保育を必要とする保護者\n※保護者とベビーシッターが一緒に保育をする場合が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/babysitter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "下記のいずれかの状態にある18歳になった最初の3月31日までの児童（注釈1）を養育している保護者の方。\n\n父母が婚姻を解消した\n父または母が死亡した\n父または母が重度の障害（障害年金1級受給中の方や、身体障害等級1・2級同程度）の状態にある\n父または母が生死不明\n父または母が児童を1年以上遺棄している\n父または母が法令により1年以上拘禁されている\n母が婚姻によらないで出生し、父または母と生計を異にしている\n父または母が裁判所からDV保護命令を受けた\n注釈1：中度以上の障害のある児童は20歳の誕生日の前日まで対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/fuyoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成（マル親医療証）",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次のいずれかに該当する18歳になった最初の3月31日までの児童と、その児童を養育している保護者で所得が一定額未満の方\n\n父または母が離婚した後、父または母と生計を異にする児童\n父または母が死亡した児童\n父または母が重度の障害（身体障害等級1・2級と同程度）を有する児童\n父または母が生死不明である児童\n父または母に1年以上遺棄されている児童\n父または母が法令により1年以上拘禁されている児童\n婚姻によらないで出生し、父または母と生計を異にする児童\n父または母が裁判所からのDV（配偶者からの暴力）保護命令を受けた児童\n※注釈1：中度以上の障害のある児童は20歳の誕生日の前日までとなります。\n※注釈2：ひとり親医療証を交付された世帯の中で、子ども医療証（マル乳・マル子・マル青）をお持ちのお子様・心身障害者医療費助成（マル障）等の医療証をお持ちの方がいる場合はそちらが優先します。\n※注釈3：医療証の資格開始日は原則交付申請をした日からとなります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/hitorioya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "福祉資金の貸付（東京都母子及び父子福祉資金）",
+      "summary": "母子家庭の母、父子家庭の父等の経済的自立や、扶養している\nお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "ひとり親家庭の母または父等で、つぎのすべてに当てはまる方\n（1）20歳未満のお子さんを扶養していること\n＊注釈：20歳以上のお子さんのために利用されたい場合も、世帯で20歳未満のお子さんを扶養していれば貸付を利用できます。\n（2）都内に6か月以上居住していること\n（3）貸付が自立につながると判断され、償還の計画を立てることができること\n（4）同種の資金を国、地方公共団体、その他の者から借り受けていないこと\n（5）資金の種類や母または父の収入状況によっては、連帯保証人が立てられること",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/komatta/boshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児のための養育医療給付",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税特別区民税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "対象（以下の条件にすべて該当する方）\n（1）出生時の体重が2,000グラム以下、または生活力が特に弱く、指定養育医療機関に入院している方\n（2）医師が入院養育を必要と認めた方\n（3）練馬区に住民登録のある方\n（4）満1歳未満の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/mijukuji_kyufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母 （ご本人が署名してください）\n父母連名で届け出ることもできます （お二人の署名・生年月日をお書きください）。\n父または母が届け出ることができないときはお問い合わせください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/koseki/todokede/shussei25.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "赤ちゃん準備教室（沐浴体験コース）",
+      "summary": "練馬区では、初めてお母さん・お父さんになられる方を対象に、妊娠・子育て相談を開催しています。",
+      "targetPersons": "区内在住の妊婦さん、パートナーまたは家族\n（注釈）1組最大2名まで参加可",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/junbi-mokuyoku/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "ねりま子育て応援ハンドブック",
+      "summary": "練馬区の子育て情報を1冊にまとめた「ねりま子育て応援ハンドブック」を発行しています。妊娠中から子育て中に知っておきたい制度や各種手続き、相談窓口、保育施設の案内等をまとめた冊子です。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/kosodatehandbook.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM40",
+      "name": "助産制度",
+      "shortName": "出産費用の助成（入院助産）",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、練馬区の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "保健上必要があるにもかかわらず、経済的な事情で入院して出産することができない場合で、指定の病院・産院へ入院し出産する方。\n所得制限などがあります。\n詳しくはお問い合わせください",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/shussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "練馬区夜間救急こどもクリニック",
+      "summary": "急病などで直ちに内科的な応急処置を必要とする小児科の医療機関です。必ず保護者の方と一緒に来院してください。",
+      "targetPersons": "15歳以下のお子様",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryokikan/kyujitsu/kodomo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM47",
+      "name": "練馬区の妊娠・出産に関する相談",
+      "shortName": "2か月児相談",
+      "summary": "保健相談所では、生後2～3か月の乳児と保護者を対象としたグループによる相談や交流を行っています。また、保健師・助産師・管理栄養士によるお話もあります。",
+      "targetPersons": "区内在住の生後2～3か月の乳児と保護者（4か月児健診前まで）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/nikagetsuji_soudan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "4か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として４か月児健康診査を実施しています。",
+      "targetPersons": "生後4か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/kenkoshinsa_0_4/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6か月児健康診査を実施しています。",
+      "targetPersons": "区内在住の生後6か月から7か月児（生後6か月になる日から8か月になる日の前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/6kagetuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5009",
+      "name": "産婦健康診査の費用助成",
+      "shortName": "妊婦健康診査費用助成",
+      "summary": "産後の初期段階における母子に対する支援を強化し、妊娠期から子育て期にわたる切れ目のない支援を行うため、出産後間もない時期の産婦に対する健康診査費用を助成します。産婦健康診査は産後2週間、産後１か月など出産後間もない時期の産婦向けの健康診査で、母体の身体的機能の回復や授乳状況、精神状態の把握を行います。",
+      "targetPersons": "妊婦さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/kenkoshinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査費用の一部を助成",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "赤ちゃんが生後50日に達する日までに受けた新生児聴覚検査（自動ABR方式・OAE方式）初回費用\n※保険適用外（自費）の検査であること",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/sinseijicyoukaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "練馬区出産・子育て応援事業（伴走型相談支援）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊娠届出時\n妊娠8か月頃\n出産後",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/shussan/20230110.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "練馬区出産・子育て応援事業（経済的支援）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "出産応援ギフト\n妊娠届を提出した妊婦で、「妊婦面談」を受けた方\n子育て応援ギフト\n出生した児童を養育する方で、「こんにちは赤ちゃん訪問」を受けた方\n※申請時点で、原則練馬区に住民登録があることが支給の条件です。\n※出産応援ギフト・子育て応援ギフトは、どちらも複数の市区町村から二重に受けとることはできません。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/shussan/20230110.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5027",
+      "name": "母子家庭等就業・自立支援センター",
+      "shortName": "ひとり親家庭の支援",
+      "summary": "ひとり親家庭の親等に対し、就業相談から就業情報の提供等までの一貫した就業支援サービスや、養育費の取り決めなどに関する専門相談など、生活支援サービスを提供します。",
+      "targetPersons": "ひとり親家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "ひろば事業（児童放課後等居場所づくり事業,ねりっこひろば）",
+      "summary": "地域住民の参画を得て、放課後等に主に当該小学校に在籍し、事前に登録した児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "ねりっこひろばは、実施校の全児童で事前登録した児童および、実施校のねりっこ学童クラブ入会児童が対象です。\n学校応援団によるひろば事業は、当該小学校に在学し、事前登録した児童が対象です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/nerikkoclub/index.html,https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/nerikkoclub/gaiyou.html,https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/oendan/hirobadukuri.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間にかかる保険料の減額",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が減額されます。",
+      "targetPersons": "令和5年11月以降に、出産した方（※1）もしくは出産予定で練馬区国民健康保険に加入している方（※2）。\n※1出産とは、妊娠85日（12週）以上の分娩をいい、死産、流産、早産及び人工妊娠中絶を含みます。\n※2出産した被保険者のみ減額の対象です。その他の世帯員は対象になりません。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/nenkinhoken/kokuminkenkohoken/hoken_hokenryo/sannzennsanngo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "こども食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/oshirase/map.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療費助成制度（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "下記の1から4までの条件をすべて満たす方\n\n1．満18歳未満の児童で身体に機能障害があり、手術等により確実な治療効果が期待できること\n2．指定自立支援（育成医療）医療機関で治療していること\n3．保護者が練馬区に住所を要していること\n4．世帯の区市町村民税所得割額が23万5千円未満であること\n注記1：区市町村民税所得割額が23万5千円以上の方は原則として助成対象外ですが、「重度かつ継続」に該当する場合は経過措置（令和6年3月31日まで）により対象となります。重度かつ継続の対象範囲は以下のとおりです。\n\n障害の種類で対象となる方：腎臓機能障害、小腸機能障害、心臓機能障害（心臓移植後の抗免疫療法に限る）、肝臓機能障害（肝臓移植後の抗免疫療法に限る）、免疫機能障害\n医療保険の高額療養費多数該当の方：申請前の12か月に3か月以上の高額療養費の支給実績がある場合\n注記2：世帯の区市町村民税所得割額は、平成24年から適用された扶養控除の見直しについてできるだけ影響がないよう調整します。\n\n　自立支援医療（育成医療）の支給を申請される方へ（PDF：277KB）;https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/jiritsushien_ikusei.files/ikusei.pdf",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/jiritsushien_ikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "副食費",
+      "summary": "練馬区では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "幼児教育・保育無償化以降の3歳から5歳児クラス",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "保育園・幼稚園・小中学校・学童クラブにおける医療的ケア児支援方針",
+      "summary": "保育所等において看護師等を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": "医療的ケア児",
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kusei/keikaku/shisaku/kyoiku/data.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査（内科・歯科健診）",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。練馬区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月から7か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/kenkoshinsa_1_half/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。練馬区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。併せて、育児、食事、発達、歯みがきなどのご相談もお受けします。",
+      "targetPersons": "3歳1か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/kenkoshinsa_3/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/yobo/kodomo_yobo/teiki/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち練馬区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/yobo/kodomo_yobo/ninni/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM576",
+      "name": "児童遊園",
+      "shortName": "公園等一覧",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n練馬区の児童遊園の一覧は、練馬区サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/nerima_park/kunai/kouen-itiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "バースデーサポート事業",
+      "summary": "1歳になるお子さんがいるご家庭に、子育てに関するアンケートや情報提供を行っています。アンケートに回答した方にはギフトを贈呈します。",
+      "targetPersons": "令和5年4月1日以降に1歳の誕生日を迎えるお子さんのいるご家庭で、以下のいずれも満たす場合\n1.満1歳に達する時点で練馬区に住所のあるお子さん\n2.1のお子さんと住所が同一の保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/birthdaysupport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "ひとり親家庭自立支援教育訓練給付金",
+      "summary": "ひとり親家庭の父または母が、就労に役立てるため、区の指定を受けて教育訓練講座を受講した場合に、本人が負担した受講費の一部を支給します（上限・下限あり）。",
+      "targetPersons": "練馬区内に住所を有するひとり親家庭の父または母で、つぎのすべてに当てはまる方\n\n児童扶養手当の支給を受けているか、同様の所得水準にあること\n就業経験、技能、資格の取得状況や労働市場の状況から判断して、教育訓練を受けることが、適職に就くために必要であると認められること\n過去にこの給付金を受給していないこと\n練馬区暴力団排除条例に規定する暴力団関係者でないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/jiritsushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査費用助成",
+      "summary": "妊婦健康診査は、妊婦さんや赤ちゃんの健康状態を定期定期に確認するために実施します。妊婦健康診査は、一般的に出産までに14回程度受診するのが望ましいとされていますが、健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽減するため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "練馬区に住民登録をしている妊婦さん",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/kenkoshinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金",
+      "summary": "就労に結びつきやすい資格を取得するために養成機関で受講する際、その受講期間（上限あり）中に促進給付金を支給します。さらに修了した方には修了支援給付金を支給します。対象は、20歳未満の子どもを扶養しているひとり親家庭の父または母です。",
+      "targetPersons": "練馬区内に住所を有し、20歳未満の子どもを扶養しているひとり親家庭の父または母で、つぎのすべてに当てはまる方\n（1）児童扶養手当の支給を受けているか、または同様の所得水準にあること\n（2）養成機関において6か月以上の課程を受講し、対象資格の取得が見込まれること\n　※受講期間の緩和措置により、6か月以上の課程を受講するものが対象となります。\n（3）就業または育児と修業の両立が困難と認められること\n（4）過去にこの高等職業訓練促進給付金の給付を受けたことがないこと\n（5）求職者支援制度における職業訓練受講給付金や雇用保険法第24条に定める訓練延長給付等、高等職業訓練促進給付金等事業と趣旨を同じくする給付を受けていないこと\n（6）原則、通学またはオンライン（インターネット環境を利用し、同時かつ双方向に行われるもの）で受講すること\n（7）練馬区暴力団排除条例に規定する暴力団関係者でないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/kateikotogino.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "養育費の取り決めに関する費用の助成",
+      "summary": "養育費とは、子どもが経済的・社会的に自立するまでの生活や教育などに必要な費用です",
+      "targetPersons": "公正証書の作成や家庭裁判所の調停等の費用助成\n下記の（1）から（3）のすべてに当てはまる方\n（1）練馬区在住の方\n（2）ひとり親家庭の方、または離婚協議中で離婚後に子を扶養する予定の方\n（3）養育費の取決めに関する強制執行認諾条項付きの公正証書、調停調書、判決書等を作成または取得した方\n\nADR（裁判外紛争解決手続）の費用助成\n練馬区在住で、ひとり親家庭の方または離婚協議中で、離婚後に子を扶養する予定の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/youikuhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "下記のいずれかに該当する程度の障害（注釈1）のある20歳未満の児童を養育している方。\n申請者・配偶者・扶養義務者（注釈2）に所得制限があります。\n\n身体障害\n　　おおむね身体障害者手帳1～3級程度（下肢障害については4級の一部を含む）\n　　疾患により長期にわたる安静を必要とする程度の状態にあるものなど\n\n知的障害\n　　おおむね愛の手帳1～3度程度\n\n精神障害\n　　上記と同程度の障害（自閉スペクトラム症等により日常生活に著しい制限を受ける方等）\n\n重複障害\n　　複数の障害がある場合は、個々の障害の程度が上記より軽度な場合でも該当となることがあります。\n\n注釈1：詳細は、下記「障害程度基準表」をご覧ください。\n注釈2：扶養義務者とは、申請者と同居している父、母、兄弟姉妹、祖父母、子供、孫などの親族の方です。同居している親族の方（対象児童を除く）は、住民票上別世帯であっても扶養義務者となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/tokubetujidoufuyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当（国制度）",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "20歳未満で身体または精神に重度の障害があるため、日常生活において常時介護を必要とする状態で、手当の判定基準に該当する方\n（専用の診断書による判定があります。）",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/shogaiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成制度（東京都制度）",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "以下の2つの条件を満たす方\n\n申請者が都内に在住（住民登録がされていること。）している満18歳未満の方\n対象疾病にかかっており、かつ、別に定める認定基準に該当する方\n注釈：既に医療券の交付を受けている方（認定されている方）で、18歳以降も継続して医療を受ける場合（一部の疾病を除く）は、満20歳まで延長できます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/shonimanseishikkan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "出産費用の助成（入院助産）",
+      "summary": "入院費用の全部または一部を助成します。出産前の申請が必要です。",
+      "targetPersons": "保健上必要があるにもかかわらず、経済的な事情で入院して出産することができない場合で、指定の病院・産院へ入院し出産する方。\n所得制限などがあります。\n詳しくはお問い合わせください",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/shussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "心身障害者福祉手当（区制度）",
+      "summary": "難病や心身に障害がある方に、心身障害者福祉手当を支給しています。",
+      "targetPersons": "練馬区内に住所のある方で、次のいずれかの障害がある方\n（1）身体障害者手帳1・2級\n（2）愛の手帳1～3度\n（3）脳性まひまたは進行性筋萎縮症\n（4）区の指定する難病の方で難病医療費助成の受給者証をお持ちの方\n（5）小児慢性特定疾病医療費助成の受給者証をお持ちの方で区の指定する難病の方\n　　　　　　※病名が異なる場合がありますので詳しくはお問い合わせください。\n\n　指定難病一覧（PDF：1,067KB）;https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/shinshin_fukushi.files/060401nanbyo.pdf\n\n　　（注釈）令和6年4月1日から指定難病に追加がありました。\n\n（6）身体障害者手帳3級\n（7）愛の手帳4度\n（8）精神障害者保健福祉手帳1級\n\n（注釈）（8）については保健予防課精神保健係または保健相談所で受付を行います。\n　　・保健予防課精神保健係（練馬区役所東庁舎7階）\n　　（直通）03-5984-4764\n\n保健相談所;https://www.city.nerima.tokyo.jp/shisetsu/hokenfuku/hokensodan/index.html",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/shinshin_fukushi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM68",
+      "name": "遺児等福祉手当",
+      "shortName": "育成手当",
+      "summary": "子どもの保護者が練馬区在住で、条例に定める所得要件を満たし、下記の子どもを養育する方にそれぞれの手当を支給する。ただし、子どもが施設に入所している場合は除く。\nア　育成手当：18歳に達した年度の末日までの子どもで、父または母が死亡・離婚・未婚・行方不明等、あるいは父または母に重度の障害がある場合に支給\nイ　障害手当：心身に一定程度の障害（身体障害者手帳１～２級程度、愛の手帳１～３度程度、脳性マヒまたは進行性筋萎縮症）がある20歳未満の方の保護者に支給",
+      "targetPersons": "下記のいずれかの状態にある18歳になった最初の3月31日までの児童を養育している保護者の方。\n　なお、所得制限があります。\n\n父または母が離婚した\n父または母が死亡した\n父または母が重度の障害（身体障害等級1・2級と同程度）の状態にある\n父または母が生死不明\n父または母が児童を1年以上遺棄している\n父または母が法令により1年以上拘禁されている\n母が婚姻によらないで出生し、父または母と生計を異にしている\n父または母が裁判所からのDV保護命令を受けた児童\n　ただし、下記の場合は手当を受給できません。\n\n児童が児童福祉施設等に入所したり、里親に預けられたりしたとき\n父または母が事実上の婚姻状態（※注釈）にあるとき　\n父母または養育者の住所が国内にないとき\n※注釈：事実上の婚姻状態とは、社会通念上夫婦としての共同生活が認められる事実関係が存在する状態のことです。同居（住民票上同住所も含む。ただし、シェアハウス等に居住する場合は、生活実態等を総合的に勘案し判断します。）している、または同居をしていなくとも頻繁な定期的訪問かつ定期的な生計費の補助を受けている場合は、事実上の婚姻状態にあたります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/ikuseiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産等妊婦健康診査費",
+      "summary": "練馬区にお住まいの妊婦さんが、里帰り出産などで練馬区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。自費で受診して、妊婦健康診査受診票・新生児聴覚検査受診票が未使用のまま残った方に費用の一部を助成（償還払い）します。",
+      "targetPersons": "下記1～6の条件すべてを満たす方が対象となります\n  ||条件|備考|\n|:----|:----|:----|\n|1|練馬区在住時（注釈1）に受診していること|練馬区外から転入された方は、転入日以降の受診分が対象となります。|\n|2|受診票を使用できない助産所、都外医療機関などで受診していること|都内の契約医療機関と埼玉県の一部の契約医療機関（注釈2）では、練馬区の受診票が使用できます。<br>受診票が使用できる医療機関で受診した場合は助成対象外です。また、日本国外で受診した場合も助成対象外です。|\n|3|受診票が未使用のまま残っていること|助産所または都外医療機関で受診した場合でも、交付された受診票をすでにすべて使用している場合は助成対象外です。|\n|4|出産日から1年を超えていないこと|出産日から赤ちゃんが1歳になる前日までに、まとめて1度に申請してください。（注釈3）|\n|5|確定申告の医療費控除を受けていないこと|確定申告の医療費控除を予定している方は、この助成を受けた後に確定申告をしてください。これは決定された助成額を差し引いた額が医療費控除の対象額となるためです。すでに全額医療費控除として申告した場合は助成対象外になります。|\n|6|新生児聴覚検査については、生後50日に達する日までに受診した初回検査であること|検査費用がかからない場合や、健康保険で実施している場合は対象外です。|\n\n注釈1：練馬区在住の方とは、練馬区に住民登録をしている方です。\n注釈2：練馬区に隣接する新座市・和光市・所沢市の一部の契約医療機関では練馬区発行の受診票が使用できます。詳しくは母と子の保健バッグの中にある「＜受診票＞妊婦健康診査・新生児聴覚検査」をご覧ください。\n注釈3：練馬区を転出される方は、転出する前に申請ができます。転出後の受診分については、転出先の自治体へお問い合わせください。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/02satogaeri.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "教育・保育給付認定",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の利用を希望するもの",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/hituyo-syorui.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料の負担軽減制度　ひとり親世帯",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "ひとり親世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "申込みから利用までの流れ",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/sinsei-riyo-nagare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "練馬こども園のご案内および施設案内",
+      "summary": "区独自の幼保一元化施設として、通年(夏・冬・春休みも含む)で長時間保育を実施する私立幼稚園(認定こども園を含む)を「練馬こども園」として認定しています。練馬こども園は、11時間の預かり保育(標準型)、９時間以上の預かり保育(短時間型）、０～２歳児の預かり保育（低年齢型）を実施しています。子供の教育や保育について選択の幅が広がり、共働き家庭等も利用しています。認定された私立幼稚園は、認証保育所等との提携や教育・保育の質のさらなる向上（研修や職員交流）に取り組んでいます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/nerimakodomoen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "小規模保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。練馬区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "練馬区に保育の必要性の認定を申請し、3号（保育認定）と認定された健康な児童\n※保育認定については、「保育の必要性の認定について;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikushikyuunintei.html」をご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/syoukibo-hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "練馬区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "延長保育の対象となる児童（次の二つともあてはまることが必要です）\n（1）　延長保育を実施している保育園等の在園児、または入園が内定した児童\n（2）　保護者の勤務時間・通勤時間等により延長保育の時間帯に保育を必要とする児童\n※障害児保育対象児については、区立保育園の直営園および運営業務委託園において夕1が対象です（詳細は『保育利用のご案内』P.39をご確認ください）。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/shisetsu/kodomo/hoikuenlist/enchou-hoiku.html#cms1B6E8",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM78",
+      "name": "障がい児保育",
+      "shortName": "配慮を必要とする児童の保育（障害児保育）",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "保育の必要性があり、かつ、集団保育をすることが可能なお子さん",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kenkou-syougai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "（次の4つともあてはまることが必要です）\n1.同居している保護者すべてが月12日4時間以上の就労を常態とし、日曜日・祝日に就労している家庭の児童（産休中、育児休業中の場合は利用できません。）\n2.練馬区に在住し、利用希望月中に認可保育園、認定こども園、地域型保育事業、練馬こども園、1歳児1年保育等、認証保育所、企業主導型保育園に在園している児童、または練馬区外に在住し、利用希望月中に練馬区内の同保育施設等に在園している児童\n3.休日保育の利用月の初日に1歳の誕生日を迎えている児童（0歳児クラスの利用定員は1人までです）\n4.利用希望月1日時点で保育の必要性の認定を受けていること\n休日保育は、通常の保育とは職員体制が異なります。面接・健康診断の結果、休日保育の職員体制では集団生活が難しいと判断された場合はご利用いただけません。健康状況にご不安な点がある場合は、事前に希望される保育園へご相談ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/shisetsu/kodomo/hoikuenlist/kyujitu-hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM781",
+      "name": "夜間保育",
+      "shortName": "子どもトワイライトステイ（夜間一時保育）",
+      "summary": "保護者が入院や通院、出張や残業などの理由で、平日の夜間や休日に一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設等でお預かりします。",
+      "targetPersons": "（1）練馬区在住で集団保育が可能なお子さん\n※お子さんが疾病等の場合はご利用いただけません。\n（2）対象年齢\n　　　2歳から12歳（小学生）まで\n※　東京都石神井学園は17歳まで",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/twilightstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ（短期入所）",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "練馬区在住で集団保育が可能なお子さん\n※お子さんが疾病等の場合はご利用いただけません。\n※施設等により対象年齢等が異なります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/shortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM783",
+      "name": "トワイライトステイ（夜間養護等事業）",
+      "shortName": "子どもトワイライトステイ（夜間一時保育）",
+      "summary": "保護者が入院や通院、出張や残業などの理由で、平日の夜間や休日に一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設等でお預かりします。",
+      "targetPersons": "（1）練馬区在住で集団保育が可能なお子さん\n※お子さんが疾病等の場合はご利用いただけません。\n（2）対象年齢\n　　　2歳から12歳（小学生）まで\n※　東京都石神井学園は17歳まで",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/twilightstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "育児支援ヘルパー",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "妊娠中からお子さんが2歳になった月の末日まで",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/helper.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者の就労等により主に放課後の時間帯に保育を必要とする児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/gakudo/gakudo_gaiyou_2404.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生通知（はがき）を記入して、郵送または管轄の保健相談所の窓口に提出してください。出生通知票をもとに、「こんにちは赤ちゃん訪問事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生通知票はその届出を兼ねています。",
+      "targetPersons": "練馬区に住民登録をしている妊婦さん",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/boshitecho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM792",
+      "name": "乳幼児の歯の健康診査（1歳6か月児歯科健康診査）",
+      "shortName": "1歳6か月児健康診査（歯科健診）",
+      "summary": "奥歯が増えるなど、歯の本数が増え、歯みがきや健康的な食事の習慣をつくっていく時期です。歯科健診、育児相談、栄養相談、発達相談がお受けいただけます。",
+      "targetPersons": "1歳6か月から7か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/kenkoshinsa_1_half/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の免除制度（年金）",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "産前産後期間に「国民年金第1号被保険者」であり、出産日が平成31年2月1日以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/nenkinhoken/kokuminnenkin/nenkin_tetsuzuki/nenkin_hokenryo/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "赤ちゃんからの飲む食べる相談",
+      "summary": "0歳から1歳過ぎのお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "区内在住の0歳から1歳過ぎまでのお子さんと保護者。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/nomutaberu/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "練馬区の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊産婦歯科健康診査",
+      "summary": "練馬区では、妊産婦さんのお口の健康のために、無料の歯科健康診査を実施しています。妊娠中、体調の良い時期（妊娠安定期など）や産後に歯科健診を受けましょう。",
+      "targetPersons": "妊娠中から産後1年未満の方間に、1回無料で受診できます。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkoshinsa/ninsanpushikakenshin/ninpusikakensinn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立幼稚園の紹介",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/kurituyoutienshoukai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃんスポット",
+      "summary": "練馬区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設のほか民間施設の協力を得て「おむつ替え」や「授乳」ができる赤ちゃんスポットを整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも県内の民間施設を含めて同事業を実施しており、指定施設には、入り口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "子育て中の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/asobi/akachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "子育て世代や妊婦の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/kosooutokyopassport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（0歳・1歳・2歳児クラス）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "0歳・1歳・2歳児クラス",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育事業",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/shisetsu/kodomo/syoukibo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "事業所内保育事業",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/shisetsu/kodomo/shisetsu_jigyousho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "幼稚園預かり保育の無償化",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": "幼稚園（認定こども園1号を含む）に通い、「保育の必要性の認定」（注釈）を受けた子ども。\n（注釈）保育の必要性の認定とは、就労（月12日以上、かつ1日4時間以上の就労が常態である）等の要件を満たしていることをいいます。具体的な認定要件や認定に必要な書類については、下記を参照ください。\n\n　保育の必要性の認定の内容および必要な書類（PDF：5KB）;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienazukarihoiku.files/hoikuninntei.pdf",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienazukarihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費助成（精神通院）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として通院している方",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/jiritsushien_byoin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "生まれた日を含めて58日目から小学校就学前までの集団保育可能なお子さんです。\n※原則、練馬区在住に限ります。\n※利用年齢は各園毎に異なります。ご利用になりたい保育園へ直接お問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/ichijiazukari301130.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM841",
+      "name": "ひとり親家庭高等職業訓練促進資金貸付",
+      "shortName": "ひとり親家庭高等職業訓練促進等給付金",
+      "summary": "高等職業訓練促進給付金を活用して、養成機関に修学し、就職に有利な資格の取得を目指すひとり親家庭の親に対し、入学準備金および就職準備金の貸し付けを行っています。",
+      "targetPersons": "練馬区内に住所を有し、20歳未満の子どもを扶養しているひとり親家庭の父または母で、つぎのすべてに当てはまる方\n（1）児童扶養手当の支給を受けているか、または同様の所得水準にあること\n（2）養成機関において1年以上の課程を受講し、対象資格の取得が見込まれること\n　※受講期間の緩和措置により、6か月以上の課程を受講するものが対象となります。\n（3）就業または育児と修業の両立が困難と認められること\n（4）過去にこの高等職業訓練促進給付金の給付を受けたことがないこと\n（5）求職者支援制度における職業訓練受講給付金や雇用保険法第24条に定める訓練延長給付等、高等職業訓練促進給付金等事業と趣旨を同じくする給付を受けていないこと\n（6）原則、通学またはオンライン（インターネット環境を利用し、同時かつ双方向に行われるもの）で受講すること\n（7）練馬区暴力団排除条例に規定する暴力団関係者でないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/kateikotogino.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後6か月から10歳未満で以下のいずれかに当てはまるお子さんが対象です。\n（1）保育所などに通所する区内在住の児童\n（2）区内保育所などに通所する児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/byougoji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリーサポート（育児支えあい）",
+      "summary": "練馬区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、【援助会員】が【利用会員】に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "練馬区民で、生後58日から小学6年生までの児童の保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/familysupport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育園　マップおよび一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、練馬区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/shisetsu/kodomo/hoikuenlist/map_large.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "練馬区内の認可外保育施設(認証保育所、居宅訪問型保育事業除く)",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、練馬区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/ninnkagai.files/ninkagaishisetuitiran.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭的保育事業（保育ママ）",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、練馬区が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": "練馬区に保育の必要性の認定を申請し、3号（保育認定）と認定された健康な児童\n※保育認定については、「保育の必要性の認定について;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikushikyuunintei.html」をご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/kateitekihoiku/hoikumama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "私立幼稚園案内",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、練馬区内の区立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/shiritsu_annai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私立幼稚園案内",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、練馬区内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/shiritsu_annai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "練馬こどもカフェ",
+      "summary": "区と協定を締結した事業者から、区内において営業する民間カフェ等のスペースの一部の提供を受け、保護者が交流したり、子供と一緒にリラックスできる場を提供するとともに、地域の幼稚園教諭や保育士、栄養士、看護師等を派遣し、子育て講座等を実施する事業です。令和元年６月から開始しました。在宅子育て世帯への支援の充実を図るとともに、地域全体で子育てを支え合う環境づくりを推進します。",
+      "targetPersons": "在宅で子育てをしているご家庭の未就学のお子さんと保護者が対象です。\n（各回毎に、主な対象となるお子さんの年齢が異なります。）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/asobi/kodomo_cafe.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "外遊び型子育てのひろば「おひさまぴよぴよ」",
+      "summary": "公園の中で自然とふれあいながら親子で交流できる遊び場です。相談員が子育てに関する相談も受けています。お気軽にご参加ください。",
+      "targetPersons": "３歳以下のお子さんと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/asobi/ohipiyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "多胎児家庭の交流会（多胎児家庭の交流会）",
+      "summary": "練馬区内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "地域子ども家庭支援センター\n対象者や内容、申込方法など詳しくは、各施設にお問合せください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/tataizinokai/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM119",
+      "name": "練馬区の子育てに関する相談",
+      "shortName": "1歳児子育て相談",
+      "summary": "身長・体重の測定のほかに、、歯みがき、育児、食事についてのご相談をお受けいただけます。",
+      "targetPersons": "区内在住で、おおむね10か月から1歳4か月児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/1saiji_kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業　母子デイケア（日帰り）",
+      "summary": "お母さんと赤ちゃんが、助産師のいる施設での母子ショートステイ（宿泊）や母子デイケア（日帰り）、産後ケア訪問（助産師による家庭訪問）により、育児相談や授乳相談などを受けることができる事業です。",
+      "targetPersons": "産後ケア事業を利用できる方\n下記に当てはまる方\n\n区から利用承認を受けた方\n練馬区民の方で、産後ケアを必要とする出産後1年未満の母子（ショートステイは概ね生後4か月まで）\n母子ともに医療的な処置が必要のない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/sango-keajigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "精巣内精子生検採取法等に係る医療費助成",
+      "summary": "練馬区では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/funin_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼稚園・認定こども園の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "満3歳児から5歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienmusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "【練馬区外在住の方向け】練馬区内保育園等の利用申込み",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：練馬区内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、練馬区内の認可保育所への入所を希望する場合",
+      "targetPersons": "練馬区外在住の方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/nyuuen/moushikomi/kangai-nerimakunai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/oshirase/jitesinseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "これからお父さんになられる方へ",
+      "summary": "練馬区独自で制作した、父親向け育児応援動画「赤ちゃんが来る！！もうすぐパパになるあなたへ」を配信しています。",
+      "targetPersons": "これからお父さんになられる方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/otousan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日急患診療所",
+      "summary": "急病などで一時的な応急処置を必要とする方を対象とする医療機関です。15歳以下の方は保護者の方と一緒に来院してください。",
+      "targetPersons": "急病などで一時的な応急処置を必要とする方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryokikan/kyujitsu/kyukan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として9か月児健康診査を実施しています。",
+      "targetPersons": "区内在住の生後9か月から10か月児（9か月になる日から11か月になる日の前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/9kagetuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練修了支援給付金",
+      "summary": "就労に結びつきやすい資格を取得するために養成機関で受講する際、その受講期間（上限あり）中に促進給付金を支給します。さらに修了した方には修了支援給付金を支給します。対象は、20歳未満の子どもを扶養しているひとり親家庭の父または母です。",
+      "targetPersons": "練馬区内に住所を有し、20歳未満の子どもを扶養しているひとり親家庭の父または母で、つぎのすべてに当てはまる方\n（1）児童扶養手当の支給を受けているか、または同様の所得水準にあること\n（2）養成機関において6か月以上の課程を受講し、対象資格の取得が見込まれること\n　※受講期間の緩和措置により、6か月以上の課程を受講するものが対象となります。\n（3）就業または育児と修業の両立が困難と認められること\n（4）過去にこの高等職業訓練促進給付金の給付を受けたことがないこと\n（5）求職者支援制度における職業訓練受講給付金や雇用保険法第24条に定める訓練延長給付等、高等職業訓練促進給付金等事業と趣旨を同じくする給付を受けていないこと\n（6）原則、通学またはオンライン（インターネット環境を利用し、同時かつ双方向に行われるもの）で受講すること\n（7）練馬区暴力団排除条例に規定する暴力団関係者でないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/kateikotogino.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "ひとり親家庭転宅支援給付金",
+      "summary": "家賃負担を軽減するため、今より安い家賃の住宅への転宅を希望する世帯に対し、敷金・礼金などの契約費用（上限30万円）と引越し費用（上限10万円）を助成します。",
+      "targetPersons": "つぎのすべてに該当する方が対象です。なお、この給付金の支給は原則1回限りです。\n\n練馬区から児童扶養手当または児童育成手当を受けている方\n区内の賃貸住宅から区内の賃貸住宅への転宅を検討している方\n生活保護を受給していない方\n区の実施する家計相談事業で、家賃の安い住宅への転宅が家計の安定につながると評価された方\n（注釈）これから転宅する方が対象です。\n（注釈）転宅前、転宅後のいずれも申請者本人が賃料を支払っている場合が対象です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/tentakushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "小児慢性特定疾病児童の日常生活用具給付",
+      "summary": "小児慢性特定疾病の医療受給者証をお持ちの方に、車いすなどの日常生活用具を給付します。",
+      "targetPersons": "在宅で生活する小児慢性特定疾病の医療受給者証をお持ちの方で、障害者総合支援法による給付を受けられない方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/nanbyo/shoni_kyufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料の負担軽減制度　障害のある方がいる世帯",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "障害のある方がいる世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "家庭的保育事業（保育ママ）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。練馬区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "練馬区に保育の必要性の認定を申請し、3号（保育認定）と認定された健康な児童\n※保育認定については、「保育の必要性の認定について;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikushikyuunintei.html」をご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/kateitekihoiku/hoikumama.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM792",
+      "name": "乳幼児の歯の健康診査（2歳児歯科健康診査）",
+      "shortName": "2歳児歯科健診・子育て相談",
+      "summary": "歯科医師による歯科健診と子育て相談を行っています。歯みがきのこと、育児のこと、食事のことなどのご相談をお受けいただけます。",
+      "targetPersons": "2歳0か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/shika_kosodate_2_r3/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "私立幼稚園案内",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/shiritsu_annai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（3歳・4歳・5歳児クラス）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "3歳・4歳・5歳児クラス",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "乳幼児一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "練馬区在住で、生後6か月から小学校就学前の児童\n※集団生活の可能な児童（疾病等の場合はご利用いただけません）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/nyuuyoujiazukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "子育てスタート応援券",
+      "summary": "みなさんの出産直後の不安や負担を軽減し、育児をスムーズに行っていただくため、お子さん1人につき8枚の「子育てスタート応援券」を発行しています。応援券は、「育児支援ヘルパー事業」、「助産師ケア事業」、「産科医療機関実施事業」、「子育て支援講座」、「ファミリーサポート事業」、「乳幼児一時預かり事業」、「民設子育てのひろば一時預かり事業」、「保育園一時預かり事業」にご利用いただけます。",
+      "targetPersons": "出生または転入された2歳未満のお子さんがいるご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/kododateouenken.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業　産後ケア訪問",
+      "summary": "お母さんと赤ちゃんが、助産師のいる施設での母子ショートステイ（宿泊）や母子デイケア（日帰り）、産後ケア訪問（助産師による家庭訪問）により、育児相談や授乳相談などを受けることができる事業です。",
+      "targetPersons": "産後ケア事業を利用できる方\n下記に当てはまる方\n\n区から利用承認を受けた方\n練馬区民の方で、産後ケアを必要とする出産後1年未満の母子（ショートステイは概ね生後4か月まで）\n母子ともに医療的な処置が必要のない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/sango-keajigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼稚園預かり保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "幼稚園（認定こども園1号を含む）に通い、「保育の必要性の認定」（注釈）を受けた子ども。\n（注釈）保育の必要性の認定とは、就労（月12日以上、かつ1日4時間以上の就労が常態である）等の要件を満たしていることをいいます。具体的な認定要件や認定に必要な書類については、下記を参照ください。\n\n　保育の必要性の認定の内容および必要な書類（PDF：5KB）;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienazukarihoiku.files/hoikuninntei.pdf",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kyoiku/yochien/yochienazukarihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "赤ちゃん準備教室 情報編（動画）～出産・育児のイメージづくりのために～",
+      "summary": "練馬区が制作した動画を配信しています",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/ime-hidukurinotameni.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "ひとり親家庭高等学校卒業程度認定試験合格支援",
+      "summary": "20歳未満の児童を扶養しているひとり親家庭の親または児童が、高卒認定試験の対策のための講座を受講開始し、修了および合格した場合に、支払った受講経費の一部を支給します。",
+      "targetPersons": "練馬区内に住所を有し、20歳未満の児童を扶養しているひとり親家庭の親または児童（児童の場合は修了時および合格時において20歳未満であること）のうち、次のすべてにあてはまる方\n（1）児童扶養手当を受給しているか、同様の所得水準であること\n（2）就業経験、技能、資格の取得状況や労働市場の状況から判断して、高卒認定試験に合格することが、適職に就くために必要であると認められること\n（3）過去にこの制度を利用していないこと\n（4）大学入学資格を持っていないこと（高等学校卒業者、大学入学資格検定合格者、高卒認定試験合格者でないこと）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/nintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "事業所内保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。練馬区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "練馬区に保育の必要性の認定を申請し、3号（保育認定）と認定された健康な児童\n※保育認定については、「保育の必要性の認定について;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikushikyuunintei.html」をご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/jigyousyonaihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM792",
+      "name": "乳幼児の歯の健康診査（2歳6か月児歯科健康診査）",
+      "shortName": "2歳6か月児歯科健診（予約制）",
+      "summary": "乳歯が生えそろう時期に行う、歯科医師による歯科健診では、むし歯、かみ合わせ、歯並び、歯肉の状態などを診ます。歯科衛生士による歯みがき相談もお受けいただけます。",
+      "targetPersons": "◆2歳6か月児\n注釈）おおむね2歳10か月ごろまで受けることができます\n注釈）対象者に個別のご案内はしません。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/nyuyoji/2sai6kagetsu/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+3+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（保育料の免除）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "児童が病気やケガで保育園を休む場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+4+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "無償化の給付（施設等利用費）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "以下の全てを満たす子どもの保護者が対象です。\n\n0歳から2歳までの住民税非課税世帯または3歳から5歳までの全世帯の子ども\n区から「保育の必要性の認定」を受けている子ども\n区から無償化対象施設としての「確認」を受けた認可外保育施設を利用している子ども\n練馬区に住所を有する子ども\n（注釈）認証保育所は全ての施設が「確認」を受けています。\n\n（注釈）企業主導型保育施設を利用する方が無償化の対象となる場合、保育料から無償化分を差し引いた金額が利用者負担額に設定されます。金額等、詳しくはご利用の施設にお問い合わせください。\n（注釈）「確認」を受けた認可外保育施設の一覧については、「認可外保育施設;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/ninnkagai.html」をご覧下さい。\n（注釈）「確認」を受けるためには、認可外保育施設指導監督基準を満たす必要がありますが、令和6年9月30日までは経過措置期間としてこの要件が適用されません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/shinshien/youhomusyou/mushoka_ninkagai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+4+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "父親向け育児応援動画「赤ちゃんが来る！！もうすぐパパになるあなたへ」",
+      "summary": "これからパパになるあなたへ、妊娠期の母体の変化や胎児の様子をわかりやすく解説するとともに、出産や育児に関わる先輩パパのリアルな経験談を動画でお伝えします。",
+      "targetPersons": "これからパパになるあなた\nこれからママになる方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/akatyanngakuru.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+4+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "福祉資金の貸付（練馬区女性福祉資金）",
+      "summary": "女性の方々が経済的に自立して、安定した生活を送るために必要とする資金を、お貸ししています",
+      "targetPersons": "配偶者がいない、または長期にわたり配偶者の扶養を受けられない女性で、都内に6か月以上居住し、現在練馬区内に居住している方のうち次のいずれかに該当する方\n（1）親・子・兄弟姉妹などを扶養している方\n（2）25歳以上の扶養者のいない方で年間所得が、3,580,000円以下の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/hitorioya/kashitsuke_josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+4+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "居宅訪問型保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。練馬区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "つぎの要件をすべて満たす方\n\n練馬区内の住所地に居住している方\n保育の必要性を満たしている方（詳しくは「保育のご案内」を参照」\n自宅において保育環境を確保できる方\n障害等がある場合、保育者が1対1で保育が可能と判断した方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/kyotakuhoumongata02.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+4+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（ひとり親世帯）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "ひとり親世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+5+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "認可外保育施設保育料補助金",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "以下の全てを満たす方が対象です。\n\n認証保育所;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/ninshohoikujo.htmlまたは認可外保育施設指導監督基準を満たす旨の証明書が発行された認可外保育施設と、月160時間以上の月ぎめの保育契約をしている\n児童が1の入所契約に基づき、毎月1日時点で保育の提供を現に受けている\n毎月1日時点において練馬区に住所を有する\n（注釈）認可外保育施設指導監督基準を満たす旨の証明書が発行された施設は、東京都のホームページ（外部サイト）　;https://www.fukushihoken.metro.tokyo.lg.jp/kodomo/hoiku/ninkagai/ninkagai-ichiran/index.htmlにてご確認ください。（区内の施設については、リンク先;https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/ninnkagai.htmlでもご確認いただけます。）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/shinshien/youhomusyou/mushoka_ninkagai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+5+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "妊娠・子育て相談",
+      "summary": "練馬区では、初めてお母さん・お父さんになられる方を対象に、妊娠・子育て相談を開催しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/20161102.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+5+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "居住支援制度保証料の助成について",
+      "summary": "保証人が見つからないため、民間賃貸住宅に入居することが困難な高齢者世帯等に対し、区と協定を結んだ一般社団法人全国保証機構に加盟している民間保証会社と協力し民間賃貸住宅への入居を支援します。\n　保証人のかわりに民間保証会社と契約を結んでいただき、その際に支払った保証料の一部を助成します。",
+      "targetPersons": "次のいずれかに該当し、（1）～（7）の条件をすべて満たす世帯\n\n高齢者世帯（65歳以上の単身世帯または65歳以上を含む60歳以上の方のみで構成されている世帯）\n障害者世帯（身体障害者手帳1級から4級、愛の手帳1度から3度、精神障害保健福祉手帳1級から2級の方がいる世帯）\nひとり親世帯（18歳未満の児童と父または母のみで構成する世帯）\n（1）現在、区内に引き続き2年以上居住していること\n（2）区内の民間賃貸住宅に入居すること\n（3）緊急連絡先（親族、知人および友人など）があること\n（4）原則として、区の福祉サービス等を利用すること\n　※高齢者世帯は必ず区の福祉サービスを利用すること\n（5）保証人がいないこと\n（6）世帯の世帯員の所得が基準額を超えないこと\n　　扶養親族等がいない場合　　　　 3，604，000円\n　　扶養親族等の数が1人の場合　　3，984，000円\n　　扶養親族等の数が2人の場合　　4，364，000円\n　　扶養親族等の数が3人の場合　　4，744，000円\n（7）生活保護法による保護受給世帯でないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/nichijo/seikatsushien/jukyoshien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+5+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（障害のある方がいる世帯）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "障害のある方がいる世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+6+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "【一時預かり・短期特例保育・病児保育・ファミリーサポート事業など】の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "対象となる事業の利用日において、以下の要件を全て満たす子どもの保護者は、無償化の給付を受けることができます。\n\n対象者（給付を受けられる方）\n||要件|\n|:----|:----|\n|1|年度当初の4月1日時点で<br>満3歳から満5歳までの子ども　または<br>0歳から満2歳までの子どものうち、住民税非課税世帯の子ども|\n|2|認可保育所、地域型保育事業（小規模保育事業、家庭的保育事業等）、認定こども園、企業主導型保育事業を利用していない子ども|\n|3|区から「保育の必要性の認定」を受け、かつ認定の有効期間内である子ども|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/shinshien/youhomusyou/ichiziazukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+6+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "妊娠相談～思いがけない妊娠等に関すること（東京都）",
+      "summary": "練馬区では、初めてお母さん・お父さんになられる方を対象に、妊娠・子育て相談を開催しています。",
+      "targetPersons": "都民の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/ninnsin-soudann.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+6+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料の決定・納入方法（保育料の減額制度）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、練馬区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "保育料の支払いが困難な世帯で、以下の条件に該当する\n1．世帯員全員の区市町村民税が非課税または免除されたとき\n2．区市町村民税の徴収猶予または納期の延期が認められたとき\n3．世帯員全員の区市町村民税が均等割以下に減額されたとき\n4．今年中に災害、盗難等による損失を受けたとき\n5．今年中に多額の医療費を要したとき\n6．今年中に主たる働き手が失業したとき\n7．世帯の申請月前3か月の平均収入月額（賞与を除く）が、前年の平均収入月額（賞与を除く）より1割以上低額になったとき（ただし、保護者が育児休業、育児短時間勤務等を取得したことによる収入の減少を除く）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/hoikuen/zaien/hoikuryou/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020131202+7+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "児童発達支援等の利用者負担の無償化（３歳から５歳）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3歳から5歳のお子様",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/shogaiji/musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

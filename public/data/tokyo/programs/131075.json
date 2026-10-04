@@ -1,0 +1,1671 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131075",
+  "programs": [
+    {
+      "psid": "psid3.0+6000020131075+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届出・親子健康手帳（母子健康手帳）の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "次の2つの条件を満たした方\n\n医師又は助産師による診察を受けて妊娠していると診断された。\n届出日現在墨田区に住民登録がある。（特別な事情があり住民登録は無く墨田区に住んでいる方は、ご住所地の管轄の保健センター;https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/kankatutiiki.htmlにご相談ください。）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ninshin/ninsintodoke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "2か月児学級",
+      "summary": "墨田区では、生後2か月のお子さんと保護者を対象に、保健師、助産師の講話、参加者の交流、個別相談により、育児や親子の心身の健康をサポートします。",
+      "targetPersons": "学級当日生後2か月前後のお子さんと保護者\n※兄弟のご参加はご遠慮ください。\n※参加できる保護者の数は、会場ごとに異なります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/taa04000202402240940.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "図書館の児童サービス",
+      "summary": "発達段階に応じた読書習慣の形成を図るために家庭、地域、学校、図書館の連携により、子供の読書活動の機会の充実と啓発を行います。",
+      "targetPersons": "18歳以下の子ども",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/riyou/jidou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "在宅子育てママ救急ショートサポート",
+      "summary": "訪問型保育支援事業“すみだ子育て支援ネット「はぐ（Hug）」”は、区が認定した子育てサポーターや病後児サポーターがご自宅に伺い、一時的にお子さんを保育する事業です。",
+      "targetPersons": "墨田区にお住まいの小学校就学前までのお子さんで、保護者が体調不良や通院等で一時的にお子さんの保育ができないとき",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/hug.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n墨田区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあります。またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、児童館のホームページなどでお知らせしています。）",
+      "targetPersons": "0歳から18歳未満の児童と保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/zidoukan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/akatyanhoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "墨田区子育て支援総合センター",
+      "summary": "墨田区では区内の子育て支援総合センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/kosodate_sougouc/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば",
+      "summary": "親子で遊びながら親同士や子ども同士が交流し、子育てに関する悩みを話し合ったり、情報交換ができる場所です。絵本やおもちゃなども用意しています。",
+      "targetPersons": "児童とその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM114",
+      "name": "小児科救急",
+      "shortName": "すみだ平日夜間救急こどもクリニック",
+      "summary": "墨田区では、小児科医が休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": "15歳以下のお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/hoken_iryousisetu/heijituyakankyukyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに関する相談窓口一覧",
+      "summary": "墨田区内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kurashi/soudan/shussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM119",
+      "name": "墨田区の子育てに関する相談",
+      "shortName": "育児相談",
+      "summary": "保健センターでは、毎月育児相談を実施しています。",
+      "targetPersons": "就学前のお子さまと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/ikujisoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "小・中学校就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費などを支給します。",
+      "targetPersons": "墨田区内に住所を有し小・中学校に通学している児童生徒の保護者のうち、次のいずれかに該当する方\n\n1.生活保護を受けている方\n2.生活保護を受けていないが、それに準ずる程度に困っている方（※1）\n3.その他特別な事情のある方（※2）\n※1　生計を共にする世帯全員の前年合計所得金額が、墨田区教育委員会が定める所得基準額未満の方です。所得基準額は家族構成や世帯員の年齢によって変わります。\n※2　特別な事情を証明できる書類の提出が必要です。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kyouiku/school/syuugaku_enjo/shuugakuennjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "こんにちは赤ちゃん事業（新生児訪問）",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "生後120日になるまでのすべての赤ちゃん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/akatyanhoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん事業（新生児訪問）・妊婦訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には、助産師・保健師が訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "生後120日になるまでのすべての赤ちゃん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/akatyanhoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後のお母さんを応援！産後ケア事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "墨田区に住民登録がある産後1年未満（宿泊型産後ケア及び日帰り型産後ケアは原則産後4か月未満）のお母さんと赤ちゃん\nその他特に支援が必要と認められる方（事前に本所保健センターまでご相談ください）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/sangoriyou/sangocarenyubocare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "不妊症・不育症についての知識、助成、相談",
+      "summary": "東京都では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/kibou/hunin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等の医療費助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "墨田区内に住所を有し、下記の病気にかかっている方で、認定基準を満たし、医療機関に入院して治療を受ける必要のある方。また、次のいずれかに該当する方が対象です。\n\n1.前年（1月から6月までの申請は前々年）の所得税額が30,000円以下の世帯に属する方\n2.1以外の方で、入院見込み期間が26日以上の方\n\n対象となる病気\n妊娠により入院医療を必要とする次の疾病及びその続発症が対象です。\n\n妊娠高血圧症候群及びその関連疾患\n糖尿病\n貧血\n産科出血\n心疾患",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/ninshinkouketuatu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "国民健康保険に加入している方が出産したとき",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kurashi/kenkouhoken/kokuminkenkouhoken/syussanikuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティマーク",
+      "summary": "墨田区では、妊娠の届出の際に、母子健康手帳と共にマタニティマーク入りキーホルダーをお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ninshin/maternity20151203.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "出産費資金貸付制度（無利子）",
+      "summary": "出産予定日前に出産費用の支払いが必要な方を対象に、出産育児一時金8割に相当する額を限度として出産費用の貸し付けを無利子で行います。",
+      "targetPersons": "出産育児一時金の支給が見込まれ、出産予定日まで1か月以内、または妊娠4か月以上で医療機関等から出産費の請求を受けた方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kurashi/kenkouhoken/kokuminkenkouhoken/syussanikuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子どもの医療費の助成【マル乳・マル子・マル青】",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）を助成しています。",
+      "targetPersons": "18歳到達後最初の3月31日までの間にある方で、区内に住所があり、国内の健康保険に加入（加入手続中でも申請できます）している方\n\nただし次の方は対象となりません。\n\n生活保護を受給している方\n里親に委託されている方\n乳児院等の施設に入所している方（詳しくはお問い合わせください。）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/jyosei/nyuuyouji_iryouhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "【ガイドブック】幼児教育・保育の無償化のご案内",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hoikumusyouka/musyouka-guide.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼稚園等の幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3歳児から5歳児クラスの子ども\n満3歳児クラスの子ども（園則に定員の定めのある園のみ。誕生月から対象）\n※新制度園では教育・保育給付認定1号（旧1号認定）、私学助成園では施設等利用給付認定1～3号（新1～3号認定）のいずれかとなります。\n※新制度園で、保育の必要性があり在園児等の預かり保育補助を希望する場合は、施設等利用給付認定2・3号も必要になります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/youtien/yochien-musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "令和6年度認証保育所保育料負担軽減助成金",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、墨田区独自に利用料の助成を行っています。",
+      "targetPersons": "次のすべての要件を満たしている方が対象となります。\n\n児童と保護者が、月の初日に墨田区に住民登録があること。\n月の初日に東京都認証保育所に在籍、かつ月極契約（月120時間以上※）をしていること。\n認証保育所に月極保育料を全納し、かつ認証保育所がそれを確認していること。\n他の認可保育施設、幼稚園、企業主導型保育施設に在籍していないこと。\n※月48～119時間の月極契約である場合は、別途お問合せください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/ninkagai/ninnshoujoseikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "墨田区外にお住まいの方が墨田区内の認可保育施設を希望する場合",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：墨田区内にお住まいの方が、区外の認可保育所への入所を希望する場合\nB：区外にお住まいの方が、墨田区内の認可保育所への入所を希望する場合",
+      "targetPersons": "墨田区外にお住まいの方が墨田区内の認可保育施設を希望する場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/riyou_annai/a.files/R6goannai.pdf#search=%E5%8C%BA%E5%A4%96%E3%80%80%E4%BF%9D%E8%82%B2%E6%89%80%E5%85%A5%E6%89%80",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、認証保育所、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/ninkagai/ninkagai20210304.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/kodomo-teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "次のいずれかの状態にある児童（18歳の誕生日を迎えたあとの3月末までの者、心身に中度以上の障害を有する場合は20歳未満の者）を監護する母、又は監護し、かつ生計を同じくする父、若しくは父母に代わって養育している者に手当が支給されます。\n\n父母が離婚（事実婚を含む）した児童\n父又は母が死亡した児童\n父又は母が重度の障害状態にある児童\n父又は母が生死不明である児童\n父又は母に引き続き1年以上遺棄されている児童\n父又は母が配偶者からの暴力（DV）で裁判所から保護命令を受けた児童\n父又は母が法令により引き続き1年以上拘禁されている児童\n婚姻によらないで生まれた児童\n※これまで、公的年金を受給する方は児童扶養手当を受給できませんでしたが、平成26年12月以降は、年金額が児童扶養手当額より低い方はその差額分の児童扶養手当を受給できるようになりました。\n\n支給の対象外\n次のいずれかに該当するときは、支給の対象となりません。\n\n受給資格者の住所が日本国内にないとき\n児童の住所が日本国内にないとき\n児童が児童福祉施設等（通園施設等を除く）に入所しているとき\n児童が里親に委託されているとき\n児童が父及び母と生計を同じくしているとき（父又は母の障害が受給理由の場合を除く）\n児童が父又は母の配偶者（事実上の配偶者を含む）と生計を同じくしているとき（父又は母の配偶者の障害が受給理由の場合を除く）\n平成15年4月1日時点で手当の支給要件に該当するに至った日から起算して5年を経過しているとき（受給資格者が母の場合のみ）\n\n所得制限\n手当の支給には所得制限があり、申請者の前年中の所得が限度額以上（1月から10月分までの手当は前々年の所得）でも申請・資格認定はできますが、手当は全部停止または一部支給停止になります。\n\n所得限度額表\n|扶養人数|本人（全部支給）|本人（一部支給）|孤児等の養育者<br>扶養義務者等|\n|:----|:----|:----|:----|\n|0人|49万円|192万円|236万円|\n|1人|87万円|230万円|274万円|\n|2人|125万円|268万円|312万円|\n|3人|163万円|306万円|350万円|\n|4人|201万円|344万円|388万円|\n|5人|239万円|382万円|426万円|\n\n上記制限額に加算されるもの\n本人\n扶養親族等に、老人控除対象配偶者又は老人扶養親族があるときは、1人につき100,000円\n扶養親族等に、特定扶養親族があるときは、1人につき150,000円\n配偶者・扶養義務者等（扶養親族等が2人以上いる場合）\n扶養親族等に、老人扶養親族があるときは、1人につき（扶養親族が老人扶養親族のみの場合は1人を除く）60,000円\n※申請者が父又は母の場合は、児童の母又は父から受け取った養育費の8割（1円未満四捨五入）が所得に加算されます。また、児童が受取人の場合であっても、父又は母が受けたものとみなされます。\n※扶養人数は、前年12月31日現在の税法上の人数です。\n※扶養義務者とは、申請者と同居している父母、祖父母、兄弟姉妹、18歳以上の子ども、孫などの親族の方です。（直系の親族及び兄弟姉妹）\n※配偶者の所得制限は、父又は母に重度の障害がある方及び養育者として申請される方のみです。\n※所得額＝前年中の収入金額－必要経費又は給与所得控除額＋養育費の8割（申請者が父又は母の場合のみ）－8万円（社会保険料相当額）－諸控除額（下表参照）\n\n平成30年8月から支給制限に関する所得の算定方法が変わります。詳しくは、以下のPDFファイルをご覧ください。\n支給制限に関する所得の算定方法が変わります（PDF：165KB）;https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.files/1808syotokuhenkou.pdf\n\n控除額一覧\n|控除項目|控除金額|\n|:----|:----|\n|社会保険料相当額（一律控除）|8万円|\n|寡婦控除（申請者が母の場合は控除しない）|27万円|\n|ひとり親控除（申請者が父または母の場合は控除しない）|35万円|\n|障害者控除|27万円|\n|特別障害者控除|40万円|\n|勤労学生控除|27万円|\n|雑損控除・医療費控除・小規模企業共済等掛金控除・配偶者特別控除|控除額相当|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "受給資格\n次のいずれかの状態にある児童（18歳の誕生日を迎えたあとの3月末までの者、心身に中度以上の障害を有する場合は20歳未満の者）と、その児童を監護している父又は母及び養育者（児童と同居し、監護し、生計を維持している方）\n父母が離婚した児童\n父又は母が死亡した児童\n父又は母が重度の障害（身体障害者手帳1・2級程度）の状態にある児童\n父又は母が生死不明である児童\n父又は母に引き続き1年以上遺棄されている児童\n父又は母が配偶者からの暴力（DV）で裁判所から保護命令を受けた児童\n父又は母が法令により引き続き1年以上拘禁されている児童\n母が婚姻によらないで生まれた児童（児童の父又は母の扶養のある場合を除く）\n助成の対象外\n次のいずれかに該当するときは、助成の対象となりません\n\n受給資格者の住所が日本国内にないとき\n生活保護を受給しているとき\n児童が子ども医療費助成又は高校生等医療助成を受給しているとき（児童のみ対象外となります）\n受給資格者又は児童が心身障害者医療費助成を受給しているとき（心身障害者医療費助成該当者のみ対象外となります）\n児童が児童福祉施設等（通園施設等を除く）に入所しているとき\n児童が里親に委託されているとき\n児童が父及び母と生計を同じくしているとき（父又は母の障害が受給理由の場合を除く）\n児童が父又は母の配偶者（事実上の配偶者を含む）と生計を同じくしているとき（父又は母の障害が受給理由の場合を除く）\n※「事実上の配偶者」とは、住民票が同住所にあるときや住民票がなくても実際には同居している場合などを含みます。\n※「生計を同じくする」とは、児童の父又は母が異性の方（元配偶者、事実上の配偶者又はそれに準ずる方）と次の1から3のいずれかの状況にあることをいいます。\n1　法律上の婚姻関係にあること\n2　住民票上同一住所地にあること\n3　住民票上同一住所になくても実際に同居しているか、それに準ずる定期的な訪問かつ経済的な援助があること\n所得制限額表\n|扶養人数|ひとり親家庭等の父又は母及び養育者<br>（孤児以外を養育）|配偶者、扶養義務者及び養育者<br>（孤児等を養育）|\n|:----|:----|:----|\n|0人|1,920,000円|2,360,000円|\n|1人|2,300,000円|2,740,000円|\n|2人|2,680,000円|3,120,000円|\n|3人|3,060,000円|3,500,000円|\n|4人以上|一人増すごとに380,000円を加算|一人増すごとに380,000円を加算|\n\n所得制限\n上記制限額に加算されるもの\n本人\n扶養親族等に、老人控除対象配偶者又は老人扶養親族があるときは、1人につき100,000円\n扶養親族等に、特定扶養親族があるときは、1人につき150,000円\n配偶者・扶養義務者等（扶養親族等が2人以上いる場合）\n扶養親族等に、老人扶養親族があるときは、1人につき（扶養親族が老人扶養親族のみの場合は1人を除く）60,000円\n申請者及び扶養義務者等の令和4年中の所得が上表の所得制限以上であるときは、この制度を受けることができません。\nこの限度額表の内容は、令和6年1月から令和6年12月までの申請に適用されます。\n\n注意事項\n\n申請者が父又は母の場合は、児童の母又は父から受け取った養育費の8割（1円未満四捨五入）が所得に加算されます。また、児童が受取人の場合であっても、父又は母が受けたものとみなされます。\n扶養人数は、令和4年12月31日現在の税法上の人数です。\n扶養義務者とは、申請者と同居している父母、祖父母、兄弟姉妹、18歳以上の子ども、孫などの親族の方です。（直系の親族及び兄弟姉妹）\n配偶者の所得制限は、父又は母に重度の障害がある方及び養育者として申請される方のみです。\n所得額＝令和4年中の年間収入金額－必要経費又は給与所得控除額＋養育費の8割（申請者が父又は母の場合のみ）－8万円（社会保険料相当額）－諸控除（下表参照）\n控除額一覧表\n|控除項目|控除金額|\n|:----|:----|\n|社会保険料相当額（一律控除）|8万円|\n|雑損・医療費・小規模企業共済等掛金・配偶者特別控除|控除相当額|\n|障害者・勤労学生控除|27万円|\n|寡婦控除（申請者が母の場合は控除しない）|27万円|\n|特別障害者控除|40万円|\n|ひとり親控除（申請者が父または母の場合は控除しない）|35万円|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/jyosei/hitorioyairyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "女性福祉資金",
+      "summary": "女性の経済的安定と安定した生活を確立するために、必要な資金をお貸しします。",
+      "targetPersons": "都内に6か月以上住み、区内に住所があり、配偶者がいないか、特別な理由（※）により配偶者の扶養を受けられない女性で次のいずれかに該当する方\n（1）親・子・兄弟姉妹を扶養している\n（2）親・子・兄弟姉妹などを扶養していない20歳以上の方で前年の年間所得が358万円以下である\n※ご自身の状況が特別な理由にあたるかどうかについてはお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/seikatuhukusi/seikatu_kasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児の養育医療給付",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "墨田区に居住する未熟児で、入院して養育を受ける必要があると医師が認めた乳児（0歳児）であり、次のいずれかに該当する方\n1　出生時体重が2,000グラム以下の乳児\n2　1以外の乳児で、生活力が特に弱く、下記の「対象となる症状」に掲げるいずれかの症状を示す乳児\n(1)　一般状態\nア　運動不安・痙攣\nイ　運動が異常に少ない\n(2)　体温\nア　摂氏34度以下\n(3)　呼吸器・循環器\nア　強度のチアノーゼ持続\nイ　チアノーゼ発作を繰り返す\nウ　呼吸数が毎分50以上で増加傾向\nエ　呼吸数が毎分30以下\nオ　出血傾向が強い\n(4)　消化器\nア　生後24時間以上排便がない\nイ　生後48時間以上嘔吐が持続\nウ　血性吐物がある\nエ　血性便がある\n(5)　黄疸\nア　生後数時間以内に発生\nイ　異常に強い",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/kodomo_josei/youiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれたお子さんを戸籍に記録し住民票にも記載するための手続きです。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/faq/kurashi/todokede_syoumei/koseki/30.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "出産準備クラス（母親学級）※予約制",
+      "summary": "墨田区では初産を迎える妊婦とそのパートナーが安心して赤ちゃんを迎えられるように、助産師、心理士などによる妊娠、出産、育児などに関する講義や沐浴体験、保護者同士の交流等を実施します。",
+      "targetPersons": "出産準備クラス\n|項目|内容|\n|:----|:----|\n|申込期間|毎月1日午前9時から10日午後5時まで(令和5年9月から変更）|\n|会場|・リバーサイドホール会議室(1F)墨田区吾妻橋1-23-20<br>・庁舎21会議室(2F)墨田区吾妻橋1-23-20<br>・庁舎122会議室(12F)墨田区吾妻橋1-23-20<br>・本所保健センター(2F)墨田区東駒形1-6-4<br>・向島保健センター(2F)墨田区東向島5-16-2<br>※場所と日程の詳細は下記のPDFをご参照ください|\n|時間|・受付9:15～9:30 開催9:30～11:30<br>・受付13:15～13:30 開催13:30～15:30|\n|内容|・歯科・栄養講義<br>・助産師講義・マタニティヨガ<br>・実習（沐浴、着替えなど）<br>・心理講座|\n|対象|これから出産を迎える初妊婦で申し込み及び開催当日に墨田区に住民登録があり、<br>参加当日時点で妊娠20週0日から35週6日までの妊婦<br>多胎の方は妊娠16週0日から申し込みができます。<br>※出産予定日以降の開催日への参加申込みはできません。<br>※住民登録の有無について、墨田区が保有する情報で確認させていただきます。|\n|持ち物|親子健康手帳、筆記用具、飲み物、A4サイズの配布物資料が入る袋|\n|申し込み方法|申し込み専用ページ（外部サイト）;https://poppins-education.jp/mothersclass_sumida/|\n|申込にあたっての注意事項|参加は1回限りです。<br>結果は申込締切後、メールでお知らせいたします。<br>parentsclass@poppins.co.jp;parentsclass@poppins.co.jp|\n|締切後の追加申込み|お問い合せフォーム（外部サイト）;https://poppins-education.jp/inquiry_sumida/　からお問い合わせください。<br>申込締切後、定員に空きがある場合、追加申込みができます。|\n|問合せ先|〒150-0012<br>東京都渋谷区広尾5丁目6番6号　広尾プラザ6F<br>株式会社 ポピンズプロフェッショナル<br>墨田区「出産準備クラス」担当<br>電話:03-3447-5826　（午前9時から午後5時まで） ファックス:03-3447-2182<br>お問い合せフォーム（外部サイト）;https://poppins-education.jp/inquiry_sumida/|",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/2020bogaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "パパのための出産準備クラス※予約制",
+      "summary": "墨田区では、初めて出産を迎える方とそのパートナーが妊娠中を快適に過ごし、安心して赤ちゃんとの出会いが迎えられますようパパのための出産準備クラスを開催しています。",
+      "targetPersons": "（1）これから出産を迎える初妊婦のパートナー（1名での参加）\n（2）これから出産を迎える初妊婦とそのパートナー（2名での参加）\n上記（1）、（2）いずれかの該当者で、申込日及び開催当日に墨田区に住民登録があり、申込時点で妊娠20週を過ぎている方\n※出産予定日以降の開催日への参加申込みはできません。\n※住民登録の有無について、墨田区が保有する情報で確認させていただきます。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/2021papaiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM40",
+      "name": "助産制度",
+      "shortName": "出産費用の援助",
+      "summary": "経済的な理由で出産費用のお支払いにお困りの方に対し、墨田区が出産費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "次のいずれかの要件を満たす世帯の方\n(1)生活保護を受給している世帯\n(2)出産予定日の属する年度分の世帯全員の区民税が非課税の世帯\n（出産予定日が4月から6月までの場合は、前年度分）\n(3)出産予定日の属する年度分の世帯全員の区民税所得割の合計額が19,000円以下の世帯\n（出産予定日が4月から6月までの場合は、前年度分）\n※(3)の場合、健康保険法等の出産育児一時金488,000円以上を受け取る場合を除きます",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/ninshin_syusan/ninsin/ninsin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "墨田区休日応急診療所",
+      "summary": "墨田区では、夜間や日曜・祝日、年末年始に、休日応急診療所にて診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/hoken_iryousisetu/sumidakukyujituoukyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM47",
+      "name": "墨田区の妊娠・出産に関する相談",
+      "shortName": "プレコン相談すみだ（助産師によるオンライン相談）",
+      "summary": "墨田区では妊娠前の健康作りや妊娠に関する不安解消、出産準備等について、地域の助産師が相談支援を行います。",
+      "targetPersons": "墨田区に住民登録がある方で、\n将来子どもが欲しいと思っている男女\n妊娠について疑問や不安がある男女\n自分やパートナーの妊娠について相談したい男女\n等が利用できます。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/kibou/purekon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳児健康診査（3か月から4か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3か月から4か月児健康診査を実施しています。",
+      "targetPersons": "区内在住の3か月から4か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/hahatoko_kenkou_sins.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳児健康診査（6か月から7か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から7か月児を実施しています。",
+      "targetPersons": "区内在住の6か月から7か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/hahatoko_kenkou_sins.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査（赤ちゃんの耳の聞こえの検査）",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "出生後1か月頃まで\nただし、事情により出生後1か月頃までに受けられない場合には、生後50日に達するまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ninshin/akachan-mimikikoe.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "伴走型相談支援",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/skogift.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "不育症検査の助成（東京都の制度）",
+      "summary": "不育症とは、妊娠したものの流産・死産を2回以上繰り返すことをいいます。検査により不育症のリスク因子を特定し、適切な治療及び出産につなげることができるよう、不育症検査に係る費用の一部を助成しています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/fuikushou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産応援ギフト・子育て応援ギフト",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "申請日時点で墨田区民であること\n令和5年4月以降に妊娠届を提出し、ゆりかご・すみだ面接(妊婦面接)を受けた妊婦（出産応援ギフト）※1\n令和5年4月以降に出生届を提出し、赤ちゃん訪問を受けたお子さんのいる家庭（子育て応援ギフト）※1\n区から郵送された案内に従って電子又は郵送で申請をされた方\n転入者の場合、転入前の自治体で出産応援ギフト又は子育て応援ギフトの給付を受けていない方（転入前の自治体に受給状況を確認させていただきます。）\n※1　妊娠届出後に流産・死産された方や、出生届出後にお子さまがお亡くなりになった場合も支給対象となります。\n該当する場合は、下記問合せにある専用コールセンターへお申し出ください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/skogift.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5027",
+      "name": "母子家庭等就業・自立支援センター",
+      "shortName": "ひとり親家庭就業・自立支援事業",
+      "summary": "就職や転職で生活を安定させたい方に、それぞれの方の状況に合わせて自立支援プログラムを作成し、目標達成に向けて支援を行っています。",
+      "targetPersons": "区内に住所のあるひとり親家庭の父または母で、次の要件をすべて満たす方\n・20歳未満のお子さんを扶養している\n・生活保護を受給していない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hitori_oya/ta802000202203111541.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "原則として、当該実施校の児童。対象学年は学校により異なります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/hokagokodomokyositu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険料の免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間の一定期間の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "令和5年11月1日以降に出産を予定している、または出産した国民健康保険被保険者（出産被保険者）の方\n※妊娠85日以上の分娩（死産・流産・早産及び人工妊娠中絶の場合を含む）が対象です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kurashi/kenkouhoken/kokuminkenkouhoken/genmen/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援（育成医療）医療費助成",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "保護者が墨田区内に住所を有する18歳未満の児童で、身体に障害を有する方、または、現存する疾患が当該障害または疾患に係る医療を行わないときは、将来障害を残すと認められる方で、手術等によって障害の改善が見込まれる方が対象です。\nただし、特別区民税（所得割）が23万5千円以上の世帯の方は、原則として対象外（※）となります。\n\n※「重度かつ継続」の障害に該当する場合は、対象となりますので、内容については、下記にお問い合わせください。\n\nなお、医療費助成が受けられる医療機関は、全国の指定された育成医療機関です。\n\n対象となる障害・病気\n対象となる障害や病気は次のとおりです。\n\n肢体不自由\n視覚障害\n聴覚・平衡機能障害\n音声・言語・そしゃく機能障害\n心臓機能障害\n腎臓機能障害\n小腸機能障害\n肝臓機能障害\nその他の先天性内臓機能障害\n免疫機能障害\n\n問い合わせ先\n向島保健センター（墨田区東向島五丁目16番2号）電話：03-3611-6135\n本所保健センター（墨田区東駒形一丁目6番4号）電話：03-3622-9137",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/kodomo_josei/ikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "給食費",
+      "summary": "墨田区では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "「区市町村民税の所得割課税額が77,100円以下の世帯」または「小学3年生までの兄姉から数えて第3子以降」",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/youtien/yochien-musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "認可保育施設における医療的ケアが必要なお子様の受入れについて",
+      "summary": "集団保育が可能である医療的ケアが必要なお子様の公設公営保育園での受入れについて、案内しています。",
+      "targetPersons": null,
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/iryoutekikeanitsuite.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。墨田区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内在住の1歳6か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/hahatoko_kenkou_sins.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。墨田区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内在住の3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/hahatoko_kenkou_sins.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "5種混合（DPT-IPV-Hib）1期初回・追加",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から90か月（7歳6か月）に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜ任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち墨田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "(1)接種日において墨田区に住民登録がある者\n(2)接種日において生後12か月から小学校就学前の者\n(3)2回の接種が完了（※）していない者\n(4)接種日においておたふくかぜに罹患したことがない者\n※おたふくかぜワクチンの1回目を自費で接種されている場合は、この制度を利用して2回目の接種をすることが可能です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/R6otafukukaze.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM576",
+      "name": "児童遊園",
+      "shortName": "墨田区立児童遊園",
+      "summary": "お子さんに健全な遊びを提供するため、墨田区の児童遊園の一覧を、墨田区サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kouen/kunai_park_annai/sumida_zidouteien/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "多胎児家庭移動経費補助事業",
+      "summary": "墨田区では、多胎児（双子、三つ子など）を養育している家庭を支援するため、お子様の予防接種や乳幼児健診等でタクシーを使う際に利用できる「こども商品券（24，000円）」を交付します。",
+      "targetPersons": "墨田区に住民票がある0歳、1歳、2歳の多胎児を養育するご家庭。\n\n0歳、1歳、2歳の各年齢で1回ずつ申請ができます。\n子育て支援総合センターの専門職員（保育士等）と面接をしていただきます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/tataijikatei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "ひとり親家庭自立支援教育訓練給付金",
+      "summary": "ひとり親家庭の方の就職・転職・スキルアップのための資格取得や技能習得を目指すときに利用できる給付金制度です。経済的自立を支援します。事前相談が必要です。",
+      "targetPersons": "対象者\n区内に住所のあるひとり親家庭の父または母で、次の要件をすべて満たす方\n・20歳未満のお子さんを扶養している\n・児童扶養手当を受給している又は同様の所得水準にある\n・現在の生活を改善するために教育訓練講座を受講する必要があると認められる\n・過去にひとり親家庭自立支援教育訓練給付金の支給を受けたことがない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hitori_oya/ta802000202203111541.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "母子健康手帳の交付時に妊婦健康診査受診票14枚、妊婦超音波検査受診票4枚及び妊婦子宮頸がん検診受診票1枚を交付します。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ninshin/ninpu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "ひとり親家庭高等職業訓練促進給付金",
+      "summary": "就職に有利な国家資格等を取得するため養成機関で修業する間、生活費として給付金を支給する制度です。\n※ 雇用保険制度による教育訓練支援給付金（ハローワーク）などの、ひとり親家庭高等職業訓練促進給付金と趣旨が同じ（生活費）給付を受けている場合は対象外となります。",
+      "targetPersons": "対象者\n区内に住所のあるひとり親家庭の父または母で、次の要件をすべて満たす方\n・20歳未満のお子さんを扶養している\n・児童扶養手当を受給している又は同様の所得水準にある\n・対象資格の取得のために学校に通う期間が6月以上で、かつ、資格の取得が見込まれる\n・仕事又は育児と学校の両立が難しいと認められる\n・現在の生活を改善するために対象資格の取得が必要と認められる\n・過去にひとり親家庭高等職業訓練促進給付金の支給を受けていない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hitori_oya/ta802000202203111541.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "都営交通無料乗車券の交付",
+      "summary": "児童扶養手当を受給している方（手当が支給されている方）に限り、都電・都バス・都営地下鉄・日暮里・舎人ライナーの『無料乗車券』を交付できます。",
+      "targetPersons": "児童扶養手当受給者の方又はその方と同一世帯の方で、都営交通を利用する方のうちの1名が交付を受けられます。\n※生活保護を受給されている方は生活福祉課で交付を受けてください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "20歳未満で、法令により定められた程度（下記「障害程度基準表」の障害の状態）にある児童（以下、「対象児童」という。）を監護する父母又は養育者\n\n※資格に該当する障害の目安\n\n身体障害\nおおむね身体障害者手帳1級から3級程度（下肢障害については4級の一部を含む）\n疾患により長期にわたる安静を必要とする程度の状態にあるものなど\n知的障害\nおおむね愛の手帳1度から3度程度\n精神障害\n上記と同程度の障害（自閉スペクトラム症等により日常生活に著しい制限を受ける方等）\n重複障害\n複数の障害がある場合は、個々の障害の程度が上記より軽度な場合でも該当になることがあります。\n詳細については、担当までお問合せください。\n\n障害程度基準表（級数は特別児童扶養手当の等級）\n1級\n両眼の視力の和が0.03以下のもの\n両耳の聴力レベルが100デシベル以上のもの\n両上肢の機能に著しい障害を有するもの\n両上肢のすべての指を欠くもの\n両上肢のすべての指の機能に著しい障害を有するもの\n両下肢の機能に著しい障害を有するもの\n両下肢を足関節以上で欠くもの\n体幹の機能に座っていることができない程度又は立ち上がることができない程度の障害を有するもの\n1から8号のほか、身体の機能の障害又は長期にわたる安静を必要とする病状が1から8号と同程度以上と認められる状態であって、日常生活の用を弁ずることを不能ならしめる程度のもの\n精神の障害であって、1から9号と同程度以上と認められる程度のもの\n身体の機能の障害若しくは病状又は精神の障害が重複する場合であって、その状態が1から10号と同程度以上と認められる程度のもの\n2級\n両眼の視力の和が0.07以下のもの\n両耳の聴力レベルが90デシベル以上のもの\n平衡機能に著しい障害を有するもの\nそしゃくの機能を欠くもの\n音声又は言語機能に著しい障害を有するもの\n両上肢のおや指及びひとさし指又は中指を欠くもの\n両上肢のおや指及びひとさし指又は中指の機能に著しい障害を有するもの\n一上肢の機能に著しい障害を有するもの\n一上肢のすべての指を欠くもの\n一上肢のすべての指の機能に著しい障害を有するもの\n両下肢のすべての指を欠くもの\n一下肢の機能に著しい障害を有するもの\n一下肢を足関節以上で欠くもの\n体幹の機能に歩くことができない程度の障害を有するもの\n1から14号に掲げるもののほか、身体の機能の障害又は長期にわたる安静を必要とする病状が1から14号と同程度以上と認められる状態であって、日常生活が著しい制限を受けるか、又は日常生活に著しい制限を加えることを必要とする程度のもの\n精神の障害であって、1～15号と同程度以上と認められる程度のもの\n身体の機能の障害若しくは病状又は精神の障害が重複する場合であって、その状態が1から16号と同程度以上と認められる程度のもの\n支給の対象外\n次のいずれかに該当するときは、支給の対象となりません\n\n対象児童が施設等に入所しているとき\n対象児童が日本国内に住所を有しないとき\n対象児童が当該障害を支給事由とする年金を受給しているとき\n受給者（申請者）が日本国内に住所を有しないとき\n所得制限\n所得制限額表\n|扶養人数|本人|配偶者及び扶養義務者の所得制限額|\n|:----|:----|:----|\n|0人|4,596,000円|6,287,000円|\n|1人|4,976,000円|6,536,000円|\n|2人|5,356,000円|6,749,000円|\n|3人|5,736,000円|6,962,000円|\n|4人以上|一人増すごとに380,000円加算|一人増すごとに213,000円加算|\n\n上記制限額に加算されるもの\n本人\n扶養親族等に、老人控除対象配偶者又は老人扶養親族があるときは、1人につき100,000円\n扶養親族等に、特定扶養親族があるときは、1人につき250,000円\n配偶者・扶養義務者（扶養親族等が2人以上いる場合）\n扶養親族等に、老人扶養親族があるときは、1人につき（扶養親族が老人扶養親族のみの場合は1人を除く）60,000円\n申請者及び扶養義務者等の所得が上表の所得制限以上であるときは、申請・資格の認定はできますが、特別児童扶養手当は支給されません。\n\n※扶養人数は、前年12月31日現在の税法上の人数です。\n※扶養義務者とは、申請者と同居している父母、祖父母、兄弟姉妹、18歳以上の子ども、孫などの親族の方です。（直系の親族及び兄弟姉妹）\n控除額一覧\n|控除項目|控除金額|\n|:----|:----|\n|社会保険料相当額（一律控除）|8万円|\n|雑損・医療費・小規模企業共済等掛金・配偶者特別控除|控除相当額|\n|障害者控除・勤労学生・寡婦控除|27万円|\n|特別障害者控除|40万円|\n|ひとり親控除|35万円|\n|給与所得控除・公的年金等控除|10万円|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/tokubetujidohuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当（国の制度）",
+      "summary": "20歳未満であって、身体または精神に重度の障がいがあり、日常生活において常時介護を必要とする方に対して手当が支給されます。",
+      "targetPersons": "20歳未満であって、身体または精神に重度の障がいがあり、日常生活において常時介護を必要とする方\n\n身体障害者手帳1級程度及び2級程度の方\n愛の手帳1度程度及び2度程度の方\n上記と同等の疾病、精神障害の方\n\n支給制限\n次のいずれかにあてはまる場合は、手当の対象になりません。\n\n本人の所得が限度額を超えている場合\n本人の所得が所得制限基準一覧表;https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kijun/syotokuseigenkijyun.htmlに定める限度額を超えている場合、手当の対象になりません。\n\n配偶者または扶養義務者の所得が制限額以上の場合\n配偶者または扶養義務者の所得が 所得制限基準一覧表;https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kijun/syotokuseigenkijyun.htmlに定める額以上の場合、手当の対象になりません。\n\n施設に入所されている場合\n手当の支給対象となるかは、施設の種類により異なります。\nよくお問い合わせいただく施設については次の表のとおりです。表以外の施設に入所されている場合は、お手数ですが、障害者福祉課障害者給付係までお問い合わせください。（ページ下部に連絡先が掲載されています。）\n\n|施設一覧|支給対象|\n|:----|:----|\n|母子生活支援施設|対象です|\n|児童自立支援施設|対象です|\n|障害児入所施設|対象になりません|\n|乳児院|対象になりません|\n|児童養護施設|対象になりません|\n|救護施設|対象になりません|\n|更生施設|対象になりません|",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/syougaizi_hukusi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染医療費助成制度",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "対象条件（疾病・住所等）\n次の条件を満たす方が対象です。\n\n18歳未満\n気管支ぜん息、ぜん息性気管支炎、慢性気管支炎、肺気しゅに罹患している。\n申請時に都内に引き続き1年（3歳に満たない方は6か月）以上住所を有する。\n健康保険等に加入している。\n申請日以降喫煙しない。\n※平成27年4月1日から制度改正に伴い、18歳以上の方の新規認定を終了しました。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kougai_kenkou_higai/taiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "都営水道料金の免除",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、都営水道料金を免除しています。",
+      "targetPersons": "墨田区にお住まいの特別児童扶養手当の支給を受ける方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/tokubetujidohuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産時の妊婦健康診査の費用助成",
+      "summary": "墨田区にお住まいの妊婦さんが、里帰り出産などで墨田区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "助成対象者は次の(1)から(3)の要件をすべて満たす方です。\n\n（1）受診日において、墨田区の住民基本台帳に記録されている方\n※ 受診日において墨田区以外の自治体に住民登録していた方は、当該自治体にお問い合わせください。\n（2）助産所又は東京都以外の医療機関等で妊婦健康診査又は新生児聴覚検査を受診した際に、実費を負担した方\n（3）墨田区又は他の区市町村から妊婦健康診査受診票、妊婦超音波検査受診票、妊婦子宮頸がん検診受診票又は新生児聴覚検査受診票の交付を受けている方（多胎児の妊婦健康診査の15回目から19回目の場合は、受診票は不要です）\n\n次に該当する妊婦健康診査は対象外となります。\n（1）親子健康手帳交付前（妊娠届提出前）に受診した健診費用\n（2）日本国外の助産所又は医療機関で受診した妊婦健康診査及び新生児聴覚検査\n（3）助産所での一般健康診査（1回目）及び超音波検査及び子宮頸がん検診に該当する妊婦健康診査\n（4）医療保険適用診療分",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/teatejyosei/ninpukenshinjosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "支給認定区分\n|支給認定区分|対象となる子ども|利用できる施設・事業|\n|:----|:----|:----|\n|1号認定;https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/shien_shinseido/1gounintei.html|満3歳以上の就学前の子ども（2号認定を除く）|幼稚園・認定こども園|\n|2号認定;https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/shien_shinseido/2gounintei.html|満3歳以上で保護者の就労や疾病等により、保育を必要とする子ども|保育所・認定こども園|\n|3号認定;https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/shien_shinseido/3gounintei.html|満3歳未満で保護者の就労や疾病等により、保育を必要とする子ども|保育所・認定こども園・地域型保育事業|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/shien_shinseido/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "【企業主導型保育施設】多子世帯（第2子以降）保育料負担軽減事業のご案内",
+      "summary": "令和6年4月から認可外保育施設の指導監督基準を満たす旨の証明書の交付を受けた企業主導型保育施設に在籍する第2子以降の保育料助成事業を実施します。",
+      "targetPersons": "認可外保育施設の指導監督基準を満たす旨の証明書の交付を受けた企業主導型保育施設に在籍する第2子以降",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hoikumusyouka/kigyousyudou-tasi604.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "認可保育施設利用申込みのご案内(令和6年用)",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": "保育が必要な事由に該当し、家庭で保育をすることができない場合、利用申込みができます。また、原則として、墨田区に住民票がある方です。ただし、墨田区に住民票がない場合でも、転入予定がある場合、又は保護者どちらかの勤務地が墨田区にある場合等、申込みできる場合があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/riyou_annai/a.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認可保育施設利用申込みのご案内(令和6年用)",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": "保育が必要な事由に該当し、家庭で保育をすることができない場合、利用申込みができます。また、原則として、墨田区に住民票がある方です。ただし、墨田区に住民票がない場合でも、転入予定がある場合、又は保護者どちらかの勤務地が墨田区にある場合等、申込みできる場合があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/riyou_annai/a.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "小規模保育事業所",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。墨田区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "保育の支給認定区分のうち、3号認定を受けていること。\n主な要件は次のとおりです。\n\n0歳から2歳（年度末3歳児）の児童\n就労を要件とする場合は、保護者の勤務時間が48時間／月以上であること",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/ninka_hoiku/sisetugatashoukiboho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "墨田区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "区内認可保育施設を利用する世帯\n標準時間保育の延長保育は、1 歳の誕生日が属する月から利用できます。私立認可保育園（公私連携型を含む）、私立認定こども園、小規模保育事業所の延長保育及び家庭的保育事業所（保育ママ）の時間外保育については、各施設にお問合せください。\n両親がともに仕事で週 3 日以上、お迎えの園到着時刻が午後 6 時 15 分を過ぎる方が選考の対象になります。短時間保育の延長保育は、送迎時刻が短時間保育の時間帯を超える方が選考の対象になります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/zaien/zaienchuunotebiki.files/r6tebiki.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育",
+      "summary": "保護者が就労により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "区内在住または区内認可保育施設に在園する生後6ヶ月以上の就学前の児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itizi_hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "区内在住で原則として生後57日目から中学校3年生までのお子さんを養育している保護者で、次のいずれかに該当する場合（保護者の他に養育する人がいない場合に限る。）\n\n1.病気、出産、けが等のため入院する場合\n2.身体的又は精神的な理由で体調が不良な場合\n3.親族の疾病等によりその看護又は介護にあたる場合\n4.冠婚葬祭、出張等のため不在となる場合\n5.事故又は災害に遭い、子どもの養育が困難な場合\n6.その他、特に必要と認める理由がある場合",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/kosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "児童養育家庭ホームヘルプサービス",
+      "summary": "一時的疾病の体調不良やひとり親家庭などにより、家事が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "墨田区に住所があり、義務教育終了前の児童を養育している家庭の保護者の方で、次のいずれかに該当する方\n\n一時的疾病（けがを含む）\n親族等の冠婚葬祭に出席するとき\nひとり親家庭\n\n※妊娠中、0歳から2歳までの児童を養育されている方は家事・育児サポーター事業をご利用ください。\n家事・育児サポーター事業　墨田区公式ウェブサイト (sumida.lg.jp);https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/kajiikuji.html",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/konnan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "墨田区学童クラブ利用申請のご案内",
+      "summary": "学童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "放課後の児童の健全育成を図るため、保護者が就労等により昼間家庭にいない（注釈）児童で、集団生活に適し、次の1から3のいずれかに該当する児童が対象となります。\n\n1．区内にある小学校の1年生から3年生までの児童\n2．区外の小学校の1年生から3年生までに在籍し区内に住所のある児童\n3．その他特に必要があると認める児童\n※特に必要があると認める児童とは\n（1）区内の特別支援学校に在籍している1年生から6年生までの児童\n（2）区外の特別支援学校に在籍し区内に住所のある1年生から6年生までの児童\n（3）区内にある小学校の4年生から6年生までの児童、または、区外の小学校の4年生から6年生までに在籍し区内に住所のある児童で、「ア」から「ウ」のいずれかに該当する児童\nア 特別支援学級に在籍している児童\nイ 身体障害者手帳,愛の手帳または精神障害者保健福祉手帳1級もしくは2級を保持する児童\nウ 学童クラブに通う必要があることを証明できる児童（ウは、児童相談所等からの意見書、専門機関からの証明書等が必要です。）\n（4）区内にある小学校または特別支援学校の児童で、看護師等による医療的ケアを必要とする児童\n（5）区外の小学校または特別支援学校に在籍し区内に住所のある児童で、看護師等による医療的ケアを必要とする児童\n\n（注釈）保護者が平日（週1日以上）の午後1時から午後6時までの間で、就労等を行っていることが必要となります。\n※利用申請は年度ごとに必要です。継続して利用する場合も、改めて申請することとなります。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/gakudou/gakudou_riyoushinsei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票（赤ちゃん訪問連絡票）",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生通知票（はがき）を記入して、郵送または提出してください。出生通知票をもとに、「こんにちは赤ちゃん事業（乳児家庭全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生通知票はその届出を兼ねています。",
+      "targetPersons": "赤ちゃんが生まれたら",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/akatyanhoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM792",
+      "name": "乳幼児の歯の健康診査（▲歳児歯科健康診査）",
+      "shortName": "4歳児歯科健康診査",
+      "summary": "これからのお子さんのお口の中は、乳歯から永久歯へと生え変わり、大きく変化していきます。4歳児歯科健康診査を受診して、かかりつけ歯科をもち、歯と口を健康に保ちましょう。",
+      "targetPersons": "4歳を迎えるお子様",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kenko_zukuri/ha_kenkou/4saijisika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料の免除",
+      "summary": "国民年金の第1号被保険者が出産する場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "国民年金第1号被保険者で出産日が平成31年2月1日以降の方\n※妊娠85日以上の分娩（死産・流産・早産及び人工妊娠中絶の場合を含む）が対象です。",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kurashi/kokuminnenkin/genmenyuuyo/sanzen-sango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊産婦歯科健康診査",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用を助成する墨田区妊産婦歯科健康診査票をお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kenko_zukuri/ha_kenkou/ninpusikakenkousinsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立幼稚園の入園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "保護者とともに墨田区に住んでいるお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kyouiku/school/nyuuen_nyuugaku/kurituyoutien-nyuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃん休けいスポット",
+      "summary": "墨田区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設のほか民間施設の協力を得て「おむつ替え」や「授乳」ができる赤ちゃん休けいスポットを整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも都内の民間施設を含めて同事業を実施しており、指定施設には、入り口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "乳幼児を持つ保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/akatyan_spot/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "中学生以下のお子さんや妊娠中の方がいる世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/oshirase/kosodatetokyoPP.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "認可保育施設の保育料の決定と支払い",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、墨田区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "区内認可保育施設を利用する世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/zaien/hoikuenhoikuryoukete.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育事業所",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": "保育の支給認定区分のうち、3号認定を受けていること。\n主な要件は次のとおりです。\n\n0歳から2歳（年度末3歳児）の児童\n就労を要件とする場合は、保護者の勤務時間が48時間／月以上であること",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/ninka_hoiku/sisetugatashoukiboho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費制度（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/seisin_syougai_josei/20171218091740928.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時預かり",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/itiji_azukari/itiziazukari.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "定期利用保育",
+      "summary": "墨田区内の認可保育園及び子育てひろばでは、同居の家族がパート就労などで、入園基準には満たないものの、月40時間以上、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。\n詳細については各施設へお問い合わせください。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/ninkagai/teikiriyouhoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM841",
+      "name": "ひとり親家庭高等職業訓練促進資金貸付",
+      "shortName": "ひとり親家庭高等職業訓練促進資金貸付事業（訓練促進資金）",
+      "summary": "ひとり親家庭高等職業訓練促進給付金の支給対象となった方は、東京都社会福祉協議会の実施するひとり親家庭高等職業訓練促進資金貸付事業の訓練促進資金（入学金等）の貸付けの対象となります。この貸付けは要件を満たせば、返済が免除されます。詳しくは下記のひとり親家庭高等職業訓練促進資金貸付事業からご確認ください。\n東京都社会福祉協議会　ひとり親家庭高等職業訓練促進資金貸付事業ホームページ （外部サイト）;https://www.tcsw.tvac.or.jp/shikin/hitorioya/index.html",
+      "targetPersons": "ひとり親家庭高等職業訓練促進給付金の支給対象となった方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/hitori_oya/ta802000202203111541.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "東京都立墨東病院 病児・病後児保育室「水辺の病児・病後児保育室さくら」",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "区内に住所がある生後6か月から小学校6年生までのお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/byouji_byougoji/bo_byouji_hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "すみだファミリー・サポート・センター",
+      "summary": "墨田区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、サポート会員がファミリー会員に対して子育ての手助けをする事業です。",
+      "targetPersons": "生後43日目から小学校6年生までのお子さまを持つ保護者で、墨田区に在住している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/family_support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "区立保育園及び幼保連携型認定こども園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、墨田区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/hoikuen/kuritu_hoikuen/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭的保育者（保育ママ）",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、墨田区が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": "生後43日から3歳未満の健康なお子様で、認定区分は「3号認定」で保育の必要量は「短時間保育」の方が対象となります。\nなお、お子様の年齢は4月1日を基準とし、年度途中で3歳になってもその年度はお預かりできます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/ninka_hoiku/hoikumama294.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "認証保育所",
+      "summary": "認証保育所は、東京都が設けた基準（保育料・保育環境・保育時間など）を満たすことで都の認証を受け、運営経費の助成を受けている認可外保育施設です。\n利用者には、所得及び多子の状況に応じた保育料の助成制度などがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/ninkagai/ninsyou_hoikuzyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "区立幼稚園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、墨田区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": "4歳児から5歳児までの幼児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/youtien/kuritu_youti.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私学助成（従来制度）の幼稚園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、墨田区内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/youtien/shiritsu-yochien-a.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "MR　1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後12か月から24か月に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "MR　2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "5歳以上7歳未満で小学校入学前の1年間（小学校入学1年前の4月1日から入学の年の3月31日までに接種してください）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後12か月から生後36か月未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎　1期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後6か月から90か月（7歳6か月）に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+14+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎　2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "9歳から13歳に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+15+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒトピパローマウイルス（ＨＰＶ・子宮頸がん予防）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "小学6年生から高校1年生相当年齢まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "5～6か月児学級",
+      "summary": "墨田区では、生後５か月から６か月のお子さんとその保護者を対象に、お口のケアの始め方や離乳食のすすめ方に関する講座を開催します。",
+      "targetPersons": "実施日当日に生後5か月から6か月までのお子さんとその保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/56ikugaku-2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "病後児（軽症病児）保育",
+      "summary": "訪問型保育支援事業“すみだ子育て支援ネット「はぐ（Hug）」”は、区が認定した子育てサポーターや病後児サポーターがご自宅に伺い、一時的にお子さんを保育する事業です。",
+      "targetPersons": "墨田区にお住まいの保育園・幼稚園児、小学校3年までのお子さんが病気等の回復期で登園・登校できないとき",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/hug.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼稚園等の幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3歳児クラスから5歳児クラスで、保育の必要性のある子ども（施設等利用給付2号認定　新2号認定）\n満3歳児クラスの非課税世帯で、保育の必要性のある子ども（施設等利用給付3号認定　新3号認定）\n【令和5年10月以降】満3歳児クラスの課税世帯で、保育の必要性のある第2子以降の子ども（施設等利用給付3号認定　新3号認定を準用）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/youtien/yochien-musyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "墨田区内にお住まいの方が墨田区外の認可保育施設を希望する場合",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：墨田区内にお住まいの方が、区外の認可保育所への入所を希望する場合\nB：区外にお住まいの方が、墨田区内の認可保育所への入所を希望する場合",
+      "targetPersons": "墨田区内にお住まいの方が墨田区外の認可保育施設を希望する場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/nyuuen/riyou_annai/a.files/R6goannai.pdf#search=%E5%8C%BA%E5%A4%96%E3%80%80%E4%BF%9D%E8%82%B2%E6%89%80%E5%85%A5%E6%89%80",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/kodomo-teate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都母子及び父子福祉資金",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "区内に住所があり、次の要件を全て満たす方\n（1）都内に6か月以上住んでいる\n（2）20歳未満のお子さんを扶養している\n（3）貸付けが自立につながると判断される\n（4）償還（返済）の計画が立てられる",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/seikatuhukusi/seikatu_kasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳児健康診査（9か月から10か月児）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査9か月から10か月児を実施しています。",
+      "targetPersons": "区内在住の9か月から10か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/hahatoko_kenkou_sins.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM5027",
+      "name": "母子家庭等就業・自立支援センター",
+      "shortName": "養育費等支援事業",
+      "summary": "養育費等の取り決めについてお悩みの方の相談に応じ、公正証書等の作成に関する助言や弁護士事務所等への同行などを行っています.",
+      "targetPersons": "母子家庭の母又は父子家庭の父で養育費の対象となる児童を扶養している者、または将来における離婚の意思が明確で養育費の対象となる児童を扶養する予定の者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/seikatuhukusi/zyosei_bosi_katei_so.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "4種混合（DPT-IPV）\n1期初回・追加",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から90か月（7歳6か月）に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "子どものMR（麻しん風しん混合）の任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち墨田区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "対象者一覧表\n|生年月日|条件|\n|:----|:----|\n|平成18年4月2日から平成30年4月1日までに生まれたお子さん|「MR」または「麻しん」または「風しん」の予防接種を定期接種期間中に受ける事ができなかった方（麻しん・風しんの両方を罹患した者は除く）|\n|平成31年4月2日以降に生まれた生後24ヶ月以上のお子さん|「MR」1期予防接種が未接種（麻しん・風しんの両方を罹患した者は除く）|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/MR-ninisessyu28.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "児童育成手当",
+      "summary": "児童育成手当は、墨田区児童育成手当条例に基づき、児童の福祉の増進を図ることを目的とし、児童の心身の健やかな成長に寄与することを趣旨として支給されるものです。",
+      "targetPersons": "次のいずれかの状態にある児童（18歳の誕生日を迎えたあとの3月末までの者）を養育している方\n\n父母が離婚した児童\n父又は母が死亡した児童\n父又は母が重度の障害(身体障害者手帳1・2級程度)の状態にある児童\n父又は母が生死不明である児童\n父又は母に引き続き1年以上遺棄されている児童\n父又は母が配偶者からの暴力（DV）で裁判所から保護命令を受けた児童\n父又は母が法令により引き続き1年以上拘禁されている児童\n母が婚姻によらないで生まれた児童(児童の父又は母の扶養のある場合を除く)\n\n支給対象外\n次のいずれかに該当するときは、支給の対象となりません。\n\n児童育成手当\n受給者資格者の住所が日本国内にないとき\n児童が児童福祉施設等(通園施設等を除く)に入所しているとき\n児童が里親に委託されているとき\n児童が父又は母と生計を同じくしているとき(父又は母の障害が受給理由の場合を除く)\n児童が父又は母の配偶者(事実上の配偶者を含む)と生計を同じくしているとき(父又は母の障害が受給理由の場合を除く)\n※「事実上の配偶者」とは、住民票が同住所にあるときや、住民票がなくても実際には同居している場合などを含みます。\n※「生計を同じくする」とは、児童の父又は母が異性の方（元配偶者、事実上の配偶者又はそれに準ずる方）と次の1から3のいずれかの状況にあることをいいます。\n1．法律上の婚姻関係にあること\n2．住民票上同一住所地にあること\n3．住民票上同一住所になくても実際に同居しているか、それに準ずる定期的な訪問かつ経済的な援助があること\n\n所得制限\n所得制限額表\n|扶養人数|所得制限額|\n|:----|:----|\n|0人|3,604,000円|\n|1人|3,984,000円|\n|2人|4,364,000円|\n|3人|4,744,000円|\n|4人以上|一人増すごとに380,000円を加算|\n\n上記制限額に加算されるもの\n\n扶養親族等に、老人控除対象配偶者又は老人扶養親族があるときは、1人につき100,000円\n扶養親族等に、特定扶養親族があるときは、1人につき250,000円\n申請者(父母又は養育者)の令和5年中の所得が上表の所得制限以上であるときは、児童育成手当は支給されません。\nこの限度額表の内容は、令和6年5月から令和7年4月までの申請に適用されます。\n※扶養人数は、令和5年12月31日現在の税法上の人数です。\n※所得額＝令和5年中の年間収入金額―必要経費又は給与所得控除額―諸控除額（下表参照）\n\n控除額一覧\n|控除項目|控除金額|\n|:----|:----|\n|一律控除（社会保険料相当額）|8万円|\n|雑損・医療費・小規模企業共済等掛金・配偶者特別控除|控除相当額|\n|障害者・勤労学生・寡婦（夫）控除|27万円|\n|特別障害者控除|40万円|\n|特別寡婦控除|35万円|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouikuseiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "JR通勤定期券の割引",
+      "summary": "児童扶養手当を受給している方（手当が支給されている方）に限り、普通定期券の3割引で、特定者用通勤定期乗車券が購入できます。",
+      "targetPersons": "児童扶養手当受給者の方又はその方と同一世帯の方が受けられます。\n※生活保護を受給されている方は、生活福祉課で交付を受けてください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "粗大ごみ等処理手数料の免除",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、粗大ごみ等処理手数料を免除しています。",
+      "targetPersons": "墨田区にお住まいの特別児童扶養手当の支給を受ける方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/tokubetujidohuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "家庭的保育者（保育ママ）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。墨田区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "対象児童\n生後43日から3歳未満の健康なお子様で、認定区分は「3号認定」で保育の必要量は「短時間保育」の方が対象となります。\nなお、お子様の年齢は4月1日を基準とし、年度途中で3歳になってもその年度はお預かりできます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/ninka_hoiku/hoikumama294.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "私立保育園及び幼保連携型認定こども園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、墨田区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/sisetu_info/kosodate/hoikuen/siritu_hoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+2+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "私立幼稚園等（新制度園）",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、墨田区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/youtien/sirrituyoutiennyuuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "緊急預かり",
+      "summary": "訪問型保育支援事業“すみだ子育て支援ネット「はぐ（Hug）」”は、区が認定した子育てサポーターや病後児サポーターがご自宅に伺い、一時的にお子さんを保育する事業です。",
+      "targetPersons": "墨田区にお住まいの小学校6年生までのお子さん。保護者が緊急を要する所用（冠婚葬祭や家族の看護など）によりお子さんを一時的に保育できないとき、療育事業所に保護者が同行するため一時的にお子さんを保育できないとき　など",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/hug.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒブ",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から60か月（5歳）に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+3+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "障害手当",
+      "summary": "児童育成手当は、墨田区児童育成手当条例に基づき、児童の福祉の増進を図ることを目的とし、児童の心身の健やかな成長に寄与することを趣旨として支給されるものです。",
+      "targetPersons": "次のいずれかに該当する20歳未満の心身障害児を扶養している方\n\n知的障害で、｢愛の手帳｣が1・2・3度程度\n身体障害者で、「身体障害者手帳」1級・2級程度\n脳性マヒまたは進行性筋萎縮症\n\n支給対象外\n次のいずれかに該当するときは、支給の対象となりません。\n障害手当\n児童が児童福祉施設等（通園施設等は除く）に入所しているとき\n※墨田区の心身障害者福祉手当との併給はできません。\n\n所得制限\n所得制限額表\n|扶養人数|所得制限額|\n|:----|:----|\n|0人|3,604,000円|\n|1人|3,984,000円|\n|2人|4,364,000円|\n|3人|4,744,000円|\n|4人以上|一人増すごとに380,000円を加算|\n\n上記制限額に加算されるもの\n\n扶養親族等に、老人控除対象配偶者又は老人扶養親族があるときは、1人につき100,000円\n扶養親族等に、特定扶養親族があるときは、1人につき250,000円\n申請者(父母又は養育者)の令和5年中の所得が上表の所得制限以上であるときは、児童育成手当は支給されません。\nこの限度額表の内容は、令和6年5月から令和7年4月までの申請に適用されます。\n※扶養人数は、令和5年12月31日現在の税法上の人数です。\n※所得額＝令和5年中の年間収入金額―必要経費又は給与所得控除額―諸控除額（下表参照）\n\n控除額一覧\n|控除項目|控除金額|\n|:----|:----|\n|一律控除（社会保険料相当額）|8万円|\n|雑損・医療費・小規模企業共済等掛金・配偶者特別控除|控除相当額|\n|障害者・勤労学生・寡婦（夫）控除|27万円|\n|特別障害者控除|40万円|\n|特別寡婦控除|35万円|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouikuseiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+3+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "都営水道料金の免除",
+      "summary": "児童扶養手当を受給している方（手当が支給されている方）に限り、水道料金は基本料金（消費税相当額を含む）が免除されます。下水道料金は1か月8立方メートル以下の汚水排出量にかかる料金（消費税相当額を含む）が免除されます。",
+      "targetPersons": "墨田区にお住まいの児童扶養手当受給世帯が受けられます。\n※生活保護を受給の方は、生活福祉課にお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+3+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "居宅訪問型保育事業（医療的ケア対応）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。墨田区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "対象となるお子さま\n1歳から5歳児クラス（0歳児クラスは応相談）で、保育の必要性があり、主に医療的ケアが必要な疾病（経管栄養、経鼻栄養、胃ろう、腸ろう等）、肢体不自由、重度心身障がいのため、集団保育が困難なお子さま\n※人工呼吸器、気管切開、呼吸疾患のあるお子さま、その他、事前に行う運営事業者との選考において、安全にお預かりすることが難しいと判断されたお子さまについては、お預かりできません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoikuen/ninka_hoiku/kyotakuhoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "いっしょに保育",
+      "summary": "子育てについて、気になることや困っていることをいっしょにお話しましょう。保育士2名がお宅にお伺いします。\nお子様とかかわり、様子をみながらおうちの方のお話を伺い、いっしょにお話しさせていただきます。",
+      "targetPersons": "生後43日から就学前まで",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/azukeru/hoiku_service/issyonihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から60か月（5歳）に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+4+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "バースデーサポート事業",
+      "summary": "1歳を迎えたお子さんを育てるご家庭の子育てを支援するため、子育てアンケートに回答いただいた家庭へ家事・育児パッケージ（電子クーポン）と子育てに関するハンドブックを配布する「墨田区バースデーサポート事業」を実施しています。",
+      "targetPersons": "1.1歳を迎える誕生月の1日に墨田区に住民登録があるお子さんのいるご家庭\n（令和4年11月から令和5年3月生まれのお子さん）\n2.申請時点で墨田区に住民登録がある1歳6か月未満のお子さんのいるご家庭\n（令和4年11月から令和5年3月生まれで1歳の誕生月の1日に墨田区に住民登録があり、かつ申請日時点で墨田区に住民登録がある1歳6か月未満のお子さんとその保護者。）\n※1，2両方の要件を満たす方。\n※遡及対象の方（令和4年4月～10月生まれ）の申請受付は、終了しました。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/teatejyosei/barthday.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+4+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "粗大ごみ等処理手数料の免除",
+      "summary": "児童扶養手当を受給している方（手当が支給されている方）に限り、粗大ごみ等臨時ごみの収集手数料の免除が受けられます。",
+      "targetPersons": "墨田区にお住まいの児童扶養手当受給者が受けられます。\n※生活保護を受給の方は、生活福祉課にお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/teate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+5+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "家事・育児サポーター事業",
+      "summary": "妊娠中の方や乳幼児期（2歳まで）のお子さんを育てるご家庭に対し、ご自宅へサポーターを派遣して家事・育児のサービスを実施することにより、身体的・精神的負担を軽減し、妊娠期及び産後も安心して子育てできるよう支援する事業です。",
+      "targetPersons": "妊娠中の方及び0歳から2歳までのお子さんを養育されているご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/kajiikuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+6+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ママのリラックスタイム",
+      "summary": "子育ての中で大変さを感じているお母さん方が、お子さんと離れて、その大変さについて話をしたり聴いたりする場です。\n”お母さん”から”わたし”に戻ってリフレッシュしませんか。",
+      "targetPersons": "区内在住で、就学前の子がいる母親",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/sangoriyou/mamanorilaxtime.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタ（ロタリックス）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後6週から24週まで（令和2年8月1日生まれ以降のお子さん）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタ（ロタテック）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後6週から32週まで（令和2年8月1日生まれ以降のお子さん）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCG",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131075+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "DT　2期",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳から13歳に至るまで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/yobou_sessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

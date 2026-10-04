@@ -1,0 +1,1750 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131105",
+  "programs": [
+    {
+      "psid": "psid3.0+1000020131105+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届出書の提出・母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "医療機関で妊娠の診断を受けたかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninshintodoke_mynumber.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM10",
+      "name": "先天性代謝異常等検査",
+      "shortName": "先天性代謝異常等検査",
+      "summary": "東京都では、フェニルケトン尿症等の先天性代謝異常や先天性甲状腺機能低下症（クレチン症）などの内分泌疾患を早期に発見するために、先天性代謝異常等検査を行っています。\nこれらの疾患を放っておくと、生まれた時は健康に見えても、身体障害や知的障害が発生したり、時には生命の危険にさらされたりする場合もあります。しかし、疾患を早期に発見し、適切な治療を続けることで、障害などの発生を未然に防ぐことができます。",
+      "targetPersons": "生まれて5日目から7日目の間に足の裏からごく少量の血液を採って検査します。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/taishaijo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n目黒区の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、目黒区サイトや市報などでお知らせしています。）",
+      "targetPersons": "乳幼児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/shisetsu/genre/kyouikukosodate/jidokan_club/jidoukan/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊産婦・新生児の訪問指導（赤ちゃん訪問）",
+      "summary": "妊産婦・新生児の訪問指導（赤ちゃん訪問）",
+      "targetPersons": "目黒区に住民登録がある妊産婦および里帰り中などの事情により住民登録がある自治体から依頼を受けた妊産婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "目黒区では、子ども家庭支援センターが持つべき機能である「子育て総合相談」と「子ども虐待対応」を複数の窓口で対応・連携し、子どものいる家庭への支援を行っています。",
+      "targetPersons": "子どものいる家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kusei/gaiyou/kodomo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM112",
+      "name": "子育て広場",
+      "shortName": "目黒区地域子育てふれあいひろば",
+      "summary": "区内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、目黒区サイトや市報などでお知らせしています。）",
+      "targetPersons": "3歳児クラスまでのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM114",
+      "name": "小児科救急",
+      "shortName": "平日夜間の小児初期救急診療案内",
+      "summary": "目黒区では、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": "15歳以下のかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kenkousuishin/bousaianzen/kyuukyuu/shounishokikyuukyuuiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに関する総合相談窓口",
+      "summary": "目黒区内の子育てに関する相談窓口",
+      "targetPersons": "子ども（0歳から18歳未満）と子育てに関する悩みや困りごとについて、一緒に考え、必要に応じて情報の提供をしたり、適切なサービスや支援機関を紹介しています。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/sogosodan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM119",
+      "name": "目黒区の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "目黒区内の子育てに関する相談窓口",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/kosodate_dv_gyakutai_soudan.html#p1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "保健指導票の交付",
+      "summary": "生活保護を受けている世帯、および住民税が課税されていない世帯の妊産婦・乳幼児は、医療機関で必要な保健指導（定期健診）が無料で受けられます。",
+      "targetPersons": "生活保護法による被保護世帯、上記以外の住民税非課税世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kenkoufukushi/iryou/shidohyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "義務教育費の援助",
+      "summary": "経済的な理由により就学が困難と認められる、国公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "援助を受けることができるかた\n申請に必要な書類\n申請方法\n申請期限\n審査結果について\n援助する費用\n目黒区では、ご家庭の事情に応じて、小・中学校に就学するために必要な経費（学用品費、給食費、修学旅行費等）の一部を就学援助費として支給しています。申請要件に該当する場合、就学援助費の支給を受けることができます。\n\n援助を受けることができるかた\n次の申請要件をすべてに該当するかたが申請できます。\n\n目黒区在住のかた\nお子様が、国公立小・中学校（義務教育学校の前期・後期課程、中等教育学校の前期課程を含む）に通っているかた（私立学校、インターナショナルスクール・特別支援学校は対象外）\n次の「申請理由」の1から6のいずれかに該当するかた\n申請理由\n生活保護を受けており、小学6年生から中学3年生のお子様を扶養している（中学1・2年生は、独自宿泊事業に参加予定の生徒のみ対象）\n令和5年度または6年度に、生活保護の廃止・停止を受けた\n国民年金保険料を減額または免除（法定免除を除く）されている\n児童扶養手当の支給を受けている\n災害等を受け学用品等の購入に不自由している（申請日から遡って半年以内の災害）\n経済的にお困りで、令和5年中の世帯の合計所得が下表の金額以下である\n世帯の所得限度額（目安）\n|世帯構成|2人世帯|3人世帯|4人世帯|5人世帯|6人世帯|7人世帯|\n|:----|:----|:----|:----|:----|:----|:----|\n|家賃なし|190万円|250万円|310万円|380万円|430万円|470万円|\n|家賃あり|290万円|350万円|410万円|480万円|530万円|590万円|\n\n家賃（地代）の支払いの有無により所得限度額が変わります。住宅ローンは該当しません。\n表中の金額はあくまでモデルケースによる目安です。世帯構成員の年齢や学年、家賃額等により変動します。\n世帯とは、昨年12月31日時点で生計を同じくする家族をいいます。\n所得額とは、源泉徴収票の「給与所得控除後の金額」、確定申告書の「12所得金額合計」欄の金額を指します。\n申請理由1から6のいずれにも該当しない場合で、失業・疾病等により収入が著しく減少し、直近3カ月の収入金額から算出した1年間の世帯の合計所得見込額が上表の金額以下である場合は、当該状況を証明する書類（雇用保険受給資格者証、破産手続き開始を証明する書類、医師の診断書等）により申請できる場合がありますので、ご相談ください。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/gakkouunei/kosodatekyouiku/gakkoukyouiku/gimu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "妊産婦・新生児の訪問指導（赤ちゃん訪問）",
+      "summary": "妊産婦・新生児の訪問指導（赤ちゃん訪問）",
+      "targetPersons": "赤ちゃんが生まれたら、保健師または助産師がお宅を訪問し、体重測定、入浴方法、育児相談などを行います。\n\n里帰り出産で訪問を希望される場合\n1.滞在先の自治体に受け入れ可能かご確認ください。\n　自治体によってはご希望に添えない場合があります。\n\n2.確認後、出生通知票（オンライン）にて訪問の希望先として「他自治体の滞在先」を選択して提出してください。すでに出生通知票を提出されているかたは、お住いの区域を管轄する保健予防課または碑文谷保健センターへお問い合わせください。\n\n3.出生通知票（オンライン）の提出および住民登録の確認後、土曜日・日曜日・祝日を除く7日を目安に目黒区から滞在先自治体に依頼書を発送します。\n\n4.滞在先自治体からの連絡をお待ちください。\n\n子育て応援ギフトについて\n1.里帰り先で赤ちゃん訪問を実施\n\n2.滞在先自治体から目黒区へ報告書の提出\n　自治体により異なりますが目黒区に到着するまでの目安は、訪問実施後1週間から1か月程度です。\n\n3.訪問報告書の確認後、子育て応援ギフト申請のご案内を住民票のある住所へ郵送します。\n\n目黒区へ里帰り出産される場合\n管轄の保健予防課または碑文谷保健センターへご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "妊産婦・新生児の訪問指導（赤ちゃん訪問）",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "赤ちゃんが生まれた人",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/homon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（宿泊型）",
+      "summary": "ご家族等から育児や家事の支援を受けられないかたや、子育てや産後の体調に不安のある産婦のかたは、施設に宿泊して、助産師等の専門職のケアや育児指導が受けられます。",
+      "targetPersons": "ご家族等から育児や家事の支援を受けられないかたや、子育てや産後の体調に不安のある産婦のかたは、施設に宿泊して、助産師等の専門職のケアや育児指導が受けられます。利用するためには、事前に申請が必要です。\n目黒区に住民登録がある出産後5か月未満のお母さんとその赤ちゃん（利用する施設により対象月齢の上限が異なります。）\nかつ、下記のいずれかに当てはまるかた\n産後の回復や体調に不安がある\n授乳に不安がある\n育児に不安がある\n家族などの支援が得にくい\n\n早産（在胎週数37週未満で出産）のかたは、修正月齢で5か月未満まで（出産予定日から5か月未満まで）に利用できる場合があります。\n施設の受け入れ体制によってはご希望に沿えない場合があります。\n既に「利用登録承認通知書」がお手元にある場合は、希望される施設;https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/syukuhaku81.html#cms37D5Fにご相談ください。\n早産のかたで、出産後5か月以降に申請を希望されるかたは、管轄の問い合わせ先;https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/syukuhaku81.html#kannkatuにご相談ください。\n\n注意事項\n部屋の空きが無い場合は利用できませんのでご了承ください。また、病気やけがなどで治療が必要なかた、感染症にり患しているまたは疑いがあるかたは利用できないことがありますので、ご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/syukuhaku81.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "特定不妊治療費（先進医療）の助成",
+      "summary": "東京都特定不妊治療（先進医療）助成を受けた夫婦に、保険適用された特定不妊治療と併用して自費で実施した「先進医療」に係る費用の一部を助成します。",
+      "targetPersons": "次のすべての要件に該当するかた\n\n東京都特定不妊治療費（先進医療）助成事業の承認決定を1年以内に受けていること\n治療開始時から区の助成申請時まで継続して婚姻関係がある夫婦（事実婚を含む）\n区の助成申請時に申請者が目黒区に住民登録していること\n他区市町村から同一の治療に対し、助成を受けていないこと",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/funintiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等の医療費助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "目黒区内に住所を有し、下記の病気にかかっているかたで、認定基準を満たし、医療機関に入院して治療を受ける必要のあるかた。\n次のいずれかに該当するかたが対象です。\n\n前年の総所得税額が、30,000円以下の世帯に属するかた\n上記以外のかたで、入院見込期間が26日以上のかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/ninshinchu.html#p3",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "国民健康保険　出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "国民健康保険の被保険者が出産したとき、その世帯主に出産育児一時金として50万円（注記）が支給されます。妊娠満12週（85日）以降であれば、死産・流産でも支給されます。その場合は、医師の証明書が必要です。\n（注記）出産日が令和5年3月31日以前のときは、42万円が支給されます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kokuho/kurashi/kokuho/shussan_itijikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティキーホルダー",
+      "summary": "目黒区では、妊娠の届出の際に、母子健康手帳と共にマタニティキーホルダーをお渡ししています。",
+      "targetPersons": "医療機関で妊娠の診断を受けたかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninshintodoke_mynumber.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "国民健康保険　出産費の貸し付け",
+      "summary": "出産予定日前に出産費用の支払いが必要な方を対象に、出産育児一時金8割に相当する額を限度として出産費用の貸し付けを無利子で行います。",
+      "targetPersons": "直接支払制度に対応していない医療機関等での出産など、出産費用の支払いにお困りのかたには、出産費の貸し付けを行っています。詳しくはお問合せください。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kokuho/kurashi/kokuho/shussan_itijikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM21",
+      "name": "出産祝い",
+      "shortName": "新生児誕生祝金",
+      "summary": "目黒区にお住まいの方がお子さんを出産し、出生通知票を提出した場合、祝金を支給します。",
+      "targetPersons": "次のいずれにも該当するご家庭に祝金を支給します。\n令和5年4月1日以降に出産し、かつ、出生日において出生した子どもを含む住民登録が目黒区にある世帯\n出生通知票を提出し、かつ、目黒区が受理した日において出生した子どもを含む住民票が目黒区にある世帯",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/shinseizitanzyoiwaikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "多胎妊婦に対する妊婦健康診査費用助成",
+      "summary": "目黒区では、妊婦健康診査を14回まで無料で受けられる受診票に加えて、多胎児を妊娠した方に対して、妊婦健康診査受診券14回分の回数を超えて自費で受診した妊婦健康診査費用について5回を限度に費用助成します。",
+      "targetPersons": "目黒区に住民票があり、多胎児を妊娠しているかた",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/tataininpukenshin.html#p1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児・義務教育就学児・高校生等医療費助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関等で受診した場合、保険診療の自己負担分（2割または3割）を助成しています。",
+      "targetPersons": "区内在住の健康保険に加入している0歳から18歳（令和5年3月31日までは15歳）到達後最初の3月31日までのお子さん。ただし、次の方を除きます。\n\n生活保護の受給者\n児童福祉法に規定する施設（措置）入所者（母子生活支援施設、保育所・知的障害児・肢体不自由児などの通園施設を除く）\n里親又は、小規模住居型児童養育事業を行う者に委託されているかた\n異動日（出生又は転入）から3か月以内に申請してください。3か月を経過したあとに申請した場合、出生日・転入日まで遡って助成することができなくなりますのでご注意ください。\nなお、子ども医療費助成の資格を持つには、国内の健康保険の資格が必要です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/toha.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "私立幼稚園児の補助金",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "施設等利用給付（無償化事業給付金）\nお子さんの住所が目黒区にある期間、私立幼稚園のうち子ども・子育て支援新制度に移行していない園及び国立大学付属幼稚園、国立特別支援学校幼稚部に通園させ、保育料などを支払っている保護者の方が対象です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/hoikuennado/hojokin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "「保育の必要性の認定」を受けている3歳児から5歳児クラスの児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ninnkagaimusyouka2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設等の無償化",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "「保育の必要性の認定」を受けている3歳児から5歳児クラスの児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ninnkagaimusyouka2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/jidouteate.html,https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/jidouteate_seidokaisei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "令和6年度目黒区ベビーシッター利用支援事業（一時預かり利用支援）",
+      "summary": "ベビーシッターを利用する際の費用の一部を負担する制度です｡\nお子さんが病気で保育園や小学校に登園・登校させることが困難な時期に、ベビーシッターなどの派遣を受けた保護者に対し、派遣に要した費用の一部を助成することにより、保護者の経済的な負担の軽減をはかり、保護者の子育てと就労の両立を支援します。",
+      "targetPersons": "目黒区に住所を有する、以下のいずれかの要件を満たす保護者\n\n日常生活上の突発的な事情や社会参加等により、一時的に保育を必要とするかた（保護者の残業や病気、自己実現、学校行事等、幅広い理由が対象）\nベビーシッターを活用した共同保育を必要とするかた（保護者と一緒にベビーシッターが共同で保育をします）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/babysitter_itiziazukari2024.html#p14",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "ひとり親家庭等の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある等の条件によって、対象となる場合があります｡\nなお、所得が「一部支給所得制限限度額」以上の場合、手当は支給されません。",
+      "targetPersons": "次のいずれかの状態にある18歳に達する日以後の最初の3月31日まで（心身に中度以上の障害がある場合は20歳未満）の児童を養育している方\n\n父母が離婚した児童\n父又は母が死亡した児童\n父又は母に重度の障害がある児童（ただし、一部障害の内容により例外があります。）\n父又は母が生死不明である児童\n父又は母に1年以上遺棄されている児童\n父又は母が裁判所からのDV保護命令を受けた児童\n父又は母が法令により1年以上拘禁されている児童\n婚姻によらないで生まれ、父又は母から扶養されていない児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/jidofuyoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭等の医療費について、経済的負担を軽減して保健の向上を図るため、母または父、およびそのお子さんにかかる保険診療の自己負担分の一部を助成します。\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある等の条件によって、対象となる場合があります｡\n所得制限があります。",
+      "targetPersons": "次のいずれかの状態にある18歳に達する日の以後の最初の3月31日までの児童（20歳未満で中度以上の障害がある児童を含む）と養育しているかた\n\n父母が離婚した児童\n父または母が死亡した児童\n父または母に重度の障害がある児童（ただし、一部障害の内容により例外があります。）\n父または母が生死不明である児童\n父または母により1年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた児童\n父または母が法令により1年以上拘禁されている児童\n母が婚姻によらないで懐胎した児童で、父または母から扶養されていない児童\n（注）児童が児童福祉施設等に入所している場合や、父または母が事実上の婚姻状態にある場合等、制度が受けられないことがあります。\n（注）生活保護を受給中のかたは対象となりません。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/josei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子及び父子福祉資金の貸付",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に引き続き6カ月以上居住していて、20歳未満の子どもを扶養している母子家庭及び父子家庭に、入学や修学、技能習得など自立に必要な資金（無利子又は利率1パーセント）をお貸しします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/kashitsuke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "養育医療（未熟児）",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "目黒区に居住する次のいずれかの症状に該当する未熟児で、入院して養育を受ける必要があると医師が認めた乳児（0歳児）が対象です。\n\n出生体重が2,000グラム以下の乳児\n生活力が特に弱く、下記の「対象となる症状」に掲げるいずれかの症状を示す乳児\n注記\n養育医療の医療費助成が受けられる医療機関は、指定された養育医療機関です。指定養育医療機関については、保健予防課又は碑文谷保健センターにお問い合わせください。\n\n対象となる症状\n運動不安、けいれん、運動異常\n体温が摂氏34度以下\n強いチアノーゼなど呼吸器、循環器の異常\n排便がない、または、くり返す嘔吐（おうと）などの消化器の異常\n強い黄疸（おうだん）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/yoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "生まれたお子さまの父または母（父母が婚姻中でない場合には母）\n注記：記入の済んだ届書であればどなたが持参していただいてもかまいませんが、父母以外のかたが届書を持参する場合も、届書には届出人である父または母の署名が必要です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/koseki/kurashi/kosekitodokede/shussei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "出産準備教室（旧：パパママの育児教室）",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、目黒区では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "目黒区に住民登録がある妊婦とそのパートナーで、いずれかが初めて出産を迎える方であること。（育児に参加する祖父母等も可）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/papa_meguro.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "妊婦ごはんとオーラルケア",
+      "summary": "妊娠中にとりたい栄養とレシピの実演を管理栄養士が、起こりやすいお口のトラブルやセルフケアについて歯科医師がお話しします。",
+      "targetPersons": "目黒区にお住まいの妊婦\n（パートナーまたは育児に参加する祖父母も可）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninpugohan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産費用",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、目黒区の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "（里帰り出産は対象外）\n区内に居住し、世帯状況が次のいずれかに該当し、他からの援助を受けられない方を対象として、家庭訪問等を行い審査のうえ決定します。\n\n生活保護を受けている。\n住民税が非課税である。\n当該年度分の住民税の所得割額が19,000円以下の世帯（ただし、健康保険等から出産一時金等の給付額が488,000円以上の場合は対象外）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/ninshin/josanhiyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM43",
+      "name": "妊娠・出産に関する救急窓口一覧",
+      "shortName": "救急医療機関",
+      "summary": "妊婦さんが救急のときや、ハイリスク妊娠・分娩の受け入れを行う医療機関のご紹介です。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "032"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kenkousuishin/shisetsu/hokenfukushi/iryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日診療所・救急医療機関",
+      "summary": "目黒区では、夜間や日曜・祝日、年末年始に、目黒区医師会の協力のもと、当番制で診療を行っています。\nなお、小児のお子さんの救急の時は、小児科救急当番医をご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/shisetsu/genre/hokenfukushi/kyukyu/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM47",
+      "name": "目黒区の妊娠・出産に関する相談",
+      "shortName": "出産・子育て応援事業（ゆりかご・めぐろ）",
+      "summary": "目黒区では、妊娠期から出産・子育て期にわたって安心して子育てができるよう、切れ目のない支援をめざし出産・子育て応援事業「ゆりかご・めぐろ」を実施しています。",
+      "targetPersons": "面接日現在、目黒区に住民登録のある妊婦（ご本人）\n産科医療機関で妊娠の事実が確認できたかた（証明書の提出は不要ですが、胎児の心拍が確認できた等妊娠の事実確認ができたかた）\n転入してきたかたも対象となります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/syussannkosodate.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "4か月児健診の日程（保健予防課管轄区域にお住まいのお子さん）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として4か月児健康診査を実施しています。",
+      "targetPersons": "お子さまの月齢が3か月を迎える頃に通知を送付いたします。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/4tsuki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳幼児健康診査のご案内(6から7か月児健診)",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6か月から7か月児乳幼児健康診査を実施しています。",
+      "targetPersons": "区内に居住する乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5009",
+      "name": "産婦健康診査の費用助成",
+      "shortName": "妊婦健康診査",
+      "summary": "産後の初期段階における母子に対する支援を強化し、妊娠期から子育て期にわたる切れ目のない支援を行うため、出産後間もない時期の産婦に対する健康診査費用を助成します。産婦健康診査は産後2週間、産後１か月など出産後間もない時期の産婦向けの健康診査で、母体の身体的機能の回復や授乳状況、精神状態の把握を行います。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninpukensa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "生後50日以内の赤ちゃん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/sinnseiji_tyoukakukensa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "伴走型相談支援",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "令和4年4月1日以降にお子さまがお生まれになったご家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/syussankosodateouenkoufukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "東京都不育症検査助成事業",
+      "summary": "不育症とは、妊娠したものの流産・死産を2回以上繰り返すことをいいます。検査により不育症のリスク因子を特定し、適切な治療及び出産につなげることができるよう、不育症検査に係る費用の一部を助成しています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/funintiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援交付金事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "1　出産応援ギフト\n支給対象者\n令和5年2月1日から令和5年3月31日の間に妊娠の届出をした人（妊婦）\n\n（注記）妊娠届出後に流産等で出産に至らなかったかたも受け取ることができます。\n（注記）令和5年4月1日以降に妊娠の届出をした妊婦のかたも同様にギフトを支給いたしますが、支給方法が異なるので、こちらのページをご確認ください。\n\n東京都出産・子育て応援事業（国の出産・子育て応援給付金）;https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/tokyotosyussankosodate.html",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/syussankosodateouenkoufukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5024",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "保育所等における医療的ケア実施ガイドラインの策定",
+      "summary": "保育所等において看護師等を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": "医療的ケアが必要な乳幼児・児童・生徒",
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/hoikuen.html,https://www.city.meguro.tokyo.jp/kyouikushien/kosodatekyouiku/shouchuugakkou/iryoutekicare-guideline.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "子ども教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "小学生",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/kosodatekyouiku/kosodate/kodomokyoshitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の保険料免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "令和5年11月1日以降に出産されたかた又は出産予定のかた（以下「出産被保険者」といいます。）が対象です。\n\n妊娠85日（4か月）以上の出産が対象となります（死産、流産、早産及び人工妊娠中絶の場合も含みます）。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kokuho/kurashi/kokuho/hokenryo_keigen.html#p3",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。",
+      "targetPersons": "子どもやその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/syokudou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療制度（精神通院）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として、通院による精神医療を継続的に要するかた（年齢制限はありません。）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/seishin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "乳幼児健康診査のご案内(1歳6か月児健診)",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。目黒区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内に居住する幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健診の日程（保健予防課管轄区域にお住まいのお子さん）",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。目黒区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "お子さまの年齢が3歳4か月を迎える頃に通知を送付いたします。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/3sai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "乳幼児健康診査のご案内(4・5歳児健診)",
+      "summary": "4・5歳児は基本的な生活習慣が確立し、社会性を身につける重要な時期です。そのため、目黒区では精神・情緒及び運動機能の顕著な発達期にある4・5歳児の健康診査を実施しております。",
+      "targetPersons": "区内在住で、当該年度（4月から翌年3月まで）に5歳になる幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/kosodate/4-5sai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（ロタウイルス）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "子どもの予防接種(任意の予防接種)",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち目黒区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "おたふくかぜ、インフルエンザ、男性へのHPVなどがあります。\n\nおたふくかぜとインフルエンザについては一部助成です。\n接種後、接種費用の支払いの際に助成額が差し引かれます。（医療機関によって接種費用が異なります。事前にご確認ください。）\nおたふくかぜワクチン予防接種;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/otafuku.html\n\n小児インフルエンザ;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo-influenza-josei.html\n\n男性へのHPV;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/hpv_danseisessyu.html",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM576",
+      "name": "児童遊園",
+      "shortName": "児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n目黒区の児童遊園の一覧は、目黒区サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/midori/shigoto/kouen/ichiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "多胎児家庭支援事業「さくらんぼ・めぐろ」",
+      "summary": "目黒区では、0歳から2歳の多胎児（双子や三つ子など）を養育しているご家庭の支援として、乳幼児健診や予防接種などの際の移動経費を補助する事業を実施します。保健師など専門職が面接し、ご家庭の様子やお子さんの成長などを伺い、育児の困りごとなど、相談をお受けします。また、タクシー移動に利用できるこども商品券（24,000円分）をお渡しします。",
+      "targetPersons": "面接日現在、目黒区に住民登録がある3歳未満の多胎児養育中の世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/sakura.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "ひとり親家庭自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "区内に住所を有するひとり親家庭（受講終了時に扶養している子の年齢が20歳未満）の親で、次の全ての条件を満たすかた\n\n児童扶養手当の支給を受けているか、同等の所得水準にあるかた\n就業経験、技能、資格の取得状況や労働市場の状況などから判断して、教育訓練を受けることが、就職のために必要であると認められるかた\n原則として、過去に訓練給付金を受給していないかた",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/kunrenkyufu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "目黒区では、妊婦健康診査を14回、妊婦超音波検査を4回、子宮頸がん検診を1回、公費負担（一部助成）しています。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninpukensa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "ひとり親家庭高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "区内に住所を有するひとり親家庭（受講終了時に扶養している子の年齢が20歳未満）の親で、次の全ての条件を満たすかた\n\n児童扶養手当の支給を受けているか、同等の所得水準にあるかた\n対象となる資格を取得するための養成機関において1年以上の課程を修業し、対象資格の取得が見込まれるかた\n就業又は、育児と修業との両立が困難であると認められるかた\n原則として、過去に訓練促進給付金及び類似制度の給付金の支給を受けていないかた",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/hitorioyakateikunnrennsokusinnhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童の福祉の増進を図るため、児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童を監護し、生計を維持）する方に支給されます。\n所得制限があります。",
+      "targetPersons": "20歳未満で、法令により定められた程度（「障害程度基準表」参照）の障害の状態にある児童を監護する父母又は養育者\n\nただし、次のかたには手当は支給されません。\n\n対象児童が施設等に入所しているかた\n対象児童が当該障害を支給事由とする年金を受給しているかた\n対象児童が日本国内に住所を有しないかた\n受給資格者（申請者）が、日本国内に住所を有しないかた\n障害程度基準表\n（1級）\n\n視力の良い方の眼の視力が0.03以下のもの\n視力の良い方の眼の視力が0.04かつ他方の眼の視力が手動弁以下のもの\nゴールドマン型視野計による測定の結果、両眼のI／4視標による周辺視野角度の和がそれぞれ80度以下かつI／2視標による両眼中心視野角度が28度以下のもの\n自動視野計による測定の結果、両眼開放視認点数が70点以下かつ両眼中心視野視認点数が20点以下のもの\n両耳の聴力レベルが100デシベル以上のもの\n両上肢の機能に著しい障害を有するもの\n両上肢のすべての指を欠くもの\n両上肢のすべての指の機能に著しい障害を有するもの\n両下肢の機能に著しい障害を有するもの\n両下肢を足関節以上で欠くもの\n体幹の機能に座っていることができない程度又は立ち上がることができない程度の障害を有するもの\n前各号に掲げるもののほか、身体の機能の障害又は長期にわたる安静を必要とする病状が前各号と同程度以上と認められる状態であって、日常生活の用を弁ずることを不能ならしめる程度のもの\n精神の障害であって、前各号と同程度以上と認められる程度のもの\n身体の機能の障害若しくは病状又は精神の障害が重複する場合であって、その状態が前各号と同程度以上と認められる程度のもの\n（2級）\n\n視力の良い方の眼の視力が0.07以下のもの\n視力の良い方の眼の視力が0.08かつ他方の眼の視力が手動弁以下のもの\nゴールドマン型視野計による測定の結果、両眼のI／2視標による周辺視野角度の和がそれぞれ80度以下かつI／2視標による両眼中心視野角度が56度以下のもの\n求心性視野狭窄又は輪状暗点があるものについて、I／2の視標で両眼の視野がそれぞれ5度以内におさまるもの\n自動視野計による測定の結果、両眼開放視認点数が70点以下かつ両眼中心視野視認点数が40点以下のもの\n両耳の聴力レベルが90デシベル以上のもの\n平衡機能に著しい障害を有するもの\nそしゃくの機能を欠くもの\n音声又は言語機能に著しい障害を有するもの\n両上肢のおや指及びひとさし指又は中指を欠くもの\n両上肢のおや指及びひとさし指又は中指の機能に著しい障害を有するもの\n一上肢の機能に著しい障害を有するもの\n一上肢のすべての指を欠くもの\n一上肢のすべての指の機能に著しい障害を有するもの\n両下肢のすべての指を欠くもの\n一下肢の機能に著しい障害を有するもの\n一下肢を足関節以上で欠くもの\n体幹の機能に歩くことができない程度の障害を有するもの\n前各号に掲げるもののほか、身体の機能の障害又は長期にわたる安静を必要とする病状が前各号と同程度以上と認められる状態であって、日常生活が著しい制限を受けるか、又は日常生活に著しい制限を加えることを必要とする程度のもの\n精神の障害であって、前各号と同程度以上と認められる程度のもの\n身体の機能の障害若しくは病状又は精神の障害が重複する場合であって、その状態が前各号と同程度以上と認められる程度のもの\n対象となる障害の状態の例\n身体障害\nおおむね身体障害者手帳1級から3級程度（下肢障害については4級の一部を含む）\n疾患により長期にわたる安静を必要とする程度の状態にあるもの等\n知的障害\nおおむね愛の手帳1度から3度程度\n\n精神障害\n上記と同程度の障害がある児童（自閉スペクトラム症等により日常生活に著しい制限を受けるかた等）\n\n重複障害\n複数の障害がある場合は、個々の障害の程度が上記より軽度な場合でも該当となることがあります。詳細はお問合せください。\n\n注記\n上記手帳等級にも、一部対象外があります。\n\n手当額\n令和6年4月から手当額が改定されました。\n\n重度障害の場合\n月額55,350円（児童1人につき）\n\n中度障害の場合\n月額36,860円（児童1人につき）\n\n手当の支払月（定例払）\n原則として、申請をした月の翌月分から支給となります。\n\n手当の支給は、原則として4月、8月、11月の各11日に、前月までの4か月分（11月は当月までの4か月分）をまとめて支給します。\n11日が土曜日、日曜日、祝日の場合は、直前の平日となります。\n所得制限\n申請者の所得のほか配偶者、同居の扶養義務者等の所得が一定以上である場合は、手当が支給されません。\n\n子どものための諸手当　各種所得制限額;https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/teate_seigengaku.html\n\n詳しくは所得制限表をご覧ください。\n\n特別児童扶養手当新規申請案内\n特別児童扶養手当新規申請案内（令和6年4月版）（PDF：542KB）;https://www.city.meguro.tokyo.jp/documents/3947/r6tokuzi.pdf\n\n新規申請をされるかたは、こちらも併せてご覧ください。\n\n令和4年4月1日から眼の障害の認定基準が一部改正されました。\n改正のポイント\n視力障害について、良い方の眼の視力に応じて適正に評価できるよう、「両眼の視力の和」から「良い方の眼の視力」による認定基準に変更されました。\n視野障害について、ゴールドマン型視野計のほか、自動視野計に基づく認定基準が規定されました。\n今回の改正によって、手当を受給中のかたが受給できなくなることや、障害等級が下がることはありません。\n眼の障害以外の障害で手当2級を受給中のかたのうち眼の障害のあるかたは、今回の改正により重複障害で1級となる場合があります。詳細はお問合せください。\n今回の改正に伴い、児童扶養手当の父母障害の眼の障害の認定基準が、改正後の特別児童扶養手当1級の認定基準に改正されました。\n認定基準等詳細は、厚生労働省のお知らせ（PDF：625KB）;https://www.city.meguro.tokyo.jp/documents/3947/osirase.pdfをご覧ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/tokubetsufuyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "身体又は精神に重度の障害を有するため、日常生活において常時の介護を必要とする状態にある20歳未満のかた\n\n所定の診断書により判定します。診断書は障害の部位により、「肢体不自由用」「精神の障害用」「心臓疾患用」「結核及び換気機能障害用」「腎臓疾患用」「肝臓・血液・その他疾患用」「視覚障害用」「聴覚障害用」の8種類あります。\n診断書料は申請者の自己負担となります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/shougaishien/kenkoufukushi/shougaisha/shougaiji_teate.html#p5",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費の助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "目黒区に住所を有する18歳未満のかたで、対象疾病の認定基準に該当するかたが対象です。ただし、18歳に達した時点で小児慢性特定疾病医療受給者証をお持ちのかたで、引き続き医療を受ける場合は、20歳の誕生日の前日まで延長することができます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/shonimansei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM68",
+      "name": "遺児等福祉手当",
+      "shortName": "児童育成手当",
+      "summary": "ひとり親家庭等の児童（育成手当）、障害がある児童（障害手当）に対して、児童の福祉の増進と健やかな成長を図るために、父または母､もしくは父または母に代わってお子さんを養育している方に支給されます。\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある等の条件によって、対象となる場合があります｡\n所得制限があります。",
+      "targetPersons": "（育成手当）\n次のいずれかの状態にある18歳に達する日の以後の最初の3月31日までの児童を養育するかた\n\n父母が離婚した児童\n父または母が死亡した児童\n父または母に重度の障害がある児童（ただし、一部障害の内容により例外があります。）\n父または母が生死不明である児童\n父または母に1年以上遺棄されている児童\n父または母が裁判所からのDV保護命令を受けた児童\n父または母が法令により1年以上拘禁されている児童\n母が婚姻によらないで懐胎した児童で、父または母から扶養されていない児童\nただし、児童が施設（保育園、母子生活支援施設、母子入所を除く）に入所している場合や、父または母が事実上の婚姻状態にある場合等、手当が受けられないことがあります。\n\n対象（障害手当）\n次のいずれかの状態にある20歳未満の児童を養育するかた\n\n身体障害手帳1級・2級程度の障害\n愛の手帳1度から3度程度の障害\n脳性マヒまたは進行性筋萎縮症\n（注）上記手帳等級にも、一部対象外があります。\n（注）児童が施設（保育園、母子生活支援施設、母子入所を除く）に入所している場合等、手当を受けられないことがあります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/ikuseiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等妊婦健康診査",
+      "summary": "目黒区にお住まいの妊婦さんが、里帰り出産などで目黒区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "助成する妊婦健康診査及び新生児聴覚検査は、原則として目黒区の妊婦健康診査受診票及び新生児聴覚検査受診票の項目を満たしていること。\n医療機関または助産所が実施していること。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/satogaeri.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "保育の必要性の認定",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "保育の必要性の認定・確認\n父母とも（ひとり親の場合は父または母）が、保育の必要性の認定基準の要件を満たす場合、預かり保育料補助が受けることができます。補助を受けるには、新2・3号認定、課税世帯の第2子以降の満3歳児は保育の必要性の確認を受ける必要があります。\n\n保育の必要性の認定基準については、就労、出産、疾病・障害（保護者本人）、3親等以内の親族の介護・看護、災害復旧、求職、就学などがあります。認定基準は「保育の必要性の認定基準」を参照してください。\n\n保育の必要性の認定基準（PDF：152KB）; https://www.city.meguro.tokyo.jp/documents/3916/04azukarininteikijun_1.pdf\n\n保育の必要性認定（確認）要件の就労\n就労要件は、「週3日かつ1日4時間以上の就労をしていること（月48時間以上の労働）」です。1週間の勤務日数、1日の労働時間、1ヶ月の労働時間の項目を満たしている必要があります。また、勤務時間については、実際の労働時間ではなく、休憩時間を含む労働契約上の正規労働時間を基準に審査します。休暇や子どもの夏休みなどの理由で一時的に労働時間を短縮していても、労働契約上の正規労働時間を認定資料としているため、影響はありません。就労証明は勤務先に記載を依頼してください。\n\n産休、育休の取得を予定されているかた\n就労要件で申請されるかたで、産休、育休を取得中または取得予定のかたは、「就労証明書（私立幼稚園預かり保育新2・3号認定添付書類）」の10就労時間欄（労働契約上の正規労働時間）に加え、12産前・産後休業、13育児休業の取得状況の記載を勤め先へお願いしてください（個人事業のかたは「個人事業就労状況申告書」の配慮すべき事項欄にご記入ください）。\n育休中で育休取得対象の子ども以外の預かり保育（例：出産した子の兄や姉）を利用する場合、育休期間中は育休対象の子が1歳になった年度末から1か月（4月30日）までが補助対象期間となります。令和6年度より目黒区保育所利用に関する制度等が改正され、育休中も保育の必要性が該当し、制限が緩和されます。\nまた、育休明けで労働時間が短くなっていても、産休、育休取得前後の労働契約上の正規労働時間が「週3日かつ1日4時間以上の就労をしていること（月48時間以上の労働）」を満たしている場合は、保育の必要性が認められます。ただし、産休、育休後には、「就労証明書」を必ずご提出ください。\n\n保育の必要性認定（確認）要件の出産\n出産する月をはさんで前後2か月（出産月をはさんで5か月）のみ保育の必要性が認められます。出産する月は、母子手帳の「分娩予定日」で認定します。出生後に必要な提出書類や申請手続きはありません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/hoikuennado/azukarihoikuhozyokinn2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料の減額",
+      "summary": "子ども・子育て支援新制度による給付を受ける保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "保育料の減額\n保育料の減額には申請書等の書類提出が必要です。以下の減額理由に該当する場合は保育課にお問い合わせください。減額は申請した日の翌月から適用されますが、保育料階層が切り替わる4月と9月は申請月分から適用になります。また、減額理由ごとに減額適用期間が異なります。\n\n減額理由\n世帯内で以下の条件に当てはまる手帳の交付を受けている方がいる場合（身体障害者手帳1から2級・愛の手帳1から4度・精神障害者保健福祉手帳1から3級）\n保育所等在園児童の属する世帯外に生計を一にする子どもがいる場合\n区市町村民税所得割額が77,101円未満のひとり親世帯や1.に該当する世帯\n災害や盗難・横領などの損失額がその年の前年（1月から8月までは前々年）の所得額の10分の1を超えるとき\n地方税法第15条の規定により当該年度分（4月から8月までは前年度分）の区市町村民税の徴収を猶予されたとき\n生活保護を受けることになったとき",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "認可保育園の利用",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodatekyouiku/hoikuennado/hoikuen/ninka/moushikomi/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認定こども園",
+      "summary": "3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」に、「保育園機能」を付加した幼稚園型認定こども園です。地域の未就園児を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」も併せ持つ施設です。",
+      "targetPersons": "3歳児から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/gakkouunei/kosodatekyouiku/hoikuennado/kodomoen_kaisetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "小規模保育所",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。目黒区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "小規模保育所をご利用いただける対象者・主な利用条件は次のとおりです。\nつぎの4つの要件をすべて満たす児童\n\n目黒区在住\n保護者のいずれもが就労などの理由で、ご家庭でお子さまの保育ができない状態\n令和6年4月1日現在、3歳未満の乳幼児（入園可能な最小月齢は保育所によって異なります。施設一覧で確認してください）\n3号認定を受けている方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/hoikuennado/shoukibohoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "目黒区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/kaien_encho.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ（子ども家庭支援センター）",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "目黒区内在住の2歳から小学校6年生までのお子さんを対象に、保護者が病気・出産・介護・仕事のための出張などでお子さんの面倒を見られないとき、区内の児童養護施設で短期間の宿泊を伴う一時預かりを行う事業です。\n\n利用の要件\n保護者のかたが、次の要件のいずれかに一時的に該当し、かつ、他に養育するかたがいない場合に限ります。\n\n病気や出産のために入院するとき\nご家族の病気などで夜間に介護が必要なとき\n事故や災害にあったとき\n仕事のための出張や冠婚葬祭で夜間不在になるとき\nその他、育児疲れや育児不安などが理由で利用したい場合はご相談ください。子ども家庭支援センター職員が家庭訪問等により、ご家庭の状況をお聞きします。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/kodomoshotosutei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "家事育児支援ヘルパー派遣事業（子ども家庭支援センター）",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "目黒区在住で、産前の家事援助や産後の育児・家事援助等の支援を必要としている方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/sanzensangosien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童保育クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "区内在住又は在学の小学校1年から6年生までの児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/hoiku_club.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "出生通知票の提出",
+      "summary": "赤ちゃんが生まれたら、電子申請で出生通知票の提出をしてください。出生通知票をもとに、妊産婦・新生児の訪問指導（赤ちゃん訪問）の連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生通知票はその届出を兼ねています。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/tsuchihyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM792",
+      "name": "乳幼児の歯の健康診査（1歳6か月児歯科健康診査）",
+      "shortName": "1歳6か月児歯科健診",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。2歳児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "1歳6か月から2歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/shika-goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM793",
+      "name": "出産前後の国民年金保険料免除",
+      "shortName": "産前産後期間の免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "第1号被保険者で、保険料を納めることが困難なかたには、所得状況などに応じて保険料の全額、または一部の納付が免除される制度や50歳未満のかたの納付が猶予される制度（納付猶予制度）がありますのでご相談ください。\n\n出産予定日又は出産日が属する月の前月から4か月間、多胎妊娠の場合は出産予定日又は出産日が属する月の3か月前から6か月間の保険料が免除されます。",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kokuho/kurashi/nenkin/nofutokurei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食講座",
+      "summary": "生後4か月から6か月のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演もあります。",
+      "targetPersons": "目黒区内にお住まいの生後4か月から6か月児の保護者\n（赤ちゃんと同伴も可。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/rinyuushokukouza.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "目黒区の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kusei/gaiyou/kodomo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊産婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "目黒区内に居住している妊娠中のかた及び出産後12か月未満（お子さんの1歳の誕生日の前日まで）の産婦のかた",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninpusika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "幼稚園",
+      "summary": "学校教育法に基づき、4歳～5歳のお子さんに幼児教育を提供する施設です。1日4時間程の教育を標準としています。地域の未就園児を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの子育て支援も行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/shisetsu/genre/kyouikukosodate/yochien/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "ホッ！とルーム（親子の休けい室）",
+      "summary": "目黒区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設のほか民間施設の協力を得て「おむつ替え」や「授乳」ができる赤ちゃんの駅を整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも都内の民間施設を含めて同事業を実施しており、指定施設には、入り口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "ホッ！とルームは、お子さん（乳幼児）の食事、授乳、おむつ替えができる場所です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/hotto-room.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート事業",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "中学生以下の子どもがいる家庭・妊婦のかた",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/kosodateouenpasupo-to.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育所一覧",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/hoikuennado/shoukibohoiku.html#p6",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "事業所内保育所",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/hoikuennado/jigyousyonaihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療制度（精神通院）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として、通院による精神医療を継続的に要するかた（年齢制限はありません。）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/seishin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "次の3点すべてに該当する児童が、利用者登録及び利用の対象です。\n\n目黒区に住所を有する児童\n生後4か月以上の未就学児童であって、健康で集団保育の可能な児童\n日中の保育が主として保護者により行われている児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/itaku_ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "定期利用保育",
+      "summary": "目黒区内の認可保育園では、同居の家族がパート就労などで、入園基準には満たないものの、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodatekyouiku/kosodate/shien/azukeru/teikiriyou/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育事業",
+      "summary": "保育所などに通所しているお子さんが病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "助成対象となるお子さん\n目黒区内に住所を有し、認可保育園、家庭福祉員、地域型保育、認証保育所などの認可外保育施設（区外施設も含む）、こども園等を利用している保育の必要な未就学児です。緊急一時保育をご利用の方は利用期間中のみ助成対象となります。利用の前後7日間以内に医療機関を受診していることが条件です。医療機関の受診がない場合は、助成対象となりません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/byouji-joseikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "目黒区ファミリー・サポート・センター",
+      "summary": "目黒区のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、援助会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "区内在住の方を対象に、育児と仕事の両立及び子育て家庭の育児を支援する会員制の組織です。育児援助を希望するかた（ファミリー利用会員）に対し、育児援助を行いたいかた（ファミリー協力会員）を紹介し、一時的補助的に地域で子育てを支え合い、助け合う制度です。詳細はお気軽にお問い合わせください。\n\n登録条件\nファミリー利用会員\n目黒区在住のかた\nセンターで開催するオンライン事業説明会に参加できるかた\n生後6か月から12歳（小学校6年生）までのお子さんをお持ちで育児援助を希望するかた\nファミリー協力会員\n目黒区及び目黒区の近隣区に在住のかた\n心身ともに健康で子育て支援に意欲のあるかた\nセンターで開催する基礎研修会1・2・3（必修3日間）を受講できるかた\nオンライン事業説明会・基礎研修会の日程については、お問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/toroku_riyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育園・小規模保育所・事業所内保育所・家庭福祉員（保育ママ）の概要一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、目黒区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/ninnkahoikuenngaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "初回産科受診費用助成",
+      "summary": "目黒区では、低所得世帯に属する妊婦の経済的負担を軽減し、安心して出産を迎えられるよう、初回産科受診（妊娠判定を受けた診察）費用の一部を助成します。",
+      "targetPersons": "妊娠判定のための国内医療機関における産科受診日において、目黒区内に住所を有する者であって、次のいずれかの世帯に属するかた\n\n1.住民税非課税世帯又はそれと同等の所得水準である世帯\n2.生活保護法に規定する被保護者世帯",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/syokaisannkahiyouzyosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認可外保育施設一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、目黒区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ninnkagaimusyouka2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭福祉員一覧表",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、目黒区が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/hoikuennado/fukushiin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "私立幼稚園（子ども・子育て支援新制度に移行している幼稚園）",
+      "summary": "私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、目黒区内の新制度による給付を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/shisetsu/kyouikukosodate/shiritsu.html#p2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私立幼稚園（子ども・子育て支援新制度に移行していない幼稚園）",
+      "summary": "私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、目黒区内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/shisetsu/kyouikukosodate/shiritsu.html#p1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（日本脳炎）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（DT2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（子宮頸がん予防）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（ポリオ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM112",
+      "name": "子育て広場",
+      "shortName": "目黒区地域子育てふれあいひろば",
+      "summary": "区内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、目黒区サイトや市報などでお知らせしています。）",
+      "targetPersons": "2歳児クラスまでのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "はじめての歯みがき練習",
+      "summary": "お子さんの歯が8本くらい生え出したら歯みがきのスタートです！\n実際に歯ブラシを使って、練習してみませんか？歯科衛生士が毎日の歯みがきのポイントをお話しします。\n予約制で実施します。ご希望のかたで、保健予防課管轄区域にお住まいのかたは保健予防課保健サービス係（電話：03-5722-7057）へ、碑文谷保健センター管轄区域にお住まいのかたは碑文谷保健センター保健サービス係（電話：03-3711-6446）へご連絡ください。",
+      "targetPersons": "歯が8本くらい生え出した10か月ころから1歳6か月未満のお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/hajimetehamigaki.html#p2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（訪問型）",
+      "summary": "出産後のお母さんが安心して育児ができるように、助産師がご自宅を訪問してお母さんと赤ちゃんのケアを提供します。",
+      "targetPersons": "目黒区に住民登録があり、出産後1年未満のお母さんとその赤ちゃんで、次のいずれかに当てはまるかた\n\n産後の回復や体調に不安がある\n授乳に不安がある\n育児に不安がある\n家族などの支援が得にくい\n\n感染症（インフルエンザ等）にかかっている場合や、入院治療が必要な場合などは対象外となります。\n事前にご相談ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/sanngokeazigyou.html#p8",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "ファーストバースデーサポート事業",
+      "summary": "訪問や健診の機会がない1歳のお子さんがいるご家庭の子育てを応援するため、育児パッケージを配布するとともに、子育て支援の情報提供、ご家庭の状況把握や相談支援を行う",
+      "targetPersons": "令和4年4月1日以降に1歳の誕生日を迎える子どもを養育している方\n1歳の誕生月の1日時点で、目黒区に住民登録がある方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/firstbirthdaysupport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "「保育の必要性の認定」を受けている0歳児から2歳児クラスの住民税非課税世帯の児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ninnkagaimusyouka2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外保育施設等の無償化",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "「保育の必要性の認定」を受けている0歳児から2歳児クラスの住民税非課税世帯の児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ninnkagaimusyouka2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/jidouteate.html,https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/jidouteate_seidokaisei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "多胎プレファミリー",
+      "summary": "多胎妊娠・出産・育児に携わる専門家や多胎育児経験者である先輩パパママから体験談を聞いたり、多胎妊娠出産の基礎知識を確認することができる",
+      "targetPersons": "区内に住民登録がある多胎児を妊娠中の妊婦とそのご家族",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/ikuji.html#cmskouza",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "4か月児健診の日程（碑文谷保健センター管轄区域にお住まいのお子さん）",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として4か月児健康診査を実施しています。",
+      "targetPersons": "区内に居住する生後3か月から4か月までの乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/4tsuki_himonya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳幼児健康診査のご案内(9から10か月児健診)",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として9か月から10か月児乳幼児健康診査を実施しています。",
+      "targetPersons": "区内に居住する乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援交付金事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "2　子育て応援ギフト\n支給対象者\n令和5年2月1日以降に出生した子を養育する人",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/syussankosodateouenkoufukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療制度（精神通院）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を理由として、通院による精神医療を継続的に要するかた（年齢制限はありません。）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/iryou/seishin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健診の日程（碑文谷保健センター管轄区域にお住まいのお子さん）",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。目黒区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "区内に居住する3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/3sai_himonya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（B型肝炎）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "乳幼児ショートステイ（子ども家庭支援センター）",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "目黒区内在住の0歳から2歳未満でのお子さんを対象に、保護者が病気・出産・介護・仕事のための出張などでお子さんの面倒を見られないとき、指定の預かり施設で短期間の宿泊を伴う一時預かりを行う事業です。\n\n利用の要件\n保護者のかたが、次の要件のいずれかに一時的に該当し、かつ、他に養育するかたがいない場合に限ります。\n\n病気や出産のために入院するとき\nご家族の病気などで夜間に介護が必要なとき\n事故や災害にあったとき\n仕事のための出張や冠婚葬祭で夜間不在になるとき\nその他、育児疲れや育児不安などが理由で利用したい場合はご相談ください。子ども家庭支援センター職員が家庭訪問等により、ご家庭の状況をお聞きします。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kateishien/kosodatekyouiku/kosodate/nyuyoujishotosutei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM792",
+      "name": "乳幼児の歯の健康診査（2歳児歯科健康診査）",
+      "shortName": "2歳児歯科健診",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。2歳児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "2歳から3歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/shika-goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "事業所内保育所",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoikukeikaku/kosodatekyouiku/hoikuennado/jigyousyonaihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "緊急一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "目黒区内に在住している生後57日目から小学校就学前の健康なお子さまで、次のいずれかに該当するため、保育できる人がいないお子さまです。（同一年度内に同一理由でご利用することはできません。）\n父母が病気や出産で入院または自宅療養を必要とし、その間保育が困難と医師が認めたとき\n親族が入院し、保護者がその付き添いで看護に当たるとき（ただし同居親族に限る。）\n保護者が死亡、行方不明、拘禁等で不在となったとき\n家庭福祉員（保育ママ）に預けていて、家庭福祉員が研修等で保育に当たれないとき\nその他災害等に遭い復旧作業に当たるとき",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "訪問型病児・病後児保育利用料助成制度",
+      "summary": "保育園等に通っている乳幼児が病気や怪我などでお休みをし、保護者の仕事の都合がつかないなどの理由で家庭で保育をする人がいない場合、ご自宅でベビーシッターを利用した際に費用の一部を助成します。",
+      "targetPersons": "目黒区内に住所を有し、認可保育園、家庭福祉員、地域型保育、認証保育所などの認可外保育施設（区外施設も含む）、こども園等を利用している保育の必要な未就学児です。緊急一時保育をご利用の方は利用期間中のみ助成対象となります。利用の前後7日間以内に医療機関を受診していることが条件です。医療機関の受診がない場合は、助成対象となりません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hoiku/kosodatekyouiku/kosodate/byouji-joseikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM112",
+      "name": "子育て広場",
+      "shortName": "目黒区地域子育てふれあいひろば",
+      "summary": "区内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、目黒区サイトや市報などでお知らせしています。）",
+      "targetPersons": "2歳児クラスまでのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "もぐもぐピカピカ歯みがき教室",
+      "summary": "管理栄養士が1歳ころの食事のすすめ方やおやつの考え方を歯科衛生士がお口の機能や歯みがきのポイント練習しながらお話しします。",
+      "targetPersons": "目黒区にお住まいの12か月から14か月児とその保護者\n（育児に参加する方も可能）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/mogupika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（通所「集団」型）",
+      "summary": "助産師と一緒にからだをととのえながら、子育てのお話をしましょう。\n助産師等から産後の身体のケアやお子さんへの関わりかたについての話を聞いたり、子育て中のお母さん同士で情報交換ができる集団型のプログラムです。",
+      "targetPersons": "区内に住民登録がある出産後6か月未満のお母さんとその赤ちゃんで、次のいずれかに該当するかた\n\n産後の回復や体調に不安があるかた\n育児に不安があるかた\n家族などの支援が得にくいかた\n早産（在胎週数37週未満で出産）のかたは、修正月齢で6か月未満まで（出産予定日から6か月未満まで）利用できる場合があります。\n早産のかたで、出産後6か月以降に利用を希望されるかたは、管轄の問い合わせ先;https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/sangokea-tusyo.html#kankatsuにご相談ください。\n事業者の受け入れ体制によってはご希望に沿えない場合がございます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/sangokea-tusyo.html#p2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "多胎児懇談会",
+      "summary": "多胎児とその家族が集まり、交流を深めたり情報交換を目的とした懇談会を実施。育児のポイントや悩みなど、参加者同士で話し合う。対面とオンラインで開催",
+      "targetPersons": "区内に住民登録がある多胎児とそのご家族または多胎児を妊娠中のご家族。多胎児、きょうだいのご参加は就学前まで",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/ikuji.html#cms01770",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援交付金事業（国の出産・子育て応援給付金）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "3　経過措置（遡及支給分）\n支給対象者\n令和4年4月1日から令和5年1月31日の間に妊娠の届出をした人（出産した人を除く）\n令和4年4月1日から令和5年1月31日の間に出産した人\n（注記）令和5年2月1日時点で目黒区に住民登録がない場合は、お住まいの自治体へお問い合わせください。\n\n経過措置の対象者には、個別に案内通知を順次郵送する予定です。案内通知に申請方法を記載していますので、到着するまでお待ちください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/syussankosodateouenkoufukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（5種混合）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+3+UM792",
+      "name": "乳幼児の歯の健康診査（3歳児歯科健康診査）",
+      "shortName": "3歳児歯科健診",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。2歳児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "3歳から4歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/shika-goannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+4+UM112",
+      "name": "子育て広場",
+      "shortName": "目黒区地域子育てふれあいひろば",
+      "summary": "区内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、目黒区サイトや市報などでお知らせしています。）",
+      "targetPersons": "2歳児クラスまでのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/kosodate_hiroba.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+4+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "みんなの栄養相談",
+      "summary": "目黒区内在住のかたを対象に、乳幼児の栄養相談を実施します。",
+      "targetPersons": "目黒区在住のかた（乳幼児）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/event/minnanoeiyousoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+4+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "東京都出産・子育て応援事業（国の出産・子育て応援給付金）",
+      "summary": "妊娠期から出産・子育て期にわたり、一貫して身近な地域で相談支援を行う「伴走型相談支援」と出産育児用品の購入費等の一部を支援する「経済的支援」を一体的に実施します。なお、「経済的支援」については東京都の広域連携事業に基づき、申請のあった家庭へ専用サイトで利用可能な電子クーポンを支給します。",
+      "targetPersons": "1.出産応援ギフト\n令和5年4月1日以降に妊娠の届出をした人（妊婦）\n（注記）妊娠届出後に流産等で出産に至らなかった方も受け取ることができます。\n2.子育て応援ギフト\n令和5年4月1日以降に出生した子を養育する人",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/tokyotosyussankosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（ヒブ（Hib感染症））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+4+UM792",
+      "name": "乳幼児の歯の健康診査（5～6歳児歯科健康診査）",
+      "shortName": "5~6歳児フッ素塗布事業",
+      "summary": "むし歯予防・歯質（ししつ）強化のため、永久歯の萌出期（ほうしゅつき）に効果的なフッ素塗布を実施しています。",
+      "targetPersons": "区内在住で、当該年度（4月から翌年3月まで）に6歳になる幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/kosodate/fusso.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+5+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "はじめての子育ての集い(保健予防課管轄区域)",
+      "summary": "はじめての子育てをしている保護者のかたと、月齢の近いお子さんにお集まりいただき、楽しいひとときを過ごしていただきたいと思います。",
+      "targetPersons": "目黒区内にお住まいの赤ちゃん（第1子）とその保護者2名",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/fure_meguro.html#cms56DD2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（小児用肺炎球菌）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+6+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "はじめての子育ての集い(碑文谷保健センター管轄区域)",
+      "summary": "はじめての子育てをしている保護者のかたと、月齢の近いお子さんにお集まりいただき、楽しいひとときを過ごしていただきたいと思います。",
+      "targetPersons": "目黒区内にお住まいの赤ちゃん（第1子）とその保護者2名",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/himonya/kosodatekyouiku/ninshin/fure_meguro.html#cms56DD2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（DPT-IPV）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（BCG）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（水痘）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020131105+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種（MR）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "目黒区では、概ね標準接種開始年齢時に、感染症対策課予防接種係から通知をお送りしています。\n\nロタウイルス、B型肝炎、5種混合、小児用肺炎球菌、Hib感染症（ヒブ）、DPT-IPV、BCG、水痘、MR、日本脳炎、DT、ヒトパピローマウイルス感染症（子宮頸がん予防）、ポリオの各予防接種は、区からお送りする予診票により区内の契約医療機関でお受けください。なお、目黒区の予診票は、23区内の契約医療機関でも使えます。事前に、接種予定の医療機関が所在地の区の契約医療機関であることを確認してください。また、予防接種を受けるに当たり保護者以外のかたが同伴する場合は、必ず委任状が必要となります。\n予防接種の通知は、住民登録をもとにお送りしています。転居される時は住民票の異動手続きをお忘れなく。下表の予防接種は目黒区でおこなっているものです。他の区市町村ではやり方が多少異なりますので、転出される際には、転出先の区市町村・保健所等にお問い合わせください。\n目黒区に転入されたお子さんで未接種の予防接種がある場合や予診票を紛失して再発行が必要な場合は、電子申請で予診票の発行をお申込みいただくか、感染症対策課予防接種係にお問い合わせください。（電話：03-5722-7047）\n定期予防接種一覧;https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p2",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.meguro.tokyo.jp/kansenshou/kenkoufukushi/yobousesshu/kodomo.html#p4",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 // 取得日 (source.retrievedAt) を除き、同じ入力からは同じ出力になるため、何度実行してもよい。
 import type { BoundarySource } from "../src/lib/boundaries";
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 /** 1 つの境界データの入手先と、mapshaper で整形する手順。 */
@@ -28,8 +28,9 @@ const outputDirectory = "public/data/boundaries";
 // 簡略化の結果は mapshaper の版で変わるため、版を固定して再生成で差分が出ないようにする
 const mapshaperPackage = "mapshaper@0.7.72";
 
-// 町丁を選ぶズーム (14 前後) で 1 px が 10 m 前後になり、15 m 以下の頂点を落としても境界の見た目が変わらないため。
-// 町丁のファイルは 4 MB 程度 (gzip で 0.7 MB) に収まる
+// 町丁を選ぶズーム 13〜14 (MapLibre の 512 px タイル基準で 1 px がおよそ 7.8〜3.9 m) では、境界のずれが 2〜4 px に収まり
+// 隣の町丁と見分けられる (CI の撮影のズーム 14 の画像で目視)。間隔を広く取り、町丁のファイルを 4 MB 程度
+// (gzip で 0.7 MB) に収めるため
 const simplifyIntervalMeters = 15;
 
 // 経度・緯度の小数 5 桁 (約 1 m)。簡略化の間隔より十分細かく、それ以上の桁はファイルを大きくするだけのため
@@ -94,16 +95,22 @@ const datasets: BoundaryDataset[] = [
   },
 ];
 
-/** url のファイルを filePath に保存する。既に filePath があれば取得しない。 */
+/** url のファイルを filePath に保存する。同じ url から取得済みの filePath があれば取得しない。 */
 async function download(url: string, filePath: string) {
-  if (existsSync(filePath)) {
+  // 入手先 URL を新しい版に替えた時に古い zip を使い回さないよう、取得元の URL を zip と並べて記録して照合する
+  const urlRecordPath = `${filePath}.url`;
+  if (existsSync(filePath) && existsSync(urlRecordPath) && readFileSync(urlRecordPath, "utf8") === url) {
     return;
   }
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`${url} の取得に失敗した: HTTP ${response.status}`);
   }
-  writeFileSync(filePath, Buffer.from(await response.arrayBuffer()));
+  // 書き込みの途中で止まった不完全な zip を取得済みとみなさないよう、別名に書き終えてから filePath に移す
+  const partialFilePath = `${filePath}.partial`;
+  writeFileSync(partialFilePath, Buffer.from(await response.arrayBuffer()));
+  renameSync(partialFilePath, filePath);
+  writeFileSync(urlRecordPath, url);
 }
 
 /** dataset を取得・整形して outputDirectory に書き出す。 */

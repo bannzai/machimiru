@@ -8,3 +8,5 @@
 **/*.generated.tsx linguist-generated
 public/data/boundaries/*.geojson linguist-generated
 # linguist-generated end
+# make data-tokyo が生成するデータ。PR の差分では折りたたむ
+public/data/** linguist-generated=true

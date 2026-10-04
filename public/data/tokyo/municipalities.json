@@ -1,0 +1,1722 @@
+{
+  "sources": [
+    {
+      "id": "cfa-hoiku-torimatome-r8",
+      "title": "保育所等関連状況取りまとめ（令和8年4月1日）（参考）申込者の状況",
+      "provider": "こども家庭庁",
+      "pageUrl": "https://www.cfa.go.jp/policies/hoiku/torimatome/r8",
+      "fileUrls": [
+        "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/68234dca-5d01-4ec2-ac2f-86f598c55b5c/3e3cd95a/20260826_%20policies_hoiku_torimatome_r%EF%BC%98_02.xlsx"
+      ],
+      "asOf": "2026-04-01",
+      "retrievedOn": "2026-10-04",
+      "license": "公共データ利用規約（第1.0版）（PDL1.0。CC BY 4.0 と互換）",
+      "licenseUrl": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+      "attribution": "「保育所等関連状況取りまとめ（令和8年4月1日）」（こども家庭庁）（https://www.cfa.go.jp/policies/hoiku/torimatome/r8）を加工して作成"
+    },
+    {
+      "id": "cfa-kodomo-iryouhi-r7",
+      "title": "こどもに係る医療費の助成についての調査（令和7年度）別紙3 こども医療費に対する助成の実施状況調査（市区町村用）",
+      "provider": "こども家庭庁",
+      "pageUrl": "https://www.cfa.go.jp/policies/boshihoken/kodomoiryouhityousa-r7/",
+      "fileUrls": [
+        "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/6a9b8926-411c-4044-81aa-d8c26b21aaf5/12ae0d40/20251224policies-boshihoken-kodomoiryouhityousa-r7-03.pdf"
+      ],
+      "asOf": "2025-04-01",
+      "retrievedOn": "2026-10-04",
+      "license": "公共データ利用規約（第1.0版）（PDL1.0。CC BY 4.0 と互換）",
+      "licenseUrl": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+      "attribution": "「こどもに係る医療費の助成についての調査（令和7年度）」（こども家庭庁）（https://www.cfa.go.jp/policies/boshihoken/kodomoiryouhityousa-r7/）を加工して作成"
+    },
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalities": [
+    {
+      "code": "131016",
+      "name": "千代田区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1543,
+        "enrolledCount": 1521,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 135,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131024",
+      "name": "中央区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6004,
+        "enrolledCount": 5848,
+        "waitingChildrenCount": 4
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 145,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131032",
+      "name": "港区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6164,
+        "enrolledCount": 5848,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 157,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131041",
+      "name": "新宿区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6339,
+        "enrolledCount": 6311,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 141,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131059",
+      "name": "文京区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6140,
+        "enrolledCount": 6074,
+        "waitingChildrenCount": 6
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 198,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131067",
+      "name": "台東区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3896,
+        "enrolledCount": 3773,
+        "waitingChildrenCount": 5
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 171,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131075",
+      "name": "墨田区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 7058,
+        "enrolledCount": 6719,
+        "waitingChildrenCount": 17
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 133,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131083",
+      "name": "江東区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 14670,
+        "enrolledCount": 14459,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 146,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131091",
+      "name": "品川区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 10987,
+        "enrolledCount": 10724,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 141,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131105",
+      "name": "目黒区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6730,
+        "enrolledCount": 6422,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 138,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131113",
+      "name": "大田区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 16220,
+        "enrolledCount": 15625,
+        "waitingChildrenCount": 48
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 140,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131121",
+      "name": "世田谷区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 20469,
+        "enrolledCount": 19299,
+        "waitingChildrenCount": 166
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 163,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131130",
+      "name": "渋谷区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4929,
+        "enrolledCount": 4724,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 149,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131148",
+      "name": "中野区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 7243,
+        "enrolledCount": 7008,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 181,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131156",
+      "name": "杉並区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 14391,
+        "enrolledCount": 14175,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 123,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131164",
+      "name": "豊島区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6239,
+        "enrolledCount": 6200,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 163,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131172",
+      "name": "北区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 9265,
+        "enrolledCount": 8876,
+        "waitingChildrenCount": 103
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 157,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131181",
+      "name": "荒川区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 5748,
+        "enrolledCount": 5661,
+        "waitingChildrenCount": 14
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 125,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131199",
+      "name": "板橋区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 12846,
+        "enrolledCount": 12438,
+        "waitingChildrenCount": 35
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 151,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131202",
+      "name": "練馬区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 18657,
+        "enrolledCount": 18152,
+        "waitingChildrenCount": 21
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 147,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131211",
+      "name": "足立区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 13773,
+        "enrolledCount": 13363,
+        "waitingChildrenCount": 106
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 152,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131229",
+      "name": "葛飾区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 11252,
+        "enrolledCount": 11043,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 145,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "131237",
+      "name": "江戸川区",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 16114,
+        "enrolledCount": 15280,
+        "waitingChildrenCount": 75
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 175,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132012",
+      "name": "八王子市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 10642,
+        "enrolledCount": 10503,
+        "waitingChildrenCount": 43
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 154,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132021",
+      "name": "立川市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4103,
+        "enrolledCount": 3912,
+        "waitingChildrenCount": 45
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 103,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132039",
+      "name": "武蔵野市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3051,
+        "enrolledCount": 2983,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 130,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132047",
+      "name": "三鷹市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4271,
+        "enrolledCount": 4154,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 188,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132055",
+      "name": "青梅市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 2647,
+        "enrolledCount": 2632,
+        "waitingChildrenCount": 2
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 125,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132063",
+      "name": "府中市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 5827,
+        "enrolledCount": 5629,
+        "waitingChildrenCount": 38
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 187,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132071",
+      "name": "昭島市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3141,
+        "enrolledCount": 3087,
+        "waitingChildrenCount": 2
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 128,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132080",
+      "name": "調布市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 6152,
+        "enrolledCount": 5931,
+        "waitingChildrenCount": 32
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 120,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132098",
+      "name": "町田市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 9614,
+        "enrolledCount": 9121,
+        "waitingChildrenCount": 90
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 187,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132101",
+      "name": "小金井市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3519,
+        "enrolledCount": 3351,
+        "waitingChildrenCount": 10
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 107,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132110",
+      "name": "小平市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4942,
+        "enrolledCount": 4692,
+        "waitingChildrenCount": 43
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 146,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132128",
+      "name": "日野市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4207,
+        "enrolledCount": 4094,
+        "waitingChildrenCount": 31
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 155,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132136",
+      "name": "東村山市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3230,
+        "enrolledCount": 3081,
+        "waitingChildrenCount": 2
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": true,
+        "inpatientHasIncomeLimit": true,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 113,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132144",
+      "name": "国分寺市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3600,
+        "enrolledCount": 3515,
+        "waitingChildrenCount": 7
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 104,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132152",
+      "name": "国立市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1555,
+        "enrolledCount": 1526,
+        "waitingChildrenCount": 7
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 104,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132187",
+      "name": "福生市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1384,
+        "enrolledCount": 1341,
+        "waitingChildrenCount": 5
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 141,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132195",
+      "name": "狛江市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 2090,
+        "enrolledCount": 2058,
+        "waitingChildrenCount": 5
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": true,
+        "inpatientHasIncomeLimit": true,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 106,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132209",
+      "name": "東大和市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 2183,
+        "enrolledCount": 2116,
+        "waitingChildrenCount": 24
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 146,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132217",
+      "name": "清瀬市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1609,
+        "enrolledCount": 1491,
+        "waitingChildrenCount": 33
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 110,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132225",
+      "name": "東久留米市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 2787,
+        "enrolledCount": 2675,
+        "waitingChildrenCount": 10
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": true,
+        "inpatientHasIncomeLimit": true,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 114,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132233",
+      "name": "武蔵村山市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1646,
+        "enrolledCount": 1640,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 134,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132241",
+      "name": "多摩市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 3075,
+        "enrolledCount": 3007,
+        "waitingChildrenCount": 6
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 148,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132250",
+      "name": "稲城市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 2722,
+        "enrolledCount": 2619,
+        "waitingChildrenCount": 28
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 116,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132276",
+      "name": "羽村市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1292,
+        "enrolledCount": 1273,
+        "waitingChildrenCount": 2
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": true,
+        "inpatientHasIncomeLimit": true,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 145,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132284",
+      "name": "あきる野市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1731,
+        "enrolledCount": 1719,
+        "waitingChildrenCount": 1
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 113,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "132292",
+      "name": "西東京市",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4568,
+        "enrolledCount": 4337,
+        "waitingChildrenCount": 27
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 149,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133035",
+      "name": "瑞穂町",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 714,
+        "enrolledCount": 705,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 134,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133051",
+      "name": "日の出町",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 302,
+        "enrolledCount": 302,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 97,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133078",
+      "name": "檜原村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 28,
+        "enrolledCount": 28,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 112,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133086",
+      "name": "奥多摩町",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 64,
+        "enrolledCount": 64,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 83,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133612",
+      "name": "大島町",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 135,
+        "enrolledCount": 135,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 38,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133621",
+      "name": "利島村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 5,
+        "enrolledCount": 5,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 29,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133639",
+      "name": "新島村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 47,
+        "enrolledCount": 47,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 59,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133647",
+      "name": "神津島村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 44,
+        "enrolledCount": 44,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 69,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133817",
+      "name": "三宅村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 48,
+        "enrolledCount": 39,
+        "waitingChildrenCount": 9
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 65,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "133825",
+      "name": "御蔵島村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 1,
+        "enrolledCount": 1,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 23,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "134015",
+      "name": "八丈町",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 191,
+        "enrolledCount": 180,
+        "waitingChildrenCount": 11
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": false,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 67,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "134023",
+      "name": "青ヶ島村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 4,
+        "enrolledCount": 4,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 22,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    },
+    {
+      "code": "134210",
+      "name": "小笠原村",
+      "childcare": {
+        "sourceId": "cfa-hoiku-torimatome-r8",
+        "applicantCount": 43,
+        "enrolledCount": 43,
+        "waitingChildrenCount": 0
+      },
+      "childcareUsageRate": null,
+      "medicalSubsidy": {
+        "sourceId": "cfa-kodomo-iryouhi-r7",
+        "outpatientMaxAgeAtFiscalYearEnd": 18,
+        "inpatientMaxAgeAtFiscalYearEnd": 18,
+        "outpatientHasIncomeLimit": false,
+        "inpatientHasIncomeLimit": false,
+        "outpatientHasCopayment": true,
+        "inpatientHasCopayment": false
+      },
+      "programCount": 38,
+      "missing": [
+        {
+          "field": "childcareUsageRate",
+          "reason": "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない"
+        }
+      ]
+    }
+  ]
+}

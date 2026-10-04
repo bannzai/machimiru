@@ -1,0 +1,771 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "133639",
+  "programs": [
+    {
+      "psid": "psid3.0+9000020133639+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "母子健康手帳交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊娠された方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/boshikenkoutechou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "あそびのひろば",
+      "summary": "保育園入園前の子どもと保護者が集える場所として、保育士があそびのひろばをひらいています。",
+      "targetPersons": "保育園へ入園前の子どもと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2020-1012-1641-111.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊産婦・新生児・乳児訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/ninsanpu_shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "18歳までのすべての子どもと家庭に関する相談に応じます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/kodomokazokushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育て広場",
+      "summary": "0歳～3歳の未就園児親子を対象に、新島保育園・式根島保育園で不定期開催（9時30分～11時）しています。",
+      "targetPersons": "0歳～3歳の未就園児親子",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/kodomokazokushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM119",
+      "name": "新島村の子育てに関する相談",
+      "shortName": "赤ちゃん健康相談・身体測定",
+      "summary": "赤ちゃんの体重や身長の測定、子育ての相談などを随時行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/akachankenkousoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助制度",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "村内の公立小中学校に就学する児童・生徒の保護者で、村の就学援助認定区分に該当する保護者",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.niijima.com/soshiki/kyouikuiinkai/syuugakuenzyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "妊産婦・新生児・乳児訪問",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "新生児・乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/ninsanpu_shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "妊産婦・新生児・乳児訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/ninsanpu_shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "東京都不妊検査等助成事業",
+      "summary": "東京都では、人工授精に係る保険適用外治療（※）の費用の一部について、独自に助成を行っています。\n※産科、婦人科、産婦人科、泌尿器科を標榜する医療機関において実施した、医師の診断に基づく治療に限ります。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.niijima.com/kurashi/kenkou/iryoukyuufu/2017-0714-0944-34.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "国民健康保険に加入している方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/kokuminkenkouhoken.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産に係る交通費の助成",
+      "summary": "新島村では、妊娠中の体への負担と経済的な負担を軽減し、健やかな出産を支援するために、出産等に係る健診時の、新島村から島外の往復交通費を助成します。",
+      "targetPersons": "妊産婦等",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/boshikenkoutechou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費（子ども医療費）の助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "新島村に住民登録をしており、健康保険に加入している中学校修了前の児童を養育している方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/nyuuyouji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/jidouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "18歳に達した最初の3月31日までの児童、または20歳未満で中度以上の障がいを有する児童を養育している母または養育者で、児童が次のいずれかに該当する場合\n\n1.父母が婚姻を解消した児童\n2.父又は母が死亡した児童\n3.父又は母が政令で定める程度の障害の状態にある児童\n4.父又は母の生死が明らかでない児童\n5.父又は母から1年以上遺棄されている児童\n6.父又は母が裁判所からのDV保護命令を受けている児童\n7.父又は母が１年以上拘禁されている児童\n8.婚姻によらないで生まれた児童\n9.父・母ともに不明である児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "18歳に達した最初の3月31日までの児童、または20歳未満で中度以上の障害を有する児童を養育している\n\n父または母（あるいは養育者）で、児童が次のいずれかに該当する場合\n\n※中度の障害…身体障がい者手帳3級、愛の手帳3級程度\n\n1.父母が離婚した児童\n2.婚姻によらないで出生し、父または母と生計を異にする児童\n3.父または母が死亡、生死不明である児童（※生死不明…航空、海難事故などにより生死不明の状態）\n4.父または母に1年以上遺棄されている児童\n5.父または母が法令により1年以上拘禁されている児童\n6.父または母が重度の障害（おおむね身体障がい者手帳2級以上）を有する児童\nただし、次のいずれかに該当するときは、対象になりません。\n\n生活保護を受けている方\n児童を里親に委託している方\n児童が児童福祉施設に入所している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/hitorioya_iryouhijosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.niijima.com/kurashi/todokede/shussei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、新島村では保健師、管理栄養士による妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "妊婦とそのパートナーの方お二人で、または、どちらかお一人、その他ご家族の参加も可能です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/ryoushingakkyuu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM43",
+      "name": "妊娠・出産に関する救急窓口一覧",
+      "shortName": "新島村国民健康保険診療所",
+      "summary": "妊婦さんが救急のときや、ハイリスク妊娠・分娩の受け入れを行う医療機関のご紹介です。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "032"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/shinryoujo/shinryojonitsuite/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "新島村国民健康保険診療所",
+      "summary": "新島村では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/shinryoujo/shinryojonitsuite/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM47",
+      "name": "新島村の妊娠・出産に関する相談",
+      "shortName": "妊産婦向け助産師オンライン相談（東京都福祉局）",
+      "summary": "妊娠中のこと、産後のこと、生まれてくるあかちゃんのことでお悩みの妊婦さん・産婦さんを対象に、東京都助産師会の助産師がオンラインで相談をお受けします。",
+      "targetPersons": "東京都在住の妊婦さん・産後1年未満の産婦さん\n\n※妊産婦ご本人だけでなく、パートナーやご家族を交えて相談することも可能です。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/ninsanpu-online.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "乳幼児健診（3～4か月・6か月・9か月・1歳6か月・3歳）",
+      "summary": "|地  区|と　き|ところ|対象者|\n|:----|:----|:----|:----|\n|新  島|月1回<br>13時30分～|さわやか健康センター|ご案内を郵送します。|\n|式根島|月1回<br>13時～|式根島開発総合センター|^|",
+      "targetPersons": "ご案内を郵送します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1503-111nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "乳幼児健診（3～4か月・6か月・9か月・1歳6か月・3歳）",
+      "summary": "|地  区|と　き|ところ|対象者|\n|:----|:----|:----|:----|\n|新  島|月1回<br>13時30分～|さわやか健康センター|ご案内を郵送します。|\n|式根島|月1回<br>13時～|式根島開発総合センター|^|",
+      "targetPersons": "ご案内を郵送します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1503-111nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新島村新生児聴覚検査実施要綱",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "対象者は、新島村内に居住する者の子であって、生後50日に達する日まで(生まれた日を0日として起算し50日まで)とする。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000516.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "新島村出産・子育て応援給付金事業実施要綱",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000570.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "新島村出産・子育て応援給付金事業実施要綱",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "出産応援給付金支給妊婦\n申請日において、新島村に住民登録があり、当該妊娠について他市区町村から実施要項に基づく同種の給付金を受けていないものとする。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000570.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "新島村自立支援医療(育成医療)事業実施要綱",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "親権者又は未成年後見人(以下「保護者」という。)が新島村に住所を有する18歳未満の児童で、身体障害者福祉法(昭和24年法律第283号)第4条の規定による別表に掲げる程度の身体上の障害を有する者又は現存する疾患が、当該障害又は疾患にかかる医療を行わないときは、将来において同表に掲げる障害と同程度の障害を残すと認められる者であって、確実な治療の効果が期待できるものとする。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000422.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "乳幼児健診（3～4か月・6か月・9か月・1歳6か月・3歳）",
+      "summary": "|地  区|と　き|ところ|対象者|\n|:----|:----|:----|:----|\n|新  島|月1回<br>13時30分～|さわやか健康センター|ご案内を郵送します。|\n|式根島|月1回<br>13時～|式根島開発総合センター|^|",
+      "targetPersons": "ご案内を郵送します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1503-111nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "乳幼児健診（3～4か月・6か月・9か月・1歳6か月・3歳）",
+      "summary": "|地  区|と　き|ところ|対象者|\n|:----|:----|:----|:----|\n|新  島|月1回<br>13時30分～|さわやか健康センター|ご案内を郵送します。|\n|式根島|月1回<br>13時～|式根島開発総合センター|^|",
+      "targetPersons": "ご案内を郵送します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1503-111nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から14週6日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち新島村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "希望される方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査等の健診費助成",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/boshikenkoutechou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "児童育成手当（障がい）",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "支給対象\n20歳未満の児童を養育している方で、児童が次のいずれかに該当する場合\n\n身体障がい者手帳1級、2級程度の児童\n愛の手帳1~3級程度の児童\n脳性マヒ、進行性筋萎縮症の児童\n対象外\n児童が児童福祉施設に入所しているとき（通園施設等を除く）\n申請前の前年の所得が所得制限限度額以上のとき（1~5月分は前々年の所得）\n※詳しくは、お問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/jidouikusei_shougai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成制度",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/shinsei/shounimanseishikkan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/shinsei/taikiosen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "妊婦健康診査等の健診費助成",
+      "summary": "新島村にお住まいの妊婦さんが、里帰り出産などで新島村の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/boshikenkoutechou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM792",
+      "name": "乳幼児の歯の健康診査（1歳6か月児、3歳児歯科健康診査）",
+      "shortName": "妊婦歯科健診・幼児歯科健診・幼児歯科相談",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "・幼児歯科健診（1歳6か月・3歳）\n\n・幼児歯科相談（1歳、2歳、2歳6か月、3歳6か月）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1451-111ninpusikanyuujisika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食教室",
+      "summary": "新生児～おおむね1歳までの児の家族を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。",
+      "targetPersons": "新生児～おおむね1歳までの児の家族を対象",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/shokuikujigyou/rinyuushokukyoushitsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "新島村の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "18歳までのすべての子どもと家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/kodomokazokushien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊産婦歯科健診",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/2024-0611-1451-111ninpusikanyuujisika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料基準額一覧",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.niijima.com/facility/nursery-school/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "新島村立保育園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、新島村内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.niijima.com/facility/nursery-school/2013-1209-1116-96.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "3歳に2回\n\n4歳に1回\n\n9歳に1回",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳から13歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "13歳になる年度",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+2+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産前後支援事業助成",
+      "summary": "新島村では、妊娠中の体への負担と経済的な負担を軽減し、健やかな出産を支援するために、出産等に係る健診時の、宿泊費を助成します。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/boshikenkoutechou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/jidou_hitorioya/jidouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+2+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新島村新生児聴覚検査実施要綱",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "対象者は、新島村内に居住する者の子であって、生後50日に達する日まで(生まれた日を0日として起算し50日まで)とする。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000516.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "新島村出産・子育て応援給付金事業実施要綱",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "出産応援給付金遡及支給妊婦\n申請日において、新島村に住民登録があり、当該妊娠について他市区町村から実施要項に基づく同種の給付金を受けていないものとする。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000570.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から9か月まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+3+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "新島村出産・子育て応援給付金事業実施要綱",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "子育て応援給付金支給養育者\n申請日において、新島村に住民登録があり、当該妊娠について他市区町村から実施要項に基づく同種の給付金を受けていないものとする。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000570.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から7か月までと1歳以上",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+4+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "新島村出産・子育て応援給付金事業実施要綱",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "子育て応援給付金遡及支給養育者\n申請日において、新島村に住民登録があり、当該妊娠について他市区町村から実施要項に基づく同種の給付金を受けていないものとする。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.niijima.com/reiki_int/reiki_honbun/g158RG00000570.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から7か月までと1歳以上",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から12か月までと1歳6か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月から7歳6か月未満（令和6年4月から定期接種化）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後5か月から8か月未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳から2際未満と小学校に上がる前の年度",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+9000020133639+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後12か月から15か月までと1歳6か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.niijima.com/facility/health-center_clinic/sawayakakenkou-center/boshihoken-service/yobousessyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

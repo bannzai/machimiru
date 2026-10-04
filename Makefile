@@ -1,4 +1,4 @@
-.PHONY: setup dev lint typecheck test build-web screenshot check boundaries
+.PHONY: setup dev lint typecheck test build-web screenshot check boundaries data-tokyo
 
 setup:
 	npm ci
@@ -30,3 +30,7 @@ check: lint build-web typecheck test
 # Node 22.18 未満は TypeScript の実行にフラグが要るため付ける (22.18 以降と 24 では付けても同じ動作)
 boundaries:
 	node --experimental-strip-types scripts/generate-boundaries.ts
+
+# 公開データを取得し、東京都の子育てデータを public/data/tokyo/ に生成する (出典と手順は documents/PROJECT.md)
+data-tokyo:
+	npm run data:tokyo
