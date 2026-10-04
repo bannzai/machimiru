@@ -7,6 +7,8 @@ const openPoiFixtures: Record<string, string> = {
   公園: "e2e/fixtures/openpoi/park.json",
   スーパー: "e2e/fixtures/openpoi/supermarket.json",
 };
+// 子育て施設のデータ (2.5 MB) を取得して検査し終えるまでの待ち時間。GPU の無い runner で既定の 5 秒を超え得るため長くする
+const facilitiesLoadTimeoutMs = 30_000;
 const keywordWithoutResults = "該当なしの確認";
 const keywordWithFailure = "失敗の確認";
 
@@ -66,8 +68,8 @@ test("キーワードと子育て施設の種類でピンを重ねる", async ({
   // 子育て施設の種類を選ぶ
   await page.getByRole("checkbox", { name: "小児科" }).check();
   await page.getByRole("checkbox", { name: "保育所" }).check();
-  await expect(page.getByRole("heading", { name: /^小児科 \(\d+ 件\)$/ })).toBeVisible();
-  await expect(page.getByRole("heading", { name: /^保育所 \(\d+ 件\)$/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^小児科 \(\d+ 件\)$/ })).toBeVisible({ timeout: facilitiesLoadTimeoutMs });
+  await expect(page.getByRole("heading", { name: /^保育所 \(\d+ 件\)$/ })).toBeVisible({ timeout: facilitiesLoadTimeoutMs });
   await waitForMapIdle(page);
   await expect(page.getByText("「医療情報ネットのオープンデータ」（厚生労働省）")).toBeVisible();
   await expect(page.getByText("「国土数値情報（福祉施設データ）」（国土交通省）")).toBeVisible();
@@ -84,4 +86,12 @@ test("キーワードと子育て施設の種類でピンを重ねる", async ({
   await expect(failureAlert).toBeVisible();
   await failureAlert.scrollIntoViewIfNeeded();
   await page.screenshot({ path: screenshotPath("facility-keyword-errors") });
+
+  // 一覧に最初に出さなかった候補を広げて出す
+  const parkList = page.getByRole("list", { name: "「公園」の候補" });
+  const parkListItemCount = Number(
+    (await page.getByRole("heading", { name: /^「公園」/ }).textContent())?.match(/\((\d+) 件\)/)?.[1],
+  );
+  await page.getByRole("listitem").filter({ has: parkList }).getByRole("button", { name: /^残りの \d+ 件を表示$/ }).click();
+  await expect(parkList.getByRole("listitem")).toHaveCount(parkListItemCount);
 });

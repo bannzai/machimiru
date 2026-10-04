@@ -35,12 +35,20 @@ export type FacilityPinProperties = {
 };
 
 // パネルにキーワード・施設の種類の一覧を複数並べても、PC 幅の画面の高さで 2 つ分を見渡せる件数
-/** キーワード・施設の種類ごとに、パネルの一覧に出す施設の数。残りは地図のピンだけで見せる。 */
+/** キーワード・施設の種類ごとに、パネルの一覧に最初に出す施設の数。残りはボタンで広げて出す。 */
 const maxListedFacilities = 10;
 
-/** keyword を ranges で検索した結果を区別するキー。範囲が変わると別の検索として扱う。 */
+/**
+ * keyword を ranges で検索した結果を区別するキー。範囲が変わると別の検索として扱う。
+ * 範囲は OpenPOI API に渡すのと同じ小数 5 桁で比べ、地図の位置が実質的に同じなら同じ検索として扱う。
+ */
 function keywordSearchKey(keyword: string, ranges: readonly SearchRange[]): string {
-  return JSON.stringify([keyword, ranges.map((range) => range.boundingBox)]);
+  return JSON.stringify([keyword, ranges.map((range) => range.boundingBox.map((degree) => degree.toFixed(5)))]);
+}
+
+/** keywordSearchKey が作ったキーから、キーワードを返す。 */
+function keywordOfSearchKey(searchKey: string): string {
+  return (JSON.parse(searchKey) as [string, unknown])[0];
 }
 
 /**
@@ -51,6 +59,10 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
   const [keywords, setKeywords] = useState<readonly FacilityKeyword[]>([]);
   const [keywordSearchResults, setKeywordSearchResults] = useState<Readonly<Record<string, KeywordSearchResult>>>({});
   const startedKeywordSearchKeys = useRef(new Set<string>());
+  // 地図を動かして新しい範囲を検索している間も、直前に取れた施設のピンを出し続けるため、キーワードごとに最後の結果を持つ
+  const [lastLoadedFacilitiesByKeyword, setLastLoadedFacilitiesByKeyword] = useState<
+    Readonly<Record<string, LocatedOpenPoiFacility[]>>
+  >({});
   const [facilityKinds, setFacilityKinds] = useState<readonly FacilityKind[]>([]);
   const [facilitiesFile, setFacilitiesFile] = useState<FacilitiesFile | null>(null);
   const [facilitiesLoadErrorMessage, setFacilitiesLoadErrorMessage] = useState<string | null>(null);
@@ -61,7 +73,10 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
     const searchKey = keywordSearchKey(keyword, ranges);
     startedKeywordSearchKeys.current.add(searchKey);
     searchFacilitiesInRanges(keyword, ranges).then(
-      (result) => setKeywordSearchResults((current) => ({ ...current, [searchKey]: { status: "loaded", ...result } })),
+      (result) => {
+        setKeywordSearchResults((current) => ({ ...current, [searchKey]: { status: "loaded", ...result } }));
+        setLastLoadedFacilitiesByKeyword((current) => ({ ...current, [keyword]: result.facilities }));
+      },
       (error: unknown) =>
         setKeywordSearchResults((current) => ({
           ...current,
@@ -137,25 +152,52 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
           geometry: feature.geometry,
           properties: { color: facilityKindPinColors[feature.properties.kind], name: feature.properties.name },
         })),
-        ...keywordSearches.flatMap(({ color, result }) =>
-          result?.status === "loaded"
-            ? result.facilities.map((facility) => ({
-                type: "Feature" as const,
-                geometry: { type: "Point" as const, coordinates: [facility.lng, facility.lat] },
-                properties: { color, name: facility.name },
-              }))
-            : [],
+        ...keywordSearches.flatMap(({ keyword, color, result }) =>
+          (result === undefined
+            ? (lastLoadedFacilitiesByKeyword[keyword] ?? [])
+            : result.status === "loaded"
+              ? result.facilities
+              : []
+          ).map((facility) => ({
+            type: "Feature" as const,
+            geometry: { type: "Point" as const, coordinates: [facility.lng, facility.lat] },
+            properties: { color, name: facility.name },
+          })),
         ),
       ],
     }),
-    [facilityFeatures, keywordSearches],
+    [facilityFeatures, keywordSearches, lastLoadedFacilitiesByKeyword],
+  );
+
+  // パネルの入力のたびに全施設を走査しないよう、選んだ種類が変わった時だけ求める
+  const usedFacilitySourceIds = useMemo(
+    () =>
+      new Set(
+        facilitiesFile?.features
+          .filter((feature) => facilityKinds.includes(feature.properties.kind))
+          .map((feature) => feature.properties.sourceId),
+      ),
+    [facilitiesFile, facilityKinds],
   );
 
   return {
     keywordSearches,
     addKeyword: (keywordText: string) => setKeywords((current) => addFacilityKeyword(current, keywordText)),
-    removeKeyword: (keyword: string) =>
-      setKeywords((current) => current.filter((facilityKeyword) => facilityKeyword.keyword !== keyword)),
+    removeKeyword: (keyword: string) => {
+      setKeywords((current) => current.filter((facilityKeyword) => facilityKeyword.keyword !== keyword));
+      // 付け直した時に、失敗した結果や前の範囲の結果を出さずに検索し直す
+      for (const searchKey of startedKeywordSearchKeys.current) {
+        if (keywordOfSearchKey(searchKey) === keyword) {
+          startedKeywordSearchKeys.current.delete(searchKey);
+        }
+      }
+      setKeywordSearchResults((current) =>
+        Object.fromEntries(Object.entries(current).filter(([searchKey]) => keywordOfSearchKey(searchKey) !== keyword)),
+      );
+      setLastLoadedFacilitiesByKeyword((current) =>
+        Object.fromEntries(Object.entries(current).filter(([loadedKeyword]) => loadedKeyword !== keyword)),
+      );
+    },
     retryKeywordSearch: (keyword: string) => {
       setKeywordSearchResults((current) =>
         Object.fromEntries(
@@ -172,6 +214,7 @@ export function useFacilityMarking(searchRanges: readonly SearchRange[]) {
     facilitiesFile,
     facilitiesLoadErrorMessage,
     facilityFeatures,
+    usedFacilitySourceIds,
     pinFeatureCollection,
   };
 }
@@ -196,13 +239,9 @@ export function FacilityMarkingPanel({
     facilitiesFile,
     facilitiesLoadErrorMessage,
     facilityFeatures,
+    usedFacilitySourceIds,
   } = facilityMarking;
   const canAddKeyword = keywordSearches.length < keywordPinColors.length;
-  const usedFacilitySourceIds = new Set(
-    facilitiesFile?.features
-      .filter((feature) => facilityKinds.includes(feature.properties.kind))
-      .map((feature) => feature.properties.sourceId),
-  );
 
   const submitKeyword = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -250,26 +289,31 @@ export function FacilityMarkingPanel({
                       もう一度検索
                     </button>
                   </p>
-                ) : result.facilities.length === 0 ? (
-                  <p role="status" className="facility-panel-note">
-                    この範囲に「{keyword}」は見つかりませんでした
-                  </p>
                 ) : (
                   <>
+                    {/* 上限まで取れた時は、形で絞った後に 0 件でも範囲の中に残りの候補がある見込みがあるため、件数によらず出す */}
                     {result.isTruncated && (
-                      <p className="facility-panel-note">
-                        エリアごとに {openPoiSearchLimit} 件までを表示しています
+                      <p role="status" className="facility-panel-note">
+                        候補が多いため 1 回の検索で {openPoiSearchLimit} 件までを取っています
                         <br />
-                        地図を拡大するかエリアを選ぶと絞れます
+                        地図を拡大するか選ぶエリアを減らすと残りも探せます
                       </p>
                     )}
-                    <FacilityList
-                      label={`「${keyword}」の候補`}
-                      facilities={result.facilities.map((facility) => ({
-                        name: facility.name,
-                        address: facility.address || facility.city,
-                      }))}
-                    />
+                    {result.facilities.length > 0 ? (
+                      <FacilityList
+                        label={`「${keyword}」の候補`}
+                        facilities={result.facilities.map((facility) => ({
+                          name: facility.name,
+                          address: facility.address || facility.city,
+                        }))}
+                      />
+                    ) : (
+                      !result.isTruncated && (
+                        <p role="status" className="facility-panel-note">
+                          この範囲に「{keyword}」は見つかりませんでした
+                        </p>
+                      )
+                    )}
                   </>
                 )}
               </li>
@@ -367,12 +411,13 @@ function FacilityLayerHeader({
   );
 }
 
-/** 施設の一覧。先頭の maxListedFacilities 件の名前と住所を出し、残りは件数だけを出す。 */
+/** 施設の一覧。最初は先頭の maxListedFacilities 件の名前と住所を出し、残りはボタンで広げて出す。 */
 function FacilityList({ label, facilities }: { label: string; facilities: { name: string; address: string }[] }) {
+  const [isExpanded, setIsExpanded] = useState(false);
   return (
     <>
       <ul className="facility-list" aria-label={label}>
-        {facilities.slice(0, maxListedFacilities).map((facility, index) => (
+        {(isExpanded ? facilities : facilities.slice(0, maxListedFacilities)).map((facility, index) => (
           // 同じ名前・住所の施設が別の営業許可として複数あるため、順番もキーに含める
           <li key={`${index}:${facility.name}:${facility.address}`}>
             <span>{facility.name}</span>
@@ -381,7 +426,11 @@ function FacilityList({ label, facilities }: { label: string; facilities: { name
         ))}
       </ul>
       {facilities.length > maxListedFacilities && (
-        <p className="facility-panel-note">ほか {facilities.length - maxListedFacilities} 件は地図のピンで見られます</p>
+        <button type="button" className="facility-list-toggle" onClick={() => setIsExpanded((current) => !current)}>
+          {isExpanded
+            ? `先頭の ${maxListedFacilities} 件だけを表示`
+            : `残りの ${facilities.length - maxListedFacilities} 件を表示`}
+        </button>
       )}
     </>
   );

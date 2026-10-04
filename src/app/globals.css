@@ -137,6 +137,10 @@ main.map-page {
   opacity: 0.75;
 }
 
+.facility-list-toggle {
+  margin: 0.25rem 0 0 1.125rem;
+}
+
 .pin-swatch {
   display: inline-block;
   flex: none;
