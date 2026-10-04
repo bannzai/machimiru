@@ -22,7 +22,7 @@
 | 通知 | Slack の `#machimiru-notification` | 関門の投稿の要約と、公開後のアラートの宛先 |
 | クラッシュ収集・GCP | 使わない | Firebase・GCP を使う機能が無い |
 
-配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。
+配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。配信のビルドには公開 URL を環境変数 `SITE_URL` で渡す (OGP 画像・sitemap・robots・JSON-LD の絶対 URL の基点。未設定のビルドは `http://localhost:3000` を使い、検索結果・SNS のカードが壊れる)。
 
 `content/legal/privacy.md` と `content/legal/terms.md` は MVP の設計を前提に書いてあり、実装より先行している。配信を有効にする変更では、両文書の送信先・送信する情報・保存の有無が実装と一致することを確認し、食い違いを直してから公開する。
 
@@ -48,7 +48,7 @@
 
 - 更新する時は、スクリプトの入手先 URL を新しい版に替えて `make boundaries` を実行し、生成物の差分を commit する。取得した zip は `tmp/boundaries/` に残り、再実行では取得し直さない (取り直す時は `tmp/boundaries/` を消してから実行する)。取得日を除き、同じ入力からは同じ出力になる
 - 形式は GeoJSON の FeatureCollection (経度・緯度、JGD2011)。feature は `code` の順に並ぶ。頂点は 15 m 間隔で簡略化し、座標は小数 5 桁に丸める
-- 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面の出典表示は、この `attribution` を MapLibre の attribution に渡して出す
+- 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面では、地図の上に短い表記と出典ページ (`/sources/`) へのリンクを出し、出典表示の全文は出典ページに出す。出典ページは上の「データの出典」の表をビルド時に読んで表示する
 - properties の型は `src/lib/boundaries.ts`。選択中のエリアは、この `code` を `src/lib/areaSelection.ts` の形式でブラウザの localStorage に保存する
 
 | ファイル (配信する URL) | 中身 | properties |
