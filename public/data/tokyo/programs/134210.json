@@ -1,0 +1,495 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "134210",
+  "programs": [
+    {
+      "psid": "psid3.0+6000020134210+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "母子手帳交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "ブックスタート",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "３，４か月健診",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦中期訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "小笠原村では村内で出産ができないため、妊娠32週までには上京していただいています。妊婦中期訪問では保健師が各家庭を訪問し上京前に不安や心配事などについてご相談をお受けしています。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子供家庭支援センター、子育て世帯包括支援センター",
+      "summary": "小笠原村では村内の福祉係内を子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "妊娠期も含め、子どもと子育て家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM119",
+      "name": "小笠原村の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "生後4か月未満のお子さんのいるすべてのご家庭を保健師や助産師が訪問し、お子さんの健康状態の確認や体重測定、子育てに関する不安や悩みについてのご相談に応じるほか、子育てに関する情報誌のお届けや必要な子育て支援サービスの紹介などをおこないます。",
+      "targetPersons": "乳児家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "乳児家庭全戸訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "対象家庭を訪問する時期は、乳児が生後４か月を迎えるまでの間とする。ただし、対象家庭の都合その他特に認める場合はその限りではない。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM21",
+      "name": "出産祝い",
+      "shortName": "出産支援金",
+      "summary": "小笠原村に1年以上お住まいの方がお子さんを出産した場合、出産祝い金を支給します。",
+      "targetPersons": "妊娠22週第0日又は申請日を基準に、それ以前に継続して1年以上小笠原に住所を有し、かつ本拠を有する妊婦、産婦又はその配偶者が対象となります。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "小笠原村ベビーシッター利用支援事業(一時預かり利用支援事業)",
+      "summary": "ベビーシッターを利用する際の費用の一部を負担する制度です｡\nお子さんが病気で保育園や小学校に登園・登校させることが困難な時期に、ベビーシッターなどの派遣を受けた保護者に対し、派遣に要した費用の一部を助成することにより、保護者の経済的な負担の軽減をはかり、保護者の子育てと就労の両立を支援します。",
+      "targetPersons": "申請をした日及びベビーシッターを利用した日に、児童とともに村内に居住\nし、日常生活上の突発的な事情や社会参加などにより、一時的にベビーシッタ\nーによる保育を必要とし、又はベビーシッターを活用した共同保育を必要とす\nる方 ※村内での利用が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "児童扶養手当は、離別や死別などで父または母のいない児童や、父または母が重度の障害にある児童、あるいは、父または母に代わってその児童を養育している方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次の要件に該当し、健康保険に加入しているひとり親家庭等の父、母または養育者とその児童（児童が18歳に到達後最初の3月31日まで。児童に中度以上の障害がある場合は20歳未満まで）※受給者および扶養義務者に所得制限があります。\n1.父母が離婚\n2.父または母が死亡\n3.父または母が生死不明、一年以上遺棄\n父または母が一年以上拘禁\n4.婚姻によらない出生\n5.父または母が重度の障害\n6.前年のひとり親家庭等の父、母または養育者の所得が東京都で定める基準以下の人。（児童扶養手当と同額）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/iryouhijosei/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "母親学級・両親学級",
+      "summary": "妊娠・出産についての知識や心構え、出産準備や赤ちゃんのお世話などについて学ぶことができます。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM45",
+      "name": "夜間・休日急病診療所①",
+      "shortName": "小笠原村診療所",
+      "summary": "小笠原村では、夜間や日曜・祝日、年末年始に、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/iryou/iryou_sinryojo/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM47",
+      "name": "小笠原村の妊娠・出産に関する相談",
+      "shortName": "助産師相談室",
+      "summary": "小笠原村では、助産師が妊娠・出産等に関する相談に応じています。",
+      "targetPersons": "妊娠・出産、母乳相談、乳腺炎、育児相談、月経障害、妊活、更年期症状等すべての女性とその家族",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3,4か月検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3か月児健康診査を実施しています。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6,７か月検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から12か月児を実施しています。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "新生児聴覚検査を全ての赤ちゃんに安心してお受けいただくために、検査費用の一部を助成する制度を実施しています。",
+      "targetPersons": "新生児,出生後1か月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健診",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。小笠原村では1歳6か月児健康診査を実施しています。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健診",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。小笠原村では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "予防接種予診票や接種スケジュールは乳児家庭全戸訪問の際にお渡ししています。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち小笠原村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "予防接種予診票や接種スケジュールは乳児家庭全戸訪問の際にお渡ししています。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊娠中14回（多胎は20回）まで妊婦健診費の一部を負担します。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "20歳未満の障害児を監護する父母又は養育者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM68",
+      "name": "遺児等福祉手当",
+      "shortName": "児童育成手当",
+      "summary": "交通事故や自然災害により、父または母などが死亡もしくは重度の障がい者になったお子さんを扶養している保護者に対して遺児等福祉手当を支給し、児童福祉の増進を図ることを目的としています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "保育の必要性の認定基準",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育園の利用",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "小笠原村内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "育児学級",
+      "summary": "生後４か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子供家庭支援センター、子育て世帯包括支援センター",
+      "summary": "小笠原村の【子供家庭支援センター、子育て世帯包括支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "支援センター事業の対象者は、村内に在住する又は在学する１８歳未満の児童及びその保護者並びに子どもと家庭の支援に関わる活動を行い又は行おうとする団体及び個人とする。ただし、村長が特に必要があると認めるときは、この限りでない。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料について",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、小笠原村が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "心身障害者医療費助成制度",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "対象（次の1から4のすべての要件を満たす人）\n小笠原村内に住所を有している人。\n65歳未満で身体障害者手帳1級、2級の人および3級の内部障害の人。または愛の手帳1度、2度、精神障害者手帳１級の人。65歳以上の人については、平成12\n8月31日以前に受給者証をすでに持っているまたは、65歳になる前に重度障害者になり、マル障の申請を行った人が対象。\n上記のうち後期高齢者医療対象者は、住民税非課税の場合はマル障該当となるが、住民税課税となった場合はマル障の資格は喪失となる。\n健康保険に加入している人。\n前年の本人（20未満の人は世帯主等）所得が東京都で定める基準以下の人。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syougai/syougai_josei/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+2+UM119",
+      "name": "小笠原村の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "子育てに悩むご家族からの相談をお受けします。",
+      "targetPersons": "就学前のお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+2+UM45",
+      "name": "夜間・休日急病診療所②",
+      "shortName": "母島診療所",
+      "summary": "小笠原村では、夜間や日曜・祝日、年末年始に、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/iryou/iryou_hahajima/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9,１０か月検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査6か月から12か月児を実施しています。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+2+UM51",
+      "name": "2歳6か月児歯科検診",
+      "shortName": "2歳6か月児歯科検診",
+      "summary": "小笠原村では2歳6か月歯科検診を実施しています。",
+      "targetPersons": "小笠原村では3,4か月健診、6,7か月健診、9,10か月健診、1歳6か月健診、2歳6か月歯科健診、3歳児健診を実施しています。対象者には個別通知します。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+3+UM119",
+      "name": "小笠原村の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "小笠原地区巡回児童相談として東京都児童相談センターの医師や児童心理司が来島して児童の健康に関する相談に応じます。また18歳までの愛の手帳取得のための相談・検査も行います。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020134210+4+UM119",
+      "name": "小笠原村の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "妊娠や出産、育児に関する悩みを相談することができます。",
+      "targetPersons": "妊娠・出産、母乳相談、乳腺炎、育児相談、月経障害、妊活、更年期症状等すべての女性とその家族",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

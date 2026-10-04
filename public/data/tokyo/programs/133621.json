@@ -1,0 +1,385 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "133621",
+  "programs": [
+    {
+      "psid": "psid3.0+1000020133621+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠の届出・母子健康手帳の交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊婦訪問",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育て広場",
+      "summary": "子育て環境\n本村では、子育て施策を最重要施策として、安心して産み育てができる村づくりを進めています。今後もさらなる充実を図り、出産や子育てが日本一しやすい村を目指しています。\n\nまた、未就学のお子様を対象に「子育てひろば」を開催しています。未就学のお子様たちが遊べる広場です。子育てについて個別相談も受け付けていますので、お気軽にご参加ください。\n\n子育て広場\n未就学のお子さまが遊べる広場です。月1～2回実施しています。\n\n時間 ： 10:00〜11:00\n場所や日程については、広報でご確認ください。",
+      "targetPersons": "未就学のお子様",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/child-rearing.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM119",
+      "name": "利島村の子育てに関する相談",
+      "shortName": "子育て広場",
+      "summary": "子育て環境\n本村では、子育て施策を最重要施策として、安心して産み育てができる村づくりを進めています。今後もさらなる充実を図り、出産や子育てが日本一しやすい村を目指しています。\n\nまた、未就学のお子様を対象に「子育てひろば」を開催しています。未就学のお子様たちが遊べる広場です。子育てについて個別相談も受け付けていますので、お気軽にご参加ください。\n\n子育て広場\n未就学のお子さまが遊べる広場です。月1～2回実施しています。\n\n時間 ： 10:00〜11:00\n場所や日程については、広報でご確認ください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/child-rearing.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "こんにちは赤ちゃん訪問",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "幼児・子ども",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/pension/welfare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "国民健康保険に加入している方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.toshimamura.org/life/pension/insurance.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM22",
+      "name": "自治体独自の妊娠・出産に関する金銭的支援",
+      "shortName": "出産助成金",
+      "summary": "利島村では分娩施設を設置することが困難な状況であるため、住民が利島村以外で出産する場合の費用の一部を助成しています。出産に係る経済的負担を軽減し、母子福祉の増進を図ることを目的としています。",
+      "targetPersons": "当村に住所を有し、かつ現に在住している妊娠中の女性で、出産後引き続き1年以上当村に在住することが確実と見込まれる方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-3",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/pension/welfare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家族等医療助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/pension/welfare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": null,
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.toshimamura.org/life/procedure/notification.html#midashi-4",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3～4カ月児検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3～4か月児健康診査を実施しています。",
+      "targetPersons": "3～4カ月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7カ月児検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（6～7か月児）を実施しています。",
+      "targetPersons": "6～7カ月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "利島村放課後子供教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "利島村の小中学生",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/education/education-board.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6カ月児検診",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。利島村では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6カ月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児検診",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。利島村では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち利島村では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等妊婦健康診査費助成",
+      "summary": "利島村にお住まいの妊婦さんが、里帰り出産などで東京都の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-1",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "利島村立利島保育園",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "利島村放課後児童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "小学生",
+      "categories": [
+        "005"
+      ],
+      "url": "https://toshimamura-csw.main.jp/子ども家庭事業/【利島村放課後児童クラブ】",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "制度なし",
+      "summary": "利島村の【こども家庭センター（※自治体で設置している名称に修正）】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/child-rearing.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "幼児教育・保育施設の保育料について",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、利島村が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費助成",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/pension/welfare.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "利島村立利島保育園",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、利島村内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9～10カ月児検診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（9～10か月児）を実施しています。",
+      "targetPersons": "9～10カ月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/birth.html#midashi-2",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020133621+2+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "ひとり親世帯等",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.toshimamura.org/life/marriage/kindergarten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

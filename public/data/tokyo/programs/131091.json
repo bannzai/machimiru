@@ -1,0 +1,1787 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "131091",
+  "programs": [
+    {
+      "psid": "psid3.0+6000020131091+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届・親子健康手帳（母子健康手帳）交付",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "品川区にお住まいで、医療機関で妊娠の診断を受けた方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000783.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "保護者対象の子育て支援事業・講座（子ども育成課の事業・講座）",
+      "summary": "子ども育成課では、子育て中の保護者や地域の子育てを支援する育成者等を対象とした、様々な講座を行っています。",
+      "targetPersons": "|事業名|内容等|対象|\n|:----|:----|:----|\n|子育て自主グループ講習|乳幼児から思春期のお子さんの保護者を対象とした、子育て支援に係わる学習会・講座を開催する団体を支援する。|乳幼児から思春期のお子さんを持つ保護者、児童育成団体・社会教育関係団体等の非営利団体|\n|ベビーマッサージ|専門家を講師に迎え、赤ちゃんの健康増進と親子の絆を深める。<br>児童センター25館で年4回実施|0歳児と保護者|\n|親育ちワークショップ  |全5回。乳幼児の保護者が楽しく子育てを送るために役立つ講座<br>児童センター11館で実施|0～3歳児の保護者|\n|父親の子育て応援事業|お父さんが子どもと一緒に参加できる催しを土、日曜を中心に児童センター25館で実施|児童の保護者（父親）|\n|子育て支援講座（NPプログラム）|子育て中の保護者が持つ、育児不安を解消し、地域の子育て力の向上と母親育成を支援することを目的とした講座「完璧な親なんていない！『NOBODY’S　PERFECT』」を開催する。<br>児童センター1館で実施|3歳未満の第1子を持つ保護者 |\n|子育て応援プログラム|・産後ママのセルフケア<br>・アレルギー等おしゃべり会、講演会<br>・離乳食レッスン<br>・子育て交流サロン|各講座毎の対象年齢のお子さんと保護者|",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/kodomo-kateisoudan-kyoushitsu/hpg000023483.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "「はじめてのえほん　よんで　よんで」事業",
+      "summary": "子どもたちに早くから本に触れ合ってもらうため、対象となるお子さんとその保護者の方へ、絵本パックをお渡ししています。",
+      "targetPersons": "品川区の4か月児健康診査対象とされたお子さんとその保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://library.city.shinagawa.tokyo.jp/tabid/298/Default.aspx",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "0歳児見守り・子育てサポート事業「見守りおむつ定期便」",
+      "summary": "令和5年4月1日以降にお生まれになった0歳児のお子さんを育てているご家庭に、満1歳まで月1回程度、見守り支援員が訪問し、赤ちゃんと養育者の方の見守りを行います。\nお会いできた時には、おむつ等の育児用品をお渡しします。\nぜひ、子育ての悩みや困りごとをお聞かせください。",
+      "targetPersons": "令和5年4月1日以降生まれた品川区にお住いの0歳児とその養育者\n※対象となるご家庭に10月16日以降順次、事業案内を郵送でお送りいたします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/20231002181840.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM108",
+      "name": "児童館",
+      "shortName": "児童センター",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n品川区の児童館には、就学前のお子さんと保護者が安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、品川区サイトや区報などでお知らせしています。）",
+      "targetPersons": "0歳から18歳のお子さんと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-zidoucenter/hpg000000850.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "すくすく赤ちゃん訪問事業",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "生後4カ月未満の赤ちゃんがいるご家庭",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/hpg000022461.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "家庭あんしんセンター",
+      "summary": "品川区では区内の家庭あんしんセンターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000000504.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM114",
+      "name": "小児科救急",
+      "shortName": "応急診療所（内科・小児科・歯科・接骨）",
+      "summary": "品川区では、区内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": "医療機関の多くが休診する日曜・休日および土曜・平日夜間において、急な発熱、腹痛など、入院を要しない程度の症状を発症した方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-byouki/kenkou-byouki-kyuzitsu/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに関する相談窓口一覧",
+      "summary": "品川区内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": "0歳から18歳のお子さんと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "http://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/20200715151457.html,http://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-madoguchi/hpg000000397.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM119",
+      "name": "品川区の子育てに関する相談",
+      "shortName": "子育てに関する相談",
+      "summary": "「子育てについて迷っている」、「イライラしてつい子どもを怒鳴ってしまう」、「子どもの前で夫婦喧嘩をしてしまった」など、子育てに関する不安や悩み、育児へのストレスを抱えてしまう方もいらっしゃるのではないでしょうか。\n子ども家庭支援センターでは、子どもやそのご家庭に関するさまざまな相談に応じています。\n誰かに話すことでほっとできることもあります。ひとりで悩まないで、お気軽に子ども家庭支援センターまでご相談ください。\n （ご希望によりご家庭に訪問したり、来所による相談も受け付けています。）",
+      "targetPersons": "子育てに関する不安や悩み、育児へのストレスを抱えてしまう方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/20200507104028.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費などを支給します。",
+      "targetPersons": "1. 品川区にお住まいで公立小・中・義務教育学校に通学し、次のいずれかに該当する方\nア．生活保護を受けている方\nイ．昨年の所得が下記の所得以下の方\n|世帯人数|所得上限のめやす|\n|:----|:----|\n|2人世帯|約259～298万円|\n|3人世帯|約277～385万円|\n|4人世帯|約332～453万円|\n|5人世帯|約390～530万円|\n|6人世帯|約439～589万円|\n\n※所得上限は世帯の構成員の人数により変わります。\n※世帯の人数が同じにもかかわらず、所得上限に幅があるのは、その世帯の年齢構成により差が生じるためです。\n※世帯所得が「所得上限のめやす」の範囲内であっても認定されない場合があります。\n※世帯構成は住民登録によりますが、保護者が単身赴任しているとき、親族を遠隔地扶養しているときは、世帯の構成員に含めます。\n\n2. 失業、倒産、疾病などで現在の所得が大幅に減少し、所得上限以下の所得の方",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-gakkou/kodomo-gakkou-soudan/hpg000000893.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "すくすく赤ちゃん訪問事業",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "生後4カ月未満の赤ちゃんがいるご家庭",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/hpg000022461.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "すくすく赤ちゃん訪問事業",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭に助産師・保健師・児童センター職員などが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行います。",
+      "targetPersons": "赤ちゃんとお母さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/hpg000022461.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（日帰り型）事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "品川区に母の住民登録がある方で産後1年未満の母子\n利用にはお子様の外出を伴いますので、利用日までに2週間健診または1ヵ月健診を受けていることが必要です。\n※医療行為の必要な方はご利用できません",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/20240328202433.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM18",
+      "name": "妊娠高血圧症候群（妊娠中毒症）に関する助成",
+      "shortName": "妊娠高血圧症候群等の医療費助成",
+      "summary": "妊娠高血圧症候群（妊娠中毒症）などにより、7日以上入院が必要な妊産婦の方を対象に入院医療費を助成します。",
+      "targetPersons": "品川区内に住所があり、妊娠高血圧症候群、糖尿病、貧血、産科出血、心疾患及びこれらの疾患の続発症があり、入院医療を必要とする方で、下記の1.または2.の条件を満たす方。\n\n1. 前年分の総所得税額が30,000円以下の世帯に属する方。\n2. 1.以外の方で入院見込期間が26日以上の方。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000785.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "品川区国民健康保険に加入している方が出産したとき\n妊娠4カ月（85日）以降であれば、死産・流産でも支給されます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/procedure/procedure-kenkouhoken/procedure-kenkouhoken-hokenkyuuhu/hpg000001524.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2",
+      "name": "マタニティマーク",
+      "shortName": "マタニティマーク",
+      "summary": "品川区では、妊娠の届出の際に、母子健康手帳と共にマタニティマーク入りキーホルダーをお渡ししています。",
+      "targetPersons": "妊産婦の方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/hpg000002861.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子どもすこやか医療費助成",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）を助成しています。",
+      "targetPersons": "・高校生等（18歳到達後最初の3月31日まで）までの子どもであること\n・子どもの住所が品川区にあること\n・子どもが健康保険に加入していること\n※ただし、生活保護受給者、児童福祉施設入所者、里親に委託されている子どもは除きます。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000017744.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2365",
+      "name": "企業主導型ベビーシッター利用者支援事業",
+      "shortName": "ベビーシッター利用支援事業（ベビーシッター事業者連携型）",
+      "summary": "仕事や職場復帰のために利用する民間のベビーシッター費用や、多胎児（双子や三つ子など）を養育しているご家庭で、民間のベビーシッターを利用した場合の利用料の一部を助成します。\n本制度は、「企業主導型ベビーシッター利用者支援事業」として内閣府が行うもので、利用者は、務め先の事業主から交付を受けた割引券を使用することで、利用料の割引を受けることができます。",
+      "targetPersons": "次の要件を満たす0歳から5歳の保護者が対象となります。\n（2024年(令和6年)4月1日現在の年齢を基準とします）\n\n1. 保育認定を受け、保育所等に入園申込みをした結果、不承諾となっている保護者\n本制度利用中は、継続して申込みを行い、毎月不承諾であることが条件です。\n※4月入園申込みについては、1次、2次のいずれかで不承諾の場合に対象となります（1次、2次のいずれかで入園内定が出ている場合は対象外）。\n※保護者それぞれが保育を必要とする事由に該当する必要があります。\n※ただし、次に該当する場合は、助成の対象外となります。\n・認可保育所等の入園辞退、申込み取下げ、兄弟姉妹との入園条件に合致しないなどの理由により入園を希望しないとき。\n・求職活動により2カ月間の認定を受け、入園申込みを行い不承諾となったが、3カ月目以降も求職活動を継続するとき（当初の2カ月間のみ助成対象）。\n※入園不承諾等の状況については、月単位で確認を行います。\n\n2. 児童および保護者が、品川区内に住民票上の住所を有し、実際に居住していること\n転出した場合、利用対象者でなくなります（転出日の前日までは対象）。転出先の自治体において、東京都が実施するベビーシッター利用支援事業（ベビーシッター事業者連携型）を実施している場合、転出先で再度申請が必要です。\n\n3. ベビーシッター初回利用日までに、保護者が育児休業、産休中でないこと\n\n4. べビーシッター利用支援事業（ベビーシッター事業者連携型）利用約款の記載事項に同意いただけること\n令和6年度ベビーシッター利用支援事業（事業者連携型）利用約款(PDF : 166KB)を確認してください。;https://www.city.shinagawa.tokyo.jp/ct/pdf/hpg000033556_12.pdf",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/babysitter/hpg000033556.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "区立幼稚園預かり保育",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-youchien/azukari/20190716121354.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育の無償化について（幼稚園、保育園、認定こども園等）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "3～5歳児のお子さん（4月1日時点の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20190307143109.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "品川区認可外保育施設保育料助成制度",
+      "summary": "認可外保育施設（認証保育所を含む）を利用している0～5歳児の児童の保護者に対し、その保育料の一部を補助します。世帯の課税状況やお子様の多子区分によって助成金額が異なります。",
+      "targetPersons": "助成対象者\n児童が【助成対象施設】の1または2の施設に在籍している場合は、次に掲げる1および2の要件を満たすこととし、【助成対象施設】の3の施設に在籍している場合は、次に掲げる要件を全て満たす保護者とする。\n\n1. 認可外保育施設に在籍している児童およびその保護者が、毎月1日の時点で品川区の住民基本台帳に記録されていること。\n2. 保護者と一つの認可外保育施設が120時間以上の保育を行う月極め契約を締結し、児童が毎月1日時点において認可外保育施設に在籍していること。\n3. 公立の認可外保育施設に児童が通う場合、課税世帯に属する第2子以降のものであり、満3歳に達する日以後の最初の3月31日までの間にあること。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000033493.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "品川区外の認可保育園等の申請",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：品川区内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、品川区内の認可保育所への入所を希望する場合",
+      "targetPersons": "品川区外の認可保育園等に申請する方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20221220195330.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000027168.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM25",
+      "name": "自治体独自のベビーシッター費用の助成",
+      "shortName": "ベビーシッター利用支援事業（一時預かり利用支援〈未就学児だれでも子育てサポート〉）",
+      "summary": "日常生活上の突発的な事情やリフレッシュ等の目的により、一時的に保育が必要となった保護者やベビーシッターを活用した共同保育を必要とする保護者に対し、ベビーシッターの派遣による保育サービスを受けた際の保育利用料の一部を助成し、経済的な負担軽減を図ります。",
+      "targetPersons": "品川区内に住民票があり、居住している、以下のいずれかの要件を満たす0～5歳児の保護者\n※満6歳になる年度の3月31日まで\n※認可保育所等に在籍していても利用できます。\n\n1. 日常生活上の突発的な事情や社会参加等により、一時的に保育を必要とする方\n（保護者の残業や病気、自己実現、学校行事等、幅広い理由が対象となります）\n2. ベビーシッターを活用した共同保育を必要とする方\n保護者と一緒にベビーシッターが共同で保育します）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/babysitter/20220214164213.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "品川区内に住所があり、父母の離婚や死亡などにより母子家庭・父子家庭になった方や父母に重度の障害がある場合、または父母に養育されないなど以下の状態の児童（18歳に達した最初の3月31日までの児童、また中度以上の障害がある場合は20歳未満）を扶養している父・母または養育者\n\n・父・母が離婚した児童\n・父または母が死亡または生死不明である児童\n・父または母に引き続いて1年以上遺棄されている児童\n・父または母が法令により1年以上拘禁されている児童\n・母が婚姻によらないで生まれた児童\n・父または母に重度の障害がある児童\n・父または母が保護命令を受けた児童（DV被害者）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/hpg000001248.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "次のいずれかの要件に該当する児童を養育・監護していて、所得が所得制限限度額未満の方\n・父・母が離婚した児童\n・父または母が死亡または生死不明の児童\n・父または母に引き続いて1年以上遺棄されている児童\n・母が婚姻によらないで生まれた児童\n・父または母が法令により、1年以上拘禁されている児童\n・父または母に重度の障害がある児童\n・父または母が保護命令を受けた児童（DV被害者）\n\n※ただし、下記に該当する場合は助成対象外です。\n・生活保護受給者\n・児童が児童福祉施設等に入所している\n・児童が里親等に委託されている",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/hpg000001247.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都母子及び父子福祉資金",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上（※）お住まいの母子家庭の母または父子家庭の父で、20歳未満のお子さんを扶養している方\n（※）就学支度・修学資金は、申請時点で都内在住であれば対象です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/hpg000030884.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児養育医療の給付",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部が自己負担となる場合があります。",
+      "targetPersons": "次のいずれかの状態にある赤ちゃん（入院のみが対象です）\n\n1. 出生時の体重が2,000グラム以下の赤ちゃん\n2. 生活力が特に弱く下記の症状がある赤ちゃん\n・けいれん、運動異常\n・体温が摂氏34度以下\n・強いチアノーゼなど呼吸器、循環器の異常\n・くり返す嘔吐など消化器の異常\n・強い黄疸",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000861.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "父または母\n※来庁できなくても父または母の署名が必要です",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/procedure/procedure-koseki/procedure-koseki-todokede/hpg000001411.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、品川区では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "区内在住で、初めての出産を控えた妊娠22週以降のカップル（父親になる方のみの参加も可能です）",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000789.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日・夜間（平日・土曜日）の診療",
+      "summary": "品川区では、夜間や日曜・祝日、年末年始に、区内の医療機関の協力のもと、当番制で診療を行っています。\nなお、小児のお子さんの救急の時は、小児科救急当番医をご利用ください。",
+      "targetPersons": "医療機関の多くが休診する日曜・休日および土曜・平日夜間において、急な発熱、腹痛など、入院を要しない程度の症状を発症した方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-byouki/kenkou-byouki-kyuzitsu/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM47",
+      "name": "品川区の妊娠・出産に関する相談",
+      "shortName": "妊娠期からの相談事業",
+      "summary": "妊産婦ネウボラ相談員（助産師）や保健師が面談を行い、妊娠中にお伝えしたい母子保健情報・子育て情報を紹介します。\n初回面談後にお祝い品（育児用品カタログギフト）を贈呈します。\n出産・子育て応援給付金事業の出産応援ギフト（5万円相当）を申請いただくには、こちらの面談が必要です。",
+      "targetPersons": "品川区に住民登録があり、医療機関で妊娠と診断され「妊娠届」を提出した妊娠中の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000026799.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "4カ月児健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として4カ月児健診を実施しています。",
+      "targetPersons": "受診時6か月未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6～7カ月児健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（6～7カ月児健診）を実施しています。",
+      "targetPersons": "受診時期\n6～7カ月の間",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "妊娠の届出をされた方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/hpg000029337.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "出産・子育て応援事業（伴走型相談支援）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊婦および主に0歳の乳幼児を養育する子育て世帯",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/20230120091157.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援事業（経済的支援）",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "【出産応援ギフト】\n令和5年4月1日以降に妊娠届出し、助産師等の面談を受けた妊婦\n\n【子育て応援ギフト】\n出生後にすくすく赤ちゃん訪問を受けた養育者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/20230120091157.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "すまいるスクール",
+      "summary": "地域住民の参画を得て、放課後等に区内在住の小学生を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "1.品川区立学校および義務教育学校（前期課程）に就学、在学する児童\n2.区内在住で、区立学校以外の小学校等（特別支援学校および各種学校を含む)に就学、在学する児童\n(注)区立学校に在籍する児童で、医療的ケアを必要とする場合は、事前にご相談ください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-smileschool/20250107141629.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "国民健康保険料の産前産後期間の軽減制度",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "国民健康保険の被保険者で令和5年11月1日以降に出産する（した）人\n※出産とは妊娠85日（4カ月）以降の出産（死産・流産・人工妊娠中絶含む）をいいます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/procedure/procedure-kenkouhoken/procedure-kenkouhoken-hokenryo/20231122101648.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。",
+      "targetPersons": "子ども",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000032527.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "18歳未満で、下記の障害や病気を持っている方、またはこれをそのままにしておくと体に障害が残るおそれのある方で、入院を前提とした手術などによって障害の改善が見込まれる方。（一部の障害・病気では、入院しない場合でも対象となります。）\nただし区市町村民税（所得割）23万5千円以上の方は原則として対象外となりますが、一部認められる場合もあります。詳細はお問い合わせください。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000027939.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "保育園医療的ケア事業・区立幼稚園医療的ケア事業",
+      "summary": "保育園・区立幼稚園において看護師等を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": null,
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240726155841.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6カ月児健診",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。品川区では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "受診時期\n1歳7カ月頃",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健診",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。品川区では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "受診時期\n3歳4カ月前後",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "小児健康相談・発達相談・心理相談",
+      "summary": "お子さんの健康や発達に関する相談や心配事に小児科医・心理相談員・保健師・栄養士・歯科衛生士が応じます。",
+      "targetPersons": "就学前まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（五種混合　1期初回）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種（おたふくかぜワクチン）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち品川区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "1歳から小学校就学前年度末",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#任意予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM576",
+      "name": "児童遊園",
+      "shortName": "児童遊園",
+      "summary": "児童の健康の増進を図るため、児童の遊び場その他特定の用に供する児童遊園を設置しています。\n品川区の児童遊園の一覧は、品川区ホームページなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/shisetsu/shisetsu-bunka/shisetsu-bunka-kouen/hpg000000355.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "バースデーサポート事業",
+      "summary": "1歳の誕生日に品川区に住民票のあるお子さんを養育している家庭に、子育てについてのアンケートをお送りします。回答のあった方へ、バースデーサポートギフトをお届けします。",
+      "targetPersons": "1歳の誕生日（令和4年4月1日生まれ以降）に品川区に住民票のあるお子さんを養育しているご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/20231114155458.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "品川区に住所を有するひとり親家庭の母または父で、以下の要件すべてを満たしている方\n1．20歳未満の児童を扶養していること。\n2．児童扶養手当を受給していること。または同等の所得水準であること。\n3．教育訓練講座を受講することが就業に必要と認められること。\n4．過去に本事業に基づく給付金を受給していないこと。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/hpg000016382.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "「妊娠届」を提出された方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000783.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金等",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "品川区に住所を有するひとり親家庭の母または父で、以下の要件すべてを満たしている方\n1．20歳未満の児童を扶養していること。\n2．児童扶養手当を受給していること。または同等の所得水準であること。\n3．対象資格を取得するために養成機関において1年以上の課程を修業し、その資格取得が見込まれること。\n4．就業または育児と修業の両立が困難であると認められること。\n5．過去に本事業に基づく給付金を受給していないこと。\n6．職業訓練受講給付金(求職者支援制度)や訓練延長給付、教育訓練支援給付金等、本事業と同趣旨の給付金を受給していないこと。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/hpg000016382.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM61",
+      "name": "自治体独自のひとり親の方への金銭的支援",
+      "shortName": "ひとり親家庭住宅入居支援事業",
+      "summary": "住宅に困窮するひとり親家庭に対して民間賃貸住宅への入居を支援するため、連帯保証人が立てられない方を対象として、保証会社に支払う「初回保証委託料」を助成します。",
+      "targetPersons": "品川区に引き続き6カ月以上居住しているひとり親家庭の母または父で、児童扶養手当を受給し、以下の要件すべてを満たしている方\n1．賃貸借契約上の連帯保証人を立てることができないこと。\n2．生活保護、中国残留邦人等の支援給付を受けていないこと。\n3．転居先が品川区内であること。\n4．過去に本事業を利用したことがないこと。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hitorioya/20200116093231.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "1. 身体障害手帳1～3級程度および一部の下肢4級程度の児童\n2. 愛の手帳1～3度程度の児童\n3. 精神障害若しくは内部障害で、日常生活が著しく制限を受ける程度の障害で、上記1.2.に相当すると認められる児童\n※複数の障害がある場合は個々の障害の程度が上記より軽度な場合でも該当となることがあります。（重複障害）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000859.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "20歳未満の児童\n精神又は身体に著しく重度の障害を有するため、日常生活において常時の介護を必要とする状態にある在宅の方。\n\n次のいずれかに該当するときは支給されません。\n1. 施設に入所している児童\n2. 障害年金等を受給している児童\n3. 本人、扶養義務者等の所得が一定の額を超える方（所得限度額表(*1)参照）\n\n※(1)、(2)に該当する場合、手当を申請することができません。また、手当受給中の方は、受給資格が喪失し、支給は停止されます。\n※(3)に該当する場合、手当の支給は停止されます。\n\n(*1) 所得限度額表;https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-siryo/hpg000000490.html",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-teate/hpg000000413.html#ji",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病の医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "次の2つの要件を両方満たす方が対象となります。\n1．申請者が都内に在住している満18歳未満の方（引き続き治療が必要であると認められる場合は、20歳未満の方）\n2．小児慢性特定疾病医療支援事業の対象疾病にかかっており、かつ、別に定める認定基準に該当する方\n＊詳細については東京都ホームページでご確認ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000862.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染に係る健康障害者の医療費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "18歳以上の方（下記対象者の要件の1に該当しない方）の新規申請の受付は、平成27年3月31日で終了しました。\n現在認定を受けて医療券をお持ちの方で、生年月日が平成9年4月1日以前の方は、更新申請のみ可能です。\n\n対象疾病\n気管支ぜん息及びその続発症\n（※18歳未満の方は慢性気管支炎、ぜん息性気管支炎、肺気しゅ及びその続発症も対象となります）\n\n対象者の要件\n次のいずれにも該当すること\n1. 18歳未満の方（18歳の誕生日が属する月の末日までの間にある方を含む）\n2. 東京都内に引き続き1年（3歳未満は6カ月）以上住所を有する方\n3. 対象疾病にり患している方\n4. 健康保険等に加入している方\n5. 申請日以降喫煙をしない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000865.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "小児精神病入院医療費の助成制度",
+      "summary": "精神疾患のお子さんのための入院医療費の助成制度です。",
+      "targetPersons": "18歳未満で、精神疾患のため精神科病院又は精神科病床に入院をしているお子さん。\nただし、満18歳に達した時点で引き続き入院医療を必要とする場合は、20歳の誕生日月の末日までが対象です。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000866.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り等妊婦健診費助成",
+      "summary": "品川区にお住まいの妊婦さんが、里帰り出産などで品川区の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "利用できる方\n対象となる健（検）診の受診日現在、区内に住所を有する方\n\n次のような場合が対象となります\n東京都以外の地域で妊婦健康診査、妊婦超音波検査、妊婦子宮頸がん検診、新生児聴覚検査を受けた場合(国内の医療機関等に限ります）\n東京都内の医療機関であっても契約医療機関でないところで妊婦健康診査、新生児聴覚検査を受診した場合（助産院も対象になります）\n申請には、未使用の「妊婦健康診査受診票」「妊婦超音波検査受診票」「妊婦子宮頸がん検診受診票」「新生児聴覚検査受診票」の返却が必要です。\n交付した健診受診票を都内の契約医療機関で利用して、お手元に受診票が残ってない方は、この制度の対象とはなりません。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000003975.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定（1号・区立幼稚園）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "保育認定申請ができる方の要件（「保育を必要とする事由」）\n保育認定申請ができるのは、保護者が次のいずれかの、児童の「保育を必要とする事由」に該当する場合です\n（児童に集団生活を経験させたいという理由での申請はできません）。\nまた、児童の出生前に保育認定申請はできません。\n\n1. 就労　月12日以上かつ1日あたり4時間以上の就労を目安として常態とすること\n2. 妊娠／出産　妊娠中または出産後（入園希望月前後2カ月の間で出産予定がある、または出産した場合）\n3. 疾病／障害　疾病もしくは負傷、または精神や身体に障害があること\n4. 介護／看護／付添　同居の親族（申請児童の祖父母や兄弟姉妹等）を介護または看護していること\n5. 災害復旧　災害の復旧にあたっていること\n6. 求職活動　継続的に求職活動（起業準備を含む）をしていること\n7. 就学　学校教育法に規定された学校等に通学、または公共の職業訓練校での職業訓練等を受けていること\n8. その他　児童虐待の恐れがある、または配偶者からの暴力により保育が困難であること（公的機関にご相談している方）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240110140144.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育料の減額制度",
+      "summary": "子ども・子育て支援新制度による給付を受ける認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するお子さんのうち、多子世帯や一部のひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "・同一世帯に2人以上の児童がいる場合\n・特別な事情があり保育料の納入が困難な場合\n・保育園に在園している児童が傷病のため、長期にわたって保育園をお休みする場合",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220920192202.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "保育園入（転）園の手続",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認定こども園の案内",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027973.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "家庭的保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。品川区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "申請要件（資格）\n1. 保育認定を受けること\n2. 児童の年齢が、生後57日以降、3歳に達した年度(2歳児クラス)の年度末までであること\n3. 保育短時間認定を受けること(保育標準時間認定の方は、家庭的保育事業の申請はできません)\n\n※家庭的保育事業、小規模保育事業では、運営上、特別な配慮が必要なお子さんの保育ができない場合があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "品川区内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": "実施園の在園児のみ",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220920192202.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM78",
+      "name": "障がい児保育",
+      "shortName": "障がい児保育（幼稚園）",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "他の幼児と一緒に教育の可能な障害児等",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-hoiku/hpg000000442.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM780",
+      "name": "休日保育",
+      "shortName": "休日保育",
+      "summary": "保護者が就労や病気等により、日曜や祝日にご家庭でお子さんの保育ができないとき、保育園などでお子さんをお預かりする「休日保育」を実施しています。",
+      "targetPersons": "生後4カ月から就学前の健康な児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033162.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM781",
+      "name": "夜間保育",
+      "shortName": "延長夜間保育",
+      "summary": "保護者の就労時間などにより、夜間、家庭において保育を受けられないお子さんを保護者に代わって保育する、「夜間保育」を行っています。認可保育園などが、延長保育により夜間まで開所している場合のほか、専門の夜間保育施設などもあります。\n夜間保育を行う施設には、認可外の施設もありますが、ここでは認可保育園についてご案内します。",
+      "targetPersons": "実施園の在園児のみ",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220920192202.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ",
+      "summary": "お子さんを養育する方が加療や出産入院、出張等の不在時に、お子さんを宿泊にて一時的にお預かりします。",
+      "targetPersons": "品川区在住の1歳から15歳に達した日以後の最初の3月31日までのお子さん",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000019021.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM783",
+      "name": "トワイライトステイ（夜間養護等事業）",
+      "shortName": "トワイライトステイ",
+      "summary": "就労により保護者の帰宅が遅い時にお子さんを短時間お預かりします。22時までに退館できるように迎えに来てください。区内の学校・幼稚園・保育園への送迎サービスもあります。",
+      "targetPersons": "品川区在住の1歳から15歳に達した日以後の最初の3月31日まで\n（令和4年4月から対象年齢を拡大しました）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000019025.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "すこやかサポート(育児支援ヘルパー)",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "産前産後に体調不良などで日常生活に支障があり、他から援助を受けられない家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000023819.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "すまいるスクール",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "1.品川区立学校および義務教育学校（前期課程）に就学、在学する児童\n2.区内在住で、区立学校以外の小学校等（特別支援学校および各種学校を含む)に就学、在学する児童\n(注)区立学校に在籍する児童で、医療的ケアを必要とする場合は、事前にご相談ください。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-smileschool/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "すくすく赤ちゃん訪問申請（出生通知票）",
+      "summary": "赤ちゃんが生まれたら、親と子の保健バッグの中のハガキ（出生通知票）を記入して、郵送または提出してください。出生通知票をもとに、「こんにちは赤ちゃん事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生通知票はその届出を兼ねています。",
+      "targetPersons": "赤ちゃんが生まれたご家庭",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-siryo/kuseizyoho-siryo-denshi/kuseizyoho-siryo-denshi-procedure/kuseizyoho-siryo-denshi-procedure-syussan/hpg000001699.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM792",
+      "name": "乳幼児の歯の健康診査（2歳児歯科健康診査）",
+      "shortName": "2歳児歯科健診",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。2歳児歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "2歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料の免除",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "「国民年金第1号被保険者」で出産日が平成31年2月1日以降の方",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/procedure/procedure-nenkin/20181207095632.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食教室",
+      "summary": "生後4～6カ月児の保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "4～6カ月児の保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/kodomo-kateisoudan-kyoushitsu/hpg000000820.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "品川区子ども家庭支援センター",
+      "summary": "品川区の【品川区子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦や子どもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/20200715151457.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-dukuri/kenkou-dukuri-hatokuchi/20221219162441.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "区立幼稚園の利用",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "次の要件をすべて満たしている方。\n1. 品川区に居住していること。\n2. 2年保育の年齢に達していること。\n3. 原則、保護者が幼児を幼稚園に徒歩で送迎できること。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-youchien/shinsei/hpg000029810.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "チャイルドステーション",
+      "summary": "品川区では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、区立保育園・幼稚園・児童センターにおいて「おむつ替え」や「授乳」ができるチャイルドステーションを整備し、地域全体で子育てを支える仕組みづくりを進めています。\nまた、東京都でも県内の民間施設を含めて同事業を実施しており、指定施設には、入口付近にそれぞれ案内標示を設置しています。",
+      "targetPersons": "乳幼児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/kodomo-kateisoudan-kyoushitsu/hpg000033557.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "幼児教育の無償化について（幼稚園、保育園、認定こども園等）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、品川区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "3～5歳児のお子さん（4月1日時点の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20190307143109.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "小規模保育事業一覧",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM805",
+      "name": "事業所内保育施設一覧",
+      "shortName": "事業所内保育施設一覧",
+      "summary": "市区町村の認可事業として行われる事業所内保育は、企業や病院などが従業員に対して仕事と子育ての両立支援策として実施するもので、従業員や職員のお子さんのほか、地域の保育が必要なお子さんも受け入れて、一緒に保育を行います。\n事業所内保育入所定員が20人以上の「保育所型事業所内保育」施設と6人以上19人以下の「小規模型事業所内保育」施設があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "区立幼稚園の預かり保育",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": "◇対象\n預かり保育を利用する区立幼稚園・認定こども園在園児で、新たに保育の必要があると認定を受けたお子さん\n\n◇要件\n保護者が就労をしている場合等、保育を必要とする事由に該当し、かつその認定を受けること。\n※「保育の必要性の認定」を受けるためには、別途申請書および確認資料の提出が必要です。\n\n＜保育を必要とする事由＞\n・就労（月12日以上かつ1日あたり4時間以上の就労を目安として常態とすること。）\n・妊娠中であるかまたは出産後間がないこと。(出産予定月をはさんで前後2カ月（計5カ月間))\n・疾病もしくは負傷、または精神や身体に障害があること。\n・同居の親族を常時、介護または看護していること。\n・学校教育法に規定された学校や、職業訓練校等に通学していること。\n・求職活動を継続的に行っていること。\n・災害の復旧にあたっていること。\n・児童虐待の恐れがある、または配偶者からの暴力により保育が困難であること。\nなど",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-youchien/azukari/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を有し、通院している方（年齢制限はありません）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-iryo/kenkou-syogai-iryo-ziritsu/hpg000000536.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者が出産、疾病などのためにお子様を保育できないときに、保育園で一時的にお預かりします 。",
+      "targetPersons": "生後満4カ月から就学前の集団保育可能な児童\n※0歳児保育を実施していない保育園は、1歳児クラス以降のお子様が利用できます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033215.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "品川区定期利用保育事業",
+      "summary": "品川区定期利用保育事業とは、新規開設保育園などで4歳児から5歳児の受け入れに余裕がある保育園で、入園が不承諾となった1歳児のお子さまを保育する事業です。",
+      "targetPersons": "次の1から4のすべてに該当する場合、申請の対象者となります。\n\n1. 令和6年度1歳児クラス(令和4年4月2日から令和5年4月1日生まれ)の児童であること\n2. 保育の必要性の認定を受け、認可保育所等の入園申請を行い、入園不承諾になっていること\n(転園申請が不承諾となっている場合を除く)\n3. 集団保育が可能であり、健康上・発達上の特別な支援が必要ないこと\n4. 他の認可保育施設を利用していないこと",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000032958.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後6カ月～就学前まで",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033509.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター",
+      "summary": "ファミリー・サポート・センター事業は、子育ての援助を受けたい方（依頼会員）と、子育ての援助を行いたい方（提供会員）が会員登録し、地域の中で相互に助け合いながら子育てをする、有償のボランティア活動です。",
+      "targetPersons": "依頼会員\n品川区在住の生後43日以上おおむね12才までの子どもを持つ保護者の方で、育児の援助を受けたい方\n\n事前の会員登録が必要です。郵送による登録は可能ですが、利用に際しては子どもと一緒に来所していただく必要があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000020024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "保育園一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、品川区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220920192202.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "妊婦超音波検査",
+      "summary": "妊婦健康診査は妊婦さんやお腹の赤ちゃんの健康管理を行う上で欠かせないものです。品川区では、妊婦健康診査のうち超音波検査費用の助成回数を拡大することで、妊娠にかかる経済的負担を軽減し安心して出産に臨めるよう支援します。",
+      "targetPersons": "令和5年4月1日以降に妊娠届出をされた方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/20230323204838.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認可外保育施設等一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、品川区内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20191031082217.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭的保育事業一覧",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、品川区が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "区立幼稚園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、品川区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-youchien/kurituyoutien/hpg000024931.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "私立幼稚園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、品川区内の私立幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/shisetsu/shisetsu-kyoiku/shisetsu-kyoiku-yochien/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（水痘（水ぼうそう）　1回目・2回目）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（日本脳炎　1期初回）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "3歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（日本脳炎　1期追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "4歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ＭＲ（麻しん・風しん）　2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "年長の4月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+14+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（日本脳炎　2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "9歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+15+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ＤＴ（ジフテリア・破傷風）　2期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+16+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ヒトパピローマウイルス感染症（子宮頸がん））",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "小学6年生（女子のみ）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/yobousessyu/hpg000033388.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "養育支援訪問事業",
+      "summary": "児童福祉法第６条の３第５項に規定する養育支援訪問事業として、養育支援が特に必要であると判断した家庭に訪問し、養育に関する指導、助言等を行うことにより、当該事業対象家庭において適切な児童の養育が可能となるよう支援し、児童虐待を未然に防止する。",
+      "targetPersons": "支援対象\n区内に住所を有し、品川区要保護児童対策地域協議会において、要支援児童等として、区が児童票を管理する世帯のうち、次の各号のいずれかに該当する家庭\n（１）支援が必要であると区長が認める特定妊婦の家庭\n（２）保護者の養育の支援が特に必要と区長が認める家庭\n（３）前２号に揚げるもののほか、区長が特に支援の必要があると認めた家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-siryo/kuseizyoho-siryo-reiki/kuseizyoho-siryo-reiki-yoko/kuseizyoho-siryo-reiki-yoko-kodomomirai/youikusienn.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "産後ケア（訪問型）事業",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "品川区に母の住民登録がある方で産後1年未満の母子\n※医療行為の必要な方はご利用できません",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/20240328204226.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM119",
+      "name": "品川区の子育てに関する相談",
+      "shortName": "しながわっ子　子育てかんがるープラン",
+      "summary": "保育施設運営課の子育て相談員が、妊娠中の方から小学校就学前までのお子さんの保護者を対象に、子育て相談を通し、子育て支援事業の紹介や情報提供を行い、就学前の子育てプランを作成するお手伝いをします。\n子育てに不安を抱えている、子育てをしながら仲間作りをしたい、幼稚園や保育園のことを知りたい等の様々なご相談に応じながら、保護者の方と一緒にそれぞれのご家庭の子育てを考えます。",
+      "targetPersons": "妊娠中の方から就学前までのお子さんのいる保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000004245.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア（宿泊型）事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "・利用日に品川区に住民登録がある母子\n・利用日終了時点で産後５か月未満の母子（実施医療機関によって受け入れ月齢が異なります）\n・1回の出産につき1回のみ（分割利用はできません。）\n\n※令和5年度に利用された方は、令和6年度は利用できません。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-umaretara/20240328204508.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "幼児教育の無償化について",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "0～2歳児の非課税世帯の保護者および3～5歳児の保護者で保育の必要性を有する者",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20191030091530.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育の無償化について（認可外保育施設・認証保育所等）",
+      "summary": "保育の必要性の認定を受けている3～5歳児の児童および住民税非課税世帯の0～2歳児の児童を対象に、保育料の一部を補助します。3歳～5歳児の場合は37,000円、0～2歳児の非課税世帯の場合は42,000円が上限となります。",
+      "targetPersons": "3～5歳児のお子さん（4月1日時点の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20191030091530.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000027168.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "母親学級（マタニティクラス）",
+      "summary": "お母さんが安心して赤ちゃんを迎えられるように、品川区では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "妊娠22週以降の初産婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000790.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM47",
+      "name": "品川区の妊娠・出産に関する相談",
+      "shortName": "オンラインによる妊娠期面談",
+      "summary": "妊産婦ネウボラ相談員（助産師）や保健師が面談を行い、妊娠中にお伝えしたい母子保健情報・子育て情報を紹介します。\n初回面談後にお祝い品（育児用品カタログギフト）を贈呈します。\n出産・子育て応援給付金事業の出産応援ギフト（5万円相当）を申請いただくには、こちらの面談が必要です。",
+      "targetPersons": "品川区に住民登録があり、医療機関で妊娠と診断され「妊娠届」を提出した妊娠中の方で、安静が必要な方、その他事情により来所での面談を受けることが難しい方\n(1)22週以降の切迫早産で安静が必要な方。\n(2)里帰り中で保健センターに来所できない方。\n(3)その他事情により来所して面談を受けるのが難しい方。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/20210420152343.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9～10カ月児健診",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（9～10カ月児健診）を実施しています。",
+      "targetPersons": "受診時期\n9～10カ月の間",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000000798.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患を有し、通院している方（年齢制限はありません）",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-iryo/kenkou-syogai-iryo-ziritsu/hpg000000536.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（小児用肺炎球菌　初回）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種（MRワクチン）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち品川区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "2歳から19歳未満で、定期接種を受けられなかった方\n・2歳以降、年長になる前：MR1期が未接種の方\n・小学生以上、19歳未満：MRワクチンを1回しか受けていない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#任意予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病児童日常生活用具給付事業",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "1. 品川区内に住所を有する方\n2. 小児慢性特定疾病医療受給者証をお持ちの方\n3. 児童福祉法、知的障害者福祉法、身体障害者福祉法等で同様な用具給付制度の対象となっていない方\n4. 在宅で日常生活を営むのに支障があり、日常生活用具の給付を必要とする方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000000863.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定（1号・私立幼稚園）",
+      "summary": "私立幼稚園を利用する場合は、1号認定が必要です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240110140144.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "小規模保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。品川区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "申請要件（資格）\n1. 保育認定を受けること\n2. 児童の年齢が、生後57日以降、3歳に達した年度(2歳児クラス)の年度末までであること\n\n※家庭的保育事業、小規模保育事業では、運営上、特別な配慮が必要なお子さんの保育ができない場合があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM78",
+      "name": "障がい児保育",
+      "shortName": "障がい児保育（保育園）",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "保護者が就労している等の理由で保育を必要とする障害児等",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20220920192202.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "乳幼児ショートステイ",
+      "summary": "お子さんを養育する方が加療や出産入院、出張等の不在時に、お子さんを宿泊にて一時的にお預かりします。",
+      "targetPersons": "品川区在住の生後5日 (体重2500グラム以上) から1歳未満のお子さん",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/shortstayforinfant.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "産後の家事・育児支援のヘルパー等の利用助成\n多胎児家庭の家事・育児支援のヘルパー等の利用助成",
+      "summary": "生後1歳未満（多胎児家庭は妊娠中から3歳未満）の乳幼児を養育している家庭を対象に、心と体のケアに対応できる家事・育児支援ヘルパー（区と提携）を利用された場合、サービス利用費の一部を助成します。",
+      "targetPersons": "・生後1歳未満（多胎児家庭は妊娠中から3歳未満）の乳幼児を養育している方\n・品川区に住民票のある方\n・品川区と提携している事業者から支援サービスを受け、利用料をお支払いした方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/hpg000027978.html,https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-kateisoudan/20210312164557.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "産婦歯科健康診査（ママのための歯科健康診査）",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "出産後1年以内",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-dukuri/kenkou-dukuri-hatokuchi/20221219162441.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "幼児教育の無償化について（認可外保育施設・認証保育所等）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、品川区が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "3～5歳児のお子さん（4月1日時点の年齢）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/20191030091530.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病後児保育",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後6カ月～就学前まで",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-ichizi/hpg000033507.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認定こども園一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、品川区内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-ninnteikodomoen/hpg000029605.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "妊婦子宮頸がん検診",
+      "summary": "妊婦子宮頸がん検診受診票は、都内契約医療機関で子宮頸がん検査を受ける際、原則として1回目にご利用するもので、妊娠期間中に1回分の妊婦子宮頸がん検査費用を助成します。",
+      "targetPersons": "「妊娠届」を提出された方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-service/hpg000000783.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+2+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "認定こども園一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、品川区内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": "次の要件をすべて満たしている方。\n1. 品川区に居住していること。\n2. 2年保育の年齢に達していること。\n3. 原則、保護者が徒歩で送迎できること。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-ninnteikodomoen/hpg000029605.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ヤングケアラー訪問支援事業",
+      "summary": "ヤングケアラーがいる世帯に対し、その世帯を支援する者（訪問支援者）が訪問し、家事支援または育児支援等を行う品川区ヤングケアラー訪問家事育児等支援事業を実施することにより、ヤングケアラーの負担を軽減する。",
+      "targetPersons": "◇対象世帯\n区内に居住し、次に掲げる各号のいずれかに該当する家庭\n（１）ヤングケアラーがいる世帯であり、支援が必要と区長が認める家庭\n（２）前号に掲げるもののほか、区長が特に支援の必要があると認めた家庭\n\n定義\n「ヤングケアラー」とは、次に掲げる各号のいずれかに該当する子どもおよび若者のことをいう。\n（１）本来大人が担うと想定されている家事、育児を日常的に担う子ども（満 18歳に達する日の属する年度の末日までにある者を含む。）\n（２）病気や障害がある家族のために、家事や家族の世話および介護等のサポートを日常的に担っている概ね 30 代までの若者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-siryo/kuseizyoho-siryo-reiki/kuseizyoho-siryo-reiki-yoko/kuseizyoho-siryo-reiki-yoko-kodomomirai/YChoumon[1].pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（Ｂ型肝炎）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種（インフルエンザ）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち品川区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "生後6カ月から高校3年生まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#任意予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+3+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。",
+      "targetPersons": "保育認定申請ができる方の要件（「保育を必要とする事由」）\n保育認定申請ができるのは、保護者が次のいずれかの、児童の「保育を必要とする事由」に該当する場合です\n（児童に集団生活を経験させたいという理由での申請はできません）。\nまた、児童の出生前に保育認定申請はできません。\n\n1. 就労　月12日以上かつ1日あたり4時間以上の就労を目安として常態とすること\n2. 妊娠／出産　妊娠中または出産後（入園希望月前後2カ月の間で出産予定がある、または出産した場合）\n3. 疾病／障害　疾病もしくは負傷、または精神や身体に障害があること\n4. 介護／看護／付添　同居の親族（申請児童の祖父母や兄弟姉妹等）を介護または看護していること\n5. 災害復旧　災害の復旧にあたっていること\n6. 求職活動　継続的に求職活動（起業準備を含む）をしていること\n7. 就学　学校教育法に規定された学校等に通学、または公共の職業訓練校での職業訓練等を受けていること\n8. その他　児童虐待の恐れがある、または配偶者からの暴力により保育が困難であること（公的機関にご相談している方）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/20240110140144.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+3+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "事業所内保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。品川区には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "※現在、品川区では、事業所内保育事業は実施していません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ロタウイルス\t）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2カ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+4+UM55",
+      "name": "任意予防接種",
+      "shortName": "任意予防接種（男性のHPV（ヒトパピローマウイルス感染症）ワクチン）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち品川区では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "小学6年生から高校1年生相当の男子",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/yobousessyu/20240313180658.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+4+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "居宅訪問型保育事業",
+      "summary": "「居宅訪問型保育」は、平成27年度施行の「子ども・子育て支援新制度」による「地域型保育」事業の一つです。障害や疾病等の理由により、集団保育が不可能な児童について、保育士等が訪問して居宅にて保育を実施します。利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "◇申請要件（資格）\n1. 品川区在住の児童で、保育認定を受けていること\n2. 未就学児であること\n3. 集団保育が困難であると認められること\n\n※3については、品川区特別支援保育審査会において判断します\n\n◇対象児童\n・肢体不自由児、重症心身障害児等\n・口鼻腔吸引、経管栄養（経鼻栄養、胃ろう、腸ろう）、酸素等の医療的ケアを必要とする児童\n・療病等で認可保育園等に入園できない児童\n・事前審査において預かりが可能と判断された児童\n\n※上記医療的ケア以外の児童（例：気管切開、人工呼吸器など）については、事業者までお問い合わせください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-hoyou/kodomo-hoyou-hoikuen/hpg000027060.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（BCG）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後5カ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（Hib（ヒブ）　追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（小児用肺炎球菌　追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（四種混合・五種混合　1期追加）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+6000020131091+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期予防接種（ＭＲ（麻しん・風しん）　1期）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/kodomo-ninnshinn-yobousessyu/hpg000033448.html#定期予防接種",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

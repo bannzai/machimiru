@@ -1,0 +1,1356 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132101",
+  "programs": [
+    {
+      "psid": "psid3.0+3000020132101+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届出書・母子健康手帳",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "小金井市に住民登録のある妊婦で、 医師・助産師の妊娠診断を受けた方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/ninsintodoke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "エンジェル教室",
+      "summary": "小金井市こども家庭センター“ゆりかご”では、「エンジェル教室」を開催しています。\nエンジェル教室は、概ね5ヶ月のお子さんと保護者の方を対象にした2日間コースの親子教室になります。",
+      "targetPersons": "概ね5ヶ月のお子さんと保護者の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://fukushi.unchusha.com/yurikago/otayori/202406angel.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "ブックスタート",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "３～４か月",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.library.koganei.tokyo.jp/kids/tabid192.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "こがねいっこ健康ナビ",
+      "summary": "小金井市では、妊娠期から乳幼児期に必要な母子保健情報や、予防接種などの情報提供を行うホームページ、「こがねいっこ健康ナビ」を開設しております。\nまた、希望者は、妊娠週数やお子さんの年齢に合わせた健康・食育情報の電子メール受信や、予防接種のスケジュールを組む機能の利用ができます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/kenkounabi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n小金井市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、小金井市サイトや市報などでお知らせしています。）",
+      "targetPersons": "市内在住の18歳未満の児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/jidokan/jidoukan2/jidoukanriyou/jidoukan2023.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "出産・子育て応援事業",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "こども家庭センター",
+      "summary": "小金井市では市内のこども家庭センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/shisetsu/kodomokateisiensenta/kodomosien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM112",
+      "name": "子育て広場",
+      "shortName": "児童館「子育てひろば」",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、小金井市サイトや市報などでお知らせしています。）",
+      "targetPersons": "乳幼児と保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/koganei.lg.jp/kosodatekyoiku/shisetsu/jidokan/jidoukan2/kosodatehiroba/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM114",
+      "name": "小児科救急",
+      "shortName": "休日診療・救急医療機関",
+      "summary": "小金井市では、市内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。\n武蔵野赤十字病院 （武蔵野市境南町1丁目26番1号）24時間体制で小児救急医療に対応しています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/431/kyujitusinryokyukyu/kyuujitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子育てに関する相談窓口一覧",
+      "summary": "小金井市内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatesien/nobinobikoganeikko18.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM119",
+      "name": "小金井市の子育てに関する相談",
+      "shortName": "子育て総合相談",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助制度について",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "対象となる世帯\n　市内に住所を有し、市立及び国公立の小中学校に在籍する児童生徒がいる世帯で、次に掲げる（1）から（9）の要件のうちいずれか1つに該当する世帯。\n\n（1）　世帯全員の年間（前年）の総収入額が基準以下である\n\n世帯収入の例\n|世帯人数|家族構成の例|年間総収入（持家の場合）|年間総収入（賃貸の場合）|\n|2人|親（32歳）、子（8歳）|約272万円以下|約350万円以下|\n|3人|父（40歳）、母（35歳）、子（10歳）|約356万円以下|約434万円以下|\n|4人|父（43歳）、母（39歳）、子（14歳）、子（11歳）|約434万円以下|約513万円以下|\n|5人|父（40歳）、母（37歳）、子（13歳）、子（8歳）、子（5歳）|約468万円以下|約547万円以下|\n\n注記：上記の収入は、あくまでも目安です。年齢、世帯人数等により変わります。\n注記：世帯収入とは、家計を同じくする方（同居・別居を問いません）の収入額を合算した額です。\n注記：令和5年1月から令和5年12月の世帯全員の収入合計で判定します。\n\n（2）　児童扶養手当を受給している（ひとり親世帯など）\n\n（3）　生活保護を受給している（令和5年度中に停止・廃止を受けた場合も含む）\n\n（4）　市民税の非課税または減免を保護者全員が受けている\n\n（5）　固定資産税または個人事業税の減免を受けている\n\n（6）　国民年金掛金の減免を保護者全員が受けている\n\n（7）　国民健康保険料の減免または徴収猶予を保護者全員が受けている\n\n（8）　生活福祉資金の貸し付けを受けている\n\n（9）　日雇労働被保険者手帳を所持している",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/gakkou-kyouiku/syou-chuugakkou/syugakuenjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "赤ちゃん訪問",
+      "summary": "新生児（生後４か月まで）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談・子育てサービス等の紹介などを行います。",
+      "targetPersons": "小金井市に住民登録があり、生後120日までの乳児のいる世帯",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "新生児訪問（赤ちゃん訪問）",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭に専門職が訪問し、赤ちゃんの体重測定をしたり、産婦さんやその家族の不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "対象\n小金井市に住民登録があり、生後120日までの乳児のいる世帯",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（日帰り型・宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "以下の全てにあてはまる方\n・利用時に小金井市に住民登録のある方\n・1歳未満の乳児とその母\n・授乳、育児についてお困りの方\n・発熱等の感染症の恐れや医療的処置の必要がない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sanngokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "小金井市国民健康保険被保険者が出産したとき",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kurashi/427/hokenkyuuhu/D030501020201125.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "出産費貸付制度",
+      "summary": "出産予定日前に出産費用の支払いが必要な方を対象に、出産育児一時金8割に相当する額を限度として出産費用の貸し付けを無利子で行います。",
+      "targetPersons": "小金井市国民健康保険被保険者が出産したとき",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kurashi/427/hokenkyuuhu/D030501020201125.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "子どもの医療費助成（乳幼児医療費助成・義務教育就学児医療費助成）制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割の全部または一部を助成しています。",
+      "targetPersons": "0歳から15歳（中学3年生）までの子ども",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/N84/iryohi/kodomo_iryohi/iryo110.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM2366",
+      "name": "高等学校卒業程度認定試験合格支援事業給付金",
+      "shortName": "ひとり親家庭高等学校卒業程度認定試験合格支援給付金",
+      "summary": "ひとり親家庭の就職や転職の可能性を広げ、自立につなげていくため、ひとり親家庭の親またはお子さんが高卒認定試験合格のための講座（通信講座を含む）を受け、これを修了した時および合格したときに受講費用の一部を支給します。",
+      "targetPersons": "ひとり親家庭の親及びひとり親家庭の20歳未満の児童で、次のすべての要件を満たす方\n・児童扶養手当を受給しているか、または児童扶養手当の支給要件と同等の所得水準の方\n・高等学校を卒業していない、または大学入学資格を取得していない方\n・当該講座の受講が就業のため必要と認められる方\n・過去に本給付金の支給を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/434/kosodatesien/nobinobikoganeikko18.files/2024nobinobi12.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "施設等利用給付（無償化）の認定手続き",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "幼児教育・保育の無償化の対象となるためには、子ども・子育て支援法に規定される施設等利用給付認定を受ける必要があります。\n　認定区分は1号認定、2号認定、3号認定の3種類があり、2号認定及び3号認定の認定に当たっては保育の必要性の証明書類の提出が必要となります。詳しくは、下記によりご自身の認定区分等をご確認ください。\n　なお、対象児童が既に認可保育所、認定こども園、小規模保育事業、家庭的保育事業、事業所内保育事業をご利用の場合、新たな認定の申請は不要です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukanintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "小金井市の幼児教育・保育の無償化（施設等利用給付）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "認可保育所\n概要\n|施設||クラス|対象世帯|無償化||\n|||||国制度|都制度|\n|認可保育所|認可保育所、認定こども園（保育部分）|0ー2歳|課税世帯|対象外（通常どおり保育料が発生）|保育料について、第2子以降は保育料が0円となる|\n||||非課税世帯|保育料が0円となる|無|\n|||3ー5歳|全世帯|保育料が0円となる|無|\n||認可保育所\n（主食費・副食費）|3ー5歳|全世帯|主食費（月額3,000円）副食費（月額4,500円）を上限に小金井市の独自補助を行う。|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "小金井市の独自の補助(給食費・副食費)",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、小金井市独自に利用料の助成を行っています。",
+      "targetPersons": "認可保育所\n（主食費・副食費）\t3ー5歳\t全世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "小金井市の幼児教育・保育の無償化（施設等利用給付）",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "概要\n|施設||クラス|対象世帯|無償化||\n|||||国制度（無償化）|都制度|\n|認可外保育|認可外保育施設|0ー2歳|課税世帯|無|きょうだい数に応じて給付上限上乗：月額40,000円から67,000円\n（注記2）|\n||||非課税世帯|給付上限月額42,000円\n（注記1）|給付上限上乗：月額25,000円\n（注記2）|\n|||3ー5歳|全世帯|給付上限月額37,000円\n（注記1）|給付上限上乗：月額20,000円\n（注記2）|\n|他|一時預かり事業、病児保育事業、ファミリーサポートセンター事業|0ー2歳|非課税世帯|給付上限月額42,000円\n（注記1）|無|\n|||3ー5歳|全世帯|給付上限月額37,000円\n（注記1）|無|\n\n注記1：施設等利用給付の認定（保育の必要性の認定）を受けた子どもの利用に限る。\n注記2：東京都の認可外保育施設指導監督基準を満たしていない施設の利用は対象外",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/N84/kakusyuteate/jidoteate/jidouteateseidogaiyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "父母の離婚等により、父又は母と生計を同じくしていない児童を養育しているひとり親家庭等",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/N84/kakusyuteate/zidouhuyouteate/jidouhuyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "ひとり親家庭等の児童と母（又は父、養育者）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/N84/iryohi/maruoya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "母子及び父子福祉資金・女性福祉資金貸付事業",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上住んでいて20歳未満の子を扶養している母子家庭の母または父子家庭の父",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatekaigi/fukushishikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "養育医療の給付",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "次の（1）または（2）に該当する新生児\n　（1）出生時体重2,000グラム以下の方\n　（2）生活力が特に薄弱であって、次のいずれかの症状がある方\n　　ア　一般状況（運動不安・けいれん・運動異常）\n　　イ　体温が摂氏34度以下\n　　ウ　呼吸器、循環器（強度のチアノーゼが持続、呼吸数が毎分30以下等）\n　　エ　消化器（生後24時間以上排便がない、48時間以上嘔吐が持続等）\n　　オ　黄だん（生後数時間以内に出現、異常に強い場合等）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/iryohijyosei/youikuiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。\nあわせて、母子健康手帳に出生届出済証明を行います。",
+      "targetPersons": "お子さま",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kurashi/410/zyumininkankoseki/412/syussyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "両親学級",
+      "summary": "妊婦さんとそのご家族が安心して赤ちゃんを迎えられるように、小金井市では助産師、保健師、管理栄養士、歯科衛生士などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "初めて出産する妊婦さんとパートナーの方\n（妊婦さん・パートナーの方が同日に参加する場合に限り、2人で参加可能です。別々の日程でのご参加はできません。）\n\n注記：妊娠週数は、概ね16週から27週を目安にご参加ください。それ以外の週数でもご参加可能です。\n注記：令和4年度に1人しか参加できなかったため、参加していない方が1人で参加する場合は受付いたします。ただし、第2子以降の出産の場合は対象外です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/ryousin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "ファーストバースデーサポート事業",
+      "summary": "市内在住の1歳を迎えるお子さんがいるご家庭の子育てを応援するために、子育てアンケートを送付し、子育て支援の情報提供やご家庭の困りごと等相談支援を行います。アンケート返信のあった方を対象に、電子ギフトを配付しています。",
+      "targetPersons": "市内に住所を有する1歳に達する子ども（以下「1歳児」という。）を育てる世帯に属する者\n注記：事業開始年度が令和3年度のため、令和2年4月1日生まれ以降の1歳児の方が対象となります。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/D0506153943495.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日診療・救急医療機関",
+      "summary": "小金井市では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。\nなお、小児のお子さんの救急の時は、小児科救急当番医をご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/431/kyujitusinryokyukyu/kyuujitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM47",
+      "name": "小金井市の妊娠・出産に関する相談",
+      "shortName": "子育て総合相談",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "「3から4か月児・1歳6か月児・3歳児健康診査」",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3ら4か月児健康診査を実施しています。",
+      "targetPersons": "3から4か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "「6から7か月児・9から10か月児健康診査」",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6か月から７か月児及び9か月から10か月児を対象に医療機関にて乳幼児健康診査を実施しています。",
+      "targetPersons": "6から7か月児・９から10か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5009",
+      "name": "産婦健康診査の費用助成",
+      "shortName": "産婦健康診査の費用助成",
+      "summary": "産後の初期段階における母子に対する支援を強化し、妊娠期から子育て期にわたる切れ目のない支援を行うため、出産後間もない時期の産婦に対する健康診査費用を助成します。産婦健康診査は産後2週間、産後１か月など出産後間もない時期の産婦向けの健康診査で、母体の身体的機能の回復や授乳状況、精神状態の把握を行います。",
+      "targetPersons": "住民税非課税世帯または生活保護世帯の産婦・新生児\n（同じ世帯の全員が住民税非課税または生活保護受給の方）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/hokensidouhyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "生後50日以内の新生児で、検査受診日時点で小金井市に住所を有する方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/kenkosodan/bosihokenjigyo/shinnseijityoukaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "出産・子育て応援事業",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "不妊検査・不妊治療・不育症検査の助成制度",
+      "summary": "不育症とは、妊娠したものの流産・死産を2回以上繰り返すことをいいます。（東京都)では）検査により不育症のリスク因子を特定し、適切な治療及び出産につなげることができるよう、不育症検査に係る費用の一部を助成しています。",
+      "targetPersons": "東京都では、妊娠はするものの、2回以上の流産や死産、早期新生児死亡などを繰り返し、結果的に子供を持てないとされるいわゆる不育症について、リスク因子を特定し、適切な治療及び出産につなげるため、検査に係る費用の一部を助成します。\n平成31年4月1日以降に対象となる検査を開始した方が対象です。\n\n詳しくは東京都不育症検査助成事業の概要（外部サイト）; https://www.fukushihoken.metro.tokyo.lg.jp/kodomo/kosodate/josei/fuikushoukensa/gaiyou.htmlをご覧ください",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/N61/zyoseikyuuhu/funinntiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援事業",
+      "summary": "妊婦・子育て家庭が安心して出産・子育てができるよう、妊娠時から出産・子育てまで一貫した伴走型相談支援と経済的支援（妊娠時・出産時）を一体として実施する事業を行っています。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "子どもたち",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/452/houkagokodomo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険税の免除",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "国民健康保険に加入している、出産予定の方または出産した方",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kurashi/427/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。",
+      "targetPersons": "子どもとその保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatekaigi/kodomonoibasyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（精神通院）制度",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患のため、継続して通院治療を受けているかた",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/shogaishafukushi/iryohijosei/jiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "小金井市の独自の補助(給食費・副食費)",
+      "summary": "小金井市では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "認可保育所\n（主食費・副食費）\t3ー5歳\t全世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "「3から4か月児・1歳6か月児・3歳児健康診査」",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。小金井市では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。ことばや理解の様子を確認し、必要に応じて心理士等とこどもの成長発達について相談ができます。",
+      "targetPersons": "1歳6か月児、",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "「3から4か月児・1歳6か月児・3歳児健康診査」",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。小金井市では3歳児健康診査を実施しています。歯科健診や視力・聴覚・尿検査等を実施し、必要に応じ各種相談に応じています。こどもの成長発達や社会性について、心理士等と相談ができます。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/nyuuyoujikensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "予防接種事業",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/yobousesyujigyo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "予防接種事業",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち小金井市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/yobousesyujigyo/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "ファーストバースデーサポート事業",
+      "summary": "市内在住の1歳を迎えるお子さんがいるご家庭の子育てを応援するために、子育てアンケートを送付し、子育て支援の情報提供やご家庭の困りごと等相談支援を行います。アンケート返信のあった方を対象に、電子ギフトを配付しています。",
+      "targetPersons": "市内に住所を有する1歳に達する子ども（以下「1歳児」という。）を育てる世帯に属する者\n注記：事業開始年度が令和3年度のため、令和2年4月1日生まれ以降の1歳児の方が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/D0506153943495.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "母子家庭及び父子家庭自立支援教育訓練給付金",
+      "summary": "雇用保険による教育訓練給付の受給資格を持たない母子家庭の母が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "母子家庭の母または父子家庭の父であって、現に児童（20歳未満）を扶養し、次のすべての要件を満たす方\n　1 児童扶養手当を受給しているか、または児童扶養手当の支給要件と同等の所得水準の方\n　2 当該講座の受講が適職に就くために必要と認められる方\n 3 過去に給付金の支給を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatekaigi/ziritsushienkyu-fu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/ninpukensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "母子家庭及び父子家庭高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "母子家庭の母または父子家庭の父であって、現に児童（20歳未満）を扶養し、次のすべての要件を満たす方\n　1 児童扶養手当を受給しているか、または児童扶養手当の支給要件と同等の所得水準の方\n　2 修業期間が1年以上の養成機関において、対象資格の取得が見込まれる方\n（令和5年3月31日までに修業を開始する場合は、修業期間6月以上のカリキュラムを修業し、対象資格の取得が見込まれる方も含みます。）\n　3 就業または育児と修業の両立が困難な状況にあると認められる方\n　4 過去に訓練促進給付金の支給を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatekaigi/ziritsushienkyu-fu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "20歳未満で、法令により定められた程度の障害を有する児童を監護する父母又は養育者。おおむね以下に該当します。\n身体障害　おおむね身体障害者手帳1級から3級程度（下肢障害については4級の一部を含む）の疾患により長期にわたる安静を必要とする程度の状態にあるものなど\n知的障害　おおむね愛の手帳1度から3度程度\n精神障害　上記と同程度の障害（自閉スペクトラム症等により日常生活に著しい制限を受ける方等）\n重複障害　複数の障害がある場合は、個々の障害の程度が上記より軽度な場合でも該当となることがあります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/shogaishafukushi/teateshougai/tokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "精神又は身体に重度の障害を有するため、日常生活において常時の介護を必要とする状態にある在宅の20歳未満の方",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/shogaishafukushi/teateshougai/syougaiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "心身障害者福祉手当",
+      "summary": "20歳未満の障害のあるお子さんを対象に、手当を支給しています。",
+      "targetPersons": "２０歳未満で、児童育成手当の障害手当受給者を除く\n 身体障害者手帳1級・2級の方、\n 愛の手帳1度から3度の方、\n 脳性麻痺および進行性筋萎縮症の方。\n身体障害者手帳3級・4級の方、\n 愛の手帳4度の方。\n身体障害者手帳5級・6級の方。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/shogaishafukushi/teateshougai/sinsyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "助産院や東京都外の医療機関で妊婦健康診査を受けた方へ",
+      "summary": "小金井市にお住まいの妊婦さんが、里帰り出産などで小金井市の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "対象\n次の1から2の全てに該当すること\n1　小金井市に住民登録があるときに受診した妊婦健康診査\n2　日本国内の助産院や都外医療機関で受診した妊婦健康診査\n\n注記：全額自己負担した健診のみが助成対象です。 保険適用された医療費については対象外です。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/satogaeri.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "施設等利用給付（無償化）の認定手続きについて",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukanintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "令和6年度の保育施設等の入所申請について",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": "保育施設の利用を希望される方",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoiku-nyuusyo/4nyuusyo/nyuusyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM76",
+      "name": "延長保育",
+      "shortName": "保育料について",
+      "summary": "小金井市内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoiku-nyuusyo/riyoushahutangaku/1556.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "小金井市内在住の２歳～小学校６年生までの方で",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://fukushi.unchusha.com/yurikago/support_shortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM783",
+      "name": "トワイライトステイ（夜間養護等事業）",
+      "shortName": "トワイライトステイ事業",
+      "summary": "保護者が入院や通院、出張や残業などの理由で、平日の夜間に一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設でお預かりします。",
+      "targetPersons": "市内に住所を有する２歳から小学校６年生までの児童",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/shisei/seisakukeikaku/kosodate/kaigiroku/kodomokosodatekaigi/R5kokokaigiroku.files/20240318shiryou12.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM785",
+      "name": "産前産後ヘルパーの派遣",
+      "shortName": "育児支援ヘルパー",
+      "summary": "産前産後の体調不良などにより、家事や育児が困難なご家庭に、日常的な掃除・洗濯・食事の支度などの家事や、もく浴・おむつ交換・きょうだいのお世話などの育児を手伝うホームヘルパーを派遣します。",
+      "targetPersons": "小金井市在住で、出産前後に日中家事や育児などを手伝ってくれる人のいない方で、以下の表にあてはまる場合。\n\n利用期間等\n|単胎|産前|母子手帳交付から出産まで|20時間まで|\n|^|産後|産婦又は出生児の退院した日の翌日から4か月まで|40時間まで|\n|多胎|産前|母子手帳交付から出産まで|40時間まで|\n| ^|産後|産婦又は出生児の退院した日の翌日から1歳の誕生日まで|60時間まで|\n|^|産後|1歳の誕生日翌日から3歳の誕生日前日まで|40時間まで|\n\n注記：産前については、切迫早産等の安静を要する方が対象です。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/shisetsu/kodomokateisiensenta/ikujishienherupa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM792",
+      "name": "乳幼児の歯の健康診査",
+      "shortName": "乳幼児歯科相談室",
+      "summary": "乳歯が生えそろうこの時期は、むし歯が急増する時期でもあります。歯科健康診査を受けて、むし歯の予防と早期発見をめざしましょう。",
+      "targetPersons": "1歳から概ね2歳6か月児\n注記：転入者で年齢を超えている場合はご相談下さい。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/sikahokenjigyo/sikasoudansitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の国民年金保険料免除",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "国民年金第1号被保険者（自営業・自由業・学生・無職の方）",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kurashi/426/mennzyonouhuyuuyo/2019-03-27-2.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食教室",
+      "summary": "2回食(６～7か月児)、3回食(８～11か月児)、完了食(12か月～1歳3か月児)のお子さんとその保護者を対象に、離乳食のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "離乳食の始め方(1回食）につきましては、3‐4か月健診の中で行っています。\n2回食：概ね6か月から7か月児の保護者\n3回食：概ね8か月から11か月児の保護者\n完了食：概ね1歳から1歳3か月児の保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/shokuiku/eiyousoudansitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "こども家庭センター",
+      "summary": "小金井市の【こども家庭センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "0歳から18歳までの子ども（妊娠期も含む）と、その家庭",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/shisetsu/kodomokateisiensenta/kodomosien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用を助成しており、個別健診のご案内と市内委託医療機関の一覧表をお渡ししています。",
+      "targetPersons": "小金井市に住民登録のある妊婦（概ね妊娠16週から27週）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/ninnpukennkousinnsa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "幼稚園（新制度幼稚園及び新制度未移行幼稚園）",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "満3歳から小学校就学前までの子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM800",
+      "name": "授乳・おむつ替え施設（赤ちゃんの駅等）",
+      "shortName": "赤ちゃん休憩室",
+      "summary": "小金井市では、乳幼児を抱える子育て家庭が安心して外出できる環境づくりを進めるため、公共施設の「おむつ替え」や「授乳」ができる場所に「赤ちゃん休憩室」としてマークを掲示し解放しています。",
+      "targetPersons": "乳幼児連れの方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/434/kosodatesien/akachankyuukeishitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート事業",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "子育て家庭・妊婦の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/434/kosodatesien/ouenpasstokyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育料について",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、小金井市が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "保育料は、児童の保護者（父母）の住民税額（市区町村民税所得割額）の合算・認定を受けている保育時間（標準時間・短時間）により決定します。ただし、父母の課税状況（非課税世帯の場合等）によっては、同居の祖父母がいる場合、同一世帯かどうかに関わらず、住民税額（市区町村民税所得割額）を合算して決定します。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoiku-nyuusyo/riyoushahutangaku/1556.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "幼稚園の預かり保育事業",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費制度（精神通院医療）",
+      "summary": "精神疾患のため通院による継続的な治療を受ける場合の負担軽減を図る制度です。通常医療保険では医療費の3割が自己負担となりますが、自立支援医療費制度（精神通院医療）を併用することで、自己負担は原則1割に軽減されます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/shogaishafukushi/iryohijosei/jiritsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "緊急一時預かり保育\n保護者の傷病、災害、事故、出産、介護、葬儀等の理由により、緊急かつ一時的に保育を必要とする時\n\n定期利用保育及び非定型的一時預かり保育\n保護者が断続的又は短時間就労等により、週3日程度保育を必要とする時\n\n私的理由一時預かり保育\nその他、一時的に保育が必要となる時",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikuservice/itijihoiku/ichijihoikunogoannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "市立保育園一時保育定期利用",
+      "summary": "小金井保育園及びけやき保育園にて実施している一時保育定期利用の抽選について、次のとおり抽選を実施いたします。\n　また、一時保育の利用には事前に登録が必要です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/hoikuservice/itijihoiku/ichijihenkou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM841",
+      "name": "ひとり親家庭高等職業訓練促進資金貸付",
+      "shortName": "ひとり親家庭高等職業訓練促進資金貸付事業",
+      "summary": "高等職業訓練促進給付金を活用して、養成機関に修学し、就職に有利な資格の取得を目指すひとり親家庭の親に対し、入学準備金および就職準備金の貸し付けを行っています。",
+      "targetPersons": "母子家庭及び父子家庭高等職業訓練促進給付金を受給している方で、要件を満たす方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/434/kosodatesien/nobinobikoganeikko18.files/2024nobinobi12.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育事業",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "次の要件を満たしている児童\n・　原則として小金井市在住の小学校就学前までの児童\n・　病中又は病気の回復期にあって安静の確保に配慮する必要があるため、集団保育が困難な児童\n・　児童の保護者の勤務等の都合で家庭での保育が困難な児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikuservice/byoujibyougojihoiku/byougojihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "小金井市ファミリー・サポート・センター",
+      "summary": "小金井市のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、協力会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "依頼会員\n小金井市内在住で、原則として生後57日以上小学校在学までの児童と同居している保護者の方\n・依頼会員は、説明会参加後、会員登録をすることができます。\n\n注記：協力会員と依頼会員は、兼ねることができます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/shisetsu/famisapo/familysupport.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "特定教育・保育施設及び特定地域型保育事業一覧（令和6年3月26日時点）",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、小金井市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikushisetsu/hoikushisetuitiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM9",
+      "name": "自治体独自の妊産婦向け健診",
+      "shortName": "産婦健康診査（住民税非課税世帯・生活保護世帯）",
+      "summary": "小金井市では、妊婦健康診査を14回まで無料で受けられる受診票に加えて、超音波検査を５回まで無料で受けられる受診券をお渡ししています。",
+      "targetPersons": "住民税非課税世帯または生活保護世帯の産婦・新生児\n（同じ世帯の全員が住民税非課税または生活保護受給の方）",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/hokensidouhyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "小金井市認可外保育施設一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、小金井市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikushisetsu/ninkagai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭福祉員",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、小金井市が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikushisetsu/ninkagai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "小金井市内の幼稚園等一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、小金井市内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/yochien/youtien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "小金井市内の幼稚園等一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、小金井市内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/yochien/youtien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "カルガモ教室",
+      "summary": "カルガモ教室は、１０ケ月から１歳２ケ月までのお子さんと保護者を対象にしたプログラムです。 運動あそび・ふれあいあそびの時間や保護者同士の交流もあります。\nお父さんのご参加もお待ちしてます。",
+      "targetPersons": "１０ケ月から１歳２ケ月までのお子さんと保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://fukushi.unchusha.com/yurikago/otayori/20240925karugamo.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "イベント＆おはなしかい",
+      "summary": "読み聞かせや絵本を媒介としたコミュニケーションの大切さを啓発するために、０歳児から３歳児未満までのお子さんと保護者向けのおはなし会、３歳以上のお子さんを対象としたおはなし会を継続的に実施し、乳幼児の段階から図書に触れる機会の構築を図ります。",
+      "targetPersons": "0歳７ヶ月以上３歳未満のお子さんと保護者の方、３歳上のお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.library.koganei.tokyo.jp/kids/tabid168.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "出産・子育て応援事業",
+      "summary": "妊産婦の方（妊娠中または出産後2年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM112",
+      "name": "子育て広場",
+      "shortName": "学童保育所子育て支援事業「学童保育所子育てひろば」",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、小金井市サイトや市報などでお知らせしています。）",
+      "targetPersons": "乳幼児及び保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/shisetsu/jidokan/gakudou/kosodatehirobajisshi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM119",
+      "name": "小金井市の子育てに関する相談",
+      "shortName": "母子けんこう相談",
+      "summary": "こども家庭センター母子保健係では、保健師・管理栄養士・歯科衛生士がこども及び妊産婦等の健康に関するご相談をお受けしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（日帰り型・宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "以下の全てにあてはまる方\n・利用時に小金井市に住民登録のある方\n・1歳未満の乳児とその母\n・授乳、育児についてお困りの方\n・発熱等の感染症の恐れや医療的処置の必要がない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sanngokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "小金井市の幼児教育・保育の無償化（施設等利用給付）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。",
+      "targetPersons": "幼稚園（新制度幼稚園及び新制度未移行幼稚園）\n概要\n\n|施設||クラス|対象世帯|無償化|||\n|||||国制度|都制度|市制度|\n|幼稚園|新制度幼稚園、認定こども園（教育部分）|3ー5歳|全世帯|保育料が0円となる|所得・きょうだい数に応じて給付上限上乗：月額1,800円から6,200円|給付上限月額5,200円|\n||未移行幼稚園|3ー5歳|全世帯|給付上限月額25,700円|所得・きょうだい数に応じて給付上限上乗：月額1,800円から6,200円|給付上限月額5,200円|\n||国立幼稚園|3ー5歳|全世帯|給付上限月額8,700円|無|無|\n||預かり保育|3ー5歳|全世帯|給付上限月額11,300円（注記1）|無|無|\n\n注記1：施設等利用給付の認定（保育の必要性の認定）を受けた子どもの利用に限る。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "給付額の上乗せ",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、小金井市独自に利用料の助成を行っています。",
+      "targetPersons": "幼稚園（新制度幼稚園及び新制度未移行幼稚園）\n満3歳から小学校就学前までの子どもの利用料が無償化の対象となります。\n新制度に移行していない幼稚園をご利用の場合は、国制度（無償化）に加え給付額の上乗せがあります。\n幼稚園\t新制度幼稚園、認定こども園（教育部分）、未移行幼稚園、3ー5歳クラス、全世帯",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/N84/kakusyuteate/jidoteate/jidouteateseidogaiyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM47",
+      "name": "小金井市の妊娠・出産に関する相談",
+      "shortName": "母子けんこう相談",
+      "summary": "こども家庭センター母子保健係では、保健師・管理栄養士・歯科衛生士がこども及び妊産婦等の健康に関するご相談をお受けしています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "里帰り等新生児聴覚検査費用助成",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "生後50日以内の新生児で、検査受診日時点で小金井市に住所を有し、東京都外で検査した方。\n\n対象とならないもの\n国外での検査費用\n保険適用分の費用\n生後50日に達する日以降に実施した検査",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kenkofukuhsi/kenkosodan/bosihokenjigyo/shinnseijityoukaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "出産・子育て応援事業",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "出産・子育て応援事業",
+      "summary": "妊婦・子育て家庭が安心して出産・子育てができるよう、妊娠時から出産・子育てまで一貫した伴走型相談支援と経済的支援（妊娠時・出産時）を一体として実施する事業を行っています。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/433/D050401020518.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "多胎児家庭移動支援事業",
+      "summary": "令和4年度より、多胎児を養育する家庭の保護者が抱えている身体的及び精神的な負担の軽減を図るため、乳幼児を複数連れた移動に要する経費の一部を補助することを目的として、多胎児家庭移動支援事業を開始しました。\n\n注記：令和6年度（令和7年3月31日）までの事業です。",
+      "targetPersons": "小金井市に住民登録があり、満3歳未満の多胎児を養育する世帯（要面談）\n\n注記：多胎児家庭移動支援事業としての面談（訪問を含む）を受ける必要があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/tataijisien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+2+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育事業",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "次の要件を満たしている児童\n・　原則として小金井市在住の小学校就学前までの児童\n・　病中又は病気の回復期にあって安静の確保に配慮する必要があるため、集団保育が困難な児童\n・　児童の保護者の勤務等の都合で家庭での保育が困難な児童",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kosodatekyoiku/hoikuen/hoikuservice/byoujibyougojihoiku/byougojihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+3+UM119",
+      "name": "小金井市の子育てに関する相談",
+      "shortName": "親子あそびひろば「ゆりかご」",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+3+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（日帰り型・宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "以下の全てにあてはまる方\n・利用時に小金井市に住民登録のある方\n・1歳未満の乳児とその母\n・授乳、育児についてお困りの方\n・発熱等の感染症の恐れや医療的処置の必要がない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sanngokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+3+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "小金井市の幼児教育・保育の無償化（施設等利用給付）",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。",
+      "targetPersons": "認可外保育施設、一時預かり事業、病児保育事業、ファミリーサポートセンター事業\n\n概要\n|施設||クラス|対象世帯|無償化||\n|||||国制度（無償化）|都制度|\n|認可外保育|認可外保育施設|0ー2歳|課税世帯|無|きょうだい数に応じて給付上限上乗：月額40,000円から67,000円\n（注記2）|\n||||非課税世帯|給付上限月額42,000円\n（注記1）|給付上限上乗：月額25,000円\n（注記2）|\n|||3ー5歳|全世帯|給付上限月額37,000円\n（注記1）|給付上限上乗：月額20,000円\n（注記2）|\n|他|一時預かり事業、病児保育事業、ファミリーサポートセンター事業|0ー2歳|非課税世帯|給付上限月額42,000円\n（注記1）|無|\n|||3ー5歳|全世帯|給付上限月額37,000円\n（注記1）|無|\n\n注記1：施設等利用給付の認定（保育の必要性の認定）を受けた子どもの利用に限る。\n注記2：東京都の認可外保育施設指導監督基準を満たしていない施設の利用は対象外",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/hoikuen/youzikyouikuhoiku/musyoukagaiyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+3+UM47",
+      "name": "小金井市の妊娠・出産に関する相談",
+      "shortName": "親子あそびひろば「ゆりかご」",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+4+UM119",
+      "name": "小金井市の子育てに関する相談",
+      "shortName": "各児童館",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+4+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業（日帰り型・宿泊型）",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "以下の全てにあてはまる方\n・利用時に小金井市に住民登録のある方\n・1歳未満の乳児とその母\n・授乳、育児についてお困りの方\n・発熱等の感染症の恐れや医療的処置の必要がない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.koganei.lg.jp/smph/kenkofukuhsi/kenkosodan/bosihokenjigyo/sanngokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+3000020132101+4+UM47",
+      "name": "小金井市の妊娠・出産に関する相談",
+      "shortName": "各児童館でも相談受けています。",
+      "summary": "市や都では、子育て相談をお受けしています。ひとりで抱えずにご利用ください。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.koganei.lg.jp/kosodatekyoiku/shisetsu/kodomokateisiensenta/kosodatesoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

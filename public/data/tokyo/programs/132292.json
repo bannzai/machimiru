@@ -1,0 +1,1884 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132292",
+  "programs": [
+    {
+      "psid": "psid3.0+1000020132292+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届出書（母子健康手帳の交付）",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊娠された市民の方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/bositetyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "ふたごちゃんの会",
+      "summary": "双子や三つ子など多胎児の、妊娠中や育児の悩みを話し合い、仲間作りの場となるふたごちゃんの会を開催しています。保健師による相談コーナーもあります。",
+      "targetPersons": "令和6年4月1日時点で0歳から3歳のふたごちゃん・みつごちゃんとそのご両親\n注記：ご兄弟を連れてくる場合は、申込時に相談してください。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/hutago.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM105",
+      "name": "図書館の児童サービス（ブックスタートなど）",
+      "shortName": "絵本と子育て事業",
+      "summary": "ブックスタートとは、赤ちゃんとその保護者に絵本をプレゼントし、絵本を開く楽しい体験とともに、心ふれあうきっかけをつくる活動です。",
+      "targetPersons": "地域に暮らすすべての赤ちゃんと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/siseizyoho/sesaku_keikaku/sogo_kyouiku/shiryou/sougoukyouikukaigir4-3.files/r4-3_siryou2.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ひとり親家庭ホームヘルパーの派遣",
+      "summary": "義務教育修了前の児童がいるひとり親家庭で、日常生活に支障があるときに、ホームヘルパーの利用を支援します。",
+      "targetPersons": "以下のいずれかの事由に該当する、義務教育修了前の児童のいるひとり親家庭（詳細は利用案内（PDF：650KB）;https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/homehelper.files/annai.pdfをご覧ください）\n\nひとり親家庭となって2年以内の場合\n親の技能習得のための通学、就職活動の場合\n親の冠婚葬祭への出席または学校の公式行事への参加など、一時的に児童の見守りが必要な場合　\n親または児童が一時的傷病の場合\n児童が小学3年生以下で、親の就労などで児童の見守りが必要な場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/homehelper.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n西東京市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、西東京市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/zidokan_zidocenter/sisetu.html#cms88B6B",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "赤ちゃん訪問（新生児・産婦訪問）",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "赤ちゃんがお生まれになった全てのご家庭",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/syussan/shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子育てひろば（地域子育て支援拠点）",
+      "summary": "西東京市では市内の地域子育て支援センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "0歳から就学前",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/tiikikosodatesienkyoten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "子育てに関する各種コミュニティ・団体一覧",
+      "summary": "西東京市内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "おもに0歳から就学前までのお子さんと子育て中の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/kosodatehandbook.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば（地域子育て支援拠点）",
+      "summary": "西東京市では市内の地域子育て支援センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": "0歳から3歳",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/tiikikosodatesienkyoten.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM114",
+      "name": "小児科救急",
+      "shortName": "救急病院",
+      "summary": "西東京市では、休日や夜間に、救急の際の診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/iza/er.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM115",
+      "name": "子育てに関する相談窓口一覧",
+      "shortName": "子どもの相談窓口",
+      "summary": "西東京市内の子育てに関する相談窓口の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/nodoka/kosodate_madiguchi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM119",
+      "name": "西東京市の子育てに関する相談",
+      "shortName": "個別育児相談会",
+      "summary": "予約制の個別育児相談会です。身体測定や個別相談を実施しています。",
+      "targetPersons": "乳幼児とその保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/kobetuikuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助費",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "西東京市に住所があり、国公立小中学校に在籍する児童・生徒がいるご家庭で、以下のいずれかに該当する保護者の方\n\n・児童扶養手当を受給している\n・家族全員の市民税が非課税である\n・令和6年4月以降に生活保護が廃止または停止となった\n・東日本大震災・大規模災害等で被災し、避難している\n・令和6年4月以降に火災・水害等により著しい被害を受けた\n・令和5年1月から12月のご家族全員の収入額の合計が、教育長の定めた基準を下回る\n・失業、退職、休職等により家計が急変し就学が困難と認められ、令和6年の収入見込み額が、教育長の定めた基準を下回る\n※生活保護を受給中の方は申請方法が異なります。詳しくは学務課学務係までお問い合わせください。\n※認定基準となる需要額については、窓口や電話ではお答えしておりません。「令和6年度　就学援助費のお知らせ」に記載している目安となる金額を参考のうえ、ご希望の方は申請してください。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/syo_tyugakko/syugakuenzyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "赤ちゃん訪問（新生児・産婦訪問）",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "赤ちゃんがお生まれになった全てのご家庭",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/syussan/shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "赤ちゃん訪問（新生児・産婦訪問）",
+      "summary": "生後4か月を迎えるまでの乳児がいるご家庭には専門職のほか、研修を受けたスタッフが訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/syussan/shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "西東京市産後ケア事業",
+      "summary": "出産後、「自宅に帰っても手伝ってくれる人がいなくて不安」「お産と育児の疲れから体調が良くない」「授乳や育児について専門職に相談したい」等、産後にサポートが必要なお母さんと赤ちゃんのための事業です。\nショートステイ（宿泊）、デイサービス（日帰り）があります。",
+      "targetPersons": "申請日、利用日に西東京市に住民票があり、産後4か月になる前日までの産婦さんとその赤ちゃん\nかつ、以下に当てはまる方\n\n出産後の身体の回復や体調に不安がある\n育児に不安や負担感がある、不安な気持ちが強い\n母子ともに医療的な処置の必要のない方\n注記：発熱など感染症の疑いのある方や、利用時現在に病気やケガなどで治療が必要な方は利用できません。\n注記：早産の方は、産後4か月を過ぎても利用できる場合があります。健康課へご連絡ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/nishitokyosangokea.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM17",
+      "name": "自治体独自の不妊・不育症に関する助成",
+      "shortName": "不妊検査等助成事業",
+      "summary": "東京都では、子供を望む夫婦が早期に検査を受け、必要に応じて適切な治療を開始することができるよう、不妊検査及び薬物療法や人工授精等の一般不妊治療にかかる費用の一部を助成します。",
+      "targetPersons": "不妊・不育に悩む方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/funin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "西東京市国民健康保険に加入されている方が出産したとき、出産育児一時金が支給されます。妊娠12週（85日）以降であれば、死産・流産でも支給されます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/kokuho/kyufu/syussannikuziichizi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM20",
+      "name": "出産費貸付制度",
+      "shortName": "出産費資金貸付制度",
+      "summary": "出産予定日前に出産費用の支払いが必要な方を対象に、出産育児一時金8割に相当する額を限度として出産費用の貸し付けを無利子で行います。",
+      "targetPersons": "（1）一時金の支給が見込まれる出産予定日まで1か月以内の方。\n（2）一時金の支給が見込まれる妊娠4か月以上の方で、その出産に要する費用の請求を医療機関等から受け、または支払った方。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/kokuho/kyufu/syussannkasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分2割を助成しています。",
+      "targetPersons": "市内に住む義務教育就学前（6歳到達後最初の年度末まで）で、健康保険に加入している子供を養育している方\n次の場合は、この制度を利用できません\n生活保護を受けている方\n児童福祉施設等に「措置」により入所している方\nひとり親医療証や障害者医療費助成受給者証をお持ちの方で、自己負担のない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/kodomonoiryouhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "保育の必要性があり、無償化の対象となる認可外保育所や保育サービスを利用する3歳児クラスから5歳児クラスまでの子どもと、0歳児クラスから2歳児クラスの住民税非課税世帯の子ども",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/mushouka/709910nishitokyocity201907271.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/mushokasogo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設入所児童保護者助成金",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、西東京市独自に利用料の助成を行っています。",
+      "targetPersons": "1.東京都の補助事業の対象となっている認可外保育施設（認証保育所、企業主導型保育事業実施施設及び「認可外保育施設指導監督基準を満たす旨の証明書」が交付されている定期的利用保育事業実施施設）と対象月に月ぎめで保育を利用する契約を締結している子どもがいる方　※一時保育は対象外\n2.西東京市内に居住し、対象期間に上記1に規定する子どもと同居している方\n3.保育料を完納している方\n※　上記1に該当する子どもが、認可保育所、地域型保育事業又は認定こども園（支給認定2号・3号を受けている者）を利用している方は対象外\n※　「認可外保育施設指導監督基準を満たす旨の証明書」の交付については、各施設に確認をしてください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hogosyazyoseikin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "西東京市内の認可外保育施設",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、認証保育所、企業主導型保育、ベビーホテル、ベビーシッター、事業所内や院内の託児室、その他、認可外保育施設として都道府県等に届出を行ったものを指します。\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/ninkagaishisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/jite0104.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "下記の支給要件のいずれかの状態にある18歳になった最初の3月31日まで（一定の障害がある場合は20歳未満）の児童を養育する父または母、もしくは父母に代わって養育している方（以下、養育者という。）\n\n支給要件\n1.父母が離婚した児童\n2.父または母が死亡した児童\n3.父または母が重度の障害を有する児童\n4.父または母が生死不明である児童\n5.父または母に1年以上遺棄されている児童\n6.父または母が保護命令を受けた児童（母または父の申立てにより発せられたものに限る。）\n7.父または母が法令により1年以上拘禁されている児童\n8.婚姻によらず出生した児童（父または母の扶養なし。）\n\n支給制限\n下記の状態にある場合は手当を受給できません。\n\n1.児童が里親に委託されていたり、児童福祉施設等に入所したりしている場合\n2.請求者が父：児童が母と生計を同じくしている場合\n請求者が母または養育者：児童が父と生計を同じくしている場合\n3.請求者が父：児童が父の配偶者（事実上の婚姻関係を含む。）に養育されている場合\n請求者が母または養育者：児童が母の配偶者（事実上の婚姻関係を含む。）に養育されている場合\n4.請求者または児童が日本に住所を有しない場合\n※ 「事実上の婚姻関係」とは、異性と同居している状態をいいますが、住民票が同住所にある場合や定期的な訪問、生活費の授受が行われている場合を含みます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/jidofuyoteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "父母の離婚、父又は母の死亡・障害・生死不明・1年以上の遺棄・保護命令・1年以上の拘禁、未婚（父の扶養なし）でひとり親家庭等の状態にあり、18歳に達する日以後の最初の3月31日まで（政令の定める程度の障害の状態にある場合は20歳未満）の児童を養育する方及び要件児童。\n\n次の場合は、この制度を利用できません\n健康保険未加入の方\n生活保護を受けている方\n子供医療費助成制度受給中の方。心身障害者医療助成制度受給中の方\n児童が里親に委託されていたり、児童福祉施設等に入所している場合\n児童が父および母と生計を同じくしている場合\n児童が父および父の配偶者または母および母の配偶者と生計を同じくしている場合\n事実婚状態にある場合（住民登録地同一の場合含む。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/45196320160104155022416.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都母子福祉資金・父子福祉資金の貸付",
+      "summary": "母子・父子家庭や寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上お住まいの20歳未満の子等を扶養している母子家庭の母又は父子家庭の父等を対象に、経済的自立を目的とした資金（修学、技能習得、転宅等資金）の貸付けをいたします。貸付けが自立につながると判断され、返済の計画をたてることができる方が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/sikinkasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "養育医療（未熟児医療）",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "次の条件にすべて該当する方\n\n西東京市に住民登録のある方\n生まれたときの体重が2,000グラム以下、又は生活力が特に弱く、指定養育医療機関に入院している方\n医師が入院養育を必要と認めた方\n満1歳未満の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/youikuiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "お子さまの父または母",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/todokede/koseki/syusyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "ファミリー学級",
+      "summary": "西東京市では初めてママ・パパになる方を対象に、産科医師、歯科医師、保健師、栄養士、助産師、歯科衛生士、心理士、保育士などによる妊娠、出産、育児、栄養などに関する講義を開いています。ママ・パパ同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "西東京市在住で初めてママ・パパになる方\n各コースの2日間参加できる方\n注記:西東京市に住民票がない方は、申込前にご相談ください。\n注記:2日間ともパートナーとの参加が可能です。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/familyclass.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM33",
+      "name": "自治体独自の妊娠・出産に関する教室・講習会",
+      "shortName": "1歳児講座「幼児食と歯みがきレッスン」",
+      "summary": "西東京市では、初めてお母さん・お父さんになられる方を対象に、1歳児講座「幼児食と歯みがきレッスン」を開催しています。",
+      "targetPersons": "おおむね1歳から1歳3か月のお子さんとその保護者の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/1saiji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM34",
+      "name": "自治体独自の妊娠・出産に関するサポート",
+      "shortName": "たまご面接（妊婦面接）",
+      "summary": "西東京市では、安心して出産・育児を迎えることができるよう、すべての妊婦の方を対象に保健師や助産師が「たまご面接（妊婦面接）」を実施しています。",
+      "targetPersons": "西東京市に住民票があるご妊娠中の方\n（転入されたご妊娠中の方も含む）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/tamagomennsetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM40",
+      "name": "助産制度",
+      "shortName": "入院助産",
+      "summary": "経済的な理由で、病院や助産所での出産が困難な妊産婦の方を対象に、西東京市の指定の助産施設で出産する際の費用を助成しています。\n事前に申請が必要です。",
+      "targetPersons": "西東京市に住居を有し、保健上必要があるにもかかわらず、経済的理由により入院助産を受けることができないと福祉事務所長が認めた妊産婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kenko_hukusi/seikatuenzyo/201504010004.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "固定制休日診療所",
+      "summary": "西東京市では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/iza/kyujitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM47",
+      "name": "西東京市の妊娠・出産に関する相談",
+      "shortName": "妊娠出産・子育てコンシェルジュ「いこいこ」",
+      "summary": "妊娠期から出産、子育て期までのご相談をお受けします。妊娠や出産は、新しい家族が増える喜びであるとともに、新しい生活になるという変化から、不安や戸惑いを感じることもあると思います。「いこいこ」は、これからの毎日を楽しみながら、豊かな妊娠期から子育て期を過ごすことができるよう、サポートします。",
+      "targetPersons": "西東京市にお住まいのご妊娠中の方やそのご家族、また就学前の児（主に0歳から3歳）を育てる保護者の方",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/ikoiko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3から4か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3か月から4か月児健康診査を実施しています。",
+      "targetPersons": "おおむね生後3か月半から4か月半の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/nyuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6から7か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（6か月から7か月児）を実施しています。",
+      "targetPersons": "市内在住で生後6か月から7か月の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/6-9mhealthcheck.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "受診日現在市内に住民登録があり、生後50日以内に検査を受ける方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/shinseijityoukakukensa.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5012",
+      "name": "不育症検査費用の助成",
+      "shortName": "不育症検査助成事業",
+      "summary": "東京都では、妊娠はするものの、2回以上の流産や死産等を繰り返し、結果的に子供を持てないとされる、いわゆる不育症について、リスク因子を特定し、適切な治療及び出産につなげるため、検査にかかる費用の一部を助成しています。",
+      "targetPersons": "不妊・不育に悩む方",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/funin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "西東京市の出産・子育て応援ギフト",
+      "summary": "西東京市では、妊娠期から出産・子育てまで切れ目のない支援をするため、出産子育て応援事業を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/syussankosodateouen-kunijigyou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子供教室事業（校庭・体育館開放含む）",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "児童・生徒等および保護者が付き添う幼児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/enjoy/syogaigakusyu/shisetukaihou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "国民健康保険料の産前産後免除制度",
+      "summary": "国民健康保険の出産する被保険者に係る産前産後期間相当分（４ヶ月分）の均等割保険料と所得割保険料が免除されます。",
+      "targetPersons": "出産日（出産予定日）が令和5年11月1日以降の国民健康保険被保険者\n※妊娠85日以上の出産が対象です。\n※出産には、死産、流産、早産及び人工妊娠中絶も含みます。\n※出産予定日の6か月前から届出ができます。出産後の届出も可能です。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/kurasi/kokuho_sanzensangomenjo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5036",
+      "name": "こども食堂",
+      "shortName": "子ども食堂",
+      "summary": "「こども食堂」とは、こどもが一人でも行ける無料または低額の食堂です。こども食堂は、生活に困窮する子育て世帯への支援だけでなく、虐待の防止のための見守りや、地域の交流、こどもへの多様な経験の提供など様々な役割を担っており、国としてもこの取組を支援しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/nodoka/72310920220330105233014.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療（育成医療）",
+      "summary": "自立支援医療制度とは、満18歳未満の児童で、身体に機能障害があり、手術等により確実な治療効果が期待できる方の医療費の一部を助成するものです。",
+      "targetPersons": "18歳未満の児童で、以下の疾病が手術等の治療によって改善が見込まれ、世帯の住民税額（所得割）が23万5千円未満である方。（ただし「重度かつ継続」の障害に該当する場合は、世帯の住民税額（所得割）が23万5千円以上でも対象となります。）\n\n肢体不自由\n視覚障害\n聴覚・平衡機能障害\n音声・言語・そしゃく機能障害\n心臓機能障害\n腎臓機能障害\n小腸機能障害\n肝臓機能障害\nその他の内臓障害\n免疫機能障害",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/ikuseiiryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "給食費（食材料費）の給付",
+      "summary": "西東京市では、一定の要件を満たしている世帯を対象に、保育所等で提供される給食等にかかる食材料費の一部（副食費）を免除しています。",
+      "targetPersons": "小学3年生以下から数えて、第3子以降に該当する子ども\n・低所得世帯（年収360万円未満相当）=保護者補助金1・2・3区分にあたる世帯の方（保護者負担軽減事業費補助金;https://www.city.nishitokyo.lg.jp/kosodate/yotien/hozyokin.htmlのページ末尾の「補助金対象基準、交付額一覧」をご覧ください。）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/kyuhunintei.html#cms46EBC",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。西東京市では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月から2歳未満の方（2歳になる誕生日の前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/ichirokukenshin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。西東京市では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "満3歳から4歳未満の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/3sai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの予防接種のご案内",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "下記の「定期予防接種一覧表」「定期予防接種対象年齢表」をご確認ください。\n\n定期予防接種一覧表・定期予防接種対象年齢表（PDF：195KB）;https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/kodomoyobouseshu.files/6.4.1yobousessyuitirannhyou.pdf",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/kodomoyobouseshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM55",
+      "name": "任意予防接種",
+      "shortName": "子宮頸がん任意予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち西東京市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "基準日（令和4年4月1日）時点で西東京市に住民登録があり、以下の全てに該当する方\n\n1　平成9年4月2日生まれから平成17年4月1日生まれの女子\n2　高校1年生相当までに子宮頸がん予防ワクチンの定期接種（無料）を3回完了していない方\n3　高校2年生相当の年齢以降、令和4年3月31日までに国内の医療機関で子宮頸がん任意予防接種（サーバリックス（2価）、ガーダシル（4価）及びシルガード9（9価））を自費で受けた方\n※令和4年3月31日までにシルガード9（9価）の1回目の接種を受けた方で、令和4年4月1日から令和5年3月31日までに残りの接種を自費で受けた方は、令和4年4月1日以降の接種分も償還払いの対象となります。\n4　この償還払い制度と同種の助成を西東京市以外の自治体から受けていない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/shikyuukeigan_yobousesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM576",
+      "name": "児童遊園",
+      "shortName": "えのき児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n西東京市の児童遊園の一覧は、西東京市サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/sisetu/koen_ryokuti/enokijidou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "養育費確保サポート",
+      "summary": "養育費は、子どもが経済的・社会的に自立するまでの生活や教育に必要な費用であり、子どもの成長を支える大切なものです。\n子どもの生活を保障するのは親としての責務であり、養育費が確実に受け取れるよう口約束だけではなくきちんと取り決めを交わすことが重要です。\n西東京市では、継続した養育費の履行確保を図るため、養育費の取り決めに関する費用の一部を補助します。",
+      "targetPersons": "次の要件を全て満たす方\n・西東京市内に住んでいる\n・離婚を検討中またはひとり親家庭である\n・養育費の取り決めに係る20歳未満の子を現に養育している\n・過去に同内容の補助を受けていない",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/youikuhikakuhosienn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "教育訓練給付金",
+      "summary": "ひとり親家庭の母または父が、就職やキャリアアップのために指定された教育訓練講座を受講し、修了した場合、受講に要した費用の一部が支給されます。\n※受講開始前に必ず事前相談を受けてください。",
+      "targetPersons": "お子さんの年齢は20歳までです。\n\n対象となるのは\n\n・児童扶養手当を受給しているか同等の所得水準の方で過去にこの給付金を受給したことがない方\n・就業経験、技能又は資格の取得状況、労働市場の状況等から判断して、教育訓練講座を受講することが適職に就くために必要であると認められる方\n\nです。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/kyouikukunrenkyuuhukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "母子保健法に基づき、妊娠期間中に受診していただく妊婦健康診査を実施しています。\n西東京市では、都内委託医療機関で受診した妊婦健康診査費用の一部を助成する「妊婦健康診査受診票（14回分）」「妊婦超音波検査受診票（4回分）」「妊婦子宮頸がん検診受診票（1回分）」を母子健康手帳交付時に交付しています。",
+      "targetPersons": "受診日現在、市内に住民登録のある妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/ninpukensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "高等職業訓練促進給付金",
+      "summary": "ひとり親家庭の母または父が、就業に結びつきやすい対象資格（看護師や介護福祉士など）を取得するため1年以上（令和3年4月1日から令和4年3月31日までに修業を開始する場合には6月以上）、養成機関で修業する場合に、修業期間中の生活の負担軽減のために高等職業訓練促進給付金を、また修業終了時に高等職業訓練修了支援給付金を支給します。",
+      "targetPersons": "・児童扶養手当を受給しているか同等の所得水準の方で、修業年数が6か月（*1）以上の養成機関において資格取得が見込まれる方。\n・過去に当該給付金を受給したことがない方。\n\n対象資格\n看護師　准看護師　介護福祉士　保育士　理学療法士　作業療法士　保健師　助産師　理容師　美容師　歯科衛生士　社会福祉士　製菓衛生師　調理師\n\n対象年齢\nお子さんが20歳未満\n\n6か月以上で対象となる講座について\n（*1）雇用保険制度の一般教育訓練の指定講座（*2情報関係の講座に限る）若しくは特定一般教育訓練又は専門実践教育訓練の指定講座（外部リンク）;https://www.kyufu.mhlw.go.jp/kensaku/?ntで、就職に有利となる資格などを取得するため、6か月以上養成機関で修業する場合も、修業する期間に訓練促進給付金を、また修了後に修了支援給付金を支給します。\n\n*2情報関係の講座： Webクリエイター能力認定試験、Microsoft　Office　Specialist2010，2013，2016、CAD利用技術者試験、建築CAD検定、Photoshopクリエイター能力認定試験、Illustratorクリエイター能力認定試験、VBAエキスパート、Oracle認定資格・LPICなどでITSSレベル1の資格）\n\n詳しくはお問い合わせください。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/koutouginoukunren.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "対象者\n20歳未満の中・重度障害児（下記別表「政令別表第三」参照）を養育している方\n（おおむね身体障害者手帳1級から3級ならびに下肢障害4級の一部程度、愛の手帳1度から3度程度、およびこれらと同程度以上の内部障害または、精神障害、発達障害がある方。手帳がなくても申請できます。）\n\n政令別表第三（PDF：79KB）https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.files/seireibeppyou3.pdf\n\n支給制限\n下記の状態にある場合は手当を受給できません。\n\n申請者および対象児童が日本に住所を有しない場合\n児童が児童福祉施設等へ入所している場合\n児童が障害を事由とする公的年金を受けている場合\n\n所得制限\n申請者本人、配偶者及び扶養義務者の所得制限があります。限度額以上の時は、手当が支給停止となりますが、受給資格者としての認定を受けることができます。\n\n|扶養親族の数|申請者本人|配偶者<br>扶養義務者（注記1）|\n|:----|:----|:----|\n|0人|4,596,000円|6,287,000円|\n|1人|4,976,000円|6,536,000円|\n|2人|5,356,000円|6,749,000円|\n|3人|5,736,000円|6,962,000円|\n|4人目以降|1人増すごとに<br>380,000円を加算|1人増すごとに<br>213,000円を加算|\n|16歳から19歳未満の控除対象扶養親族<br>および特定扶養親族|1人につき<br>250,000円|\n|老人扶養|1人につき<br>100,000円|1人につき<br>60,000円（注記2）|\n|所得から控除できるもの|||\n|社会保険料控除|80,000円|<|\n|障害・勤労学生控除|270,000円|<|\n|特別障害控除|400,000円|<|\n|寡婦控除|270,000円|<|\n|ひとり親控除|350,000円|<|\n|雑損・医療費・配偶者特別<br>・小規模企業等掛金|控除相当額|<|\n\n注記1：扶養義務者とは、同居の父母・祖父母・子等の直系血族と兄弟姉妹（別世帯の方を含む。）を言います。\n注記2：配偶者等の老人扶養加算は、扶養親族が老人扶養のみのときは2人目からの加算となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当（国の制度）",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "支給対象者\n20歳未満の方で、身体又は精神に著しい重度の障害があり、日常生活において常に介護を必要とする状態にある方\n（おおむね、身体障害者手帳1・2級程度、愛の手帳1・2度程度の方。あるいは、これらと同等の疾病、精神障害の方。）\n\n※障害者手帳を取得していなくても申請することはできます。\n\n※受給するには、所定の診断書による審査で認定を受ける必要があります。\n\n支給制限\n次のいずれかに該当する場合は支給されません。\n（1）本人または配偶者・扶養義務者の所得が所得制限基準額を超えているとき（申請することはできますが、支給停止となります。）\n（2）施設等に入所しているとき（※）\n（3）障害を支給理由とする公的年金を受給しているとき\n※施設等とは、障害児入所施設、乳児院、児童養護施設、救護施設、のぞみの園等です。\n母子生活支援施設、児童自立支援施設、グループホーム等は含みません。\n\n所得制限表\n障害児福祉手当所得制限額（前年中の所得および扶養人数）\n|1　所得制限基準額|<|<|\n|:----|:----|:----|\n|扶養親族等|障害者本人|配偶者・扶養義務者|\n|0人|3,604,000円|6,287,000円|\n|1人|3,984,000円|6,536,000円|\n|2人|4,364,000円|6,749,000円|\n|3人|4,744,000円|6,962,000円|\n|4人|5,124,000円|7,175,000円|\n|5人以降、1人増すごとに|38万円加算|21万3千円加算|\n|2　所得制限基準額に加算できます。|<|<|\n|障害者本人の所得|<|<|\n|・扶養親族等に老人控除対象配偶者又は老人扶養親族があるときは、1人につき10万円|<|<|\n|・扶養親族等に特定扶養親族があるときは、1人につき25万円|<|<|\n|配偶者・扶養義務者の所得（扶養親族等の数が2人以上の場合）|<|<|\n|・扶養親族等に老人扶養親族があるときは、1人につき（当該老人扶養親族のほかに扶養親族等がないときは、当該老人扶養親族のうち1人を除いた老人扶養親族1人につき）6万円|<|<|\n|3　該当があれば、所得から控除できます。|<|<|\n|控除の種類|本人控除金額|配偶者・扶養義務者|\n|雑損控除|相当額|相当額|\n|医療費控除|相当額|相当額|\n|小規模企業共済等掛金控除|相当額|相当額|\n|社会保険料控除|相当額|8万円|\n|障害者控除（本人）|0円|27万円|\n|障害者控除（扶養親族・扶養配偶者）|27万円|27万円|\n|特別障害者控除（本人）|0円|40万円|\n|特別障害者控除（扶養親族・扶養配偶者）|40万円|40万円|\n|寡婦控除|27万円|27万円|\n|ひとり親控除|35万円|35万円|\n|勤労学生控除|27万円|27万円|\n|配偶者特別控除（上限33万円）|相当額|相当額|",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kenko_hukusi/syogaisyasien/teate_nenkin/shogaijiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "以下に該当する方が対象となります。\n・東京都に住所がある方\n・18歳未満の方\n・小児慢性疾患対象疾病にり患している方。\n※18歳に達した時点で有効な医療券を有している方に限り20歳の誕生日の前日まで延長可能です。\n※18歳以上の都外からの転入者の方は、他自治体が交付した医療受給者証の有効期間内の転入の場合のみ申請可能ですのでご注意ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/shouman.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染医療費助成",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "以下のいずれにも該当する方が対象となります。\n（1）18歳未満の方（生年月日が平成9年4月1日以前で、有効期間内の医療券を持っている方は更新のみ可能）\n（2） 現に気管支ぜんそく、慢性気管支炎、ぜん息性気管支炎、肺気しゅにかかられている方\n（3）東京都内に引き続き1年（3歳未満は6か月）以上住所を有する方（東京都内に住民登録を\nしている必要がある。）\n（4） 健康保険等に加入されている方\n（5） 申請日以降喫煙していない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/taiki_osen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "廃棄物処理手数料の免除",
+      "summary": "特別児童扶養手当の受給者を対象に、家庭ごみを廃棄する際の市指定収集袋（ごみ袋）の無料配布を行っています。",
+      "targetPersons": "20歳未満の中・重度障害児（下記別表「政令別表第三」参照）を養育している方\n（おおむね身体障害者手帳1級から3級ならびに下肢障害4級の一部程度、愛の手帳1度から3度程度、およびこれらと同程度以上の内部障害または、精神障害、発達障害がある方。手帳がなくても申請できます。）\n\n政令別表第三（PDF：79KB）;https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.files/seireibeppyou3.pdf",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "妊婦健康診査等委託医療機関外使用の助成事業",
+      "summary": "西東京市にお住まいの妊婦さんが、里帰り出産などで西東京市の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "次の条件全てに該当する方\n1.受診日現在、西東京市に住民登録のある方で、出産後1年以内の方\n2.助産院、都外医療機関などで妊婦健康診査を受診し、「妊婦健康診査受診票」「妊婦超音波検査受診票」「妊婦子宮頸がん検診受診票」を使用できなかった方又は都外医療機関などで生後50日以内に新生児聴覚検査を受診し、「新生児聴覚検査受診票」を使用できなかった方",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/hojojigyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "幼児教育無償化に係る利用給付（私立幼稚園）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "私立幼稚園等に通う3歳から5歳の子ども（西東京市に住民登録がある）",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/kyuhunintei.html#cms65291",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "複数のお子さんがいる世帯の負担軽減",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "複数の児童がいる世帯のうち、認可保育園・小規模保育施設・家庭的保育施設・事業所内保育施設に通う児童の兄・姉が制度に規定されている対象施設に入所している場合\n・対象施設（一部）：保育所等、幼稚園、特別支援学校の幼稚部・児童福祉法に規定する児童発達支援サービスなど。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "令和6年度　保育園等入園申込み等書類",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」や「病児保育」、「障害児保育」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/R6hoikuennnyuuennmousikomi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "地域型保育事業一覧（家庭的・小規模保育事業）",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。西東京市には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": "満3歳児未満の保育を必要とする乳児・幼児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/tiikigatahoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育",
+      "summary": "西東京市内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM78",
+      "name": "障がい児保育",
+      "shortName": "障がい児保育",
+      "summary": "集団保育が可能で心身に障がいがあるお子さんを、健常児と一緒に保育し相互の健全な育成を図ります。",
+      "targetPersons": "障害をもつお子さん",
+      "categories": [
+        "004",
+        "025"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/faq/kosodate/hoiku/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子育て支援ショートステイ事業",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子さんの面倒をみられなくなったときに、お近くの児童養護施設、乳児院、母子生活支援施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "西東京市内にお住まいであり、原則2歳から小学6年生までのお子さまを養育する保護者が、次のいずれかの理由により、お子さまの世話をすることが一時的に困難な場合に利用できます。\n\n1.出産、疾病、けが等に伴う入院、加療等の身体的な理由\n2.看護、事故、災害、失そうその他の家庭養育上の理由\n3.冠婚葬祭、出張、学校等公的行事への参加その他社会的な理由\n4.育児疲れ、育児不安その他精神的な理由\n5.その他、特に養育の必要があると認める理由\n※利用要件を確認するため、書類等（診断書、入院承諾書等）の提示を求める場合があります。",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/nodoka/kosodateshortstay.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "学童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "西東京市に居住中または西東京市立小学校に在学中の、小学4年生までの児童です（障害児は6年生まで）。",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/gakudoclub/about.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "赤ちゃん訪問はがき（出生通知票）",
+      "summary": "赤ちゃんが生まれたら、母子健康手帳交付の際にお渡ししている「母と子の保健ファイル」に同封されている赤ちゃん訪問はがき（出生通知票）を記入して、郵送してください。出生通知票をもとに、「赤ちゃん訪問（新生児・産婦訪問）」のご連絡をします。",
+      "targetPersons": "赤ちゃんがお生まれになった全てのご家庭",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/syussan/shinseijihoumon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM792",
+      "name": "乳幼児の歯の健康診査（▲歳児歯科健康診査）",
+      "shortName": "5歳児歯科健康診査",
+      "summary": "永久歯を迎える準備はできましたか。間もなく初めての大人の歯がはえてきます。5歳児歯科健康診査を受けて、永久歯のむし歯のゼロをめざしましょう。",
+      "targetPersons": "市内在住の平成31年4月2日から令和2年4月1日生まれのお子さん",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/5saijishika.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "産前産後期間の保険料免除制度",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": "国民年金第1号被保険者で、出産予定日または出産日が平成31年2月1日以降の方\nただし、国民年金の任意加入期間は対象になりません。また、免除の対象となるのは、制度開始の平成31年4月以降となります。",
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/nenkin/sanzensango.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食講習会スタート",
+      "summary": "生後3～5か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "市内にお住まいの生後3か月から5か月のお子さんの保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/rinyuusyokustart.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "こども家庭センター",
+      "summary": "西東京市の【こども家庭センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/nodoka/kodomokateicenter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠すると、体の変化や生活環境の変化などにより、むし歯や歯周病にかかりやすくなります。\nまた、産後はしばらく受診しにくくなりますので、妊娠中に一度はお口のチェックをしておかれることをお勧めします。\nお母さんの歯の健康のため、またこれから生まれてくる赤ちゃんのために、歯科健診を受けましょう。",
+      "targetPersons": "市内在住の妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/ninsin/ninpushika-nozomishi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "私立幼稚園",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": "3歳から就学前のお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/siritu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "中学生以下の子供がいる世帯や妊婦の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/pass-20170701.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "認可保育園等の利用者負担（保育料）",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、西東京市が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": "認可保育園・小規模保育事業所・家庭的保育事業所・事業所内保育事業所に通うお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "地域型保育事業一覧（家庭的・小規模保育事業）",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": "満3歳未満の保育を必要とする乳児・幼児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/tiikigatahoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "預かり保育の給付",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": "・共働き世帯の子どもなど保育の必要な3～5歳児（小学校就学前まで）の子どもが対象\n※ 私立幼稚園・認定こども園等で既に1号認定を受けている子どもたちが利用する預かり保育も含まれます。\n・給付の対象となるためには、市から「新2号（3号）認定（保育の必要性の認定）」を受ける必要があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/kyuhunintei.html#cms46EBC",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費制度（精神通院医療）",
+      "summary": "精神障害者が自立した日常生活または社会生活を営むことができるよう、精神障害者の状態の軽減のための必要な医療について自立支援医療費を支給しております。",
+      "targetPersons": "精神疾患のため、継続的な通院を必要とする方。",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kenko_hukusi/syogaisyasien/iryo/jiritsuseishintsuin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "市内にお住まいで、満1歳から就学前までの認可保育所等に入所していないお子さんで、以下1から5までの理由に該当するときに利用できます。\n\n1.　保護者の短時間又は断続的勤務、職業訓練、就学等により、家庭における育児が困難となり保育が必要となるとき。\n2.　保護者の傷病、災害・事故、出産、介護・看護、冠婚葬祭など、社会的にやむを得ない事由により、一時的に家庭での育児が困難となり保育が必要となるとき。\n※緊急一時保育は別の申請手続きが必要です。幼児教育・保育課にお問い合わせください。（診断書などの証明書類が必要になります。）\n3.　保護者の育児等に伴う心理的・肉体的負担を解消する等の私的な理由により、一時的に保育が必要となるとき。\n4.　障害のある児童を体験的に入所させ、集団保育をするため等により保育が必要となるとき。\n※障害のある児童の場合、申請される際に一度幼児教育・保育課へご相談ください。\n5.　その他市長が特に必要と認めたとき。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/ichijihoiku/itiji-toroku-yoyaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM84",
+      "name": "一時保育の定期利用（特定保育・非定型保育など）",
+      "shortName": "定期的利用保育事業",
+      "summary": "西東京市内の認可保育園では、同居の家族がパート就労などで、入園基準には満たないものの、断続的に保育が困難となるお子さんを対象に、お預かりを行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/ninkagaishisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM841",
+      "name": "ひとり親家庭高等職業訓練促進資金貸付",
+      "shortName": "東京都母子福祉資金・父子福祉資金",
+      "summary": "高等職業訓練促進給付金を活用して、養成機関に修学し、就職に有利な資格の取得を目指すひとり親家庭の親に対し、入学準備金および就職準備金の貸し付けを行っています。",
+      "targetPersons": "都内に6か月以上お住まいの20歳未満の子等を扶養している母子家庭の母又は父子家庭の父等\n貸付けが自立につながると判断され、返済の計画をたてることができる方が対象となります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/sikinkasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育室",
+      "summary": "保育所などに通所しているお子さんが病気や病気の回復期にあることから保育所での集団保育が困難で、かつ、保護者の就労などにより家庭で保育を行うことができない場合、病児・病後児保育を行っている施設で一時的に預かります。",
+      "targetPersons": "生後満6か月から10歳に達する日の属する年度の末日までの間にある児童\n\n対象疾患\n\n熱、かぜ、ぜんそく、など\n※水痘（水ぼうそう）、麻疹（はしか）、おたふく風邪などの感染症疾患も状況により受け入れ可能です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/byogozihoiku/riyoannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター　利用案内",
+      "summary": "西東京市のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、さまざまな育児の手助けをする事業です。",
+      "targetPersons": "西東京市内在住で、0歳から小学校6年生のお子さまを育てている方。\nどなたでも会員になれます。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/familysupport/famisaporiyoannai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育園一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、西東京市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/hoikuen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "幼児教育・保育の無償化対象施設（認可外保育施設・一時預かり事業）の一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、西東京市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/mushouka/taisyoushisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "地域型保育事業一覧（家庭的・小規模保育事業）",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、西東京市が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": "満3歳児未満の保育を必要とする乳児・幼児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/tiikigatahoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "認証保育所",
+      "summary": "認証保育所は、西東京市が設けた基準（保育料・保育環境・保育時間など）を満たすことで市の認定を受け、運営経費の助成を受けている認可外保育施設です。\n利用者には、所得に応じた保育料の減免や、きょうだい減免制度などがあります。",
+      "targetPersons": "0歳から5歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/ninkagaishisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "幼児教育・保育の無償化対象施設（幼稚園・預かり保育事業等）の一覧",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、西東京市内の公立幼稚園と、新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/musyoukashisetsu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+10+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒブワクチン予防接種（接種開始が生後2か月以上7か月未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が生後2か月以上7か月未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/hibu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+11+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒブワクチン予防接種（接種開始が生後7か月以上1歳未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が生後7か月以上1歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/hibu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+12+UM54",
+      "name": "定期予防接種",
+      "shortName": "ヒブワクチン予防接種（接種開始が1歳以上5歳未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が1歳以上5歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/hibu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+13+UM54",
+      "name": "定期予防接種",
+      "shortName": "四種混合ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月以上7歳6か月未満\n注記：「未満」とは、誕生日の前日までです。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/yonsyukongou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+14+UM54",
+      "name": "定期予防接種",
+      "shortName": "BCGワクチン予防接種（集団）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳に至るまで。標準的な接種年齢は、生後5か月から8か月の方になります。\n※「至るまで」とは、誕生日の前日までです。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/bcg.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+15+UM54",
+      "name": "定期予防接種",
+      "shortName": "水痘（水ぼうそう）ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳以上3歳未満\n※「未満」とは、誕生日の前日までです。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/suitouteiki.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+16+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん混合（第1期）ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳から2歳に至る（2歳の誕生日の前日）まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/mashinfuushinkongou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+17+UM54",
+      "name": "定期予防接種",
+      "shortName": "麻しん風しん混合（第2期）ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "5歳以上7歳未満で小学校就学前の1年間にあるお子さん（小学校1年生になる前年の4月1日から翌年の3月31日までの1年間）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/mashinfuushinkongou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+18+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎予防接種（第１期）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "第1期\n生後6か月から7歳6か月に至るまで（7歳6か月になる前日まで）\n標準的には3歳から",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/nihonnouen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+19+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎予防接種（第２期）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "第2期\n9歳以上13歳未満（13歳になる誕生日の前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/nihonnouen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "多様な他者との関わりの機会の創出事業",
+      "summary": "保育所、幼稚園、認定こども園等（以下「保育所等」）を利用していない未就園児を定期的に預かり、多様な他者との関わりの中での様々な体験や経験を通じて、子どもの健やかな成長を図ることを目的としています。",
+      "targetPersons": "西東京市在住で保育所等に通っていない、又は在籍していない2歳児クラスの幼児",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/KO/tayonatasha.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "まますた",
+      "summary": "西東京市内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "第1子出産後のママと赤ちゃん（おおむね生後4か月頃まで）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/mamasuta.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM114",
+      "name": "小児科救急",
+      "shortName": "平日準夜小児初期救急医療",
+      "summary": "４市共同事業として、15歳以下のお子様で急な発熱、腹痛、下痢などの方を対象に、平日の準夜間の診療を行っています。",
+      "targetPersons": "15歳以下のお子様で急な発熱、腹痛、下痢など、平日の準夜間の診療",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/iza/er.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM119",
+      "name": "西東京市の子育てに関する相談",
+      "shortName": "2歳児すくすく相談会",
+      "summary": "この会は、お子様と一緒に楽しく遊び、子育ての相談や身長・体重測定ができます。ご希望の方には個別相談もあります。",
+      "targetPersons": "2歳から2歳6か月のお子さんとその保護者の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/2saijiclass.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "西東京市国民健康保険に加入されている方が出産したとき、出産育児一時金が支給されます。妊娠12週（85日）以降であれば、死産・流産でも支給されます。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/kokuho/kyufu/syussannikuziichizi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "義務教育就学児医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分3割、通院のみ３割分のうち一部負担金（上限200円）を除いた額を助成しています。",
+      "targetPersons": "市内に住む義務教育就学期（6歳に達する日の翌日以後の最初の4月1日から15歳に達する日の翌日以後の最初の3月31日までの間にある子供）で、健康保険に加入している子供を養育している方\n次の場合は、この制度を利用できません\n生活保護を受けている方\n児童福祉施設等に「措置」により入所している方\nひとり親医療証や障害者医療費助成受給者証をお持ちの方で、自己負担のない方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/kodomonoiryouhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設利用児童給食費補助金",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、西東京市独自に利用料の助成を行っています。",
+      "targetPersons": "以下の対象要件Aの（1）、（2）どちらにも該当し、かつ、対象要件Bの（3）、（4）のいずれかに該当する方が対象になります。\n\n【対象要件A】（1）及び（2）\n（1）認可外保育施設を利用する子どもが、無償化の認定を受けている3歳児から5歳児であること。\n（2）（1）の子どもが認可保育所、地域型保育事業所、認定こども園又は幼稚園を利用していないこと。\n※保護者が（1）の子どもと市内で同居し、生計を一にして監護していることが必要です。\n\n【対象要件B】（3）または（4）\n（3）（1）及び（2）を満たしている子どもが、生計を一にする小学校就学前の子どものうち、第3子以降であること。\n（4）年収360万円未満相当〔市民税所得割額57,700円未満（ひとり親等の要保護世帯の場合77,101円未満）〕の世帯であること。\n※（4）の算定に利用する市民税の所得割額は、令和5年4月から8月までの補助については令和4年度分、令和5年9月から令和6年3月までの補助については令和5年度分の所得割額です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/kyusyokuhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/jite0104.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都女性福祉資金の貸付",
+      "summary": "母子・父子家庭や寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "都内に6か月以上お住まいの配偶者がいない女性で、親・子・兄弟姉妹を扶養している方又はかつて母子家庭の母として20歳未満の子を扶養したことのある方又は婚姻歴のある40歳以上の方を対象に、経済的自立を目的とした資金（修学、技能習得、転宅等資金）の貸付けをいたします。貸付けが自立につながると判断され、返済の計画をたてることができる方が対象となります。所得制限のある場合があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/sikinkasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "休日診療当番医",
+      "summary": "西東京市では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kurasi/iza/kyujitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "9から10か月児健康診査",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として乳幼児健康診査（9か月から10か月児）を実施しています。",
+      "targetPersons": "市内在住で生後9か月から10か月の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/sinsa/6-9mhealthcheck.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルスワクチン予防接種（１価）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "出生6週0日から24週0日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/rotavirus.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM55",
+      "name": "任意予防接種",
+      "shortName": "骨髄移植手術等による予防接種「再接種」",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち西東京市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "以下のすべてに該当する方\n1　骨髄移植手術等を受けたことにより免疫が喪失又は減少し、接種済みの予防接種の効果が期待できないと医師に判断された方\n2　予防接種を再接種する日に、20歳未満で西東京市に住民登録がある方\n注記：予防接種の種類によって、接種できる年齢に上限があります。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/71660720220324193608771.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM576",
+      "name": "児童遊園",
+      "shortName": "西原第一児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n西東京市の児童遊園の一覧は、西東京市サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/sisetu/koen_ryokuti/nisihara1.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "児童育成手当（障害手当）",
+      "summary": "児童育成手当（障害手当）は、児童育成手当の支給制度の実現を図ることにより、児童の福祉の増進に資することを目的とした東京都の制度です。",
+      "targetPersons": "20歳未満の\n\n身体障害者手帳1級から2級程度\n愛の手帳1度から3度程度\n脳性麻痺\n進行性筋萎縮症\nの障害児（施設入所および精神の障害だけの方は不可）を養育している方\n\n所得制限\n|扶養親族の数|申請者本人|\n|:----|:----|\n|0人|3,604,000円|\n|1人|3,984,000円|\n|2人|4,364,000円|\n|3人|4,744,000円|\n|4人目以降|1人増すごとに<br>380,000円を加算|\n|16歳から19歳未満の控除対象扶養親族<br>および特定扶養親族|1人につき<br>250,000円|\n|老人扶養|1人につき<br>100,000円|\n|所得から控除できるもの||\n|社会保険料相当額（一律）|80,000円|\n|障害・勤労学生控除|270,000円|\n|特別障害控除|400,000円|\n|寡婦控除|270,000円|\n|ひとり親控除|350,000円|\n|雑損・医療費・配偶者特別・<br>小規模企業等掛金|控除相当額|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/jidouikuseisyougai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "都営水道料金の免除",
+      "summary": "特別児童扶養手当の受給者を対象に、都営水道料金を免除しています。",
+      "targetPersons": "20歳未満の中・重度障害児（下記別表「政令別表第三」参照）を養育している方\n（おおむね身体障害者手帳1級から3級ならびに下肢障害4級の一部程度、愛の手帳1度から3度程度、およびこれらと同程度以上の内部障害または、精神障害、発達障害がある方。手帳がなくても申請できます。）\n\n政令別表第三（PDF：79KB）;https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.files/seireibeppyou3.pdf",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/tokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "複数のお子さんがいる世帯の負担軽減",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": "同一世帯に小学生以上の兄・姉がいる場合、減免申請することにより、一番年齢が上のきょうだいを第1子として数えて、在籍児童の利用者負担（保育料）を算定することができます。対象は0歳児から2歳児クラスの児童です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/hoikuryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食講習会ステップ",
+      "summary": "生後6～8か月前後のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "市内にお住まいの生後6か月から8か月のお子さんの保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/soudan/rinyusyoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "0歳一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "市内にお住まいで、生後3か月から満1歳に達する日の前日までの認可保育所等に入所していないお子さんで、以下1から5までの理由に該当するときに利用できます。\n※満一歳以上のお子様は通常の一時保育;https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/ichijihoiku/itiji-toroku-yoyaku.htmlをご利用いただけます。\n\n1.　保護者の短時間又は断続的勤務、職業訓練、就学等により、家庭における育児が困難となり保育が必要となるとき。\n2.　保護者の傷病、災害・事故、出産、介護・看護、冠婚葬祭など、社会的にやむを得ない事由により、一時的に家庭での育児が困難となり保育が必要となるとき。\n※緊急一時保育は別の申請手続きが必要です。幼児教育・保育課にお問い合わせください。（診断書などの証明書類が必要になります。）\n3.　保護者の育児等に伴う心理的・肉体的負担を解消する等の私的な理由により、一時的に保育が必要となるとき。\n4.　障害のある児童を体験的に入所させ、集団保育をするため等により保育が必要となるとき。\n※障害のある児童の場合、申請される際に一度幼児教育・保育課へご相談ください。\n5.　その他市長が特に必要と認めたとき。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/hoikusabisu/ichijihoiku/0sai-ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM841",
+      "name": "ひとり親家庭高等職業訓練促進資金貸付",
+      "shortName": "東京都女性福祉資金",
+      "summary": "高等職業訓練促進給付金を活用して、養成機関に修学し、就職に有利な資格の取得を目指すひとり親家庭の親に対し、入学準備金および就職準備金の貸し付けを行っています。",
+      "targetPersons": "都内に6か月以上お住まいの配偶者がいない女性で、親・子・兄弟姉妹を扶養している方又はかつて母子家庭の母として20歳未満の子を扶養したことのある方又は婚姻歴のある40歳以上の方\n貸付けが自立につながると判断され、返済の計画をたてることができる方が対象となります。所得制限のある場合があります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hitorioyakatei/sikinkasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+2+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "認証保育所",
+      "summary": "認証保育所は、西東京市が設けた基準（保育料・保育環境・保育時間など）を満たすことで市の認定を受け、運営経費の助成を受けている認可外保育施設です。\n利用者には、所得に応じた保育料の減免や、きょうだい減免制度などがあります。",
+      "targetPersons": "0歳から2歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/ninkagaishisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+20+UM54",
+      "name": "定期予防接種",
+      "shortName": "日本脳炎予防接種（平成７年４月２日～平成19年４月１日生まれで20歳未満の方）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "勧奨を中止していた期間に、第1期および第2期の接種機会を逃した平成７年４月２日～平成19年４月１日生まれの方で、接種当日に20歳未満の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/nihonnouen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+21+UM54",
+      "name": "定期予防接種",
+      "shortName": "二種混合予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "11歳以上13歳未満（13歳の誕生日前日まで）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/nisyukongou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+22+UM54",
+      "name": "定期予防接種",
+      "shortName": "子宮頸がん予防ワクチン（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "平成20年4月2日から平成25年4月1日までに生まれた女子（小学6年生から高校1年生相当）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/keiganjyosei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+23+UM54",
+      "name": "定期予防接種",
+      "shortName": "ポリオワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後3か月から7歳6か月未満\n注記：「未満」とは、誕生日の前日までです。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/poliokobetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+24+UM54",
+      "name": "定期予防接種",
+      "shortName": "子どもの定期予防接種費用助成（償還払い）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種当日に西東京市に住民登録があり、以下のいずれかに該当する方で、市外の医療機関（練馬区、小平市、東久留米市内の実施指定医療機関を除く。）で定期予防接種を受ける方\n\n1　里帰り出産その他の事情により、一定期間市外に居住する方\n2　長期にわたり医療機関等に入院又は入所している方\n3　疾病等の事情により、市の指定する医療機関での定期予防接種が困難な方\n4　その他やむを得ない事情により、市外医療機関による定期予防接種が必要と認められる方\n\n※市外のかかりつけ医での接種など、上記以外の理由は対象外です。\n※疾病等の事情により、市の指定する医療機関での定期予防接種が困難な方は、医師が作成した意見書（診断書）の添付が必要です。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/kodomoyobosesshushokan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "令和6年度　ペアレントトレーニングに学ぶほめる子育て～親子のグッドサイクルのために～",
+      "summary": "ペアレントトレーニングを基にした親子の関係性をよく（グッドサイクルに）するための講座、ワークショップです。家庭での実践も含めて、１コース３回行います。",
+      "targetPersons": "・西東京市に在住、または在園の概ね幼児期から小学校低学年のお子様の保護者様。\n・3回連続で参加できる方が優先です。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hiiragi/shiminkoza/r6peatore.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "高校生等医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分3割、通院のみ３割分のうち一部負担金（上限200円）を除いた額を助成しています。",
+      "targetPersons": "市内に住む高校生等（15歳に達する日の翌日以後の最初の4月1日から18歳に達する日の翌日以後の最初の3月31日までの間にある子供で、学生であるか否かは問いません）で、健康保険に加入している子供を養育している方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/kodomonoiryouhi.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "満3歳児クラスの預かり保育利用の補助金制度",
+      "summary": "「幼児教育・保育の無償化」の対象とならない幼児教育施設に通うお子さんの保護者の経済的負担を軽減するために、西東京市独自に利用料の助成を行っています。",
+      "targetPersons": "補助金の交付対象となるためには、以下の要件を全て満たす必要があります。\n（1）西東京市民であること\n（2）満3歳児クラスに在園している園児であること\n（3）第2子以降であること\n（4）課税世帯であること\n（5）保護者全員に保育の必要性があること",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/yotien/man3azukari_hojyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "ロタウイルスワクチン予防接種（５価）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "出生6週0日から32週0日まで",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/rotavirus.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM55",
+      "name": "任意予防接種",
+      "shortName": "おたふくかぜワクチン予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち西東京市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "市内に住民登録のある、接種時に1歳（2歳の誕生日の前日まで）の方",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/otahuku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM576",
+      "name": "児童遊園",
+      "shortName": "南町第一児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n西東京市の児童遊園の一覧は、西東京市サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/sisetu/koen_ryokuti/minamityou1.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "児童育成手当（育成手当）",
+      "summary": "児童育成手当（育成手当）は、児童育成手当の支給制度の実現を図ることにより、児童の福祉の増進に資することを目的とした東京都の制度です。",
+      "targetPersons": "下記に該当する児童を扶養（監護かつ生計維持）する父または母もしくは養育者\n\n父母が離婚した児童\n父または母が死亡した児童\n婚姻によらず出生した児童\n父または母が重度の障害を有する児童\n父または母に一年以上遺棄されている児童\n父または母が保護命令を受けた児童（母または父の申立てにより発せられたものに限る。）\n父または母が法令により一年以上拘禁されている児童\n父または母が生死不明である児童\n婚姻によらず出生した児童（父または母の扶養なし。）\n支給制限\n下記の状態にある場合は手当を受給できません。\n\n児童が里親に委託されていたり、児童福祉施設等に入所したりしている場合\n児童が父および母と生計を同じくしている場合\n児童が父および母の配偶者（事実上の婚姻関係を含む。）養育されている場合\n※「事実上の婚姻関係」とは、異性と同居している状態を言いますが、住民票が同住所にある場合や異性からの定期的な訪問および生活費の授受がある場合も含まれます。\n\n年齢制限\n18歳になった最初の年度末まで\n\n所得制限\n|扶養親族の数|申請者本人|\n|:----|:----|\n|0人|3,604,000円|\n|1人|3,984,000円|\n|2人|4,364,000円|\n|3人|4,744,000円|\n|4人目以降|1人増すごとに<br>380,000円を加算|\n|16歳から19歳未満の控除対象扶養親族<br>および特定扶養親族|1人につき<br>250,000円|\n|老人扶養|1人につき<br>100,000円|\n|所得から控除できるもの||\n|社会保険料相当額（一律）|80,000円|\n|障害・勤労学生控除|270,000円|\n|特別障害控除|400,000円|\n|寡婦控除|270,000円|\n|ひとり親控除|350,000円|\n|雑損・医療費・配偶者特別<br>・小規模企業等掛金|控除相当額|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/teate_zyosei/zidouikusei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "子どもの補装具費支給制度",
+      "summary": "18歳未満のお子さんの補装具費（購入費・修理費・借受け費）の支給要件から、所得制限をなくします。\n世帯員の課税状況に関わらず、補装具費支給制度の利用ができるようになります。",
+      "targetPersons": "18歳未満のお子さん",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kenko_hukusi/syogaisyasien/shogaishashien_oshir/hosougu_shotoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM798",
+      "name": "離乳食教室",
+      "shortName": "離乳食講習会",
+      "summary": "離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "市内在住、4か月から6か月のお子さんの保護者、これから赤ちゃんを迎える方（初めて子育てをされる方・未就園児優先）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/chiikikosodate_center/rinyuusyokunittei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "緊急一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、幼稚園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "市内在住の、生後5か月から就学前の児童\n注記：保育施設等に通っているお子さんは対象になりません。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/jjigyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+3+UM94",
+      "name": "自治体独自の保育施設一覧",
+      "shortName": "認証保育所",
+      "summary": "認証保育所は、西東京市が設けた基準（保育料・保育環境・保育時間など）を満たすことで市の認定を受け、運営経費の助成を受けている認可外保育施設です。\n利用者には、所得に応じた保育料の減免や、きょうだい減免制度などがあります。",
+      "targetPersons": "0歳から3歳児",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/hoikuen/shinainohoikushisetu/ninkagaishisetu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ペアレントメンターとお話会",
+      "summary": "ペアレントメンターとは障害があるお子さんの子育て経験があり、東京都の研修を受けた方のことです。子育ての悩みの相談もできますので、お気軽にご相談ください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kenko_hukusi/syogaisyasien/sodan/oshietepearenntomennta.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌ワクチン予防接種（接種開始が生後2か月以上7か月未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が生後2か月以上7か月未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/haien-child.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+4+UM55",
+      "name": "任意予防接種",
+      "shortName": "2歳以上18歳以下の麻しん風しん（MR）予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。現在、定期接種以外で小学校就学前のお子さんが接種できるワクチンとしては、おたふくかぜ、インフルエンザなどがあります。\nこのうち西東京市では、次の任意予防接種に対して、接種費用を助成しています。接種するかどうかについては、かかりつけ医とご相談のうえ、保護者の判断により決めてください。",
+      "targetPersons": "西東京市に住民登録がある2歳以上18歳以下の方で、やむを得ない事情により、麻しん風しんの定期予防接種を受けることができなかった方。ただし、法定接種の対象者（5歳以上7歳未満で小学校1年生になる前年の4月1日から翌年の3月31日までの1年間にあるお子さま）を除く。\n※西東京市に住民登録のない方は助成の対象となりませんのでご注意ください！",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/18saiikamr.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+4+UM576",
+      "name": "児童遊園",
+      "shortName": "南町第四児童遊園",
+      "summary": "児童遊園は、屋外にある公園に類似した施設です。18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n西東京市の児童遊園の一覧は、西東京市サイトなどでお知らせしています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/sisetu/koen_ryokuti/minamityou4.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+4+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "バースデーサポート事業",
+      "summary": "西東京市では、令和5年9月から、1歳を迎えられたお子様がいるご家庭の子育てを応援するため、バースデーサポート事業を実施しています。",
+      "targetPersons": "1歳を迎えられたお子様がいるご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/birthday_support.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+5+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "西東京市子育て応援アプリ「いこいこ」",
+      "summary": "西東京市で妊娠や出産、子育てをする方へ、市の子育て情報をいつでもどこでも手軽に確認ができるアプリです。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/kosodateouen_appliikoiko.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+5+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌ワクチン予防接種（接種開始が生後7か月以上1歳未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が生後7か月以上1歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/haien-child.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+6+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌ワクチン予防接種（接種開始が1歳から2歳未満）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が1歳から2歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/haien-child.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+7+UM54",
+      "name": "定期予防接種",
+      "shortName": "小児用肺炎球菌ワクチン予防接種（接種開始が2歳以上）（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "接種開始が2歳以上",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/haien-child.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+8+UM54",
+      "name": "定期予防接種",
+      "shortName": "B型肝炎ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "1歳未満",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/201506bgatakanenyobousesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132292+9+UM54",
+      "name": "定期予防接種",
+      "shortName": "五種混合ワクチン予防接種（個別）",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "生後2か月以上7歳6か月未満\n注記：「未満」とは、誕生日の前日までです。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.nishitokyo.lg.jp/kosodate/bosi/yobosessyu/goshukonngouwakuchinn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}

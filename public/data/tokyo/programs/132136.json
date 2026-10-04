@@ -1,0 +1,1425 @@
+{
+  "sources": [
+    {
+      "id": "tokyo-kosodate-registry",
+      "title": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0-6歳制度）",
+      "provider": "東京都・GovTech東京",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+      "fileUrls": [
+        "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+      ],
+      "asOf": "2025-08-20",
+      "retrievedOn": "2026-10-04",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    }
+  ],
+  "municipalityCode": "132136",
+  "programs": [
+    {
+      "psid": "psid3.0+1000020132136+1+UM1",
+      "name": "妊娠の届出・母子健康手帳の交付",
+      "shortName": "妊娠届・母子健康手帳の交付(妊婦面接)",
+      "summary": "妊娠がわかったら妊娠の届出をしてください。妊娠の届出をした妊婦さんに母子健康手帳を交付します。母子健康手帳は、妊娠からお子さんが小学校に入学するまでの、母と子の健康の記録です。育児、予防接種、健康診査などの際に必要となります。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi1-1.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM10",
+      "name": "先天性代謝異常等検査",
+      "shortName": "先天性代謝異常等検査（都事業）",
+      "summary": "東京都ではフェニルケトン尿症等の先天性代謝異常や先天性甲状腺機能低下症（クレチン症）などの内分泌疾患を早期に発見するために、先天性代謝異常等検査を行っています。\nこれらの疾患を放っておくと、生まれた時は健康に見えても、身体障害や知的障害が発生したり、時には生命の危険にさらされたりする場合もあります。しかし、疾患を早期に発見し、適切な治療を続けることで、障害などの発生を未然に防ぐことができます。",
+      "targetPersons": "新生児",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/sentensei/boshi1-6.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "かみかみ幼児食",
+      "summary": "栄養のお話",
+      "targetPersons": "1歳から1歳9か月未満のお子さまと保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/event/kodomo/yoji/kamikamiyoujisyoku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "母乳相談",
+      "summary": "子ども保健・給付課では、毎月1回、個別での母乳相談を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/bonyusoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM108",
+      "name": "児童館",
+      "shortName": "児童館",
+      "summary": "児童館は、18歳未満のお子さんに健全な遊びを提供し、健康増進を図るとともに、豊かな情操を育むことを目的としています。\n東村山市の児童館には、小学校就学前のお子さんが安心して遊べるスペースがあり、またお子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、東村山市サイトや市報などでお知らせしています。）",
+      "targetPersons": "5館共通の案内;https://www.city.higashimurayama.tokyo.jp/kosodate/jidokan/jidoukan_info/kyoutuannai.html",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/jidokan/jidoukan_info/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM11",
+      "name": "妊産婦訪問",
+      "shortName": "妊産婦訪問指導",
+      "summary": "妊産婦の方（妊娠中または出産後1年以内）を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、妊娠期間中や出産後の不安や悩みについての相談等を行います。",
+      "targetPersons": "妊娠中、あるいは産後の健康状態・生活環境・疾病などの心配がある女性およびその家族",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi1-4.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "東村山市では市内の子ども家庭支援センターなどを子育て支援拠点として、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/shisetsu/kosodate/sienannaizu_map/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "子育てサークル",
+      "summary": "東村山市内で子育てに関する活動を行う、コミュニティやサークル、各種団体の登録や活動で利用できる施設のご案内です。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/kosodate/sa-kuru.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM112",
+      "name": "子育て広場",
+      "shortName": "子育てひろば",
+      "summary": "市内の子育てひろばは、小学校就学前のお子さんが安心して遊べるスペースがあり、子育て中の親子が気軽に集い、仲間づくりを通して子育てに関する相談や情報交換等を行う機会を提供しています。また、お子さんの年齢に応じた各種イベントなども行っています。\n（イベントの詳細については、東村山市サイトや市報などでお知らせしています。）",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/kosodatehiroba/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM114",
+      "name": "小児科救急",
+      "shortName": "小児平日準夜応急診療",
+      "summary": "東村山市では、市内の小児科医がローテーションを組んで、休日や夜間に、赤ちゃんやお子さんが救急の際の診療を行っています。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/bosai/kyukyu/kyukyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM119",
+      "name": "東村山市の子育てに関する相談",
+      "shortName": "ゆりかごオンライン産婦相談",
+      "summary": "ビデオ会議サービス「ZOOM」を利用した助産師・保健師によるオンライン相談を実施しています。ママの産後の体調や育児不安、母乳育児の困り事、赤ちゃんの事など相談ください。",
+      "targetPersons": "市内在住の産後1年以内のかた",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/kodomohoken20220816.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM120",
+      "name": "子育てに関するその他のこと",
+      "shortName": "乳幼児の計測（身長・体重）",
+      "summary": "お子さまの身長・体重の計測を実施します。",
+      "targetPersons": "0歳から就学前までのお子さん",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/kosodateshien.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM126",
+      "name": "小学校・中学校の就学援助費",
+      "shortName": "就学援助制度",
+      "summary": "経済的な理由により就学が困難と認められる、公立の小学校・中学校に通学する児童・生徒の保護者を対象に、学用品費、修学旅行費、給食費などを支給します。",
+      "targetPersons": "市では国立・公立小中学校に通学するお子様がいるご家庭\n\n援助制度を受けられるご家庭\n1.生活保護が停止又は廃止になった方\n2.児童扶養手当を受けている方\n3.市都民税、固定資産税、国民年金保険料、国民健康保険税のうちいずれかの減免を受けている方\n4.経済的にお困りの方などで、前年分の世帯全員の総収入が一定基準以下の方（認定となる年間総収入の目安は、下記のファイルをご参照ください。）\n\n認定となる年間総収入の目安（PDF：107KB）;https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kyoiku/files/soushuuunyuu2.pdf",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kyoiku/kyouikuhiennjyoseido.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM13",
+      "name": "新生児訪問",
+      "shortName": "新生児訪問指導",
+      "summary": "新生児を対象に、保健師や助産師がご家庭を訪問し、健康状態の確認や必要な保健指導、健康や育児に関する相談などを行います。",
+      "targetPersons": "新生児 （生後28日を経過しない乳児）。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/boshi1-8.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM14",
+      "name": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）",
+      "shortName": "乳児家庭全戸訪問事業（こんにちは赤ちゃん事業）",
+      "summary": "生後4か月を迎えるまでの乳児がいるすべてのご家庭に専門職（保健師・助産師）が訪問し、不安や悩みをお聞きしたり、子育て支援に関する情報提供、親子の心身の状況や養育環境等の把握や助言を行い、支援が必要なご家庭は適切なサービスにつなげます。（なお、必要に応じて生後4か月以降でも訪問する場合があります。）",
+      "targetPersons": "対象者\n原則として生後4か月を迎える日までの赤ちゃんのいる家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/konnitiwaakachan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM15",
+      "name": "産後ケア事業",
+      "shortName": "産後ケア事業",
+      "summary": "出産を終えた退院後、お母さんと赤ちゃんの生活リズムづくりや、心身の安定を図るため、施設においてショートステイ（宿泊）やデイサービス（日帰り）で、助産師などが母子の心身ケアと育児サポートを行います。",
+      "targetPersons": "次の1.2に該当するかた\n\n1.東村山市に住民登録がある、出産後1年以内のお母さんとお子さん\n2.次のいずれかにあてはまるかた　\n・体調不良や、授乳・育児について不安があるかた\n・家族などから育児について十分な支援を受けられないかた\n・産後ケアを必要とするかた\n　（注記）発熱等感染症のおそれがあるかた、入院加療の必要なかたはご利用できません。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/kosodateshien2023080.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM19",
+      "name": "出産育児一時金",
+      "shortName": "出産育児一時金",
+      "summary": "国民健康保険に加入している方が出産したときは、その世帯主からの申請により、出産育児一時金を支給します。原則として直接支払制度により、医療機関に直接お支払いします。\nなお、直接支払制度に対応していない医療機関などで出産された場合も、「受取代理制度」や出産後の申請により、出産育児一時金の支給を受けることができます。",
+      "targetPersons": "東村山市国民健康保険加入者が出産された場合、世帯主に出産育児一時金が支給される制度です(産科医療補償制度対象分娩は、補償金の掛金分が加算されて支給されます）。\n\n　妊娠85日以上の出産（生産、死産、流産等の別は問いません）が対象となります。\n　他の健康保険から支給される場合は、東村山市国民健康保険では支給されません。\n\n　時効については、出産のあった日の翌日から起算して2年となります。",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/zei/kokuho/kyufu/syussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM23",
+      "name": "乳幼児医療費（子ども医療費）の助成",
+      "shortName": "乳幼児医療費助成制度",
+      "summary": "子どもの保健対策を充実し、子育て世帯の経済的負担を軽減するため、お子さんが病気やけがなどにより健康保険を使って医療機関で受診した場合、保険診療の自己負担分（2割または3割）の一部を助成しています。",
+      "targetPersons": "次の要件を満たす乳幼児を養育しているかたが受給者となって助成を受けられます。（受給者は乳幼児を養育している父または母の所得が高いかたとし、所得が同程度の場合は税法上の扶養や健康保険上の被扶養者の状況を元に判断します。)\n\n1.東村山市内に住所を有するかた（単身赴任等で保護者の住所が東村山市以外の場合でも、お子様が東村山市に住所がある場合は対象となります。）\n2.義務教育就学前（6歳に達した日以後最初の3月31日までの間）であるかた\n3.国民健康保険その他の健康保険に加入しているかた\n\nなお、次に該当する乳幼児を養育しているかたについては対象外となります。\n\n1.生活保護を受けているかた\n2.児童福祉施設等に措置入所しているかた（契約入所・通所利用しているかたは除く）\n3.里親・小規模住居型児童養育事業を行う者に委託されているかた\n4.児童が自己負担のない「ひとり親家庭等医療費助成」（マル親）の医療証を持っているかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kosodate/marunyuu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "子育てのための施設等利用給付認定",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "新制度未移行の幼稚園や認可外保育施設等を利用するかた",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/nintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "幼児教育・保育の無償化の対象と範囲\n||0〜2歳クラス|満3歳児|3〜5歳クラス|\n|:----|:----|:----|:----|\n|認可保育所等|◯|◯|◎|\n|認定こども園（保育）|◯|◯|◎|\n|新制度幼稚園|−|◎|◎|\n|認定こども園（教育）|−|◎|◎|\n|新制度未移行幼稚園|−|●|●|\n|認可外保育施設等|☆|☆|★|\n|一時保育等|☆|☆|★|\n|記号の見方|◎：全世帯が無償化<br>◯：市民税非課税世帯は無償化<br>★：月37,000円まで無償化<br>☆：市民税非課税世帯は月42,000円まで無償化<br>●：月25,700円まで無償化<br>−：該当なし|<|<|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/shikaranooshirase/youjikyouikumusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設等園児保護者補助金",
+      "summary": "「幼児教育・保育の無償化」の対象とならない認証保育施設及び市内定期利用保育施設に通うお子さんの保護者の経済的負担を軽減するために、保育料に対する補助を行っています。",
+      "targetPersons": "東村山市に在住する認可外保育施設等園児の保護者\n以下すべて当てはまる方が対象となります。\n\n下記「対象施設」のいずれかを利用されている方\n国の幼児教育・保育の無償化制度の対象外の方\n利用施設と月極め契約をし、保育料を支払っている方\n対象施設（市内）;https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/ninkagaikyouiku/ninkagaisisetuitiran.html\n\n対象施設（市外）; http://www.fukushihoken.metro.tokyo.jp/kodomo/hoiku/ninsyo/ichiran.html\n\n市外の施設は、東京都認証保育所のみ対象施設となります。上記は東京都のホームページのリンクです。東京都認証保育所に該当するかはこちらでご確認ください。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/ninkagaikyouiku/ninkagaihojokin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "管外委託",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：東村山市内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、東村山市内の認可保育所への入所を希望する場合",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoiku20220915.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM2372",
+      "name": "認可外保育施設の利用について",
+      "shortName": "認可外教育・保育施設",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称です。\n具体的には、認証保育所、定期利用保育施設等、認可外保育施設として都道府県等に届出を行ったものを指します。\n\n保育の内容や料金設定などは施設によりさまざまです。これらの施設を利用する際は、保護者自身の目で直接確認し、充分な説明を受け、納得したうえで選ぶことが大切です。",
+      "targetPersons": "受入年齢は各施設による",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/ninkagaikyouiku/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kosodate/jidouteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM26",
+      "name": "児童扶養手当",
+      "shortName": "児童扶養手当",
+      "summary": "児童扶養手当は、父母の離婚などにより、父または母と生計を同じくしていないお子さんが養育されている家庭の生活の安定と自立を助け、お子さんが心身ともに健やかに成長するよう役立ててもらうために､父または母､もしくは父または母に代わってお子さんを養育している方に支給されます｡\nまた、ひとり親家庭でなくても、父または母に重度の障がいがある場合には、児童扶養手当が支給されます｡",
+      "targetPersons": "児童扶養手当は、次の支給要件に該当する児童を養育している方に支給されます。\n\n支給要件\n18歳に達する日以後の最初の3月31日までの間にあり（20歳未満で政令で定める程度の障害の状態にある者を含む）、次のいずれかの状態にある児童\n\n・父母が離婚した児童\n・父又は母が死亡、又は生死不明である児童\n・父又は母に1年以上遺棄されている児童\n・父又は母が法令により1年以上拘禁されている児童\n・婚姻によらないで生まれた児童\n・父又は母が重度の障害を有する児童\n・父又は母が保護命令を受けた児童\n\n以下に該当する場合は手当が支給されません\n・児童が里親に委託されている場合\n・児童が児童福祉施設等に入所している場合\n・児童が父及び母と生計を同じくしている場合（父又は母障害による受給を除く。）\n・児童が父又は母の配偶者（事実上の配偶者を含む。）に養育されている場合\n・請求者又は児童が日本国内に住所を有しない場合",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/hitorioya/huyouteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM27",
+      "name": "ひとり親家庭医療費助成",
+      "shortName": "ひとり親家庭等医療費助成制度",
+      "summary": "ひとり親家庭の母または父、および、そのお子さんの医療費に対して助成を行います。",
+      "targetPersons": "対象者\n次の要件のいずれにも該当し、所得制限の範囲内のかたを対象とします。\n\n・東村山市内に住所を有すること\n・ひとり親家庭等の要件に該当すること\n・各種健康保険に加入していること\n\nただし、次のいずれかに該当するかたは対象となりません。\n\n・生活保護法による保護を受けているかた\n・児童福祉施設その他の施設（国民健康保険法による世帯主もしくは社会保険各法による被保険者その他これに準ずるものが負担すべき額を、国又は地方公共団体において負担している施設）に「措置」により入所している児童（通所により施設を利用している児童、利用契約入所の児童を除く。）\n\n所得限度額\n|扶養人数|ひとり親家庭の母又は父|配偶者・扶養義務者・養育者|\n|:----|:----|:----|\n|0人|192万円|236万円|\n|1人|230万円|274万円|\n|2人|268万円|312万円|\n|3人|306万円|350万円|\n|4人以上|1人増えるごとに38万円の加算|1人増えるごとに38万円の加算|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/hitorioya/maruoya.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM28",
+      "name": "母子父子寡婦福祉資金",
+      "shortName": "東京都母子・父子・女性福祉資金貸付",
+      "summary": "母子家庭の母、父子家庭の父、および寡婦の方の経済的自立や、扶養しているお子さんの福祉増進のために、必要な資金をお貸しする制度です。",
+      "targetPersons": "母子・父子家庭及び女性の方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/komatta/boshi/1bosikasituke.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM29",
+      "name": "未熟児養育医療の給付",
+      "shortName": "未熟児の養育医療費助成",
+      "summary": "未熟児養育医療の給付とは、身体の発育が未熟なまま生まれ入院を必要とする乳児が、指定養育医療機関において入院治療を受ける場合に、その治療に要する医療費を公費により負担する制度です。ただし、世帯の所得税額に応じて、入院治療費の一部は自己負担となります。",
+      "targetPersons": "下記の条件に全て該当する乳児\n\n東村山市内に住民登録がされていること\n（単身赴任等で保護者の住所が東村山市以外の場合でも、乳児が東村山市に住所がある場合は対象となります。）\n\n1歳未満であること\n（1歳になる誕生日の前々日までの医療費が対象です。）\n\n下記の（1）または（2）に該当すること\n　　(1)　出生時の体重が2,000グラム以下\n　　(2)　生活力が特に弱く、次のいずれかの症状があること\n\n給付の対象となる症状[養育医療の給付申請に対する決定（審査基準及び標準処理期間）による]\n|一般状況|(1)　運動不安・痙攣|\n|^|(2)　運動異常|\n|体温|(1) 摂氏34度以下|\n|呼吸器<br>循環器|(1)　強度のチアノーゼ持続|\n|^|(2)　チアノーゼ発作を繰り返す|\n|^|(3)　呼吸数が毎分50以上で増加傾向|\n|^|(4)　呼吸数が毎分30以下|\n|^|(5)　出血傾向が強い|\n|消化器|(1)　生後24時間以上排便がない|\n|^|(2)　生後48時間以上嘔吐が持続|\n|^|(3)　血性吐物・血性便がある|\n|黄疸|(1)　生後数時間以内に発生|\n|^|(2)　異常に強い|",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/teitaiju/boshi1-10.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM3",
+      "name": "出生届",
+      "shortName": "出生届",
+      "summary": "出生届とは、生まれてきたお子さんの氏名等を戸籍に記載するための手続きです。\n戸籍に記載されることで、生まれてきたお子さんの親族関係が公的に証明されます。",
+      "targetPersons": "産まれた子の父または母",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/koseki/kosekinotodokesyo/shussan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM31",
+      "name": "両親学級・妊婦学級",
+      "shortName": "ハローベビークラス（母親学級、両親学級）",
+      "summary": "お母さん（とお父さん）が安心して赤ちゃんを迎えられるように、東村山市では産科医師、歯科医師、保健師、栄養士、助産師などによる妊娠、出産、育児、栄養などに関する講義を開いています。これからお母さん（お父さん）になられる方同士の交流の場にもなりますので、ぜひお気軽にご参加ください。",
+      "targetPersons": "開催日に、妊娠24週から32週の安定期の方\n（週数がそれ以外の方は電話でご相談ください。）\n（注記）平日版ハローベビークラスは妊婦さんのみ、土曜日版ハローベビークラスは原則妊婦さんとパートナーの方のみの参加とさせていただきます。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi1-3.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM45",
+      "name": "夜間・休日急病診療所",
+      "shortName": "救急診療",
+      "summary": "東村山市では、夜間や日曜・祝日、年末年始に、市内の医療機関の協力のもと、当番制で診療を行っています。",
+      "targetPersons": "休日・準夜応急診療\n休日応急診療\n日曜日・祝休日・年末年始に急に体の具合が悪くなった時、救急車を利用するまでもない状況であっても早く医師の診療を受ける必要のあるかた\n\n休日準夜応急診療\n急に体の具合が悪くなった時、救急車を利用するまでもない状況であっても早く医師の診療を受ける必要のあるかた\n\n小児平日準夜応急診療\n15歳以下のかた\n\n休日歯科応急診療\n日曜日・祝休日に急に歯が痛くなった時、早く医師の診療を受ける必要のあるかた",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/bosai/kyukyu/kyukyu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM47",
+      "name": "東村山市の妊娠・出産に関する相談",
+      "shortName": "妊娠SOSひがしむらやま",
+      "summary": "東村山市では、思いがけない妊娠や出産、中絶や避妊に関すること等の悩みをお持ちの方に対し、電話またはメールにて、相談を受け付けております。",
+      "targetPersons": "思いがけない妊娠や出産、中絶や避妊に関すること等の悩みをお持ちの方\n\n原則として、東村山市にお住まいの方が対象です。",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/ninshin-sos.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM48",
+      "name": "妊娠・出産に関するその他のこと",
+      "shortName": "ゆりかご訪問",
+      "summary": "妊娠中や産後に助産師が訪問します。健康・体調管理や育児について具体的な手技の確認といった支援を行います。",
+      "targetPersons": "妊娠中や産後",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi-yurikago.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM49",
+      "name": "乳幼児健康診査（6か月未満児）",
+      "shortName": "3から4か月児健康診査《集団健診》",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として3から4か月児健康診査を実施しています。",
+      "targetPersons": "3から4か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/nyuuyoujikenkou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM50",
+      "name": "乳幼児健康診査（6か月から12か月児）",
+      "shortName": "6から7か月児健康診査・9から10か月児健康診査《個別健診》",
+      "summary": "お子さんの病気の予防と病気の早期発見、そして健康保持と増進を目的として6か月から7か月児、9か月から10か月児乳幼児健康診査を実施しています。",
+      "targetPersons": "6か月から7か月、9か月から10か月の乳児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/nyuuyoujikenkou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5010",
+      "name": "新生児聴覚検査",
+      "shortName": "新生児聴覚検査",
+      "summary": "聴覚障害は、早期発見・治療により言葉の発達などへの影響が最小限に抑えられることが分かっていることから、生まれたばかりの赤ちゃんに聴覚障害の疑いがないかを調べる新生児聴覚検査の費用の一部を助成しています。",
+      "targetPersons": "市内在住の新生児（原則として生後50日以内）",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/tyoukaku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5011",
+      "name": "伴走型相談支援",
+      "shortName": "伴走型相談支援",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。",
+      "targetPersons": "妊娠届を出すかた、又は出産するかた",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/shussankosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5013",
+      "name": "出産・子育て応援ギフト（国の出産・子育て応援給付金）",
+      "shortName": "経済的支援",
+      "summary": "すべての妊婦さんと子育て家庭が安心して出産・子育てができるように、妊娠から出産・子育てまでの一貫した「伴走型相談支援」を実施しています。この相談支援と一体的に実施する経済的支援として、「出産・子育て応援ギフト」を給付しています。",
+      "targetPersons": "妊娠届を出すかた、又は出産するかた",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/shussankosodate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5028",
+      "name": "放課後子供教室",
+      "shortName": "放課後子ども教室",
+      "summary": "地域住民の参画を得て、放課後等に全ての児童を対象として、学習や体験・交流といった多様な活動を行っています。",
+      "targetPersons": "参加対象児童\n大岱小学校、秋津小学校、青葉小学校、富士見小学校、南台小学校、東萩山小学校、化成小学校、野火止小学校、八坂小学校にそれぞれ在学する1年生から6年生の児童",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/seishonen/hokago/kodomokyousitu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5035",
+      "name": "国民健康保険における産前産後期間保険料（税）免除",
+      "shortName": "産前産後期間の国民健康保険税の免除",
+      "summary": "令和6年1月1日より産前産後期間相当分の国民健康保険税の所得割額と均等割額が免除されます。少子化傾向が続く中で子育て世帯のさらなる経済的負担の軽減、次世代育成支援を行うことを目的としています。",
+      "targetPersons": "令和5年11月1日以降に出産する国民健康保険被保険者のかた\n（注記）出産とは妊娠85日以上の分娩をいいます。（死産、流産、早産および人工妊娠中絶の別は問いません）",
+      "categories": [
+        "002",
+        "003",
+        "015"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/zei/kokuho/hoken/hokenzei/sanzensangomenzyo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5037",
+      "name": "自立支援医療制度",
+      "shortName": "自立支援医療費制度（精神通院医療）",
+      "summary": "精神障害者がその有する能力及び適性に応じて、自立した日常生活又は社会生活を営むことができるよう、精神障害の状態の軽減のために必要な医療について自立支援医療費支給することにより、精神障害者の福祉の増進と精神障害の適正な医療の普及を図ることを目的としています。",
+      "targetPersons": "||所得の条件|負担上限額|\n|:----|:----|:----|\n|生活保護|生活保護世帯又は支援給付世帯|0円|\n|低所得1|市区町村民税非課税世帯<br>本人収入80万円以下（年金等を含む）|2,500円|\n|低所得2|市区町村民税非課税世帯<br>本人収入80万円超える方（年金等を含む）|5,000円|\n|中間所得層1|市区町村民税（所得割）が合計3万3千円未満の世帯で高額治療継続者（重度かつ継続）に該当する方|5,000円|\n|^|（重度かつ継続）に非該当の方は、負担上限月額はなく、負担額は医療費の1割|<|\n|中間所得層2|市区町村民税（所得割）が合計3万3千円から23万5千円未満の世帯で高額治療継続者（重度かつ継続）に該当する方|10,000円|\n|^|（重度かつ継続）に非該当の方は、負担上限月額はなく、負担額は医療費の1割|<|\n|一定所得以上|市区町村民税（所得割）が合計23万5千円以上の世帯で高額治療継続者（重度かつ継続）に該当する方（経過的特例、下記参照）|20,000円|\n|^|(重度かつ継続）に非該当の方は、この制度は受けられません|<|",
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/shogai/tetuduki/iryouhijyosei/zirituiryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5046",
+      "name": "副食費補助",
+      "shortName": "東村山市補足給付事業補助金",
+      "summary": "私立幼稚園に通う園児の保護者が給食費や園で使用する日用品・教材などのために負担する費用について、一定の条件を満たす世帯を対象に費用の一部を給付する事業です。",
+      "targetPersons": "対象者　：　新制度未移行園に通う新認定を受けた園児保護者で、東村山市に住民登録がある方のうち、次のアまたはイに該当する方\nア）世帯の市民税所得割額の合計が77,101円未満の世帯の保護者\nイ）同一世帯の小学3年生までの子どもの中で3番目以降の子どもの保護者\n\n注記：4月から8月分は令和5年度、9月から翌3月分は令和6年度の課税状況によります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/youchien/hoiku20230401.html#top",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM5047",
+      "name": "保育所等における医療的ケア児への支援",
+      "shortName": "手厚い保育優先枠",
+      "summary": "保育所等において看護師等を配置し、医療的ケア児の受入れ体制を整備しております。",
+      "targetPersons": "手厚い保育優先枠は、保育が必要となるお子さんで、発達の遅れや課題がある、こだわりが強い、または医療的ケアが必要等の保育上の配慮が必要な集団的保育が可能と見込める児童を対象としております。",
+      "categories": [
+        "004",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/yuusen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM51",
+      "name": "1歳6か月児健康診査",
+      "shortName": "1歳6か月児健康診査《集団健診》",
+      "summary": "1歳6か月の頃は乳児期から幼児期に移行する大切な時期です。東村山市では1歳6か月児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "1歳6か月児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/nyuuyoujikenkou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM52",
+      "name": "3歳児健康診査",
+      "shortName": "3歳児健康診査",
+      "summary": "からだやこころの成長とともに社会性も急速に発達するこの頃は、人間形成の基礎となる大切な時期です。東村山市では3歳児健康診査を実施しています。\n小児科医による診察のほか、歯科健診も行います。",
+      "targetPersons": "3歳児\n詳しくは、母子保健　乳幼児健康診査年間日程;https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/boshi2-2.htmlのページをご覧ください。\n\nまた、該当する方には個別にお知らせいたします。なお、市報でもご案内いたしますので、通知が届かない方はご連絡ください。",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/event/kodomo/nyuji/3sai-kensin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM53",
+      "name": "自治体独自の乳幼児健診",
+      "shortName": "妊産婦乳幼児保健指導",
+      "summary": "経済的理由により医療機関において妊産婦・乳幼児の診察や検査をはじめ、療育の指導・健康増進に必要な保健上の注意・助言を受けられない方に対して、指定医療機関にて公費で診察を受けられる指導票を交付します（申請手続きが必要です）。",
+      "targetPersons": "1.生活保護法による被保護世帯\n2.市民税非課税世帯",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi1-5.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期の予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "乳幼児",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/kodomo-yobou/teikisesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "多胎児家庭移動経費補助",
+      "summary": "東村山市では、3歳未満の多胎児（双子、三つ子）が健康診査や予防接種などの母子保健事業を受ける際のタクシー移動に利用できる「こども商品券」を配布いたします。",
+      "targetPersons": "東村山市在住で、0歳から2歳の多胎児を養育する保護者\n\n0歳から2歳までの年齢ごとに1回助成します。\n\n・0歳は、出生した日から1歳のお誕生日の前日までです。\n・1歳は、1歳のお誕生日から2歳のお誕生日の前日までです。\n・2歳は、2歳のお誕生日から3歳のお誕生日の前日までです。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/tataijikateihojokin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM59",
+      "name": "自立支援教育訓練給付金",
+      "shortName": "母子家庭等自立支援教育訓練給付金",
+      "summary": "母子家庭の母及び父子家庭の父の自立の促進を図るため、就職に向けて能力開発講座等に取り組めるよう、講座を受講し、修了した場合に本人が支払った費用の一部を支給します。\n※受講申し込み前に事前相談が必要となります。",
+      "targetPersons": "市内にお住まいの18歳に達する年度末までの児童（20歳未満で中度以上の障害のある児童を含む）を養育している母子家庭の母及び父子家庭の父で、次のすべての要件を満たす方。\n\n・児童扶養手当の支給（全部支給又は一部支給）を受けている方。または、児童扶養手当の支給要件と同等の所得水準の方\n・当該講座の受講が、適職に就くために必要であると認められる方\n・過去に当該給付金を受給していない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/komatta/boshi/1kyuufukin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "妊婦",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi1-2.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM60",
+      "name": "高等職業訓練促進給付金",
+      "shortName": "母子家庭等高等職業訓練促進給付金",
+      "summary": "母子家庭の母及び父子家庭の父の生活の安定を図るため、就業を容易にすることができる1年以上（※）の修業を要する国家資格等の取得を目的とした修業期間の経済的支援を行います。\n※令和3年4月1日～令和6年3月31日までに修業しを開始した場合については、６か月以上の修業を支給対象とします。",
+      "targetPersons": "市内にお住まいの18歳に達する年度末までの児童（20歳未満で中度以上の障害のある児童を含む）を養育している母子家庭の母及び父子家庭の父で、次のすべての要件を満たす方。\n\n・児童扶養手当の支給（全部支給又は一部支給）を受けている方。または、児童扶養手当の支給要件と同等の所得水準の方\n・修業年限が1年以上の養成機関において修業し、資格の取得が見込まれる方\n・過去に訓練促進給付金または、これに相当する給付金等の支給を受けていない方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/komatta/boshi/1koutou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM62",
+      "name": "特別児童扶養手当",
+      "shortName": "特別児童扶養手当",
+      "summary": "20歳未満で、法令により定められた程度の障がいの状態にある児童を監護している父母（主として児童の生計を維持するいずれか一人）または父母にかわって児童を養育（児童と同居し、監護し、生計を維持）する方に支給されます。",
+      "targetPersons": "身体又は精神に次の障害のある20歳未満の児童を養育している方。\n（注記）養育者の所得制限があります。\n\n特児等級1級\n・身体障害者手帳おおむね1級・2級程度\n・愛の手帳1度・2度程度\n\n特児等級2級\n・身体障害者手帳おおむね3級程度\n・愛の手帳おおむね3度程度\n\n上記と同程度の疾病もしくは身体又は精神の障害のある方。\n複数の障害がある場合（重複障害）は、個々の障害の程度が上記より軽度な場合でも該当となることがあります。\n\n所得制限\n所得制限限度額\n|扶養親族等の数\t|受給者|配偶者・扶養義務者|\n|:----|:----|:----|\n|0人|4,596,000円|6,287,000円|\n|1人|4,976,000円\t|6,536,000円|\n|2人|5,356,000円|6,749,000円|\n|3人|5,736,000円|6,962,000円|\n|4人以降1人増す毎に加算|380,000円|213,000円|",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/shogai/tetuduki/teateichiran/tokuji.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM63",
+      "name": "障害児福祉手当",
+      "shortName": "障害児福祉手当",
+      "summary": "身体または精神に重度の障がいのある20歳未満の方で、日常生活において常時介護を必要とする方に対し、手当が支給されます。",
+      "targetPersons": "対象となる方\n精神又は身体に重度の障害を有するため、日常生活において常時の介護を必要とする状態にある在宅の20歳未満の方。\n障害の程度に細かい基準がありますので、詳しくはお問い合わせください。\n\n対象とならない方\n次のいずれかにあてはまる方は対象となりません。\n\n・本人・配偶者・扶養義務者の所得が所得制限以上の方(≫下表参照)　\n・施設に入所している方\n・障害年金を受けている方\n\n所得制限\n障害児福祉手当 所得制限限度額表\n|扶養親族数|障害者本人|扶養義務者|\n|:----|:----|:----|\n|0人|3,604,000円|6,287,000円|\n|1人|3,984,000円|6,536,000円|\n|2人|4,364,000円\t|6,749,000円|\n|3人|4,744,000円|6,962,000円|\n|4人|5,124,000円|7,175,000円|\n|1人増すごとに加算|380,000円|213,000円|",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/shogai/tetuduki/teateichiran/syougaiziteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM64",
+      "name": "小児慢性特定疾病医療費の助成",
+      "shortName": "小児慢性特定疾病医療費助成制度",
+      "summary": "子どもの慢性疾病のうち、治療期間が長く、医療費負担が高額となる疾病について、治療方法の確立と普及、患者家庭の医療費の負担軽減につながるよう、医療費の自己負担分を補助しています。",
+      "targetPersons": "次の2つの要件をどちらも満たすかた\n\n1.医療保険上の扶養者が東京都内に住所を有する満18歳未満のかた（継続の場合は満20歳未満のかた）\n2.小児慢性特定疾病医療支援事業の対象疾患に罹患しているかたで、かつ、定められた認定基準に該当するかた",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kosodate/syounimansei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM66",
+      "name": "自治体独自の医療費助成制度",
+      "shortName": "大気汚染医療費助成制度",
+      "summary": "大気汚染の影響を受けると推定される疾病（気管支ぜん息など）にかかった方に対し、一定の要件を満たす場合に、医療費の助成をしています。",
+      "targetPersons": "以下の条件を全て満たしている方が対象です。\n1　18歳未満の方\n2　以下のいずれかにり患している方\n　(1)気管支ぜん息\n　(2)慢性気管支炎\n　(3)ぜん息性気管支炎\n　(4)肺気腫支ぜん息方\n(5)(1)から(4)の続発症\n3　東京都内に引き続き1年以上住所を有する方（注記2）\n4　健康保険等に加入している方\n5　申請日以降喫煙しない方\n\n（注記2）3歳未満は6ヶ月",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/kenko/iryohi/taikiosenn.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "障害手当",
+      "summary": "20歳未満の障害のあるお子さんの保護者を対象に、障害手当を支給しています。",
+      "targetPersons": "障害手当\n都内に住所があり、対象となる児童を扶養しているかた（いずれも保護者の所得制限があります）。\n\n20歳未満で心身に障害があり、その程度が次のいずれかに該当する児童。\n\n・知的障害で「愛の手帳」1、2、3度程度の児童\n・身体障害で「身体障害者手帳」1、2級程度の児童\n・脳性麻痺又は進行性筋萎縮症の児童\n\n所得制限額\n所得制限額表\n|扶養人数|保護者・養育者の所得額|\n|:----|:----|\n|0人|3,604,000円|\n|1人|3,984,000円|\n|2人|4,364,000円|\n|3人|4,744,000円|\n|1人増加ごと|380,000円加算|\n\n例：扶養人数が0人である場合・・・所得が360万4千円以上となると手当が支給されません。\n\n（注記）扶養人数が1人以上の場合は1人増える毎に38万円を加算して、判断してください。\n（注記）老人扶養親族1人につき100,000円、特定扶養親族または19歳未満の控除対象扶養親族1人につき250,000円を、所得制限限度額に加算できます。\n\n控除額一覧\n|控除内容|控除額|\n|:----|:----|\n|社会保険料控除（一律）|80,000円|\n|寡婦（寡夫）控除|270,000円|\n|寡婦の特別者控除|350,000円|\n|普通障害者・勤労学生・障害者扶養控除|270,000円|\n|特別障害者・特別障害者扶養控除|400,000円|\n|雑損・医療費・小規模企業共済等掛金・配偶者特別控除|控除相当額|\n\n譲渡所得に係る特別控除およびみなし寡婦（夫）控除について\n\n所得の対象年度が5月より切り替わります\n所得制限について、対象年度が、5月申請分（6月分の手当）より令和4年中の所得から令和5年中の所得に切り替わります。\n所得制限額を超えていたために、これまで受給できなかったかたでも、受給できる場合があります。この場合は、5月中に申請の手続きを行ってください（6月分からの手当が支給されます。）。\nなお、現在手当を受給しているかたは申請の必要はありませんが、6月に現況届を提出してください（現況届は、5月末に郵送いたします。）。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/hitorioya/ikuseiteate.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM7",
+      "name": "里帰り出産時の妊婦健康診査の費用助成",
+      "shortName": "里帰り出産時の妊婦健康診査の費用助成",
+      "summary": "東村山市にお住まいの妊婦さんが、里帰り出産などで東村山市の委託医療機関以外の病院や助産所で妊婦健康診査を受診した場合、その健診にかかった費用の一部を償還払い（後払い）します。",
+      "targetPersons": "次のいずれにも該当するかた\n\n1.受診日において東村山市に住民登録があるかた\n2.受診票を使用できない医療機関等で妊婦健診や新生児等聴覚検査を受診し、自己負担で費用を支払ったかた\n（注記）申請時点で東村山市に住民登録がない場合でも、上記を満たすかたは対象となります。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/ninnpu-kensin-hojo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM71",
+      "name": "子どものための教育・保育給付認定（1号・2号・3号）",
+      "shortName": "子どものための教育・保育給付認定",
+      "summary": "子ども・子育て支援新制度による給付を受ける幼稚園や認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）を利用するには、お子さんの年齢や保育の必要性の有無、保育の必要量に応じた認定を受ける必要があります。\n\nまた、企業主導型保育（地域枠）については、お住まいの自治体から教育・保育給付認定を受けることで、「幼児教育・保育の無償化」による助成を受けることができます。",
+      "targetPersons": "「子供のための教育・保育給付認定」は、新制度の幼稚園や保育所、認定こども園、地域型保育事業所など、教育・保育施設・事業を利用する場合、必要となる認定です。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/nintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM72",
+      "name": "多子世帯・ひとり親世帯・在宅障がい児（者）のいる世帯の保育料軽減",
+      "shortName": "保育所利用者負担額（保育料）",
+      "summary": "子ども・子育て支援新制度による給付を受ける保育園などを利用するお子さんのうち、多子世帯やひとり親世帯、在宅障がい児（障がい者）のいる世帯などの保育料を軽減しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM73",
+      "name": "認可保育所（保育園）の利用について",
+      "shortName": "認可保育所（保育園）の利用",
+      "summary": "保育園とは、保護者が共に働いていたり病気などの理由で、昼間家庭において保育を受けられないお子さんを、保護者に代わって保育する児童福祉施設で、法的には「保育所」といいます。\n保育所（保育園）には、国が定めた設置基準をクリアし、都道府県知事に認可された保育所と、それ以外の保育所がありますが、ここでは認可された保育所についてご案内します。\n\n保育園では在園児を対象とした「延長保育」のほか、「一時預かり」などを行っている園もあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/dl/kodomo/hoiku_download.html#cms80047",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM74",
+      "name": "認定こども園の利用について",
+      "shortName": "認定こども園の利用",
+      "summary": "認定こども園とは、0歳から就学前の子どもへ保育サービスを提供する「保育園機能」、3歳から就学前の子どもに幼児教育を提供する「幼稚園機能」、すべての子育て家庭を対象に、子育ての不安に対応した相談活動や親子が交流する場の提供などの「子育て支援機能」を併せ持つ施設です。\n「幼保連携型」「幼稚園型」「保育所型」「地方裁量型」の4タイプがあり、利用には、教育・保育の必要に応じた利用認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/dl/kodomo/hoiku_download.html#cms80047",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM75",
+      "name": "地域型保育（小規模保育・家庭的保育（保育ママ）・事業所内保育・居宅訪問型保育）の利用について",
+      "shortName": "地域型保育事業",
+      "summary": "「地域型保育」事業は、平成27年度施行の「子ども・子育て支援新制度」による、市区町村の認可事業です。保育の必要な3歳未満の子どもを対象とした「小規模保育」「家庭的保育（保育ママ）」「事業所内保育」「居宅訪問型保育」の4種類があり、市区町村ごとに地域の保育ニーズに合わせたサービスを実施することになっています。東村山市には現在、下記の保育サービスがあり、利用には保育の必要性の認定を受ける必要があります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/shisetsuichiran/chiikigatahoikujigyo/tiikigata.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM76",
+      "name": "延長保育",
+      "shortName": "延長保育料",
+      "summary": "東村山市内の保育園（保育所）や認定こども園、地域型保育施設では、保護者の勤務時間などにより、認定を受けた時間帯を超えて保育が必要なお子さんを対象に、別途料金を徴収のうえで、延長保育を実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/hoikuryou.html#cms39BFF",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM782",
+      "name": "ショートステイ（短期入所生活援助事業）",
+      "shortName": "子どもショートステイ",
+      "summary": "保護者が入院や通院、出張などの理由で、一時的に家庭でお子様の面倒をみられなくなったときに、お近くの児童養護施設で、宿泊を伴ってお子さんをお預かりします。",
+      "targetPersons": "市内在住の2歳から中学3年生までの児童\n（お子さんが感染症などで体調不良の場合や、施設での養育が困難な場合は利用できません。）",
+      "categories": [
+        "003",
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/kosodate/sho-tosutei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM79",
+      "name": "放課後児童クラブ",
+      "shortName": "児童クラブ",
+      "summary": "放課後児童クラブは、保護者が就労などにより、昼間家庭にいない小学校に就学しているお子さんに対し、適切な遊びおよび生活の場を与え、児童の健全な育成および保護者の就労と子育ての両立支援を図ることを目的としています。",
+      "targetPersons": "保護者の就労などにより育成支援が必要な小学校に就学する1年生から6年生までの児童",
+      "categories": [
+        "005"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/jidokan/annai/kurabusetsumei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM791",
+      "name": "出生連絡票・低体重児出生届",
+      "shortName": "低体重児の届出と未熟児訪問指導",
+      "summary": "赤ちゃんが生まれたら、母子手帳に添付されている出生連絡票（はがき）を記入して、郵送または提出してください。出生連絡票をもとに、「こんにちは赤ちゃん事業（乳幼児全戸訪問）」のご連絡をします。\nなお、法律（母子保健法）で2,500グラム未満のお子さんが出生した時は、保護者がその旨を速やかに届け出ることが義務づけられており、出生連絡票はその届出を兼ねています。",
+      "targetPersons": "体重が2,500グラム未満の乳児（保護者の方に届け出ていただきます）\n（注記）　母子保健法第18条の規定により、届出が義務付けられています。",
+      "categories": [
+        "002"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/teitaiju/boshi1-9.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM793",
+      "name": "産前産後期間の国民年金保険料免除",
+      "shortName": "出産前後の国民年金保険料免除",
+      "summary": "国民年金の第1号被保険者が出産した場合には、出産前後の一定期間の国民年金保険料が免除されます。\n免除期間は年金額を計算する際、保険料を納めた期間として扱われます。",
+      "targetPersons": null,
+      "categories": [
+        "002",
+        "016"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kurashi/zei/nenkin/kaisei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM798",
+      "name": "離乳食教室",
+      "shortName": "ごっくん離乳食",
+      "summary": "生後5か月から6か月のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "開催日に、離乳食をこれから始める親子・始めたばかりの親子（生後5か月から6か月児）\n（離乳食を始めて1か月程たっている方は、もぐもぐ離乳食をご参加ください。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/gokkun_r.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM799",
+      "name": "こども家庭センター",
+      "shortName": "子ども家庭支援センター",
+      "summary": "東村山市の【子ども家庭支援センター】では、全ての妊産婦・子育て家庭に対する相談等への対応、サポートプランに基づく妊産婦の健康やこどもの養育に関する支援などを行っています。",
+      "targetPersons": "0歳から18歳未満の子ども自身、その保護者や家族・関係者、子どもに関わる個人・グループ",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/kosodate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM8",
+      "name": "妊産婦の歯科健診",
+      "shortName": "妊婦歯科健康診査",
+      "summary": "妊娠中や出産後は女性ホルモンの分泌の変化や食事回数の増加などから虫歯や歯周病になりやすく、進行しやすい時期です。こうした時期のお口の中の健康を維持するために、歯科健診をおすすめしています。健診には健康保険が適用されませんが、経済的負担を軽減するため、健診にかかる費用の一部を助成する妊産婦歯科健診受診票をお渡ししています。",
+      "targetPersons": "妊娠中のかた（受診推奨期間：妊娠16週から28週の安定期）\n\n（注記）受診票は、母子健康手帳交付時にお渡しします。　\n（注記）受診推奨期間以外での受診も出来ますが、ご自身の体調に十分ご配慮いただき、産婦人科主治医、歯科医師とご相談のうえ、無理のない受診をお願いいたします。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/pregnant-dental.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM80",
+      "name": "幼稚園の利用について",
+      "shortName": "幼稚園の利用",
+      "summary": "幼稚園とは、学校教育法に基づき、満3歳から小学校就学前までのお子さんに幼児教育を提供する施設（学校）です。1日4時間の教育を標準とし、小学校や中学校のように夏休みや春休みなどもありますが、多くの園で教育時間終了後や長期休暇中の預かりも行っています。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/dl/kodomo/hoiku_download.html#cms4A715",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM802",
+      "name": "子育て支援パスポート",
+      "shortName": "子育て応援とうきょうパスポート事業",
+      "summary": "「子育て支援パスポート事業」は、子育てを応援しようとする社会的機運の醸成を目的として推進している事業であり、企業・店舗等が、子育て世帯や妊娠中の方がいる世帯に対して、様々なサービスを提供する仕組みです。",
+      "targetPersons": "東京都内在住で、18歳未満のお子様がいる、または妊娠中のかたのいる世帯のかた\n（注）18歳に達した後、最初の3月31日を迎えるまでを対象とします。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/kosodateouen.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM803",
+      "name": "幼児教育・保育施設の保育料について",
+      "shortName": "保育所利用者負担額（保育料）",
+      "summary": "子ども・子育て支援新制度による給付を受ける認可保育園、認定こども園、地域型保育事業（小規模保育・家庭的保育・居宅訪問型保育・事業所内保育）の保育料（利用者負担額）は、国が定めた額を上限として、東村山市が認定区分ごとに、世帯の所得状況、利用時間（標準時間・短時間）などに応じて定めた額となります。\nそれ以外の私学助成の幼稚園や認可外保育施設などの利用料は、施設ごとに定めた額になります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/hoikuryou.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM804",
+      "name": "小規模保育施設一覧",
+      "shortName": "地域型保育事業施設一覧",
+      "summary": "市区町村の認可事業として行われる小規模保育では、3歳未満の保育が必要なお子さんを、比較的小規模（定員6人以上19人以下）で、家庭的保育に近い雰囲気のもとで、きめ細かな保育を実施しています。\n保育所分園に近いA型、家庭的保育（グループ型小規模保育）に近いC型と、その中間的なB型の3タイプがあります。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/shisetsuichiran/chiikigatahoikujigyo/tiikigata.html#top",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM82",
+      "name": "幼稚園・認定こども園での預かり保育",
+      "shortName": "幼稚園・認定こども園での預かり保育",
+      "summary": "幼稚園や認定こども園（幼稚園枠）では、教育時間の開始前や終了後、夏休みなどの幼稚園休園日に、お子さんをお預かりしています。\n通常の保育料に加え、別途利用料が必要です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/dl/kodomo/hoiku_download.html#cms4A715",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM824",
+      "name": "自立支援医療制度（精神通院医療）",
+      "shortName": "自立支援医療費制度（精神通院医療）",
+      "summary": "障害者等が自立した日常生活又は社会生活を営むため、心身の障害の状態を軽減するための医療費の自己負担額を軽減する措置として、自立支援医療費を支給しております。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "025",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/shogai/tetuduki/iryouhijyosei/zirituiryo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM83",
+      "name": "一時預かり（一時保育）",
+      "shortName": "一時保育",
+      "summary": "保護者のパート就労や病気等による緊急時、育児疲れなどのリフレッシュのために、家庭において保育を受けることが一時的に困難となったお子さんを、保育園、地域子育て支援拠点などで一時的にお預かりしています。",
+      "targetPersons": "保護者の方が就労、通院などの理由で保育が必要な場合、または病気や出産等で入院するなど、家庭での保育が一時的に困難となった場合に日中お子さんをお預かりする制度です。一日10名程度受け入れています。\n\n（注記）保育施設（認定こども園の保育枠を含む）に通うかたは利用できません。\n\n対象：生後3ヵ月から小学校就学前のお子さん",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/ichiji/ichijihoiku.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM85",
+      "name": "病児・病後児保育",
+      "shortName": "病児・病後児保育",
+      "summary": "児童が病中又は病気の回復期にあって自宅での保育が困難な期間、医療機関等に付設された専用スペース等において保育及び看護ケアを行うという保育サービスです。",
+      "targetPersons": "東村山市に居住する生後6か月から小学校3年生までのお子さん\n病気にかかっているまたはその回復期にあり、入院加療の必要はないものの安静の必要がある場合\n（注記）病児・病後児保育室を利用できない疾患があります。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/byouji/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM87",
+      "name": "ファミリー・サポート・センター",
+      "shortName": "ファミリー・サポート・センター（子どもの預かり・送迎）",
+      "summary": "東村山市のファミリー・サポート・センターは、子育ての援助を受けたい人と援助を行いたい人が会員登録をし、援助会員が依頼会員に対してさまざまな育児の手助けをする事業です。",
+      "targetPersons": "東村山市に在住または在勤し、概ね生後2か月から小学校6年生までの子どもの保護者で、育児の援助が必要な方",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/f-1/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM89",
+      "name": "認可保育所・認定こども園（保育園枠）一覧",
+      "shortName": "認可保育所・認定こども園（保育園枠）一覧",
+      "summary": "保育園とは、保護者が仕事や病気などのために、家庭で充分に保育することができない子どもを、保護者に代わって保育することを目的とした児童福祉施設で、法的には保育所といいます。\n保育所（保育園）のうち、国が定めた設定基準をクリアし、都道府県知事（政令市・中核市では市長）に認可された保育園を「認可保育所」といいます。\n認可保育所には公立の保育園と私立の保育園があります。\n以下は、東村山市内の認可保育所（保育園）および認定こども園の保育園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/dl/kodomo/files/hoiku_download_N_R6nyuusyoannnai.pdf",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM91",
+      "name": "認可外保育施設一覧",
+      "shortName": "認可外保育施設一覧",
+      "summary": "認可外保育施設とは、公的助成の有無や事業規模などにかかわらず、児童福祉法、もしくは認定こども園法に基づく認可を受けていない、お子さんを預かる施設・サービスの総称で、保育の内容や料金設定などは施設によりさまざまです。\n下記は、東村山市内にある「幼児教育・保育の無償化」の対象となる認可外保育施設の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/ninkagaikyouiku/ninkagaisisetuitiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM93",
+      "name": "家庭的保育（保育ママ）一覧",
+      "shortName": "家庭的保育（保育ママ）一覧",
+      "summary": "市区町村の認可事業として行われる家庭的保育（保育ママ）は、3歳未満の保育が必要なお子さんを、少人数（定員5人以下）で、東村山市が認定した家庭的保育者の自宅などで預かるサービスです。家庭的な雰囲気の中できめ細かな保育を実施します。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/shisetsuichiran/chiikigatahoikujigyo/tiikigata.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM95",
+      "name": "新制度の幼稚園・認定こども園（幼稚園枠）一覧",
+      "shortName": "市内の新制度幼稚園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、東村山市内の新制度による給付を受ける幼稚園、および、認定こども園の幼稚園枠の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/youchien/youchien-ichiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+1+UM96",
+      "name": "私学助成（従来制度）の幼稚園一覧",
+      "shortName": "市内の新制度未移行幼稚園",
+      "summary": "幼稚園には公立の幼稚園と私立の幼稚園があります。\n私立幼稚園には、新制度による給付を受ける幼稚園と、新制度には移行せず、私学助成を受けて運営している幼稚園があります。\n以下は、東村山市内の私学助成を受ける幼稚園の一覧です。",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/youchien/youchien-ichiran.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "歯みがきスタート教室",
+      "summary": "歯のお手入れ方法、虫歯予防のお話",
+      "targetPersons": "9か月児から11か月児のお子さまと保護者\n（注記）9か月未満でも歯が生えているかたは参加可能です。\n\n（1歳以上のお子さまは、『1歳児さん集まれ ピカピカ歯みがき教室』をご利用ください。）",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/event/kodomo/nyuji/hamigakistart2024.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "多胎児家庭サポーター事業",
+      "summary": "東村山市では、3歳未満の多胎児（双子、三つ子）を育てるご家庭にサポーターが訪問し、家事や育児の支援を行っています。",
+      "targetPersons": "3歳未満の多胎児を養育する保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/tataiji-supporter.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM110",
+      "name": "子育て支援拠点・地域子育て支援センター",
+      "shortName": "子育て総合支援センター「ころころの森」",
+      "summary": "子育て総合支援センターは、子育て中の親子が気軽に集い、相互交流や子育ての不安・悩みを相談できる場を提供しています。また、地域の子育て関連情報の提供や、子育て支援に関する講習なども実施しています。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/corocoronomori/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM111",
+      "name": "子育てに関する各種コミュニティ・団体一覧",
+      "shortName": "2・3・4か月の赤ちゃんとママの会",
+      "summary": "東村山市内で子育てに関する活動を行う、コミュニティやサークル、各種団体のご案内です。",
+      "targetPersons": "生後2か月から4か月の赤ちゃんとお母さん\n（今年度は、第二子以降が生後2.3.4か月の赤ちゃんとママの参加も受けております。その際、対象の児以外のきょうだい児については、安全のためご同伴はご遠慮いただいています。）",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/boshi1-13.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM119",
+      "name": "東村山市の子育てに関する相談",
+      "shortName": "子育て電話相談（子育て全般についての相談）",
+      "summary": "子育て全般についての相談",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/kosodatesedai.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM2367",
+      "name": "子育てのための施設等利用給付認定（新1号・新2号・新3号）",
+      "shortName": "子育てのための施設等利用給付認定",
+      "summary": "子ども子育て支援新制度に移行していない幼稚園（私学助成の幼稚園）や認可外の保育施設、幼稚園の預かり保育や一時保育などの利用料について、「幼児教育・保育の無償化」による助成を受けるには、お子さんの年齢や世帯の課税状況、保育の必要性などに応じて、「施設等利用給付」の認定を受ける必要があります。",
+      "targetPersons": "新制度未移行の幼稚園や認可外保育施設等を利用するかた",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/nintei.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "幼児教育・保育の無償化の対象と範囲\n||0〜2歳クラス|満3歳児|3〜5歳クラス|\n|:----|:----|:----|:----|\n|認可保育所等|◯|◯|◎|\n|認定こども園（保育）|◯|◯|◎|\n|新制度幼稚園|−|◎|◎|\n|認定こども園（教育）|−|◎|◎|\n|新制度未移行幼稚園|−|●|●|\n|認可外保育施設等|☆|☆|★|\n|一時保育等|☆|☆|★|\n|記号の見方|◎：全世帯が無償化<br>◯：市民税非課税世帯は無償化<br>★：月37,000円まで無償化<br>☆：市民税非課税世帯は月42,000円まで無償化<br>●：月25,700円まで無償化<br>−：該当なし|<|<|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/shikaranooshirase/youjikyouikumusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM2369",
+      "name": "自治体独自の幼児教育・保育施設の補助・減免",
+      "shortName": "認可外保育施設等多子負担軽減加算",
+      "summary": "「幼児教育・保育の無償化」の対象とならない認証保育施設及び市内定期利用保育施設に通うお子さんの保護者の経済的負担を軽減するために、保育料に対する補助を行っています。",
+      "targetPersons": "東村山市に在住する認可外保育施設等園児の保護者\n上記の保護者補助金に加え、第二子以降の児童が認可外保育施設等に在籍している場合は、多子負担軽減加算が上乗せされます。",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/ninkagaikyouiku/ninkagaihojokin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM2370",
+      "name": "広域入所（市外の認可保育所等への入所）",
+      "shortName": "管外受託",
+      "summary": "「広域入所」とは、里帰り出産や保護者の勤務地の都合などにより、他の市区町村の保育所へ入所できる制度です。\n下記のいずれの場合も、お住まいの市区町村から保育の必要性について認定を受ける必要があります。\nA：東村山市内にお住まいの方が、市外の認可保育所への入所を希望する場合\nB：市外にお住まいの方が、東村山市内の認可保育所への入所を希望する場合",
+      "targetPersons": null,
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/hoikujyo/nyuusyotetsuduki/hoiku20220915.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM24",
+      "name": "児童手当",
+      "shortName": "児童手当",
+      "summary": "家庭における生活の安定と、これからの社会を担うお子さんの健やかな成長のために、高校生年代までの児童（0歳から18歳に達する日以後の最初の3月31日までの間にある子）を養育している人に、児童手当を支給します。",
+      "targetPersons": "高校生年代（18歳に達する日以後の最初の3月31日）までのお子さんを養育している方が対象です。\nお子さんを養育している父母、または未成年後見人の場合:原則として、お子さんが日本国内に住んでいる場合に手当を支給します。\nお子さんが留学を理由に海外に住んでおり、以下の要件を満たしている場合は、例外として、そのお子さんの分の手当を受け取ることができます。\n1.日本国内に住所を有しなくなった前日までに日本国内に継続して3年を超えて住所を有していたこと\n2.教育を受けることを目的として海外に居住しており、父母（未成年後見人がいる場合はその未成年後見人）と同居していないこと\n3.日本国内に住所を有しなくなった日から3年以内であること\n※その他、短期間留学していて日本に帰国し、再び3年以内に留学する場合などは、上記の要件を満たしていなくても、手当を受け取れる場合があります。\n両親が離婚協議中で別居している場合:父母が、離婚協議中で別居している場合は、お子さんと同居している方を優先して支給する場合があります。\n父母等が海外に住んでいる場合:父母等が海外に住んでいる場合、その父母が、日本国内に住むお子さんを養育している人を指定すれば、指定された方に手当を支給します。お子さんの住所のある市区町村に「父母指定者指定届」を提出して、認定を受けてください。\n※ただし、単身赴任の場合は、これまでどおり、お子さんの生活費を主に負担している方に支給します。\n未成年後見人がいる場合:お子さんを養育している未成年後見人がいる場合は、未成年後見人に手当を支給します。\nお子さんが施設に入所している場合や里親などに委託されている場合:お子さんが施設に入所している場合や里親などに委託されている（預けられている）場合は、原則として、その施設の設置者や里親などに手当を支給します。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kosodate/jidouteate/index.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM47",
+      "name": "東村山市の妊娠・出産に関する相談",
+      "shortName": "ゆりかごキャラバン（出張相談）",
+      "summary": "日頃の妊娠中や子育てに関する疑問や悩みなどを市役所だけではなく、より身近な施設で気軽に相談することができる場づくりとして、母子保健コーディネーター（助産師・保健師）が市内施設を回るゆりかごキャラバン（出張相談）を行っています。",
+      "targetPersons": "妊娠中や子育て",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saimiman/yurikago-caravan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期の予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "小学生",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/kodomo-yobou/teikisesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "ひとり親家庭ホームヘルプサービス",
+      "summary": "日常生活を営むのに、生活環境の激変、その他の理由により支障があるひとり親家庭に対して、一定の期間、ホームヘルパーを派遣し、日常生活の世話等必要なサービスを行うことにより、ひとり親家庭の福祉の増進を図ることを目的としています。",
+      "targetPersons": "派遣対象\n東村山市に住所を有する義務教育終了前の児童のいるひとり親家庭であって、次の各号のいずれかに該当し、家事又は育児等日常生活に支障をきたしている家庭。\n\n1.ひとり親家庭となって2年以内である場合（小学校3年生以下の児童を扶養しているひとり親家庭で、当該児童が小学校3年生を終了するまでの間）。\n2.ひとり親家庭の親又は義務教育終了前の児童が一時傷病の場合。\n3.親族等の冠婚葬祭にひとり親家庭の親が出席する場合。\n4.日常の家事及び育児を行っている同居の祖父母等が一時的傷病の場合。\n5.技能取得のための通学、就職活動、出張、学校の公式行事への参加等の場合。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/hitorioya/help.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM6",
+      "name": "妊婦健康診査",
+      "shortName": "多胎妊娠の妊婦健康診査",
+      "summary": "妊婦さんやお腹の赤ちゃんの健康状態を定期的に確認するのが妊婦健康診査です。妊婦さんの健康診査は、一般的に出産までに14回程度受診するのが望ましいとされています。しかし、妊娠は病気ではないため健康保険は適用されません。そこで、出産までの健診を受ける際の経済的な負担を軽くするため、妊婦健康診査費用の一部を助成する妊婦健康診査受診票をお渡ししています。",
+      "targetPersons": "次のいずれにも該当するかた\n\n1.受診日において東村山市に住民登録があるかた\n2.多胎妊娠中に15回目以降の妊婦健診を受診し、自己負担で費用を支払ったかた\n\n（注記）申請時点で東村山市に住民登録がない場合でも、上記を満たすかたは対象となります。",
+      "categories": [
+        "002",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/tatai-kensin-hojo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM67",
+      "name": "自治体独自の障がいのあるお子さんなどへの金銭的支援",
+      "shortName": "小児精神障害者等医療費助成制度",
+      "summary": "小児精神障害者等医療費助成制度は小児精神病の患者に対して、医療費を助成することにより、その医療の確立と普及を図り、併せて患者の医療費等の負担軽減を図ることを目的としています。",
+      "targetPersons": "対象となる疾病の範囲\n精神障害で入院医療を要する疾病及び精神障害に付随する軽易な疾病。\n対象となる疾病はICD-10のF0からF9、G40に該当する下記の疾病。\nF0　 症状性・器質性精神障害\nF1　 物質関連性精神障害（薬物・有機溶剤等）\nF2　 統合失調症\nF3　 気分障害（躁うつ病）\nF4　 強迫性障害、重度ストレス反応及び適応障害、解離性（転換性）障害\nF5　 摂食障害\nF6　 人格障害（境界性人格障害等）\nF7　 精神遅滞\nF8　 特異性発達障害、広汎性発達障害（小児自閉症、アスペルガー症候群等）\nF9　 多動性障害・行為障害（活動性及び注意の障害、多動性行為障害、反抗性挑戦障害等）、情緒障害、チック障害等\nG40 てんかん\n（注記）付随する軽易な疾病とは、入院医療を担当する精神科病床の医療担当者において行いうる医療\n\n対象\n以下の1から3のいずれにも該当する方\n　1.現に上記の疾病に該当し、精神科病院又は精神科病床に入院している方\n　2.満18歳未満の方\n　3.医療保険等各法により医療の給付を受けている方\n（注記）認定患者であって、満18歳に達した時点で引き続き入院医療を受ける場合は、満20歳の誕生月の末日まで対象となります。",
+      "categories": [
+        "003",
+        "025"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kenko/shogai/tetuduki/iryouhijyosei/syouniseishin.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+2+UM798",
+      "name": "離乳食教室",
+      "shortName": "もぐもぐ離乳食",
+      "summary": "生後7か月から1歳未満のお子さんとその保護者を対象に、離乳食を始める時のポイントやすすめ方についての講座を開催しています。離乳食のいろいろな悩みに栄養士がお答えします。また、離乳食の作り方の実演や試食もあります。",
+      "targetPersons": "7か月児から1歳未満のお子さまと保護者",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/event/kodomo/nyuji/mogumogu_r.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM103",
+      "name": "自治体独自の子育てに関する教室・講習会",
+      "shortName": "ピカピカ歯みがき教室",
+      "summary": "お子さまの歯の状況に合わせて歯みがきの練習をする教室です。",
+      "targetPersons": "1歳児および2歳から未就学児のお子さまと保護者",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/event/kodomo/yoji/pikapikahamigaki2019.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "ファーストバースデーサポート事業",
+      "summary": "令和5年4月から、1歳のお子さんを育てるご家庭が安心して子育てできるよう、保健師・助産師等の専門職による相談支援と経済的支援を一体的に実施する「ファーストバースデーサポート事業」を開始いたしました。",
+      "targetPersons": "令和6年度の対象者\n令和6年4月1日から令和7年3月31日までの間に1歳の誕生日を迎えるご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/1saiijo/FirstBirthday.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM119",
+      "name": "東村山市の子育てに関する相談",
+      "shortName": "子育てパートナー「ころころたまご」",
+      "summary": "子育ての様々な疑問や悩みをお受けする子育て支援の総合窓口です。予約なしで、お子様連れでのご利用ができます。東村山市の多様な子育て情報をご用意していますので、まずはお気軽にお立ち寄りください。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/korokorotamago.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "幼児教育・保育の無償化の対象と範囲\n||0〜2歳クラス|満3歳児|3〜5歳クラス|\n|:----|:----|:----|:----|\n|認可保育所等|◯|◯|◎|\n|認定こども園（保育）|◯|◯|◎|\n|新制度幼稚園|−|◎|◎|\n|認定こども園（教育）|−|◎|◎|\n|新制度未移行幼稚園|−|●|●|\n|認可外保育施設等|☆|☆|★|\n|一時保育等|☆|☆|★|\n|記号の見方|◎：全世帯が無償化<br>◯：市民税非課税世帯は無償化<br>★：月37,000円まで無償化<br>☆：市民税非課税世帯は月42,000円まで無償化<br>●：月25,700円まで無償化<br>−：該当なし|<|<|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/shikaranooshirase/youjikyouikumusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM47",
+      "name": "東村山市の妊娠・出産に関する相談",
+      "shortName": "妊産婦電話相談",
+      "summary": "妊娠中の不安や子育てでわからないことなどを、母子保健コーディネーターに相談できます。",
+      "targetPersons": "妊産婦",
+      "categories": [
+        "002",
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/ninshin/ninshin/boshi-yurikago.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期の予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": "小学6年から高校1年相当の女子",
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/kodomo-yobou/teikisesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+3+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "小学校就学前の子どもを対象とした多様な集団活動事業の利用支援",
+      "summary": "地域において重要な役割を果たしている「小学校就学前の子どもを対象とした多様な集団活動事業」の利用について、保護者の経済的負担を軽減することを目的として、利用料の一部を給付します。",
+      "targetPersons": "次の内容を全て満たす児童が補助の対象です。\n\n・東村山市民である満3歳以上の小学校就学前の児童\n　（注記）満3歳に達する日（誕生日の前日）の属する月の翌月から対象となります\n・対象施設等をおおむね、1日4時間以上8時間未満、週5日以上、年間39週以上利用し、利用月の初日に在籍していること\n・幼児教育・保育の無償化の給付を受けていないこと\n・企業主導型保育事業を利用していないこと\n・東村山市認可外保育施設等園児保護者補助金の支給を受けていないこと\n・東村山市私立幼稚園等園児保護者補助金の支給を受けていないこと",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/shien/tayounashuudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+4+UM106",
+      "name": "自治体独自の子育てに関するサポート",
+      "shortName": "すくすく訪問事業",
+      "summary": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）を終えた、就学前のお子さんのいるご家庭を対象とさせていただき、地域担当保育士がご要望に応じて家庭訪問やお電話にて、お子さんの事で心配な事や子育てで分からないことなどのご相談をお受けしたり、地域の子育て情報などを紹介させていただいている事業です。",
+      "targetPersons": "乳児家庭全戸訪問（こんにちは赤ちゃん訪問）を受けた就学前のお子さんのいるご家庭",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/sukusuku-houmon.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+4+UM119",
+      "name": "東村山市の子育てに関する相談",
+      "shortName": "母子・父子相談",
+      "summary": "母子・父子自立支援員が、母子・父子の様々な問題について、各種相談に応じます。",
+      "targetPersons": null,
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/sodan/bosisoudan.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+4+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "幼児教育・保育の無償化の対象と範囲\n||0〜2歳クラス|満3歳児|3〜5歳クラス|\n|:----|:----|:----|:----|\n|認可保育所等|◯|◯|◎|\n|認定こども園（保育）|◯|◯|◎|\n|新制度幼稚園|−|◎|◎|\n|認定こども園（教育）|−|◎|◎|\n|新制度未移行幼稚園|−|●|●|\n|認可外保育施設等|☆|☆|★|\n|一時保育等|☆|☆|★|\n|記号の見方|◎：全世帯が無償化<br>◯：市民税非課税世帯は無償化<br>★：月37,000円まで無償化<br>☆：市民税非課税世帯は月42,000円まで無償化<br>●：月25,700円まで無償化<br>−：該当なし|<|<|",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/shikaranooshirase/youjikyouikumusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+4+UM54",
+      "name": "定期予防接種",
+      "shortName": "定期の予防接種",
+      "summary": "予防接種には、法令で定められた定期接種と本人が希望して行う任意の予防接種とがあります。定期予防接種は、定められた対象年齢や接種間隔で接種する場合は、公費助成により無料で受けることができます。",
+      "targetPersons": null,
+      "categories": [
+        "003",
+        "027"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kodomokenko/kodomo-yobou/teikisesshu.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+4+UM58",
+      "name": "自治体独自の育児に関する金銭的支援",
+      "shortName": "ひとり親家庭等家賃補助",
+      "summary": "この制度は、民間アパートに居住するひとり親家庭等（母子家庭や父子家庭等）に対し、家賃の一部を補助することにより経済的負担を軽減し、ひとり親家庭等の福祉の増進を図ることを目的としています。",
+      "targetPersons": "支給要件\n1.市内の民間アパートに居住し、自己の名義で賃貸契約をしているひとり親等。\n2.18歳到達後最初の3月31日までの間(障害がある場合は20歳未満）にある児童を養育している場合\n3.ひとり親等及び扶養義務者の前年の所得が、児童扶養手当の所得制限限度額に満たない場合\n4.生活保護を受けていない場合\n\n（注記）都営住宅、市営住宅、公団住宅（現UR賃貸住宅）、住宅供給公社（JKK)住宅、公務員宿舎、会社社宅及び社会福祉事業の用に供する施設等、これらに類する住宅は対象外になります。",
+      "categories": [
+        "003"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/hitorioya/yatinhojo.html",
+      "sourceId": "tokyo-kosodate-registry"
+    },
+    {
+      "psid": "psid3.0+1000020132136+5+UM2368",
+      "name": "幼児教育・保育の無償化",
+      "shortName": "幼児教育・保育の無償化",
+      "summary": "幼児教育・保育の重要性や、子育てや教育にかかる費用負担の軽減を図る少子化対策の観点などから、3歳児クラス（年少）から5歳児クラス（年長）のお子さん、および住民税非課税世帯の0歳児クラスから2歳児クラスのお子さんを対象に、幼児教育・保育の無償化を実施しています。\n無償化の内容は、利用する施設・サービスごとに異なります。",
+      "targetPersons": "就学前の障害児の発達支援を利用する子供たち",
+      "categories": [
+        "004"
+      ],
+      "url": "https://www.city.higashimurayama.tokyo.jp/kosodate/kyouikuhoikushisetsu/shikaranooshirase/youjikyouikumusyouka.html",
+      "sourceId": "tokyo-kosodate-registry"
+    }
+  ]
+}
