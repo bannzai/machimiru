@@ -91,7 +91,14 @@ export function AreaMap() {
         });
         map = loadedMap;
         loadedMap.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+        // スタイルの取得の失敗は Promise ではなく error イベントで届き、load が起きずに読み込み中のまま止まるため、
+        // load の前の error を読み込みの失敗として出す。load の後の error (タイル 1 枚の取得失敗等) は地図を使い続けられるため出さない
+        const showInitialLoadError = (event: { error: Error }) => setLoadErrorMessage(event.error.message);
+        loadedMap.on("error", showInitialLoadError);
         loadedMap.on("load", () => {
+          loadedMap.off("error", showInitialLoadError);
+          // load の前に起きた error が、読み込みを止めないもの (スプライトの取得失敗等) だった時に表示を戻す
+          setLoadErrorMessage(null);
           addBoundaryLayers(loadedMap, municipalities, towns);
           mapRef.current = loadedMap;
           setBoundaries({ municipalities, towns });
