@@ -3,7 +3,7 @@
 // 取得日 (source.retrievedAt) を除き、同じ入力からは同じ出力になるため、何度実行してもよい。
 import type { BoundarySource } from "../src/lib/boundaries";
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 /** 1 つの境界データの入手先と、mapshaper で整形する手順。 */
@@ -103,7 +103,10 @@ async function download(url: string, filePath: string) {
   if (!response.ok) {
     throw new Error(`${url} の取得に失敗した: HTTP ${response.status}`);
   }
-  writeFileSync(filePath, Buffer.from(await response.arrayBuffer()));
+  // 書き込みの途中で止まった不完全な zip を取得済みとみなさないよう、別名に書き終えてから filePath に移す
+  const partialFilePath = `${filePath}.partial`;
+  writeFileSync(partialFilePath, Buffer.from(await response.arrayBuffer()));
+  renameSync(partialFilePath, filePath);
 }
 
 /** dataset を取得・整形して outputDirectory に書き出す。 */
