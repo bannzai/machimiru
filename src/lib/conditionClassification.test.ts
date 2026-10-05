@@ -79,6 +79,33 @@ describe("classifyConditionText (判定器を固定の判定に差し替える)"
     expect(classification.unsupportedConditions).toEqual([{ axisName: "通勤", text: "保育園が近く新宿まで 30 分以内" }]);
   });
 
+  // 判定は 2026-10-05 に jev-1.13.0 で確かめた応答 (https://github.com/bannzai/machimiru/issues/32)
+  it("話題が重なる registry の軸の条件に当たった文は、registry に無い軸の判定できない条件にしない", async () => {
+    expect(
+      await classifyConditionText(
+        "コワーキングが近い。治安が良い。鍼灸の評判が良い",
+        fixedClassifier([
+          { isWish: true, conditionIds: ["coworkingNearby"], axisNames: ["コワーキング", "通勤"] },
+          { isWish: true, conditionIds: ["lowCrimeRate"], axisNames: ["治安"] },
+          { isWish: true, conditionIds: [], axisNames: [] },
+        ]),
+      ),
+    ).toEqual({
+      classifier: "jev",
+      conditionIds: ["lowCrimeRate", "coworkingNearby"],
+      unsupportedConditions: [{ axisName: "その他", text: "鍼灸の評判が良い" }],
+    });
+    expect(
+      await classifyConditionText(
+        "犯罪率が低い。コワーキングが近い",
+        fixedClassifier([
+          { isWish: true, conditionIds: ["lowCrimeRate"], axisNames: ["治安"] },
+          { isWish: true, conditionIds: ["coworkingNearby"], axisNames: [] },
+        ]),
+      ),
+    ).toEqual({ classifier: "jev", conditionIds: ["lowCrimeRate", "coworkingNearby"], unsupportedConditions: [] });
+  });
+
   it("軸を足せない理由を登録した候補の軸の条件には、その理由を付ける", async () => {
     const classification = await classifyConditionText(
       "鍼灸の評判が良い場所が近い、新宿まで 30 分以内",
