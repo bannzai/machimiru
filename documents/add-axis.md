@@ -45,7 +45,7 @@ documents/add-axis.md の手順で、次の軸の追加リクエストを軸に�
 - 取り込み: 取得したファイルから `public/data/` のデータを生成するスクリプト。`make data-tokyo` (`scripts/data/tokyo/generate.ts`) と同じ形で、出典を `src/lib/tokyoData/sources.ts` に持ち、生成したファイルの `sources` に書き込む。生成データは commit する。ブラウザから検索のたびに呼ぶ API (OpenPOI API など) を判定器にする時は、取り込みのスクリプトは要らない
 - テスト: 取り込みの変換と値の計算のテスト、`src/lib/axes.test.ts` (4 段階すべてに区市町村が入る)、`src/lib/conditionClassification.test.ts` (条件の文がその軸の条件に判定される)
 - `documents/PROJECT.md`: 「データの出典」の表の行と「判定器と、現在の軸」の表の行。出典ページ (`/sources/`) はこの表をビルド時に読むため、表に足せば表示される
-- registry: `src/lib/axes.ts` の `axes` に軸か条件を 1 件足し、`unsupportedAxisCandidates` から同じ名前の候補を消す
+- registry: `src/lib/axes.ts` の `axes` に軸か条件を 1 件足し、`unsupportedAxisCandidates` から足した軸が置き換える候補を消す。軸の名前を候補の名前から変えた時は、候補の `keywords` と `classifierDescription` の話題を新しい軸に移してから消す (候補が残ると、その話題の文が registry の軸に当たらずリクエストに記録され続ける)
 - 画面の確認: `e2e/` に、足した軸のタブを開いた状態を撮る手順を足し、CI の `screenshot` job の撮影を目視で確かめる (`AGENTS.md`「検証方法」)
 - この文書の「実例」に、出典の探し方と確かめた利用条件を足す
 

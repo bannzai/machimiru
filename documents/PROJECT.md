@@ -134,7 +134,7 @@ TypeSafe の利用条件 (2026-10-05 に一次情報で確認):
 - 軸: `id`・`name` (タブと表の見出し)・`classifierDescription` (Jev に渡す話題の英語の説明)・`keywords` (辞書による判定の語)・`conditions`
 - 条件: `id`・`name`・`classifierDescription` (Jev に渡す、条件を求める文の英語の説明)・`keywords`・`note` (判定の根拠の限界など画面の注記。任意)・`evaluator`
 - `evaluator` は、点なら `{ type: "point", facilityKind }`、面なら `{ type: "area", betterDirection, values, describe }` (`values` は区市町村の値の一覧、`describe` は根拠の文)。新しいデータを使う時は、先に「データの出典」の表と `public/data/` のデータを足す (`.claude/rules/external-data-attribution.md`)
-- registry に足した軸は、`src/lib/conditionClassification.ts` の `unsupportedAxisCandidates` (registry に無い軸の候補) から同じ名前の候補を消す
+- registry に足した軸は、`src/lib/conditionClassification.ts` の `unsupportedAxisCandidates` (registry に無い軸の候補) から、足した軸が置き換える候補を消す (名前を変えた時の扱いは `documents/add-axis.md` の手順 3)
 - 足した後に、`src/lib/axes.test.ts` (4 段階すべてに区市町村が入る) と `src/lib/conditionClassification.test.ts` の辞書の判定のテストを通す
 
 ## 境界データ
