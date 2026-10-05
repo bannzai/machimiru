@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { axes } from "../axes";
+import { registryConditions } from "../axes";
 import { type BoundaryFeatureCollection, type MunicipalityProperties, municipalityBoundaryCode } from "../boundaries";
 import { isPointInGeometry } from "../geometry";
 import {
@@ -120,9 +120,7 @@ describe("public/data/tokyo/facilities.geojson", () => {
 });
 
 describe("public/data/tokyo/openpoi/*.geojson", () => {
-  const openPoiConditions = axes
-    .flatMap((axis) => axis.conditions)
-    .flatMap(({ id, evaluator }) => (evaluator.type === "openPoi" ? [{ id, searchKeywords: evaluator.searchKeywords }] : []));
+  const openPoiConditions = registryConditions.flatMap(({ id, evaluator }) => (evaluator.type === "openPoi" ? [{ id, searchKeywords: evaluator.searchKeywords }] : []));
   const boundaries = new Map(
     (
       JSON.parse(

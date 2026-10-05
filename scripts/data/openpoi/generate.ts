@@ -7,7 +7,7 @@
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { axes } from "../../../src/lib/axes";
+import { registryConditions } from "../../../src/lib/axes";
 import type { BoundaryFeatureCollection, MunicipalityProperties } from "../../../src/lib/boundaries";
 import { type BoundingBox, boundingBoxOfGeometry, isPointInGeometry } from "../../../src/lib/geometry";
 import {
@@ -90,7 +90,7 @@ async function searchTokyoPlaces(
     type: "FeatureCollection",
     source: {
       endpoint: openPoiSearchEndpoint,
-      keywords: searchKeywords,
+      keywords: [...searchKeywords],
       retrievedOn: new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date()),
       attributionUrl: openPoiAttributionUrl,
     },
@@ -108,7 +108,7 @@ async function main(): Promise<void> {
   const municipalities: BoundaryFeatureCollection<MunicipalityProperties> = JSON.parse(
     await readFile(municipalityBoundaryPath, "utf8"),
   );
-  for (const condition of axes.flatMap((axis) => axis.conditions)) {
+  for (const condition of registryConditions) {
     const { evaluator } = condition;
     if (evaluator.type !== "openPoi") {
       continue;

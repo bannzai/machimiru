@@ -159,11 +159,15 @@ export type AxisId = (typeof axes)[number]["id"];
 /** 条件の識別子。 */
 export type ConditionId = (typeof axes)[number]["conditions"][number]["id"];
 
+/** registry の条件 1 件の定義。 */
+export type RegistryCondition = (typeof axes)[number]["conditions"][number];
+
+// 軸ごとに条件の tuple の型が違い、flatMap が要素の型を推論できず unknown になるため、コールバックの戻り値の型を書く
+/** すべての軸の条件 (registry の順)。 */
+export const registryConditions = axes.flatMap((axis): readonly RegistryCondition[] => axis.conditions);
+
 /** すべての軸の条件の識別子 (registry の順)。 */
-export const conditionIds = axes.flatMap((axis) => axis.conditions.map((condition) => condition.id)) as [
-  ConditionId,
-  ...ConditionId[],
-];
+export const conditionIds = registryConditions.map((condition) => condition.id) as [ConditionId, ...ConditionId[]];
 
 /** 区市町村 1 件の、条件 1 件の値と、その根拠の文。 */
 export type ConditionValue = {
@@ -350,8 +354,8 @@ function betterDirectionOfCondition(conditionId: ConditionId): "higher" | "lower
 }
 
 /** conditionId の条件の定義。 */
-export function conditionById(conditionId: ConditionId): (typeof axes)[number]["conditions"][number] {
-  return axes.flatMap((axis) => axis.conditions).find((condition) => condition.id === conditionId)!;
+export function conditionById(conditionId: ConditionId): RegistryCondition {
+  return registryConditions.find((condition) => condition.id === conditionId)!;
 }
 
 /** 条件ごと・区市町村ごとの段階。 */

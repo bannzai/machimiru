@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import { type ConditionValues, axes, computeConditionValues } from "../axes";
+import { type ConditionValues, computeConditionValues, registryConditions } from "../axes";
 import type { BoundaryFeatureCollection, MunicipalityProperties } from "../boundaries";
 import {
   type Municipality,
@@ -36,8 +36,7 @@ export function readFacilitiesFile() {
  */
 export function readOpenPoiPlacesFiles() {
   return new Map(
-    axes
-      .flatMap((axis) => axis.conditions)
+    registryConditions
       .filter((condition) => condition.evaluator.type === "openPoi")
       .map(
         (condition) =>
