@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>machimiru PC 幅 軸の一覧と地図</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<style>
+body{margin:0}
+a{color:#17212B}a:hover{color:#1D5FBF}
+</style>
+<div style="height: 100vh; min-height: 640px; box-sizing: border-box; display: flex; flex-wrap: wrap; background: #F3F5F4; color: #17212B; font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif">
+<div style="flex: 1 1 400px; max-width: 480px; box-sizing: border-box; background: #FFFFFF; border-right: 2px solid #17212B; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: baseline; justify-content: space-between">
+<div style="font-size: 24px; font-weight: 900; letter-spacing: 0.02em">machimiru</div>
+<a href="#sources" style="font-size: 13px; font-weight: 500; color: #1D5FBF">データの出典</a>
+</div>
+<div style="padding: 10px 12px; background: #F3F5F4; border-left: 3px solid #17212B; font-size: 13px; line-height: 1.65">2 歳の子どもがいて、保育園と小児科が近くて、新宿まで 30 分以内、家賃は 15 万円までで、買い物が便利な街 <a href="chat.html" style="font-weight: 700; white-space: nowrap">言い直す</a></div>
+<div style="display: flex; flex-direction: column">
+<div style="font-size: 13px; font-weight: 700; color: #4A5560; padding-bottom: 6px">軸 押すと地図が切り替わります</div>
+<a href="matrix.html" style="display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; min-height: 44px; padding: 0 10px; border-top: 1px solid #C5CDD0; text-decoration: none; font-size: 14px"><span style="font-weight: 900">まとめ</span><span style="color: #4A5560">4 つの軸すべて</span></a>
+<a href="compare.html" aria-current="page" style="display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; min-height: 44px; padding: 0 10px; background: #17212B; color: #FFFFFF; text-decoration: none; font-size: 14px"><span style="font-weight: 900">子育て</span><span>保育園と小児科が近い ・ 支援が手厚い</span></a>
+<a href="compare.html" style="display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; min-height: 44px; padding: 0 10px; border-top: 1px solid #C5CDD0; text-decoration: none; font-size: 14px"><span style="font-weight: 900">通勤</span><span style="color: #4A5560">新宿駅まで 30 分以内</span></a>
+<a href="compare.html" style="display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; min-height: 44px; padding: 0 10px; border-top: 1px solid #C5CDD0; text-decoration: none; font-size: 14px"><span style="font-weight: 900">予算</span><span style="color: #4A5560">家賃 15 万円まで</span></a>
+<a href="compare.html" style="display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; min-height: 44px; padding: 0 10px; border-top: 1px solid #C5CDD0; border-bottom: 1px solid #C5CDD0; text-decoration: none; font-size: 14px"><span style="font-weight: 900">買い物</span><span style="color: #4A5560">スーパーとドラッグストアが近い</span></a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 16px; font-weight: 900; padding-bottom: 4px">選んだ街 3 合う順</div>
+<div style="display: grid; grid-template-columns: 80px repeat(4, minmax(0, 1fr)); column-gap: 8px; font-size: 12px; font-weight: 700; color: #4A5560; padding-bottom: 6px; border-bottom: 1px solid #17212B">
+<div>街</div><div style="color: #17212B; text-decoration: underline">子育て</div><div>通勤</div><div>予算</div><div>買い物</div>
+</div>
+<a href="town.html" style="display: grid; grid-template-columns: 80px repeat(4, minmax(0, 1fr)); column-gap: 8px; align-items: center; min-height: 48px; border-bottom: 1px solid #C5CDD0; text-decoration: none; font-size: 13px">
+<div style="font-size: 15px; font-weight: 900">中野区</div><div>やや合う</div><div style="font-weight: 900">合う</div><div>やや合う</div><div style="font-weight: 900">合う</div>
+</a>
+<a href="town.html" style="display: grid; grid-template-columns: 80px repeat(4, minmax(0, 1fr)); column-gap: 8px; align-items: center; min-height: 48px; border-bottom: 1px solid #C5CDD0; text-decoration: none; font-size: 13px">
+<div style="font-size: 15px; font-weight: 900">新宿区</div><div>やや合う</div><div style="font-weight: 900">合う</div><div style="color: #9A3412; font-weight: 700">合わない</div><div style="font-weight: 900">合う</div>
+</a>
+<a href="town.html" style="display: grid; grid-template-columns: 80px repeat(4, minmax(0, 1fr)); column-gap: 8px; align-items: center; min-height: 48px; border-bottom: 1px solid #C5CDD0; text-decoration: none; font-size: 13px">
+<div style="font-size: 15px; font-weight: 900">目黒区</div><div>あまり</div><div>やや合う</div><div style="color: #4A5560">データなし</div><div>やや合う</div>
+</a>
+</div>
+<div style="font-size: 12px; line-height: 1.6; color: #4A5560">合う度合いは公開データから machimiru が独自に作ったものです。値はレイアウトの見本です</div>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; min-height: 420px; position: relative; background: #D5E0E6">
+<svg viewBox="0 0 390 460" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" role="img" aria-label="子育ての軸で区市町村を塗り分け 保育園と小児科のピンを重ねた地図">
+<g stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round">
+<polygon fill="#A9CDBD" points="0,0 150,0 160,70 60,90 0,80"></polygon>
+<polygon fill="#DCE9E2" points="150,0 270,0 260,60 160,70"></polygon>
+<polygon fill="#5FA58B" points="160,70 260,60 265,120 185,125"></polygon>
+<polygon fill="#A9CDBD" points="260,60 270,0 390,0 390,110 300,125 265,120"></polygon>
+<polygon fill="#5FA58B" points="60,90 160,70 185,125 170,185 80,180"></polygon>
+<polygon fill="#5FA58B" points="185,125 265,120 300,125 295,200 215,215 170,185"></polygon>
+<polygon fill="#1F6B55" points="300,125 390,110 390,230 310,235 295,200"></polygon>
+<polygon fill="#A9CDBD" points="0,80 60,90 80,180 70,260 0,270"></polygon>
+<polygon fill="#1F6B55" points="170,185 215,215 295,200 310,235 290,290 200,300 160,255"></polygon>
+<polygon fill="#A9CDBD" points="80,180 170,185 160,255 200,300 180,400 60,420 0,380 0,270 70,260"></polygon>
+<polygon fill="#A9CDBD" points="200,300 290,290 300,380 230,420 180,400"></polygon>
+<polygon fill="#5FA58B" points="310,235 390,230 390,360 300,380 290,290"></polygon>
+<polygon fill="#A9CDBD" points="180,400 230,420 300,380 390,360 390,460 150,460"></polygon>
+<polygon fill="#DCE9E2" points="0,380 60,420 180,400 150,460 0,460"></polygon>
+</g>
+<g fill="none" stroke="#17212B" stroke-width="2" stroke-linejoin="round">
+<polygon points="60,90 160,70 185,125 170,185 80,180"></polygon>
+<polygon points="185,125 265,120 300,125 295,200 215,215 170,185"></polygon>
+<polygon points="200,300 290,290 300,380 230,420 180,400"></polygon>
+</g>
+<g font-size="8" font-weight="700" text-anchor="middle" fill="#17212B">
+<text x="70" y="45">練馬区</text><text x="210" y="38">板橋区</text><text x="215" y="98">豊島区</text><text x="330" y="65">文京区</text>
+<text x="118" y="112">中野区</text><text x="238" y="145">新宿区</text><text x="345" y="178" fill="#FFFFFF">千代田区</text><text x="35" y="178">杉並区</text>
+<text x="235" y="252" fill="#FFFFFF">渋谷区</text><text x="95" y="320">世田谷区</text><text x="245" y="402">目黒区</text><text x="345" y="305">港区</text>
+</g>
+<g fill="#1D5FBF" stroke="#FFFFFF" stroke-width="1.2">
+<circle cx="95" cy="135" r="4"></circle><circle cx="140" cy="150" r="4"></circle><circle cx="120" cy="170" r="4"></circle><circle cx="205" cy="165" r="4"></circle>
+<circle cx="250" cy="185" r="4"></circle><circle cx="278" cy="155" r="4"></circle><circle cx="215" cy="330" r="4"></circle><circle cx="270" cy="345" r="4"></circle><circle cx="232" cy="372" r="4"></circle>
+</g>
+<g fill="#B84E08" stroke="#FFFFFF" stroke-width="1.2">
+<rect x="108" y="140" width="8" height="8"></rect><rect x="150" y="118" width="8" height="8"></rect><rect x="222" y="175" width="8" height="8"></rect><rect x="268" y="178" width="8" height="8"></rect><rect x="252" y="312" width="8" height="8"></rect>
+</g>
+</svg>
+<div style="position: absolute; left: 16px; top: 16px; display: flex; flex-direction: column; gap: 6px; background: rgba(255,255,255,0.95); border: 1px solid #8E9AA0; border-radius: 6px; padding: 10px 12px; font-size: 12px">
+<div style="font-size: 14px; font-weight: 900">子育てで見ています</div>
+<div style="display: flex; align-items: center; gap: 6px"><span>合わない</span><span style="display: flex; width: 72px; height: 10px; border: 1px solid #8E9AA0"><span style="flex-grow: 1; background: #DCE9E2"></span><span style="flex-grow: 1; background: #A9CDBD"></span><span style="flex-grow: 1; background: #5FA58B"></span><span style="flex-grow: 1; background: #1F6B55"></span></span><span>合う</span></div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="color: #1D5FBF; font-weight: 700">● 保育園</span><span style="color: #B84E08; font-weight: 700">■ 小児科</span></div>
+</div>
+<div style="position: absolute; right: 16px; top: 16px; display: flex; flex-direction: column; gap: 1px; background: #8E9AA0; border: 1px solid #8E9AA0; border-radius: 6px; overflow: hidden">
+<button aria-label="拡大" style="width: 44px; height: 44px; border: 0; background: #FFFFFF; font-size: 22px; color: #17212B">＋</button>
+<button aria-label="縮小" style="width: 44px; height: 44px; border: 0; background: #FFFFFF; font-size: 22px; color: #17212B">−</button>
+</div>
+<div style="position: absolute; left: 16px; bottom: 12px; font-size: 12px; color: #33404B; background: rgba(243,245,244,0.92); padding: 3px 8px; border-radius: 3px">地図は見本の図形です</div>
+</div>
+</div>
+</body>
+</html>

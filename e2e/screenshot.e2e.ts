@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { expect, test } from "@playwright/test";
 
 // 撮影するページ。画面を追加・変更した時はここに足し、CI の artifact (screenshots) で目視確認する。
-// トップページ (地図) は操作を伴うため areaMap.e2e.ts で、子育てのしやすさの評価と区市町村のページは childcareScore.e2e.ts で撮る
+// トップページ (地図) は操作を伴うため areaMap.e2e.ts と facilityMarking.e2e.ts で、子育てのしやすさの評価と区市町村のページは childcareScore.e2e.ts で撮る
 const pages = [
   { name: "sources", path: "/sources/", heading: "データの出典" },
   { name: "terms", path: "/terms/", heading: "利用規約" },

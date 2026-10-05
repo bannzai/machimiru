@@ -4,7 +4,7 @@ import { expect, type Page } from "@playwright/test";
 // 既定の 5 秒では足りないため長くする
 const mapIdleTimeoutMs = 60_000;
 
-/** 地図が境界データを描き終えて止まるまで待つ。 */
+/** 地図が境界データ・ピンを描き終えて止まるまで待つ。 */
 export async function waitForMapIdle(page: Page) {
   await expect(page.locator('[data-map-state="idle"]')).toBeAttached({ timeout: mapIdleTimeoutMs });
 }

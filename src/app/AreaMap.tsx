@@ -1,9 +1,9 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { ExpressionSpecification, FilterSpecification, Map as MapLibreMap } from "maplibre-gl";
+import type { ExpressionSpecification, FilterSpecification, GeoJSONSource, Map as MapLibreMap } from "maplibre-gl";
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   type AreaSelection,
   areaSelectionStorageKey,
@@ -27,8 +27,18 @@ import {
   computeChildcareScores,
   missingChildcareScoreColor,
 } from "@/lib/childcareScore";
+import type { SearchRange } from "@/lib/facilityMarking";
+import { type BoundingBox, boundingBoxOfGeometry, normalizeLongitudeOfBoundingBox } from "@/lib/geometry";
+import {
+  type PropertySearchCondition,
+  emptyPropertySearchCondition,
+  parsePropertySearchCondition,
+  propertySearchConditionStorageKey,
+} from "@/lib/propertySearch";
 import type { MunicipalitiesFile } from "@/lib/tokyoData/schema";
 import { ChildcareScorePanel, municipalityPagePath, ScoreSwatch } from "./ChildcareScorePanel";
+import { FacilityMarkingPanel, useFacilityMarking } from "./FacilityMarking";
+import { PropertySearch } from "./PropertySearch";
 
 // maplibre-gl は Web Worker のファイルを自分のモジュールの URL から相対で探すが、Next.js のバンドル後はその場所に無いため、
 // npm の prebuild・predev で public/vendor/maplibre-gl/ に写したファイルを指す (package.json の scripts)
@@ -57,10 +67,15 @@ const townFillLayerId = "towns-fill";
 const selectedTownLayerId = "towns-selected";
 /** 町丁の境界線のレイヤー ID。 */
 const townLineLayerId = "towns-line";
+/** 施設のピン (キーワードの候補と子育て施設) の MapLibre のソース ID。 */
+const facilityPinSourceId = "facility-pins";
+/** 施設のピンのレイヤー ID。 */
+const facilityPinLayerId = "facility-pins-circle";
 
 /**
- * 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧、区市町村ごとの子育てのしやすさの総合の評価。
- * 選択はブラウザの localStorage に保存する。municipalitiesFile は評価の根拠にする区市町村の指標。
+ * 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧と物件の検索、施設のピン、区市町村ごとの子育てのしやすさの総合の評価。
+ * 選択と検索の条件はブラウザの localStorage に保存する。施設はエリアを選んでいる時は選択中のエリアの中を、いない時は地図の表示範囲を探す。
+ * municipalitiesFile は評価の根拠にする区市町村の指標。
  */
 export function AreaMap({ municipalitiesFile }: { municipalitiesFile: MunicipalitiesFile }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -70,9 +85,13 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
     towns: BoundaryFeatureCollection<TownProperties>;
   } | null>(null);
   const [areaSelection, setAreaSelection] = useState<AreaSelection>(emptyAreaSelection);
+  const [propertySearchCondition, setPropertySearchCondition] =
+    useState<PropertySearchCondition>(emptyPropertySearchCondition);
+  // 保存済みの選択と検索の条件を読み終えたか。2 つは地図の読み込みの後に同時に読む
   const [isStoredSelectionLoaded, setIsStoredSelectionLoaded] = useState(false);
   const [isTownLevel, setIsTownLevel] = useState(false);
   const [loadErrorMessage, setLoadErrorMessage] = useState<string | null>(null);
+  const [mapBoundingBox, setMapBoundingBox] = useState<BoundingBox | null>(null);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -112,9 +131,19 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
           // load の前に起きた error が、読み込みを止めないもの (スプライトの取得失敗等) だった時に表示を戻す
           setLoadErrorMessage(null);
           addBoundaryLayers(loadedMap, municipalities, towns);
+          addFacilityPinLayer(loadedMap);
           mapRef.current = loadedMap;
+          const updateMapBoundingBox = () => {
+            const bounds = loadedMap.getBounds();
+            setMapBoundingBox(
+              normalizeLongitudeOfBoundingBox([bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()]),
+            );
+          };
+          updateMapBoundingBox();
+          loadedMap.on("moveend", updateMapBoundingBox);
           setBoundaries({ municipalities, towns });
-          setAreaSelection(parseAreaSelection(readStoredAreaSelection()));
+          setAreaSelection(parseAreaSelection(readStoredText(areaSelectionStorageKey)));
+          setPropertySearchCondition(parsePropertySearchCondition(readStoredText(propertySearchConditionStorageKey)));
           setIsStoredSelectionLoaded(true);
           setIsTownLevel(loadedMap.getZoom() >= townSelectionMinZoom);
           // data-map-state は画面の撮影 (e2e/) が、境界データを描き終えてから地図を操作するための目印
@@ -186,12 +215,16 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
     if (!isStoredSelectionLoaded) {
       return;
     }
-    try {
-      localStorage.setItem(areaSelectionStorageKey, JSON.stringify(areaSelection));
-    } catch {
-      // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択が消えるだけで操作は続けられる
-    }
+    writeStoredText(areaSelectionStorageKey, JSON.stringify(areaSelection));
   }, [areaSelection, isStoredSelectionLoaded]);
+
+  useEffect(() => {
+    // 保存済みの条件を読む前に保存すると、条件を付けない状態で上書きしてしまう
+    if (!isStoredSelectionLoaded) {
+      return;
+    }
+    writeStoredText(propertySearchConditionStorageKey, JSON.stringify(propertySearchCondition));
+  }, [propertySearchCondition, isStoredSelectionLoaded]);
 
   const municipalityNames = useMemo(
     () =>
@@ -214,6 +247,42 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
   );
   const selectedMunicipalityCodes = areaSelection.municipalityCodes.filter((code) => municipalityNames.has(code));
   const selectedTownCodes = areaSelection.townCodes.filter((code) => townsByCode.has(code));
+
+  const selectedAreaSearchRanges = useMemo<SearchRange[]>(
+    () =>
+      boundaries
+        ? [
+            ...boundaries.municipalities.features.filter((feature) =>
+              areaSelection.municipalityCodes.includes(feature.properties.code),
+            ),
+            ...boundaries.towns.features.filter((feature) => areaSelection.townCodes.includes(feature.properties.code)),
+          ].map((feature) => ({ boundingBox: boundingBoxOfGeometry(feature.geometry), geometry: feature.geometry }))
+        : [],
+    [boundaries, areaSelection],
+  );
+  const mapSearchRanges = useMemo<SearchRange[]>(
+    () => (mapBoundingBox ? [{ boundingBox: mapBoundingBox, geometry: null }] : []),
+    [mapBoundingBox],
+  );
+  const facilityMarking = useFacilityMarking(
+    selectedAreaSearchRanges.length > 0 ? selectedAreaSearchRanges : mapSearchRanges,
+  );
+  const { pinFeatureCollection } = facilityMarking;
+  const hasDrawnFacilityPins = useRef(false);
+
+  // 一覧の表示 (e2e が待つ目印) より先に data-map-state を moving にするため、描画の前に走る useLayoutEffect にする
+  useLayoutEffect(() => {
+    const map = mapRef.current;
+    const container = containerRef.current;
+    // 地図の読み込み直後のピンの無い状態では描き直さない (描くものが無く、idle になる前の印だけが残らないようにする)
+    if (!map || !boundaries || !container || (!hasDrawnFacilityPins.current && pinFeatureCollection.features.length === 0)) {
+      return;
+    }
+    hasDrawnFacilityPins.current = pinFeatureCollection.features.length > 0;
+    // ピンの描き直し (setData の後にタイルを作り直す) は非同期のため、描き終えて idle になるまでを e2e が待てるようにする
+    container.dataset.mapState = "moving";
+    map.getSource<GeoJSONSource>(facilityPinSourceId)?.setData(pinFeatureCollection);
+  }, [pinFeatureCollection, boundaries]);
 
   return (
     <div className="area-map">
@@ -264,6 +333,20 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
             </button>
           </>
         )}
+        <PropertySearch
+          municipalityCodes={[
+            ...selectedMunicipalityCodes,
+            ...selectedTownCodes.flatMap((code) => townsByCode.get(code)?.municipalityCode ?? []),
+          ]}
+          hasTownSelection={selectedTownCodes.length > 0}
+          condition={propertySearchCondition}
+          isConditionEditable={isStoredSelectionLoaded}
+          onConditionChange={setPropertySearchCondition}
+        />
+        {boundaries && (
+          <FacilityMarkingPanel facilityMarking={facilityMarking} isAreaSelected={selectedAreaSearchRanges.length > 0} />
+        )}
+        {/* 62 区市町村の順位の一覧は長く、上に置くと物件の検索と施設の欄がパネルの下へ遠のくため、最後に置く */}
         <ChildcareScorePanel municipalitiesFile={municipalitiesFile} childcareScores={childcareScores} />
       </section>
     </div>
@@ -309,12 +392,21 @@ async function fetchBoundary<Properties>(url: string): Promise<BoundaryFeatureCo
   return response.json();
 }
 
-/** 保存済みの選択の文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
-function readStoredAreaSelection(): string | null {
+/** localStorage の storageKey に保存した文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
+function readStoredText(storageKey: string): string | null {
   try {
-    return localStorage.getItem(areaSelectionStorageKey);
+    return localStorage.getItem(storageKey);
   } catch {
     return null;
+  }
+}
+
+/** localStorage の storageKey に text を保存する。 */
+function writeStoredText(storageKey: string, text: string) {
+  try {
+    localStorage.setItem(storageKey, text);
+  } catch {
+    // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択と条件が消えるだけで操作は続けられる
   }
 }
 
@@ -411,4 +503,24 @@ function childcareScoreFillColor(childcareScores: readonly ChildcareScore[]): Ex
     ]),
     missingChildcareScoreColor,
   ] as unknown as ExpressionSpecification;
+}
+
+/** 施設のピンのソースとレイヤーを、ピンの無い状態で map の一番上に足す。ピンの色は Feature の `color` を使う。 */
+function addFacilityPinLayer(map: MapLibreMap) {
+  map.addSource(facilityPinSourceId, { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+  // 地名のラベルに隠れないよう、ベース地図の文字のレイヤーより上に足す
+  map.addLayer({
+    id: facilityPinLayerId,
+    type: "circle",
+    source: facilityPinSourceId,
+    paint: {
+      "circle-color": ["get", "color"],
+      // 直径 12 px は色を見分けられる最小の大きさとして選んだ。区部の保育所のように数十 m おきに並ぶ施設でも、
+      // ズーム 15 (1 px がおよそ 1.9 m) なら隣のピンと重なりにくい
+      "circle-radius": 6,
+      // 白い縁で、エリアの塗りや同じ色のピンの重なりの上でも 1 本ずつ見分けられるようにする
+      "circle-stroke-color": "#ffffff",
+      "circle-stroke-width": 1.5,
+    },
+  });
 }
