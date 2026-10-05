@@ -1,4 +1,4 @@
-.PHONY: setup dev lint typecheck test build-web screenshot check boundaries data-tokyo
+.PHONY: setup dev lint typecheck test build-web screenshot check boundaries data-tokyo data-openpoi
 
 setup:
 	npm ci
@@ -34,3 +34,7 @@ boundaries:
 # 公開データを取得し、東京都の子育てデータを public/data/tokyo/ に生成する (出典と手順は documents/PROJECT.md)
 data-tokyo:
 	npm run data:tokyo
+
+# 軸の registry の OpenPOI API の判定器の検索語で東京都の施設を検索し、public/data/tokyo/openpoi/ に生成する (手順は documents/PROJECT.md)
+data-openpoi:
+	npm run data:openpoi

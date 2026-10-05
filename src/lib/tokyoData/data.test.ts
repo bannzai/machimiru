@@ -1,13 +1,16 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { axes } from "../axes";
 import { type BoundaryFeatureCollection, type MunicipalityProperties, municipalityBoundaryCode } from "../boundaries";
+import { isPointInGeometry } from "../geometry";
 import {
   facilitiesFileSchema,
   facilityKindSchema,
   localGovernmentCheckDigit,
   municipalitiesFileSchema,
   municipalityIndicatorFieldSchema,
+  openPoiPlacesFileSchema,
   programsFileSchema,
 } from "./schema";
 
@@ -113,5 +116,28 @@ describe("public/data/tokyo/facilities.geojson", () => {
   it("施設の出典がファイルの sources にある", () => {
     const sourceIds = new Set(sources.map((source) => source.id));
     expect(features.every((feature) => sourceIds.has(feature.properties.sourceId))).toBe(true);
+  });
+});
+
+describe("public/data/tokyo/openpoi/*.geojson", () => {
+  const openPoiConditions = axes
+    .flatMap((axis) => axis.conditions)
+    .flatMap(({ id, evaluator }) => (evaluator.type === "openPoi" ? [{ id, searchKeywords: evaluator.searchKeywords }] : []));
+  const boundaries = new Map(
+    (
+      JSON.parse(
+        readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
+      ) as BoundaryFeatureCollection<MunicipalityProperties>
+    ).features.map((feature) => [feature.properties.code, feature.geometry] as const),
+  );
+
+  it.each(openPoiConditions)("$id の検索結果が registry の検索語で作られ、施設は区市町村コードの区市町村の境界の中にある", ({ id, searchKeywords }) => {
+    const { source, features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
+    expect(source.keywords).toEqual(searchKeywords);
+    expect(features.length).toBeGreaterThan(0);
+    for (const { geometry, properties } of features) {
+      const boundary = boundaries.get(municipalityBoundaryCode(properties.municipalityCode));
+      expect(boundary && isPointInGeometry(geometry.coordinates, boundary), properties.name).toBe(true);
+    }
   });
 });

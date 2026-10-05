@@ -227,3 +227,46 @@ export type FacilitiesFile = z.infer<typeof facilitiesFileSchema>;
 
 /** `public/data/tokyo/facilities.geojson` を配信する URL。 */
 export const facilitiesFileUrl = "/data/tokyo/facilities.geojson";
+
+/**
+ * OpenPOI API の検索で見つけた東京都の施設 1 件 (GeoJSON の Feature)。レコードごとにライセンスが違うため、
+ * 応答の `licenses` と `attributions` をそのまま持つ (`.claude/rules/external-data-attribution.md`)。
+ */
+export const openPoiPlaceFeatureSchema = z.object({
+  type: z.literal("Feature"),
+  geometry: z.object({
+    type: z.literal("Point"),
+    /** [経度, 緯度] (WGS84)。 */
+    coordinates: z.tuple([z.number().min(136).max(154), z.number().min(20).max(36)]),
+  }),
+  properties: z.object({
+    /** 施設名。 */
+    name: z.string().min(1),
+    /** 施設が境界データの中にある区市町村の全国地方公共団体コード。 */
+    municipalityCode: localGovernmentCodeSchema,
+    /** 出所元のライセンスの一覧 (OpenPOI API の応答の `licenses`)。 */
+    licenses: z.array(z.string().min(1)).min(1),
+    /** 出所元の帰属表示 (OpenPOI API の応答の `attributions`)。 */
+    attributions: z.array(z.string().min(1)).min(1),
+  }),
+});
+
+/** `public/data/tokyo/openpoi/<条件の識別子>.geojson` の形式。軸の条件 1 件の判定に使う、OpenPOI API の検索結果の写し。 */
+export const openPoiPlacesFileSchema = z.object({
+  type: z.literal("FeatureCollection"),
+  /** 検索の条件と取得日。 */
+  source: z.object({
+    /** 検索した API のエンドポイント。 */
+    endpoint: z.url(),
+    /** `/v1/search` の q に渡した検索語 (スペース区切りで OR になる)。 */
+    keywords: z.array(z.string().min(1)).min(1),
+    /** 検索した日 (YYYY-MM-DD)。 */
+    retrievedOn: z.iso.date(),
+    /** 結果を出す画面でリンクする、OpenPOI API の出典・ライセンスのページ。 */
+    attributionUrl: z.url(),
+  }),
+  features: z.array(openPoiPlaceFeatureSchema),
+});
+
+/** `public/data/tokyo/openpoi/<条件の識別子>.geojson` の中身。 */
+export type OpenPoiPlacesFile = z.infer<typeof openPoiPlacesFileSchema>;
