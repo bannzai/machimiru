@@ -1,15 +1,19 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { registryConditions } from "../axes";
 import { type BoundaryFeatureCollection, type MunicipalityProperties, municipalityBoundaryCode } from "../boundaries";
+import { isPointInGeometry } from "../geometry";
 import {
   facilitiesFileSchema,
   facilityKindSchema,
   localGovernmentCheckDigit,
   municipalitiesFileSchema,
   municipalityIndicatorFieldSchema,
+  openPoiPlacesFileSchema,
   programsFileSchema,
 } from "./schema";
+import { tokyoDataSources } from "./sources";
 
 const dataDirectory = path.join(process.cwd(), "public", "data", "tokyo");
 const readJson = (relativePath: string): unknown => JSON.parse(readFileSync(path.join(dataDirectory, relativePath), "utf8"));
@@ -132,5 +136,42 @@ describe("public/data/tokyo/facilities.geojson", () => {
   it("施設の出典がファイルの sources にある", () => {
     const sourceIds = new Set(sources.map((source) => source.id));
     expect(features.every((feature) => sourceIds.has(feature.properties.sourceId))).toBe(true);
+  });
+});
+
+describe("public/data/tokyo/openpoi/*.geojson", () => {
+  const openPoiConditions = registryConditions.flatMap(({ id, evaluator }) => (evaluator.type === "openPoi" ? [{ id, searchKeywords: evaluator.searchKeywords }] : []));
+  const boundaries = new Map(
+    (
+      JSON.parse(
+        readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
+      ) as BoundaryFeatureCollection<MunicipalityProperties>
+    ).features.map((feature) => [feature.properties.code, feature.geometry] as const),
+  );
+
+  it.each(openPoiConditions)("$id の検索結果が registry の検索語で作られ、施設は区市町村コードの区市町村の境界の中にある", ({ id, searchKeywords }) => {
+    const { sources, keywords, features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
+    expect(keywords).toEqual(searchKeywords);
+    expect(sources).toEqual([tokyoDataSources.openPoi]);
+    expect(features.length).toBeGreaterThan(0);
+    for (const { geometry, properties } of features) {
+      const boundary = boundaries.get(municipalityBoundaryCode(properties.municipalityCode));
+      expect(boundary && isPointInGeometry(geometry.coordinates, boundary), properties.name).toBe(true);
+    }
+  });
+
+  it.each(openPoiConditions)("$id の施設のライセンスが、すべて LICENSES.txt に本文・条件とともに書かれている", ({ id }) => {
+    // 配信するデータのライセンスが求める本文・NOTICE を LICENSES.txt から辿れるよう、新しいライセンスのレコードが現れたら書き足させる
+    const licensesText = readFileSync(path.join(dataDirectory, "openpoi", "LICENSES.txt"), "utf8");
+    const { features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
+    const licenses = new Set(features.flatMap(({ properties }) => properties.licenses));
+    expect([...licenses].filter((license) => !licensesText.includes(`- ${license}:`))).toEqual([]);
+    // CC BY・PDL1.0 は出所元の出典表示を求めるため、レコードの出典表示もすべて LICENSES.txt から読めるようにする
+    const attributions = new Set(features.flatMap(({ properties }) => properties.attributions));
+    expect([...attributions].filter((attribution) => !licensesText.includes(`- ${attribution}\n`))).toEqual([]);
+    for (const licenseFile of ["LICENSE-Apache-2.0.txt", "LICENSE-CDLA-Permissive-2.0.txt", "NOTICE-Foursquare.txt"]) {
+      expect(licensesText).toContain(licenseFile);
+      expect(existsSync(path.join(dataDirectory, "openpoi", licenseFile)), licenseFile).toBe(true);
+    }
   });
 });

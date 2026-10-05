@@ -7,16 +7,30 @@ import {
   hasMedicalIncomeLimit,
   waitingChildrenRate,
 } from "./childcareScore";
-import { geometryAreaSquareKilometers } from "./geometry";
-import { type FacilitiesFile, type FacilityKind, type Municipality, facilityKindNames } from "./tokyoData/schema";
+import { distanceKilometers, geometryAreaSquareKilometers, geometryCenter } from "./geometry";
+import {
+  type FacilitiesFile,
+  type FacilityKind,
+  type Municipality,
+  type OpenPoiPlacesFile,
+  facilityKindNames,
+} from "./tokyoData/schema";
 
 /**
  * 条件の判定器。区市町村ごとの値と、値の良い向きを決める。
  * - point (点): 施設が近いか。`public/data/tokyo/facilities.geojson` の facilityKind の施設が、区市町村の面積 1 km² あたり何件あるか (多いほど良い)
+ * - openPoi (点): 施設が近いか。OpenPOI API を searchKeywords で検索した結果 (`public/data/tokyo/openpoi/<条件の識別子>.geojson`) で、point と同じ値を求める
  * - area (面): 区市町村の統計。`public/data/tokyo/municipalities.json` の区市町村の値と、高い方が良いか低い方が良いか
  */
 export type ConditionEvaluator =
   | { type: "point"; facilityKind: FacilityKind }
+  | {
+      type: "openPoi";
+      /** OpenPOI API の `/v1/search` の q に渡す検索語。スペースでつないで渡し、どれかに当たる施設を探す。 */
+      searchKeywords: readonly string[];
+      /** 根拠の文に出す施設の呼び名。 */
+      placeName: string;
+    }
   | {
       type: "area";
       /** 値が高い方が条件に合うか (higher)、低い方が合うか (lower)。 */
@@ -145,6 +159,29 @@ export const axes = [
       },
     ],
   },
+  {
+    id: "coworking",
+    name: "コワーキング",
+    classifierDescription: "Places to work outside the home: coworking spaces, shared offices, places for remote work",
+    // 「仕事場まで 30 分」のように通勤の文にも出る「仕事場」は入れない (通勤の候補の語にする)
+    keywords: ["ワークスペース"],
+    conditions: [
+      {
+        id: "coworkingNearby",
+        name: "コワーキングが近い",
+        classifierDescription:
+          "a coworking space or shared office (コワーキングスペース・シェアオフィス) close to home, or a place nearby where one can do remote work",
+        keywords: ["コワーキング", "シェアオフィス", "リモートワーク", "テレワーク"],
+        note: "OpenPOI API の検索語に当たった施設を数えています。名前や分類に検索語を含まないコワーキングは数えず、分類の誤りと見られる施設や自習室・駅のブース型の個室を数えていることがあります",
+        // 検索語の選び方と実測の件数は documents/PROJECT.md「コワーキングの検索語」
+        evaluator: {
+          type: "openPoi",
+          searchKeywords: ["coworking", "コワーキング", "シェアオフィス"],
+          placeName: "コワーキング・シェアオフィス",
+        },
+      },
+    ],
+  },
 ] as const satisfies readonly Axis[];
 
 /**
@@ -164,12 +201,6 @@ export type AxisId = (typeof axes)[number]["id"];
 /** 条件の識別子。 */
 export type ConditionId = (typeof axes)[number]["conditions"][number]["id"];
 
-/** すべての軸の条件の識別子 (registry の順)。 */
-export const conditionIds = axes.flatMap((axis) => axis.conditions.map((condition) => condition.id)) as [
-  ConditionId,
-  ...ConditionId[],
-];
-
 /** registry の条件 1 件の定義。 */
 export type RegistryCondition = (typeof axes)[number]["conditions"][number];
 
@@ -177,9 +208,15 @@ export type RegistryCondition = (typeof axes)[number]["conditions"][number];
 /** すべての軸の条件の定義 (registry の順)。 */
 export const registryConditions = axes.flatMap<RegistryCondition>((axis) => axis.conditions);
 
+/** すべての軸の条件の識別子 (registry の順)。 */
+export const conditionIds = registryConditions.map((condition) => condition.id) as [ConditionId, ...ConditionId[]];
+
 /** 区市町村 1 件の、条件 1 件の値と、その根拠の文。 */
 export type ConditionValue = {
-  /** 段階を決める値。向きは条件の判定器の betterDirection (点の判定器は多いほど良い)。 */
+  /**
+   * 段階を決める値。向きは条件の判定器の betterDirection (点と OpenPOI API の判定器は多いほど良い)。
+   * OpenPOI API の判定器で施設が 0 件の区市町村は、最も近い施設までの距離 (km) を負にした値。
+   */
   value: number;
   /** 値の根拠を画面に出す文。 */
   detail: string;
@@ -191,20 +228,62 @@ export type ConditionValues = Record<ConditionId, Record<string, ConditionValue 
 /**
  * すべての条件の、municipalities のそれぞれの値を返す。点の判定器は、facilitiesFile の施設の件数を
  * municipalityBoundaries (区市町村の境界の `code` → 形) から求めた面積で割る。境界が無い区市町村は null にする。
+ * OpenPOI API の判定器は openPoiPlacesFiles (条件の識別子 → 検索結果) の施設で同じ値を求め、施設が 0 件の区市町村は
+ * 区市町村の中心から最も近い施設までの距離 (km) を負にした値にする (1 件以上の区市町村より下で、近いほど上になる)。
+ * 検索結果のファイルが無いか施設が 1 件も無い条件は、すべて null にする。
  */
 export function computeConditionValues({
   municipalities,
   facilitiesFile,
+  openPoiPlacesFiles,
   municipalityBoundaries,
 }: {
   municipalities: readonly Municipality[];
   facilitiesFile: FacilitiesFile;
+  openPoiPlacesFiles: ReadonlyMap<string, OpenPoiPlacesFile>;
   municipalityBoundaries: ReadonlyMap<string, Polygon | MultiPolygon>;
 }): ConditionValues {
   return Object.fromEntries(
     axes.flatMap((axis) =>
       axis.conditions.map((condition): [ConditionId, Record<string, ConditionValue | null>] => {
         const { evaluator } = condition;
+        if (evaluator.type === "openPoi") {
+          const places = openPoiPlacesFiles.get(condition.id)?.features ?? [];
+          const placeCounts = Map.groupBy(places, ({ properties }) => properties.municipalityCode);
+          return [
+            condition.id,
+            Object.fromEntries(
+              municipalities.map(({ code }) => {
+                const boundary = municipalityBoundaries.get(municipalityBoundaryCode(code));
+                if (boundary === undefined || places.length === 0) {
+                  return [code, null];
+                }
+                const placeCount = placeCounts.get(code)?.length ?? 0;
+                if (placeCount === 0) {
+                  const center = geometryCenter(boundary);
+                  const nearestDistance = Math.min(
+                    ...places.map(({ geometry }) => distanceKilometers(center, geometry.coordinates)),
+                  );
+                  return [
+                    code,
+                    {
+                      value: -nearestDistance,
+                      detail: `${evaluator.placeName} 0 件 (区市町村の中心から最も近い施設まで ${nearestDistance.toFixed(1)} km)`,
+                    },
+                  ];
+                }
+                const placesPerSquareKilometer = placeCount / geometryAreaSquareKilometers(boundary);
+                return [
+                  code,
+                  {
+                    value: placesPerSquareKilometer,
+                    detail: `${evaluator.placeName} ${placeCount} 件 (面積 1 km² あたり ${placesPerSquareKilometer.toFixed(2)} 件)`,
+                  },
+                ];
+              }),
+            ),
+          ];
+        }
         if (evaluator.type === "point") {
           const facilityCounts = new Map<string, number>();
           for (const { properties } of facilitiesFile.features) {
@@ -310,10 +389,10 @@ export function combineFitLevels(levels: readonly (FitLevel | null)[]): FitLevel
     : (Math.round(knownLevels.reduce<number>((sum, level) => sum + level, 0) / knownLevels.length) as FitLevel);
 }
 
-/** 条件 conditionId の判定器の値の良い向き。点の判定器は、面積あたりの施設が多いほど近いため higher。 */
+/** 条件 conditionId の判定器の値の良い向き。点と OpenPOI API の判定器は、面積あたりの施設が多いほど近いため higher。 */
 function betterDirectionOfCondition(conditionId: ConditionId): "higher" | "lower" {
   const { evaluator } = conditionById(conditionId);
-  return evaluator.type === "point" ? "higher" : evaluator.betterDirection;
+  return evaluator.type === "area" ? evaluator.betterDirection : "higher";
 }
 
 /** conditionId の registry の条件の定義を返す。ConditionId は registry から作る型のため、必ず見つかる。 */

@@ -16,7 +16,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "screenshot": "playwright test",
-    "data:tokyo": "tsx scripts/data/tokyo/generate.ts"
+    "data:tokyo": "tsx scripts/data/tokyo/generate.ts",
+    "data:openpoi": "tsx scripts/data/openpoi/generate.ts"
   },
   "dependencies": {
     "maplibre-gl": "^6.12.0",

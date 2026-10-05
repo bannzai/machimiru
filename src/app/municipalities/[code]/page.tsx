@@ -5,6 +5,7 @@ import {
   axes,
   axisFitLevel,
   computeConditionFitLevels,
+  conditionById,
   conditionIds,
   missingFitLabel,
 } from "@/lib/axes";
@@ -18,12 +19,19 @@ import {
   maxChildcareProgramCount,
   waitingChildrenRate,
 } from "@/lib/childcareScore";
+import { openPoiAttributionUrl } from "@/lib/openPoi";
 import { siteName } from "@/lib/site";
-import { readConditionValues, readMunicipalitiesFile, readProgramsFile } from "@/lib/tokyoData/load";
+import {
+  readConditionValues,
+  readMunicipalitiesFile,
+  readOpenPoiPlacesFiles,
+  readProgramsFile,
+} from "@/lib/tokyoData/load";
 import {
   type Municipality,
   type MunicipalityIndicatorField,
   type ProgramCategoryCode,
+  openPoiPlacesLicensesUrl,
   programCategoryNames,
 } from "@/lib/tokyoData/schema";
 import { FitLevelBadge } from "../../AxisComparison";
@@ -68,6 +76,7 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
   const programsFile = readProgramsFile(code);
   const conditionValues = readConditionValues(municipalities);
   const conditionFitLevels = computeConditionFitLevels(conditionValues);
+  const openPoiPlacesFiles = readOpenPoiPlacesFiles();
   return (
     <main className="municipality-page">
       <p>
@@ -192,6 +201,13 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
             "note" in condition ? [<p key={condition.id}>{`${condition.name}: ${condition.note}`}</p>] : [],
           ),
         )}
+        {[...openPoiPlacesFiles].map(([conditionId, { sources, keywords }]) => (
+          <p key={conditionId}>
+            {conditionById(conditionId).name}の施設の出典: <a href={openPoiAttributionUrl}>OpenPOI API</a> の検索結果 (検索語{" "}
+            {keywords.join("・")}、{sources[0].retrievedOn} 取得。
+            <a href={openPoiPlacesLicensesUrl}>施設ごとのライセンス</a>)
+          </p>
+        ))}
       </section>
 
       <section aria-labelledby="programs-heading">

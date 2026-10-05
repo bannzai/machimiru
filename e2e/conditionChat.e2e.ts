@@ -2,9 +2,9 @@ import { expect, test } from "@playwright/test";
 import { logBrowserErrors, moveMap, tapMapCenter, waitForMapIdle } from "./map";
 
 // 文章の判定は playwright.config.ts の webServer.env で辞書による固定の判定にしている。
-// issue の例文に、registry に無い軸 (医療・健康) の要望の文を足したもの
+// issue の例文に、registry に無い軸 (医療・健康) の要望の文と、コワーキングの軸の文を足したもの
 const conditionText =
-  "2 歳の子どもがいて、保育園と小児科が近く、新宿まで 30 分以内、家賃は 15 万円まで、鍼灸の評判が良い場所が近い";
+  "2 歳の子どもがいて、保育園と小児科が近く、新宿まで 30 分以内、家賃は 15 万円まで、鍼灸の評判が良い場所が近い、コワーキングが近い";
 const expectedAxisRequests = [
   { axisName: "通勤", text: "新宿まで 30 分以内" },
   { axisName: "予算", text: "家賃は 15 万円まで" },
@@ -34,10 +34,11 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   // 文章を入れると、軸と条件に分かれる。registry にある条件はチェックが付き、無い軸は判定できない条件として出る
   await page.getByLabel("条件を足す 言い直す").fill(conditionText);
   await page.getByRole("button", { name: "軸に分ける" }).click();
-  await expect(page.getByText("4 つの軸に分けました")).toBeVisible();
+  await expect(page.getByText("5 つの軸に分けました")).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "小児科が近い" })).toBeChecked();
   await expect(page.getByRole("checkbox", { name: "保育園に入りやすい" })).toBeChecked();
   await expect(page.getByRole("checkbox", { name: "子育て支援が手厚い" })).not.toBeChecked();
+  await expect(page.getByRole("checkbox", { name: "コワーキングが近い" })).toBeChecked();
   const unsupportedItems = page.getByRole("list", { name: "判定できない条件" }).getByRole("listitem");
   await expect(unsupportedItems).toHaveText(
     expectedAxisRequests.map(({ axisName, text }) => new RegExp(`^${axisName} ${text}この軸はまだ判定できません`)),
@@ -66,12 +67,12 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await page.screenshot({ path: screenshotPath("condition-chat-unsupported") });
 
   // まとめのタブ: 地図の塗り分けと、選んだ街 × 軸の表
-  await expect(page.getByRole("tab")).toHaveText(["まとめ", "子育て"]);
+  await expect(page.getByRole("tab")).toHaveText(["まとめ", "子育て", "コワーキング"]);
   await expect(page.getByRole("tab", { name: "まとめ" })).toHaveAttribute("aria-selected", "true");
   await waitForMapIdle(page);
   // 表は globals.css で display: block にしており、ブラウザによっては表の role が外れるため、要素とキャプションで探す
   const matrix = page.locator("table", { has: page.locator("caption", { hasText: "選んだ街 2 合う順" }) });
-  await expect(matrix.locator("thead th")).toHaveText(["街", "まとめ", "子育て"]);
+  await expect(matrix.locator("thead th")).toHaveText(["街", "まとめ", "子育て", "コワーキング"]);
   await expect(matrix.locator("tbody tr")).toHaveCount(2);
   // 区市町村ごとの塗り分けを見渡せるよう、23 区と多摩の東部が入るズームにする
   await moveMap(page, "#10/35.69/139.6");
@@ -98,8 +99,25 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await scrollToTop(comparisonHeading);
   await page.screenshot({ path: screenshotPath("axis-childcare-list") });
 
+  // コワーキングのタブ: OpenPOI API の検索結果の施設の数で決めた段階と根拠、出典
+  await page.getByRole("tab", { name: "コワーキング" }).click();
+  await expect(page.getByRole("tab", { name: "コワーキング" })).toHaveAttribute("aria-selected", "true");
+  await expect(page.getByRole("list", { name: "新宿区の条件ごとの段階" }).getByRole("listitem")).toHaveText([
+    /^コワーキングが近い: (合う|やや合う|あまり|合わない)コワーキング・シェアオフィス \d+ 件/,
+  ]);
+  await expect(page.getByText("コワーキングが近いの施設の出典:")).toBeVisible();
+  await expect(page.getByRole("link", { name: "OpenPOI API" }).first()).toHaveAttribute(
+    "href",
+    "https://openpoiapi.com/attribution.html",
+  );
+  await waitForMapIdle(page);
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.screenshot({ path: screenshotPath("axis-coworking-map") });
+  await scrollToTop(comparisonHeading);
+  await page.screenshot({ path: screenshotPath("axis-coworking-list") });
+
   // 街の詳細 (区市町村のページ) に軸ごとの段階が出る
-  await page.getByRole("list", { name: "選んだ街を子育てで見ると" }).getByRole("link", { name: "新宿区" }).click();
+  await page.getByRole("list", { name: "選んだ街をコワーキングで見ると" }).getByRole("link", { name: "新宿区" }).click();
   await expect(page.getByRole("heading", { level: 1, name: "新宿区の子育ての指標と制度" })).toBeVisible();
   const axisFitTable = page.locator("table", { has: page.locator("caption", { hasText: "軸と条件ごとの段階" }) });
   await expect(axisFitTable.locator("tbody th")).toHaveText([
@@ -109,7 +127,10 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
     "子育て支援が手厚い",
     "治安",
     "犯罪率が低い",
+    "コワーキング",
+    "コワーキングが近い",
   ]);
+  await expect(page.getByText(/^コワーキングが近いの施設の出典: OpenPOI API の検索結果/)).toBeVisible();
   await scrollToTop(page.getByRole("heading", { level: 2, name: "軸ごとの合う度合い" }));
   await page.screenshot({ path: screenshotPath("municipality-axis-fit") });
 });

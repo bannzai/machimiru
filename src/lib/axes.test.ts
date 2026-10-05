@@ -18,7 +18,8 @@ import {
   readMunicipalitiesFile,
   readMunicipalityBoundaries,
 } from "./tokyoData/load";
-import type { FacilitiesFile, Municipality } from "./tokyoData/schema";
+import type { FacilitiesFile, Municipality, OpenPoiPlacesFile } from "./tokyoData/schema";
+import { tokyoDataSources } from "./tokyoData/sources";
 
 /** 値 value を持ち、根拠の文に値をそのまま書いた ConditionValue を返す。 */
 function conditionValue(value: number): ConditionValue {
@@ -108,23 +109,73 @@ describe("computeConditionValues", () => {
     ],
   };
 
+  // 経度 1〜2 度・緯度 0〜1 度の、square の東隣の正方形
+  const eastSquare = {
+    type: "Polygon" as const,
+    coordinates: [
+      [
+        [1, 0],
+        [2, 0],
+        [2, 1],
+        [1, 1],
+        [1, 0],
+      ],
+    ],
+  };
+  const openPoiPlace = (municipalityCode: string, coordinates: [number, number]): OpenPoiPlacesFile["features"][number] => ({
+    type: "Feature",
+    geometry: { type: "Point", coordinates },
+    properties: { name: "n", municipalityCode, licenses: ["CDLA-Permissive-2.0"], attributions: ["Overture Maps Foundation"] },
+  });
+
   const values = computeConditionValues({
     municipalities: [
       municipality("131016", { programCount: 20 }),
       municipality("131024", { childcare: null, medicalSubsidy: null, crimeCount: null }),
+      municipality("131032", {}),
     ],
     facilitiesFile: {
       type: "FeatureCollection",
       sources: [],
       features: [facility("131016", "pediatrics"), facility("131016", "nursery"), facility("131024", "pediatrics")],
     } as unknown as FacilitiesFile,
-    municipalityBoundaries: new Map([["13101", square]]),
+    openPoiPlacesFiles: new Map([
+      [
+        "coworkingNearby",
+        {
+          type: "FeatureCollection",
+          sources: [tokyoDataSources.openPoi],
+          keywords: ["coworking"],
+          // square の 2 件と、eastSquare の中心 (経度 1.5 度・緯度 0.5 度) から経度 0.5 度西の 1 件 (square の東端)
+          features: [openPoiPlace("131016", [0.2, 0.5]), openPoiPlace("131016", [1, 0.5])],
+        } satisfies OpenPoiPlacesFile,
+      ],
+    ]),
+    municipalityBoundaries: new Map([
+      ["13101", square],
+      ["13103", eastSquare],
+    ]),
   });
 
   it("点の判定器は、施設の種類の件数を区市町村の面積で割る。境界の無い区市町村は null", () => {
     expect(values.pediatricsNearby["131016"]?.value).toBeCloseTo(1 / 12364, 6);
     expect(values.pediatricsNearby["131016"]?.detail).toMatch(/^小児科 1 件 \(面積 1 km² あたり 0\.00 件\)$/);
     expect(values.pediatricsNearby["131024"]).toBeNull();
+  });
+
+  it("OpenPOI API の判定器は、検索結果の施設の件数を区市町村の面積で割る。境界の無い区市町村は null", () => {
+    expect(values.coworkingNearby["131016"]?.value).toBeCloseTo(2 / 12364, 6);
+    expect(values.coworkingNearby["131016"]?.detail).toBe("コワーキング・シェアオフィス 2 件 (面積 1 km² あたり 0.00 件)");
+    expect(values.coworkingNearby["131024"]).toBeNull();
+  });
+
+  it("OpenPOI API の判定器で施設が 0 件の区市町村は、中心から最も近い施設までの距離 (km) を負にした値にする", () => {
+    // 赤道付近の経度 0.5 度 (地球の半径 6371.0088 km の円周の 720 分の 1)
+    const distance = (2 * Math.PI * 6371.0088) / 720;
+    expect(values.coworkingNearby["131032"]?.value).toBeCloseTo(-distance, 1);
+    expect(values.coworkingNearby["131032"]?.detail).toBe(
+      `コワーキング・シェアオフィス 0 件 (区市町村の中心から最も近い施設まで ${distance.toFixed(1)} km)`,
+    );
   });
 
   it("保育園に入りやすいは待機児童の割合 (低いほど良い)。保育所等のデータが無い区市町村は null", () => {
@@ -166,6 +217,7 @@ describe("axisFitLevel・summaryFitLevel", () => {
     nurseryAvailability: { a: 1, b: null },
     childcareSupport: { a: 3, b: null },
     lowCrimeRate: { a: 3, b: 0 },
+    coworkingNearby: { a: null, b: null },
   } as const;
 
   it("軸の段階は、使う条件の段階だけを合わせる", () => {

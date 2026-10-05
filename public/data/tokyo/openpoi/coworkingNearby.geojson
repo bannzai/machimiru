@@ -1,0 +1,5898 @@
+{
+  "type": "FeatureCollection",
+  "sources": [
+    {
+      "id": "openpoi-api-search",
+      "title": "OpenPOI API 施設の検索 (/v1/search)",
+      "provider": "OpenPOI API",
+      "pageUrl": "https://docs.openpoiapi.com/",
+      "fileUrls": [
+        "https://api.openpoiapi.com/v1/search"
+      ],
+      "asOf": null,
+      "retrievedOn": "2026-10-05",
+      "license": "施設ごとに異なる (CDLA-Permissive-2.0・Apache-2.0・CC BY 4.0・PDL1.0。各レコードの licenses)",
+      "licenseUrl": "https://openpoiapi.com/attribution.html",
+      "attribution": "OpenPOI API の施設の検索結果を加工して作成 (施設ごとの出典表示は各レコードの attributions)"
+    }
+  ],
+  "keywords": [
+    "coworking",
+    "コワーキング",
+    "シェアオフィス"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75332078191926,
+          35.70132157794955
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort水道橋",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7562526,
+          35.6974673
+        ]
+      },
+      "properties": {
+        "name": "CO-WORKING&JAZZCLUB EXPRESSION",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77405886591,
+          35.697872071818
+        ]
+      },
+      "properties": {
+        "name": "Cero 秋葉原コワーキングスペース",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76264732203995,
+          35.700126092237305
+        ]
+      },
+      "properties": {
+        "name": "Circles | サークルズ　御茶ノ水",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75049,
+          35.672718
+        ]
+      },
+      "properties": {
+        "name": "CocoDesk 霞ケ関駅出口A12·A13方面",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75908,
+          35.6906
+        ]
+      },
+      "properties": {
+        "name": "Communication Lounge「Oasis」",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7662409,
+          35.6851951
+        ]
+      },
+      "properties": {
+        "name": "H¹T 大手町",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75358582,
+          35.69404221
+        ]
+      },
+      "properties": {
+        "name": "H¹T 市ヶ谷",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7525027,
+          35.7019153
+        ]
+      },
+      "properties": {
+        "name": "H¹T 水道橋",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7746544,
+          35.6995801
+        ]
+      },
+      "properties": {
+        "name": "H¹T 秋葉原中央北口",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7374242,
+          35.6842085
+        ]
+      },
+      "properties": {
+        "name": "H¹T 麹町",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7575467824936,
+          35.69560863219186
+        ]
+      },
+      "properties": {
+        "name": "LEAGUE JIMBOCHO",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770994,
+          35.700408
+        ]
+      },
+      "properties": {
+        "name": "LIFORK秋葉原II",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73693933306646,
+          35.67971138131063
+        ]
+      },
+      "properties": {
+        "name": "LODGE",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.748559,
+          35.702666
+        ]
+      },
+      "properties": {
+        "name": "NewWork 飯田橋",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.750997,
+          35.694369
+        ]
+      },
+      "properties": {
+        "name": "QUICK solo 九段会館テラス CHATBOX",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764,
+          35.6859
+        ]
+      },
+      "properties": {
+        "name": "REGUS OTEMACHI 1ST BUILDING CENTRE (リージャス 大手町ファーストビルディングセンター)",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774411,
+          35.69775948
+        ]
+      },
+      "properties": {
+        "name": "Rampart - 秋葉原コワーキングスペースランパート",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76490784177452,
+          35.686426647988995
+        ]
+      },
+      "properties": {
+        "name": "SPACES大手町ビル",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76588,
+          35.682084
+        ]
+      },
+      "properties": {
+        "name": "STATION BOOTH 東京駅丸の内地下改札内(北口側)",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76331676,
+          35.69548694
+        ]
+      },
+      "properties": {
+        "name": "TAM Coworking Tokyo",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7669319153442,
+          35.68413550291942
+        ]
+      },
+      "properties": {
+        "name": "WeWork Marunouchi Kitaguchi",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77388,
+          35.69931
+        ]
+      },
+      "properties": {
+        "name": "Work Styling",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77194,
+          35.692013
+        ]
+      },
+      "properties": {
+        "name": "Work Styling 神田",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75145,
+          35.695972
+        ]
+      },
+      "properties": {
+        "name": "ZXY九段下",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.765258,
+          35.695988
+        ]
+      },
+      "properties": {
+        "name": "ZXY新御茶ノ水",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.743214,
+          35.671691
+        ]
+      },
+      "properties": {
+        "name": "ZXY溜池山王",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763296,
+          35.680345
+        ]
+      },
+      "properties": {
+        "name": "point 0 東京・丸の内コワーキングスペース",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771893,
+          35.692259
+        ]
+      },
+      "properties": {
+        "name": "waw神田",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77083,
+          35.697937
+        ]
+      },
+      "properties": {
+        "name": "おしごとパセラ 秋葉原電気街店",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.731919,
+          35.686142
+        ]
+      },
+      "properties": {
+        "name": "アントレオフィス四ツ谷六番町",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7709002,
+          35.6962009
+        ]
+      },
+      "properties": {
+        "name": "アントレオフィス秋葉原/レンタルサロンHanamachi秋葉原",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7403882,
+          35.6735681
+        ]
+      },
+      "properties": {
+        "name": "エグゼクティブセンター山王パークタワー | The Executive Centre レンタルオフィス・貸会議室​",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7663663,
+          35.6841232
+        ]
+      },
+      "properties": {
+        "name": "エグゼクティブセンター新丸の内センタービル | The Executive Centre レンタルオフィス・貸会議室​",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7643472,
+          35.6938256
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース・バーチャルオフィス BELL&Co. 銀座",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7718355061481,
+          35.69668389369096
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース秋葉 Weeyble",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75160464711152,
+          35.69532602468785
+        ]
+      },
+      "properties": {
+        "name": "ナレッジソサエティ",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771139,
+          35.693737
+        ]
+      },
+      "properties": {
+        "name": "ビジネスエアポート神田",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76693899502357,
+          35.67819413912881
+        ]
+      },
+      "properties": {
+        "name": "リージャス パシフィックセンチュリー丸の内センター",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77029574171615,
+          35.683049096912484
+        ]
+      },
+      "properties": {
+        "name": "リージャス 丸の内鉄鋼ビルディング",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.733318,
+          35.684461
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング 四谷",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7751539550137,
+          35.698932742530054
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング秋葉原昭和通",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766673,
+          35.69312
+        ]
+      },
+      "properties": {
+        "name": "司3331",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73509643222985,
+          35.69074888086763
+        ]
+      },
+      "properties": {
+        "name": "株式会社 リーンフェイズ",
+        "municipalityCode": "131016",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75732784,
+          35.70070727
+        ]
+      },
+      "properties": {
+        "name": "起業支援コワーキング・シェアオフィス / StartupSide",
+        "municipalityCode": "131016",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7859597,
+          35.6655452
+        ]
+      },
+      "properties": {
+        "name": "H¹T 月島",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734149,
+          35.6689949
+        ]
+      },
+      "properties": {
+        "name": "H¹T 築地",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779732,
+          35.6798518
+        ]
+      },
+      "properties": {
+        "name": "H¹T 茅場町",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775173,
+          35.681392
+        ]
+      },
+      "properties": {
+        "name": "NewWork 日本橋",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7737943,
+          35.687891
+        ]
+      },
+      "properties": {
+        "name": "X-NIHONBASHI BASE",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7731096,
+          35.6868816
+        ]
+      },
+      "properties": {
+        "name": "X-NIHONBASHI TOWER",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77143,
+          35.68038
+        ]
+      },
+      "properties": {
+        "name": "ZXY 八重洲2",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782676,
+          35.694991
+        ]
+      },
+      "properties": {
+        "name": "アクセアカフェ コンセプトビル東神田店",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77848553658,
+          35.674188751053
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース \"hanare\"",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7726,
+          35.67
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース Katsuki Cafe",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78202669789823,
+          35.678824376726475
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース茅場町 Co-Edo",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76677384802,
+          35.670179445461
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィス5.0「タイムリッチ銀座」",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76347982883,
+          35.670876763161
+        ]
+      },
+      "properties": {
+        "name": "レンタルオフィス・シェアオフィス・バーチャルオフィスbizcube（ビズキューブ）",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769202,
+          35.679317
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング東京ミッドタウン八重洲",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76593,
+          35.666641
+        ]
+      },
+      "properties": {
+        "name": "住友商事 グローバル人材開発センター",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7820269,
+          35.6784656
+        ]
+      },
+      "properties": {
+        "name": "女性専用コワーキングスペース　Bright One　",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7700991874127,
+          35.67648791284392
+        ]
+      },
+      "properties": {
+        "name": "市ヶ谷コワーキングカフェ",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784821,
+          35.686177
+        ]
+      },
+      "properties": {
+        "name": "株式会社 アルファ・ドゥー",
+        "municipalityCode": "131024",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7648468,
+          35.6680307
+        ]
+      },
+      "properties": {
+        "name": "起業応援コワーキングスペース『アントレサロン』",
+        "municipalityCode": "131024",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.745699,
+          35.648568
+        ]
+      },
+      "properties": {
+        "name": "BIZ comfort 田町",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73671607156632,
+          35.65472463354075
+        ]
+      },
+      "properties": {
+        "name": "Birth Lab",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735917,
+          35.676091
+        ]
+      },
+      "properties": {
+        "name": "CO-Working Space コークス赤坂　港区赤坂に誕生したコワーキングスペース",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7210552144207,
+          35.66988800555108
+        ]
+      },
+      "properties": {
+        "name": "FARO 青山",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7535519,
+          35.6683472
+        ]
+      },
+      "properties": {
+        "name": "Hakadoru コワーキング×カフェ",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7433062,
+          35.6305536
+        ]
+      },
+      "properties": {
+        "name": "H¹T 品川",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7597229,
+          35.6667276
+        ]
+      },
+      "properties": {
+        "name": "H¹T 新橋銀座口",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7549487,
+          35.6560009
+        ]
+      },
+      "properties": {
+        "name": "H¹T 浜松町(大門駅前)",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7572235,
+          35.6675977
+        ]
+      },
+      "properties": {
+        "name": "H¹T新橋日比谷口",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.757265,
+          35.668027
+        ]
+      },
+      "properties": {
+        "name": "NewWork 新橋",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7283690840441,
+          35.67334334836043
+        ]
+      },
+      "properties": {
+        "name": "REGUS AOYAMA PLACE CANADA CENTRE (リージャス青山プラースカナダセンター)",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72854616207036,
+          35.660469854856174
+        ]
+      },
+      "properties": {
+        "name": "REGUS ROPPONGI HILLS CENTRE (リージャス 六本木ヒルズセンター)",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75312205234727,
+          35.658677965412906
+        ]
+      },
+      "properties": {
+        "name": "Regus - Tokyo, Shiba Daimon",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75278854370114,
+          35.64422783417038
+        ]
+      },
+      "properties": {
+        "name": "The Integer Group Tokyo",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75395736501383,
+          35.66072568263915
+        ]
+      },
+      "properties": {
+        "name": "WeWork",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755422,
+          35.667401
+        ]
+      },
+      "properties": {
+        "name": "ZXY 新橋内幸町",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.742455,
+          35.628815
+        ]
+      },
+      "properties": {
+        "name": "ZXY品川東口",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735655,
+          35.676685
+        ]
+      },
+      "properties": {
+        "name": "ZXY赤坂見附",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7475358,
+          35.6474517
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス田町(コワーキングスペース/会議室あり)",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7562709,
+          35.6546428
+        ]
+      },
+      "properties": {
+        "name": "エグゼクティブセンター世界貿易センタービルディング南館 | The Executive Centre レンタルオフィス・貸会議室​",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.733342856466,
+          35.669700476762756
+        ]
+      },
+      "properties": {
+        "name": "キュー・テック",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7564899,
+          35.6543498
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース リブポート浜松町",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7528269,
+          35.6695889
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペースhakadoru",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73328863219,
+          35.677359202016
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスポット赤坂",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.729209,
+          35.665153
+        ]
+      },
+      "properties": {
+        "name": "サーブコープ Tri-Seven Roppongi",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75470420606666,
+          35.661076340381236
+        ]
+      },
+      "properties": {
+        "name": "ドゥ・ハウス",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75735992,
+          35.66642952
+        ]
+      },
+      "properties": {
+        "name": "ニュー新橋コワーキングカフェ/シェアショールームWow！",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74142976616088,
+          35.62727353455151
+        ]
+      },
+      "properties": {
+        "name": "ビジネスエアポート品川",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71623393693847,
+          35.66877954987367
+        ]
+      },
+      "properties": {
+        "name": "ビジネスエアポート青山",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74843073531684,
+          35.64740883924953
+        ]
+      },
+      "properties": {
+        "name": "ビズトレ！",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7524992,
+          35.6687111
+        ]
+      },
+      "properties": {
+        "name": "モック虎ノ門オフィス・レンタルオフィス・コワーキングオフィス",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74081673264507,
+          35.62773376372321
+        ]
+      },
+      "properties": {
+        "name": "リージャス 品川イーストワンタワーセンター",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75924804446424,
+          35.65672192997719
+        ]
+      },
+      "properties": {
+        "name": "リージャス 汐留ビルディングセンター",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75071580343,
+          35.65083234655
+        ]
+      },
+      "properties": {
+        "name": "レタスワーク 【港区芝のシェアオフィス Retous Work】",
+        "municipalityCode": "131032",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777822,
+          35.628706
+        ]
+      },
+      "properties": {
+        "name": "東京オフラインセンター お台場営業所",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7558068481033,
+          35.66442407482438
+        ]
+      },
+      "properties": {
+        "name": "東京オフラインセンター 汐留スタジオ",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73384,
+          35.676196
+        ]
+      },
+      "properties": {
+        "name": "赤坂アントレサロン",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717024,
+          35.670652
+        ]
+      },
+      "properties": {
+        "name": "青山ライズオフィスバーチャル",
+        "municipalityCode": "131032",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6906042098999,
+          35.68570983314439
+        ]
+      },
+      "properties": {
+        "name": "Day Translations, Tokyo",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69687,
+          35.691025
+        ]
+      },
+      "properties": {
+        "name": "FEEEP",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72912244,
+          35.68848112
+        ]
+      },
+      "properties": {
+        "name": "Froh Coworking （Froh／フロー）",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7018243,
+          35.690232
+        ]
+      },
+      "properties": {
+        "name": "H¹T by W 新宿東南口",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7035797,
+          35.6911264
+        ]
+      },
+      "properties": {
+        "name": "H¹T 新宿三丁目",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.704251,
+          35.7129572
+        ]
+      },
+      "properties": {
+        "name": "H¹T 高田馬場",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.698378,
+          35.68931
+        ]
+      },
+      "properties": {
+        "name": "NewWork 新宿",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.690872,
+          35.685633
+        ]
+      },
+      "properties": {
+        "name": "REGUS SHINJYUKU PARK TOWER (リージャス 新宿パークタワーセンター)",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.706921,
+          35.712323
+        ]
+      },
+      "properties": {
+        "name": "THE HUB高田馬場",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.728538,
+          35.686507
+        ]
+      },
+      "properties": {
+        "name": "ZXY四ツ谷",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.702144,
+          35.690447
+        ]
+      },
+      "properties": {
+        "name": "ZXY新宿東口",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.693147,
+          35.693078
+        ]
+      },
+      "properties": {
+        "name": "moboff SHINJUKU i-LAND",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.697959,
+          35.69281
+        ]
+      },
+      "properties": {
+        "name": "オープンオフィス 新宿ウエスト(OpenOffice Shinjuku West)",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6936509,
+          35.6883452
+        ]
+      },
+      "properties": {
+        "name": "ベルサールラウンジ新宿NS店",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7047852,
+          35.6902682
+        ]
+      },
+      "properties": {
+        "name": "ルミクス脱毛サロン ラココ 新宿店【旧:新宿南口店】|LACOCO 全身脱毛",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.697513,
+          35.692236
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング solo 新宿西口",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7356814146042,
+          35.69401845900887
+        ]
+      },
+      "properties": {
+        "name": "株式会社ムサシノ広告社",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.693403,
+          35.693433
+        ]
+      },
+      "properties": {
+        "name": "西新宿アントレサロン",
+        "municipalityCode": "131041",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69853348,
+          35.69456119
+        ]
+      },
+      "properties": {
+        "name": "貸し会議室 新宿シェアオフィス・新宿シェアサロン・新宿シェア会議室 L&H",
+        "municipalityCode": "131041",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754683,
+          35.703138
+        ]
+      },
+      "properties": {
+        "name": "Enxross Dao",
+        "municipalityCode": "131059",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7607468,
+          35.7081122
+        ]
+      },
+      "properties": {
+        "name": "KERNEL HONGO",
+        "municipalityCode": "131059",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.748623,
+          35.733489
+        ]
+      },
+      "properties": {
+        "name": "Mid Point 駒込",
+        "municipalityCode": "131059",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76010536210129,
+          35.70771486849459
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース Albo",
+        "municipalityCode": "131059",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767466,
+          35.705952
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィス コトバ",
+        "municipalityCode": "131059",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74582326806,
+          35.709242182694
+        ]
+      },
+      "properties": {
+        "name": "安藤坂コイン(Andozaka COIN)",
+        "municipalityCode": "131059",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73207551937,
+          35.708210396045
+        ]
+      },
+      "properties": {
+        "name": "親子で使えるコワーキングスペース・マチファン・東京都文京区関口",
+        "municipalityCode": "131059",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763135,
+          35.7244608
+        ]
+      },
+      "properties": {
+        "name": "隠れ家コワーキングカフェ comfull",
+        "municipalityCode": "131059",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7905639,
+          35.726345
+        ]
+      },
+      "properties": {
+        "name": "Coworkingspace 竜泉工房",
+        "municipalityCode": "131067",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7974551,
+          35.710035
+        ]
+      },
+      "properties": {
+        "name": "H¹T 浅草",
+        "municipalityCode": "131067",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7759640677085,
+          35.70733304844982
+        ]
+      },
+      "properties": {
+        "name": "NTTトラベルサービス",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7783325612545,
+          35.71299608679788
+        ]
+      },
+      "properties": {
+        "name": "NewWork 上野",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7846683,
+          35.6995364
+        ]
+      },
+      "properties": {
+        "name": "W Complex Asakusabashi（コワーキング＆レンタルスペース）",
+        "municipalityCode": "131067",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776538,
+          35.706389
+        ]
+      },
+      "properties": {
+        "name": "ZXY 御徒町",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797793,
+          35.710597
+        ]
+      },
+      "properties": {
+        "name": "ZXY 浅草",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776249,
+          35.710175
+        ]
+      },
+      "properties": {
+        "name": "ZXY上野２",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784668,
+          35.6995359
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス浅草橋 by PLAY & co",
+        "municipalityCode": "131067",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77852345806,
+          35.71054668614
+        ]
+      },
+      "properties": {
+        "name": "エムシ―オフィス東上野・レンタルオフィス・コワーキングオフィス",
+        "municipalityCode": "131067",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7784229492782,
+          35.71398599319226
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング上野",
+        "municipalityCode": "131067",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81482,
+          35.711204
+        ]
+      },
+      "properties": {
+        "name": "Coworking atelier & cafe vibar",
+        "municipalityCode": "131075",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813842,
+          35.695202
+        ]
+      },
+      "properties": {
+        "name": "H1T錦糸町",
+        "municipalityCode": "131075",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.811254,
+          35.697173
+        ]
+      },
+      "properties": {
+        "name": "Regus - Tokyo Arca Central",
+        "municipalityCode": "131075",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80261336297,
+          35.703604827571
+        ]
+      },
+      "properties": {
+        "name": "Tokyoシェアオフィス墨田",
+        "municipalityCode": "131075",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8343095149684,
+          35.696070349548236
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort 亀戸南",
+        "municipalityCode": "131083",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819366,
+          35.669472
+        ]
+      },
+      "properties": {
+        "name": "H¹T 東陽町",
+        "municipalityCode": "131083",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.796295,
+          35.655837
+        ]
+      },
+      "properties": {
+        "name": "Workstyling 豊洲",
+        "municipalityCode": "131083",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797618,
+          35.65482
+        ]
+      },
+      "properties": {
+        "name": "ZXY豊洲",
+        "municipalityCode": "131083",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72704990883358,
+          35.62578149037195
+        ]
+      },
+      "properties": {
+        "name": "Basis Point",
+        "municipalityCode": "131091",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7287598,
+          35.6206844
+        ]
+      },
+      "properties": {
+        "name": "H¹T 大崎",
+        "municipalityCode": "131091",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74866779560787,
+          35.62132543716084
+        ]
+      },
+      "properties": {
+        "name": "Samurai Startup Island",
+        "municipalityCode": "131091",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.723021,
+          35.624492
+        ]
+      },
+      "properties": {
+        "name": "ZXY五反田2",
+        "municipalityCode": "131091",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72423822,
+          35.6248016
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスナック コンテンツ",
+        "municipalityCode": "131091",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72973817,
+          35.58961159
+        ]
+      },
+      "properties": {
+        "name": "パブリッド コワーキングスペース コワーキングスペース 会議室 ドロップイン バーチャルオフィス 大森 品川",
+        "municipalityCode": "131091",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6981772938,
+          35.64249605215
+        ]
+      },
+      "properties": {
+        "name": "AILES エール中目黒 Coworking CAFE & Communication BAR",
+        "municipalityCode": "131105",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6693439,
+          35.6070907
+        ]
+      },
+      "properties": {
+        "name": "H¹T by W 自由が丘",
+        "municipalityCode": "131105",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6983986,
+          35.6443899
+        ]
+      },
+      "properties": {
+        "name": "H¹T 中目黒",
+        "municipalityCode": "131105",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.66733412876104,
+          35.60817790186703
+        ]
+      },
+      "properties": {
+        "name": "NewWork 自由が丘",
+        "municipalityCode": "131105",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.695114,
+          35.647235
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス中目黒",
+        "municipalityCode": "131105",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6983631,
+          35.643974
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス中目黒",
+        "municipalityCode": "131105",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7132177,
+          35.631748
+        ]
+      },
+      "properties": {
+        "name": "エグゼクティブセンターアルコタワー | ​ The Executive Centre 目黒レンタルオフィス・貸会議室​",
+        "municipalityCode": "131105",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72773665822382,
+          35.590239727339565
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort大森山王",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.728113,
+          35.58806
+        ]
+      },
+      "properties": {
+        "name": "HAKADORU",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717175,
+          35.5618889
+        ]
+      },
+      "properties": {
+        "name": "H¹T 蒲田",
+        "municipalityCode": "131113",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76815,
+          35.544754
+        ]
+      },
+      "properties": {
+        "name": "STATION BOOTH 羽田空港第3ターミナル到着ロビー",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782825,
+          35.550779
+        ]
+      },
+      "properties": {
+        "name": "TELECUBE 233 羽田空港T1",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717497,
+          35.562701
+        ]
+      },
+      "properties": {
+        "name": "ZXY 蒲田",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.724108,
+          35.559004
+        ]
+      },
+      "properties": {
+        "name": "biz BEACH CoWorking",
+        "municipalityCode": "131113",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784056,
+          35.548327
+        ]
+      },
+      "properties": {
+        "name": "リージャスエクスプレス 羽田空港第1ターミナル",
+        "municipalityCode": "131113",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.669251,
+          35.6441364
+        ]
+      },
+      "properties": {
+        "name": "H¹T by W 三軒茶屋",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6283322,
+          35.6447158
+        ]
+      },
+      "properties": {
+        "name": "H¹T 千歳船橋",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6376006,
+          35.6524096
+        ]
+      },
+      "properties": {
+        "name": "H¹T 経堂",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.629749,
+          35.61097
+        ]
+      },
+      "properties": {
+        "name": "SHARE LOUNGE（シェアラウンジ）",
+        "municipalityCode": "131121",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.64166259765625,
+          35.66641616821289
+        ]
+      },
+      "properties": {
+        "name": "iNVENTO",
+        "municipalityCode": "131121",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62782287598,
+          35.618457794189
+        ]
+      },
+      "properties": {
+        "name": "にこたまデスク（二子玉川女性専用コワーキングスペース）",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.65544141,
+          35.64436599
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース100ワーク",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.63561988901,
+          35.650734144867
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペースCime Aimer（シームエメ）経堂",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.66699025865026,
+          35.638515515721245
+        ]
+      },
+      "properties": {
+        "name": "スタジオ・バーク",
+        "municipalityCode": "131121",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.66354603224835,
+          35.66550882288589
+        ]
+      },
+      "properties": {
+        "name": "下北沢オープンソースCafe",
+        "municipalityCode": "131121",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.600722,
+          35.667506
+        ]
+      },
+      "properties": {
+        "name": "千歳烏山コワーキングスペース - Chitokara Coworking",
+        "municipalityCode": "131121",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6991418509681,
+          35.68266027994068
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort 代々木",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69995209276016,
+          35.6636101188107
+        ]
+      },
+      "properties": {
+        "name": "COWORKING SALON SLOTH",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7087600827217,
+          35.671515199711614
+        ]
+      },
+      "properties": {
+        "name": "FLAG",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7079963212919,
+          35.659653361460585
+        ]
+      },
+      "properties": {
+        "name": "Good Morning Building",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7088588,
+          35.6476342
+        ]
+      },
+      "properties": {
+        "name": "H¹T 恵比寿",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6972455,
+          35.6573773
+        ]
+      },
+      "properties": {
+        "name": "H¹T 渋谷道玄坂",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.669022,
+          35.674212
+        ]
+      },
+      "properties": {
+        "name": "H¹T 笹塚",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7034699,
+          35.6590355
+        ]
+      },
+      "properties": {
+        "name": "JustCo 渋谷ヒカリエ",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.706635,
+          35.657979
+        ]
+      },
+      "properties": {
+        "name": "Katanaオフィス渋谷",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70514679,
+          35.65680801
+        ]
+      },
+      "properties": {
+        "name": "LULL TECH BEACH Shibuya Coworking Space",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69862393025915,
+          35.656795557145685
+        ]
+      },
+      "properties": {
+        "name": "Plug And Play Shibuya",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70315187368493,
+          35.68679303738826
+        ]
+      },
+      "properties": {
+        "name": "Regus Shinjuku Minamiguchi Business Centre",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.700408,
+          35.659865
+        ]
+      },
+      "properties": {
+        "name": "SHARE LOUNGE",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70084,
+          35.688793
+        ]
+      },
+      "properties": {
+        "name": "STATION BOOTH 新宿駅甲州街道改札内",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.698025,
+          35.65996
+        ]
+      },
+      "properties": {
+        "name": "Study Lounge",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.67484,
+          35.674818
+        ]
+      },
+      "properties": {
+        "name": "THESTEPS",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.705,
+          35.660145
+        ]
+      },
+      "properties": {
+        "name": "ZXY 渋谷宮益坂",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.695979,
+          35.65701
+        ]
+      },
+      "properties": {
+        "name": "ZXY 道玄坂2",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70715015,
+          35.67044937
+        ]
+      },
+      "properties": {
+        "name": "moboff:Sunshine Studio Cafe",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69393053432069,
+          35.65506968774172
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス渋谷新泉",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7038226,
+          35.6584634
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス渋谷東口 by iiO(コワーキングスペース/リモートワーク/WEB会議)",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6994647,
+          35.6564941
+        ]
+      },
+      "properties": {
+        "name": "エグゼクティブセンター渋谷セルリアンタワー | The Executive Centre レンタルオフィス・貸会議室​",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70508723651173,
+          35.66275154128921
+        ]
+      },
+      "properties": {
+        "name": "クリエイティブコミュニケイションズ 株式会社 レマン",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.708164,
+          35.646782
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース恵比寿",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.711476219237,
+          35.671899261307544
+        ]
+      },
+      "properties": {
+        "name": "サイデラ・パラディソ(saidera paradiso)",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7013567,
+          35.6570861
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィスのオフィスマップ - Officemap",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7003397,
+          35.655547
+        ]
+      },
+      "properties": {
+        "name": "ベルサールラウンジ渋谷店",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70192581415176,
+          35.66150029576937
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング",
+        "municipalityCode": "131130",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69868114864968,
+          35.68371442860165
+        ]
+      },
+      "properties": {
+        "name": "不動産コンサルティング・コワーキングスペース運営　株式会社セリオ",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70879387816,
+          35.645969832072
+        ]
+      },
+      "properties": {
+        "name": "喫煙コワーキングスペース Daytime ビッパラ",
+        "municipalityCode": "131130",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.66547944657754,
+          35.70700063819326
+        ]
+      },
+      "properties": {
+        "name": "NewWork 中野",
+        "municipalityCode": "131148",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.665424,
+          35.707182
+        ]
+      },
+      "properties": {
+        "name": "ZXY中野2",
+        "municipalityCode": "131148",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62622044,
+          35.6822321
+        ]
+      },
+      "properties": {
+        "name": "Coworking Space bcs.TOKYO Hamadayama",
+        "municipalityCode": "131156",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6570785,
+          35.6832705
+        ]
+      },
+      "properties": {
+        "name": "H¹T 方南町",
+        "municipalityCode": "131156",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6009272196754,
+          35.703488277941204
+        ]
+      },
+      "properties": {
+        "name": "LifeWork Cafe",
+        "municipalityCode": "131156",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.64162,
+          35.700466
+        ]
+      },
+      "properties": {
+        "name": "Suha Asagaya",
+        "municipalityCode": "131156",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.621024,
+          35.703938
+        ]
+      },
+      "properties": {
+        "name": "ZXY荻窪",
+        "municipalityCode": "131156",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.61565426453,
+          35.706940912219
+        ]
+      },
+      "properties": {
+        "name": "こどもコワーキング「babyCo」",
+        "municipalityCode": "131156",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.64534108,
+          35.67561078
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース永福",
+        "municipalityCode": "131156",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70642995125505,
+          35.72825832471485
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort 池袋",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.713015,
+          35.728935
+        ]
+      },
+      "properties": {
+        "name": "Basis Point",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7389,
+          35.7327615
+        ]
+      },
+      "properties": {
+        "name": "H¹T 巣鴨",
+        "municipalityCode": "131164",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7124108,
+          35.7283141
+        ]
+      },
+      "properties": {
+        "name": "H¹T 池袋東口",
+        "municipalityCode": "131164",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70804755491554,
+          35.73494302610062
+        ]
+      },
+      "properties": {
+        "name": "LeaF池袋自習室",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7156023979187,
+          35.73048861613938
+        ]
+      },
+      "properties": {
+        "name": "NewWork 池袋7F",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.710853,
+          35.729271
+        ]
+      },
+      "properties": {
+        "name": "STATION BOOTH 池袋駅メトロポリタン改札内",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.709649,
+          35.728829
+        ]
+      },
+      "properties": {
+        "name": "WeWork",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.713181,
+          35.730303
+        ]
+      },
+      "properties": {
+        "name": "ZXY 池袋東口",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.728835,
+          35.732418
+        ]
+      },
+      "properties": {
+        "name": "ZXY（ジザイ）大塚",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7096,
+          35.7312
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース トラストワン 池袋駅前",
+        "municipalityCode": "131164",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7129245681822,
+          35.72760830698542
+        ]
+      },
+      "properties": {
+        "name": "メダリストクラブ池袋",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73580320616313,
+          35.73218462690755
+        ]
+      },
+      "properties": {
+        "name": "有料自習室 Lumidesk",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717234273282,
+          35.73279535099762
+        ]
+      },
+      "properties": {
+        "name": "池袋コワーキングスペース OpenOffice FOREST",
+        "municipalityCode": "131164",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.738327,
+          35.7539896
+        ]
+      },
+      "properties": {
+        "name": "H¹T 王子",
+        "municipalityCode": "131172",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7198902,
+          35.7770158
+        ]
+      },
+      "properties": {
+        "name": "H¹T 赤羽",
+        "municipalityCode": "131172",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7192931175232,
+          35.777174609127066
+        ]
+      },
+      "properties": {
+        "name": "NewWork 赤羽",
+        "municipalityCode": "131172",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7212941,
+          35.7781668
+        ]
+      },
+      "properties": {
+        "name": "いいオフィス赤羽(コワーキングスペース/会議室あり)",
+        "municipalityCode": "131172",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72159390558278,
+          35.76307874796638
+        ]
+      },
+      "properties": {
+        "name": "でんでん子ども応援隊",
+        "municipalityCode": "131172",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7198256,
+          35.7828831
+        ]
+      },
+      "properties": {
+        "name": "アカコ【赤羽のコワーキングスペース】（旧:ソーシャルビジネスワークセンターakabane）",
+        "municipalityCode": "131172",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.719264,
+          35.777178
+        ]
+      },
+      "properties": {
+        "name": "ワークスタイリング赤羽",
+        "municipalityCode": "131172",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77650696,
+          35.72985951
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース カケルハコ日暮里店",
+        "municipalityCode": "131181",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.794699,
+          35.730158
+        ]
+      },
+      "properties": {
+        "name": "下町のコワーキングスペース",
+        "municipalityCode": "131181",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.692248,
+          35.756397
+        ]
+      },
+      "properties": {
+        "name": "Tokyo Hacker Space (vol. 4)",
+        "municipalityCode": "131199",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633303,
+          35.778038
+        ]
+      },
+      "properties": {
+        "name": "ZXY 成増2",
+        "municipalityCode": "131199",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.671237,
+          35.78665
+        ]
+      },
+      "properties": {
+        "name": "ZXY 西台",
+        "municipalityCode": "131199",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69853001,
+          35.74893179
+        ]
+      },
+      "properties": {
+        "name": "商店街コワーキングスペースWaOh！",
+        "municipalityCode": "131199",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6549514,
+          35.7372309
+        ]
+      },
+      "properties": {
+        "name": "H¹T 練馬",
+        "municipalityCode": "131202",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.629747,
+          35.753621
+        ]
+      },
+      "properties": {
+        "name": "MY TIME",
+        "municipalityCode": "131202",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.65545878127443,
+          35.73714280677773
+        ]
+      },
+      "properties": {
+        "name": "ZXY 練馬",
+        "municipalityCode": "131202",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.637409,
+          35.738843
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース ライブラリー 中村橋",
+        "municipalityCode": "131202",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791008,
+          35.794269
+        ]
+      },
+      "properties": {
+        "name": "TOBU×BIZcomfort竹ノ塚",
+        "municipalityCode": "131211",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8294961,
+          35.7876631
+        ]
+      },
+      "properties": {
+        "name": "【北綾瀬】 コワーキング・イベントスペース タイニーボート",
+        "municipalityCode": "131211",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81350907,
+          35.76653214
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース ツナグ",
+        "municipalityCode": "131211",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7981747,
+          35.74006108
+        ]
+      },
+      "properties": {
+        "name": "サムライズ・コワーキングベース66",
+        "municipalityCode": "131211",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7905513,
+          35.7936831
+        ]
+      },
+      "properties": {
+        "name": "ビズコンフォート竹ノ塚",
+        "municipalityCode": "131211",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.34027182261582,
+          35.65791725921457
+        ]
+      },
+      "properties": {
+        "name": "Business Lounge 802",
+        "municipalityCode": "132012",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.33972,
+          35.655786
+        ]
+      },
+      "properties": {
+        "name": "STATION SWITCH 八王子",
+        "municipalityCode": "132012",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.33916284081315,
+          35.65810714363969
+        ]
+      },
+      "properties": {
+        "name": "SoloTime 八王子",
+        "municipalityCode": "132012",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.33718972,
+          35.6574549
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース八王子8Beat",
+        "municipalityCode": "132012",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.35785358928982,
+          35.66459148220281
+        ]
+      },
+      "properties": {
+        "name": "自然派くらぶ生活共同組合",
+        "municipalityCode": "132012",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4171656,
+          35.6965544
+        ]
+      },
+      "properties": {
+        "name": "Cs 立川 - コワーキングスペース・シェアオフィス",
+        "municipalityCode": "132021",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.413107,
+          35.6961461
+        ]
+      },
+      "properties": {
+        "name": "H¹T 立川",
+        "municipalityCode": "132021",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.41072671983005,
+          35.70003500935253
+        ]
+      },
+      "properties": {
+        "name": "NewWork 立川",
+        "municipalityCode": "132021",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.416644,
+          35.700056
+        ]
+      },
+      "properties": {
+        "name": "ZXY 立川",
+        "municipalityCode": "132021",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.579603,
+          35.70509
+        ]
+      },
+      "properties": {
+        "name": "Coin Space コピス吉祥寺店",
+        "municipalityCode": "132039",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.580434,
+          35.704066
+        ]
+      },
+      "properties": {
+        "name": "H¹T 吉祥寺",
+        "municipalityCode": "132039",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.58155632019043,
+          35.70372802774362
+        ]
+      },
+      "properties": {
+        "name": "NewWork 吉祥寺",
+        "municipalityCode": "132039",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57795620773297,
+          35.706022444449914
+        ]
+      },
+      "properties": {
+        "name": "i-office吉祥寺",
+        "municipalityCode": "132039",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.563976,
+          35.704627
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペース　Breath",
+        "municipalityCode": "132039",
+        "licenses": [
+          "Apache-2.0",
+          "CC BY 4.0",
+          "公共データ利用規約（第1.0版, PDL1.0）"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)",
+          "厚生労働省 食品衛生申請等システム（オープンデータ）",
+          "東京都（保健医療局）食品関係営業許可台帳"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5611663,
+          35.7018075
+        ]
+      },
+      "properties": {
+        "name": "H¹T 三鷹",
+        "municipalityCode": "132047",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.58872734,
+          35.692159
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペースhanale三鷹台駅前",
+        "municipalityCode": "132047",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4800994,
+          35.6729894
+        ]
+      },
+      "properties": {
+        "name": "H¹T 府中",
+        "municipalityCode": "132063",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.479577,
+          35.673487
+        ]
+      },
+      "properties": {
+        "name": "NewWork 府中",
+        "municipalityCode": "132063",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.471745,
+          35.680633
+        ]
+      },
+      "properties": {
+        "name": "STATION BOOTH 北府中駅改札外",
+        "municipalityCode": "132063",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48224644,
+          35.67450096
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィス func (ファンク)",
+        "municipalityCode": "132063",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.543371,
+          35.648638
+        ]
+      },
+      "properties": {
+        "name": "NewWork 調布",
+        "municipalityCode": "132080",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.469761,
+          35.509673
+        ]
+      },
+      "properties": {
+        "name": "BIZcomfort南町田",
+        "municipalityCode": "132098",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.446974,
+          35.543402
+        ]
+      },
+      "properties": {
+        "name": "BUSO AGORA",
+        "municipalityCode": "132098",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4451594,
+          35.5432808
+        ]
+      },
+      "properties": {
+        "name": "H¹T 町田",
+        "municipalityCode": "132098",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.447517,
+          35.542985
+        ]
+      },
+      "properties": {
+        "name": "NewWork 町田",
+        "municipalityCode": "132098",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.468939,
+          35.590268
+        ]
+      },
+      "properties": {
+        "name": "THE DAY",
+        "municipalityCode": "132098",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4498267136,
+          35.540968002752
+        ]
+      },
+      "properties": {
+        "name": "コワーキング・スペース町田-小町",
+        "municipalityCode": "132098",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.45002904,
+          35.57015504
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィス間",
+        "municipalityCode": "132098",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4798789,
+          35.724945
+        ]
+      },
+      "properties": {
+        "name": "こだいらコワーキングスペースすだち",
+        "municipalityCode": "132110",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4711528,
+          35.7586329
+        ]
+      },
+      "properties": {
+        "name": "コワーキングスペースリコード久米川栄町店",
+        "municipalityCode": "132136",
+        "licenses": [
+          "Apache-2.0",
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org",
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4733167,
+          35.7487086
+        ]
+      },
+      "properties": {
+        "name": "シェアオフィスー結ー",
+        "municipalityCode": "132136",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48127,
+          35.702078
+        ]
+      },
+      "properties": {
+        "name": "NewWork 国分寺",
+        "municipalityCode": "132144",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.44482018,
+          35.69780772
+        ]
+      },
+      "properties": {
+        "name": "Coworking Cafe Work Tree",
+        "municipalityCode": "132152",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.447218,
+          35.6982996
+        ]
+      },
+      "properties": {
+        "name": "H¹T 国立",
+        "municipalityCode": "132152",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.525,
+          35.7786
+        ]
+      },
+      "properties": {
+        "name": "きよせコワーキングスペース「ことりば」",
+        "municipalityCode": "132217",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.53734294,
+          35.72616026
+        ]
+      },
+      "properties": {
+        "name": "田無コワーキングスペースOk西東京",
+        "municipalityCode": "132292",
+        "licenses": [
+          "CDLA-Permissive-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.153243,
+          35.7079
+        ]
+      },
+      "properties": {
+        "name": "Village Hinohara",
+        "municipalityCode": "133078",
+        "licenses": [
+          "Apache-2.0"
+        ],
+        "attributions": [
+          "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+        ]
+      }
+    }
+  ]
+}
