@@ -170,6 +170,13 @@ export const conditionIds = axes.flatMap((axis) => axis.conditions.map((conditio
   ...ConditionId[],
 ];
 
+/** registry の条件 1 件の定義。 */
+export type RegistryCondition = (typeof axes)[number]["conditions"][number];
+
+// 軸ごとに条件の型が違い、型引数を書かないと flatMap の型が最初の軸の条件の型に絞られて型検査に通らないため、明示する
+/** すべての軸の条件の定義 (registry の順)。 */
+export const registryConditions = axes.flatMap<RegistryCondition>((axis) => axis.conditions);
+
 /** 区市町村 1 件の、条件 1 件の値と、その根拠の文。 */
 export type ConditionValue = {
   /** 段階を決める値。向きは条件の判定器の betterDirection (点の判定器は多いほど良い)。 */
@@ -309,9 +316,9 @@ function betterDirectionOfCondition(conditionId: ConditionId): "higher" | "lower
   return evaluator.type === "point" ? "higher" : evaluator.betterDirection;
 }
 
-/** conditionId の条件の定義。 */
-export function conditionById(conditionId: ConditionId): (typeof axes)[number]["conditions"][number] {
-  return axes.flatMap((axis) => axis.conditions).find((condition) => condition.id === conditionId)!;
+/** conditionId の registry の条件の定義を返す。ConditionId は registry から作る型のため、必ず見つかる。 */
+export function conditionById(conditionId: ConditionId): RegistryCondition {
+  return registryConditions.find((condition) => condition.id === conditionId)!;
 }
 
 /** 条件ごと・区市町村ごとの段階。 */
