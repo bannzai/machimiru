@@ -3,11 +3,13 @@ import {
   type FacilityKind,
   type ProgramCategoryCode,
   childcareSchema,
+  crimeCountSchema,
   facilityFeatureSchema,
   medicalSubsidySchema,
   programCategoryNames,
   programSchema,
   programUrlSchema,
+  residentPopulationSchema,
 } from "../../../src/lib/tokyoData/schema";
 
 /** 生成スクリプトの中で区市町村を照合するための、全国地方公共団体コードと名称の対。 */
@@ -202,6 +204,77 @@ function parseYesNo(cell: string): boolean {
   if (cell === "有") return true;
   if (cell === "無") return false;
   throw new Error(`有無を読めない: ${cell}`);
+}
+
+/**
+ * 警視庁の認知件数の区市町村名の書き方 (「西多摩郡瑞穂町」「三宅島三宅村」「八丈島八丈町」) から、郡・島の名前を除いて
+ * 区市町村名にする (令和7年分の CSV で確認)。
+ */
+function crimeMunicipalityName(name: string): string {
+  return name.replace(/^(西多摩郡|三宅島|八丈島)/, "");
+}
+
+/**
+ * 警視庁「区市町村の町丁別、罪種別及び手口別認知件数」の年累計の CSV (の行の配列) から、「２３区計」の行の直前に並ぶ区市町村の行
+ * (認知件数が 0 の村を含む) の名前と総合計を返す (CSV の行の並びは documents/PROJECT.md「東京都の子育てデータの生成」)。
+ * 見出しが想定と違う時と、区市町村の行の合計が「２３区計」と「多摩地区・島部計」の和と合わない時は例外にする
+ * (版の違いで別の行を読んだまま値を取らないため)。
+ */
+export function parseCrimeCountRows(
+  rows: string[][],
+): { name: string; value: Omit<z.infer<typeof crimeCountSchema>, "sourceId"> }[] {
+  if (rows[0]?.[0] !== "市区町丁" || rows[0]?.[1] !== "総合計") {
+    throw new Error("認知件数の CSV の見出しが想定と違う");
+  }
+  const wardsTotalIndex = rows.findIndex((row) => row[0] === "２３区計");
+  const tamaAndIslandsTotal = rows.find((row) => row[0] === "多摩地区・島部計");
+  if (wardsTotalIndex === -1 || tamaAndIslandsTotal === undefined) {
+    throw new Error("認知件数の CSV に「２３区計」「多摩地区・島部計」の行が無い");
+  }
+  let firstMunicipalityIndex = wardsTotalIndex;
+  while (firstMunicipalityIndex > 1 && !rows[firstMunicipalityIndex - 1][0].endsWith("計")) {
+    firstMunicipalityIndex--;
+  }
+  const municipalityRows = rows.slice(firstMunicipalityIndex, wardsTotalIndex).map((row) => ({
+    name: crimeMunicipalityName(row[0]),
+    value: { recognizedCount: parseCount(row[1]) },
+  }));
+  const expectedTotal = parseCount(rows[wardsTotalIndex][1]) + parseCount(tamaAndIslandsTotal[1]);
+  const actualTotal = municipalityRows.reduce((sum, { value }) => sum + value.recognizedCount, 0);
+  if (actualTotal !== expectedTotal) {
+    throw new Error(`区市町村の行の合計 ${actualTotal} が、２３区計と多摩地区・島部計の和 ${expectedTotal} と合わない`);
+  }
+  return municipalityRows;
+}
+
+/**
+ * 東京都「住民基本台帳による東京都の世帯と人口」第1表の CSV (の行の配列) から、区市町村の行 (地域階層が 4) の
+ * 5 桁の団体コード (地域コード) と、populationColumn の列の人口総数を取り出す。見出しに列が無い時は例外にする。
+ */
+export function parseResidentPopulationRows(
+  rows: string[][],
+  populationColumn: string,
+): { code5: string; value: Omit<z.infer<typeof residentPopulationSchema>, "sourceId"> }[] {
+  const [header, ...body] = rows;
+  const levelIndex = header.indexOf("地域階層");
+  const codeIndex = header.indexOf("地域コード");
+  const populationIndex = header.indexOf(populationColumn);
+  if (levelIndex === -1 || codeIndex === -1 || populationIndex === -1) {
+    throw new Error(`人口の CSV の見出しに 地域階層・地域コード・${populationColumn} が無い`);
+  }
+  return body
+    // 地域階層は 0 が総数、1〜3 が区部・市部・郡部・支庁などの集計、4 が区市町村 (CSV の注記による)
+    .filter((row) => row[levelIndex] === "4")
+    .map((row) => ({
+      code5: row[codeIndex],
+      value: { totalCount: z.int().positive().parse(parseCount(row[populationIndex])) },
+    }));
+}
+
+/** 件数・人数のセル (桁区切りの無い 0 以上の整数) を数にする。空欄などの数字以外は 0 とみなさず例外にする。 */
+function parseCount(cell: string | undefined): number {
+  if (cell === undefined || !/^\d+$/.test(cell)) throw new Error(`件数・人数を読めない: ${cell}`);
+  return Number(cell);
 }
 
 /**

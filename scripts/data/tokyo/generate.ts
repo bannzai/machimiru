@@ -1,5 +1,5 @@
 /**
- * 東京都 62 区市町村の子育てに関するデータ (指標・制度一覧・施設) を、公開データから生成して `public/data/tokyo/` に書き出す。
+ * 東京都 62 区市町村の子育てと治安に関するデータ (指標・制度一覧・施設) を、公開データから生成して `public/data/tokyo/` に書き出す。
  *
  * 実行: `make data-tokyo` (手順と出典は `documents/PROJECT.md`「東京都の子育てデータの生成」)。
  * 取得したファイルは `tmp/data-cache/` に置き、2 回目以降はそれを使う。同じ入力からは同じ出力になる (冪等)。
@@ -23,9 +23,11 @@ import {
   indexByMunicipalityName,
   medicalFacilityFeatures,
   parseChildcareSheet,
+  parseCrimeCountRows,
   parseCsv,
   parseMedicalSubsidyLine,
   parseRegistry,
+  parseResidentPopulationRows,
   welfareFacilityFeatures,
 } from "./parse";
 
@@ -34,6 +36,8 @@ const outputDirectory = path.join(process.cwd(), "public", "data", "tokyo");
 const prefectureName = "東京都";
 const prefectureCode = "13";
 const tokyoMunicipalityCount = 62;
+// sources.ts の residentPopulation の asOf (認知件数の数え始めの日) と同じ日の人口の列
+const residentPopulationColumn = "令和7年1月1日現在／人口／総数(人)";
 
 /** URL のファイルを `tmp/data-cache/` から読む。無ければ取得して置く。 */
 async function download(url: string): Promise<Uint8Array> {
@@ -125,16 +129,36 @@ async function main(): Promise<void> {
       .filter((row) => row !== null),
   );
 
+  // 警視庁の CSV は Shift_JIS で配信されている (令和7年分で確認)
+  const crimeCountByCode = indexByMunicipalityName(
+    municipalities,
+    parseCrimeCountRows(parseCsv(new TextDecoder("shift_jis").decode(await download(tokyoDataSources.crimeCounts.fileUrls[0])))),
+  );
+  const residentPopulationByCode = new Map(
+    parseResidentPopulationRows(
+      parseCsv(strFromU8(await download(tokyoDataSources.residentPopulation.fileUrls[0]))),
+      residentPopulationColumn,
+    ).map(({ code5, value }) => [municipalityCodeOf(code5), value]),
+  );
+
   const programsByCode = Map.groupBy(registry.programs, ({ municipality }) => municipality.code);
   const usageRateMissingReason =
     "区市町村別の保育サービスの利用率を出す東京都「都内の保育サービスの状況について」は、東京都公式ホームページのサイトポリシーが私的使用・引用以外の複製・転用を認めず、オープンデータのライセンスが付いていないため使わない。就学前児童人口の区市町村別の値を持つオープンデータを確認できていないため、計算もしていない";
 
   // 途中の取得・照合の失敗で新旧のファイルが混ざらないよう、すべて組み立てて検査してから書き出す
   const municipalitiesFile = municipalitiesFileSchema.parse({
-      sources: [tokyoDataSources.childcareStatus, tokyoDataSources.medicalSubsidy, tokyoDataSources.kosodateRegistry],
+      sources: [
+        tokyoDataSources.childcareStatus,
+        tokyoDataSources.medicalSubsidy,
+        tokyoDataSources.kosodateRegistry,
+        tokyoDataSources.crimeCounts,
+        tokyoDataSources.residentPopulation,
+      ],
       municipalities: municipalities.map(({ code, name }) => {
         const childcare = childcareByCode.get(code);
         const medicalSubsidy = medicalSubsidyByCode.get(code);
+        const crimeCount = crimeCountByCode.get(code);
+        const residentPopulation = residentPopulationByCode.get(code);
         return {
           code,
           name,
@@ -143,6 +167,11 @@ async function main(): Promise<void> {
           medicalSubsidy:
             medicalSubsidy === undefined ? null : { sourceId: tokyoDataSources.medicalSubsidy.id, ...medicalSubsidy },
           programCount: programsByCode.get(code)?.length ?? 0,
+          crimeCount: crimeCount === undefined ? null : { sourceId: tokyoDataSources.crimeCounts.id, ...crimeCount },
+          residentPopulation:
+            residentPopulation === undefined
+              ? null
+              : { sourceId: tokyoDataSources.residentPopulation.id, ...residentPopulation },
           missing: [
             ...(childcare === undefined
               ? [{ field: "childcare", reason: `${tokyoDataSources.childcareStatus.title} にこの区市町村の行が無い` }]
@@ -150,6 +179,12 @@ async function main(): Promise<void> {
             { field: "childcareUsageRate", reason: usageRateMissingReason },
             ...(medicalSubsidy === undefined
               ? [{ field: "medicalSubsidy", reason: `${tokyoDataSources.medicalSubsidy.title} にこの区市町村の行が無い` }]
+              : []),
+            ...(crimeCount === undefined
+              ? [{ field: "crimeCount", reason: `${tokyoDataSources.crimeCounts.title} にこの区市町村の行が無い` }]
+              : []),
+            ...(residentPopulation === undefined
+              ? [{ field: "residentPopulation", reason: `${tokyoDataSources.residentPopulation.title} にこの区市町村の行が無い` }]
               : []),
           ],
         };

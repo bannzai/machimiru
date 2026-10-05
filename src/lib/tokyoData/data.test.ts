@@ -52,10 +52,23 @@ describe("public/data/tokyo/municipalities.json", () => {
     expect(municipalities.filter((municipality) => municipality.medicalSubsidy === null).map(({ name }) => name)).toEqual([]);
   });
 
+  it("刑法犯の認知件数と住民の人口は 62 区市町村すべてで取れている", () => {
+    // 現在の出典は 2 つとも 62 区市町村すべての行を持つ (2026-10-05 に確認)。認知件数が 0 の村 (利島村・御蔵島村・青ヶ島村) も行がある
+    expect(municipalities.filter((municipality) => municipality.crimeCount === null).map(({ name }) => name)).toEqual([]);
+    expect(
+      municipalities.filter((municipality) => municipality.residentPopulation === null).map(({ name }) => name),
+    ).toEqual([]);
+  });
+
   it("指標の出典がファイルの sources にある", () => {
     const sourceIds = new Set(municipalitySources.map((source) => source.id));
     for (const municipality of municipalities) {
-      for (const indicator of [municipality.childcare, municipality.medicalSubsidy]) {
+      for (const indicator of [
+        municipality.childcare,
+        municipality.medicalSubsidy,
+        municipality.crimeCount,
+        municipality.residentPopulation,
+      ]) {
         if (indicator !== null) expect(sourceIds.has(indicator.sourceId), indicator.sourceId).toBe(true);
       }
     }
@@ -82,6 +95,12 @@ describe("public/data/tokyo/municipalities.json", () => {
     ).toEqual(["東村山市", "狛江市", "東久留米市", "羽村市"]);
     expect(municipalities.filter((municipality) => municipality.medicalSubsidy?.outpatientHasCopayment)).toHaveLength(18);
     expect(byName.get("青ヶ島村")?.medicalSubsidy?.outpatientHasCopayment).toBe(true);
+    // 警視庁の令和7年分の CSV の区市町村の行と、住民基本台帳の令和7年1月1日の人口総数
+    expect(byName.get("新宿区")?.crimeCount?.recognizedCount).toBe(6977);
+    expect(byName.get("三宅村")?.crimeCount?.recognizedCount).toBe(3);
+    expect(byName.get("利島村")?.crimeCount?.recognizedCount).toBe(0);
+    expect(byName.get("世田谷区")?.residentPopulation?.totalCount).toBe(923210);
+    expect(byName.get("豊島区")?.residentPopulation?.totalCount).toBe(294644);
   });
 });
 
