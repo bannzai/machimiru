@@ -19,6 +19,13 @@ import {
   tokyoMainlandBounds,
   townBoundaryUrl,
 } from "@/lib/boundaries";
+import {
+  type PropertySearchCondition,
+  emptyPropertySearchCondition,
+  parsePropertySearchCondition,
+  propertySearchConditionStorageKey,
+} from "@/lib/propertySearch";
+import { PropertySearch } from "./PropertySearch";
 
 // maplibre-gl は Web Worker のファイルを自分のモジュールの URL から相対で探すが、Next.js のバンドル後はその場所に無いため、
 // npm の prebuild・predev で public/vendor/maplibre-gl/ に写したファイルを指す (package.json の scripts)
@@ -48,7 +55,7 @@ const selectedTownLayerId = "towns-selected";
 /** 町丁の境界線のレイヤー ID。 */
 const townLineLayerId = "towns-line";
 
-/** 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧。選択はブラウザの localStorage に保存する。 */
+/** 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧と物件の検索。選択と検索の条件はブラウザの localStorage に保存する。 */
 export function AreaMap() {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
@@ -57,6 +64,9 @@ export function AreaMap() {
     towns: BoundaryFeatureCollection<TownProperties>;
   } | null>(null);
   const [areaSelection, setAreaSelection] = useState<AreaSelection>(emptyAreaSelection);
+  const [propertySearchCondition, setPropertySearchCondition] =
+    useState<PropertySearchCondition>(emptyPropertySearchCondition);
+  // 保存済みの選択と検索の条件を読み終えたか。2 つは地図の読み込みの後に同時に読む
   const [isStoredSelectionLoaded, setIsStoredSelectionLoaded] = useState(false);
   const [isTownLevel, setIsTownLevel] = useState(false);
   const [loadErrorMessage, setLoadErrorMessage] = useState<string | null>(null);
@@ -101,7 +111,8 @@ export function AreaMap() {
           addBoundaryLayers(loadedMap, municipalities, towns);
           mapRef.current = loadedMap;
           setBoundaries({ municipalities, towns });
-          setAreaSelection(parseAreaSelection(readStoredAreaSelection()));
+          setAreaSelection(parseAreaSelection(readStoredText(areaSelectionStorageKey)));
+          setPropertySearchCondition(parsePropertySearchCondition(readStoredText(propertySearchConditionStorageKey)));
           setIsStoredSelectionLoaded(true);
           setIsTownLevel(loadedMap.getZoom() >= townSelectionMinZoom);
           // data-map-state は画面の撮影 (e2e/) が、境界データを描き終えてから地図を操作するための目印
@@ -157,12 +168,16 @@ export function AreaMap() {
     if (!isStoredSelectionLoaded) {
       return;
     }
-    try {
-      localStorage.setItem(areaSelectionStorageKey, JSON.stringify(areaSelection));
-    } catch {
-      // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択が消えるだけで操作は続けられる
-    }
+    writeStoredText(areaSelectionStorageKey, JSON.stringify(areaSelection));
   }, [areaSelection, isStoredSelectionLoaded]);
+
+  useEffect(() => {
+    // 保存済みの条件を読む前に保存すると、条件を付けない状態で上書きしてしまう
+    if (!isStoredSelectionLoaded) {
+      return;
+    }
+    writeStoredText(propertySearchConditionStorageKey, JSON.stringify(propertySearchCondition));
+  }, [propertySearchCondition, isStoredSelectionLoaded]);
 
   const municipalityNames = useMemo(
     () =>
@@ -224,6 +239,16 @@ export function AreaMap() {
             </button>
           </>
         )}
+        <PropertySearch
+          municipalityCodes={[
+            ...selectedMunicipalityCodes,
+            ...selectedTownCodes.flatMap((code) => townsByCode.get(code)?.municipalityCode ?? []),
+          ]}
+          hasTownSelection={selectedTownCodes.length > 0}
+          condition={propertySearchCondition}
+          isConditionEditable={isStoredSelectionLoaded}
+          onConditionChange={setPropertySearchCondition}
+        />
       </section>
     </div>
   );
@@ -250,12 +275,21 @@ async function fetchBoundary<Properties>(url: string): Promise<BoundaryFeatureCo
   return response.json();
 }
 
-/** 保存済みの選択の文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
-function readStoredAreaSelection(): string | null {
+/** localStorage の storageKey に保存した文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
+function readStoredText(storageKey: string): string | null {
   try {
-    return localStorage.getItem(areaSelectionStorageKey);
+    return localStorage.getItem(storageKey);
   } catch {
     return null;
+  }
+}
+
+/** localStorage の storageKey に text を保存する。 */
+function writeStoredText(storageKey: string, text: string) {
+  try {
+    localStorage.setItem(storageKey, text);
+  } catch {
+    // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択と条件が消えるだけで操作は続けられる
   }
 }
 
