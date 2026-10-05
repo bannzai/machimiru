@@ -1,15 +1,26 @@
 {
   "type": "FeatureCollection",
-  "source": {
-    "endpoint": "https://api.openpoiapi.com/v1/search",
-    "keywords": [
-      "coworking",
-      "コワーキング",
-      "シェアオフィス"
-    ],
-    "retrievedOn": "2026-10-05",
-    "attributionUrl": "https://openpoiapi.com/attribution.html"
-  },
+  "sources": [
+    {
+      "id": "openpoi-api-search",
+      "title": "OpenPOI API 施設の検索 (/v1/search)",
+      "provider": "OpenPOI API",
+      "pageUrl": "https://docs.openpoiapi.com/",
+      "fileUrls": [
+        "https://api.openpoiapi.com/v1/search"
+      ],
+      "asOf": null,
+      "retrievedOn": "2026-10-05",
+      "license": "施設ごとに異なる (CDLA-Permissive-2.0・Apache-2.0・CC BY 4.0・PDL1.0。各レコードの licenses)",
+      "licenseUrl": "https://openpoiapi.com/attribution.html",
+      "attribution": "OpenPOI API の施設の検索結果を加工して作成 (施設ごとの出典表示は各レコードの attributions)"
+    }
+  ],
+  "keywords": [
+    "coworking",
+    "コワーキング",
+    "シェアオフィス"
+  ],
   "features": [
     {
       "type": "Feature",

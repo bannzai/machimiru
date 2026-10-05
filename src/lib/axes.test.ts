@@ -18,6 +18,7 @@ import {
   readMunicipalityBoundaries,
 } from "./tokyoData/load";
 import type { FacilitiesFile, Municipality, OpenPoiPlacesFile } from "./tokyoData/schema";
+import { tokyoDataSources } from "./tokyoData/sources";
 
 /** 値 value を持ち、根拠の文に値をそのまま書いた ConditionValue を返す。 */
 function conditionValue(value: number): ConditionValue {
@@ -140,12 +141,8 @@ describe("computeConditionValues", () => {
         "coworkingNearby",
         {
           type: "FeatureCollection",
-          source: {
-            endpoint: "https://api.openpoiapi.com/v1/search",
-            keywords: ["coworking"],
-            retrievedOn: "2026-10-05",
-            attributionUrl: "https://openpoiapi.com/attribution.html",
-          },
+          sources: [tokyoDataSources.openPoi],
+          keywords: ["coworking"],
           // square の 2 件と、eastSquare の中心 (経度 1.5 度・緯度 0.5 度) から経度 0.5 度西の 1 件 (square の東端)
           features: [openPoiPlace("131016", [0.2, 0.5]), openPoiPlace("131016", [1, 0.5])],
         } satisfies OpenPoiPlacesFile,

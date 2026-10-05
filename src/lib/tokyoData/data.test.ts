@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { registryConditions } from "../axes";
@@ -13,6 +13,7 @@ import {
   openPoiPlacesFileSchema,
   programsFileSchema,
 } from "./schema";
+import { tokyoDataSources } from "./sources";
 
 const dataDirectory = path.join(process.cwd(), "public", "data", "tokyo");
 const readJson = (relativePath: string): unknown => JSON.parse(readFileSync(path.join(dataDirectory, relativePath), "utf8"));
@@ -130,12 +131,25 @@ describe("public/data/tokyo/openpoi/*.geojson", () => {
   );
 
   it.each(openPoiConditions)("$id の検索結果が registry の検索語で作られ、施設は区市町村コードの区市町村の境界の中にある", ({ id, searchKeywords }) => {
-    const { source, features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
-    expect(source.keywords).toEqual(searchKeywords);
+    const { sources, keywords, features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
+    expect(keywords).toEqual(searchKeywords);
+    expect(sources).toEqual([tokyoDataSources.openPoi]);
     expect(features.length).toBeGreaterThan(0);
     for (const { geometry, properties } of features) {
       const boundary = boundaries.get(municipalityBoundaryCode(properties.municipalityCode));
       expect(boundary && isPointInGeometry(geometry.coordinates, boundary), properties.name).toBe(true);
+    }
+  });
+
+  it.each(openPoiConditions)("$id の施設のライセンスが、すべて LICENSES.txt に本文・条件とともに書かれている", ({ id }) => {
+    // 配信するデータのライセンスが求める本文・NOTICE を LICENSES.txt から辿れるよう、新しいライセンスのレコードが現れたら書き足させる
+    const licensesText = readFileSync(path.join(dataDirectory, "openpoi", "LICENSES.txt"), "utf8");
+    const { features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
+    const licenses = new Set(features.flatMap(({ properties }) => properties.licenses));
+    expect([...licenses].filter((license) => !licensesText.includes(`- ${license}:`))).toEqual([]);
+    for (const licenseFile of ["LICENSE-Apache-2.0.txt", "LICENSE-CDLA-Permissive-2.0.txt", "NOTICE-Foursquare.txt"]) {
+      expect(licensesText).toContain(licenseFile);
+      expect(existsSync(path.join(dataDirectory, "openpoi", licenseFile)), licenseFile).toBe(true);
     }
   });
 });

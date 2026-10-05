@@ -133,7 +133,8 @@ export const axes = [
     id: "coworking",
     name: "コワーキング",
     classifierDescription: "Places to work outside the home: coworking spaces, shared offices, places for remote work",
-    keywords: ["仕事場", "ワークスペース"],
+    // 「仕事場まで 30 分」のように通勤の文にも出る「仕事場」は入れない (通勤の候補の語にする)
+    keywords: ["ワークスペース"],
     conditions: [
       {
         id: "coworkingNearby",

@@ -138,13 +138,14 @@ describe("dictionaryClauseClassifier", () => {
 
   it("軸の追加の要望の文を、それぞれの軸の判定できない条件にする", async () => {
     expect(
-      (await classifyConditionText("鍼灸の評判が良い場所が近い、犯罪率が低い場所、駅前の雰囲気、職場まで 30 分", dictionaryClauseClassifier))
+      (await classifyConditionText("鍼灸の評判が良い場所が近い、犯罪率が低い場所、駅前の雰囲気、職場まで 30 分、仕事場まで 30 分", dictionaryClauseClassifier))
         .unsupportedConditions,
     ).toEqual([
       { axisName: "医療・健康", text: "鍼灸の評判が良い場所が近い" },
       { axisName: "治安", text: "犯罪率が低い場所" },
       { axisName: "通勤", text: "駅前の雰囲気" },
       { axisName: "通勤", text: "職場まで 30 分" },
+      { axisName: "通勤", text: "仕事場まで 30 分" },
     ]);
   });
 

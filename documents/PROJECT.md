@@ -67,8 +67,9 @@ make data-tokyo
 `scripts/data/openpoi/generate.ts` (`make setup` の後に `make data-openpoi`) が、軸の registry (`src/lib/axes.ts`) のうち OpenPOI API の判定器 (`type: "openPoi"`) を持つ条件ごとに、`searchKeywords` で東京都の施設を検索して `public/data/tokyo/openpoi/<条件の識別子>.geojson` に書き出す。形式は `src/lib/tokyoData/schema.ts` の `openPoiPlacesFileSchema` で、`make test` (`src/lib/tokyoData/data.test.ts`) が検査する。
 
 - 区市町村の境界データ (下の「境界データ」) の区市町村ごとに、境界を囲む矩形で `/v1/search` を呼び、境界の中の施設だけをその区市町村の施設にする。件数が 1 回の上限 (200 件) に達した矩形は 4 つに分けて探し直す。隣の区市町村の矩形や分けた矩形の辺の上で同じ施設が重複して返るため、名前と座標が同じものは 1 件にする (応答に施設の識別子が無い)
-- 各施設は、応答の `licenses` と `attributions` を持つ (レコードごとにライセンスが違う。`.claude/rules/external-data-attribution.md`)。ファイルの `source` に検索語と取得日を持つ
-- 結果は OpenPOI API のデータの更新で変わる。段階は順位で決まるため、取り直した時に決め直す値は無い。検索語を変えた時と、データを新しくしたい時に実行し、生成物の差分を commit する。CI とビルドは OpenPOI API に取りに行かない
+- 各施設は、応答の `licenses` と `attributions` を持つ (レコードごとにライセンスが違う。`.claude/rules/external-data-attribution.md`)。名前と座標が同じで出所元の違うレコードは、両方の `licenses` と `attributions` を合わせて持つ。ファイルの `keywords` に検索語、`sources` に `src/lib/tokyoData/sources.ts` の `openPoi` (取得日は `retrievedOn`) を持つ
+- 配信するレコードのライセンスが、データと一緒に本文や NOTICE を渡すことを求めるため、`public/data/tokyo/openpoi/` に `LICENSES.txt` (ライセンスごとの条件と本文の案内)、`LICENSE-Apache-2.0.txt`、`LICENSE-CDLA-Permissive-2.0.txt`、`NOTICE-Foursquare.txt` (Foursquare OS Places の NOTICE に加工の内容を書き足したもの。 https://opensource.foursquare.com/places-notice-txt/ 。2026-10-05 取得) を置く。CDLA-Permissive-2.0 の 2.1 は共有するデータと一緒に本文を、Apache License 2.0 の 4 条と Foursquare の NOTICE は本文と NOTICE の写しを求める。画面の出典から `LICENSES.txt` へリンクする。`src/lib/tokyoData/data.test.ts` が、レコードのライセンスがすべて `LICENSES.txt` に書かれていることを検査する
+- 結果は OpenPOI API のデータの更新で変わる。段階は順位で決まるため、取り直した時に決め直す値は無い。検索語を変えた時と、データを新しくしたい時に、`sources.ts` の `openPoi` の `retrievedOn` を検索する日に替えてから実行し、生成物の差分を commit する。新しいライセンスのレコードが現れたら `LICENSES.txt` と本文のファイルを足す。CI とビルドは OpenPOI API に取りに行かない
 
 ## 街ごとの子育てのしやすさの評価
 

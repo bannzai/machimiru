@@ -251,22 +251,21 @@ export const openPoiPlaceFeatureSchema = z.object({
   }),
 });
 
-/** `public/data/tokyo/openpoi/<条件の識別子>.geojson` の形式。軸の条件 1 件の判定に使う、OpenPOI API の検索結果の写し。 */
+/**
+ * `public/data/tokyo/openpoi/<条件の識別子>.geojson` の形式。軸の条件 1 件の判定に使う、OpenPOI API の検索結果の写し。
+ * レコードごとのライセンスの本文と NOTICE は、同じディレクトリの LICENSES.txt から辿る。
+ */
 export const openPoiPlacesFileSchema = z.object({
   type: z.literal("FeatureCollection"),
-  /** 検索の条件と取得日。 */
-  source: z.object({
-    /** 検索した API のエンドポイント。 */
-    endpoint: z.url(),
-    /** `/v1/search` の q に渡した検索語 (スペース区切りで OR になる)。 */
-    keywords: z.array(z.string().min(1)).min(1),
-    /** 検索した日 (YYYY-MM-DD)。 */
-    retrievedOn: z.iso.date(),
-    /** 結果を出す画面でリンクする、OpenPOI API の出典・ライセンスのページ。画面のリンクの href にするため https に限る。 */
-    attributionUrl: z.url({ protocol: /^https$/ }),
-  }),
+  /** 検索した API の出典 (`src/lib/tokyoData/sources.ts` の openPoi)。retrievedOn が検索した日。 */
+  sources: z.array(dataSourceSchema).length(1),
+  /** `/v1/search` の q に渡した検索語 (スペース区切りで OR になる)。 */
+  keywords: z.array(z.string().min(1)).min(1),
   features: z.array(openPoiPlaceFeatureSchema),
 });
 
 /** `public/data/tokyo/openpoi/<条件の識別子>.geojson` の中身。 */
 export type OpenPoiPlacesFile = z.infer<typeof openPoiPlacesFileSchema>;
+
+/** OpenPOI API の検索結果のレコードごとのライセンスと、その本文・NOTICE への案内 (`public/data/tokyo/openpoi/LICENSES.txt`) を配信する URL。 */
+export const openPoiPlacesLicensesUrl = "/data/tokyo/openpoi/LICENSES.txt";

@@ -17,7 +17,7 @@ import {
 } from "@/lib/axes";
 import { openPoiAttributionUrl } from "@/lib/openPoi";
 import { siteName } from "@/lib/site";
-import type { Municipality } from "@/lib/tokyoData/schema";
+import { type Municipality, openPoiPlacesLicensesUrl } from "@/lib/tokyoData/schema";
 import { municipalityPagePath, ScoreSwatch } from "./ChildcareScorePanel";
 
 /** 街をくらべるタブ。summary (まとめ) か、軸の識別子。 */
@@ -142,7 +142,7 @@ export function AxisComparison({
         {openPoiConditions.length > 0 && (
           <p className="axis-comparison-note">
             {openPoiConditions.map((condition) => condition.name).join("・")}の施設の出典:{" "}
-            <a href={openPoiAttributionUrl}>OpenPOI API</a>
+            <a href={openPoiAttributionUrl}>OpenPOI API</a> (<a href={openPoiPlacesLicensesUrl}>施設ごとのライセンス</a>)
           </p>
         )}
       </div>

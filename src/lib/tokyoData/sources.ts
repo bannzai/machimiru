@@ -1,3 +1,4 @@
+import { openPoiAttributionUrl, openPoiSearchEndpoint } from "../openPoi";
 import type { DataSource } from "./schema";
 
 const pdl1 = {
@@ -86,5 +87,20 @@ export const tokyoDataSources = {
     ...ccBy4,
     attribution:
       "「国土数値情報（福祉施設データ）」（国土交通省）（https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html）を加工して作成",
+  },
+  // `make data-openpoi` (scripts/data/openpoi/generate.ts) が使う。検索し直す時は retrievedOn を検索する日に替えてから実行する
+  openPoi: {
+    id: "openpoi-api-search",
+    title: "OpenPOI API 施設の検索 (/v1/search)",
+    provider: "OpenPOI API",
+    pageUrl: "https://docs.openpoiapi.com/",
+    fileUrls: [openPoiSearchEndpoint],
+    // API は検索した時点のデータを返し、データの基準日を示していないため
+    asOf: null,
+    retrievedOn: "2026-10-05",
+    // ライセンスは施設のレコードごとに違い、各レコードの licenses に持つ。本文と NOTICE は public/data/tokyo/openpoi/LICENSES.txt から辿る
+    license: "施設ごとに異なる (CDLA-Permissive-2.0・Apache-2.0・CC BY 4.0・PDL1.0。各レコードの licenses)",
+    licenseUrl: openPoiAttributionUrl,
+    attribution: "OpenPOI API の施設の検索結果を加工して作成 (施設ごとの出典表示は各レコードの attributions)",
   },
 } satisfies Record<string, DataSource>;

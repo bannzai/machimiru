@@ -26,7 +26,7 @@ export const unsupportedAxisCandidates = [
   {
     name: "通勤",
     classifierDescription: "Commute: travel time or distance to a workplace, school, or station",
-    keywords: ["通勤", "通学", "職場", "駅", "分以内", "電車", "乗り換え"],
+    keywords: ["通勤", "通学", "職場", "仕事場", "駅", "分以内", "電車", "乗り換え"],
   },
   {
     name: "買い物",

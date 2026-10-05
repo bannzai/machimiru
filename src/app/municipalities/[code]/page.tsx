@@ -19,6 +19,7 @@ import {
   maxChildcareProgramCount,
   waitingChildrenRate,
 } from "@/lib/childcareScore";
+import { openPoiAttributionUrl } from "@/lib/openPoi";
 import { siteName } from "@/lib/site";
 import {
   readConditionValues,
@@ -30,6 +31,7 @@ import {
   type Municipality,
   type MunicipalityIndicatorField,
   type ProgramCategoryCode,
+  openPoiPlacesLicensesUrl,
   programCategoryNames,
 } from "@/lib/tokyoData/schema";
 import { FitLevelBadge } from "../../AxisComparison";
@@ -199,10 +201,11 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
             "note" in condition ? [<p key={condition.id}>{`${condition.name}: ${condition.note}`}</p>] : [],
           ),
         )}
-        {[...openPoiPlacesFiles].map(([conditionId, { source }]) => (
+        {[...openPoiPlacesFiles].map(([conditionId, { sources, keywords }]) => (
           <p key={conditionId}>
-            {conditionById(conditionId).name}の施設の出典: <a href={source.attributionUrl}>OpenPOI API</a> の検索結果 (検索語{" "}
-            {source.keywords.join("・")}、{source.retrievedOn} 取得)
+            {conditionById(conditionId).name}の施設の出典: <a href={openPoiAttributionUrl}>OpenPOI API</a> の検索結果 (検索語{" "}
+            {keywords.join("・")}、{sources[0].retrievedOn} 取得。
+            <a href={openPoiPlacesLicensesUrl}>施設ごとのライセンス</a>)
           </p>
         ))}
       </section>

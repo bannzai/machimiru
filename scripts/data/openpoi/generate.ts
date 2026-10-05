@@ -3,24 +3,23 @@
  * OpenPOI API で検索し、`public/data/tokyo/openpoi/<条件の識別子>.geojson` に書き出す。
  *
  * 実行: `make data-openpoi` (手順は `documents/PROJECT.md`「OpenPOI API の検索結果の生成」)。
- * OpenPOI API のデータが同じなら同じ出力になる (取得日を除く)。API のデータは更新されるため、実行した日によって件数が変わる。
+ * OpenPOI API のデータが同じなら同じ出力になる。API のデータは更新されるため、実行した日によって件数が変わる。
+ * 取得日はファイルの sources (`src/lib/tokyoData/sources.ts` の openPoi の retrievedOn) に書くため、検索し直す時は先にそれを替える。
+ * 施設のレコードのライセンスの本文と NOTICE は、同じディレクトリの LICENSES.txt から辿る (新しいライセンスが現れたら
+ * `src/lib/tokyoData/data.test.ts` が知らせる)。
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { registryConditions } from "../../../src/lib/axes";
 import type { BoundaryFeatureCollection, MunicipalityProperties } from "../../../src/lib/boundaries";
 import { type BoundingBox, boundingBoxOfGeometry, isPointInGeometry } from "../../../src/lib/geometry";
-import {
-  type LocatedOpenPoiFacility,
-  openPoiAttributionUrl,
-  openPoiSearchEndpoint,
-  searchOpenPoi,
-} from "../../../src/lib/openPoi";
+import { type LocatedOpenPoiFacility, searchOpenPoi } from "../../../src/lib/openPoi";
 import {
   type OpenPoiPlacesFile,
   localGovernmentCheckDigit,
   openPoiPlacesFileSchema,
 } from "../../../src/lib/tokyoData/schema";
+import { tokyoDataSources } from "../../../src/lib/tokyoData/sources";
 import { compareCodeUnits } from "../tokyo/parse";
 
 const outputDirectory = path.join(process.cwd(), "public", "data", "tokyo", "openpoi");
@@ -93,12 +92,8 @@ async function searchTokyoPlaces(
   }
   return openPoiPlacesFileSchema.parse({
     type: "FeatureCollection",
-    source: {
-      endpoint: openPoiSearchEndpoint,
-      keywords: [...searchKeywords],
-      retrievedOn: new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date()),
-      attributionUrl: openPoiAttributionUrl,
-    },
+    sources: [tokyoDataSources.openPoi],
+    keywords: [...searchKeywords],
     // 実行環境のロケールで並びが変わらないよう、localeCompare ではなく文字コードの順で比べる
     features: [...featuresByKey.values()].sort(
       (a, b) =>
