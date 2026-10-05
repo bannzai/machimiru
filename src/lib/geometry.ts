@@ -67,6 +67,38 @@ export function geometryAreaSquareKilometers(geometry: Polygon | MultiPolygon): 
 }
 
 /**
+ * geometry の中心 ([経度, 緯度])。外側のリングを、経度・緯度を平面の座標とみなした多角形の重心にする (区市町村の範囲では、
+ * 球面の重心との差は中心から施設までの距離を比べる用途に効かない)。穴は考えない。MultiPolygon は、面積の最も大きい Polygon の中心にする
+ * (島しょ部の村の中心が島の間の海にならないよう、主な島を選ぶ)。
+ */
+export function geometryCenter(geometry: Polygon | MultiPolygon): Position {
+  const [outerRing] = (geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates).reduce(
+    (largest, polygon) => (ringAreaSquareMeters(polygon[0]) > ringAreaSquareMeters(largest[0]) ? polygon : largest),
+  );
+  let doubledArea = 0;
+  let longitudeSum = 0;
+  let latitudeSum = 0;
+  for (let index = 0, previousIndex = outerRing.length - 1; index < outerRing.length; previousIndex = index++) {
+    const [longitudeA, latitudeA] = outerRing[previousIndex];
+    const [longitudeB, latitudeB] = outerRing[index];
+    const cross = longitudeA * latitudeB - longitudeB * latitudeA;
+    doubledArea += cross;
+    longitudeSum += (longitudeA + longitudeB) * cross;
+    latitudeSum += (latitudeA + latitudeB) * cross;
+  }
+  return [longitudeSum / (3 * doubledArea), latitudeSum / (3 * doubledArea)];
+}
+
+/** 2 点 ([経度, 緯度]) の間の距離 (km) を、地球を球とみなした大円距離 (haversine の式) で返す。 */
+export function distanceKilometers([longitudeA, latitudeA]: Position, [longitudeB, latitudeB]: Position): number {
+  const toRadians = (degree: number) => (degree * Math.PI) / 180;
+  const haversine =
+    Math.sin(toRadians(latitudeB - latitudeA) / 2) ** 2 +
+    Math.cos(toRadians(latitudeA)) * Math.cos(toRadians(latitudeB)) * Math.sin(toRadians(longitudeB - longitudeA) / 2) ** 2;
+  return (2 * earthRadiusMeters * Math.asin(Math.sqrt(haversine))) / 1000;
+}
+
+/**
  * 閉じたリング ring が球面上で囲む面積 (m²)。リングの向きによらず正の値を返す。
  * 式は球面上の多角形の面積の近似 (Chamberlain & Duquette「Some Algorithms for Polygons on a Sphere」(2007) の式) で、turf の area と同じ。
  */

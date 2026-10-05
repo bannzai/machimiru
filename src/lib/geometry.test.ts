@@ -6,7 +6,9 @@ import type { BoundaryFeatureCollection, MunicipalityProperties } from "./bounda
 import {
   type BoundingBox,
   boundingBoxOfGeometry,
+  distanceKilometers,
   geometryAreaSquareKilometers,
+  geometryCenter,
   isPointInBoundingBox,
   isPointInGeometry,
   normalizeLongitudeOfBoundingBox,
@@ -119,6 +121,38 @@ describe("isPointInGeometry", () => {
     ["2 つの間", [10, 10], false],
   ])("MultiPolygon の%s", (_, point, expected) => {
     expect(isPointInGeometry(point, twoSquares)).toBe(expected);
+  });
+});
+
+describe("geometryCenter", () => {
+  it("Polygon は外側のリングの重心にする", () => {
+    expect(geometryCenter(squareWithHole)).toEqual([5, 5]);
+  });
+
+  it("MultiPolygon は面積の最も大きい Polygon の重心にする", () => {
+    expect(geometryCenter(twoSquares)).toEqual([21, 21.5]);
+  });
+
+  it("新宿区の境界データの中心が新宿区の中にある", () => {
+    const boundaries = JSON.parse(
+      readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
+    ) as BoundaryFeatureCollection<MunicipalityProperties>;
+    const shinjuku = boundaries.features.find((feature) => feature.properties.code === "13104")!;
+    expect(isPointInGeometry(geometryCenter(shinjuku.geometry), shinjuku.geometry)).toBe(true);
+  });
+});
+
+describe("distanceKilometers", () => {
+  it("同じ点は 0 km", () => {
+    expect(distanceKilometers([139.7, 35.7], [139.7, 35.7])).toBe(0);
+  });
+
+  it("経線に沿った緯度 1 度は、地球の半径 6371.0088 km の円周の 360 分の 1", () => {
+    expect(distanceKilometers([139, 35], [139, 36])).toBeCloseTo((2 * Math.PI * 6371.0088) / 360, 6);
+  });
+
+  it("赤道に沿った経度 90 度は、円周の 4 分の 1", () => {
+    expect(distanceKilometers([0, 0], [90, 0])).toBeCloseTo((2 * Math.PI * 6371.0088) / 4, 6);
   });
 });
 
