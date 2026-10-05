@@ -62,7 +62,7 @@ make setup
 make data-tokyo
 ```
 
-出典を新しい版に替える時は、`src/lib/tokyoData/sources.ts` の URL・`asOf`・`retrievedOn` とこの表を更新し、`tmp/data-cache/` を消してから `make data-tokyo` を実行する。区市町村名で照合する出典 (こども家庭庁の 2 つ) で照合できない名称があると、欠損にせず生成を止める。
+出典を新しい版に替える時は、`src/lib/tokyoData/sources.ts` の URL・`asOf`・`retrievedOn` とこの表を更新し、`tmp/data-cache/` を消してから `make data-tokyo` を実行する。区市町村名で照合する出典 (こども家庭庁の 2 つと警視庁の認知件数) で照合できない名称があると、欠損にせず生成を止める。
 
 ## OpenPOI API の検索結果の生成
 
