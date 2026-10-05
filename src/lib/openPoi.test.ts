@@ -81,6 +81,31 @@ describe("searchOpenPoi", () => {
     );
   });
 
+  it("本文の受信中に待つ時間を過ぎた時も、待った秒数を含めて例外にする", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn<typeof fetch>(
+        async () =>
+          new Response(
+            new ReadableStream({
+              start(controller) {
+                controller.error(new DOMException("signal timed out", "TimeoutError"));
+              },
+            }),
+            { status: 200 },
+          ),
+      ),
+    );
+    await expect(searchOpenPoi("公園", mitakaStationBoundingBox)).rejects.toThrow(
+      `${openPoiSearchTimeoutMs / 1000} 秒待っても応答がありませんでした`,
+    );
+  });
+
+  it("200 で本文が JSON でない時は、形式の不一致の短い文言の例外にする", async () => {
+    vi.stubGlobal("fetch", vi.fn<typeof fetch>(async () => new Response("<html>maintenance</html>", { status: 200 })));
+    await expect(searchOpenPoi("公園", mitakaStationBoundingBox)).rejects.toThrow(/^応答の形式が想定と違います$/);
+  });
+
   it("通信の失敗は短い文言の例外にする", async () => {
     vi.stubGlobal(
       "fetch",

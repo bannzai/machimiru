@@ -81,25 +81,37 @@ export async function searchOpenPoi(
   keyword: string,
   boundingBox: BoundingBox,
 ): Promise<{ facilities: LocatedOpenPoiFacility[]; isTruncated: boolean }> {
+  // 待つ時間は本文の受信まで含めて数えるため、fetch() と本文の読み込みの両方で同じ短い文言に変える
   const response = await fetch(openPoiSearchUrl(keyword, boundingBox), {
     signal: AbortSignal.timeout(openPoiSearchTimeoutMs),
   }).catch((error: unknown) => {
-    throw new Error(
-      error instanceof DOMException && error.name === "TimeoutError"
-        ? `${openPoiSearchTimeoutMs / 1000} 秒待っても応答がありませんでした`
-        : "通信に失敗しました",
-    );
+    throw new Error(openPoiFetchErrorMessage(error));
   });
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
-  const parsedResponse = openPoiSearchResponseSchema.safeParse(await response.json());
+  const responseBody: unknown = await response.json().catch((error: unknown) => {
+    throw new Error(openPoiFetchErrorMessage(error));
+  });
+  const parsedResponse = openPoiSearchResponseSchema.safeParse(responseBody);
   // 検査の詳細 (zod の長い JSON) は画面のエラー表示に出すには長いため、短い文言にする
   if (!parsedResponse.success) {
     throw new Error("応答の形式が想定と違います");
   }
   const { count, results } = parsedResponse.data;
   return { facilities: results.filter(isLocatedOpenPoiFacility), isTruncated: count >= openPoiSearchLimit };
+}
+
+/**
+ * fetch() か本文の読み込みが投げた error を、画面に出せる短い文言にして返す。
+ * `openPoiSearchTimeoutMs` を過ぎた時 (TimeoutError) は待った秒数、本文が JSON でない時 (SyntaxError) は形式の不一致、
+ * それ以外 (接続の失敗・本文の受信中の切断) は通信の失敗とする。
+ */
+function openPoiFetchErrorMessage(error: unknown): string {
+  if (error instanceof DOMException && error.name === "TimeoutError") {
+    return `${openPoiSearchTimeoutMs / 1000} 秒待っても応答がありませんでした`;
+  }
+  return error instanceof SyntaxError ? "応答の形式が想定と違います" : "通信に失敗しました";
 }
 
 /** facility が座標を持つかを返す。座標の無い施設は lat・lng が空文字になる (openapi.json の `Facility`)。 */
