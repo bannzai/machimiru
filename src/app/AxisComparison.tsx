@@ -15,6 +15,7 @@ import {
   missingFitLabel,
   summaryFitLevel,
 } from "@/lib/axes";
+import { openPoiAttributionUrl } from "@/lib/openPoi";
 import { siteName } from "@/lib/site";
 import type { Municipality } from "@/lib/tokyoData/schema";
 import { municipalityPagePath, ScoreSwatch } from "./ChildcareScorePanel";
@@ -50,6 +51,10 @@ export function AxisComparison({
   const selectedAxis = comparedAxes.find((axis) => axis.id === axisTab);
   const activeConditionsOf = (conditions: readonly AxisCondition[]) =>
     conditions.filter((condition) => activeConditionIds.includes(condition.id as ConditionId));
+  /** 開いているタブが段階に使う条件のうち、OpenPOI API の検索結果で判定する条件。出典を表示する。 */
+  const openPoiConditions = (selectedAxis === undefined ? comparedAxes : [selectedAxis])
+    .flatMap((axis) => activeConditionsOf(axis.conditions))
+    .filter((condition) => condition.evaluator.type === "openPoi");
   return (
     <section className="axis-comparison" aria-labelledby="axis-comparison-heading">
       <h2 id="axis-comparison-heading">街をくらべる</h2>
@@ -134,6 +139,12 @@ export function AxisComparison({
           合う度合いは公開データから {siteName}{" "}
           が独自に作ったもので、自治体による評価ではありません。東京都の区市町村の中の順位で 4 段階に分けています。
         </p>
+        {openPoiConditions.length > 0 && (
+          <p className="axis-comparison-note">
+            {openPoiConditions.map((condition) => condition.name).join("・")}の施設の出典:{" "}
+            <a href={openPoiAttributionUrl}>OpenPOI API</a>
+          </p>
+        )}
       </div>
     </section>
   );
