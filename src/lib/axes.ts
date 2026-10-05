@@ -64,7 +64,8 @@ export const axes = [
     id: "childcare",
     name: "子育て",
     classifierDescription: "Raising children: daycare, pediatric clinics, child-raising support",
-    keywords: ["子育て", "子ども", "子供", "育児"],
+    // 「子ども」は「2 歳の子どもがいて」のような家族の状況の文にも出て希望と見分けられないため、語に入れない
+    keywords: ["子育て", "育児"],
     conditions: [
       {
         id: "pediatricsNearby",

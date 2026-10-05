@@ -129,6 +129,14 @@ describe("dictionaryClauseClassifier", () => {
     });
   });
 
+  it("引っ越しの文に書いた子育ての希望は、子育ての軸のすべての条件にする", async () => {
+    expect(await classifyConditionText("子育てしやすい街に引っ越したい", dictionaryClauseClassifier)).toEqual({
+      classifier: "dictionary",
+      conditionIds: ["pediatricsNearby", "nurseryAvailability", "childcareSupport"],
+      unsupportedConditions: [],
+    });
+  });
+
   it("どの軸の語も含まない文は「その他」の軸にする", async () => {
     expect((await classifyConditionText("にぎやかな街", dictionaryClauseClassifier)).unsupportedConditions).toEqual([
       { axisName: "その他", text: "にぎやかな街" },
