@@ -77,10 +77,10 @@ export type ClauseClassifier = {
 };
 
 // Jev は文を生成できないため、条件の表示に使う文は code で区切る (https://docs.typesafe.ai/model-jaggedness/jev-1.13.md 「Generation」)
-/** text を句読点・改行・中黒で文に区切る。空の文は除く。 */
+/** text を句読点・改行・中黒で文に区切る。数字に挟まれたピリオド・カンマ (「15.5 万円」「150,000 円」) では区切らない。空の文は除く。 */
 export function splitConditionClauses(text: string): string[] {
   return text
-    .split(/[、。,.，．・!?！？\n]/)
+    .split(/[、。・!?！？\n]|(?<![0-9０-９])[,.，．]|[,.，．](?![0-9０-９])/)
     .map((clause) => clause.trim())
     .filter((clause) => clause.length > 0);
 }

@@ -23,6 +23,14 @@ describe("splitConditionClauses", () => {
       "自然豊か",
     ]);
   });
+
+  it("数字に挟まれた小数点・桁区切りでは区切らない", () => {
+    expect(splitConditionClauses("家賃は15.5万円まで,家賃150,000円以内。駅まで 10 分.")).toEqual([
+      "家賃は15.5万円まで",
+      "家賃150,000円以内",
+      "駅まで 10 分",
+    ]);
+  });
 });
 
 describe("classifyConditionText (判定器を固定の判定に差し替える)", () => {
