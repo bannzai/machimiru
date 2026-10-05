@@ -1,11 +1,5 @@
-import { expect, type Page, test } from "@playwright/test";
-import { logBrowserErrors, moveMap, waitForMapIdle } from "./map";
-
-/** 地図の中心のエリアをタップし、選択の塗りを描き終えるまで待つ。 */
-async function tapMapCenter(page: Page) {
-  await page.locator(".maplibregl-canvas").click();
-  await waitForMapIdle(page);
-}
+import { expect, test } from "@playwright/test";
+import { logBrowserErrors, moveMap, tapMapCenter, waitForMapIdle } from "./map";
 
 // 選択・ズーム・再読み込みの後の状態を順に確かめるため、localStorage を引き継ぐ 1 つのテストにする
 test("地図でエリアを選び、再読み込みしても選択が残る", async ({ page }, testInfo) => {

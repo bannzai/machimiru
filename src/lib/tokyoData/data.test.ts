@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { type BoundaryFeatureCollection, type MunicipalityProperties, municipalityBoundaryCode } from "../boundaries";
 import {
   facilitiesFileSchema,
   facilityKindSchema,
@@ -58,6 +59,15 @@ describe("public/data/tokyo/municipalities.json", () => {
         if (indicator !== null) expect(sourceIds.has(indicator.sourceId), indicator.sourceId).toBe(true);
       }
     }
+  });
+
+  it("区市町村の境界データと 1 対 1 で対応する (地図の色分けが区市町村コードで引ける)", () => {
+    const boundaryCodes = (
+      JSON.parse(
+        readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
+      ) as BoundaryFeatureCollection<MunicipalityProperties>
+    ).features.map((feature) => feature.properties.code);
+    expect(municipalityCodes.map(municipalityBoundaryCode).sort()).toEqual([...boundaryCodes].sort());
   });
 
   it("公表値と一致する (照合のずれで別の区市町村の値が入っていない)", () => {

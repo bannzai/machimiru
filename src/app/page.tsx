@@ -1,8 +1,15 @@
 import Link from "next/link";
 import { contactEmail, siteCatchphrase, siteJsonLd, siteName } from "@/lib/site";
+import { readMunicipalitiesFile } from "@/lib/tokyoData/load";
 import { AreaMap } from "./AreaMap";
 
-/** トップページ。東京都の地図でエリアを選ぶ画面と、その下にサービスの紹介・使い方・問い合わせ先・出典と法務ページへの導線を出す。 */
+// 区市町村の指標のファイルをビルド時に読むため、実行時にファイルを読む動的な描画にしない
+export const dynamic = "force-static";
+
+/**
+ * トップページ。東京都の地図でエリアを選ぶ画面と区市町村ごとの子育てのしやすさ、
+ * その下にサービスの紹介・使い方・問い合わせ先・出典と法務ページへの導線を出す。
+ */
 export default function TopPage() {
   return (
     <main className="map-page">
@@ -15,7 +22,7 @@ export default function TopPage() {
         <h1>{siteName}</h1>
         <p>{siteCatchphrase}</p>
       </header>
-      <AreaMap />
+      <AreaMap municipalitiesFile={readMunicipalitiesFile()} />
       <div className="top-introduction">
         <section aria-labelledby="about-heading">
           <h2 id="about-heading">土地勘がなくても子育てしやすい街を比べる</h2>
@@ -33,13 +40,13 @@ export default function TopPage() {
             <li>地図で気になる区市町村をタップして選ぶ</li>
             <li>地図を拡大すると町丁の単位で選べる</li>
             <li>選んだエリアはこのブラウザに保存され次に開いた時も残る</li>
+            <li>地図の色と一覧で区市町村ごとの子育てのしやすさを比べ区市町村名から指標と子育て支援制度を見る</li>
           </ol>
         </section>
         <section aria-labelledby="upcoming-heading">
           <h2 id="upcoming-heading">準備中の機能</h2>
           <ul>
             <li>保育所・小児科・産婦人科など子育て施設の表示</li>
-            <li>区市町村ごとの子育てのしやすさの比較</li>
             <li>キーワードで探した施設を地図に重ねる表示</li>
           </ul>
         </section>

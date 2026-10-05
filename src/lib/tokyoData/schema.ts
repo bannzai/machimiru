@@ -75,6 +75,9 @@ export const medicalSubsidySchema = z.object({
 /** 区市町村の指標のうち、値を持てる項目の名前。 */
 export const municipalityIndicatorFieldSchema = z.enum(["childcare", "childcareUsageRate", "medicalSubsidy"]);
 
+/** 区市町村の指標のうち、値を持てる項目の名前。 */
+export type MunicipalityIndicatorField = z.infer<typeof municipalityIndicatorFieldSchema>;
+
 /** 取得できなかった指標と、その理由。 */
 export const missingIndicatorSchema = z.object({
   field: municipalityIndicatorFieldSchema,
@@ -94,11 +97,17 @@ export const municipalitySchema = z.object({
   missing: z.array(missingIndicatorSchema),
 });
 
+/** 区市町村 1 件の指標。 */
+export type Municipality = z.infer<typeof municipalitySchema>;
+
 /** `public/data/tokyo/municipalities.json` の形式。 */
 export const municipalitiesFileSchema = z.object({
   sources: z.array(dataSourceSchema).min(1),
   municipalities: z.array(municipalitySchema),
 });
+
+/** `public/data/tokyo/municipalities.json` の中身。 */
+export type MunicipalitiesFile = z.infer<typeof municipalitiesFileSchema>;
 
 /** 子育て支援制度レジストリのカテゴリーコード (README「3. タグについて」CSC_個人向けカテゴリー) と名称。 */
 export const programCategoryNames = {

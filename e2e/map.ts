@@ -18,7 +18,13 @@ export async function moveMap(page: Page, mapHash: string) {
   await waitForMapIdle(page);
 }
 
-/** 地図 (WebGL・タイルの取得) の失敗は画面に出ないことがあるため、ブラウザのエラーと警告を CI のログに出す。 */
+/** 地図の中心のエリアをタップし、選択の塗りを描き終えるまで待つ。 */
+export async function tapMapCenter(page: Page) {
+  await page.locator(".maplibregl-canvas").click();
+  await waitForMapIdle(page);
+}
+
+/** 地図 (WebGL・タイルの取得) の失敗は画面に出ないことがあるため、page のブラウザのエラーと警告を CI のログに出す。 */
 export function logBrowserErrors(page: Page) {
   page.on("console", (message) => {
     if (message.type() === "error" || message.type() === "warning") {

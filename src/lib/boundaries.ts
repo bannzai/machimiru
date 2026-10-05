@@ -54,3 +54,8 @@ export const municipalityBoundaryUrl = "/data/boundaries/tokyo-municipalities.ge
 
 /** 東京都の町丁の境界データの URL。 */
 export const townBoundaryUrl = "/data/boundaries/tokyo-towns.geojson";
+
+/** 全国地方公共団体コード (6 桁。子育てデータの区市町村のキー) から、区市町村の境界の `MunicipalityProperties.code` (検査数字を除いた 5 桁) を返す。 */
+export function municipalityBoundaryCode(localGovernmentCode: string): string {
+  return localGovernmentCode.slice(0, 5);
+}
