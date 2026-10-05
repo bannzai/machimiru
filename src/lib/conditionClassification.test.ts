@@ -138,16 +138,26 @@ describe("dictionaryClauseClassifier", () => {
 
   it("軸の追加の要望の文を、それぞれの軸の判定できない条件にする", async () => {
     expect(
-      (await classifyConditionText("鍼灸の評判が良い場所が近い、犯罪率が低い場所、駅前の雰囲気、職場まで 30 分、仕事場まで 30 分", dictionaryClauseClassifier))
+      (await classifyConditionText("鍼灸の評判が良い場所が近い、駅前の雰囲気、職場まで 30 分、仕事場まで 30 分", dictionaryClauseClassifier))
         .unsupportedConditions,
     ).toEqual([
       { axisName: "医療・健康", text: "鍼灸の評判が良い場所が近い" },
-      { axisName: "治安", text: "犯罪率が低い場所" },
       { axisName: "通勤", text: "駅前の雰囲気" },
       { axisName: "通勤", text: "職場まで 30 分" },
       { axisName: "通勤", text: "仕事場まで 30 分" },
     ]);
   });
+
+  it.each(["治安が良い", "犯罪が少ない", "犯罪率が低い場所", "安全な街に住みたい"])(
+    "「%s」を治安の軸の犯罪率が低いに翻訳する",
+    async (text) => {
+      expect(await classifyConditionText(text, dictionaryClauseClassifier)).toEqual({
+        classifier: "dictionary",
+        conditionIds: ["lowCrimeRate"],
+        unsupportedConditions: [],
+      });
+    },
+  );
 
   it.each(["コワーキングが近い", "リモートワークできる場所がある", "シェアオフィスが近くにほしい"])(
     "「%s」をコワーキングの軸の条件にする",
@@ -203,7 +213,8 @@ describe("jevClauseClassifier", () => {
       clause_1_pediatricsNearby: 0.85,
       clause_1_nurseryAvailability: 0.76,
       clause_1_axis_0: 0.93,
-      clause_1_axis_3: 0.88,
+      // 軸の並びは registry (子育て・治安・コワーキング) の後に registry に無い軸 (予算・通勤…) が続くため、通勤は 4 番目
+      clause_1_axis_4: 0.88,
     };
     const fetchFunction = vi.fn<typeof fetch>(async (_, init) => {
       const questionIds = Object.keys(JSON.parse(String(init?.body)).questions);
@@ -227,8 +238,8 @@ describe("jevClauseClassifier", () => {
     const body = JSON.parse(String(init?.body));
     expect(body.model).toBe(jevModel);
     expect(body.state).toEqual({ clauses });
-    // 文ごとに、希望か (1)・registry の条件 (4)・軸 (registry の 2 と registry に無い 7)
-    expect(Object.keys(body.questions)).toHaveLength(2 * 14);
+    // 文ごとに、希望か (1)・registry の条件 (5)・軸 (registry の 3 と registry に無い 6)
+    expect(Object.keys(body.questions)).toHaveLength(2 * 15);
   });
 
   it("API の失敗は HTTP の状態を含めたエラーにする", async () => {

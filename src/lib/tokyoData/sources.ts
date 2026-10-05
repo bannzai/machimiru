@@ -88,6 +88,34 @@ export const tokyoDataSources = {
     attribution:
       "「国土数値情報（福祉施設データ）」（国土交通省）（https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-2023.html）を加工して作成",
   },
+  crimeCounts: {
+    id: "mpd-ninchikensu-r7",
+    title: "区市町村の町丁別、罪種別及び手口別認知件数（年累計）町丁字別犯罪情報 令和7年分（累計値）",
+    provider: "警視庁",
+    pageUrl: "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html",
+    fileUrls: ["https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.files/R7.csv"],
+    // 令和7年1月〜12月の累計のため、期間の末日を基準日にする
+    asOf: "2025-12-31",
+    retrievedOn: "2026-10-05",
+    ...ccBy4,
+    // 東京都オープンデータカタログサイト利用規約 ( https://portal.data.metro.tokyo.lg.jp/terms/ ) の、改変して利用する場合のクレジットの記載例に従う
+    attribution:
+      "このページの犯罪率は、以下の著作物を改変して利用しています。区市町村の町丁別、罪種別及び手口別認知件数（令和7年分）、東京都・警視庁、クリエイティブ・コモンズ・ライセンス 表示4.0国際",
+  },
+  residentPopulation: {
+    id: "tokyo-juuki-r8-table1",
+    title: "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月 第1表 区市町村、世帯数、男女別人口（人口総数）及び人口密度（令和8、7年）",
+    provider: "東京都総務局",
+    pageUrl: "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115",
+    fileUrls: ["https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0100.csv"],
+    // 犯罪率の分母に、認知件数の数え始め (令和7年1月1日) の人口の列を使うため
+    asOf: "2025-01-01",
+    retrievedOn: "2026-10-05",
+    ...ccBy4,
+    // 東京都オープンデータカタログサイト利用規約の、改変して利用する場合のクレジットの記載例に従う
+    attribution:
+      "このページの犯罪率は、以下の著作物を改変して利用しています。住民基本台帳による東京都の世帯と人口（令和8年1月）第1表、東京都、クリエイティブ・コモンズ・ライセンス 表示4.0国際",
+  },
   // `make data-openpoi` (scripts/data/openpoi/generate.ts) が使う。検索し直す時は retrievedOn を検索する日に替えてから実行する
   openPoi: {
     id: "openpoi-api-search",

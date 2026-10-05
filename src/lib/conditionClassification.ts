@@ -33,7 +33,6 @@ export const unsupportedAxisCandidates = [
     classifierDescription: "Shopping: supermarkets, drugstores, shopping streets",
     keywords: ["買い物", "スーパー", "ドラッグストア", "商店街"],
   },
-  { name: "治安", classifierDescription: "Safety: crime rate, security", keywords: ["治安", "犯罪", "防犯"] },
   { name: "自然", classifierDescription: "Nature: parks, greenery, quiet surroundings", keywords: ["自然", "公園", "緑"] },
   {
     name: "医療・健康",

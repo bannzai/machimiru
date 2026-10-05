@@ -26,6 +26,8 @@ function municipality(overrides: Partial<Municipality>): Municipality {
       inpatientHasCopayment: false,
     },
     programCount: 100,
+    crimeCount: { sourceId: "crime", recognizedCount: 6977 },
+    residentPopulation: { sourceId: "population", totalCount: 352717 },
     missing: [{ field: "childcareUsageRate", reason: "使える出典が無い" }],
     ...overrides,
   };
