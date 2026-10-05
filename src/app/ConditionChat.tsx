@@ -68,9 +68,15 @@ export function ConditionChat({
       const classification = conditionClassificationSchema.parse(await response.json());
       setClassificationState({ status: "loaded", classification });
       onActiveConditionIdsChange(classification.conditionIds);
+      // 判定を待つ間に別のタブが記録したリクエストを消さないよう、送信を始めた時の一覧ではなく保存の直前の一覧に足す
       writeStoredText(
         axisRequestsStorageKey,
-        JSON.stringify(addAxisRequests(axisRequests, classification.unsupportedConditions)),
+        JSON.stringify(
+          addAxisRequests(
+            parseAxisRequests(readStoredText(axisRequestsStorageKey)),
+            classification.unsupportedConditions,
+          ),
+        ),
       );
       axisRequestsListeners.forEach((listener) => listener());
     } catch (error) {
