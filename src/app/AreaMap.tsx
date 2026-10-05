@@ -22,11 +22,19 @@ import {
   townBoundaryUrl,
 } from "@/lib/boundaries";
 import {
-  type ChildcareScore,
-  childcareScoreColor,
-  computeChildcareScores,
-  missingChildcareScoreColor,
-} from "@/lib/childcareScore";
+  type ConditionId,
+  type ConditionValues,
+  type FitLevel,
+  activeAxes,
+  axisFitLevel,
+  computeConditionFitLevels,
+  conditionIds,
+  fitLevelColor,
+  missingFitColor,
+  summaryFitLevel,
+} from "@/lib/axes";
+import { readStoredText, writeStoredText } from "@/lib/browserStorage";
+import { type ChildcareScore, childcareScoreColor, computeChildcareScores } from "@/lib/childcareScore";
 import type { SearchRange } from "@/lib/facilityMarking";
 import { type BoundingBox, boundingBoxOfGeometry, normalizeLongitudeOfBoundingBox } from "@/lib/geometry";
 import {
@@ -36,7 +44,9 @@ import {
   propertySearchConditionStorageKey,
 } from "@/lib/propertySearch";
 import type { MunicipalitiesFile } from "@/lib/tokyoData/schema";
+import { type AxisTab, AxisComparison } from "./AxisComparison";
 import { ChildcareScorePanel, municipalityPagePath, ScoreSwatch } from "./ChildcareScorePanel";
+import { ConditionChat } from "./ConditionChat";
 import { FacilityMarkingPanel, useFacilityMarking } from "./FacilityMarking";
 import { PropertySearch } from "./PropertySearch";
 
@@ -55,7 +65,7 @@ const boundaryAttribution = '<a href="/sources/">国土数値情報・e-Stat を
 const municipalitySourceId = "municipalities";
 /** 町丁の境界の MapLibre のソース ID。 */
 const townSourceId = "towns";
-/** 区市町村を選ぶズームで、子育てのしやすさの総合の評価で色分けし、タップの位置から区市町村を引くための塗りのレイヤー ID。 */
+/** 区市町村を選ぶズームで、選んでいる軸のタブの段階で塗り分け、タップの位置から区市町村を引くための塗りのレイヤー ID。 */
 const municipalityFillLayerId = "municipalities-fill";
 /** 選択中の区市町村の太い境界線のレイヤー ID。 */
 const selectedMunicipalityLayerId = "municipalities-selected";
@@ -73,11 +83,18 @@ const facilityPinSourceId = "facility-pins";
 const facilityPinLayerId = "facility-pins-circle";
 
 /**
- * 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧と物件の検索、施設のピン、区市町村ごとの子育てのしやすさの総合の評価。
+ * 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧と物件の検索、施設のピン、区市町村ごとの子育てのしやすさの総合の評価、
+ * 文章を軸と条件に分けるチャットと、軸ごとに街を比べるタブ。地図の区市町村の塗り分けは、選んでいる軸のタブの段階にする。
  * 選択と検索の条件はブラウザの localStorage に保存する。施設はエリアを選んでいる時は選択中のエリアの中を、いない時は地図の表示範囲を探す。
- * municipalitiesFile は評価の根拠にする区市町村の指標。
+ * municipalitiesFile は評価の根拠にする区市町村の指標、conditionValues は軸の条件ごとの区市町村の値。
  */
-export function AreaMap({ municipalitiesFile }: { municipalitiesFile: MunicipalitiesFile }) {
+export function AreaMap({
+  municipalitiesFile,
+  conditionValues,
+}: {
+  municipalitiesFile: MunicipalitiesFile;
+  conditionValues: ConditionValues;
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const [boundaries, setBoundaries] = useState<{
@@ -92,6 +109,14 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
   const [isTownLevel, setIsTownLevel] = useState(false);
   const [loadErrorMessage, setLoadErrorMessage] = useState<string | null>(null);
   const [mapBoundingBox, setMapBoundingBox] = useState<BoundingBox | null>(null);
+  // 文章を入れる前も軸で街を比べられるよう、最初は registry のすべての条件を使う
+  const [activeConditionIds, setActiveConditionIds] = useState<readonly ConditionId[]>(conditionIds);
+  const [selectedAxisTab, setSelectedAxisTab] = useState<AxisTab>("summary");
+  // 文章を入れ直して選んでいた軸の条件が無くなった時は、まとめを出す
+  const axisTab: AxisTab =
+    selectedAxisTab !== "summary" && activeAxes(activeConditionIds).some((axis) => axis.id === selectedAxisTab)
+      ? selectedAxisTab
+      : "summary";
 
   useEffect(() => {
     const container = containerRef.current;
@@ -200,15 +225,38 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
     [municipalitiesFile],
   );
 
+  const conditionFitLevels = useMemo(() => computeConditionFitLevels(conditionValues), [conditionValues]);
+  /** 選んでいる軸のタブでの、区市町村 (全国地方公共団体コード) ごとの段階。 */
+  const axisTabFitLevels = useMemo(
+    () =>
+      new Map(
+        municipalitiesFile.municipalities.map(
+          ({ code }) =>
+            [
+              code,
+              axisTab === "summary"
+                ? summaryFitLevel(conditionFitLevels, activeConditionIds, code)
+                : axisFitLevel(conditionFitLevels, activeConditionIds, axisTab, code),
+            ] as const,
+        ),
+      ),
+    [municipalitiesFile, conditionFitLevels, activeConditionIds, axisTab],
+  );
+
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !boundaries) {
       return;
     }
+    const fillColor = fitLevelFillColor(axisTabFitLevels);
+    // 段階が変わらないタブへの切り替え (軸が 1 つの時のまとめと子育て) では MapLibre が描き直さず idle にならないため、印を付けない
+    if (JSON.stringify(map.getPaintProperty(municipalityFillLayerId, "fill-color")) === JSON.stringify(fillColor)) {
+      return;
+    }
     // 塗りの描き直しは非同期のため、描き終えて idle になるまでを e2e が待てるようにする
     map.getContainer().dataset.mapState = "moving";
-    map.setPaintProperty(municipalityFillLayerId, "fill-color", childcareScoreFillColor(childcareScores));
-  }, [boundaries, childcareScores]);
+    map.setPaintProperty(municipalityFillLayerId, "fill-color", fillColor);
+  }, [boundaries, axisTabFitLevels]);
 
   useEffect(() => {
     // 保存済みの選択を読む前に保存すると、空の選択で上書きしてしまう
@@ -247,6 +295,14 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
   );
   const selectedMunicipalityCodes = areaSelection.municipalityCodes.filter((code) => municipalityNames.has(code));
   const selectedTownCodes = areaSelection.townCodes.filter((code) => townsByCode.has(code));
+  // 町丁の軸の段階は持たないため、町丁はその区市町村で比べる (物件の検索と同じ扱い)
+  const comparedBoundaryCodes = new Set([
+    ...selectedMunicipalityCodes,
+    ...selectedTownCodes.flatMap((code) => townsByCode.get(code)?.municipalityCode ?? []),
+  ]);
+  const comparedMunicipalities = municipalitiesFile.municipalities.filter(({ code }) =>
+    comparedBoundaryCodes.has(municipalityBoundaryCode(code)),
+  );
 
   const selectedAreaSearchRanges = useMemo<SearchRange[]>(
     () =>
@@ -299,6 +355,7 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
         ) : (
           <p>地図を読み込んでいます</p>
         )}
+        <ConditionChat activeConditionIds={activeConditionIds} onActiveConditionIdsChange={setActiveConditionIds} />
         <h2 id="selected-areas-heading">選択中のエリア ({selectedMunicipalityCodes.length + selectedTownCodes.length})</h2>
         {selectedMunicipalityCodes.length + selectedTownCodes.length === 0 ? (
           <p>地図のエリアをタップすると選べます</p>
@@ -333,6 +390,14 @@ export function AreaMap({ municipalitiesFile }: { municipalitiesFile: Municipali
             </button>
           </>
         )}
+        <AxisComparison
+          municipalities={comparedMunicipalities}
+          conditionValues={conditionValues}
+          conditionFitLevels={conditionFitLevels}
+          activeConditionIds={activeConditionIds}
+          axisTab={axisTab}
+          onAxisTabChange={setSelectedAxisTab}
+        />
         <PropertySearch
           municipalityCodes={[
             ...selectedMunicipalityCodes,
@@ -395,24 +460,6 @@ async function fetchBoundary<Properties>(url: string): Promise<BoundaryFeatureCo
   return response.json();
 }
 
-/** localStorage の storageKey に保存した文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
-function readStoredText(storageKey: string): string | null {
-  try {
-    return localStorage.getItem(storageKey);
-  } catch {
-    return null;
-  }
-}
-
-/** localStorage の storageKey に text を保存する。 */
-function writeStoredText(storageKey: string, text: string) {
-  try {
-    localStorage.setItem(storageKey, text);
-  } catch {
-    // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択と条件が消えるだけで操作は続けられる
-  }
-}
-
 /** codes のどれかを `code` に持つエリアだけを残すフィルタを返す。 */
 function codeFilter(codes: string[]): FilterSpecification {
   return ["in", ["get", "code"], ["literal", codes]];
@@ -429,16 +476,16 @@ function addBoundaryLayers(
   map.addSource(townSourceId, { type: "geojson", data: towns });
   // 地名のラベルを境界の塗りで隠さないよう、ベース地図の最初の文字のレイヤーより下に入れる
   const firstSymbolLayerId = map.getStyle().layers.find((layer) => layer.type === "symbol")?.id;
-  // 区市町村の塗りは子育てのしやすさの総合の評価の色分けで、クリックの位置からエリアを引くためにも使う。
-  // 色は評価を読み込んだ後に setPaintProperty で入れ、それまでは評価なしの色にする。
-  // 透けた下の地名・道路が読める範囲で、最も薄い区分の色も塗りと分かる不透明度にする
+  // 区市町村の塗りは選んでいる軸のタブの段階の色分けで、クリックの位置からエリアを引くためにも使う。
+  // 色は地図を読み込んだ後に setPaintProperty で入れ、それまではデータなしの色にする。
+  // 透けた下の地名・道路が読める範囲で、最も薄い段階の色も塗りと分かる不透明度にする
   map.addLayer(
     {
       id: municipalityFillLayerId,
       type: "fill",
       source: municipalitySourceId,
       maxzoom: townSelectionMinZoom,
-      paint: { "fill-color": missingChildcareScoreColor, "fill-opacity": 0.6 },
+      paint: { "fill-color": missingFitColor, "fill-opacity": 0.6 },
     },
     firstSymbolLayerId,
   );
@@ -494,17 +541,17 @@ function addBoundaryLayers(
   );
 }
 
-/** 区市町村の境界の `code` ごとに、childcareScores の総合の評価の色を返す MapLibre の式。評価の無い区市町村は評価なしの色にする。 */
-function childcareScoreFillColor(childcareScores: readonly ChildcareScore[]): ExpressionSpecification {
+/**
+ * 区市町村の境界の `code` ごとに、fitLevels (全国地方公共団体コード → 段階) の段階の色を返す MapLibre の式。
+ * 段階の無い区市町村はデータなしの色にする。
+ */
+function fitLevelFillColor(fitLevels: ReadonlyMap<string, FitLevel | null>): ExpressionSpecification {
   // MapLibre の型は match の「値と色の組」を固定長の tuple で表し、区市町村の数だけ組を並べた配列を受け取れないため変換する
   return [
     "match",
     ["get", "code"],
-    ...childcareScores.flatMap((childcareScore) => [
-      municipalityBoundaryCode(childcareScore.municipalityCode),
-      childcareScoreColor(childcareScore.total),
-    ]),
-    missingChildcareScoreColor,
+    ...[...fitLevels].flatMap(([code, level]) => [municipalityBoundaryCode(code), fitLevelColor(level)]),
+    missingFitColor,
   ] as unknown as ExpressionSpecification;
 }
 

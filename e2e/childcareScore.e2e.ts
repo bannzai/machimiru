@@ -9,7 +9,7 @@ test("区市町村ごとの子育てのしやすさを地図と一覧で比べ�
   const rankingItems = page.getByRole("list", { name: "子育てのしやすさの順位" }).getByRole("listitem");
   logBrowserErrors(page);
 
-  // 総合の評価の地図の色分けと一覧。地図は areaMap.e2e.ts と同じ理由で画面に見えている範囲だけを撮る
+  // 総合の評価の一覧 (地図の塗り分けは軸のタブの段階で、conditionChat.e2e.ts で確かめる)。地図は areaMap.e2e.ts と同じ理由で画面に見えている範囲だけを撮る
   await page.goto("/");
   await waitForMapIdle(page);
   await expect(childcareScoreSection.getByText("machimiru が独自に作ったもので、自治体の発信ではありません")).toBeVisible();

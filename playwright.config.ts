@@ -24,5 +24,7 @@ export default defineConfig({
     command: "npm run start -- -H 127.0.0.1",
     url: "http://127.0.0.1:3000",
     reuseExistingServer: false,
+    // 撮影は TypeSafe の API キーの有無によらず同じ画面になるよう、文章の判定を辞書による固定の判定にする
+    env: { CONDITION_CLASSIFIER: "dictionary" },
   },
 });

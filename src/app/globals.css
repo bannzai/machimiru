@@ -324,6 +324,153 @@ main.map-page {
   font-size: 0.875rem;
 }
 
+.condition-chat {
+  margin: 0.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.condition-chat p {
+  margin: 0.25rem 0;
+}
+
+.condition-chat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.condition-chat-form textarea {
+  font: inherit;
+}
+
+.condition-chat-form button {
+  align-self: flex-end;
+}
+
+.condition-chat-axis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0.5rem 0 0.25rem;
+  padding: 0.25rem 0.75rem 0.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+}
+
+.condition-chat-axis legend {
+  font-weight: bold;
+}
+
+.condition-chat-axis label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.condition-chat-unsupported,
+.condition-chat-requests {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.condition-chat-note,
+.axis-comparison-note {
+  font-size: 0.8125rem;
+}
+
+.condition-chat h3 {
+  margin: 0.75rem 0 0;
+  font-size: 0.875rem;
+}
+
+.axis-comparison {
+  margin-top: 1rem;
+}
+
+.axis-tabs {
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  border-bottom: 2px solid;
+}
+
+.axis-tabs button {
+  flex-shrink: 0;
+  padding: 0.5rem 0.875rem;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-bottom: 0;
+  border-radius: 6px 6px 0 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.axis-tabs button[aria-selected="true"] {
+  background: #17212b;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.axis-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin: 0.5rem 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8125rem;
+}
+
+.axis-legend li,
+.fit-level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.axis-municipality-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.axis-municipality-list > li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0 0.5rem;
+  padding: 0.375rem 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.axis-condition-list {
+  flex-basis: 100%;
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.axis-condition-list small {
+  display: block;
+  opacity: 0.8;
+}
+
+/* 20rem のパネルに軸の列を並べるため、表の既定の列の最小幅 (8rem) を外す */
+.axis-matrix th,
+.axis-matrix td {
+  min-width: 0;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.axis-matrix caption {
+  font-weight: bold;
+  text-align: left;
+}
+
 /* 地図の下のサービスの紹介は、読みやすい行の長さに収める */
 .top-introduction {
   max-width: 48rem;
