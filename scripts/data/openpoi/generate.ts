@@ -26,8 +26,9 @@ import { compareCodeUnits } from "../tokyo/parse";
 const outputDirectory = path.join(process.cwd(), "public", "data", "tokyo", "openpoi");
 const municipalityBoundaryPath = path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson");
 
-// 件数が上限に達した範囲を 4 つに分けて探し直す回数の上限。区市町村の範囲 (最も広い奥多摩町で東西約 30 km) を 8 回分けると
-// 約 100 m 四方になり、そこに上限 (200 件) を超える施設が重なることは無いため、超えた時はデータか API の異常として止める
+// 件数が上限に達した範囲を 4 つに分けて探し直す回数の上限。8 回分けると 256 分の 1 の幅になり、本土で最も広い八王子市の範囲
+// (経度 0.27 度・約 24 km) は約 100 m、島々を囲む小笠原村の範囲 (経度 17.9 度) でも経度 0.07 度 (大半は海) になる。
+// そこに上限 (200 件) を超える施設が重なることは無いため、超えた時はデータか API の異常として止める
 const maxSplitDepth = 8;
 
 /**
