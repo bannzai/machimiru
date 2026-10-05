@@ -166,6 +166,9 @@ describe("public/data/tokyo/openpoi/*.geojson", () => {
     const { features } = openPoiPlacesFileSchema.parse(readJson(`openpoi/${id}.geojson`));
     const licenses = new Set(features.flatMap(({ properties }) => properties.licenses));
     expect([...licenses].filter((license) => !licensesText.includes(`- ${license}:`))).toEqual([]);
+    // CC BY・PDL1.0 は出所元の出典表示を求めるため、レコードの出典表示もすべて LICENSES.txt から読めるようにする
+    const attributions = new Set(features.flatMap(({ properties }) => properties.attributions));
+    expect([...attributions].filter((attribution) => !licensesText.includes(`- ${attribution}\n`))).toEqual([]);
     for (const licenseFile of ["LICENSE-Apache-2.0.txt", "LICENSE-CDLA-Permissive-2.0.txt", "NOTICE-Foursquare.txt"]) {
       expect(licensesText).toContain(licenseFile);
       expect(existsSync(path.join(dataDirectory, "openpoi", licenseFile)), licenseFile).toBe(true);
