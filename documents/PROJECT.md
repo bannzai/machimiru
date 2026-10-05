@@ -139,7 +139,8 @@ OpenPOI API の `/v1/search` の `q` は、仕様 (openapi.json) では「施設
 
 - registry の条件に当たる文は、その条件にチェックを付ける。registry の軸の話題だけを書いた文 (「子育てしやすい」) は、その軸のすべての条件を使う
 - 句読点の無い「保育園が近く新宿まで 30 分以内」のように 1 つの文が複数の軸の希望を含む時は、registry の条件にチェックを付け、registry に無い軸 (通勤) にも同じ文を判定できない条件として残す
-- registry に無い軸 (通勤・予算・買い物・治安・自然・医療・健康・教育・その他) の文は「この軸はまだ判定できません」と出し、軸の追加のリクエストとしてブラウザの localStorage (`machimiru.axisRequests.v1`) に記録して「リクエスト済みの条件」に出す。サーバーには保存しない。リクエストから軸を足す手順は別の issue
+- registry に無い軸 (通勤・予算・買い物・治安・自然・医療・健康・教育・その他) の文は「この軸はまだ判定できません」と出し、軸の追加のリクエストとしてブラウザの localStorage (`machimiru.axisRequests.v1`) に記録して「リクエスト済みの条件」に出す。サーバーには保存しない。リクエストは agent に軸の追加を頼む文としてコピーでき、軸を足す手順は `documents/add-axis.md`
+- 出典が無いため軸を足せないと分かった軸 (`unsupportedAxisCandidates` の `unavailableReason`) の文は、「この軸は<理由>ため判定できません」と出し、リクエストとして記録しない
 - 家族の状況などの背景だけの文 (「2 歳の子どもがいて」) は条件にしない
 - 判定はサーバーの route handler (`POST /api/conditions/`。`src/app/api/conditions/route.ts`) で行い、入力の文章を保存・ログに出力しない
 - 判定の方式は TypeSafe の Jev (`jev-1.13.0` に固定)。1 回の API 呼び出しに、文ごとの Noul (住む場所への希望か・各条件を求めているか・各軸の話題の希望か。0.5 以上を「はい」) をまとめる。2026-10-05 に issue の例文、句読点の無い例文、軸の追加の要望の文 (鍼灸・コワーキング・犯罪率・自然) の 13 文で確かめ、当たる質問は 0.57 以上、当たらない質問は 0.42 以下に分かれた (住む場所への希望かは、背景の文 2 つが 0.13 以下、希望の文が 0.74 以上)。コワーキングの軸を足した registry で、2026-10-05 に 13 文 (「コワーキングが近い」「リモートワークできる場所がある」「シェアオフィスが近くにほしい」「カフェで仕事ができる街」と、子育て・通勤・予算・医療・治安・自然の文) を確かめ、3 つの文の「コワーキングが近い」の質問は 0.80 以上、ほかの文は 0.15 以下だった。「カフェで仕事ができる街」はコワーキングの軸の話題 (0.78) として軸のすべての条件になる
@@ -155,12 +156,12 @@ TypeSafe の利用条件 (2026-10-05 に一次情報で確認):
 
 ### 軸の足し方
 
-`src/lib/axes.ts` の `axes` に軸を 1 件足す。チャットの判定の選択肢・チェックボックス・軸のタブ・地図の塗り分け・選んだ街 × 軸の表・区市町村のページの「軸ごとの合う度合い」は、この一覧から作る。
+軸の追加のリクエストから出典を探して軸にするまでの手順は `documents/add-axis.md`。registry には `src/lib/axes.ts` の `axes` に軸を 1 件足す。チャットの判定の選択肢・チェックボックス・軸のタブ・地図の塗り分け・選んだ街 × 軸の表・区市町村のページの「軸ごとの合う度合い」は、この一覧から作る。
 
 - 軸: `id`・`name` (タブと表の見出し)・`classifierDescription` (Jev に渡す話題の英語の説明)・`keywords` (辞書による判定の語)・`conditions`
 - 条件: `id`・`name`・`classifierDescription` (Jev に渡す、条件を求める文の英語の説明)・`keywords`・`note` (判定の根拠の限界など画面の注記。任意)・`evaluator`
 - `evaluator` は、点なら `{ type: "point", facilityKind }`、OpenPOI API の検索語で判定する点なら `{ type: "openPoi", searchKeywords, placeName }` (`placeName` は根拠の文に出す施設の呼び名)、面なら `{ type: "area", betterDirection, values, describe }` (`values` は区市町村の値の一覧、`describe` は根拠の文)。新しいデータを使う時は、先に「データの出典」の表と `public/data/` のデータを足す (`.claude/rules/external-data-attribution.md`)。OpenPOI API の判定器を足した・検索語を変えた時は `make data-openpoi` を実行して生成物を commit する。検索語は、上の「コワーキングの検索語」のように区市町村ごとの件数を測って決める
-- registry に足した軸は、`src/lib/conditionClassification.ts` の `unsupportedAxisCandidates` (registry に無い軸の候補) から同じ名前の候補を消す (コワーキングの軸を足した時は、コワーキングとオフィスを扱っていた「仕事場」の候補を消し、残りの「職場」の語を通勤の候補に移した)
+- registry に足した軸は、`src/lib/conditionClassification.ts` の `unsupportedAxisCandidates` (registry に無い軸の候補) から、足した軸が置き換える候補を消す (名前を変えた時の扱いは `documents/add-axis.md` の手順 3。コワーキングの軸を足した時は、コワーキングとオフィスを扱っていた「仕事場」の候補を消し、残りの「職場」の語を通勤の候補に移した)
 - 足した後に、`src/lib/axes.test.ts` (4 段階すべてに区市町村が入る) と `src/lib/conditionClassification.test.ts` の辞書の判定のテストを通す
 
 ## 境界データ

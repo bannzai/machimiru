@@ -53,6 +53,16 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem("machimiru.axisRequests.v1") ?? "null"))).toEqual(
     expectedAxisRequests,
   );
+  // リクエストを、agent に軸の追加を頼む文としてクリップボードへコピーできる
+  await page.context().grantPermissions(["clipboard-read", "clipboard-write"]);
+  await page.getByRole("button", { name: "軸の追加の依頼文をコピー" }).click();
+  await expect(page.getByText("コピーしました")).toBeVisible();
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(
+    [
+      "documents/add-axis.md の手順で、次の軸の追加リクエストを軸にして",
+      ...expectedAxisRequests.map(({ axisName, text }) => `- 軸の候補名: ${axisName} / 条件の文: ${text}`),
+    ].join("\n"),
+  );
   await scrollToTop(page.getByRole("heading", { level: 3, name: "リクエスト済みの条件" }));
   await page.screenshot({ path: screenshotPath("condition-chat-unsupported") });
 
