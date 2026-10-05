@@ -35,7 +35,7 @@ export function ChildcareScorePanel({
     <section className="childcare-score" aria-labelledby="childcare-score-heading">
       <h2 id="childcare-score-heading">子育てのしやすさ (総合の評価)</h2>
       <ChildcareScoreMethod />
-      <ul className="childcare-score-legend" aria-label="地図の色分け">
+      <ul className="childcare-score-legend" aria-label="点数の色分け">
         {childcareScoreClasses.map((scoreClass) => (
           <li key={scoreClass.color}>
             <ScoreSwatch color={scoreClass.color} />

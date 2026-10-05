@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { contactEmail, siteCatchphrase, siteJsonLd, siteName } from "@/lib/site";
-import { readMunicipalitiesFile } from "@/lib/tokyoData/load";
+import { readConditionValues, readMunicipalitiesFile } from "@/lib/tokyoData/load";
 import { AreaMap } from "./AreaMap";
 
 // 区市町村の指標のファイルをビルド時に読むため、実行時にファイルを読む動的な描画にしない
@@ -11,6 +11,7 @@ export const dynamic = "force-static";
  * その下にサービスの紹介・使い方・問い合わせ先・出典と法務ページへの導線を出す。
  */
 export default function TopPage() {
+  const municipalitiesFile = readMunicipalitiesFile();
   return (
     <main className="map-page">
       {/* JSON の中の < で script 要素が閉じないよう、Next.js のドキュメントの推奨どおり < に置き換える */}
@@ -22,7 +23,10 @@ export default function TopPage() {
         <h1>{siteName}</h1>
         <p>{siteCatchphrase}</p>
       </header>
-      <AreaMap municipalitiesFile={readMunicipalitiesFile()} />
+      <AreaMap
+        municipalitiesFile={municipalitiesFile}
+        conditionValues={readConditionValues(municipalitiesFile.municipalities)}
+      />
       <div className="top-introduction">
         <section aria-labelledby="about-heading">
           <h2 id="about-heading">土地勘がなくても子育てしやすい街を比べる</h2>
@@ -37,7 +41,9 @@ export default function TopPage() {
         <section aria-labelledby="usage-heading">
           <h2 id="usage-heading">使い方</h2>
           <ol>
+            <li>探している暮らしを文章で入れると子育てなどの軸と条件に分かれる</li>
             <li>地図で気になる区市町村をタップして選ぶ</li>
+            <li>軸のタブを切り替えて選んだ街が条件に合うかをくらべる</li>
             <li>地図を拡大すると町丁の単位で選べる</li>
             <li>選んだエリアはこのブラウザに保存され次に開いた時も残る</li>
             <li>地図の色と一覧で区市町村ごとの子育てのしやすさを比べ区市町村名から指標と子育て支援制度を見る</li>

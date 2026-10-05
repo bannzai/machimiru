@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  axes,
+  axisFitLevel,
+  computeConditionFitLevels,
+  conditionIds,
+  missingFitLabel,
+} from "@/lib/axes";
+import {
   type ChildcareScoreItem,
   childcareScoreColor,
   childcareScoreItemNames,
@@ -12,13 +19,14 @@ import {
   waitingChildrenRate,
 } from "@/lib/childcareScore";
 import { siteName } from "@/lib/site";
-import { readMunicipalitiesFile, readProgramsFile } from "@/lib/tokyoData/load";
+import { readConditionValues, readMunicipalitiesFile, readProgramsFile } from "@/lib/tokyoData/load";
 import {
   type Municipality,
   type MunicipalityIndicatorField,
   type ProgramCategoryCode,
   programCategoryNames,
 } from "@/lib/tokyoData/schema";
+import { FitLevelBadge } from "../../AxisComparison";
 import { ChildcareScoreMethod } from "../../ChildcareScoreMethod";
 import { ScoreSwatch } from "../../ChildcareScorePanel";
 import { DataSourceAttribution } from "../../DataSourceAttribution";
@@ -58,6 +66,8 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
   const municipality = municipalities[municipalityIndex];
   const childcareScore = computeChildcareScores(municipalities)[municipalityIndex];
   const programsFile = readProgramsFile(code);
+  const conditionValues = readConditionValues(municipalities);
+  const conditionFitLevels = computeConditionFitLevels(conditionValues);
   return (
     <main className="municipality-page">
       <p>
@@ -138,6 +148,47 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
             </li>
           ))}
         </ul>
+      </section>
+
+      <section aria-labelledby="axis-fit-heading">
+        <h2 id="axis-fit-heading">軸ごとの合う度合い</h2>
+        <p>
+          東京都の {municipalities.length} 区市町村の中の順位で、条件ごとに 4 段階 (合う・やや合う・あまり・合わない)
+          に分けたものです。軸の段階は条件の段階を合わせたものです。{siteName} が独自に作ったもので、自治体による評価ではありません。
+        </p>
+        <table>
+          <caption>軸と条件ごとの段階</caption>
+          <thead>
+            <tr>
+              <th scope="col">軸・条件</th>
+              <th scope="col">段階</th>
+              <th scope="col">根拠</th>
+            </tr>
+          </thead>
+          <tbody>
+            {axes.flatMap((axis) => [
+              <tr key={axis.id}>
+                <th scope="row">{axis.name}</th>
+                <td>
+                  <FitLevelBadge level={axisFitLevel(conditionFitLevels, conditionIds, axis.id, code)} />
+                </td>
+                <td />
+              </tr>,
+              ...axis.conditions.map((condition) => (
+                <tr key={condition.id}>
+                  <th scope="row">{condition.name}</th>
+                  <td>
+                    <FitLevelBadge level={conditionFitLevels[condition.id][code] ?? null} />
+                  </td>
+                  <td>
+                    {conditionValues[condition.id][code]?.detail ?? missingFitLabel}
+                    {"note" in condition && <small> ({condition.note})</small>}
+                  </td>
+                </tr>
+              )),
+            ])}
+          </tbody>
+        </table>
       </section>
 
       <section aria-labelledby="programs-heading">

@@ -66,8 +66,9 @@ test("キーワードと子育て施設の種類でピンを重ねる", async ({
   await page.screenshot({ path: screenshotPath("facility-keywords-list") });
 
   // 子育て施設の種類を選ぶ
-  await page.getByRole("checkbox", { name: "小児科" }).check();
-  await page.getByRole("checkbox", { name: "保育所" }).check();
+  // チャットの条件のチェックボックス (「小児科が近い」) と見分けるため、名前を完全一致で探す
+  await page.getByRole("checkbox", { name: "小児科", exact: true }).check();
+  await page.getByRole("checkbox", { name: "保育所", exact: true }).check();
   await expect(page.getByRole("heading", { name: /^小児科 \(\d+ 件\)$/ })).toBeVisible({ timeout: facilitiesLoadTimeoutMs });
   await expect(page.getByRole("heading", { name: /^保育所 \(\d+ 件\)$/ })).toBeVisible({ timeout: facilitiesLoadTimeoutMs });
   await waitForMapIdle(page);
