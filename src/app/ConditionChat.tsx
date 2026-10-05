@@ -2,12 +2,13 @@
 
 import { type FormEvent, useMemo, useState, useSyncExternalStore } from "react";
 import { type ConditionId, axes, conditionIds } from "@/lib/axes";
-import { addAxisRequests, axisRequestsStorageKey, parseAxisRequests } from "@/lib/axisRequests";
+import { addAxisRequests, axisRequestsPromptText, axisRequestsStorageKey, parseAxisRequests } from "@/lib/axisRequests";
 import { readStoredText, writeStoredText } from "@/lib/browserStorage";
 import {
   type ConditionClassification,
   conditionClassificationSchema,
   maxConditionTextLength,
+  unsupportedConditionNote,
 } from "@/lib/conditionClassification";
 
 /** 判定の API へ送った文章の、判定の状態。 */
@@ -16,6 +17,13 @@ type ClassificationState =
   | { status: "loading" }
   | { status: "failed"; message: string }
   | { status: "loaded"; classification: ConditionClassification };
+
+/** 軸の追加の依頼文をクリップボードへコピーした結果。 */
+type CopyState =
+  | { status: "idle" }
+  /** text はコピーした依頼文。 */
+  | { status: "copied"; text: string }
+  | { status: "failed"; message: string };
 
 /** このタブで軸の追加のリクエストを書き換えた時に、表示し直す関数。 */
 const axisRequestsListeners = new Set<() => void>();
@@ -34,6 +42,8 @@ function subscribeAxisRequests(listener: () => void) {
  * 暮らしの条件の文章を入れ、サーバーの判定で軸と条件に分けるチャット (documents/design/mockups/chat.html の構造)。
  * registry にある条件はチェックボックスで使う・外すを選べ、activeConditionIds と onActiveConditionIdsChange で地図と比べる軸に反映する。
  * registry に無い軸の条件は「まだ判定できません」と出し、軸の追加のリクエストとしてこのブラウザの localStorage に記録する。
+ * 記録したリクエストは、agent に軸の追加を頼む文 (documents/add-axis.md) としてコピーできる。軸を足せない理由が登録された軸の
+ * 条件は、その理由を出して記録しない。
  */
 export function ConditionChat({
   activeConditionIds,
@@ -51,6 +61,7 @@ export function ConditionChat({
     () => null,
   );
   const axisRequests = useMemo(() => parseAxisRequests(storedAxisRequestsText), [storedAxisRequestsText]);
+  const [copyState, setCopyState] = useState<CopyState>({ status: "idle" });
 
   const submitText = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -133,11 +144,11 @@ export function ConditionChat({
       ))}
       {classificationState.status === "loaded" && classificationState.classification.unsupportedConditions.length > 0 && (
         <ul className="condition-chat-unsupported" aria-label="判定できない条件">
-          {classificationState.classification.unsupportedConditions.map(({ axisName, text: conditionText }) => (
-            <li key={`${axisName}:${conditionText}`}>
-              <strong>{axisName}</strong> {conditionText}
+          {classificationState.classification.unsupportedConditions.map((unsupportedCondition) => (
+            <li key={`${unsupportedCondition.axisName}:${unsupportedCondition.text}`}>
+              <strong>{unsupportedCondition.axisName}</strong> {unsupportedCondition.text}
               <br />
-              <small>この軸はまだ判定できません 軸の追加のリクエストとして記録しました</small>
+              <small>{unsupportedConditionNote(unsupportedCondition)}</small>
             </li>
           ))}
         </ul>
@@ -153,6 +164,30 @@ export function ConditionChat({
             ))}
           </ul>
           <p className="condition-chat-note">このブラウザにだけ記録しサーバーには送りません</p>
+          <button
+            type="button"
+            onClick={async () => {
+              const promptText = axisRequestsPromptText(axisRequests);
+              // 安全でない接続 (https でも localhost でもない配信) では navigator.clipboard が無い
+              if (navigator.clipboard === undefined) {
+                setCopyState({ status: "failed", message: "この接続ではクリップボードを使えません" });
+                return;
+              }
+              try {
+                await navigator.clipboard.writeText(promptText);
+                setCopyState({ status: "copied", text: promptText });
+              } catch (error) {
+                setCopyState({ status: "failed", message: error instanceof Error ? error.message : String(error) });
+              }
+            }}
+          >
+            軸の追加の依頼文をコピー
+          </button>
+          {/* コピーの後にリクエストが増えた時は、クリップボードの文が今の一覧と違うため出さない */}
+          {copyState.status === "copied" && copyState.text === axisRequestsPromptText(axisRequests) && (
+            <p role="status">コピーしました</p>
+          )}
+          {copyState.status === "failed" && <p role="alert">コピーできませんでした ({copyState.message})</p>}
         </>
       )}
     </section>

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { ConditionClassification } from "./conditionClassification";
 
 /** 判定できなかった条件 1 件。軸の追加のリクエストとしてブラウザに記録する。サーバーには保存しない。 */
 export const axisRequestSchema = z.object({
@@ -26,13 +27,31 @@ export function parseAxisRequests(storedText: string | null): AxisRequest[] {
   }
 }
 
-/** requests の末尾に newRequests を足した一覧を返す。軸の名前と文が同じリクエストは足さない。 */
-export function addAxisRequests(requests: readonly AxisRequest[], newRequests: readonly AxisRequest[]): AxisRequest[] {
-  return newRequests.reduce<AxisRequest[]>(
-    (current, newRequest) =>
-      current.some((request) => request.axisName === newRequest.axisName && request.text === newRequest.text)
+/**
+ * requests を、bannzai が claude の対話にそのまま貼って軸の追加を頼める文にする (手順は documents/add-axis.md)。
+ * 1 行目が依頼、2 行目以降がリクエスト 1 件ごとの軸の候補名と条件の文。
+ */
+export function axisRequestsPromptText(requests: readonly AxisRequest[]): string {
+  return [
+    "documents/add-axis.md の手順で、次の軸の追加リクエストを軸にして",
+    ...requests.map(({ axisName, text }) => `- 軸の候補名: ${axisName} / 条件の文: ${text}`),
+  ].join("\n");
+}
+
+/**
+ * requests の末尾に、判定の API が返した registry に無い軸の条件 unsupportedConditions を足した一覧を返す。
+ * 軸の名前と文が同じリクエストと、軸を足せない理由 (unavailableReason) を持つ条件は足さない。
+ */
+export function addAxisRequests(
+  requests: readonly AxisRequest[],
+  unsupportedConditions: ConditionClassification["unsupportedConditions"],
+): AxisRequest[] {
+  return unsupportedConditions.reduce<AxisRequest[]>(
+    (current, { axisName, text, unavailableReason }) =>
+      unavailableReason !== undefined ||
+      current.some((request) => request.axisName === axisName && request.text === text)
         ? current
-        : [...current, newRequest],
+        : [...current, { axisName, text }],
     [...requests],
   );
 }

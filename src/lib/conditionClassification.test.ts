@@ -7,6 +7,8 @@ import {
   jevClauseClassifier,
   jevModel,
   splitConditionClauses,
+  unsupportedAxisCandidates,
+  unsupportedConditionNote,
 } from "./conditionClassification";
 
 // issue の例文 (https://github.com/bannzai/machimiru/issues/9)
@@ -75,6 +77,43 @@ describe("classifyConditionText (判定器を固定の判定に差し替える)"
     );
     expect(classification.conditionIds).toEqual(["nurseryAvailability"]);
     expect(classification.unsupportedConditions).toEqual([{ axisName: "通勤", text: "保育園が近く新宿まで 30 分以内" }]);
+  });
+
+  it("軸を足せない理由を登録した候補の軸の条件には、その理由を付ける", async () => {
+    const classification = await classifyConditionText(
+      "鍼灸の評判が良い場所が近い、新宿まで 30 分以内",
+      fixedClassifier([
+        { isWish: true, conditionIds: [], axisNames: ["医療・健康", "評判"] },
+        { isWish: true, conditionIds: [], axisNames: ["通勤"] },
+      ]),
+      [
+        ...unsupportedAxisCandidates,
+        {
+          name: "評判",
+          classifierDescription: "Reputation or reviews of places",
+          keywords: ["評判"],
+          unavailableReason: "評判を載せた公開データが無い",
+        },
+      ],
+    );
+    expect(classification.unsupportedConditions).toEqual([
+      { axisName: "医療・健康", text: "鍼灸の評判が良い場所が近い" },
+      { axisName: "評判", text: "鍼灸の評判が良い場所が近い", unavailableReason: "評判を載せた公開データが無い" },
+      { axisName: "通勤", text: "新宿まで 30 分以内" },
+    ]);
+  });
+
+  it("チャットは、理由のある条件にその理由を、無い条件にリクエストとして記録したことを添える", () => {
+    expect(
+      unsupportedConditionNote({
+        axisName: "評判",
+        text: "鍼灸の評判が良い場所が近い",
+        unavailableReason: "評判を載せた公開データが無い",
+      }),
+    ).toBe("この軸は評判を載せた公開データが無いため判定できません");
+    expect(unsupportedConditionNote({ axisName: "通勤", text: "新宿まで 30 分以内" })).toBe(
+      "この軸はまだ判定できません 軸の追加のリクエストとして記録しました",
+    );
   });
 
   it("希望だがどの軸にも当たらない文は「その他」の軸にする", async () => {
