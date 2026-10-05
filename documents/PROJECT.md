@@ -22,7 +22,7 @@
 | 通知 | Slack の `#machimiru-notification` | 関門の投稿の要約と、公開後のアラートの宛先 |
 | クラッシュ収集・GCP | 使わない | Firebase・GCP を使う機能が無い |
 
-配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。
+配信の設定 (wrangler・デプロイの workflow) は関門 3 の後に入れる。それまで main へのマージは配信を起こさない。配信のビルドには公開 URL を環境変数 `SITE_URL` で渡す (OGP 画像・sitemap・robots・JSON-LD の絶対 URL の基点。未設定のビルドは `http://localhost:3000` を使い、検索結果・SNS のカードが壊れる)。OGP 画像 (`src/app/opengraph-image.tsx`) は日本語の文字の形をビルド時に Google Fonts から取得するため、`next build` は fonts.googleapis.com に届く必要がある (届かなければビルドが失敗する)。
 
 `content/legal/privacy.md` と `content/legal/terms.md` は MVP の設計を前提に書いてあり、実装より先行している。配信を有効にする変更では、両文書の送信先・送信する情報・保存の有無が実装と一致することを確認し、食い違いを直してから公開する。
 
@@ -68,7 +68,7 @@ make data-tokyo
 
 - 更新する時は、スクリプトの入手先 URL を新しい版に替えて `make boundaries` を実行し、生成物の差分を commit する。取得した zip は `tmp/boundaries/` に取得元の URL と一緒に残り、同じ URL での再実行では取得し直さない (URL を替えると取り直す。同じ URL で取り直す時は `tmp/boundaries/` を消してから実行する)。取得日を除き、同じ入力からは同じ出力になる
 - 形式は GeoJSON の FeatureCollection (経度・緯度、JGD2011)。feature は `code` の順に並ぶ。頂点は 15 m 間隔で簡略化し、座標は小数 5 桁に丸める
-- 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面の出典表示は、この `attribution` を MapLibre の attribution に渡して出す
+- 各ファイルは GeoJSON の foreign member `source` に提供元・ライセンス・出典表示の HTML (`attribution`)・取得日を持つ。画面では、地図の上に短い表記と出典ページ (`/sources/`) へのリンクを出し、出典表示の全文は出典ページに出す。出典ページは上の「データの出典」の表をビルド時に読んで表示する
 - properties の型は `src/lib/boundaries.ts`。選択中のエリアは、この `code` を `src/lib/areaSelection.ts` の形式でブラウザの localStorage に保存する
 
 | ファイル (配信する URL) | 中身 | properties |
@@ -86,5 +86,6 @@ make data-tokyo
 
 - SUUMO の利用規約は「商業目的で利用する行為」を、LIFULL HOME'S の利用規約は「営利を目的とする行為」と情報の第三者提供を禁じ、at home は無断の複製・転載を禁じる (2026-10-04 に各規約を確認)。物件データの公式 API は見つからなかった。このため物件データを取得・保存・転載しない
 - 物件の絞り込みは、選んだ市区町村と条件を各サイトの検索結果 URL に変換して開く。SUUMO は `https://suumo.jp/jj/chintai/ichiran/FR301FC001/` に市区町村コード `sc` (全国地方公共団体コード 5 桁。複数指定可)・家賃上限 `ct`・面積下限 `mb` を渡す形が動いた (2026-10-04 の実測で三鷹市・15 万円以下・50m2 以上が 843 件)。リンクが各社規約の「商業目的」に当たるかは各社の判断で、確定していない
+- SUUMO の URL は、地域・種別・都道府県のパラメータが欠けた時、`ct` を小数 1 桁で書かない時、`mb` に決まった値以外を渡した時にエラーのページになる。西多摩郡の町村 (瑞穂町・日の出町・檜原村・奥多摩町) は町村のコードを受け付けず、郡全体でしか探せない (2026-10-05 に東京都の 62 区市町村のコードを 1 つずつ開いて確認。島しょ部の町村は検索結果のページになる)。URL の組み立てと選べる条件の値は `src/lib/propertySearch.ts`
 - 宅地建物取引業法 2 条 2 号は、貸借の代理・媒介を業として行うことを宅地建物取引業と定める。免許を持たないため、物件の説明・交渉・契約の取り次ぎを行う機能を作らない
 - アフィリエイトのリンクを置く場合は、「広告」「PR」等の表示を付ける (消費者庁のステルスマーケティング告示の運用基準)

@@ -16,8 +16,16 @@ import {
   type MunicipalityProperties,
   type TownProperties,
   municipalityBoundaryUrl,
+  tokyoMainlandBounds,
   townBoundaryUrl,
 } from "@/lib/boundaries";
+import {
+  type PropertySearchCondition,
+  emptyPropertySearchCondition,
+  parsePropertySearchCondition,
+  propertySearchConditionStorageKey,
+} from "@/lib/propertySearch";
+import { PropertySearch } from "./PropertySearch";
 
 // maplibre-gl は Web Worker のファイルを自分のモジュールの URL から相対で探すが、Next.js のバンドル後はその場所に無いため、
 // npm の prebuild・predev で public/vendor/maplibre-gl/ に写したファイルを指す (package.json の scripts)
@@ -26,12 +34,9 @@ const maplibreWorkerUrl = "/vendor/maplibre-gl/maplibre-gl-worker.mjs";
 // OpenFreeMap の標準のスタイル。API キーが要らず商用で使える (documents/PROJECT.md「データの出典」)
 const baseMapStyleUrl = "https://tiles.openfreemap.org/styles/liberty";
 
-// 島しょ部を除いた東京都 (西端の奥多摩町から東端の江戸川区まで) が収まる範囲。
-// URL に表示位置 (#ズーム/緯度/経度) が無い時に、最初にこの範囲を表示する
-const tokyoMainlandBounds: [[number, number], [number, number]] = [
-  [138.94, 35.5],
-  [139.93, 35.9],
-];
+// 境界データの出典表示の全文は出典ページに出し、地図の上は短い表記にする。全文を地図に重ねると、モバイル幅で 5 行に折り返して地図の下を覆うため
+// (OpenFreeMap・OpenStreetMap の表記はベース地図のスタイルが地図の上に出す)
+const boundaryAttribution = '<a href="/sources/">国土数値情報・e-Stat を加工 (出典)</a>';
 
 /** 区市町村の境界の MapLibre のソース ID。 */
 const municipalitySourceId = "municipalities";
@@ -50,7 +55,7 @@ const selectedTownLayerId = "towns-selected";
 /** 町丁の境界線のレイヤー ID。 */
 const townLineLayerId = "towns-line";
 
-/** 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧。選択はブラウザの localStorage に保存する。 */
+/** 東京都の地図と、区市町村・町丁を選ぶ操作、選択中のエリアの一覧と物件の検索。選択と検索の条件はブラウザの localStorage に保存する。 */
 export function AreaMap() {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
@@ -59,6 +64,9 @@ export function AreaMap() {
     towns: BoundaryFeatureCollection<TownProperties>;
   } | null>(null);
   const [areaSelection, setAreaSelection] = useState<AreaSelection>(emptyAreaSelection);
+  const [propertySearchCondition, setPropertySearchCondition] =
+    useState<PropertySearchCondition>(emptyPropertySearchCondition);
+  // 保存済みの選択と検索の条件を読み終えたか。2 つは地図の読み込みの後に同時に読む
   const [isStoredSelectionLoaded, setIsStoredSelectionLoaded] = useState(false);
   const [isTownLevel, setIsTownLevel] = useState(false);
   const [loadErrorMessage, setLoadErrorMessage] = useState<string | null>(null);
@@ -84,10 +92,11 @@ export function AreaMap() {
         const loadedMap = new maplibregl.Map({
           container,
           style: baseMapStyleUrl,
+          // URL に表示位置 (#ズーム/緯度/経度) が無い時に、最初に島しょ部を除いた東京都を表示する
           bounds: tokyoMainlandBounds,
           hash: true,
           // 既定ではモバイル幅で出典が「i」ボタンに畳まれるため、常に文字で出す
-          attributionControl: { compact: false },
+          attributionControl: { compact: false, customAttribution: boundaryAttribution },
         });
         map = loadedMap;
         loadedMap.addControl(new maplibregl.NavigationControl({ showCompass: false }));
@@ -102,7 +111,8 @@ export function AreaMap() {
           addBoundaryLayers(loadedMap, municipalities, towns);
           mapRef.current = loadedMap;
           setBoundaries({ municipalities, towns });
-          setAreaSelection(parseAreaSelection(readStoredAreaSelection()));
+          setAreaSelection(parseAreaSelection(readStoredText(areaSelectionStorageKey)));
+          setPropertySearchCondition(parsePropertySearchCondition(readStoredText(propertySearchConditionStorageKey)));
           setIsStoredSelectionLoaded(true);
           setIsTownLevel(loadedMap.getZoom() >= townSelectionMinZoom);
           // data-map-state は画面の撮影 (e2e/) が、境界データを描き終えてから地図を操作するための目印
@@ -158,12 +168,16 @@ export function AreaMap() {
     if (!isStoredSelectionLoaded) {
       return;
     }
-    try {
-      localStorage.setItem(areaSelectionStorageKey, JSON.stringify(areaSelection));
-    } catch {
-      // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択が消えるだけで操作は続けられる
-    }
+    writeStoredText(areaSelectionStorageKey, JSON.stringify(areaSelection));
   }, [areaSelection, isStoredSelectionLoaded]);
+
+  useEffect(() => {
+    // 保存済みの条件を読む前に保存すると、条件を付けない状態で上書きしてしまう
+    if (!isStoredSelectionLoaded) {
+      return;
+    }
+    writeStoredText(propertySearchConditionStorageKey, JSON.stringify(propertySearchCondition));
+  }, [propertySearchCondition, isStoredSelectionLoaded]);
 
   const municipalityNames = useMemo(
     () =>
@@ -225,6 +239,16 @@ export function AreaMap() {
             </button>
           </>
         )}
+        <PropertySearch
+          municipalityCodes={[
+            ...selectedMunicipalityCodes,
+            ...selectedTownCodes.flatMap((code) => townsByCode.get(code)?.municipalityCode ?? []),
+          ]}
+          hasTownSelection={selectedTownCodes.length > 0}
+          condition={propertySearchCondition}
+          isConditionEditable={isStoredSelectionLoaded}
+          onConditionChange={setPropertySearchCondition}
+        />
       </section>
     </div>
   );
@@ -251,12 +275,21 @@ async function fetchBoundary<Properties>(url: string): Promise<BoundaryFeatureCo
   return response.json();
 }
 
-/** 保存済みの選択の文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
-function readStoredAreaSelection(): string | null {
+/** localStorage の storageKey に保存した文字列を返す。保存が無い・ストレージを読めない時は null を返す。 */
+function readStoredText(storageKey: string): string | null {
   try {
-    return localStorage.getItem(areaSelectionStorageKey);
+    return localStorage.getItem(storageKey);
   } catch {
     return null;
+  }
+}
+
+/** localStorage の storageKey に text を保存する。 */
+function writeStoredText(storageKey: string, text: string) {
+  try {
+    localStorage.setItem(storageKey, text);
+  } catch {
+    // 保存できない環境 (ストレージを禁止したブラウザ等) では、再読み込みで選択と条件が消えるだけで操作は続けられる
   }
 }
 
@@ -271,12 +304,9 @@ function addBoundaryLayers(
   municipalities: BoundaryFeatureCollection<MunicipalityProperties>,
   towns: BoundaryFeatureCollection<TownProperties>,
 ) {
-  map.addSource(municipalitySourceId, {
-    type: "geojson",
-    data: municipalities,
-    attribution: municipalities.source.attribution,
-  });
-  map.addSource(townSourceId, { type: "geojson", data: towns, attribution: towns.source.attribution });
+  // 出典は地図の customAttribution (boundaryAttribution) にまとめて出すため、ソースごとの attribution は渡さない
+  map.addSource(municipalitySourceId, { type: "geojson", data: municipalities });
+  map.addSource(townSourceId, { type: "geojson", data: towns });
   // 地名のラベルを境界の塗りで隠さないよう、ベース地図の最初の文字のレイヤーより下に入れる
   const firstSymbolLayerId = map.getStyle().layers.find((layer) => layer.type === "symbol")?.id;
   // 塗りの薄い色は、タップで選べる単位を見せるためと、クリックの位置からエリアを引くため
