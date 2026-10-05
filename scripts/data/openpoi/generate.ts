@@ -21,6 +21,7 @@ import {
   localGovernmentCheckDigit,
   openPoiPlacesFileSchema,
 } from "../../../src/lib/tokyoData/schema";
+import { compareCodeUnits } from "../tokyo/parse";
 
 const outputDirectory = path.join(process.cwd(), "public", "data", "tokyo", "openpoi");
 const municipalityBoundaryPath = path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson");
@@ -94,10 +95,11 @@ async function searchTokyoPlaces(
       retrievedOn: new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date()),
       attributionUrl: openPoiAttributionUrl,
     },
+    // 実行環境のロケールで並びが変わらないよう、localeCompare ではなく文字コードの順で比べる
     features: [...featuresByKey.values()].sort(
       (a, b) =>
-        a.properties.municipalityCode.localeCompare(b.properties.municipalityCode) ||
-        a.properties.name.localeCompare(b.properties.name) ||
+        compareCodeUnits(a.properties.municipalityCode, b.properties.municipalityCode) ||
+        compareCodeUnits(a.properties.name, b.properties.name) ||
         a.geometry.coordinates[0] - b.geometry.coordinates[0] ||
         a.geometry.coordinates[1] - b.geometry.coordinates[1],
     ),

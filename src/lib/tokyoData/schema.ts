@@ -262,8 +262,8 @@ export const openPoiPlacesFileSchema = z.object({
     keywords: z.array(z.string().min(1)).min(1),
     /** 検索した日 (YYYY-MM-DD)。 */
     retrievedOn: z.iso.date(),
-    /** 結果を出す画面でリンクする、OpenPOI API の出典・ライセンスのページ。 */
-    attributionUrl: z.url(),
+    /** 結果を出す画面でリンクする、OpenPOI API の出典・ライセンスのページ。画面のリンクの href にするため https に限る。 */
+    attributionUrl: z.url({ protocol: /^https$/ }),
   }),
   features: z.array(openPoiPlaceFeatureSchema),
 });

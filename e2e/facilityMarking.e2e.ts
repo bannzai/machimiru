@@ -56,7 +56,10 @@ test("キーワードと子育て施設の種類でピンを重ねる", async ({
   await addKeyword(page, "スーパー");
   await expect(page.getByRole("heading", { name: /^「スーパー」 \([1-9]\d* 件\)$/ })).toBeVisible();
   await waitForMapIdle(page);
-  await expect(page.getByRole("link", { name: "OpenPOI API" })).toHaveAttribute(
+  // 街をくらべるタブにもコワーキングの条件の OpenPOI API の出典があるため、施設の欄の中で探す
+  await expect(
+    page.getByRole("region", { name: "施設を地図に出す" }).getByRole("link", { name: "OpenPOI API" }),
+  ).toHaveAttribute(
     "href",
     "https://openpoiapi.com/attribution.html",
   );
