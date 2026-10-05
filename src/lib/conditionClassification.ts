@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { type ConditionId, axes, conditionIds, registryConditions } from "./axes";
+import { type AxisId, type ConditionId, axes, conditionIds, registryConditions } from "./axes";
 
 /** registry (axes.ts) に無い軸の候補 1 件。 */
 export type UnsupportedAxisCandidate = {
@@ -15,6 +15,11 @@ export type UnsupportedAxisCandidate = {
    * 登録の手順は documents/add-axis.md。
    */
   unavailableReason?: string;
+  /**
+   * 話題が重なる registry の軸の識別子。この軸の条件に当たった文は、この候補にも当たっていても判定できない条件にしない
+   * (例: Jev は「コワーキングが近い」を通勤の「仕事場までの距離」にも当てる)。
+   */
+  overlappingAxisIds?: readonly AxisId[];
 };
 
 /**
@@ -27,6 +32,7 @@ export const unsupportedAxisCandidates = [
     name: "通勤",
     classifierDescription: "Commute: travel time or distance to a workplace, school, or station",
     keywords: ["通勤", "通学", "職場", "仕事場", "駅", "分以内", "電車", "乗り換え"],
+    overlappingAxisIds: ["coworking"],
   },
   {
     name: "買い物",
@@ -115,7 +121,8 @@ export function splitConditionClauses(text: string): string[] {
 
 /**
  * text を文に区切って classifier で判定し、registry の条件と、registry に無い軸の条件に分ける。registry に無い軸の条件には、
- * axisCandidates の同じ名前の候補の unavailableReason を付ける (axisCandidates はテストで差し替える)。
+ * axisCandidates の同じ名前の候補の unavailableReason を付け、候補の overlappingAxisIds の軸の条件に当たった文は
+ * その候補の判定できない条件にしない (axisCandidates はテストで差し替える)。
  */
 export async function classifyConditionText(
   text: string,
@@ -134,7 +141,17 @@ export async function classifyConditionText(
     for (const axisName of axisNames) {
       const registryAxis = axes.find((axis) => axis.name === axisName);
       if (registryAxis === undefined) {
-        const unavailableReason = axisCandidates.find((candidate) => candidate.name === axisName)?.unavailableReason;
+        const axisCandidate = axisCandidates.find((candidate) => candidate.name === axisName);
+        if (
+          axes.some(
+            (axis) =>
+              axisCandidate?.overlappingAxisIds?.includes(axis.id) &&
+              axis.conditions.some((condition) => clauseConditionIds.includes(condition.id)),
+          )
+        ) {
+          continue;
+        }
+        const unavailableReason = axisCandidate?.unavailableReason;
         unsupportedConditions.push({
           axisName,
           text: clauses[index],
