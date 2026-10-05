@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>machimiru 入力を軸に分ける</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<style>
+body{margin:0}
+a{color:#1D5FBF}a:hover{color:#17212B}
+</style>
+<div style="width: 390px; height: 844px; box-sizing: border-box; display: flex; flex-direction: column; background: #FFFFFF; color: #17212B; font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif; overflow: hidden">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid #C5CDD0; background: #F3F5F4">
+<div style="font-size: 20px; font-weight: 900; letter-spacing: 0.02em">machimiru</div>
+<a href="#sources" style="font-size: 13px; font-weight: 500; padding: 12px 0">データの出典</a>
+</div>
+<div style="flex-grow: 1; padding: 16px 16px 0; display: flex; flex-direction: column; gap: 14px">
+<div style="align-self: flex-end; max-width: 310px; padding: 12px 14px; background: #17212B; color: #FFFFFF; font-size: 15px; line-height: 1.65; border-radius: 10px 10px 2px 10px">2 歳の子どもがいて、九州から東京に引っ越します。保育園と小児科が近くて、新宿まで 30 分以内、家賃は 15 万円までで、買い物が便利な街がいいです</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 17px; font-weight: 900">4 つの軸に分けました</div>
+<div style="font-size: 13px; line-height: 1.6; color: #4A5560">軸ごとに街をくらべられます。違っていたら直してください</div>
+</div>
+<div style="display: flex; flex-direction: column">
+<div style="display: grid; grid-template-columns: 24px 1fr 44px; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid #C5CDD0">
+<input type="checkbox" checked aria-label="子育ての軸を使う" style="width: 22px; height: 22px; accent-color: #17212B">
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 16px; font-weight: 900">子育て</div><div style="font-size: 13px; color: #4A5560">保育園と小児科が近い ・ 子育て支援が手厚い</div></div>
+<button aria-label="子育ての軸を直す" style="width: 44px; height: 44px; border: 1px solid #8E9AA0; border-radius: 6px; background: #FFFFFF; font-size: 13px; font-family: inherit; color: #17212B">直す</button>
+</div>
+<div style="display: grid; grid-template-columns: 24px 1fr 44px; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid #C5CDD0">
+<input type="checkbox" checked aria-label="通勤の軸を使う" style="width: 22px; height: 22px; accent-color: #17212B">
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 16px; font-weight: 900">通勤</div><div style="font-size: 13px; color: #4A5560">新宿駅まで 30 分以内</div></div>
+<button aria-label="通勤の軸を直す" style="width: 44px; height: 44px; border: 1px solid #8E9AA0; border-radius: 6px; background: #FFFFFF; font-size: 13px; font-family: inherit; color: #17212B">直す</button>
+</div>
+<div style="display: grid; grid-template-columns: 24px 1fr 44px; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid #C5CDD0">
+<input type="checkbox" checked aria-label="予算の軸を使う" style="width: 22px; height: 22px; accent-color: #17212B">
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 16px; font-weight: 900">予算</div><div style="font-size: 13px; color: #4A5560">家賃 15 万円まで</div></div>
+<button aria-label="予算の軸を直す" style="width: 44px; height: 44px; border: 1px solid #8E9AA0; border-radius: 6px; background: #FFFFFF; font-size: 13px; font-family: inherit; color: #17212B">直す</button>
+</div>
+<div style="display: grid; grid-template-columns: 24px 1fr 44px; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid #C5CDD0; border-bottom: 1px solid #C5CDD0">
+<input type="checkbox" checked aria-label="買い物の軸を使う" style="width: 22px; height: 22px; accent-color: #17212B">
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 16px; font-weight: 900">買い物</div><div style="font-size: 13px; color: #4A5560">スーパーとドラッグストアが近い</div></div>
+<button aria-label="買い物の軸を直す" style="width: 44px; height: 44px; border: 1px solid #8E9AA0; border-radius: 6px; background: #FFFFFF; font-size: 13px; font-family: inherit; color: #17212B">直す</button>
+</div>
+</div>
+<button style="height: 46px; border: 1.5px dashed #8E9AA0; border-radius: 6px; background: #FFFFFF; color: #17212B; font-size: 14px; font-weight: 700; font-family: inherit">軸を足す 例 治安 公園 学区</button>
+</div>
+<div style="padding: 12px 16px 20px; border-top: 2px solid #17212B; background: #F3F5F4; display: flex; flex-direction: column; gap: 10px">
+<a href="matrix.html" style="display: flex; align-items: center; justify-content: center; height: 48px; border-radius: 6px; background: #17212B; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none">この 4 つの軸で街を見る</a>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+条件を足す 言い直す
+<input type="text" placeholder="例 駅から歩いて 10 分以内がいい" style="height: 48px; box-sizing: border-box; border: 1.5px solid #17212B; border-radius: 6px; padding: 0 12px; font-size: 15px; font-family: inherit; background: #FFFFFF">
+</label>
+</div>
+</div>
+</body>
+</html>

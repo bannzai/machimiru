@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>machimiru 開いた直後</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<style>
+body{margin:0}
+a{color:#1D5FBF}a:hover{color:#17212B}
+</style>
+<div style="width: 390px; height: 844px; box-sizing: border-box; display: flex; flex-direction: column; background: #F3F5F4; color: #17212B; font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif; position: relative; overflow: hidden">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: #F3F5F4; border-bottom: 1px solid #C5CDD0">
+<div style="font-size: 20px; font-weight: 900; letter-spacing: 0.02em">machimiru</div>
+<a href="#sources" style="font-size: 13px; font-weight: 500; padding: 12px 0">データの出典</a>
+</div>
+<div style="flex-grow: 1; position: relative; background: #D5E0E6">
+<svg viewBox="0 0 390 460" preserveAspectRatio="xMidYMid slice" style="position: absolute; inset: 0; width: 100%; height: 100%" role="img" aria-label="東京都の区市町村の地図">
+<g fill="#E6EAE7" stroke="#8E9AA0" stroke-width="1.5" stroke-linejoin="round">
+<polygon points="0,0 150,0 160,70 60,90 0,80"></polygon>
+<polygon points="150,0 270,0 260,60 160,70"></polygon>
+<polygon points="160,70 260,60 265,120 185,125"></polygon>
+<polygon points="260,60 270,0 390,0 390,110 300,125 265,120"></polygon>
+<polygon points="60,90 160,70 185,125 170,185 80,180"></polygon>
+<polygon points="185,125 265,120 300,125 295,200 215,215 170,185"></polygon>
+<polygon points="300,125 390,110 390,230 310,235 295,200"></polygon>
+<polygon points="0,80 60,90 80,180 70,260 0,270"></polygon>
+<polygon points="170,185 215,215 295,200 310,235 290,290 200,300 160,255"></polygon>
+<polygon points="80,180 170,185 160,255 200,300 180,400 60,420 0,380 0,270 70,260"></polygon>
+<polygon points="200,300 290,290 300,380 230,420 180,400"></polygon>
+<polygon points="310,235 390,230 390,360 300,380 290,290"></polygon>
+<polygon points="180,400 230,420 300,380 390,360 390,460 150,460"></polygon>
+<polygon points="0,380 60,420 180,400 150,460 0,460"></polygon>
+</g>
+<g font-size="13" font-weight="700" fill="#33404B" text-anchor="middle">
+<text x="70" y="45">練馬区</text><text x="210" y="38">板橋区</text><text x="215" y="98">豊島区</text><text x="330" y="65">文京区</text>
+<text x="120" y="135">中野区</text><text x="238" y="168">新宿区</text><text x="345" y="178">千代田区</text><text x="35" y="178">杉並区</text>
+<text x="235" y="252">渋谷区</text><text x="95" y="320">世田谷区</text><text x="245" y="358">目黒区</text><text x="345" y="305">港区</text>
+<text x="290" y="430">品川区</text><text x="70" y="445">狛江市</text>
+</g>
+</svg>
+<div style="position: absolute; right: 12px; top: 12px; display: flex; flex-direction: column; gap: 1px; background: #8E9AA0; border: 1px solid #8E9AA0; border-radius: 6px; overflow: hidden">
+<button aria-label="拡大" style="width: 44px; height: 44px; border: 0; background: #FFFFFF; font-size: 22px; color: #17212B">＋</button>
+<button aria-label="縮小" style="width: 44px; height: 44px; border: 0; background: #FFFFFF; font-size: 22px; color: #17212B">−</button>
+</div>
+<div style="position: absolute; left: 12px; bottom: 10px; font-size: 11px; color: #33404B; background: rgba(243,245,244,0.9); padding: 2px 6px; border-radius: 3px">区市町村をタップして選べます</div>
+</div>
+<div style="background: #FFFFFF; border-top: 2px solid #17212B; padding: 20px 16px 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-size: 22px; font-weight: 900; line-height: 1.35">住みたい街を<br>地図でくらべる</div>
+<div style="font-size: 14px; line-height: 1.7; color: #4A5560">探している暮らしを文章で書くと、子育て・通勤・予算などの軸に分けて、軸ごとに街を見くらべられます</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+どんな暮らしを探していますか
+<textarea rows="3" placeholder="例 2 歳の子どもがいて、保育園と小児科が近く、新宿まで 30 分以内、家賃は 15 万円まで" style="box-sizing: border-box; border: 1.5px solid #17212B; border-radius: 6px; padding: 10px 12px; font-size: 15px; line-height: 1.6; font-family: inherit; background: #F3F5F4; resize: none"></textarea>
+</label>
+<div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 12px; color: #4A5560">
+<span>書ける内容の例</span>
+<span style="padding: 3px 8px; border: 1px solid #8E9AA0; border-radius: 3px; color: #17212B">子育て</span>
+<span style="padding: 3px 8px; border: 1px solid #8E9AA0; border-radius: 3px; color: #17212B">通勤</span>
+<span style="padding: 3px 8px; border: 1px solid #8E9AA0; border-radius: 3px; color: #17212B">予算</span>
+<span style="padding: 3px 8px; border: 1px solid #8E9AA0; border-radius: 3px; color: #17212B">買い物</span>
+<span style="padding: 3px 8px; border: 1px solid #8E9AA0; border-radius: 3px; color: #17212B">治安</span>
+</div>
+<a href="chat.html" style="display: flex; align-items: center; justify-content: center; height: 48px; border-radius: 6px; background: #17212B; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none">軸に分けて街を見る</a>
+</div>
+</div>
+</body>
+</html>
