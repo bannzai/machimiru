@@ -115,7 +115,48 @@ export const axes = [
       },
     ],
   },
+  {
+    id: "safety",
+    name: "治安",
+    classifierDescription: "Safety: crime rate, security, a safe neighborhood",
+    // 「治安が良い」「安全な街」のように軸の話題だけを書いた文を、軸のすべての条件 (犯罪率が低い) に翻訳する
+    keywords: ["治安", "防犯", "安全", "物騒"],
+    conditions: [
+      {
+        id: "lowCrimeRate",
+        name: "犯罪率が低い",
+        classifierDescription: "a low crime rate or few crimes in the neighborhood (犯罪が少ない)",
+        keywords: ["犯罪"],
+        note: "住民 1,000 人あたりの刑法犯の認知件数です。犯罪の起きた場所で数えて住民の数で割るため、通勤や買い物で人が集まる都心や繁華街は高く出ます。人口の少ない島しょ部は数件の違いで率が大きく変わります",
+        evaluator: {
+          type: "area",
+          betterDirection: "lower",
+          values: (municipalities) =>
+            municipalities.map(({ crimeCount, residentPopulation }) =>
+              crimeCount === null || residentPopulation === null
+                ? null
+                : crimeRatePerThousandResidents(crimeCount, residentPopulation),
+            ),
+          describe: ({ crimeCount, residentPopulation }) =>
+            crimeCount === null || residentPopulation === null
+              ? ""
+              : `刑法犯 ${crimeCount.recognizedCount.toLocaleString("ja-JP")} 件 ÷ 住民 ${residentPopulation.totalCount.toLocaleString("ja-JP")} 人 = 1,000 人あたり ${crimeRatePerThousandResidents(crimeCount, residentPopulation).toFixed(1)} 件`,
+        },
+      },
+    ],
+  },
 ] as const satisfies readonly Axis[];
+
+/**
+ * 区市町村の犯罪率。1 年間の刑法犯の認知件数 crimeCount を住民の人口 residentPopulation で割った、住民 1,000 人あたりの件数を返す。
+ * 1,000 人あたりにするのは、令和7年の 62 区市町村の値が 0〜約 43 件に収まり、小数 1 桁で区市町村の差が読めるため。
+ */
+export function crimeRatePerThousandResidents(
+  crimeCount: NonNullable<Municipality["crimeCount"]>,
+  residentPopulation: NonNullable<Municipality["residentPopulation"]>,
+): number {
+  return (crimeCount.recognizedCount / residentPopulation.totalCount) * 1000;
+}
 
 /** 軸の識別子。 */
 export type AxisId = (typeof axes)[number]["id"];
