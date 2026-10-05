@@ -212,3 +212,9 @@ export const facilitiesFileSchema = z.object({
   sources: z.array(dataSourceSchema).min(1),
   features: z.array(facilityFeatureSchema),
 });
+
+/** `public/data/tokyo/facilities.geojson` の中身。 */
+export type FacilitiesFile = z.infer<typeof facilitiesFileSchema>;
+
+/** `public/data/tokyo/facilities.geojson` を配信する URL。 */
+export const facilitiesFileUrl = "/data/tokyo/facilities.geojson";

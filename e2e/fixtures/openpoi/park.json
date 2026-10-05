@@ -1,0 +1,537 @@
+{
+  "count": 28,
+  "results": [
+    {
+      "name": "西久保２丁目第２",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.707478809674,
+      "lng": 139.56088698341,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "西久保二丁目防災広場",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70865992,
+      "lng": 139.55780257,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "Bonfim Football Park三鷹平沼園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70322200439766,
+      "lng": 139.56651535505455,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "YOSAPARK トパーズ 三鷹南口店",
+      "name_kana": "",
+      "prefecture": "東京都",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70011690722816,
+      "lng": 139.5605314145618,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+      ]
+    },
+    {
+      "name": "西久保１丁目第４",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70742598777,
+      "lng": 139.55799278121,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "リロの駐車場 上連雀3丁目東都パーク",
+      "name_kana": "",
+      "prefecture": "東京都",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.701776,
+      "lng": 139.554893,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+      ]
+    },
+    {
+      "name": "上連雀１丁目",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70425407372,
+      "lng": 139.55625696042,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "西久保１丁目第２",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.704112457362,
+      "lng": 139.55823180293,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "駐輪場",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70231561,
+      "lng": 139.55937891,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "森林公園ゴルフ倶楽部",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.698642,
+      "lng": 139.558957,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "上連雀２丁目",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.698718559076,
+      "lng": 139.55650163899,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "ふじ公園西",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70714661,
+      "lng": 139.5570568,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "東京都井之頭自然文化園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.7061,
+      "lng": 139.559,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "野鳥の森公園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70515354,
+      "lng": 139.55624803,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "関前公園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "西東京市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.7061,
+      "lng": 139.559,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "上連雀２丁目第３",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.700793356414,
+      "lng": 139.55760422989,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "下連雀３丁目",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.69930745301,
+      "lng": 139.56039017794,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "三谷公園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70634782,
+      "lng": 139.55974702,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "タイムズ下連雀第３０",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70002057,
+      "lng": 139.56147558,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "下連雀四丁目駐輪場",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.696776191218,
+      "lng": 139.5619225502,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "下連雀３丁目第２",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.701082288011,
+      "lng": 139.56181220111,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "武蔵野御殿山２丁目",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.701673936508,
+      "lng": 139.56437584896,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "風の散歩道",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70191784,
+      "lng": 139.56306918,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "タイムズ 三鷹駅前第11",
+      "name_kana": "",
+      "prefecture": "東京都",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70360140682126,
+      "lng": 139.56096352858003,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+      ]
+    },
+    {
+      "name": "さくら通り第2駐輪場",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "三鷹市",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.70081014864817,
+      "lng": 139.56148042968564,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "三鷹駅前",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.701621109869,
+      "lng": 139.56126777652,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "八丁通り公園",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "tourism",
+      "business_type": "tourism",
+      "lat": 35.70458953235611,
+      "lng": 139.56332752367194,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "下連雀２丁目第３",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "service_other",
+      "business_type": "service_other",
+      "lat": 35.697652179079,
+      "lng": 139.56634531559,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "count": 5,
+  "results": [
+    {
+      "name": "クイーンズ伊勢丹　三鷹店",
+      "name_kana": "クイーンズイセタン　ミタカテン",
+      "prefecture": "東京都",
+      "city": "三鷹市",
+      "address": "東京都三鷹市下連雀3-46-1 JR三鷹アトレヴィ三鷹",
+      "category": "grocery",
+      "business_type": "grocery",
+      "lat": 35.70246,
+      "lng": 139.559285,
+      "level": "",
+      "source": "jff",
+      "licenses": [
+        "公共データ利用規約（第1.0版, PDL1.0）"
+      ],
+      "attributions": [
+        "厚生労働省 食品衛生申請等システム（オープンデータ）"
+      ]
+    },
+    {
+      "name": "メガネスーパー三鷹コラル店",
+      "name_kana": "",
+      "prefecture": "東京都",
+      "city": "三鷹市",
+      "address": "",
+      "category": "retail_other",
+      "business_type": "retail_other",
+      "lat": 35.7018619783879,
+      "lng": 139.56082320849214,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)"
+      ]
+    },
+    {
+      "name": "メガネスーパー",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "",
+      "address": "",
+      "category": "retail_other",
+      "business_type": "retail_other",
+      "lat": 35.7016287,
+      "lng": 139.560647,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CC0-1.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    },
+    {
+      "name": "サンドラッグ三鷹南口店",
+      "name_kana": "サンドラッグミタカミナミグチテン",
+      "prefecture": "東京都",
+      "city": "三鷹市",
+      "address": "東京都三鷹市下連雀３丁目２５－１１",
+      "category": "grocery",
+      "business_type": "grocery",
+      "lat": 35.701996,
+      "lng": 139.561617,
+      "level": "",
+      "source": "jff",
+      "licenses": [
+        "Apache-2.0",
+        "公共データ利用規約（第1.0版, PDL1.0）"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org / Copyright 2024 Foursquare Labs, Inc. (https://opensource.foursquare.com/places-notice-txt/)",
+        "厚生労働省 食品衛生申請等システム（オープンデータ）"
+      ]
+    },
+    {
+      "name": "スーパーノバ",
+      "name_kana": "",
+      "prefecture": "",
+      "city": "武蔵野市",
+      "address": "",
+      "category": "restaurant",
+      "business_type": "restaurant",
+      "lat": 35.703598770006,
+      "lng": 139.563512995,
+      "level": "",
+      "source": "overture",
+      "licenses": [
+        "CDLA-Permissive-2.0"
+      ],
+      "attributions": [
+        "Overture Maps Foundation, overturemaps.org"
+      ]
+    }
+  ]
+}
