@@ -6,7 +6,6 @@ import { type ConditionId, axes, conditionIds } from "./axes";
  * 軸の追加のリクエストとして記録する。どれにも当たらない文は otherAxisName に振り分ける。
  */
 export const unsupportedAxisCandidates = [
-  // 辞書による判定は先に並べた候補から語を探すため、「家賃は 15 万円まで」が通勤の語に当たらないよう予算を通勤より先に置く
   { name: "予算", classifierDescription: "Budget: rent, housing price, or living cost", keywords: ["家賃", "予算", "万円", "住宅費"] },
   {
     name: "通勤",
@@ -64,8 +63,11 @@ export type ClauseClassification = {
   isWish: boolean;
   /** 文が求めている、registry の条件。 */
   conditionIds: ConditionId[];
-  /** 文の話題の軸の名前 (registry の軸、unsupportedAxisCandidates、otherAxisName のどれか)。 */
-  axisName: string;
+  /**
+   * 文が希望を書いている話題の軸の名前 (registry の軸と unsupportedAxisCandidates)。「保育園が近く新宿まで 30 分以内」のように
+   * 1 つの文が複数の軸の希望を含むことがあるため、当たる軸をすべて持つ。
+   */
+  axisNames: string[];
 };
 
 /** 文 clauses のそれぞれを判定し、clauses と同じ順で返す判定器。 */
@@ -89,18 +91,22 @@ export async function classifyConditionText(text: string, classifier: ClauseClas
   const clauseClassifications = clauses.length === 0 ? [] : await classifier.classify(clauses);
   const detectedConditionIds = new Set<ConditionId>();
   const unsupportedConditions: ConditionClassification["unsupportedConditions"] = [];
-  clauseClassifications.forEach(({ isWish, conditionIds: clauseConditionIds, axisName }, index) => {
+  clauseClassifications.forEach(({ isWish, conditionIds: clauseConditionIds, axisNames }, index) => {
     if (!isWish) {
       return;
     }
-    const registryAxis = axes.find((axis) => axis.name === axisName);
-    if (clauseConditionIds.length > 0) {
-      clauseConditionIds.forEach((conditionId) => detectedConditionIds.add(conditionId));
-    } else if (registryAxis !== undefined) {
-      // 「子育てしやすい」のように軸の話題だけを書いた文は、軸のすべての条件を求めているとみなす
-      registryAxis.conditions.forEach((condition) => detectedConditionIds.add(condition.id));
-    } else {
-      unsupportedConditions.push({ axisName, text: clauses[index] });
+    clauseConditionIds.forEach((conditionId) => detectedConditionIds.add(conditionId));
+    for (const axisName of axisNames) {
+      const registryAxis = axes.find((axis) => axis.name === axisName);
+      if (registryAxis === undefined) {
+        unsupportedConditions.push({ axisName, text: clauses[index] });
+      } else if (!registryAxis.conditions.some((condition) => clauseConditionIds.includes(condition.id))) {
+        // 「子育てしやすい」のように軸の話題だけを書いた文は、軸のすべての条件を求めているとみなす
+        registryAxis.conditions.forEach((condition) => detectedConditionIds.add(condition.id));
+      }
+    }
+    if (clauseConditionIds.length === 0 && axisNames.length === 0) {
+      unsupportedConditions.push({ axisName: otherAxisName, text: clauses[index] });
     }
   });
   return {
@@ -122,17 +128,17 @@ export const dictionaryClauseClassifier: ClauseClassifier = {
         .flatMap((axis) => axis.conditions)
         .filter((condition) => condition.keywords.some((keyword) => clause.includes(keyword)))
         .map((condition) => condition.id);
-      const axisName =
-        [...axes, ...unsupportedAxisCandidates].find((candidate) =>
-          candidate.keywords.some((keyword) => clause.includes(keyword)),
-        )?.name ?? otherAxisName;
       return {
         isWish: clauseConditionIds.length > 0 || !backgroundClausePattern.test(clause),
         conditionIds: clauseConditionIds,
-        axisName:
-          clauseConditionIds.length > 0
-            ? axes.find((axis) => axis.conditions.some((condition) => condition.id === clauseConditionIds[0]))!.name
-            : axisName,
+        axisNames: [...axes, ...unsupportedAxisCandidates]
+          .filter(
+            (candidate) =>
+              candidate.keywords.some((keyword) => clause.includes(keyword)) ||
+              ("conditions" in candidate &&
+                candidate.conditions.some((condition) => clauseConditionIds.includes(condition.id))),
+          )
+          .map((candidate) => candidate.name),
       };
     }),
 };
@@ -142,32 +148,25 @@ export const dictionaryClauseClassifier: ClauseClassifier = {
 /** 判定に使う Jev の版。 */
 export const jevModel = "jev-1.13.0";
 
-// Noul は「はい」の確率を返す。0.5 は「はい」と「いいえ」のどちらが確からしいかの境目で、
-// issue の例文と軸の追加の要望の文 (2026-10-05 に jev-1.13.0 で確認) では、当たる文が 0.73 以上、当たらない文が 0.34 以下に分かれた
+// Noul は「はい」の確率を返す。0.5 は「はい」と「いいえ」のどちらが確からしいかの境目で、issue の例文と軸の追加の要望の文
+// (2026-10-05 に jev-1.13.0 で確認) では、当たる質問が 0.57 以上、当たらない質問が 0.42 以下に分かれた
 const jevYesThreshold = 0.5;
 
-// 応答は 2026-10-05 の確認で 11 文・55 問を 1 回で数秒だった。それより大きく遅れる時は待たせずに失敗を出す
+// 応答は 2026-10-05 の確認で 13 文・169 問を 1 回で数秒だった。それより大きく遅れる時は待たせずに失敗を出す
 const jevTimeoutMs = 20_000;
 
-/** TypeSafe の Jev の応答のうち、判定器が読む部分。 */
+/** TypeSafe の Jev の応答のうち、判定器が読む部分 (質問の id ごとの Noul の答え)。 */
 const jevResponseSchema = z.object({
-  answers: z.record(
-    z.string(),
-    z.union([z.object({ type: z.literal("noul"), noul: z.number() }), z.object({ type: z.literal("choice"), choice: z.string() })]),
-  ),
+  answers: z.record(z.string(), z.object({ type: z.literal("noul"), noul: z.number() })),
 });
 
 /**
- * TypeSafe の Jev で判定する判定器。1 回の API 呼び出しで、文ごとに「住む場所への希望か」「registry の各条件を求めているか」(Noul) と
- * 「話題の軸はどれか」(Choice) を聞く。apiKey は TypeSafe の API キー、fetchFunction はテストで差し替える fetch。
+ * TypeSafe の Jev で判定する判定器。1 回の API 呼び出しで、文ごとに「住む場所への希望か」「registry の各条件を求めているか」
+ * 「各軸の話題の希望を書いているか」を Noul で聞く。apiKey は TypeSafe の API キー、fetchFunction はテストで差し替える fetch。
  */
 export function jevClauseClassifier(apiKey: string, fetchFunction: typeof fetch = fetch): ClauseClassifier {
   const registryConditions = axes.flatMap((axis) => axis.conditions);
-  const axisCriteria = Object.fromEntries(
-    [...axes, ...unsupportedAxisCandidates, { name: otherAxisName, classifierDescription: "None of the above" }].map(
-      ({ name, classifierDescription }) => [name, classifierDescription],
-    ),
-  );
+  const axisCandidates = [...axes, ...unsupportedAxisCandidates];
   return {
     name: "jev",
     classify: async (clauses) => {
@@ -188,10 +187,14 @@ export function jevClauseClassifier(apiKey: string, fetchFunction: typeof fetch 
             `clause_${index}_${condition.id}`,
             { type: "noul", instructions: `Does \`clauses[${index}]\` ask for ${condition.classifierDescription}?` },
           ]),
-          [
-            `clause_${index}_axis`,
-            { type: "choice", instructions: `Which topic is \`clauses[${index}]\` about?`, criteria: axisCriteria },
-          ],
+          // 質問の id は英数字にそろえるため、軸は名前ではなく並びの番号で区別する
+          ...axisCandidates.map((candidate, axisIndex) => [
+            `clause_${index}_axis_${axisIndex}`,
+            {
+              type: "noul",
+              instructions: `Does \`clauses[${index}]\` state a wish or requirement about this topic: ${candidate.classifierDescription}?`,
+            },
+          ]),
         ]),
       );
       const response = await fetchFunction("https://api.typesafe.ai/v1/systemone", {
@@ -204,27 +207,23 @@ export function jevClauseClassifier(apiKey: string, fetchFunction: typeof fetch 
         throw new Error(`Jev の判定に失敗しました (HTTP ${response.status})`);
       }
       const { answers } = jevResponseSchema.parse(await response.json());
-      /** 質問 questionId の Noul の答え (「はい」の確率)。応答に Noul の答えが無い時は例外にする。 */
-      const noul = (questionId: string) => {
+      /** 質問 questionId に「はい」と答えたか。応答に答えが無い時は例外にする。 */
+      const isYes = (questionId: string) => {
         const answer = answers[questionId];
-        if (answer?.type !== "noul") {
+        if (answer === undefined) {
           throw new Error(`Jev の応答に ${questionId} の答えがありません`);
         }
-        return answer.noul;
+        return answer.noul >= jevYesThreshold;
       };
-      return clauses.map((_, index) => {
-        const axisAnswer = answers[`clause_${index}_axis`];
-        if (axisAnswer?.type !== "choice") {
-          throw new Error(`Jev の応答に clause_${index}_axis の答えがありません`);
-        }
-        return {
-          isWish: noul(`clause_${index}_is_wish`) >= jevYesThreshold,
-          conditionIds: registryConditions
-            .filter((condition) => noul(`clause_${index}_${condition.id}`) >= jevYesThreshold)
-            .map((condition) => condition.id),
-          axisName: axisAnswer.choice,
-        };
-      });
+      return clauses.map((_, index) => ({
+        isWish: isYes(`clause_${index}_is_wish`),
+        conditionIds: registryConditions
+          .filter((condition) => isYes(`clause_${index}_${condition.id}`))
+          .map((condition) => condition.id),
+        axisNames: axisCandidates
+          .filter((_, axisIndex) => isYes(`clause_${index}_axis_${axisIndex}`))
+          .map((candidate) => candidate.name),
+      }));
     },
   };
 }

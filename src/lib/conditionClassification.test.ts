@@ -35,10 +35,10 @@ describe("classifyConditionText (判定器を固定の判定に差し替える)"
     const classification = await classifyConditionText(
       exampleText,
       fixedClassifier([
-        { isWish: false, conditionIds: [], axisName: "子育て" },
-        { isWish: true, conditionIds: ["nurseryAvailability", "pediatricsNearby"], axisName: "子育て" },
-        { isWish: true, conditionIds: [], axisName: "通勤" },
-        { isWish: true, conditionIds: [], axisName: "予算" },
+        { isWish: false, conditionIds: [], axisNames: ["子育て"] },
+        { isWish: true, conditionIds: ["nurseryAvailability", "pediatricsNearby"], axisNames: ["子育て"] },
+        { isWish: true, conditionIds: [], axisNames: ["通勤"] },
+        { isWish: true, conditionIds: [], axisNames: ["予算"] },
       ]),
     );
     expect(classification).toEqual({
@@ -54,10 +54,26 @@ describe("classifyConditionText (判定器を固定の判定に差し替える)"
   it("registry の軸の話題だけを書いた文は、その軸のすべての条件を使う", async () => {
     const classification = await classifyConditionText(
       "熊本から遠方で子育てしやすい",
-      fixedClassifier([{ isWish: true, conditionIds: [], axisName: "子育て" }]),
+      fixedClassifier([{ isWish: true, conditionIds: [], axisNames: ["子育て"] }]),
     );
     expect(classification.conditionIds).toEqual(["pediatricsNearby", "nurseryAvailability", "childcareSupport"]);
     expect(classification.unsupportedConditions).toEqual([]);
+  });
+
+  it("1 つの文に registry の条件と registry に無い軸の希望がある時は、両方を残す", async () => {
+    const classification = await classifyConditionText(
+      "保育園が近く新宿まで 30 分以内",
+      fixedClassifier([{ isWish: true, conditionIds: ["nurseryAvailability"], axisNames: ["子育て", "通勤"] }]),
+    );
+    expect(classification.conditionIds).toEqual(["nurseryAvailability"]);
+    expect(classification.unsupportedConditions).toEqual([{ axisName: "通勤", text: "保育園が近く新宿まで 30 分以内" }]);
+  });
+
+  it("希望だがどの軸にも当たらない文は「その他」の軸にする", async () => {
+    expect(
+      (await classifyConditionText("にぎやかな街", fixedClassifier([{ isWish: true, conditionIds: [], axisNames: [] }])))
+        .unsupportedConditions,
+    ).toEqual([{ axisName: "その他", text: "にぎやかな街" }]);
   });
 });
 
@@ -85,6 +101,16 @@ describe("dictionaryClauseClassifier", () => {
     ]);
   });
 
+  it("句読点の無い文の中の、子育ての条件と通勤の希望を両方とも読む", async () => {
+    expect(
+      await classifyConditionText("2 歳の子どもがいて保育園と小児科が近く新宿まで 30 分以内", dictionaryClauseClassifier),
+    ).toEqual({
+      classifier: "dictionary",
+      conditionIds: ["pediatricsNearby", "nurseryAvailability"],
+      unsupportedConditions: [{ axisName: "通勤", text: "2 歳の子どもがいて保育園と小児科が近く新宿まで 30 分以内" }],
+    });
+  });
+
   it("どの軸の語も含まない文は「その他」の軸にする", async () => {
     expect((await classifyConditionText("にぎやかな街", dictionaryClauseClassifier)).unsupportedConditions).toEqual([
       { axisName: "その他", text: "にぎやかな街" },
@@ -94,28 +120,28 @@ describe("dictionaryClauseClassifier", () => {
 
 describe("jevClauseClassifier", () => {
   it("文ごとの質問を 1 回の API 呼び出しにまとめ、0.5 以上の Noul を「はい」として読む", async () => {
-    const fetchFunction = vi.fn<typeof fetch>(async () =>
-      Response.json({
+    // 2026-10-05 に jev-1.13.0 で確かめた応答の値。0.5 未満の答えは省略せず 0.1 にする
+    const yesAnswers: Record<string, number> = {
+      clause_1_is_wish: 0.96,
+      clause_1_pediatricsNearby: 0.85,
+      clause_1_nurseryAvailability: 0.76,
+      clause_1_axis_0: 0.93,
+      clause_1_axis_2: 0.88,
+    };
+    const fetchFunction = vi.fn<typeof fetch>(async (_, init) => {
+      const questionIds = Object.keys(JSON.parse(String(init?.body)).questions);
+      return Response.json({
         model: "jev-1.13.0",
-        answers: {
-          clause_0_is_wish: { type: "noul", noul: 0.07 },
-          clause_0_pediatricsNearby: { type: "noul", noul: 0.03 },
-          clause_0_nurseryAvailability: { type: "noul", noul: 0.13 },
-          clause_0_childcareSupport: { type: "noul", noul: 0.11 },
-          clause_0_axis: { type: "choice", choice: "子育て", probabilities: {}, confidence: 0.99 },
-          clause_1_is_wish: { type: "noul", noul: 0.96 },
-          clause_1_pediatricsNearby: { type: "noul", noul: 0.88 },
-          clause_1_nurseryAvailability: { type: "noul", noul: 0.84 },
-          clause_1_childcareSupport: { type: "noul", noul: 0.09 },
-          clause_1_axis: { type: "choice", choice: "子育て", probabilities: {}, confidence: 1 },
-        },
+        answers: Object.fromEntries(
+          questionIds.map((questionId) => [questionId, { type: "noul", noul: yesAnswers[questionId] ?? 0.1 }]),
+        ),
         usage: { input_tokens: 1, output_tokens: 1 },
-      }),
-    );
-    const clauses = ["2 歳の子どもがいて", "保育園と小児科が近く"];
+      });
+    });
+    const clauses = ["2 歳の子どもがいて", "保育園と小児科が近く新宿まで 30 分以内"];
     expect(await jevClauseClassifier("test-key", fetchFunction).classify(clauses)).toEqual([
-      { isWish: false, conditionIds: [], axisName: "子育て" },
-      { isWish: true, conditionIds: ["pediatricsNearby", "nurseryAvailability"], axisName: "子育て" },
+      { isWish: false, conditionIds: [], axisNames: [] },
+      { isWish: true, conditionIds: ["pediatricsNearby", "nurseryAvailability"], axisNames: ["子育て", "通勤"] },
     ]);
     expect(fetchFunction).toHaveBeenCalledTimes(1);
     const [url, init] = fetchFunction.mock.calls[0];
@@ -124,10 +150,8 @@ describe("jevClauseClassifier", () => {
     const body = JSON.parse(String(init?.body));
     expect(body.model).toBe(jevModel);
     expect(body.state).toEqual({ clauses });
-    expect(Object.keys(body.questions)).toHaveLength(10);
-    expect(Object.keys(body.questions.clause_1_axis.criteria)).toEqual(
-      expect.arrayContaining(["子育て", "通勤", "予算", "その他"]),
-    );
+    // 文ごとに、希望か (1)・registry の条件 (3)・軸 (registry の 1 と registry に無い 8)
+    expect(Object.keys(body.questions)).toHaveLength(2 * 13);
   });
 
   it("API の失敗は HTTP の状態を含めたエラーにする", async () => {
