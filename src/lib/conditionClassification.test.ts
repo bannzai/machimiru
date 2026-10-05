@@ -99,15 +99,26 @@ describe("dictionaryClauseClassifier", () => {
 
   it("軸の追加の要望の文を、それぞれの軸の判定できない条件にする", async () => {
     expect(
-      (await classifyConditionText("鍼灸の評判が良い場所が近い、コワーキングが近い場所、犯罪率が低い場所、駅前の雰囲気", dictionaryClauseClassifier))
+      (await classifyConditionText("鍼灸の評判が良い場所が近い、犯罪率が低い場所、駅前の雰囲気、職場まで 30 分", dictionaryClauseClassifier))
         .unsupportedConditions,
     ).toEqual([
       { axisName: "医療・健康", text: "鍼灸の評判が良い場所が近い" },
-      { axisName: "仕事場", text: "コワーキングが近い場所" },
       { axisName: "治安", text: "犯罪率が低い場所" },
       { axisName: "通勤", text: "駅前の雰囲気" },
+      { axisName: "通勤", text: "職場まで 30 分" },
     ]);
   });
+
+  it.each(["コワーキングが近い", "リモートワークできる場所がある", "シェアオフィスが近くにほしい"])(
+    "「%s」をコワーキングの軸の条件にする",
+    async (text) => {
+      expect(await classifyConditionText(text, dictionaryClauseClassifier)).toEqual({
+        classifier: "dictionary",
+        conditionIds: ["coworkingNearby"],
+        unsupportedConditions: [],
+      });
+    },
+  );
 
   it("句読点の無い文の中の、子育ての条件と通勤の希望を両方とも読む", async () => {
     expect(
@@ -152,7 +163,7 @@ describe("jevClauseClassifier", () => {
       clause_1_pediatricsNearby: 0.85,
       clause_1_nurseryAvailability: 0.76,
       clause_1_axis_0: 0.93,
-      clause_1_axis_2: 0.88,
+      clause_1_axis_3: 0.88,
     };
     const fetchFunction = vi.fn<typeof fetch>(async (_, init) => {
       const questionIds = Object.keys(JSON.parse(String(init?.body)).questions);
@@ -176,8 +187,8 @@ describe("jevClauseClassifier", () => {
     const body = JSON.parse(String(init?.body));
     expect(body.model).toBe(jevModel);
     expect(body.state).toEqual({ clauses });
-    // 文ごとに、希望か (1)・registry の条件 (3)・軸 (registry の 1 と registry に無い 8)
-    expect(Object.keys(body.questions)).toHaveLength(2 * 13);
+    // 文ごとに、希望か (1)・registry の条件 (4)・軸 (registry の 2 と registry に無い 7)
+    expect(Object.keys(body.questions)).toHaveLength(2 * 14);
   });
 
   it("API の失敗は HTTP の状態を含めたエラーにする", async () => {

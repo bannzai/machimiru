@@ -10,7 +10,7 @@ export const unsupportedAxisCandidates = [
   {
     name: "通勤",
     classifierDescription: "Commute: travel time or distance to a workplace, school, or station",
-    keywords: ["通勤", "通学", "駅", "分以内", "電車", "乗り換え"],
+    keywords: ["通勤", "通学", "職場", "駅", "分以内", "電車", "乗り換え"],
   },
   {
     name: "買い物",
@@ -23,11 +23,6 @@ export const unsupportedAxisCandidates = [
     name: "医療・健康",
     classifierDescription: "Medical and health care for adults: hospitals, dentists, acupuncture, clinics",
     keywords: ["病院", "歯科", "鍼灸", "整骨", "クリニック"],
-  },
-  {
-    name: "仕事場",
-    classifierDescription: "Work places: coworking spaces, offices",
-    keywords: ["コワーキング", "オフィス", "職場"],
   },
   { name: "教育", classifierDescription: "Education: schools, school districts, cram schools", keywords: ["学区", "学校", "塾"] },
 ] as const;
