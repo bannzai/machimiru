@@ -373,7 +373,10 @@ function SelectedAreaItem({
         <span className="area-panel-score">
           <ScoreSwatch color={childcareScoreColor(childcareScore.total)} />
           {childcareScore.total === null ? "評価なし" : `${childcareScore.total} 点`}
-          <Link href={municipalityPagePath(childcareScore.municipalityCode)}>指標と制度</Link>
+          {/* 複数の区市町村を選んだ時に、読み上げでリンクを区市町村ごとに見分けられるよう、名前に区市町村名を入れる */}
+          <Link href={municipalityPagePath(childcareScore.municipalityCode)} aria-label={`${areaName}の指標と制度`}>
+            指標と制度
+          </Link>
         </span>
       )}
       <button type="button" aria-label={`${areaName}の選択を解除`} onClick={onRemove}>

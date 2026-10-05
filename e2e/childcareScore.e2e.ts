@@ -33,7 +33,7 @@ test("区市町村ごとの子育てのしやすさを地図と一覧で比べ�
   await page.screenshot({ path: screenshotPath("childcare-score-selected") });
 
   // 選んだ区市町村の指標の値と、分野ごとの子育て支援制度へのドリルダウン
-  await selectedAreaList.getByRole("link", { name: "指標と制度" }).click();
+  await selectedAreaList.getByRole("link", { name: "三鷹市の指標と制度" }).click();
   await expect(page).toHaveURL(/\/municipalities\/132047\/$/);
   await expect(page.getByRole("heading", { level: 1, name: "三鷹市の子育ての指標と制度" })).toBeVisible();
   await expect(page.getByText("三鷹市の発信ではありません")).toBeVisible();
