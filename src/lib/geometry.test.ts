@@ -133,12 +133,16 @@ describe("geometryCenter", () => {
     expect(geometryCenter(twoSquares)).toEqual([21, 21.5]);
   });
 
-  it("新宿区の境界データの中心が新宿区の中にある", () => {
+  it("62 区市町村の境界データの中心が、すべてその区市町村の中にある (凹んだ形・島しょ部を含む)", () => {
     const boundaries = JSON.parse(
       readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
     ) as BoundaryFeatureCollection<MunicipalityProperties>;
-    const shinjuku = boundaries.features.find((feature) => feature.properties.code === "13104")!;
-    expect(isPointInGeometry(geometryCenter(shinjuku.geometry), shinjuku.geometry)).toBe(true);
+    expect(boundaries.features).toHaveLength(62);
+    expect(
+      boundaries.features
+        .filter(({ geometry }) => !isPointInGeometry(geometryCenter(geometry), geometry))
+        .map(({ properties }) => properties.name),
+    ).toEqual([]);
   });
 });
 

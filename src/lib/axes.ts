@@ -141,7 +141,7 @@ export const axes = [
         classifierDescription:
           "a coworking space or shared office (コワーキングスペース・シェアオフィス) close to home, or a place nearby where one can do remote work",
         keywords: ["コワーキング", "シェアオフィス", "リモートワーク", "テレワーク"],
-        note: "OpenPOI API で検索語に当たった施設の数で判定しています 名前や分類に検索語を含まない施設は数えていません",
+        note: "OpenPOI API の検索語に当たった施設だけを数えているため、名前や分類に検索語を含まないコワーキングは数えていません",
         // 検索語の選び方と実測の件数は documents/PROJECT.md「コワーキングの検索語」
         evaluator: {
           type: "openPoi",

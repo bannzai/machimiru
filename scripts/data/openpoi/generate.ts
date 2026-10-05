@@ -68,20 +68,23 @@ async function searchTokyoPlaces(
   municipalities: BoundaryFeatureCollection<MunicipalityProperties>,
 ): Promise<OpenPoiPlacesFile> {
   const keyword = searchKeywords.join(" ");
-  // 同じ施設が、隣の区市町村の範囲の検索や分けた範囲の辺の上で重複して返るため、名前と座標で 1 件にする (応答に施設の識別子が無い)
+  // 同じ施設が、隣の区市町村の範囲の検索や分けた範囲の辺の上で重複して返るため、名前と座標で 1 件にする (応答に施設の識別子が無い)。
+  // 名前と座標が同じで出所元の違うレコードの出典を落とさないよう、licenses と attributions は合わせて持つ
   const featuresByKey = new Map<string, OpenPoiPlacesFile["features"][number]>();
   for (const { properties, geometry } of municipalities.features) {
     const facilities = await searchAllInBoundingBox(keyword, boundingBoxOfGeometry(geometry));
     const insideFacilities = facilities.filter((facility) => isPointInGeometry([facility.lng, facility.lat], geometry));
     for (const facility of insideFacilities) {
-      featuresByKey.set(`${facility.name}\t${facility.lng}\t${facility.lat}`, {
+      const key = `${facility.name}\t${facility.lng}\t${facility.lat}`;
+      const sameFeature = featuresByKey.get(key);
+      featuresByKey.set(key, {
         type: "Feature",
         geometry: { type: "Point", coordinates: [facility.lng, facility.lat] },
         properties: {
           name: facility.name,
           municipalityCode: `${properties.code}${localGovernmentCheckDigit(properties.code)}`,
-          licenses: facility.licenses,
-          attributions: facility.attributions,
+          licenses: [...new Set([...(sameFeature?.properties.licenses ?? []), ...facility.licenses])],
+          attributions: [...new Set([...(sameFeature?.properties.attributions ?? []), ...facility.attributions])],
         },
       });
     }
