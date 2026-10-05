@@ -63,6 +63,8 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   const matrix = page.locator("table", { has: page.locator("caption", { hasText: "選んだ街 2 合う順" }) });
   await expect(matrix.locator("thead th")).toHaveText(["街", "まとめ", "子育て"]);
   await expect(matrix.locator("tbody tr")).toHaveCount(2);
+  // 区市町村ごとの塗り分けを見渡せるよう、23 区と多摩の東部が入るズームにする
+  await moveMap(page, "#10/35.69/139.6");
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: screenshotPath("axis-summary-map") });
   await scrollToTop(comparisonHeading);

@@ -180,15 +180,18 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
                   <td>
                     <FitLevelBadge level={conditionFitLevels[condition.id][code] ?? null} />
                   </td>
-                  <td>
-                    {conditionValues[condition.id][code]?.detail ?? missingFitLabel}
-                    {"note" in condition && <small> ({condition.note})</small>}
-                  </td>
+                  <td>{conditionValues[condition.id][code]?.detail ?? missingFitLabel}</td>
                 </tr>
               )),
             ])}
           </tbody>
         </table>
+        {/* 表の列に入れるとモバイル幅で根拠の列が細くなり読めない (CI の撮影で確認) ため、注記は表の下に出す */}
+        {axes.flatMap((axis) =>
+          axis.conditions.flatMap((condition) =>
+            "note" in condition ? [<p key={condition.id}>{`${condition.name}: ${condition.note}`}</p>] : [],
+          ),
+        )}
       </section>
 
       <section aria-labelledby="programs-heading">
