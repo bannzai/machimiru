@@ -1,6 +1,6 @@
 # AGENTS.md
 
-地図とチャットで、住みたいエリアや物件周辺の暮らしに必要な情報を集めて提示する Web サービス。機能とインフラ構成は `documents/PROJECT.md`、仮説・判定基準・決めたことは `documents/DIRECTION.md` を正とする。
+地図とチャットで、住みたいエリアや物件周辺の暮らしに必要な情報を集めて提示する Web サービス。機能とインフラ構成は `documents/PROJECT.md`、仮説・判定基準・決めたことは `documents/DIRECTION.md` を正とする。チャットの軸の追加リクエストを軸にするよう頼まれたら `documents/add-axis.md` に従う。
 
 ## 不変条件
 
