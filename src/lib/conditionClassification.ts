@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { type ConditionId, axes, conditionIds } from "./axes";
+import { type ConditionId, axes, conditionIds, registryConditions } from "./axes";
 
 /** registry (axes.ts) に無い軸の候補 1 件。 */
 export type UnsupportedAxisCandidate = {
@@ -33,7 +33,6 @@ export const unsupportedAxisCandidates = [
     classifierDescription: "Shopping: supermarkets, drugstores, shopping streets",
     keywords: ["買い物", "スーパー", "ドラッグストア", "商店街"],
   },
-  { name: "治安", classifierDescription: "Safety: crime rate, security", keywords: ["治安", "犯罪", "防犯"] },
   { name: "自然", classifierDescription: "Nature: parks, greenery, quiet surroundings", keywords: ["自然", "公園", "緑"] },
   {
     name: "医療・健康",
@@ -170,8 +169,7 @@ export const dictionaryClauseClassifier: ClauseClassifier = {
   name: "dictionary",
   classify: async (clauses) =>
     clauses.map((clause) => {
-      const clauseConditionIds = axes
-        .flatMap((axis) => axis.conditions)
+      const clauseConditionIds = registryConditions
         .filter((condition) => condition.keywords.some((keyword) => clause.includes(keyword)))
         .map((condition) => condition.id);
       // 「東京に引っ越すので新宿まで 30 分以内」「子育てしやすい街に引っ越したい」のように背景と同じ文に書いた希望を落とさないよう、
@@ -216,7 +214,6 @@ const jevResponseSchema = z.object({
  * 「各軸の話題の希望を書いているか」を Noul で聞く。apiKey は TypeSafe の API キー、fetchFunction はテストで差し替える fetch。
  */
 export function jevClauseClassifier(apiKey: string, fetchFunction: typeof fetch = fetch): ClauseClassifier {
-  const registryConditions = axes.flatMap((axis) => axis.conditions);
   const axisCandidates = [...axes, ...unsupportedAxisCandidates];
   return {
     name: "jev",

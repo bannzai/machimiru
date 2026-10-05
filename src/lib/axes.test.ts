@@ -7,6 +7,7 @@ import {
   computeConditionFitLevels,
   computeConditionValues,
   conditionIds,
+  crimeRatePerThousandResidents,
   fitLevels,
   fitLevelsOfValues,
   summaryFitLevel,
@@ -83,6 +84,8 @@ describe("computeConditionValues", () => {
       inpatientHasCopayment: false,
     },
     programCount: 10,
+    crimeCount: { sourceId: "crime", recognizedCount: 25 },
+    residentPopulation: { sourceId: "population", totalCount: 10000 },
     missing: [],
     ...overrides,
   });
@@ -108,7 +111,7 @@ describe("computeConditionValues", () => {
   const values = computeConditionValues({
     municipalities: [
       municipality("131016", { programCount: 20 }),
-      municipality("131024", { childcare: null, medicalSubsidy: null }),
+      municipality("131024", { childcare: null, medicalSubsidy: null, crimeCount: null }),
     ],
     facilitiesFile: {
       type: "FeatureCollection",
@@ -134,6 +137,27 @@ describe("computeConditionValues", () => {
     expect(values.childcareSupport["131016"]?.value).toBe(60);
     expect(values.childcareSupport["131024"]).toBeNull();
   });
+
+  it("犯罪率が低いは、認知件数を住民の人口で割った 1,000 人あたりの件数 (低いほど良い)。認知件数のデータが無い区市町村は null", () => {
+    expect(values.lowCrimeRate["131016"]).toEqual({
+      value: 2.5,
+      detail: "刑法犯 25 件 ÷ 住民 10,000 人 = 1,000 人あたり 2.5 件",
+    });
+    expect(values.lowCrimeRate["131024"]).toBeNull();
+  });
+});
+
+describe("crimeRatePerThousandResidents", () => {
+  it.each([
+    // 令和7年の新宿区 (認知件数 6,977 件・令和7年1月1日の人口 352,717 人)
+    [6977, 352717, 19.78],
+    // 認知件数が 0 の村 (利島村)
+    [0, 300, 0],
+  ])("%i 件 ÷ %i 人 = 1,000 人あたり %f 件", (recognizedCount, totalCount, expected) => {
+    expect(
+      crimeRatePerThousandResidents({ sourceId: "crime", recognizedCount }, { sourceId: "population", totalCount }),
+    ).toBeCloseTo(expected, 2);
+  });
 });
 
 describe("axisFitLevel・summaryFitLevel", () => {
@@ -141,6 +165,7 @@ describe("axisFitLevel・summaryFitLevel", () => {
     pediatricsNearby: { a: 3, b: 0 },
     nurseryAvailability: { a: 1, b: null },
     childcareSupport: { a: 3, b: null },
+    lowCrimeRate: { a: 3, b: 0 },
   } as const;
 
   it("軸の段階は、使う条件の段階だけを合わせる", () => {
@@ -151,6 +176,9 @@ describe("axisFitLevel・summaryFitLevel", () => {
 
   it("まとめの段階は、使う条件を持つ軸の段階を合わせる。使う条件が無ければ null", () => {
     expect(summaryFitLevel(conditionFitLevels, conditionIds, "b")).toBe(0);
+    // 子育て (3・1・3 の平均を四捨五入して 2) と治安 (3) を、軸ごとに同じ重みで合わせる
+    expect(summaryFitLevel(conditionFitLevels, conditionIds, "a")).toBe(3);
+    expect(summaryFitLevel(conditionFitLevels, ["lowCrimeRate"], "b")).toBe(0);
     expect(summaryFitLevel(conditionFitLevels, [], "a")).toBeNull();
   });
 });

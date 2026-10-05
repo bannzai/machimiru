@@ -41,6 +41,34 @@
       "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
       "attribution": "このページの子育て支援制度の情報は、以下の著作物を改変して利用しています。東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ、東京都・GovTech東京、クリエイティブ・コモンズ・ライセンス 表示4.0 国際。各制度は、必ず各自治体の公式サイトをご確認のうえ申請・問い合わせをお願いします。"
+    },
+    {
+      "id": "mpd-ninchikensu-r7",
+      "title": "区市町村の町丁別、罪種別及び手口別認知件数（年累計）町丁字別犯罪情報 令和7年分（累計値）",
+      "provider": "警視庁",
+      "pageUrl": "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html",
+      "fileUrls": [
+        "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.files/R7.csv"
+      ],
+      "asOf": "2025-12-31",
+      "retrievedOn": "2026-10-05",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの犯罪率は、以下の著作物を改変して利用しています。区市町村の町丁別、罪種別及び手口別認知件数（令和7年分）、東京都・警視庁、クリエイティブ・コモンズ・ライセンス 表示4.0国際"
+    },
+    {
+      "id": "tokyo-juuki-r8-table1",
+      "title": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月 第1表 区市町村、世帯数、男女別人口（人口総数）及び人口密度（令和8、7年）",
+      "provider": "東京都総務局",
+      "pageUrl": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115",
+      "fileUrls": [
+        "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0100.csv"
+      ],
+      "asOf": "2025-01-01",
+      "retrievedOn": "2026-10-05",
+      "license": "クリエイティブ・コモンズ・ライセンス 表示 4.0 国際（CC BY 4.0）",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "attribution": "このページの犯罪率は、以下の著作物を改変して利用しています。住民基本台帳による東京都の世帯と人口（令和8年1月）第1表、東京都、クリエイティブ・コモンズ・ライセンス 表示4.0国際"
     }
   ],
   "municipalities": [
@@ -64,6 +92,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 135,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2965
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 68835
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -91,6 +127,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 145,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2147
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 187404
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -118,6 +162,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 157,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3544
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 267780
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -145,6 +197,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 141,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 6977
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 352717
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -172,6 +232,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 198,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1329
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 235345
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -199,6 +267,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 171,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2793
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 216084
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -226,6 +302,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 133,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1992
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 287302
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -253,6 +337,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 146,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3456
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 541685
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -280,6 +372,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 141,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2225
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 412786
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -307,6 +407,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 138,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1380
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 281400
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -334,6 +442,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 140,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4121
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 740519
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -361,6 +477,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 163,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4599
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 923210
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -388,6 +512,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 149,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4272
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 231402
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -415,6 +547,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 181,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2135
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 341322
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -442,6 +582,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 123,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2547
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 577147
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -469,6 +617,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 163,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4021
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 294644
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -496,6 +652,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 157,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2442
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 362089
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -523,6 +687,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 125,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1451
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 222278
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -550,6 +722,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 151,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3492
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 578914
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -577,6 +757,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 147,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3672
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 745927
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -604,6 +792,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 152,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4617
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 698276
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -631,6 +827,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 145,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3309
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 469916
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -658,6 +862,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 175,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 4375
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 693570
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -685,6 +897,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 154,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3010
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 559083
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -712,6 +932,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 103,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1690
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 186257
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -739,6 +967,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 130,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1353
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 148034
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -766,6 +1002,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 188,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 829
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 190497
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -793,6 +1037,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 125,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 658
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 129105
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -820,6 +1072,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 187,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1222
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 260998
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -847,6 +1107,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 128,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 818
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 115632
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -874,6 +1142,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 120,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1300
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 239348
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -901,6 +1177,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 187,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 2686
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 430170
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -928,6 +1212,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 107,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 600
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 125174
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -955,6 +1247,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 146,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1040
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 196799
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -982,6 +1282,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 155,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 942
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 188477
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1009,6 +1317,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 113,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 751
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 151795
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1036,6 +1352,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 104,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 649
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 129500
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1063,6 +1387,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 104,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 431
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 76079
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1090,6 +1422,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 141,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 449
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 56582
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1117,6 +1457,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 106,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 354
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 82048
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1144,6 +1492,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 146,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 560
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 84996
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1171,6 +1527,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 110,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 477
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 75011
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1198,6 +1562,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 114,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 728
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 116325
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1225,6 +1597,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 134,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 503
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 70696
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1252,6 +1632,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 148,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 843
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 148084
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1279,6 +1667,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 116,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 386
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 93916
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1306,6 +1702,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 145,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 421
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 54126
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1333,6 +1737,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 113,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 448
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 79244
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1360,6 +1772,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 149,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1179
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 206245
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1387,6 +1807,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 134,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 203
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 32013
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1414,6 +1842,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 97,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 135
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 16061
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1441,6 +1877,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 112,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 11
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 1923
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1468,6 +1912,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 83,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 9
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 4492
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1495,6 +1947,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 38,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 6
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 6813
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1522,6 +1982,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 29,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 0
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 300
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1549,6 +2017,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 59,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 7
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 2415
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1576,6 +2052,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 69,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 1
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 1737
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1603,6 +2087,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 65,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 3
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 2211
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1630,6 +2122,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 23,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 0
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 302
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1657,6 +2157,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 67,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 16
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 6838
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1684,6 +2192,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 22,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 0
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 160
+      },
       "missing": [
         {
           "field": "childcareUsageRate",
@@ -1711,6 +2227,14 @@
         "inpatientHasCopayment": false
       },
       "programCount": 38,
+      "crimeCount": {
+        "sourceId": "mpd-ninchikensu-r7",
+        "recognizedCount": 11
+      },
+      "residentPopulation": {
+        "sourceId": "tokyo-juuki-r8-table1",
+        "totalCount": 2496
+      },
       "missing": [
         {
           "field": "childcareUsageRate",

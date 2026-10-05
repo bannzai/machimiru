@@ -72,8 +72,28 @@ export const medicalSubsidySchema = z.object({
   inpatientHasCopayment: z.boolean(),
 });
 
+/** 区市町村の刑法犯の認知件数 (警視庁「区市町村の町丁別、罪種別及び手口別認知件数」の年累計)。 */
+export const crimeCountSchema = z.object({
+  sourceId: z.string().min(1),
+  /** 1 年間の刑法犯の認知件数の総合計。犯罪の起きた場所の区市町村で数える。 */
+  recognizedCount: z.int().nonnegative(),
+});
+
+/** 区市町村の住民の人口 (東京都「住民基本台帳による東京都の世帯と人口」)。 */
+export const residentPopulationSchema = z.object({
+  sourceId: z.string().min(1),
+  /** 住民基本台帳の人口総数 (日本人と外国人の合計)。 */
+  totalCount: z.int().positive(),
+});
+
 /** 区市町村の指標のうち、値を持てる項目の名前。 */
-export const municipalityIndicatorFieldSchema = z.enum(["childcare", "childcareUsageRate", "medicalSubsidy"]);
+export const municipalityIndicatorFieldSchema = z.enum([
+  "childcare",
+  "childcareUsageRate",
+  "medicalSubsidy",
+  "crimeCount",
+  "residentPopulation",
+]);
 
 /** 区市町村の指標のうち、値を持てる項目の名前。 */
 export type MunicipalityIndicatorField = z.infer<typeof municipalityIndicatorFieldSchema>;
@@ -94,6 +114,8 @@ export const municipalitySchema = z.object({
   medicalSubsidy: medicalSubsidySchema.nullable(),
   /** 子育て支援制度レジストリに載っている、この区市町村の制度の件数。 */
   programCount: z.int().nonnegative(),
+  crimeCount: crimeCountSchema.nullable(),
+  residentPopulation: residentPopulationSchema.nullable(),
   missing: z.array(missingIndicatorSchema),
 });
 

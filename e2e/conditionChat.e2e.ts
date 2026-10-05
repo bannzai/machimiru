@@ -102,7 +102,14 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await page.getByRole("list", { name: "選んだ街を子育てで見ると" }).getByRole("link", { name: "新宿区" }).click();
   await expect(page.getByRole("heading", { level: 1, name: "新宿区の子育ての指標と制度" })).toBeVisible();
   const axisFitTable = page.locator("table", { has: page.locator("caption", { hasText: "軸と条件ごとの段階" }) });
-  await expect(axisFitTable.locator("tbody th")).toHaveText(["子育て", "小児科が近い", "保育園に入りやすい", "子育て支援が手厚い"]);
+  await expect(axisFitTable.locator("tbody th")).toHaveText([
+    "子育て",
+    "小児科が近い",
+    "保育園に入りやすい",
+    "子育て支援が手厚い",
+    "治安",
+    "犯罪率が低い",
+  ]);
   await scrollToTop(page.getByRole("heading", { level: 2, name: "軸ごとの合う度合い" }));
   await page.screenshot({ path: screenshotPath("municipality-axis-fit") });
 });

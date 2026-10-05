@@ -8,9 +8,11 @@ import {
   normalizeCategoryCodes,
   normalizeMunicipalityName,
   parseChildcareSheet,
+  parseCrimeCountRows,
   parseCsv,
   parseMedicalSubsidyLine,
   parseRegistry,
+  parseResidentPopulationRows,
   welfareFacilityFeatures,
 } from "./parse";
 
@@ -153,6 +155,84 @@ describe("parseMedicalSubsidyLine", () => {
   it("対象年齢・有無を読めない行は例外にする", () => {
     expect(() => parseMedicalSubsidyLine("東京都|1|千代田区|就学前|18歳年度末|無|無|無|無", "東京都")).toThrow("対象年齢");
     expect(() => parseMedicalSubsidyLine("東京都|1|千代田区|18歳年度末|18歳年度末|一部|無|無|無", "東京都")).toThrow("有無");
+  });
+});
+
+describe("parseCrimeCountRows", () => {
+  // 警視庁の令和7年分の CSV の形 (町丁の行・区市町村ごとの「〜計」の行・区市町村の行・集計の行) を縮めたもの。罪種別の列は省く
+  const header = ["市区町丁", "総合計", "凶悪犯計"];
+  const rows = [
+    header,
+    ["千代田区飯田橋１丁目", "5", "0"],
+    ["千代田区計", "2965", "20"],
+    ["西多摩郡檜原村", "11", "0"],
+    ["西多摩郡檜原村計", "11", "0"],
+    ["三宅島三宅村神着", "2", "0"],
+    ["三宅島三宅村計", "3", "0"],
+    ["千代田区", "2965", "20"],
+    ["西多摩郡檜原村", "11", "0"],
+    ["三宅島三宅村", "3", "0"],
+    ["青ヶ島村", "0", "0"],
+    ["２３区計", "2965", "20"],
+    ["多摩地区・島部計", "14", "0"],
+    ["不明", "449", "6"],
+    ["合計", "3428", "26"],
+  ];
+
+  it("「２３区計」の直前の区市町村の行を、郡・島の名前を除いた区市町村名で返す (町丁の行と同じ名前の行は読まない)", () => {
+    expect(parseCrimeCountRows(rows)).toEqual([
+      { name: "千代田区", value: { recognizedCount: 2965 } },
+      { name: "檜原村", value: { recognizedCount: 11 } },
+      { name: "三宅村", value: { recognizedCount: 3 } },
+      { name: "青ヶ島村", value: { recognizedCount: 0 } },
+    ]);
+  });
+
+  it("区市町村の行の合計が「２３区計」と「多摩地区・島部計」の和と合わなければ例外にする", () => {
+    expect(() =>
+      parseCrimeCountRows(rows.map((row) => (row[0] === "多摩地区・島部計" ? [row[0], "15", "0"] : row))),
+    ).toThrow("合わない");
+  });
+
+  it("見出し・集計の行が想定と違えば例外にする", () => {
+    expect(() => parseCrimeCountRows([["地域", "総数"], ...rows.slice(1)])).toThrow("見出し");
+    expect(() => parseCrimeCountRows(rows.filter((row) => row[0] !== "２３区計"))).toThrow("２３区計");
+  });
+
+  it("件数が数字でない行は 0 とみなさず例外にする", () => {
+    expect(() => parseCrimeCountRows(rows.map((row) => (row[0] === "青ヶ島村" ? [row[0], "", ""] : row)))).toThrow(
+      "読めない",
+    );
+  });
+});
+
+describe("parseResidentPopulationRows", () => {
+  const column = "令和7年1月1日現在／人口／総数(人)";
+  // 東京都「住民基本台帳による東京都の世帯と人口」令和8年1月 第1表の CSV の形を縮めたもの
+  const rows = parseCsv(
+    [
+      `﻿地域階層,地域コード,地域,令和8年1月1日現在／人口／総数(人),${column}`,
+      "0,13000,総数,14077552,14002534",
+      "1,13100,区部,9796723,9730552",
+      "4,13101,千代田区,69139,68835",
+      "4,13116,豊島区　,296129,294644",
+      "3,13420,小笠原支庁,2461,2496",
+      "4,13421,小笠原村,2461,2496",
+      ",,,,",
+      "住民基本台帳による東京都の世帯と人口　令和8年1月,,,,",
+    ].join("\r\n"),
+  );
+
+  it("区市町村の行 (地域階層 4) の団体コードと、指定した列の人口総数を返す", () => {
+    expect(parseResidentPopulationRows(rows, column)).toEqual([
+      { code5: "13101", value: { totalCount: 68835 } },
+      { code5: "13116", value: { totalCount: 294644 } },
+      { code5: "13421", value: { totalCount: 2496 } },
+    ]);
+  });
+
+  it("見出しに指定した列が無ければ例外にする", () => {
+    expect(() => parseResidentPopulationRows(rows, "令和6年1月1日現在／人口／総数(人)")).toThrow("見出し");
   });
 });
 
