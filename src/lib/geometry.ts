@@ -29,6 +29,17 @@ export function unionBoundingBox(boundingBoxes: readonly BoundingBox[]): Boundin
   );
 }
 
+/**
+ * 地図の表示範囲 boundingBox を、中心の経度が -180〜180 度に入るよう 360 度の倍数だけずらし、経度を -180〜180 度に収めて返す。
+ * 地図を横に一周させて繰り返し表示された東京を見ている時は、表示範囲の経度が ±180 度を超える (例: 499〜500 度) ため、
+ * そのままでは施設のデータの経度 (139 度付近) と比べられない。日付変更線をまたぐ範囲は、中心の側だけを残す
+ * (対象は東京都で、日付変更線の反対側に施設が無いため)。
+ */
+export function normalizeLongitudeOfBoundingBox([west, south, east, north]: BoundingBox): BoundingBox {
+  const longitudeOffset = Math.round((west + east) / 2 / 360) * 360;
+  return [Math.max(west - longitudeOffset, -180), south, Math.min(east - longitudeOffset, 180), north];
+}
+
 /** point ([経度, 緯度]) が boundingBox の中 (辺の上を含む) にあるかを返す。 */
 export function isPointInBoundingBox([longitude, latitude]: Position, [west, south, east, north]: BoundingBox): boolean {
   return west <= longitude && longitude <= east && south <= latitude && latitude <= north;

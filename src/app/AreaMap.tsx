@@ -20,7 +20,7 @@ import {
   townBoundaryUrl,
 } from "@/lib/boundaries";
 import type { SearchRange } from "@/lib/facilityMarking";
-import { type BoundingBox, boundingBoxOfGeometry } from "@/lib/geometry";
+import { type BoundingBox, boundingBoxOfGeometry, normalizeLongitudeOfBoundingBox } from "@/lib/geometry";
 import {
   type PropertySearchCondition,
   emptyPropertySearchCondition,
@@ -124,7 +124,9 @@ export function AreaMap() {
           mapRef.current = loadedMap;
           const updateMapBoundingBox = () => {
             const bounds = loadedMap.getBounds();
-            setMapBoundingBox([bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()]);
+            setMapBoundingBox(
+              normalizeLongitudeOfBoundingBox([bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()]),
+            );
           };
           updateMapBoundingBox();
           loadedMap.on("moveend", updateMapBoundingBox);

@@ -1,9 +1,11 @@
 import type { MultiPolygon, Polygon } from "geojson";
 import { describe, expect, it } from "vitest";
 import {
+  type BoundingBox,
   boundingBoxOfGeometry,
   isPointInBoundingBox,
   isPointInGeometry,
+  normalizeLongitudeOfBoundingBox,
   unionBoundingBox,
 } from "./geometry";
 
@@ -71,6 +73,19 @@ describe("unionBoundingBox", () => {
         [139.7, 35.65, 139.8, 35.75],
       ]),
     ).toEqual([139.5, 35.6, 139.8, 35.75]);
+  });
+});
+
+describe("normalizeLongitudeOfBoundingBox", () => {
+  it.each([
+    ["-180〜180 度の中の範囲はそのまま", [139.5, 35.6, 139.6, 35.7], [139.5, 35.6, 139.6, 35.7]],
+    ["東へ 1 周した東京", [499.5, 35.6, 499.6, 35.7], [139.5, 35.6, 139.6, 35.7]],
+    ["西へ 1 周した東京", [-220.5, 35.6, -220.4, 35.7], [139.5, 35.6, 139.6, 35.7]],
+    ["日付変更線をまたぐ範囲は中心の側だけ", [150, 30, 200, 40], [150, 30, 180, 40]],
+    ["世界より広い範囲は -180〜180 度", [-250, -80, 260, 80], [-180, -80, 180, 80]],
+  ] as [string, BoundingBox, BoundingBox][])("%s", (_, boundingBox, expected) => {
+    const normalized = normalizeLongitudeOfBoundingBox(boundingBox);
+    normalized.forEach((degree, index) => expect(degree).toBeCloseTo(expected[index], 9));
   });
 });
 
