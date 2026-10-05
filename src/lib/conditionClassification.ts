@@ -128,8 +128,13 @@ export const dictionaryClauseClassifier: ClauseClassifier = {
         .flatMap((axis) => axis.conditions)
         .filter((condition) => condition.keywords.some((keyword) => clause.includes(keyword)))
         .map((condition) => condition.id);
+      // 「東京に引っ越すので新宿まで 30 分以内」のように背景と同じ文に書いた希望を落とさないよう、
+      // 条件か registry に無い軸の語を含む文は、背景の書き方を含んでいても希望として扱う
+      const hasUnsupportedAxisKeyword = unsupportedAxisCandidates.some((candidate) =>
+        candidate.keywords.some((keyword) => clause.includes(keyword)),
+      );
       return {
-        isWish: clauseConditionIds.length > 0 || !backgroundClausePattern.test(clause),
+        isWish: clauseConditionIds.length > 0 || hasUnsupportedAxisKeyword || !backgroundClausePattern.test(clause),
         conditionIds: clauseConditionIds,
         axisNames: [...axes, ...unsupportedAxisCandidates]
           .filter(

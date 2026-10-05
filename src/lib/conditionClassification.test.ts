@@ -119,6 +119,16 @@ describe("dictionaryClauseClassifier", () => {
     });
   });
 
+  it("背景と同じ文に書いた registry に無い軸の希望を残し、背景だけの文は除く", async () => {
+    expect(
+      await classifyConditionText("東京に引っ越すので新宿まで30分以内、九州から東京に引っ越します", dictionaryClauseClassifier),
+    ).toEqual({
+      classifier: "dictionary",
+      conditionIds: [],
+      unsupportedConditions: [{ axisName: "通勤", text: "東京に引っ越すので新宿まで30分以内" }],
+    });
+  });
+
   it("どの軸の語も含まない文は「その他」の軸にする", async () => {
     expect((await classifyConditionText("にぎやかな街", dictionaryClauseClassifier)).unsupportedConditions).toEqual([
       { axisName: "その他", text: "にぎやかな街" },
