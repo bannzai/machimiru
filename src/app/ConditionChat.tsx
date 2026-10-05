@@ -19,7 +19,11 @@ type ClassificationState =
   | { status: "loaded"; classification: ConditionClassification };
 
 /** 軸の追加の依頼文をクリップボードへコピーした結果。 */
-type CopyState = { status: "idle" } | { status: "copied" } | { status: "failed"; message: string };
+type CopyState =
+  | { status: "idle" }
+  /** text はコピーした依頼文。 */
+  | { status: "copied"; text: string }
+  | { status: "failed"; message: string };
 
 /** このタブで軸の追加のリクエストを書き換えた時に、表示し直す関数。 */
 const axisRequestsListeners = new Set<() => void>();
@@ -163,10 +167,15 @@ export function ConditionChat({
           <button
             type="button"
             onClick={async () => {
-              // 安全でない接続 (https でも localhost でもない配信) では navigator.clipboard が無く、呼び出しが同期の例外になるため try で包む
+              const promptText = axisRequestsPromptText(axisRequests);
+              // 安全でない接続 (https でも localhost でもない配信) では navigator.clipboard が無い
+              if (navigator.clipboard === undefined) {
+                setCopyState({ status: "failed", message: "この接続ではクリップボードを使えません" });
+                return;
+              }
               try {
-                await navigator.clipboard.writeText(axisRequestsPromptText(axisRequests));
-                setCopyState({ status: "copied" });
+                await navigator.clipboard.writeText(promptText);
+                setCopyState({ status: "copied", text: promptText });
               } catch (error) {
                 setCopyState({ status: "failed", message: error instanceof Error ? error.message : String(error) });
               }
@@ -174,7 +183,10 @@ export function ConditionChat({
           >
             軸の追加の依頼文をコピー
           </button>
-          {copyState.status === "copied" && <p role="status">コピーしました</p>}
+          {/* コピーの後にリクエストが増えた時は、クリップボードの文が今の一覧と違うため出さない */}
+          {copyState.status === "copied" && copyState.text === axisRequestsPromptText(axisRequests) && (
+            <p role="status">コピーしました</p>
+          )}
           {copyState.status === "failed" && <p role="alert">コピーできませんでした ({copyState.message})</p>}
         </>
       )}

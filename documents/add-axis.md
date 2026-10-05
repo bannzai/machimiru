@@ -13,6 +13,8 @@ documents/add-axis.md の手順で、次の軸の追加リクエストを軸に�
 
 軸の候補名は文章の判定が振り分けた先 (`src/lib/conditionClassification.ts` の `unsupportedAxisCandidates` か「その他」) で、確定した軸の名前ではない。条件の文から軸と条件の名前を決め直してよい。リクエスト 1 件ごとに下の 4 手順を行い、軸ごとに 1 つの PR にする。
 
+ブラウザに記録したリクエストは軸を足した後も消えず、コピーのたびに全件が入る。registry に既にある軸・条件と、`unavailableReason` を登録済みの軸のリクエストは、対応済みとして飛ばし、どれを飛ばしたかを返答に書く。
+
 ## 1. 点か面かを決める
 
 条件の文が何で判定できるかで、判定器の種類 (`ConditionEvaluator`) を決める。判定器の仕組みは `documents/PROJECT.md`「判定器と、現在の軸」。
