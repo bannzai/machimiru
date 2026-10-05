@@ -1,8 +1,12 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import type { MultiPolygon, Polygon } from "geojson";
 import { describe, expect, it } from "vitest";
+import type { BoundaryFeatureCollection, MunicipalityProperties } from "./boundaries";
 import {
   type BoundingBox,
   boundingBoxOfGeometry,
+  geometryAreaSquareKilometers,
   isPointInBoundingBox,
   isPointInGeometry,
   normalizeLongitudeOfBoundingBox,
@@ -115,5 +119,33 @@ describe("isPointInGeometry", () => {
     ["2 つの間", [10, 10], false],
   ])("MultiPolygon の%s", (_, point, expected) => {
     expect(isPointInGeometry(point, twoSquares)).toBe(expected);
+  });
+});
+
+describe("geometryAreaSquareKilometers", () => {
+  // 地球を半径 6371.0088 km の球とみなした時の、経度 longitudeDegrees 度・緯度 southDegrees〜northDegrees 度の帯の面積 (km²)
+  const bandArea = (longitudeDegrees: number, southDegrees: number, northDegrees: number) =>
+    6371.0088 ** 2 *
+    ((longitudeDegrees * Math.PI) / 180) *
+    (Math.sin((northDegrees * Math.PI) / 180) - Math.sin((southDegrees * Math.PI) / 180));
+
+  it("Polygon は外側のリングの面積から穴の面積を引く", () => {
+    expect(geometryAreaSquareKilometers(squareWithHole)).toBeCloseTo(bandArea(10, 0, 10) - bandArea(2, 4, 6), 3);
+  });
+
+  it("MultiPolygon は分かれた形の面積を足す", () => {
+    expect(geometryAreaSquareKilometers(twoSquares)).toBeCloseTo(bandArea(1, 0, 1) + bandArea(2, 20, 23), 3);
+  });
+
+  it.each([
+    // 国土地理院「全国都道府県市区町村別面積調」の面積。境界データは 15 m 間隔で簡略化しているため 3% までの差を許す
+    ["13104", "新宿区", 18.22],
+    ["13112", "世田谷区", 58.05],
+  ])("区市町村の境界データ %s (%s) の面積が公表値 %f km² に近い", (code, _, publishedArea) => {
+    const boundaries = JSON.parse(
+      readFileSync(path.join(process.cwd(), "public", "data", "boundaries", "tokyo-municipalities.geojson"), "utf8"),
+    ) as BoundaryFeatureCollection<MunicipalityProperties>;
+    const boundary = boundaries.features.find((feature) => feature.properties.code === code)!;
+    expect(Math.abs(geometryAreaSquareKilometers(boundary.geometry) - publishedArea) / publishedArea).toBeLessThan(0.03);
   });
 });

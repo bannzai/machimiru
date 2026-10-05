@@ -52,6 +52,36 @@ export function isPointInGeometry(point: Position, geometry: Polygon | MultiPoly
   );
 }
 
+// 地球を球とみなした時の半径 (IUGG の平均半径)。区市町村の面積を比べる用途で、楕円体との差 (1% 未満) は順位に効かない
+const earthRadiusMeters = 6_371_008.8;
+
+/** geometry の面積 (km²) を、地球を球とみなして返す。Polygon の 2 つ目以降のリング (穴) の面積は差し引く。 */
+export function geometryAreaSquareKilometers(geometry: Polygon | MultiPolygon): number {
+  return (
+    (geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates).reduce(
+      (sum, [outerRing, ...holes]) =>
+        sum + ringAreaSquareMeters(outerRing) - holes.reduce((holeSum, hole) => holeSum + ringAreaSquareMeters(hole), 0),
+      0,
+    ) / 1_000_000
+  );
+}
+
+/**
+ * 閉じたリング ring が球面上で囲む面積 (m²)。リングの向きによらず正の値を返す。
+ * 式は球面上の多角形の面積の近似 (Chamberlain & Duquette「Some Algorithms for Polygons on a Sphere」(2007) の式) で、turf の area と同じ。
+ */
+function ringAreaSquareMeters(ring: Position[]): number {
+  const toRadians = (degree: number) => (degree * Math.PI) / 180;
+  let total = 0;
+  for (let index = 0; index < ring.length; index++) {
+    const lower = ring[index];
+    const middle = ring[(index + 1) % ring.length];
+    const upper = ring[(index + 2) % ring.length];
+    total += (toRadians(upper[0]) - toRadians(lower[0])) * Math.sin(toRadians(middle[1]));
+  }
+  return Math.abs((total * earthRadiusMeters * earthRadiusMeters) / 2);
+}
+
 /** point が閉じたリング ring の中にあるかを、point から東へ伸ばした半直線とリングの辺の交差の回数 (奇数なら中) で返す。 */
 function isPointInRing([longitude, latitude]: Position, ring: Position[]): boolean {
   let isInside = false;
