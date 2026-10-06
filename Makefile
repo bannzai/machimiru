@@ -38,3 +38,9 @@ data-tokyo:
 # 軸の registry の OpenPOI API の判定器の検索語で東京都の施設を検索し、public/data/tokyo/openpoi/ に生成する (手順は documents/PROJECT.md)
 data-openpoi:
 	npm run data:openpoi
+
+# 引数なしの make で動作確認 (verify) を実行する
+.DEFAULT_GOAL := verify
+
+.PHONY: verify
+verify: check
