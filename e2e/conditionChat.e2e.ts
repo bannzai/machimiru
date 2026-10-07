@@ -90,8 +90,9 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await expect(page.getByLabel("条件を足す 言い直す")).toHaveValue(conditionText);
   await expect(page.getByText("5 つの軸に分けました")).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "コワーキングが近い" })).toBeChecked();
-  await page.locator(".condition-chat-backdrop").click({ position: { x: 10, y: 10 } });
+  await page.mouse.click(10, 10);
   await expect(chatPanel).toBeHidden();
+  await expect(chatButton).toBeFocused();
   // 外側のタップは閉じるだけで、下の地図のエリアを選ばない
   await expect(selectedAreaItems).toHaveText([/^新宿区/, /^三鷹市/]);
 

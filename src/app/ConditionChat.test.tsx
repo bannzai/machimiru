@@ -41,6 +41,11 @@ function element<ElementType extends HTMLElement = HTMLElement>(selector: string
   return found;
 }
 
+/** チャットのパネル (dialog) を返す。 */
+function panel(): HTMLDialogElement {
+  return element<HTMLDialogElement>(".condition-chat");
+}
+
 /** パネルの中の、表示の文字が buttonText のボタンを返す。 */
 function panelButton(buttonText: string): HTMLButtonElement {
   const found = [...element(".condition-chat").querySelectorAll("button")].find(
@@ -69,24 +74,30 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 
-test("右下のボタンでパネルを開き、閉じるボタンと外側のタップで閉じる", () => {
-  expect(element(".condition-chat").hidden).toBe(true);
-  expect(element(".condition-chat-button").getAttribute("aria-expanded")).toBe("false");
+test("右下のボタンでパネルを開き、閉じるボタン・外側のタップ・Esc キーで閉じる", () => {
+  expect(panel().open).toBe(false);
 
   click(element(".condition-chat-button"));
-  expect(element(".condition-chat").hidden).toBe(false);
-  expect(element(".condition-chat-button").getAttribute("aria-expanded")).toBe("true");
-  expect(document.activeElement).toBe(element(".condition-chat"));
-
+  expect(panel().open).toBe(true);
   click(panelButton("閉じる"));
-  expect(element(".condition-chat").hidden).toBe(true);
-  expect(document.activeElement).toBe(element(".condition-chat-button"));
+  expect(panel().open).toBe(false);
 
   click(element(".condition-chat-button"));
-  expect(element(".condition-chat").hidden).toBe(false);
-  click(element(".condition-chat-backdrop"));
-  expect(element(".condition-chat").hidden).toBe(true);
-  expect(container.querySelector(".condition-chat-backdrop")).toBeNull();
+  expect(panel().open).toBe(true);
+  // パネルの中身のクリックでは閉じない
+  click(element(".condition-chat-body"));
+  expect(panel().open).toBe(true);
+  // パネルの外側 (::backdrop) のタップは dialog 自身に届く
+  click(panel());
+  expect(panel().open).toBe(false);
+
+  click(element(".condition-chat-button"));
+  // Esc キーではブラウザが dialog を閉じて close イベントを出す
+  act(() => panel().close());
+  expect(panel().open).toBe(false);
+  // ブラウザが閉じた後も、ボタンでもう一度開ける
+  click(element(".condition-chat-button"));
+  expect(panel().open).toBe(true);
 });
 
 test("閉じても入力した文章と判定の結果を保持し、閉じている間は使っている条件の数をボタンに出す", async () => {
@@ -113,7 +124,7 @@ test("閉じても入力した文章と判定の結果を保持し、閉じて�
   });
   expect(element(".condition-chat").textContent).toContain("1 つの軸に分けました");
   // 文章を軸に分けた後もパネルは開いたまま
-  expect(element(".condition-chat").hidden).toBe(false);
+  expect(panel().open).toBe(true);
   expect(container.querySelector(".condition-chat-badge")).toBeNull();
 
   click(panelButton("閉じる"));
