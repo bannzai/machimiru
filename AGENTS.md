@@ -21,7 +21,7 @@
 | 公開後の確認 | 公開 URL を webtunnel のセッションで開く |
 | 公開後の利用状況の分析 | `/cloudflare-web-analytics-report` (設定は `.claude/cloudflare-web-analytics.json`。公開時に追加する) で Cloudflare Web Analytics の日別の訪問数・人気ページを読む |
 
-`make` の target: `setup` (依存の導入) / `dev` (http://localhost:3000/) / `lint` / `typecheck` / `test` / `build-web` / `screenshot` (`build-web` の成果物を起動して `tmp/screenshots/` に撮影) / `check` (lint・build-web・typecheck・test) / `verify` (`check` と同じ。引数なしの `make` で実行される) / `data-tokyo` (公開データから `public/data/tokyo/` を生成。手順は `documents/PROJECT.md`「東京都の子育てデータの生成」)
+`make` の target: `setup` (依存の導入) / `web` (`dev` と同じ dev サーバーを起動し http://localhost:3000/ をブラウザで開く。ポートは `PORT=<番号>` で変えられる。引数なしの `make` で実行される、人が手で動作確認するための入口。検査・テストは含めず CI が行う。終わらない dev サーバーを開発マシンで起動するため、agent は実行しない) / `dev` (http://localhost:3000/) / `lint` / `typecheck` / `test` / `build-web` / `screenshot` (`build-web` の成果物を起動して `tmp/screenshots/` に撮影) / `check` (lint・build-web・typecheck・test) / `verify` (`check` と同じ) / `data-tokyo` (公開データから `public/data/tokyo/` を生成。手順は `documents/PROJECT.md`「東京都の子育てデータの生成」)
 
 <!-- ai-review-config begin -->
 <!--

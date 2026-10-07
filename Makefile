@@ -39,8 +39,23 @@ data-tokyo:
 data-openpoi:
 	npm run data:openpoi
 
-# 引数なしの make で動作確認 (verify) を実行する
-.DEFAULT_GOAL := verify
+# 引数なしの make で web を実行する (人が手で動作確認するための入口。検査・テストは CI が行う)
+.DEFAULT_GOAL := web
 
 .PHONY: verify
 verify: check
+
+# dev と同じ dev サーバーを起動し、ブラウザで開く。ブラウザで開く URL とサーバーの待ち受けを一致させるため、
+# ポートは PORT を両方に渡す (PORT を明示すると next dev は使用中のポートで別のポートに移らず失敗する)。
+# 起動の前にポートが空いていることを確かめる (使用中だと、next dev は失敗する一方で、別のサーバーの応答で
+# ブラウザが開いてしまうため)。サーバーが前面で動くため、ブラウザは背面でサーバーの応答 (エラー応答でも、
+# next dev のエラー表示を見られるので開く) を待ってから開く (120 秒待っても応答が無ければ開かずに終える)。
+# 待つ処理はサーバーと同じシェルで起動し、サーバーの終了 (Ctrl-C を含む) で止める。
+# 既定の 3000 は next dev が PORT 未指定の時に使うポートで、dev target と同じ URL (AGENTS.md) で開けるように合わせる
+PORT ?= 3000
+.PHONY: web
+web:
+	@if lsof -ti:$(PORT) -sTCP:LISTEN >/dev/null; then echo "ポート $(PORT) は使用中です。PORT=<別の番号> make で起動してください" >&2; exit 1; fi
+	(for i in $$(seq 1 120); do curl -so /dev/null --connect-timeout 1 --max-time 5 http://localhost:$(PORT)/ && { open http://localhost:$(PORT)/; break; }; sleep 1; done) & \
+	trap 'kill $$! 2>/dev/null' EXIT; \
+	PORT=$(PORT) npm run dev
