@@ -45,8 +45,12 @@ data-openpoi:
 .PHONY: verify
 verify: check
 
-# dev と同じ dev サーバーを起動し、ブラウザで開く。サーバーが前面で動くため、ブラウザは背面で待ち受けの開始を待ってから開く
+# dev と同じ dev サーバーを起動し、ブラウザで開く。ブラウザで開く URL とサーバーの待ち受けを一致させるため、
+# ポートは PORT を両方に渡す (PORT を明示すると next dev は使用中のポートで別のポートに移らず失敗する)。
+# サーバーが前面で動くため、ブラウザは背面でサーバーの応答を待ってから開く (応答が無くても 120 秒で開く)。
+# 既定の 3000 は next dev が PORT 未指定の時に使うポートで、dev target と同じ URL (AGENTS.md) で開けるように合わせる
+PORT ?= 3000
 .PHONY: web
 web:
-	(sleep 3 && open http://localhost:3000/) &
-	npm run dev
+	(for i in $$(seq 1 120); do curl -fso /dev/null http://localhost:$(PORT)/ && break; sleep 1; done; open http://localhost:$(PORT)/) &
+	PORT=$(PORT) npm run dev
