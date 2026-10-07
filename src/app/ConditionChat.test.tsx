@@ -1,0 +1,149 @@
+// @vitest-environment happy-dom
+import { act, useState } from "react";
+import { type Root, createRoot } from "react-dom/client";
+import { afterEach, beforeEach, expect, test, vi } from "vitest";
+import { type ConditionId, conditionIds } from "@/lib/axes";
+import type { ConditionClassification } from "@/lib/conditionClassification";
+import { ConditionChat, conditionChatHintDismissedStorageKey } from "./ConditionChat";
+
+// React が、テストの中の状態の更新を act で包んでいるかを検査する設定
+Object.assign(globalThis, { IS_REACT_ACT_ENVIRONMENT: true });
+
+const conditionText = "保育園と小児科が近い";
+/** 判定の API が conditionText に返す結果。 */
+const classification: ConditionClassification = {
+  classifier: "dictionary",
+  conditionIds: ["pediatricsNearby", "nurseryAvailability"],
+  unsupportedConditions: [],
+};
+
+let container: HTMLDivElement;
+let root: Root;
+
+/** AreaMap と同じく、最初は registry のすべての条件を使う状態で ConditionChat を出す。 */
+function ConditionChatWithState() {
+  const [activeConditionIds, setActiveConditionIds] = useState<readonly ConditionId[]>(conditionIds);
+  return <ConditionChat activeConditionIds={activeConditionIds} onActiveConditionIdsChange={setActiveConditionIds} />;
+}
+
+/** ConditionChat を、ページを開き直した時と同じ最初の状態で描画する。 */
+function renderConditionChat() {
+  root = createRoot(container);
+  act(() => root.render(<ConditionChatWithState />));
+}
+
+/** selector に当たる要素を返す。無い時は例外にする。 */
+function element<ElementType extends HTMLElement = HTMLElement>(selector: string): ElementType {
+  const found = container.querySelector<ElementType>(selector);
+  if (found === null) {
+    throw new Error(`${selector} が見つかりません`);
+  }
+  return found;
+}
+
+/** パネルの中の、表示の文字が buttonText のボタンを返す。 */
+function panelButton(buttonText: string): HTMLButtonElement {
+  const found = [...element(".condition-chat").querySelectorAll("button")].find(
+    (button) => button.textContent === buttonText,
+  );
+  if (found === undefined) {
+    throw new Error(`ボタン「${buttonText}」が見つかりません`);
+  }
+  return found;
+}
+
+/** target をクリックし、React の描画の更新を終える。 */
+function click(target: HTMLElement) {
+  act(() => target.click());
+}
+
+beforeEach(() => {
+  localStorage.clear();
+  container = document.body.appendChild(document.createElement("div"));
+  renderConditionChat();
+});
+
+afterEach(() => {
+  act(() => root.unmount());
+  container.remove();
+  vi.unstubAllGlobals();
+});
+
+test("右下のボタンでパネルを開き、閉じるボタンと外側のタップで閉じる", () => {
+  expect(element(".condition-chat").hidden).toBe(true);
+  expect(element(".condition-chat-button").getAttribute("aria-expanded")).toBe("false");
+
+  click(element(".condition-chat-button"));
+  expect(element(".condition-chat").hidden).toBe(false);
+  expect(element(".condition-chat-button").getAttribute("aria-expanded")).toBe("true");
+
+  click(panelButton("閉じる"));
+  expect(element(".condition-chat").hidden).toBe(true);
+
+  click(element(".condition-chat-button"));
+  expect(element(".condition-chat").hidden).toBe(false);
+  click(element(".condition-chat-backdrop"));
+  expect(element(".condition-chat").hidden).toBe(true);
+  expect(container.querySelector(".condition-chat-backdrop")).toBeNull();
+});
+
+test("閉じても入力した文章と判定の結果を保持し、閉じている間は使っている条件の数をボタンに出す", async () => {
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(async () => ({ ok: true, json: async () => classification })),
+  );
+  // 文章を入れる前は registry のすべての条件を使っているが、判定した条件ではないため数を出さない
+  expect(container.querySelector(".condition-chat-badge")).toBeNull();
+
+  click(element(".condition-chat-button"));
+  act(() => {
+    // React は value への代入を自分の変更として記録し、input イベントで変化なしと判断するため、要素の元の setter で入れる
+    Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, "value")?.set?.call(
+      element("#condition-chat-input"),
+      conditionText,
+    );
+    element("#condition-chat-input").dispatchEvent(new Event("input", { bubbles: true }));
+  });
+  await act(async () => {
+    panelButton("軸に分ける").click();
+    // 判定の応答を読んで結果を出すまでの非同期の処理を終える
+    await new Promise((resolve) => setTimeout(resolve));
+  });
+  expect(element(".condition-chat").textContent).toContain("1 つの軸に分けました");
+  // 文章を軸に分けた後もパネルは開いたまま
+  expect(element(".condition-chat").hidden).toBe(false);
+  expect(container.querySelector(".condition-chat-badge")).toBeNull();
+
+  click(panelButton("閉じる"));
+  expect(element(".condition-chat-badge").textContent).toBe("2");
+  expect(element(".condition-chat-button").getAttribute("aria-label")).toBe("文章で条件を入れる 使っている条件 2");
+
+  click(element(".condition-chat-button"));
+  expect(element<HTMLTextAreaElement>("#condition-chat-input").value).toBe(conditionText);
+  expect(element(".condition-chat").textContent).toContain("1 つの軸に分けました");
+  expect(
+    [...element(".condition-chat").querySelectorAll<HTMLInputElement>('input[type="checkbox"]')].map(
+      (checkbox) => checkbox.checked,
+    ),
+  ).toEqual(conditionIds.map((conditionId) => classification.conditionIds.includes(conditionId)));
+});
+
+test("入口の吹き出しは、閉じると localStorage に記録して次に開いた時も出さない", () => {
+  expect(element(".condition-chat-hint").textContent).toContain("文章で条件を入れる");
+  expect(localStorage.getItem(conditionChatHintDismissedStorageKey)).toBeNull();
+
+  click(element(".condition-chat-hint button"));
+  expect(container.querySelector(".condition-chat-hint")).toBeNull();
+  expect(localStorage.getItem(conditionChatHintDismissedStorageKey)).not.toBeNull();
+
+  act(() => root.unmount());
+  renderConditionChat();
+  expect(container.querySelector(".condition-chat-hint")).toBeNull();
+});
+
+test("ボタンでパネルを開いた後は、入口の吹き出しを出さない", () => {
+  click(element(".condition-chat-button"));
+  click(panelButton("閉じる"));
+  expect(container.querySelector(".condition-chat-hint")).toBeNull();
+  expect(localStorage.getItem(conditionChatHintDismissedStorageKey)).not.toBeNull();
+});
