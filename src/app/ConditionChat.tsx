@@ -80,10 +80,9 @@ export function ConditionChat({
   );
   const axisRequests = useMemo(() => parseAxisRequests(storedAxisRequestsText), [storedAxisRequestsText]);
   const [copyState, setCopyState] = useState<CopyState>({ status: "idle" });
-  // 言い直した文章の判定に失敗しても、前の判定の条件は地図に使われたままのため、判定の状態とは別に持つ
+  // ボタンに使っている条件の数を出すか。文章を入れる前は registry のすべての条件を使っており (AreaMap)、判定した条件ではないため
+  // 出さない。言い直した文章の判定に失敗しても、前の判定の条件は地図に使われたままのため、判定の状態とは別に持つ
   const [hasClassified, setHasClassified] = useState(false);
-  // 文章を入れる前は registry のすべての条件を使っており (AreaMap)、判定した条件ではないため数えない
-  const activeConditionCount = hasClassified ? activeConditionIds.length : 0;
   const dialogRef = useRef<HTMLDialogElement>(null);
   // パネルの外側で押し始めたタップか。中の文字をドラッグで選んで外側で離した時と、パネルのスクロールバーの操作でも
   // クリックは dialog 自身に届くため、押し始めの位置で外側のタップと見分ける
@@ -157,7 +156,7 @@ export function ConditionChat({
           type="button"
           className="condition-chat-button"
           aria-label={
-            activeConditionCount > 0 ? `文章で条件を入れる 使っている条件 ${activeConditionCount}` : "文章で条件を入れる"
+            hasClassified ? `文章で条件を入れる 使っている条件 ${activeConditionIds.length}` : "文章で条件を入れる"
           }
           aria-haspopup="dialog"
           onClick={() => {
@@ -169,7 +168,8 @@ export function ConditionChat({
           <svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
             <path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" />
           </svg>
-          {!isOpen && activeConditionCount > 0 && <span className="condition-chat-badge">{activeConditionCount}</span>}
+          {/* 判定の後にすべての条件を外した時も、条件を使っていないことが分かるよう 0 と出す */}
+          {!isOpen && hasClassified && <span className="condition-chat-badge">{activeConditionIds.length}</span>}
         </button>
       </div>
       {/* 閉じても入力した文章と判定の結果を持ち続けるよう、閉じている間も描画したままにする */}

@@ -62,6 +62,23 @@ function click(target: HTMLElement) {
   act(() => target.click());
 }
 
+/** 開いているパネルの入力欄に conditionText を入れて送り、判定の API の応答が画面に出るまで待つ。 */
+async function submitConditionText() {
+  act(() => {
+    // React は value への代入を自分の変更として記録し、input イベントで変化なしと判断するため、要素の元の setter で入れる
+    Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, "value")?.set?.call(
+      element("#condition-chat-input"),
+      conditionText,
+    );
+    element("#condition-chat-input").dispatchEvent(new Event("input", { bubbles: true }));
+  });
+  await act(async () => {
+    panelButton("軸に分ける").click();
+    // 判定の応答を読んで結果を出すまでの非同期の処理を終える
+    await new Promise((resolve) => setTimeout(resolve));
+  });
+}
+
 /**
  * pressTarget で押し始めて clickTarget にクリックが届く操作を起こし、React の描画の更新を終える。
  * happy-dom は要素の位置を持たず、パネルの矩形がすべて 0 になるため、押し始めがパネルの外側かを isPressOutsidePanel で
@@ -139,19 +156,7 @@ test("閉じても入力した文章と判定の結果を保持し、閉じて�
   expect(container.querySelector(".condition-chat-badge")).toBeNull();
 
   click(element(".condition-chat-button"));
-  act(() => {
-    // React は value への代入を自分の変更として記録し、input イベントで変化なしと判断するため、要素の元の setter で入れる
-    Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, "value")?.set?.call(
-      element("#condition-chat-input"),
-      conditionText,
-    );
-    element("#condition-chat-input").dispatchEvent(new Event("input", { bubbles: true }));
-  });
-  await act(async () => {
-    panelButton("軸に分ける").click();
-    // 判定の応答を読んで結果を出すまでの非同期の処理を終える
-    await new Promise((resolve) => setTimeout(resolve));
-  });
+  await submitConditionText();
   expect(element(".condition-chat").textContent).toContain("1 つの軸に分けました");
   // 文章を軸に分けた後もパネルは開いたまま
   expect(panel().open).toBe(true);
@@ -182,6 +187,21 @@ test("閉じても入力した文章と判定の結果を保持し、閉じて�
   expect(element(".condition-chat").textContent).toContain("文章を軸に分けられませんでした (HTTP 503)");
   click(panelButton("閉じる"));
   expect(element(".condition-chat-badge").textContent).toBe("2");
+});
+
+test("判定の後にすべての条件を外した時は、ボタンに 0 と出す", async () => {
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(async () => ({ ok: true, json: async () => classification })),
+  );
+  click(element(".condition-chat-button"));
+  await submitConditionText();
+
+  // 1 つ外すたびに描画し直されるため、チェックの付いた条件をその都度探して外す
+  classification.conditionIds.forEach(() => click(element('.condition-chat input[type="checkbox"]:checked')));
+  click(panelButton("閉じる"));
+  expect(element(".condition-chat-badge").textContent).toBe("0");
+  expect(element(".condition-chat-button").getAttribute("aria-label")).toBe("文章で条件を入れる 使っている条件 0");
 });
 
 test("入口の吹き出しは、閉じると localStorage に記録して次に開いた時も出さない", () => {
