@@ -324,10 +324,102 @@ main.map-page {
   font-size: 0.875rem;
 }
 
+/* チャットの入口。スクロール位置によらず画面の右下に出す。地図の操作ボタンと出典表示 (MapLibre の z-index 2) より上に重ねる。
+   開いたパネル (最前面に出るモーダルの dialog) はこの上に重なる */
+.condition-chat-launcher {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.condition-chat-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0;
+  /* 暗い配色の画面でも背景と見分けられるよう、白い縁を付ける */
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: #17212b;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+  cursor: pointer;
+}
+
+.condition-chat-badge {
+  position: absolute;
+  top: -0.375rem;
+  right: -0.375rem;
+  box-sizing: border-box;
+  min-width: 1.5rem;
+  padding: 0 0.375rem;
+  border-radius: 0.75rem;
+  background: #dc2626;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.condition-chat-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: 6px;
+  background: Canvas;
+  color: CanvasText;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+}
+
+/* 条件の地図への反映が見えるよう、パネルの外側に色を付けない */
+.condition-chat::backdrop {
+  background: transparent;
+}
+
+/* モバイル幅では画面の下から出す。条件の地図への反映が上に見えるよう、高さは画面の 6 割までにして中をスクロールさせる。
+   閉じた dialog を隠すブラウザの display: none を上書きしないよう、display は指定しない */
 .condition-chat {
-  margin: 0.5rem 0 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  inset: auto 0 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  max-height: 60dvh;
+  margin: 0;
+  /* 外側のタップ (dialog 自身へのクリック) と中身のクリックを見分けるため、余白は中身の .condition-chat-body に付ける */
+  padding: 0;
+  border: 0;
+  border-top: 1px solid;
+  box-shadow: 0 -2px 8px rgb(0 0 0 / 35%);
+}
+
+.condition-chat-body {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.condition-chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* PC 幅のカードで、見出しに押されて「閉じる」が 2 行に折り返さないようにする (CI の撮影で確認) */
+.condition-chat-header button {
+  flex-shrink: 0;
+}
+
+.condition-chat h2 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
 }
 
 .condition-chat p {
@@ -503,7 +595,19 @@ main.map-page {
 
   .area-panel {
     width: 20rem;
+    /* 右下に重なるチャットのボタン (高さ 3.5rem + 下の余白 1rem) に、最後の行が隠れたままにならないようにする */
+    padding-bottom: 5rem;
     overflow-y: auto;
+  }
+
+  /* PC 幅では右下のカードにする。20rem の .area-panel の内側に収め、地図を覆わない */
+  .condition-chat {
+    inset: auto 1rem 1rem auto;
+    width: 18rem;
+    max-height: calc(100dvh - 2rem);
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 35%);
   }
 }
 

@@ -355,7 +355,6 @@ export function AreaMap({
         ) : (
           <p>地図を読み込んでいます</p>
         )}
-        <ConditionChat activeConditionIds={activeConditionIds} onActiveConditionIdsChange={setActiveConditionIds} />
         <h2 id="selected-areas-heading">選択中のエリア ({selectedMunicipalityCodes.length + selectedTownCodes.length})</h2>
         {selectedMunicipalityCodes.length + selectedTownCodes.length === 0 ? (
           <p>地図のエリアをタップすると選べます</p>
@@ -414,6 +413,7 @@ export function AreaMap({
         {/* 62 区市町村の順位の一覧は長く、上に置くと物件の検索と施設の欄がパネルの下へ遠のくため、最後に置く */}
         <ChildcareScorePanel municipalitiesFile={municipalitiesFile} childcareScores={childcareScores} />
       </section>
+      <ConditionChat activeConditionIds={activeConditionIds} onActiveConditionIdsChange={setActiveConditionIds} />
     </div>
   );
 }
