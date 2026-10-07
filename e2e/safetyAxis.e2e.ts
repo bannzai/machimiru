@@ -25,12 +25,15 @@ test("「治安が良い」を治安の軸に翻訳し、治安のタブで地�
   ]);
 
   // 「治安が良い」は治安の軸の話題の文として、軸のすべての条件 (犯罪率が低い) に翻訳される
+  await page.getByRole("button", { name: "文章で条件を入れる" }).click();
   await page.getByLabel("条件を足す 言い直す").fill("治安が良い");
   await page.getByRole("button", { name: "軸に分ける" }).click();
   await expect(page.getByText("1 つの軸に分けました")).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "犯罪率が低い" })).toBeChecked();
   await expect(page.getByRole("checkbox", { name: "小児科が近い" })).not.toBeChecked();
   await expect(page.getByRole("list", { name: "判定できない条件" })).toHaveCount(0);
+  // 開いている間はパネルの外側の操作を受けないため、タブを選ぶ前に閉じる
+  await page.getByRole("button", { name: "閉じる", exact: true }).click();
 
   // 治安のタブ: 地図の塗り分けと、選んだ街の犯罪率の段階と根拠
   await expect(page.getByRole("tab")).toHaveText(["まとめ", "治安"]);

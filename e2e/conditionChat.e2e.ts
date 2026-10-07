@@ -17,6 +17,8 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   const screenshotPath = (name: string) => `tmp/screenshots/${testInfo.project.name}-${name}.png`;
   const selectedAreaItems = page.getByRole("list", { name: /選択中のエリア/ }).getByRole("listitem");
   const comparisonHeading = page.getByRole("heading", { level: 2, name: "街をくらべる" });
+  const chatButton = page.getByRole("button", { name: "文章で条件を入れる" });
+  const chatPanel = page.getByRole("dialog", { name: "探している暮らしを文章で入れる" });
   /** 要素を画面の上端に合わせる (モバイル幅では地図の下にパネルがあり、画面に見えている範囲だけを撮るため)。 */
   const scrollToTop = (locator: ReturnType<typeof page.locator>) =>
     locator.evaluate((element) => element.scrollIntoView({ block: "start" }));
@@ -31,6 +33,14 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await tapMapCenter(page);
   await expect(selectedAreaItems).toHaveText([/^新宿区/, /^三鷹市/]);
 
+  // チャットは地図の右のパネルには無く、右下のボタンで開く。初回はボタンの横に入口の吹き出しが出る
+  await expect(page.locator(".area-panel").getByLabel("条件を足す 言い直す")).toHaveCount(0);
+  await expect(chatPanel).toBeHidden();
+  await expect(page.locator(".condition-chat-hint")).toHaveText(/^文章で条件を入れる/);
+  await chatButton.click();
+  await expect(chatPanel).toBeVisible();
+  await expect(page.locator(".condition-chat-hint")).toHaveCount(0);
+
   // 文章を入れると、軸と条件に分かれる。registry にある条件はチェックが付き、無い軸は判定できない条件として出る
   await page.getByLabel("条件を足す 言い直す").fill(conditionText);
   await page.getByRole("button", { name: "軸に分ける" }).click();
@@ -43,7 +53,9 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await expect(unsupportedItems).toHaveText(
     expectedAxisRequests.map(({ axisName, text }) => new RegExp(`^${axisName} ${text}この軸はまだ判定できません`)),
   );
-  await scrollToTop(page.getByRole("heading", { level: 2, name: "探している暮らしを文章で入れる" }));
+  await expect(chatPanel).toBeVisible();
+  // 開いたままのパネルと、分けた条件で塗り直した地図を一緒に撮るため、塗り直しを待つ
+  await waitForMapIdle(page);
   await page.screenshot({ path: screenshotPath("condition-chat-classified") });
 
   // 判定できない条件は、軸の追加のリクエストとしてこのブラウザの localStorage に残る
@@ -65,6 +77,23 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   );
   await scrollToTop(page.getByRole("heading", { level: 3, name: "リクエスト済みの条件" }));
   await page.screenshot({ path: screenshotPath("condition-chat-unsupported") });
+
+  // 閉じるボタンで閉じると、ボタンに使っている条件の数が出る
+  await chatPanel.getByRole("button", { name: "閉じる", exact: true }).click();
+  await expect(chatPanel).toBeHidden();
+  await expect(page.locator(".condition-chat-badge")).toHaveText("3");
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.screenshot({ path: screenshotPath("condition-chat-closed") });
+
+  // 開き直しても入力した文章と判定の結果が残り、パネルの外側のタップで閉じる
+  await chatButton.click();
+  await expect(page.getByLabel("条件を足す 言い直す")).toHaveValue(conditionText);
+  await expect(page.getByText("5 つの軸に分けました")).toBeVisible();
+  await expect(page.getByRole("checkbox", { name: "コワーキングが近い" })).toBeChecked();
+  await page.locator(".condition-chat-backdrop").click({ position: { x: 10, y: 10 } });
+  await expect(chatPanel).toBeHidden();
+  // 外側のタップは閉じるだけで、下の地図のエリアを選ばない
+  await expect(selectedAreaItems).toHaveText([/^新宿区/, /^三鷹市/]);
 
   // まとめのタブ: 地図の塗り分けと、選んだ街 × 軸の表
   await expect(page.getByRole("tab")).toHaveText(["まとめ", "子育て", "コワーキング"]);
@@ -91,11 +120,14 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   ]);
   await expect(page.getByText("保育園に入りやすい: 保育園ごとの空き状況のデータは無いため")).toBeVisible();
   await expect(childcareItems.filter({ has: page.getByRole("link", { name: "三鷹市" }) })).toBeVisible();
+  // パネルを開いたまま条件を足すと、一覧と地図の塗り分けがその場で変わる
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await chatButton.click();
   await page.getByRole("checkbox", { name: "子育て支援が手厚い" }).check();
   await expect(page.getByRole("list", { name: "新宿区の条件ごとの段階" }).getByRole("listitem")).toHaveCount(3);
   await waitForMapIdle(page);
-  await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: screenshotPath("axis-childcare-map") });
+  await chatPanel.getByRole("button", { name: "閉じる", exact: true }).click();
   await scrollToTop(comparisonHeading);
   await page.screenshot({ path: screenshotPath("axis-childcare-list") });
 
