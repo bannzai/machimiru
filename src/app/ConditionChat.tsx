@@ -1,6 +1,6 @@
 "use client";
 
-import { type FormEvent, useMemo, useState, useSyncExternalStore } from "react";
+import { type FormEvent, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { type ConditionId, axes, conditionIds } from "@/lib/axes";
 import { addAxisRequests, axisRequestsPromptText, axisRequestsStorageKey, parseAxisRequests } from "@/lib/axisRequests";
 import { readStoredText, writeStoredText } from "@/lib/browserStorage";
@@ -80,8 +80,25 @@ export function ConditionChat({
   );
   const axisRequests = useMemo(() => parseAxisRequests(storedAxisRequestsText), [storedAxisRequestsText]);
   const [copyState, setCopyState] = useState<CopyState>({ status: "idle" });
+  // 言い直した文章の判定に失敗しても、前の判定の条件は地図に使われたままのため、判定の状態とは別に持つ
+  const [hasClassified, setHasClassified] = useState(false);
   // 文章を入れる前は registry のすべての条件を使っており (AreaMap)、判定した条件ではないため数えない
-  const activeConditionCount = classificationState.status === "loaded" ? activeConditionIds.length : 0;
+  const activeConditionCount = hasClassified ? activeConditionIds.length : 0;
+  const launcherButtonRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLElement>(null);
+
+  // 開いた後は入口のボタンがパネルの下に隠れるため、キーボードの操作の位置をパネルへ移す
+  useEffect(() => {
+    if (isOpen) {
+      panelRef.current?.focus();
+    }
+  }, [isOpen]);
+
+  /** パネルを閉じる。隠れたパネルの中に残らないよう、キーボードの操作の位置を入口のボタンへ戻す。 */
+  const closePanel = () => {
+    setIsOpen(false);
+    launcherButtonRef.current?.focus();
+  };
 
   /** 入口の吹き出しを閉じ、次に開いた時も出さないよう localStorage に記録する。 */
   const dismissHint = () => {
@@ -104,6 +121,7 @@ export function ConditionChat({
       }
       const classification = conditionClassificationSchema.parse(await response.json());
       setClassificationState({ status: "loaded", classification });
+      setHasClassified(true);
       onActiveConditionIdsChange(classification.conditionIds);
       // 判定を待つ間に別のタブが記録したリクエストを消さないよう、送信を始めた時の一覧ではなく保存の直前の一覧に足す
       writeStoredText(
@@ -133,6 +151,7 @@ export function ConditionChat({
           </p>
         )}
         <button
+          ref={launcherButtonRef}
           type="button"
           className="condition-chat-button"
           aria-label={
@@ -152,18 +171,20 @@ export function ConditionChat({
           {!isOpen && activeConditionCount > 0 && <span className="condition-chat-badge">{activeConditionCount}</span>}
         </button>
       </div>
-      {isOpen && <div className="condition-chat-backdrop" onClick={() => setIsOpen(false)} />}
+      {isOpen && <div className="condition-chat-backdrop" onClick={closePanel} />}
       {/* 閉じても入力した文章と判定の結果を持ち続けるよう、閉じている間も描画したまま隠す */}
       <section
+        ref={panelRef}
         id="condition-chat-panel"
         role="dialog"
         className="condition-chat"
         aria-labelledby="condition-chat-heading"
+        tabIndex={-1}
         hidden={!isOpen}
       >
         <div className="condition-chat-header">
           <h2 id="condition-chat-heading">探している暮らしを文章で入れる</h2>
-          <button type="button" onClick={() => setIsOpen(false)}>
+          <button type="button" onClick={closePanel}>
             閉じる
           </button>
         </div>

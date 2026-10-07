@@ -76,9 +76,11 @@ test("右下のボタンでパネルを開き、閉じるボタンと外側の�
   click(element(".condition-chat-button"));
   expect(element(".condition-chat").hidden).toBe(false);
   expect(element(".condition-chat-button").getAttribute("aria-expanded")).toBe("true");
+  expect(document.activeElement).toBe(element(".condition-chat"));
 
   click(panelButton("閉じる"));
   expect(element(".condition-chat").hidden).toBe(true);
+  expect(document.activeElement).toBe(element(".condition-chat-button"));
 
   click(element(".condition-chat-button"));
   expect(element(".condition-chat").hidden).toBe(false);
@@ -126,6 +128,19 @@ test("閉じても入力した文章と判定の結果を保持し、閉じて�
       (checkbox) => checkbox.checked,
     ),
   ).toEqual(conditionIds.map((conditionId) => classification.conditionIds.includes(conditionId)));
+
+  // 言い直した文章の判定に失敗しても、前の判定の条件は使われたままのため、数を出し続ける
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(async () => ({ ok: false, status: 503, json: async () => ({}) })),
+  );
+  await act(async () => {
+    panelButton("軸に分ける").click();
+    await new Promise((resolve) => setTimeout(resolve));
+  });
+  expect(element(".condition-chat").textContent).toContain("文章を軸に分けられませんでした (HTTP 503)");
+  click(panelButton("閉じる"));
+  expect(element(".condition-chat-badge").textContent).toBe("2");
 });
 
 test("入口の吹き出しは、閉じると localStorage に記録して次に開いた時も出さない", () => {
