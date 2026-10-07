@@ -39,8 +39,14 @@ data-tokyo:
 data-openpoi:
 	npm run data:openpoi
 
-# 引数なしの make で動作確認 (verify) を実行する
-.DEFAULT_GOAL := verify
+# 引数なしの make で web を実行する (人が手で動作確認するための入口。検査・テストは CI が行う)
+.DEFAULT_GOAL := web
 
 .PHONY: verify
 verify: check
+
+# dev と同じ dev サーバーを起動し、ブラウザで開く。サーバーが前面で動くため、ブラウザは背面で待ち受けの開始を待ってから開く
+.PHONY: web
+web:
+	(sleep 3 && open http://localhost:3000/) &
+	npm run dev
