@@ -197,6 +197,17 @@ test("入口の吹き出しは、閉じると localStorage に記録して次に
   expect(container.querySelector(".condition-chat-hint")).toBeNull();
 });
 
+test("localStorage を使えない環境でも、入口の吹き出しを閉じられる", () => {
+  /** ストレージを禁止したブラウザと同じく、読み書きのたびに例外にする。 */
+  const throwStorageError = () => {
+    throw new Error("localStorage を使えません");
+  };
+  vi.stubGlobal("localStorage", { getItem: throwStorageError, setItem: throwStorageError });
+
+  click(element(".condition-chat-hint button"));
+  expect(container.querySelector(".condition-chat-hint")).toBeNull();
+});
+
 test("ボタンでパネルを開いた後は、入口の吹き出しを出さない", () => {
   click(element(".condition-chat-button"));
   click(panelButton("閉じる"));
