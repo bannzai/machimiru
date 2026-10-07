@@ -85,6 +85,9 @@ export function ConditionChat({
   // 文章を入れる前は registry のすべての条件を使っており (AreaMap)、判定した条件ではないため数えない
   const activeConditionCount = hasClassified ? activeConditionIds.length : 0;
   const dialogRef = useRef<HTMLDialogElement>(null);
+  // パネルの外側で押し始めたタップか。中の文字をドラッグで選んで外側で離した時と、パネルのスクロールバーの操作でも
+  // クリックは dialog 自身に届くため、押し始めの位置で外側のタップと見分ける
+  const isPressStartedOutsideRef = useRef(false);
 
   // パネルの外側のタップで下の地図のエリアを選ばないよう、開いている間は外側の操作を受けないモーダルの dialog にする。
   // キーボードの操作の位置をパネルの中に留め、閉じた時に入口のボタンへ戻すのもブラウザの dialog が行う
@@ -176,11 +179,18 @@ export function ConditionChat({
         aria-labelledby="condition-chat-heading"
         // Esc キーで閉じた時に、開閉の状態を合わせる
         onClose={() => setIsOpen(false)}
+        onPointerDown={(event) => {
+          const { left, right, top, bottom } = event.currentTarget.getBoundingClientRect();
+          isPressStartedOutsideRef.current =
+            event.clientX < left || event.clientX > right || event.clientY < top || event.clientY > bottom;
+        }}
         // パネルの外側 (::backdrop) のタップは dialog 自身に届く。中身は condition-chat-body が全面を覆う
         onClick={(event) => {
-          if (event.target === event.currentTarget) {
+          if (event.target === event.currentTarget && isPressStartedOutsideRef.current) {
             setIsOpen(false);
           }
+          // キーボードでのボタンの操作は押し始めを伴わないため、前のタップの記録を残さない
+          isPressStartedOutsideRef.current = false;
         }}
       >
         <div className="condition-chat-body">

@@ -62,6 +62,28 @@ function click(target: HTMLElement) {
   act(() => target.click());
 }
 
+/**
+ * pressTarget で押し始めて clickTarget にクリックが届く操作を起こし、React の描画の更新を終える。
+ * happy-dom は要素の位置を持たず、パネルの矩形がすべて 0 になるため、押し始めがパネルの外側かを isPressOutsidePanel で
+ * 座標 (外側は負、内側は 0) にして渡す。
+ */
+function pressAndClick({
+  pressTarget,
+  isPressOutsidePanel,
+  clickTarget,
+}: {
+  pressTarget: HTMLElement;
+  isPressOutsidePanel: boolean;
+  clickTarget: HTMLElement;
+}) {
+  act(() => {
+    pressTarget.dispatchEvent(
+      new MouseEvent("pointerdown", { bubbles: true, clientX: isPressOutsidePanel ? -1 : 0, clientY: 0 }),
+    );
+    clickTarget.click();
+  });
+}
+
 beforeEach(() => {
   localStorage.clear();
   container = document.body.appendChild(document.createElement("div"));
@@ -74,7 +96,7 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 
-test("右下のボタンでパネルを開き、閉じるボタン・外側のタップ・Esc キーで閉じる", () => {
+test("右下のボタンでパネルを開き、閉じるボタンと外側のタップで閉じる", () => {
   expect(panel().open).toBe(false);
 
   click(element(".condition-chat-button"));
@@ -85,17 +107,25 @@ test("右下のボタンでパネルを開き、閉じるボタン・外側の�
   click(element(".condition-chat-button"));
   expect(panel().open).toBe(true);
   // パネルの中身のクリックでは閉じない
-  click(element(".condition-chat-body"));
+  pressAndClick({
+    pressTarget: element(".condition-chat-body"),
+    isPressOutsidePanel: false,
+    clickTarget: element(".condition-chat-body"),
+  });
   expect(panel().open).toBe(true);
-  // パネルの外側 (::backdrop) のタップは dialog 自身に届く
-  click(panel());
+  // 中の文字をドラッグで選んで外側で離すと、クリックは dialog 自身に届くが、閉じない
+  pressAndClick({ pressTarget: element("#condition-chat-input"), isPressOutsidePanel: false, clickTarget: panel() });
+  expect(panel().open).toBe(true);
+  // パネルの外側 (::backdrop) のタップは、押し始めもクリックも dialog 自身に届く
+  pressAndClick({ pressTarget: panel(), isPressOutsidePanel: true, clickTarget: panel() });
   expect(panel().open).toBe(false);
+});
 
+test("ブラウザが dialog を閉じた時 (Esc キー) に開閉の状態を合わせ、ボタンでもう一度開ける", () => {
   click(element(".condition-chat-button"));
-  // Esc キーではブラウザが dialog を閉じて close イベントを出す
+  // Esc キーでブラウザが出す close イベントを、dialog を直接閉じて起こす (Esc キーそのものは e2e で確かめる)
   act(() => panel().close());
   expect(panel().open).toBe(false);
-  // ブラウザが閉じた後も、ボタンでもう一度開ける
   click(element(".condition-chat-button"));
   expect(panel().open).toBe(true);
 });

@@ -85,15 +85,25 @@ test("文章を軸と条件に分け、軸のタブで選んだ街をくらべ�
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: screenshotPath("condition-chat-closed") });
 
-  // 開き直しても入力した文章と判定の結果が残り、パネルの外側のタップで閉じる
+  // 開き直しても入力した文章と判定の結果が残る。Esc キーで閉じると、キーボードの操作の位置が入口のボタンへ戻る
   await chatButton.click();
   await expect(page.getByLabel("条件を足す 言い直す")).toHaveValue(conditionText);
   await expect(page.getByText("5 つの軸に分けました")).toBeVisible();
   await expect(page.getByRole("checkbox", { name: "コワーキングが近い" })).toBeChecked();
-  await page.mouse.click(10, 10);
+  await page.keyboard.press("Escape");
   await expect(chatPanel).toBeHidden();
   await expect(chatButton).toBeFocused();
-  // 外側のタップは閉じるだけで、下の地図のエリアを選ばない
+
+  // パネルの外側の地図をタップすると、閉じるだけで、タップした位置のエリアの選択を変えない
+  await chatButton.click();
+  await expect(chatPanel).toBeVisible();
+  const mapBox = await page.locator(".maplibregl-canvas").boundingBox();
+  if (mapBox === null) {
+    throw new Error("地図の位置を取得できません");
+  }
+  // パネルはモバイル幅で画面の下 6 割、PC 幅で地図の右に出るため、どちらの幅でもパネルに隠れない地図の上端の近くをタップする
+  await page.mouse.click(mapBox.x + mapBox.width / 2, mapBox.y + 40);
+  await expect(chatPanel).toBeHidden();
   await expect(selectedAreaItems).toHaveText([/^新宿区/, /^三鷹市/]);
 
   // まとめのタブ: 地図の塗り分けと、選んだ街 × 軸の表
