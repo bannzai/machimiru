@@ -47,10 +47,13 @@ verify: check
 
 # dev と同じ dev サーバーを起動し、ブラウザで開く。ブラウザで開く URL とサーバーの待ち受けを一致させるため、
 # ポートは PORT を両方に渡す (PORT を明示すると next dev は使用中のポートで別のポートに移らず失敗する)。
-# サーバーが前面で動くため、ブラウザは背面でサーバーの応答を待ってから開く (応答が無くても 120 秒で開く)。
+# 起動の前にポートが空いていることを確かめる (使用中だと、next dev は失敗する一方で、別のサーバーの応答で
+# ブラウザが開いてしまうため)。サーバーが前面で動くため、ブラウザは背面でサーバーの応答を待ってから開く
+# (120 秒待っても応答が無ければ開かずに終える)。
 # 既定の 3000 は next dev が PORT 未指定の時に使うポートで、dev target と同じ URL (AGENTS.md) で開けるように合わせる
 PORT ?= 3000
 .PHONY: web
 web:
-	(for i in $$(seq 1 120); do curl -fso /dev/null http://localhost:$(PORT)/ && break; sleep 1; done; open http://localhost:$(PORT)/) &
+	@if lsof -ti:$(PORT) -sTCP:LISTEN >/dev/null; then echo "ポート $(PORT) は使用中です。PORT=<別の番号> make で起動してください" >&2; exit 1; fi
+	(for i in $$(seq 1 120); do curl -fso /dev/null http://localhost:$(PORT)/ && open http://localhost:$(PORT)/ && break; sleep 1; done) &
 	PORT=$(PORT) npm run dev
